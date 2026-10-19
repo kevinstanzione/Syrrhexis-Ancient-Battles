@@ -1,0 +1,93 @@
+// Rules text from the Syrrhēxis rulebook, condensed for the list printout.
+window.NHB_RULES = {
+  model: {
+    "Aim": "If the unit takes the Hold action, it may use Aim: +1 to its Shooting attacks this round and ignore Light Cover. Cannot be used in the same round as Volley.",
+    "Ambush": "Deployed after all other units, including Scouts, and after all Byes. Deploy anywhere outside your Deployment Zone, within 12” of an enemy unit. The player with the most Byes chooses who deploys Ambushers first (tie: roll off).",
+    "Feign Charge": "Declared instead of a Charge, before measuring; the target must be within the unit's Move. Charge with 1× Move. On contact the enemy loses 1 Army Morale per warrior and 3 per cavalry, then takes any Break Test it would take. The attacker then turns about (Closed Order) and moves up to half its Move away, staying 1” from enemies, and takes a Charge token.",
+    "Feign Retreat": "Declared instead of a Charge, before measuring; the target must be within the unit's Move. Charge with 1× Move. The enemy loses 1 Army Morale per pair of warriors and 3 per pair of cavalry. The attacker then flees its full Move toward its Deployment Zone and takes a Run token. The enemy takes a special Break Test it may choose to fail; if it fails, it moves its full Move toward the attacker, takes a Charge token, cannot move on its turn, and may only use missile weapons usable while moving.",
+    "Frenzy": "Does not lose its Charge token when charged by a stronger unit. Ignores the -1 Accuracy from a Run token. Gains no Break tokens from Terrify. +2 to Break Tests and +1 to Rally itself.",
+    "Guard": "When this unit would begin activation with a Hold token, it may instead swap its Order Token with another unit within 12” that has not activated this round. If it does, remove its Hold token.",
+    "Levy": "Closed Order: the rear rank does not count for Unit Strength. Open Order: Unit Strength is halved, rounded up. During Mass Panic, automatically fails Break Tests and cannot be Rallied.",
+    "Mercenary": "Cannot be Rallied except by Noble units or Mercenary units with greater Training. Can only Rally other Mercenaries. During Mass Panic, automatically fails Break Tests and cannot be Rallied.",
+    "Mixed Unit": "Models may have different Equipment and Gear as the profile allows. If models have different Armor Saves, use the most common save, or the weaker if tied.",
+    "Noble": "+2 when Rallying other units, and may Rally Mercenary units. Mercenary and Levy units within 24” can be Rallied during Mass Panic.",
+    "Parthian Shot": "After a Feign Retreat, may make Shooting attacks despite the Run token, only against the unit it Feign Retreated from, at -2.",
+    "Phalanx": "Rolls to hit this unit in Shooting and Melee are at -1 (to the roll, not Accuracy). -1 Move. Units charging it gain a Break Token unless their chosen melee weapon is longer. Negated by certain terrain, at Half Strength or under 6 models, or without a Shield or a weapon of Length over 6.",
+    "Run Them Down": "The first time this unit charges or is charged, at the end of that Combat Phase each model becomes its own Open Order unit. Each must then Charge the closest visible enemy unit every activation, or Run toward it. Elephants target the closest unit, friend or foe. These models cannot Hold, Flee or Rally and auto-pass Break Tests.",
+    "Scout": "Deployed after units without Scout or Ambush and after all Byes. Deploy outside your Deployment Zone, not within 12” of an enemy model. The player with the most Byes chooses who deploys Scouts first (tie: roll off).",
+    "Shieldwall": "While this unit has a Hold Action Token, attacks against it suffer -1 Accuracy.",
+    "Stubborn": "Cannot be Bumped or Pushed. Open Order units only gain this while every model is within 1” of at least 3 others in the unit.",
+    "Suicidal": "Not removed due to Damage until the end of the Combat Phase, even if the Unit Health Table would remove it.",
+    "Surefooted": "Ignores Difficult Terrain penalties. In a Stony Plain, moves as Skirmishing Warriors. In a Marsh, Move Allotment is still limited to Move but it gains no Break Tokens for moving there.",
+    "Tactician": "+1 to Initiative rolls while the unit has a Hold token. Does not stack.",
+    "Terrify X": "When this unit charges or is charged by a unit of type X, that unit gains a Break Token. Terrify All affects every unit type.",
+    "Volley": "If the unit takes the Hold action, its Shooting attacks have twice their range at -1 to hit and wound rolls. The defender also loses Army Morale equal to half the attacks before rolling. Cannot be used in the same round as Aim."
+  },
+  weapon: {
+    "Cleaving Blade (X)": "+2 Strength unless the target's Armor Value is X or greater. Always +2 Strength against Elephants.",
+    "Direct Fire": "+1 Strength against targets within a quarter of maximum range.",
+    "Massive Suppression (X)": "Each Hit causes X Army Morale loss from Suppression instead of 1.",
+    "Melee Suppression": "Each Hit with this weapon in Melee costs the defending player 1 Army Morale from Suppression, just as a Shooting Hit does. Effects that increase, reduce or negate Suppression also apply.",
+    "Parrying Blade": "+1 Armor Save in Melee while the unit has a Hold Action Token.",
+    "Pavise": "On Hold, the unit may plant its Pavise: Shooting from its front arc treats it as one cover level better, and units charging its front gain no Charge Strength bonus. Picked up when the unit moves (except an Alignment turn).",
+    "Piercing Shot (X)": "Against Closed Order, each Hit causes X additional Hits on the same unit.",
+    "Reach (X)": "Models up to X ranks behind the front rank of a Closed Order unit also attack in Melee.",
+    "Recurve Bow": "Ignores the “Attacker moved” penalty if the target is beyond half range.",
+    "Throwing Weapon": "Ignores the “Attacker moved” penalty. While Locked in Combat with a Hold token, may shoot units it is fighting at -3 Accuracy, without Aim or Volley.",
+    "Thrusting Blade": "Enemies roll Armor Saves at -1 while the unit has no Flee, Charge, or Run token.",
+    "Unwieldy (X)": "Each turn costs an additional X” of Move Allotment."
+  },
+  weaponPatterns: [
+    [/Cleaving Blade/, "Cleaving Blade (X)"], [/Direct Fire/, "Direct Fire"], [/Massive Suppression/, "Massive Suppression (X)"],
+    [/Melee Suppression/, "Melee Suppression"], [/Parrying Blade/, "Parrying Blade"], [/Pavise/, "Pavise"], [/Piercing Shot/, "Piercing Shot (X)"], [/Reach \(/, "Reach (X)"],
+    [/Recurve Bow/, "Recurve Bow"], [/Throwing Weapon/, "Throwing Weapon"], [/Thrusting Blade/, "Thrusting Blade"], [/Unwieldy/, "Unwieldy (X)"]
+  ],
+  chars: {
+    "Birdmaster": "+1 Army Morale. If the unit deploys via Scout, the opponent reveals 1 random Command Card they did not pick.",
+    "Bowmaster": "+1 Army Morale. Grants Aim. +1 Shooting attack (not Combat).",
+    "Houndmaster": "+1 Army Morale. When the unit charges, the defender's army loses Army Morale equal to its Training, before Break Tests. Enemies cannot deploy within 12” of this unit.",
+    "Lead Captain": "+Training in Army Morale. +1 attack in Combat or Shooting.",
+    "Lord": "+3× Training in Army Morale. Grants Noble; -1 to Rally itself. While the unit flees you lose its Training in Army Morale each turn; if eliminated you lose its Training and each opponent gains that much.",
+    "Musician": "+3 Army Morale. With no Action Token and not Locked in Combat, at the end of its Movement Step the unit may Special Move: Closed Order 1” forward, back, left or right, or turn once; Open Order 1” toward or away from the enemy side. Combines with the Commander's move. If eliminated you lose its Training and each opponent gains that much.",
+    "Raider Captain": "+1 Army Morale. Grants Feign Charge. The unit may Move, Run or Charge through allied units if it does not end on or touching them. Light Warriors with a Raider Captain deploy in Open Order.",
+    "Ranger Captain": "+2 Army Morale. Grants Surefooted.",
+    "Rear Captain": "+Training in Army Morale. +2 to Break Tests and +2 to Rally itself.",
+    "Shaman": "+3 Army Morale. Grants Frenzy.",
+    "Standard Bearer": "+2× Training in Army Morale. Extends the Commander's range to 18”. While the unit flees you lose its Training in Army Morale each turn; if eliminated you lose its Training and each opponent gains that much.",
+    "Taskmaster": "No Army Morale bonus. Removes Levy; +2 to Break Tests and +2 to Rally itself. Whenever the unit passes a Break or Rally test it suffers 1 Damage.",
+    "Tribal Leader": "+2 Army Morale. Gains Noble and Mercenary, loses Levy. +1 attack in Combat or Shooting.",
+    "Volleymaster": "+2 Army Morale. Grants Volley. +1 Shooting attack (not Combat).",
+    "Army Standard Bearer": "Retinue. +4× Training in Army Morale. +1 Initiative. While the unit flees you lose 2× its Training each turn; if eliminated you lose 2× its Training and each opponent gains that much. One per army.",
+    "Army Musician": "Retinue. +2× Training in Army Morale. +1 Initiative. At the end of the Activation Phase you may swap all your Hold tokens for Charge tokens, or all Charge tokens for Hold tokens. Flee/eliminated losses as Lord. One per army.",
+    "Commander": "Retinue. +3× Training in Army Morale. +1 Initiative. At the end of an allied unit's Movement Step (no Action Token, not Locked in Combat) within 6” (18” with a Standard Bearer), it may Special Move as a Musician; if out of range it takes a Run token instead. Flee/eliminated losses are 2× its Training. One per army."
+  },
+  charShort: {
+    "Birdmaster": "+1 Army Morale. If the unit Scouts, see one Command card your opponent did not pick.",
+    "Bowmaster": "+1 Army Morale. Grants Aim and +1 Shooting attack.",
+    "Houndmaster": "+1 Army Morale. Its charges cost the enemy Army Morale. Enemies can't deploy within 12”.",
+    "Lead Captain": "+Training Army Morale. +1 attack in Combat or Shooting.",
+    "Lord": "+3× Training Army Morale. Grants Noble. Costs you Army Morale if the unit flees or dies.",
+    "Musician": "+3 Army Morale. Free 1” shift or one turn at the end of its move.",
+    "Raider Captain": "+1 Army Morale. Grants Feign Charge and lets the unit move through allies.",
+    "Ranger Captain": "+2 Army Morale. Grants Surefooted.",
+    "Rear Captain": "+Training Army Morale. +2 to Break Tests and to Rally itself.",
+    "Shaman": "+3 Army Morale. Grants Frenzy.",
+    "Standard Bearer": "+2× Training Army Morale. Extends the Commander's range to 18”. Costs you Army Morale if the unit flees or dies.",
+    "Taskmaster": "No Army Morale. Removes Levy and gives +2 to Break Tests and Rallying itself, but each pass deals 1 Damage.",
+    "Tribal Leader": "+2 Army Morale. Gains Noble and Mercenary, loses Levy. +1 attack in Combat or Shooting.",
+    "Volleymaster": "+2 Army Morale. Grants Volley and +1 Shooting attack.",
+    "Army Standard Bearer": "Retinue, one per army. +4× Training Army Morale and +1 Initiative. Big Army Morale loss if the unit flees or dies.",
+    "Army Musician": "Retinue, one per army. +2× Training Army Morale and +1 Initiative. Before Combat, swap all your Hold tokens for Charge tokens or the reverse.",
+    "Commander": "Retinue, one per army. +3× Training Army Morale and +1 Initiative. Gives units within 6” a free 1” shift or turn."
+  },
+  types: {
+    "Closed Order": "Uses a tray in ranks. Collision: +1 bonus Hit per rank not attacking, lost if engaged to the flank or rear. Gains 1 Break Token when charged in the flank, 2 in the rear.",
+    "Open Order": "Loose models in 1” Cohesion (a chain or cluster). Out of Cohesion at the start of the Morale Phase: gain a Flee token.",
+    "Light Warriors / Light Cavalry": "Deploy as Closed or Open Order. During its activation, a Closed Order unit may spend half its Move Allowance to leave its tray and become Open Order.",
+    "Cavalry": "Unit Strength 3 per model. Momentum: +1 Strength with a Charge token; +1 Strength to Throwing Weapon shots with no Action Token and not Locked in Combat. Toughness: +1 Armor.",
+    "Chariots": "Health 1 per driver, crewman and horse; Unit Strength 1 per driver and crewman, 2 per horse. Momentum (as Cavalry). Protected Platform: +1 Armor, using the crew's armor, not the driver's. Stable Firing: may shoot with a Run or Flee token at -2 Accuracy. Wheeled Vehicle: move 1” between turns in the same direction (2” with 3+ animals), 2” between turns in opposite directions (3” with 3+ animals).",
+    "Warmachines": "Engineers are Open Order models within 1” of their war engine. Health 1 per Engineer; Unit Strength 1 per Engineer plus 3 for a Light war engine. Crewed: the engine moves or shoots only with 2+ Engineers within 1”. Protected Engine: attacks target the Engineers; the engine cannot be Bumped, Pushed or moved through. If every Engineer is destroyed or fleeing, the engine is abandoned and counts as destroyed at the end of the game; Engineers without an engine can recover it. Light Warmachines may move and shoot in the same activation but cannot Run or Charge.",
+    "Elephants": "Health 6 per elephant; Unit Strength 1 per mahout and crewman, 12 per elephant. Great Toughness: Armor 3, ignoring crew armor. Stable Firing. Anxious: double Army Morale lost to Suppression; only Elephants can Rally them. Furious: at Half Strength gains Run Them Down and Suicidal."
+  }
+};
+if (typeof module !== "undefined") module.exports = NHB_RULES;
