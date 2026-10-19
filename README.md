@@ -1,6 +1,6 @@
-# NHB List Builder
+# Syrrhēxis List Builder
 
-Army list builder for **Neo Historical Battles**. Pick an army and game size, add units, and get a printable list with armor, health breaks, Unit Strength and Army Morale.
+Army list builder for **Syrrhēxis: Ancient Battles**. Pick an army and game size, add units, and get a printable list with armor, health breaks, Unit Strength and Army Morale.
 
 It is a static website: plain HTML, CSS and JavaScript, with no server, database or build step.
 
@@ -66,4 +66,4 @@ Keep the first line of `data/armies.js` (`window.NHB_DATA = `) and the final `;`
 ## Notes
 
 - Saved lists are stored in each player's own browser. They are not shared between people or devices.
-- Rules text in `js/rules.js` is condensed from the Neo Historical Battles rulebook. Update it when the rulebook changes.
+- Rules text in `js/rules.js` is condensed from the Syrrhēxis: Ancient Battles rulebook. Update it when the rulebook changes.
