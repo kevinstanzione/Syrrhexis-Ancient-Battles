@@ -209,6 +209,10 @@
     return { model: [...model].sort(), weapon: [...weapon].sort(), chars: [...chars].sort(), types: [...types] };
   }
 
+  // Plain-English description shown under native weapon and armor names.
+  const LABELS = (window.NHB_DATA && window.NHB_DATA.labels) || {};
+  const desc = n => LABELS[n] ? `<span class="wdesc">${esc(LABELS[n])}</span>` : "";
+
   function weaponRows(x, showAll) {
     const carried = x.lo.weapons.concat(x.lo.gear);
     const names = showAll ? carried.concat(Object.keys(x.u.weapons).filter(w => !carried.includes(w))) : carried;
@@ -216,7 +220,7 @@
       const st = x.u.weapons[w]; if (!st) return "";
       const off = !carried.includes(w);
       const tag = off ? ` <span class="label">option</span>` : x.lo.gear.includes(w) ? ` <span class="label">gear</span>` : "";
-      return `<tr class="${off ? "alt" : ""}"><td>${esc(w)}${tag}</td><td class="n">${esc(st[0])}</td><td class="n">${esc(st[1])}</td><td class="n">${esc(st[2])}</td><td>${esc(clean(st[3]))}</td></tr>`;
+      return `<tr class="${off ? "alt" : ""}"><td>${esc(w)}${tag}${desc(w)}</td><td class="n">${esc(st[0])}</td><td class="n">${esc(st[1])}</td><td class="n">${esc(st[2])}</td><td>${esc(clean(st[3]))}</td></tr>`;
     }).join("");
   }
 
@@ -229,7 +233,7 @@
     const rows = pieces.map(p => {
       const extra = (p.grants || []).map(g => R.weapon[g] ? `${g}: ${R.weapon[g]}` : g).join(" ");
       const text = [clean(p.text), extra].filter(Boolean).join(". ");
-      return `<tr><td>${esc(p.name)}${p.who ? ` <span class="label">${esc(p.who)}</span>` : ""}</td><td class="n">+${p.v || 0}</td><td class="n">${p.move ? p.move : "0"}</td><td>${esc(text || "None")}</td></tr>`;
+      return `<tr><td>${esc(p.name)}${p.who ? ` <span class="label">${esc(p.who)}</span>` : ""}${desc(p.name)}</td><td class="n">+${p.v || 0}</td><td class="n">${p.move ? p.move : "0"}</td><td>${esc(text || "None")}</td></tr>`;
     }).join("");
     return `<div class="tablewrap"><table class="wpn armor"><thead><tr><th>Armor</th><th>Value</th><th>Move</th><th>Ability</th></tr></thead><tbody>${rows}</tbody></table></div>`;
   }
@@ -352,7 +356,7 @@
       L.push(`  ${loadoutText(x)}`);
       L.push(`  Move ${x.move} | Training ${x.u.training} | Armor ${a.value} (${a.save}) | Health ${h.hp} | ${usText(x, true)}`);
       armorLines(a).forEach(l => L.push(`  Armor: ${l}`));
-      x.lo.weapons.concat(x.lo.gear).forEach(w => { const st = x.u.weapons[w]; if (st) L.push(`  ${w}: ${st[0]} / Acc ${st[1]} / Str ${st[2]}${clean(st[3]) ? " — " + clean(st[3]) : ""}`); });
+      x.lo.weapons.concat(x.lo.gear).forEach(w => { const st = x.u.weapons[w]; if (st) L.push(`  ${w}${LABELS[w] ? " (" + LABELS[w] + ")" : ""}: ${st[0]} / Acc ${st[1]} / Str ${st[2]}${clean(st[3]) ? " — " + clean(st[3]) : ""}`); });
       L.push(`  Breaks: Weakened ≤${h.weakened}, Half ≤${h.half} (remove ${h.removeAtHalf}), Mass Casualties ≤${h.mass}`);
       if (x.chars.length) L.push(`  Characters: ${x.chars.map(c => c.name).join(", ")}`);
       if (x.rules.length) L.push(`  Rules: ${x.rules.join(", ")}`);

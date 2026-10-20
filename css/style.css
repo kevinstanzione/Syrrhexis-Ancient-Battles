@@ -178,3 +178,6 @@ img { max-width: 100%; }
   .sheet { border: 0; padding: 0; }
   .su { break-inside: avoid; }
 }
+
+/* Plain-English weapon/armor description under native names */
+.wdesc { display: block; font-size: 11px; font-style: italic; color: var(--muted); line-height: 1.3; }

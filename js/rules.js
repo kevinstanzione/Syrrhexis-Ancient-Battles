@@ -33,6 +33,7 @@ window.NHB_RULES = {
     "Piercing Shot (X)": "Against Closed Order, each Hit causes X additional Hits on the same unit.",
     "Reach (X)": "Models up to X ranks behind the front rank of a Closed Order unit also attack in Melee.",
     "Recurve Bow": "Ignores the “Attacker moved” penalty if the target is beyond half range.",
+    "Sunder (X)": "Enemies roll Armor Saves at a -X penalty against attacks with this weapon.",
     "Throwing Weapon": "Ignores the “Attacker moved” penalty. While Locked in Combat with a Hold token, may shoot units it is fighting at -3 Accuracy, without Aim or Volley.",
     "Thrusting Blade": "Enemies roll Armor Saves at -1 while the unit has no Flee, Charge, or Run token.",
     "Unwieldy (X)": "Each turn costs an additional X” of Move Allotment."
@@ -40,7 +41,7 @@ window.NHB_RULES = {
   weaponPatterns: [
     [/Cleaving Blade/, "Cleaving Blade (X)"], [/Direct Fire/, "Direct Fire"], [/Massive Suppression/, "Massive Suppression (X)"],
     [/Melee Suppression/, "Melee Suppression"], [/Parrying Blade/, "Parrying Blade"], [/Pavise/, "Pavise"], [/Piercing Shot/, "Piercing Shot (X)"], [/Reach \(/, "Reach (X)"],
-    [/Recurve Bow/, "Recurve Bow"], [/Throwing Weapon/, "Throwing Weapon"], [/Thrusting Blade/, "Thrusting Blade"], [/Unwieldy/, "Unwieldy (X)"]
+    [/Recurve Bow/, "Recurve Bow"], [/Sunder \(/, "Sunder (X)"], [/Throwing Weapon/, "Throwing Weapon"], [/Thrusting Blade/, "Thrusting Blade"], [/Unwieldy/, "Unwieldy (X)"]
   ],
   chars: {
     "Birdmaster": "+1 Army Morale. If the unit deploys via Scout, the opponent reveals 1 random Command Card they did not pick.",

@@ -113,7 +113,7 @@ window.NHB_DATA = {
               "2",
               "2",
               "4",
-              "Enemies roll Armor Saves at -2 Penalty. Note: Reduced accuracy"
+              "Sunder (2). Note: Reduced accuracy"
             ]
           }
         },
@@ -444,7 +444,7 @@ window.NHB_DATA = {
                 ],
                 [
                   "Army Musician",
-                  80
+                  60
                 ]
               ]
             },
@@ -1065,10 +1065,11 @@ window.NHB_DATA = {
               "v": 1,
               "move": -1,
               "vsStr": "−1 Armor against attacks of Strength 6+",
-              "text": "-1 Armor against Weapon Attacks with Strength 6 or Greater",
+              "text": "-1 Armor against Weapon Attacks with Strength 6 or Greater. Attacks against this unit from its front arc use the 1st Rank's Armor. -1 Armor while the unit has a Run or Flee Action Token",
               "grants": [
                 "Pavise"
-              ]
+              ],
+              "runflee": -1
             }
           },
           "weapons": {
@@ -1091,10 +1092,7 @@ window.NHB_DATA = {
               ""
             ]
           },
-          "frontArcArmor": true,
-          "custom": {
-            "Wall of Spara": "Attacks against this unit from its front arc use the 1st Rank's Armor."
-          }
+          "frontArcArmor": true
         },
         {
           "id": "kardaka",
@@ -1363,11 +1361,11 @@ window.NHB_DATA = {
               "one": [
                 [
                   "Army Standard Bearer",
-                  10
+                  28
                 ],
                 [
                   "Army Musician",
-                  80
+                  60
                 ],
                 [
                   "Commander",
@@ -1465,6 +1463,14 @@ window.NHB_DATA = {
               "one": [
                 [
                   "Taskmaster",
+                  10
+                ]
+              ]
+            },
+            {
+              "one": [
+                [
+                  "Houndmaster",
                   10
                 ]
               ]
@@ -1670,11 +1676,11 @@ window.NHB_DATA = {
               "one": [
                 [
                   "Army Standard Bearer",
-                  10
+                  28
                 ],
                 [
                   "Army Musician",
-                  80
+                  60
                 ],
                 [
                   "Commander",
@@ -2094,11 +2100,11 @@ window.NHB_DATA = {
               "one": [
                 [
                   "Commander",
-                  40
+                  30
                 ],
                 [
                   "Lord",
-                  20
+                  5
                 ]
               ]
             }
@@ -2198,7 +2204,7 @@ window.NHB_DATA = {
               "one": [
                 [
                   "Lord",
-                  10
+                  5
                 ]
               ]
             }
@@ -2516,7 +2522,7 @@ window.NHB_DATA = {
               "one": [
                 [
                   "Army Musician",
-                  80
+                  60
                 ],
                 [
                   "Commander",
@@ -3065,7 +3071,7 @@ window.NHB_DATA = {
           ],
           "rules": [],
           "custom": {
-            "Testudo": "When this unit takes the Hold action, it may move half its move and Shooting attacks against it suffer a -2 penalty to hit. It may also use its Pilum in Melee: Length 6, -1 Strength, and no -2 save penalty.",
+            "Testudo": "When this unit takes the Hold action, it may move half its move and Shooting attacks against it suffer a -2 penalty to hit. It may also use its Pilum in Melee: Length 6, -1 Strength, and loses Sunder (2).",
             "Iacite Pila": "When this unit takes the Charge action, it may first make a Shooting attack against the unit it intends to charge at a -2 penalty to hit."
           },
           "weapons": {
@@ -3073,7 +3079,7 @@ window.NHB_DATA = {
               "6”",
               "5",
               "6",
-              "Throwing Weapon. Enemies roll Armor Saves at -2 Penalty"
+              "Throwing Weapon. Sunder (2)"
             ],
             "Gladius": [
               "4",
@@ -3153,7 +3159,7 @@ window.NHB_DATA = {
           ],
           "rules": [],
           "custom": {
-            "Testudo": "When this unit takes the Hold action, it may move half its move and Shooting attacks against it suffer a -2 penalty to hit. It may also use its Pilum in Melee: Length 6, -1 Strength, and no -2 save penalty.",
+            "Testudo": "When this unit takes the Hold action, it may move half its move and Shooting attacks against it suffer a -2 penalty to hit. It may also use its Pilum in Melee: Length 6, -1 Strength, and loses Sunder (2).",
             "Iacite Pila": "When this unit takes the Charge action, it may first make a Shooting attack against the unit it intends to charge at a -2 penalty to hit."
           },
           "weapons": {
@@ -3161,7 +3167,7 @@ window.NHB_DATA = {
               "6”",
               "6",
               "6",
-              "Throwing Weapon. Enemies roll Armor Saves at -2 Penalty"
+              "Throwing Weapon. Sunder (2)"
             ],
             "Gladius": [
               "4",
@@ -3222,11 +3228,11 @@ window.NHB_DATA = {
               "one": [
                 [
                   "Army Standard Bearer",
-                  10
+                  28
                 ],
                 [
                   "Army Musician",
-                  80
+                  60
                 ],
                 [
                   "Commander",
@@ -3238,7 +3244,7 @@ window.NHB_DATA = {
           ],
           "rules": [],
           "custom": {
-            "Testudo": "When this unit takes the Hold action, it may move half its move and Shooting attacks against it suffer a -2 penalty to hit. It may also use its Pilum in Melee: Length 6, -1 Strength, and no -2 save penalty.",
+            "Testudo": "When this unit takes the Hold action, it may move half its move and Shooting attacks against it suffer a -2 penalty to hit. It may also use its Pilum in Melee: Length 6, -1 Strength, and loses Sunder (2).",
             "Iacite Pila": "When this unit takes the Charge action, it may first make a Shooting attack against the unit it intends to charge at a -2 penalty to hit."
           },
           "weapons": {
@@ -3246,7 +3252,7 @@ window.NHB_DATA = {
               "6”",
               "6",
               "6",
-              "Throwing Weapon. Enemies roll Armor Saves at -2 Penalty"
+              "Throwing Weapon. Sunder (2)"
             ],
             "Gladius": [
               "4",
@@ -3315,7 +3321,7 @@ window.NHB_DATA = {
           ],
           "rules": [],
           "custom": {
-            "Testudo": "When this unit takes the Hold action, it may move half its move and Shooting attacks against it suffer a -2 penalty to hit. It may also use its Pilum in Melee: Length 6, -1 Strength, and no -2 save penalty.",
+            "Testudo": "When this unit takes the Hold action, it may move half its move and Shooting attacks against it suffer a -2 penalty to hit. It may also use its Pilum in Melee: Length 6, -1 Strength, and loses Sunder (2).",
             "Iacite Pila": "When this unit takes the Charge action, it may first make a Shooting attack against the unit it intends to charge at a -2 penalty to hit.",
             "Fidelitas": "While this unit has its Commander, it gains Stubborn. Once per game, its controlling player may suffer 1 wound with no save and remove the Commander to recover 1 used Command Card."
           },
@@ -3324,7 +3330,7 @@ window.NHB_DATA = {
               "6”",
               "6",
               "6",
-              "Throwing Weapon. Enemies roll Armor Saves at -2 Penalty"
+              "Throwing Weapon. Sunder (2)"
             ],
             "Gladius": [
               "4",
@@ -3454,7 +3460,7 @@ window.NHB_DATA = {
               "3",
               "3",
               "4",
-              "Enemies roll Armor Saves at -2 Penalty"
+              "Sunder (2)"
             ],
             "Spatha": [
               "5",
@@ -3705,11 +3711,11 @@ window.NHB_DATA = {
               "one": [
                 [
                   "Army Standard Bearer",
-                  10
+                  25
                 ],
                 [
                   "Army Musician",
-                  80
+                  60
                 ],
                 [
                   "Commander",
@@ -4038,7 +4044,7 @@ window.NHB_DATA = {
               "3",
               "3",
               "4",
-              "Enemies roll Armor Saves at -2 Penalty"
+              "Sunder (2)"
             ]
           },
           "custom": {
@@ -4165,7 +4171,7 @@ window.NHB_DATA = {
               "3",
               "4",
               "4",
-              "Enemies roll Armor Saves at -2 Penalty"
+              "Sunder (2)"
             ],
             "Atlatl": [
               "14”",
@@ -4240,11 +4246,11 @@ window.NHB_DATA = {
                 ],
                 [
                   "Army Musician",
-                  80
+                  60
                 ],
                 [
                   "Army Standard Bearer",
-                  10
+                  28
                 ],
                 [
                   "Lord",
@@ -4391,7 +4397,7 @@ window.NHB_DATA = {
               "3",
               "4",
               "4",
-              "Enemies roll Armor Saves at -2 Penalty"
+              "Sunder (2)"
             ],
             "Atlatl": [
               "14”",
@@ -4645,5 +4651,54 @@ window.NHB_DATA = {
         }
       ]
     }
-  ]
+  ],
+  "labels": {
+    "ŠUKUR": "bronze spear",
+    "ŠUKUR.TUR": "bronze javelins",
+    "URUDU.ḪA.ZI.IN": "copper battle-axe",
+    "GIŠ.TUKUL": "wooden war club",
+    "GÍR.GAL": "bronze sword",
+    "GÍR.GAL.GÚB": "curved sickle sword",
+    "GÍR": "bronze dagger",
+    "GIŠ.BAN": "composite bow",
+    "KUŠ.DALUŠ": "sling",
+    "TÚG.ŠIRʾAM": "long scale coat",
+    "Aršti": "short spear",
+    "Arštaya": "javelins",
+    "Θanu": "composite bow",
+    "Akīnakah": "short sword",
+    "Akīnakah Kamna": "dagger",
+    "Fradaxšanā": "sling",
+    "Kamanda": "lasso",
+    "Sagaris": "battle-axe",
+    "Apaxša": "scythe blades",
+    "Spara": "wicker shield",
+    "Dóry": "long spear",
+    "Xíphos": "short sword",
+    "Kopís": "curved chopping sword",
+    "Lakōnikón Xíphos": "short Spartan sword",
+    "Akóntion": "javelins",
+    "Encheirídion": "dagger",
+    "Toxon": "bow",
+    "Sphendonē": "sling",
+    "Pilum": "heavy javelin",
+    "Lancea": "light javelins",
+    "Hasta": "thrusting spear",
+    "Gladius": "short sword",
+    "Spatha": "long sword",
+    "Pugio": "dagger",
+    "Clava": "wooden mace",
+    "Arcus": "composite bow",
+    "Scorpio Bolt": "bolt-thrower",
+    "Carroballista Bolt": "cart-mounted bolt-thrower",
+    "Mācuahuitl": "obsidian-edged sword",
+    "Tepoztōpīlli": "obsidian-bladed spear",
+    "Quauholōlli": "ball-headed club",
+    "Atlatl": "dart-thrower",
+    "Tecpatl": "flint dagger",
+    "Tēmātlatl": "sling",
+    "Tlahuītōlli": "bow",
+    "Ichcahuipilli": "quilted cotton armor",
+    "Chīmalli": "round shield"
+  }
 };
