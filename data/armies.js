@@ -2050,7 +2050,7 @@ window.NHB_DATA = {
           "type": "Chariot",
           "move": 10,
           "training": 8,
-          "points": 70,
+          "points": 90,
           "comps": [
             [
               1,
