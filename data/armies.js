@@ -162,9 +162,9 @@ window.NHB_DATA = {
                   "c": 0
                 },
                 {
-                  "name": "GÍR.GAL.GÚB sword",
+                  "name": "GÍR.GAL.GUR sword",
                   "w": [
-                    "GÍR.GAL.GÚB"
+                    "GÍR.GAL.GUR"
                   ],
                   "c": 0
                 },
@@ -212,7 +212,7 @@ window.NHB_DATA = {
               "6",
               "Parrying Blade"
             ],
-            "GÍR.GAL.GÚB": [
+            "GÍR.GAL.GUR": [
               "3",
               "4",
               "5",
@@ -277,9 +277,9 @@ window.NHB_DATA = {
                   "c": 0
                 },
                 {
-                  "name": "GÍR.GAL.GÚB sword",
+                  "name": "GÍR.GAL.GUR sword",
                   "w": [
-                    "GÍR.GAL.GÚB"
+                    "GÍR.GAL.GUR"
                   ],
                   "c": 0
                 },
@@ -347,7 +347,7 @@ window.NHB_DATA = {
               "6",
               "Parrying Blade. Note: Increased accuracy"
             ],
-            "GÍR.GAL.GÚB": [
+            "GÍR.GAL.GUR": [
               "3",
               "4",
               "5",
@@ -408,9 +408,9 @@ window.NHB_DATA = {
                   "c": 0
                 },
                 {
-                  "name": "GÍR.GAL.GÚB sword",
+                  "name": "GÍR.GAL.GUR sword",
                   "w": [
-                    "GÍR.GAL.GÚB"
+                    "GÍR.GAL.GUR"
                   ],
                   "c": 0
                 },
@@ -481,7 +481,7 @@ window.NHB_DATA = {
               "6",
               "Parrying Blade. Note: Increased accuracy"
             ],
-            "GÍR.GAL.GÚB": [
+            "GÍR.GAL.GUR": [
               "3",
               "4",
               "5",
@@ -4658,7 +4658,7 @@ window.NHB_DATA = {
     "URUDU.ḪA.ZI.IN": "copper battle-axe",
     "GIŠ.TUKUL": "wooden war club",
     "GÍR.GAL": "bronze sword",
-    "GÍR.GAL.GÚB": "curved sickle sword",
+    "GÍR.GAL.GUR": "curved sickle sword",
     "GÍR": "bronze dagger",
     "GIŠ.BAN": "composite bow",
     "KUŠ.DALUŠ": "sling",
