@@ -318,7 +318,7 @@ window.NHB_DATA = {
               "one": [
                 [
                   "Lord",
-                  5
+                  15
                 ]
               ]
             }
@@ -437,7 +437,7 @@ window.NHB_DATA = {
               "one": [
                 [
                   "Lord",
-                  5
+                  17
                 ],
                 [
                   "Commander",
@@ -1274,7 +1274,7 @@ window.NHB_DATA = {
                 ],
                 [
                   "Lord",
-                  5
+                  17
                 ]
               ]
             },
@@ -1580,7 +1580,7 @@ window.NHB_DATA = {
                 ],
                 [
                   "Lord",
-                  5
+                  17
                 ]
               ]
             }
@@ -1668,7 +1668,7 @@ window.NHB_DATA = {
                 ],
                 [
                   "Lord",
-                  8
+                  20
                 ]
               ]
             },
@@ -2105,7 +2105,7 @@ window.NHB_DATA = {
                 ],
                 [
                   "Lord",
-                  5
+                  10
                 ]
               ]
             }
@@ -2205,7 +2205,7 @@ window.NHB_DATA = {
               "one": [
                 [
                   "Lord",
-                  5
+                  10
                 ]
               ]
             }
@@ -4255,7 +4255,7 @@ window.NHB_DATA = {
                 ],
                 [
                   "Lord",
-                  5
+                  20
                 ]
               ],
               "req": true
@@ -4892,7 +4892,7 @@ window.NHB_DATA = {
             "one": [
               [
                 "Lord",
-                5
+                15
               ]
             ]
           }
@@ -5634,7 +5634,7 @@ window.NHB_DATA = {
             "one": [
               [
                 "Lord",
-                10
+                12
               ]
             ]
           }
