@@ -5623,9 +5623,10 @@ window.NHB_DATA = {
             ]
           },
           {
-            "label": "1 additional Rider per Camel (same weapons)",
+            "label": "1 additional Rider per Camel",
             "kind": "add",
-            "c": 6
+            "c": 6,
+            "crewPlus": 1
           }
         ],
         "chars": [
@@ -5642,11 +5643,9 @@ window.NHB_DATA = {
           "Terrify Cavalry",
           "Terrify Chariots",
           "Scout",
-          "Mercenary"
+          "Mercenary",
+          "Camel Riders"
         ],
-        "custom": {
-          "Camels": "1 Driver per Camel. An additional Rider uses the same Equipment and Gear as the Driver, and adds 1 attack per Camel."
-        },
         "weapons": {
           "Qaštā": [
             "24”",

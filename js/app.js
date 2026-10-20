@@ -361,7 +361,7 @@
     if (eq.length) bits.push(eq.join(", "));
     if (x.lo.body) bits.push(x.lo.body);
     if (x.lo.shield) bits.push(x.lo.shield);
-    if (x.lo.crewPlus) bits.push(`+${x.lo.crewPlus} crewman per Elephant`);
+    if (x.lo.crewPlus) bits.push(x.u.type === "Elephant" ? `+${x.lo.crewPlus} crewman per Elephant` : `+${x.lo.crewPlus} rider per Camel`);
     (x.lo.mixed || []).forEach(m => bits.push(`${m.n} × ${m.label.replace(/ \(replaces[^)]*\)/, "")}`));
     return bits.join(" · ") || "No equipment";
   }

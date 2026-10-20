@@ -191,7 +191,8 @@ window.NHB = (function () {
     if (u.type === "Elephant") { const c = u.crew; return n * (c.mahout + c.crew + lo.crewPlus + 12); }
     if (/Warmachine/.test(u.type)) return n + (u.engineUS || 3);
     const per = /Cavalry/.test(u.type) ? 3 : 1;
-    if (!levy) return n * per;
+    const riders = /Cavalry/.test(u.type) ? n * (lo.crewPlus || 0) : 0; // Camel Riders: +1 per extra rider
+    if (!levy) return n * per + riders;
     if (rf) return (rf.ranks > 1 ? n - rf.files : n) * per; // Closed Order Levy: ignore rear rank (a single rank still counts)
     return Math.ceil(n * per / 2);                  // Open Order Levy: half, rounded up
   }
@@ -214,6 +215,7 @@ window.NHB = (function () {
     const n = models(u, sel);
     if (u.type === "Chariot") return n * (u.crew.driver + u.crew.crew);
     if (u.type === "Elephant") return n * (u.crew.mahout + u.crew.crew + loadout(u, sel).crewPlus);
+    if (/Cavalry/.test(u.type)) return n * (1 + (loadout(u, sel).crewPlus || 0)); // Camel Riders: extra riders count
     return n;
   }
   function morale(u, sel) {
