@@ -1971,7 +1971,7 @@ window.NHB_DATA = {
         },
         {
           "id": "ratha-apaxsa",
-          "name": "Raθa-Apaxša",
+          "name": "Raθa-Dāça",
           "type": "Chariot",
           "move": 12,
           "training": 7,
@@ -1992,7 +1992,7 @@ window.NHB_DATA = {
             "horses": 2
           },
           "equip": [
-            "Apaxša",
+            "Dāça",
             "Horses"
           ],
           "gear": [
@@ -2017,7 +2017,7 @@ window.NHB_DATA = {
             "Terrify All"
           ],
           "weapons": {
-            "Apaxša": [
+            "Dāça": [
               "0",
               "9",
               "6",
@@ -2027,7 +2027,7 @@ window.NHB_DATA = {
               "3",
               "5",
               "7",
-              "2 Attacks, can only use on Charge. May be used in conjunction with Apaxša"
+              "2 Attacks, can only use on Charge. May be used in conjunction with Dāça"
             ],
             "Arštaya": [
               "6 / 8”",
@@ -4671,7 +4671,7 @@ window.NHB_DATA = {
     "Fradaxšanā": "sling",
     "Kamanda": "lasso",
     "Sagaris": "battle-axe",
-    "Apaxša": "scythe blades",
+    "Dāça": "scythe blades",
     "Spara": "wicker shield",
     "Dóry": "long spear",
     "Xíphos": "short sword",
