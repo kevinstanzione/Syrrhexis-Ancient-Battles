@@ -589,7 +589,7 @@ window.NHB_DATA = {
               "one": [
                 [
                   "Tribal Leader",
-                  4
+                  6
                 ]
               ]
             },
@@ -748,7 +748,7 @@ window.NHB_DATA = {
               "one": [
                 [
                   "Tribal Leader",
-                  4
+                  6
                 ],
                 [
                   "Ranger Captain",
@@ -1749,7 +1749,7 @@ window.NHB_DATA = {
                 ],
                 [
                   "Tribal Leader",
-                  4
+                  12
                 ]
               ]
             }
@@ -1837,7 +1837,7 @@ window.NHB_DATA = {
                 ],
                 [
                   "Tribal Leader",
-                  4
+                  12
                 ]
               ]
             }
@@ -2600,8 +2600,8 @@ window.NHB_DATA = {
             {
               "one": [
                 [
-                  "Tribal Leader",
-                  4
+                  "Lead Captain",
+                  5
                 ],
                 [
                   "Raider Captain",
@@ -4961,7 +4961,7 @@ window.NHB_DATA = {
               ],
               [
                 "Tribal Leader",
-                4
+                7
               ]
             ]
           }
@@ -5053,7 +5053,7 @@ window.NHB_DATA = {
             "one": [
               [
                 "Tribal Leader",
-                4
+                7
               ],
               [
                 "Musician",
@@ -5196,7 +5196,7 @@ window.NHB_DATA = {
             "one": [
               [
                 "Tribal Leader",
-                4
+                6
               ],
               [
                 "Volleymaster",
@@ -5329,7 +5329,7 @@ window.NHB_DATA = {
             "one": [
               [
                 "Tribal Leader",
-                4
+                7
               ],
               [
                 "Bowmaster",
@@ -5406,7 +5406,7 @@ window.NHB_DATA = {
               ],
               [
                 "Tribal Leader",
-                4
+                12
               ]
             ]
           }
@@ -5485,7 +5485,7 @@ window.NHB_DATA = {
             "one": [
               [
                 "Tribal Leader",
-                4
+                12
               ],
               [
                 "Standard Bearer",
