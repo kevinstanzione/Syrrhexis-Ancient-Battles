@@ -2105,7 +2105,7 @@ window.NHB_DATA = {
                 ],
                 [
                   "Lord",
-                  10
+                  15
                 ]
               ]
             }
@@ -2205,7 +2205,7 @@ window.NHB_DATA = {
               "one": [
                 [
                   "Lord",
-                  10
+                  15
                 ]
               ]
             }
