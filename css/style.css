@@ -188,3 +188,14 @@ img { max-width: 100%; }
 #kwtip { position: fixed; z-index: 50; background: var(--ink); color: var(--panel); border-radius: 8px; padding: 10px 12px; font-size: 13px; line-height: 1.4; box-shadow: 0 6px 20px rgba(0,0,0,.25); pointer-events: none; }
 #kwtip b { display: block; margin-bottom: 3px; font-weight: 600; }
 @media print { .kw { text-decoration: none; } #kwtip { display: none !important; } }
+
+/* Command deck */
+.cmd h2 { font-size: 20px; margin: 24px 0 8px; }
+.cmd-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 8px; }
+.cmdcard { display: flex; gap: 10px; align-items: flex-start; background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 10px 12px; font-size: 14px; cursor: pointer; }
+.cmdcard.on { border-color: var(--bronze); }
+.cmdcard input { width: 18px; height: 18px; margin-top: 2px; accent-color: var(--bronze); flex: none; }
+.cmd .sub, .cmdcard .sub { font-size: 12px; color: var(--muted); }
+.cmd > .sub { margin: 6px 0 0; }
+.roster h2 .label, .cmd h2 .label { margin-left: 6px; }
+.cmdline { font-size: 13px; margin: 0 0 12px; }

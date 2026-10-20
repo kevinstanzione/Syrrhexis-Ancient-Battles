@@ -8,7 +8,8 @@ window.NHB_DATA = {
       "Classical Greek Army": "1BUBl-gO0YafmrCJfNGqbFdqRxZeiNY9I9MNKAoba0vA",
       "Aztec Empire": "12noIQ0WgjsegrjLU29fVc4S2WrwG_o-jPZjbFQGhtp0",
       "Rulebook": "1tvn1uBqGOZn7Pl0J9rnmLn1HmIgHXGNTkLf1ieOjQ7o",
-      "Imperial Roman Army": "14dX5ecHdMNlfWm32rendILQWMlW2It7TxS3Bn89E_dc"
+      "Imperial Roman Army": "14dX5ecHdMNlfWm32rendILQWMlW2It7TxS3Bn89E_dc",
+      "Supplemental Mercenaries": "1oN0n_AQu4VIO-QcwFPHcK8ezs-0dSBv3L8UV0jXVt-M"
     }
   },
   "armies": [
@@ -4699,6 +4700,983 @@ window.NHB_DATA = {
     "Tēmātlatl": "sling",
     "Tlahhuītōlli": "bow",
     "Ichcahuipilli": "quilted cotton armor",
-    "Chīmalli": "round shield"
-  }
+    "Chīmalli": "round shield",
+    "Phásganon": "bronze slashing sword",
+    "Énchos": "spear",
+    "Falcāta": "curved chopping sword",
+    "Rhomphaía": "two-handed curved blade",
+    "Sīca": "curved dagger",
+    "Aġeġn": "longbow",
+    "Nizak": "javelins",
+    "Dašoyn": "dagger",
+    "Parsatik": "sling",
+    "Rìu Xéo": "bronze boot-shaped axe",
+    "Dao Găm": "bronze dagger",
+    "Funda Longa": "long sling",
+    "Funda Media": "medium sling",
+    "Funda Brevis": "short sling",
+    "Contus": "heavy lance",
+    "Θanvar": "composite bow",
+    "Karəta": "dagger",
+    "Iacula": "light javelins",
+    "Culter": "knife",
+    "Qaštā": "composite bow",
+    "Rumḥā": "javelins",
+    "Sakkīnā": "knife"
+  },
+  "mercs": {
+    "id": "mercs",
+    "name": "Supplemental Mercenaries",
+    "units": [
+      {
+        "id": "greek-hoplites",
+        "name": "Greek Hoplites",
+        "type": "Warrior",
+        "move": 6,
+        "training": 5,
+        "points": 15,
+        "comps": [
+          [
+            4,
+            5
+          ],
+          [
+            3,
+            5
+          ]
+        ],
+        "equip": [
+          "Dóry"
+        ],
+        "gear": [
+          "Xíphos"
+        ],
+        "body": "Light Armor",
+        "shield": "Heavy Shield",
+        "opts": [],
+        "chars": [
+          {
+            "one": [
+              [
+                "Lead Captain",
+                5
+              ],
+              [
+                "Musician",
+                5
+              ]
+            ]
+          }
+        ],
+        "rules": [
+          "Phalanx",
+          "Mercenary"
+        ],
+        "weapons": {
+          "Dóry": [
+            "10",
+            "5",
+            "6",
+            "Reach (1). Unwieldy (1)"
+          ],
+          "Xíphos": [
+            "3",
+            "5",
+            "6",
+            "Parrying Blade"
+          ]
+        }
+      },
+      {
+        "id": "iberian-shock-troops",
+        "name": "Iberian Shock Troops",
+        "type": "Warrior",
+        "move": 6,
+        "training": 6,
+        "points": 13,
+        "comps": [
+          [
+            4,
+            4
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "equip": [
+          "Falcāta"
+        ],
+        "gear": [
+          "Pugiō"
+        ],
+        "body": "Light Armor",
+        "shield": "Heavy Shield",
+        "opts": [],
+        "chars": [
+          {
+            "one": [
+              [
+                "Lead Captain",
+                5
+              ]
+            ]
+          },
+          {
+            "one": [
+              [
+                "Musician",
+                5
+              ],
+              [
+                "Standard Bearer",
+                8
+              ]
+            ]
+          }
+        ],
+        "rules": [
+          "Mercenary"
+        ],
+        "weapons": {
+          "Falcāta": [
+            "4",
+            "4",
+            "5",
+            "Cleaving Blade (3)"
+          ],
+          "Pugiō": [
+            "1",
+            "6",
+            "5",
+            ""
+          ]
+        }
+      },
+      {
+        "id": "ptolemaic-guards",
+        "name": "Ptolemaic Guards",
+        "type": "Warrior",
+        "move": 6,
+        "training": 6,
+        "points": 15,
+        "comps": [
+          [
+            3,
+            4
+          ],
+          [
+            2,
+            5
+          ]
+        ],
+        "equip": [
+          "Akóntion"
+        ],
+        "gear": [
+          "Encheirídion"
+        ],
+        "body": "Light Armor",
+        "shield": "Heavy Shield",
+        "opts": [],
+        "chars": [
+          {
+            "one": [
+              [
+                "Lead Captain",
+                6
+              ]
+            ]
+          },
+          {
+            "one": [
+              [
+                "Lord",
+                5
+              ]
+            ]
+          }
+        ],
+        "rules": [
+          "Guard",
+          "Mercenary"
+        ],
+        "weapons": {
+          "Akóntion": [
+            "6 / 8”",
+            "5",
+            "6",
+            "Throwing Weapon"
+          ],
+          "Encheirídion": [
+            "1",
+            "7",
+            "5",
+            ""
+          ]
+        }
+      },
+      {
+        "id": "lydian-houndsmen",
+        "name": "Lydian Houndsmen",
+        "type": "Warrior",
+        "move": 6,
+        "training": 5,
+        "points": 15,
+        "comps": [
+          [
+            3,
+            5
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        "equip": [
+          "Dóry",
+          "Hound"
+        ],
+        "gear": [
+          "Kopís"
+        ],
+        "body": "Light Armor",
+        "shield": "Shield",
+        "opts": [],
+        "chars": [
+          {
+            "one": [
+              [
+                "Houndmaster",
+                10
+              ]
+            ],
+            "req": true
+          },
+          {
+            "one": [
+              [
+                "Lead Captain",
+                5
+              ],
+              [
+                "Tribal Leader",
+                4
+              ]
+            ]
+          }
+        ],
+        "rules": [
+          "Mercenary",
+          "Stubborn"
+        ],
+        "custom": {
+          "Dogs of War": "While this unit has a Hold action token, enemy units locked in combat with it suffer a -1 Accuracy penalty for Melee attacks. Additionally, the enemy morale lost due to Houndmaster is now doubled when charging."
+        },
+        "weapons": {
+          "Dóry": [
+            "9",
+            "5",
+            "6",
+            "Reach (1). Unwieldy (1)"
+          ],
+          "Hound": [
+            "2",
+            "3",
+            "4",
+            "1 attack per Warrior in 1st rank. Only while this unit has a Hold action token"
+          ],
+          "Kopís": [
+            "4",
+            "4",
+            "5",
+            "Cleaving Blade (3)"
+          ]
+        }
+      },
+      {
+        "id": "sea-people-raiders",
+        "name": "Sea People Raiders",
+        "type": "Light Warrior",
+        "move": 7,
+        "training": 4,
+        "points": 13,
+        "comps": [
+          [
+            4,
+            5
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "equip": [],
+        "gear": [
+          "Phásganon"
+        ],
+        "body": null,
+        "shield": "Shield",
+        "opts": [
+          {
+            "label": "Weapon",
+            "kind": "swap",
+            "choices": [
+              {
+                "name": "Phásganon sword",
+                "c": 0,
+                "gear": [
+                  "Phásganon"
+                ]
+              },
+              {
+                "name": "Énchos spear",
+                "w": [
+                  "Énchos"
+                ],
+                "c": 0,
+                "gear": []
+              }
+            ]
+          }
+        ],
+        "chars": [
+          {
+            "one": [
+              [
+                "Lead Captain",
+                5
+              ]
+            ]
+          },
+          {
+            "one": [
+              [
+                "Tribal Leader",
+                4
+              ],
+              [
+                "Musician",
+                5
+              ]
+            ]
+          }
+        ],
+        "rules": [
+          "Ambush",
+          "Surefooted",
+          "Mercenary"
+        ],
+        "weapons": {
+          "Énchos": [
+            "8",
+            "5",
+            "5",
+            ""
+          ],
+          "Phásganon": [
+            "5",
+            "5",
+            "6",
+            "Parrying Blade"
+          ]
+        }
+      },
+      {
+        "id": "thracian-warriors",
+        "name": "Thracian Warriors",
+        "type": "Light Warrior",
+        "move": 7,
+        "training": 5,
+        "points": 12,
+        "comps": [
+          [
+            3,
+            4
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        "equip": [
+          "Rhomphaía"
+        ],
+        "gear": [
+          "Sīca"
+        ],
+        "body": "Light Armor",
+        "shield": null,
+        "opts": [],
+        "chars": [
+          {
+            "one": [
+              [
+                "Lead Captain",
+                5
+              ],
+              [
+                "Musician",
+                5
+              ]
+            ]
+          }
+        ],
+        "rules": [
+          "Mercenary"
+        ],
+        "weapons": {
+          "Rhomphaía": [
+            "6",
+            "3",
+            "8",
+            "Sunder (2)"
+          ],
+          "Sīca": [
+            "1",
+            "6",
+            "5",
+            ""
+          ]
+        }
+      },
+      {
+        "id": "carduchian-tribesmen",
+        "name": "Carduchian Tribesmen",
+        "type": "Light Warrior",
+        "move": 7,
+        "training": 4,
+        "points": 11,
+        "range": [
+          8,
+          14
+        ],
+        "equip": [
+          "Aġeġn"
+        ],
+        "gear": [],
+        "body": null,
+        "shield": null,
+        "opts": [
+          {
+            "label": "Weapon",
+            "kind": "swap",
+            "choices": [
+              {
+                "name": "Aġeġn bow",
+                "w": [
+                  "Aġeġn"
+                ],
+                "c": 0,
+                "shield": null
+              },
+              {
+                "name": "Nizak javelins, Dašoyn dagger and Shield",
+                "w": [
+                  "Nizak",
+                  "Dašoyn"
+                ],
+                "c": 1,
+                "shield": "Shield"
+              },
+              {
+                "name": "Parsatik sling, Dašoyn dagger and Shield",
+                "w": [
+                  "Parsatik",
+                  "Dašoyn"
+                ],
+                "c": 1,
+                "shield": "Shield"
+              }
+            ]
+          }
+        ],
+        "chars": [
+          {
+            "one": [
+              [
+                "Tribal Leader",
+                4
+              ],
+              [
+                "Volleymaster",
+                10
+              ]
+            ]
+          }
+        ],
+        "rules": [
+          "Scout",
+          "Mercenary"
+        ],
+        "weapons": {
+          "Aġeġn": [
+            "28”",
+            "5",
+            "5",
+            "Direct Fire"
+          ],
+          "Nizak": [
+            "6 / 8”",
+            "5",
+            "6",
+            "Throwing Weapon"
+          ],
+          "Dašoyn": [
+            "1",
+            "6",
+            "5",
+            ""
+          ],
+          "Parsatik": [
+            "28”",
+            "5",
+            "4",
+            "Can only Shoot in Open Order"
+          ]
+        }
+      },
+      {
+        "id": "dong-son-axemen",
+        "name": "Đông Sơn Axemen",
+        "type": "Skirmishing Warrior",
+        "move": 6,
+        "training": 4,
+        "points": 10,
+        "range": [
+          14,
+          20
+        ],
+        "equip": [
+          "Rìu Xéo"
+        ],
+        "gear": [
+          "Dao Găm"
+        ],
+        "body": null,
+        "shield": null,
+        "opts": [
+          {
+            "label": "Light Armor",
+            "kind": "add",
+            "body": "Light Armor",
+            "c": 1
+          }
+        ],
+        "chars": [
+          {
+            "one": [
+              [
+                "Musician",
+                5
+              ]
+            ]
+          },
+          {
+            "one": [
+              [
+                "Lead Captain",
+                5
+              ],
+              [
+                "Raider Captain",
+                8
+              ]
+            ]
+          }
+        ],
+        "rules": [
+          "Surefooted",
+          "Mercenary"
+        ],
+        "weapons": {
+          "Rìu Xéo": [
+            "3",
+            "4",
+            "5",
+            "Cleaving Blade (4)"
+          ],
+          "Dao Găm": [
+            "1",
+            "6",
+            "5",
+            ""
+          ]
+        }
+      },
+      {
+        "id": "balearic-slingers",
+        "name": "Balearic Slingers",
+        "type": "Skirmishing Warrior",
+        "move": 7,
+        "training": 5,
+        "points": 12,
+        "range": [
+          5,
+          10
+        ],
+        "equip": [
+          "Funda Longa",
+          "Funda Media",
+          "Funda Brevis"
+        ],
+        "gear": [],
+        "body": null,
+        "shield": null,
+        "opts": [],
+        "chars": [
+          {
+            "one": [
+              [
+                "Tribal Leader",
+                4
+              ],
+              [
+                "Bowmaster",
+                10
+              ]
+            ]
+          }
+        ],
+        "rules": [
+          "Mercenary"
+        ],
+        "weapons": {
+          "Funda Longa": [
+            "30”",
+            "5",
+            "4",
+            ""
+          ],
+          "Funda Media": [
+            "24”",
+            "6",
+            "4",
+            ""
+          ],
+          "Funda Brevis": [
+            "18”",
+            "6",
+            "5",
+            ""
+          ]
+        }
+      },
+      {
+        "id": "cataphract",
+        "name": "Cataphract",
+        "type": "Cavalry",
+        "move": 10,
+        "training": 6,
+        "points": 25,
+        "comps": [
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "equip": [
+          "Contus"
+        ],
+        "gear": [
+          "Spatha"
+        ],
+        "body": "Heavy Armor",
+        "shield": null,
+        "opts": [],
+        "chars": [
+          {
+            "one": [
+              [
+                "Lead Captain",
+                10
+              ]
+            ],
+            "req": true
+          },
+          {
+            "one": [
+              [
+                "Rear Captain",
+                10
+              ],
+              [
+                "Tribal Leader",
+                4
+              ]
+            ]
+          }
+        ],
+        "rules": [
+          "Feign Charge",
+          "Terrify Warriors",
+          "Mercenary"
+        ],
+        "weapons": {
+          "Contus": [
+            "10",
+            "5",
+            "6",
+            "Reach (1). Unwieldy (2)"
+          ],
+          "Spatha": [
+            "5",
+            "6",
+            "5",
+            ""
+          ]
+        }
+      },
+      {
+        "id": "scythian-archers",
+        "name": "Scythian Archers",
+        "type": "Skirmishing Cavalry",
+        "move": 14,
+        "training": 5,
+        "points": 22,
+        "range": [
+          4,
+          7
+        ],
+        "equip": [
+          "Θanvar"
+        ],
+        "gear": [
+          "Karəta"
+        ],
+        "body": "Light Armor",
+        "shield": null,
+        "opts": [
+          {
+            "label": "Sidearm",
+            "kind": "swap",
+            "choices": [
+              {
+                "name": "Karəta dagger",
+                "c": 0,
+                "gear": [
+                  "Karəta"
+                ]
+              },
+              {
+                "name": "Arštaya javelins (replace Karəta)",
+                "w": [
+                  "Θanvar",
+                  "Arštaya"
+                ],
+                "c": 1,
+                "gear": []
+              }
+            ]
+          },
+          {
+            "label": "Shield",
+            "kind": "add",
+            "shield": "Shield",
+            "c": 1
+          }
+        ],
+        "chars": [
+          {
+            "one": [
+              [
+                "Tribal Leader",
+                4
+              ],
+              [
+                "Standard Bearer",
+                6
+              ]
+            ]
+          }
+        ],
+        "rules": [
+          "Feign Retreat",
+          "Scout",
+          "Parthian Shot",
+          "Mercenary"
+        ],
+        "weapons": {
+          "Θanvar": [
+            "24”",
+            "7",
+            "4",
+            "Recurve Bow, Direct Fire"
+          ],
+          "Arštaya": [
+            "6 / 8”",
+            "6",
+            "6",
+            "Throwing Weapon"
+          ],
+          "Karəta": [
+            "1",
+            "6",
+            "5",
+            ""
+          ]
+        }
+      },
+      {
+        "id": "numidian-javelineers",
+        "name": "Numidian Javelineers",
+        "type": "Skirmishing Cavalry",
+        "move": 14,
+        "training": 5,
+        "points": 21,
+        "range": [
+          5,
+          8
+        ],
+        "equip": [
+          "Iacula"
+        ],
+        "gear": [
+          "Culter"
+        ],
+        "body": null,
+        "shield": "Shield",
+        "opts": [
+          {
+            "label": "Light Armor",
+            "kind": "add",
+            "body": "Light Armor",
+            "c": 2
+          }
+        ],
+        "chars": [
+          {
+            "one": [
+              [
+                "Lead Captain",
+                10
+              ],
+              [
+                "Standard Bearer",
+                6
+              ]
+            ]
+          }
+        ],
+        "rules": [
+          "Feign Retreat",
+          "Ambush",
+          "Mercenary"
+        ],
+        "weapons": {
+          "Iacula": [
+            "6 / 8”",
+            "7",
+            "6",
+            "Throwing Weapon"
+          ],
+          "Culter": [
+            "1",
+            "6",
+            "5",
+            ""
+          ]
+        }
+      },
+      {
+        "id": "nabatean-skirmishers",
+        "name": "Nabatean Skirmishers",
+        "type": "Skirmishing Cavalry",
+        "move": 8,
+        "training": 5,
+        "points": 17,
+        "range": [
+          2,
+          5
+        ],
+        "equip": [
+          "Qaštā"
+        ],
+        "gear": [
+          "Sakkīnā"
+        ],
+        "body": null,
+        "shield": null,
+        "opts": [
+          {
+            "label": "Weapon",
+            "kind": "swap",
+            "choices": [
+              {
+                "name": "Qaštā bow",
+                "w": [
+                  "Qaštā"
+                ],
+                "c": 0
+              },
+              {
+                "name": "Rumḥā javelins",
+                "w": [
+                  "Rumḥā"
+                ],
+                "c": 0
+              }
+            ]
+          },
+          {
+            "label": "1 additional Rider per Camel (same weapons)",
+            "kind": "add",
+            "c": 6
+          }
+        ],
+        "chars": [
+          {
+            "one": [
+              [
+                "Lord",
+                10
+              ]
+            ]
+          }
+        ],
+        "rules": [
+          "Terrify Cavalry",
+          "Terrify Chariots",
+          "Scout",
+          "Mercenary"
+        ],
+        "custom": {
+          "Camels": "1 Driver per Camel. An additional Rider uses the same Equipment and Gear as the Driver, and adds 1 attack per Camel."
+        },
+        "weapons": {
+          "Qaštā": [
+            "24”",
+            "6",
+            "4",
+            "1 Attack per Rider, plus 1 if unit has Hold Token. No movement penalty, Direct Fire"
+          ],
+          "Rumḥā": [
+            "6 / 8”",
+            "5",
+            "6",
+            "1 Attack per Rider, plus 1. Throwing Weapon"
+          ],
+          "Sakkīnā": [
+            "0",
+            "6",
+            "5",
+            "1 Attack per Rider, plus 1"
+          ]
+        }
+      }
+    ]
+  },
+  "commands": [
+    {
+      "id": "supplemental-mercenaries",
+      "name": "Supplemental Mercenaries",
+      "mercs": 1,
+      "text": "Your army may include 1 unit from the Supplemental Mercenaries list.",
+      "note": "If you take a mercenary unit, this card must be one of the 3 cards in your hand."
+    }
+  ]
 };

@@ -242,10 +242,14 @@ window.NHB = (function () {
     return w;
   }
 
-  function summarize(army, list, limit) {
+  // opts.pools: extra unit lists by source (e.g. { mercs: ... }); opts.mercAllowed: mercenary units the Command deck allows.
+  function summarize(army, list, limit, opts) {
+    opts = opts || {};
+    const pools = opts.pools || {};
     let pts = 0, morale = 0;
+    list = list.filter(sel => ((sel.src && pools[sel.src]) || army).units.some(x => x.id === sel.unitId));
     const units = list.map(sel => {
-      const u = army.units.find(x => x.id === sel.unitId);
+      const u = ((sel.src && pools[sel.src]) || army).units.find(x => x.id === sel.unitId);
       const lo = loadout(u, sel);
       const p = points(u, sel, lo) || 0;
       const m = NHB.morale(u, sel);
@@ -255,6 +259,10 @@ window.NHB = (function () {
     const retCount = {};
     units.forEach(x => x.chars.forEach(c => { if (RETINUE.includes(c.name)) retCount[c.name] = (retCount[c.name] || 0) + 1; }));
     const armyWarn = Object.keys(retCount).filter(k => retCount[k] > 1).map(k => `Only one ${k} allowed per army (you have ${retCount[k]})`);
+    const mercN = list.filter(s => s.src === "mercs").length, mercOk = opts.mercAllowed || 0;
+    if (mercN > mercOk) armyWarn.push(mercOk
+      ? `Your Command deck allows ${mercOk} Supplemental Mercenaries unit${mercOk > 1 ? "s" : ""} (you have ${mercN})`
+      : `Mercenary units need the Supplemental Mercenaries Command card in your deck (you have ${mercN})`);
     if (pts > limit) armyWarn.unshift(`Over the limit by ${pts - limit} points`);
     const under = Math.max(0, limit - pts);
     return { units, pts, limit, under, bid: Math.min(25, under), morale: armyMorale(morale), armyWarn };

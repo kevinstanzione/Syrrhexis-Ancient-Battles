@@ -32,8 +32,8 @@
     ]
   };
 
-  function fresh(armyId, size) { return { name: "", armyId, size: size || 2000, units: [], example: false }; }
-  function withUids(s) { s.units.forEach(u => { if (!u.uid) u.uid = newUid(); }); return s; }
+  function fresh(armyId, size) { return { name: "", armyId, size: size || 2000, units: [], commands: [], example: false }; }
+  function withUids(s) { s.units.forEach(u => { if (!u.uid) u.uid = newUid(); }); if (!Array.isArray(s.commands)) s.commands = []; return s; }
 
   let lists = store.get("nhb-lists", {});
   let state = withUids(JSON.parse(JSON.stringify(store.get("nhb-current", EXAMPLE))));
@@ -44,7 +44,13 @@
   let toast = "";
 
   const army = () => DATA.armies.find(a => a.id === state.armyId) || DATA.armies[0];
-  const unitDef = id => army().units.find(u => u.id === id);
+  const MERCS = DATA.mercs || { units: [] };
+  const COMMANDS = DATA.commands || [];
+  const DECK_SIZE = 6;
+  const unitDef = (id, src) => (src === "mercs" ? MERCS : army()).units.find(u => u.id === id);
+  const deck = () => (state.commands || []).map(id => COMMANDS.find(c => c.id === id)).filter(Boolean);
+  const mercAllowed = () => deck().reduce((n, c) => n + (c.mercs || 0), 0);
+  const summarizeState = () => NHB.summarize(army(), state.units, state.size, { pools: { mercs: MERCS }, mercAllowed: mercAllowed() });
   const save = () => store.set("nhb-current", state);
 
   // ---------- Tally ----------
@@ -155,7 +161,7 @@
     const isOpen = openCards.has(sel.uid);
     const head = `<div class="card-head">
         <button class="expander" data-act="expand" data-uid="${sel.uid}" aria-expanded="${isOpen}" aria-label="${isOpen ? "Collapse" : "Expand"} ${esc(u.name)}">${isOpen ? "−" : "+"}</button>
-        <div class="card-title"><h3>${esc(u.name)}</h3><div class="type">${esc(u.type)} · ${esc(sizeText(x))} · ${u.engine ? `${u.engine} + ${u.points}/Engineer` : `${u.points}/model`}</div></div>
+        <div class="card-title"><h3>${esc(u.name)}</h3><div class="type">${sel.src === "mercs" ? "Mercenary · " : ""}${esc(u.type)} · ${esc(sizeText(x))} · ${u.engine ? `${u.engine} + ${u.points}/Engineer` : `${u.points}/model`}</div></div>
         <div class="card-pts">${x.pts} pts</div></div>`;
     if (!isOpen) {
       return `<article class="card ${x.warn.length ? "bad" : ""}">${head}<div class="chips">${chips}</div></article>`;
@@ -182,7 +188,23 @@
         <span><span class="nm">${esc(u.name)}</span><br><span class="sub">${esc(u.type)} · ${size}</span></span>
         ${tbd ? `<span class="tbd">TBD</span>` : `<span class="num">${u.points}</span>`}</button>`;
     }).join("");
-    $("#view").innerHTML = `${ex}${warn}${cards}<section class="roster"><h2>Add a unit</h2><div class="roster-list">${roster}</div></section>`;
+    const mercN = state.units.filter(s => s.src === "mercs").length, mercOk = mercAllowed();
+    const mercRoster = mercOk ? `<h2>Supplemental Mercenaries <span class="label">${mercN} / ${mercOk} taken</span></h2><div class="roster-list">${MERCS.units.map(u => {
+      const size = u.range ? `${u.range[0]}–${u.range[1]}` : u.comps.map(c => c[0] * c[1]).join(" or ");
+      const full = mercN >= mercOk;
+      return `<button class="pick" data-act="addunit" data-src="mercs" data-u="${u.id}" ${full ? "disabled" : ""}>
+        <span><span class="nm">${esc(u.name)}</span><br><span class="sub">${esc(u.type)} · ${size}</span></span>
+        <span class="num">${u.points}</span></button>`;
+    }).join("")}</div>` : "";
+    const inDeck = state.commands || [];
+    const cmd = `<section class="cmd"><h2>Command deck <span class="label">${inDeck.length} / ${DECK_SIZE} cards</span></h2>
+      <div class="cmd-list">${COMMANDS.map(c => {
+        const on = inDeck.includes(c.id), full = !on && inDeck.length >= DECK_SIZE;
+        return `<label class="cmdcard ${on ? "on" : ""}"><input type="checkbox" data-act="cmd" data-id="${esc(c.id)}" ${on ? "checked" : ""} ${full ? "disabled" : ""}>
+          <span><b>${esc(c.name)}</b><br>${kw(c.text)}${c.note ? `<br><span class="sub">${esc(c.note)}</span>` : ""}</span></label>`;
+      }).join("")}</div>
+      <p class="sub">Pick up to ${DECK_SIZE} cards. More Command cards are on the way.</p></section>`;
+    $("#view").innerHTML = `${ex}${warn}${cards}${cmd}<section class="roster"><h2>Add a unit</h2><div class="roster-list">${roster}</div>${mercRoster}</section>`;
   }
 
   // ---------- Sheet ----------
@@ -389,6 +411,7 @@
           <div><div class="v">≤${m.massPanic}</div><div class="k">Mass Panic (25%)</div></div>
           <div><div class="v">≤0</div><div class="k">Complete Rout</div></div>
         </div>
+        ${deck().length ? `<div class="cmdline"><b>Command deck (${deck().length}/${DECK_SIZE}):</b> ${deck().map(c => esc(c.name)).join(", ")}</div>` : ""}
         ${units || `<div class="empty">Add units on the Build tab to see your list here.</div>`}
         ${app}
         <div class="foot">Profiles synced from your army decks on ${esc(DATA.meta.synced)}.</div>
@@ -403,6 +426,7 @@
     L.push("Syrrhēxis: Ancient Battles");
     L.push(`${state.name || army().name + " list"} — ${army().name}, ${sum.pts}/${sum.limit} pts (bid ${sum.bid})`);
     L.push(`Army Morale ${m.total} | Unease ≤${m.unease} | Panic ≤${m.panic} | Mass Panic ≤${m.massPanic} | Rout ≤0`);
+    if (deck().length) L.push(`Command deck (${deck().length}/${DECK_SIZE}): ${deck().map(c => c.name).join(", ")}`);
     sum.units.forEach(x => {
       const a = x.armor, h = x.health;
       L.push("");
@@ -426,7 +450,7 @@
 
   // ---------- Render ----------
   function render() {
-    const sum = NHB.summarize(army(), state.units.map(s => s), state.size);
+    const sum = summarizeState();
     renderTally(sum);
     renderSetup();
     $("#tab-build").setAttribute("aria-selected", tab === "build");
@@ -448,8 +472,8 @@
     toast = "";
     switch (act) {
       case "addunit": {
-        const u = unitDef(b.dataset.u);
-        edit(() => { const id = newUid(); openCards.add(id); state.units.push({ uid: id, unitId: u.id, comp: 0, count: u.range ? u.range[0] : undefined, swaps: {}, adds: {}, chars: {} }); });
+        const src = b.dataset.src || undefined, u = unitDef(b.dataset.u, src);
+        edit(() => { const id = newUid(); openCards.add(id); const s = { uid: id, unitId: u.id, comp: 0, count: u.range ? u.range[0] : undefined, swaps: {}, adds: {}, chars: {} }; if (src) s.src = src; state.units.push(s); });
         break;
       }
       case "expand": { const id = b.dataset.uid; openCards.has(id) ? openCards.delete(id) : openCards.add(id); render(); break; }
@@ -457,13 +481,13 @@
       case "collapse-all": openCards.clear(); render(); break;
       case "remove": edit(() => state.units.splice(i, 1)); break;
       case "cinc": case "cdec": {
-        const u = unitDef(sel.unitId), n = NHB.models(u, sel), o = +b.dataset.o;
+        const u = unitDef(sel.unitId, sel.src), n = NHB.models(u, sel), o = +b.dataset.o;
         edit(() => { sel.counts = sel.counts || {}; sel.counts[o] = Math.max(0, Math.min(n, (sel.counts[o] || 0) + (act === "cinc" ? 1 : -1))); });
         break;
       }
       case "dup": edit(() => { const c = JSON.parse(JSON.stringify(sel)); c.uid = newUid(); openCards.add(c.uid); state.units.splice(i + 1, 0, c); }); break;
       case "inc": case "dec": {
-        const u = unitDef(sel.unitId);
+        const u = unitDef(sel.unitId, sel.src);
         edit(() => { sel.count = Math.min(u.range[1], Math.max(u.range[0], (sel.count || u.range[0]) + (act === "inc" ? 1 : -1))); });
         break;
       }
@@ -513,6 +537,14 @@
     if (el.id === "listname") { state.name = el.value.trim(); save(); return; }
     const act = el.dataset.act; if (!act) return;
     if (act === "toggle") { toggles[el.dataset.k] = el.checked; store.set("nhb-toggles", toggles); render(); return; }
+    if (act === "cmd") {
+      const id = el.dataset.id;
+      edit(() => {
+        state.commands = (state.commands || []).filter(c => c !== id);
+        if (el.checked && state.commands.length < DECK_SIZE) state.commands.push(id);
+      });
+      return;
+    }
     const sel = state.units[+el.dataset.i];
     if (act === "comp") edit(() => { sel.comp = +el.value; });
     if (act === "swap") edit(() => { sel.swaps = sel.swaps || {}; sel.swaps[el.dataset.o] = +el.value; });
