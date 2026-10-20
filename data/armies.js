@@ -52,9 +52,9 @@ window.NHB_DATA = {
                   "c": 0
                 },
                 {
-                  "name": "ḪA.ZI.IN.NU axe",
+                  "name": "ḪA.ZI.IN axe",
                   "w": [
-                    "ḪA.ZI.IN.NU"
+                    "ḪA.ZI.IN"
                   ],
                   "c": 0
                 },
@@ -103,7 +103,7 @@ window.NHB_DATA = {
               "6",
               "Reach (1). Note: Reduced accuracy"
             ],
-            "ḪA.ZI.IN.NU": [
+            "ḪA.ZI.IN": [
               "3",
               "2",
               "5",
@@ -169,9 +169,9 @@ window.NHB_DATA = {
                   "c": 0
                 },
                 {
-                  "name": "ḪA.ZI.IN.NU axe",
+                  "name": "ḪA.ZI.IN axe",
                   "w": [
-                    "ḪA.ZI.IN.NU"
+                    "ḪA.ZI.IN"
                   ],
                   "c": 0
                 }
@@ -218,7 +218,7 @@ window.NHB_DATA = {
               "5",
               "Cleaving Blade (3)"
             ],
-            "ḪA.ZI.IN.NU": [
+            "ḪA.ZI.IN": [
               "3",
               "3",
               "5",
@@ -284,9 +284,9 @@ window.NHB_DATA = {
                   "c": 0
                 },
                 {
-                  "name": "ḪA.ZI.IN.NU axe",
+                  "name": "ḪA.ZI.IN axe",
                   "w": [
-                    "ḪA.ZI.IN.NU"
+                    "ḪA.ZI.IN"
                   ],
                   "c": 0
                 }
@@ -353,7 +353,7 @@ window.NHB_DATA = {
               "5",
               "Cleaving Blade (3)"
             ],
-            "ḪA.ZI.IN.NU": [
+            "ḪA.ZI.IN": [
               "3",
               "3",
               "5",
@@ -415,9 +415,9 @@ window.NHB_DATA = {
                   "c": 0
                 },
                 {
-                  "name": "ḪA.ZI.IN.NU axe",
+                  "name": "ḪA.ZI.IN axe",
                   "w": [
-                    "ḪA.ZI.IN.NU"
+                    "ḪA.ZI.IN"
                   ],
                   "c": 0
                 }
@@ -487,7 +487,7 @@ window.NHB_DATA = {
               "5",
               "Cleaving Blade (3)"
             ],
-            "ḪA.ZI.IN.NU": [
+            "ḪA.ZI.IN": [
               "3",
               "3",
               "5",
@@ -649,9 +649,9 @@ window.NHB_DATA = {
                   "c": 0
                 },
                 {
-                  "name": "ḪA.ZI.IN.NU axe",
+                  "name": "ḪA.ZI.IN axe",
                   "w": [
-                    "ḪA.ZI.IN.NU"
+                    "ḪA.ZI.IN"
                   ],
                   "c": 0
                 }
@@ -688,7 +688,7 @@ window.NHB_DATA = {
               "6",
               "Throwing Weapon"
             ],
-            "ḪA.ZI.IN.NU": [
+            "ḪA.ZI.IN": [
               "3",
               "3",
               "5",
@@ -4655,7 +4655,7 @@ window.NHB_DATA = {
   "labels": {
     "ŠUKUR": "bronze spear",
     "ŠUKUR.TUR": "bronze javelins",
-    "ḪA.ZI.IN.NU": "bronze battle-axe",
+    "ḪA.ZI.IN": "bronze battle-axe",
     "GIŠ.TUKUL": "wooden war club",
     "GÍR.GAL": "bronze sword",
     "GÍR.GAL.GUR": "curved sickle sword",
