@@ -4518,11 +4518,11 @@ window.NHB_DATA = {
           },
           "opts": [
             {
-              "label": "Tlahuītōlli bow (replaces sling)",
+              "label": "Tlahhuītōlli bow (replaces sling)",
               "kind": "count",
               "c": 0,
               "w": [
-                "Tlahuītōlli"
+                "Tlahhuītōlli"
               ],
               "replaces": "Tēmātlatl"
             },
@@ -4557,7 +4557,7 @@ window.NHB_DATA = {
               "4",
               "On hit, increase the amount of Morale lost to Suppression from 1 to 2"
             ],
-            "Tlahuītōlli": [
+            "Tlahhuītōlli": [
               "24”",
               "5",
               "4",
@@ -4697,7 +4697,7 @@ window.NHB_DATA = {
     "Atlatl": "dart-thrower",
     "Tecpatl": "flint dagger",
     "Tēmātlatl": "sling",
-    "Tlahuītōlli": "bow",
+    "Tlahhuītōlli": "bow",
     "Ichcahuipilli": "quilted cotton armor",
     "Chīmalli": "round shield"
   }
