@@ -2564,7 +2564,7 @@ window.NHB_DATA = {
         },
         {
           "id": "peltastai",
-          "name": "Peltastai",
+          "name": "Peltastaí",
           "type": "Light Warrior",
           "move": 7,
           "training": 5,
@@ -2629,7 +2629,7 @@ window.NHB_DATA = {
         },
         {
           "id": "toxotai",
-          "name": "Toxotai",
+          "name": "Toxótai",
           "type": "Light Warrior",
           "move": 7,
           "training": 5,
@@ -2645,7 +2645,7 @@ window.NHB_DATA = {
             ]
           ],
           "equip": [
-            "Toxon"
+            "Tóxon"
           ],
           "gear": [
             "Encheirídion"
@@ -2682,7 +2682,7 @@ window.NHB_DATA = {
           ],
           "rules": [],
           "weapons": {
-            "Toxon": [
+            "Tóxon": [
               "24”",
               "5",
               "4",
@@ -2698,7 +2698,7 @@ window.NHB_DATA = {
         },
         {
           "id": "sphendonetai",
-          "name": "Sphendonētai",
+          "name": "Sphendonêtai",
           "type": "Skirmishing Warrior",
           "move": 7,
           "training": 5,
@@ -2708,7 +2708,7 @@ window.NHB_DATA = {
             10
           ],
           "equip": [
-            "Sphendonē"
+            "Sphendónē"
           ],
           "gear": [
             "Encheirídion"
@@ -2732,10 +2732,10 @@ window.NHB_DATA = {
           ],
           "rules": [],
           "custom": {
-            "Syrízousa Molybdís": "For each pair of successful hits with the Sphendonē, the defending player loses an additional 1 Army Morale due to Suppression."
+            "Syrízousa Molybdís": "For each pair of successful hits with the Sphendónē, the defending player loses an additional 1 Army Morale due to Suppression."
           },
           "weapons": {
-            "Sphendonē": [
+            "Sphendónē": [
               "28”",
               "6",
               "4",
@@ -2779,9 +2779,9 @@ window.NHB_DATA = {
                   "c": 0
                 },
                 {
-                  "name": "Sphendonē sling",
+                  "name": "Sphendónē sling",
                   "w": [
-                    "Sphendonē"
+                    "Sphendónē"
                   ],
                   "c": 0
                 }
@@ -2806,7 +2806,7 @@ window.NHB_DATA = {
             "Ambush"
           ],
           "custom": {
-            "Syrízousa Molybdís": "For each pair of successful hits with the Sphendonē, the defending player loses an additional 1 Army Morale due to Suppression."
+            "Syrízousa Molybdís": "For each pair of successful hits with the Sphendónē, the defending player loses an additional 1 Army Morale due to Suppression."
           },
           "weapons": {
             "Akóntion": [
@@ -2815,7 +2815,7 @@ window.NHB_DATA = {
               "5",
               "Throwing Weapon"
             ],
-            "Sphendonē": [
+            "Sphendónē": [
               "28”",
               "5",
               "4",
@@ -3025,11 +3025,11 @@ window.NHB_DATA = {
             ]
           ],
           "equip": [
-            "Pilum"
+            "Pīlum"
           ],
           "gear": [
             "Gladius",
-            "Pugio"
+            "Pugiō"
           ],
           "body": "Medium Armor",
           "shield": "Heavy Shield",
@@ -3071,11 +3071,11 @@ window.NHB_DATA = {
           ],
           "rules": [],
           "custom": {
-            "Testudo": "When this unit takes the Hold action, it may move half its move and Shooting attacks against it suffer a -2 penalty to hit. It may also use its Pilum in Melee: Length 6, -1 Strength, and loses Sunder (2).",
-            "Iacite Pila": "When this unit takes the Charge action, it may first make a Shooting attack against the unit it intends to charge at a -2 penalty to hit."
+            "Testūdō": "When this unit takes the Hold action, it may move half its move and Shooting attacks against it suffer a -2 penalty to hit. It may also use its Pīlum in Melee: Length 6, -1 Strength, and loses Sunder (2).",
+            "Iacite Pīla": "When this unit takes the Charge action, it may first make a Shooting attack against the unit it intends to charge at a -2 penalty to hit."
           },
           "weapons": {
-            "Pilum": [
+            "Pīlum": [
               "6”",
               "5",
               "6",
@@ -3087,7 +3087,7 @@ window.NHB_DATA = {
               "6",
               "Thrusting Blade"
             ],
-            "Pugio": [
+            "Pugiō": [
               "1",
               "6",
               "5",
@@ -3113,11 +3113,11 @@ window.NHB_DATA = {
             ]
           ],
           "equip": [
-            "Pilum"
+            "Pīlum"
           ],
           "gear": [
             "Gladius",
-            "Pugio"
+            "Pugiō"
           ],
           "body": "Medium Armor",
           "shield": "Heavy Shield",
@@ -3159,11 +3159,11 @@ window.NHB_DATA = {
           ],
           "rules": [],
           "custom": {
-            "Testudo": "When this unit takes the Hold action, it may move half its move and Shooting attacks against it suffer a -2 penalty to hit. It may also use its Pilum in Melee: Length 6, -1 Strength, and loses Sunder (2).",
-            "Iacite Pila": "When this unit takes the Charge action, it may first make a Shooting attack against the unit it intends to charge at a -2 penalty to hit."
+            "Testūdō": "When this unit takes the Hold action, it may move half its move and Shooting attacks against it suffer a -2 penalty to hit. It may also use its Pīlum in Melee: Length 6, -1 Strength, and loses Sunder (2).",
+            "Iacite Pīla": "When this unit takes the Charge action, it may first make a Shooting attack against the unit it intends to charge at a -2 penalty to hit."
           },
           "weapons": {
-            "Pilum": [
+            "Pīlum": [
               "6”",
               "6",
               "6",
@@ -3175,7 +3175,7 @@ window.NHB_DATA = {
               "6",
               "Thrusting Blade"
             ],
-            "Pugio": [
+            "Pugiō": [
               "1",
               "6",
               "5",
@@ -3197,11 +3197,11 @@ window.NHB_DATA = {
             ]
           ],
           "equip": [
-            "Pilum"
+            "Pīlum"
           ],
           "gear": [
             "Gladius",
-            "Pugio"
+            "Pugiō"
           ],
           "body": "Medium Armor",
           "shield": "Heavy Shield",
@@ -3244,11 +3244,11 @@ window.NHB_DATA = {
           ],
           "rules": [],
           "custom": {
-            "Testudo": "When this unit takes the Hold action, it may move half its move and Shooting attacks against it suffer a -2 penalty to hit. It may also use its Pilum in Melee: Length 6, -1 Strength, and loses Sunder (2).",
-            "Iacite Pila": "When this unit takes the Charge action, it may first make a Shooting attack against the unit it intends to charge at a -2 penalty to hit."
+            "Testūdō": "When this unit takes the Hold action, it may move half its move and Shooting attacks against it suffer a -2 penalty to hit. It may also use its Pīlum in Melee: Length 6, -1 Strength, and loses Sunder (2).",
+            "Iacite Pīla": "When this unit takes the Charge action, it may first make a Shooting attack against the unit it intends to charge at a -2 penalty to hit."
           },
           "weapons": {
-            "Pilum": [
+            "Pīlum": [
               "6”",
               "6",
               "6",
@@ -3260,7 +3260,7 @@ window.NHB_DATA = {
               "6",
               "Thrusting Blade"
             ],
-            "Pugio": [
+            "Pugiō": [
               "1",
               "7",
               "5",
@@ -3282,11 +3282,11 @@ window.NHB_DATA = {
             ]
           ],
           "equip": [
-            "Pilum"
+            "Pīlum"
           ],
           "gear": [
             "Gladius",
-            "Pugio"
+            "Pugiō"
           ],
           "body": "Medium Armor",
           "shield": "Heavy Shield",
@@ -3321,12 +3321,12 @@ window.NHB_DATA = {
           ],
           "rules": [],
           "custom": {
-            "Testudo": "When this unit takes the Hold action, it may move half its move and Shooting attacks against it suffer a -2 penalty to hit. It may also use its Pilum in Melee: Length 6, -1 Strength, and loses Sunder (2).",
-            "Iacite Pila": "When this unit takes the Charge action, it may first make a Shooting attack against the unit it intends to charge at a -2 penalty to hit.",
-            "Fidelitas": "While this unit has its Commander, it gains Stubborn. Once per game, its controlling player may suffer 1 wound with no save and remove the Commander to recover 1 used Command Card."
+            "Testūdō": "When this unit takes the Hold action, it may move half its move and Shooting attacks against it suffer a -2 penalty to hit. It may also use its Pīlum in Melee: Length 6, -1 Strength, and loses Sunder (2).",
+            "Iacite Pīla": "When this unit takes the Charge action, it may first make a Shooting attack against the unit it intends to charge at a -2 penalty to hit.",
+            "Fidēlitās": "While this unit has its Commander, it gains Stubborn. Once per game, its controlling player may suffer 1 wound with no save and remove the Commander to recover 1 used Command Card."
           },
           "weapons": {
-            "Pilum": [
+            "Pīlum": [
               "6”",
               "6",
               "6",
@@ -3338,7 +3338,7 @@ window.NHB_DATA = {
               "6",
               "Thrusting Blade"
             ],
-            "Pugio": [
+            "Pugiō": [
               "1",
               "7",
               "5",
@@ -3400,9 +3400,9 @@ window.NHB_DATA = {
                   "c": 0
                 },
                 {
-                  "name": "Clava mace",
+                  "name": "Clāva mace",
                   "w": [
-                    "Clava"
+                    "Clāva"
                   ],
                   "c": 0
                 }
@@ -3456,7 +3456,7 @@ window.NHB_DATA = {
               "5",
               "Throwing Weapon"
             ],
-            "Clava": [
+            "Clāva": [
               "3",
               "3",
               "4",
@@ -3491,7 +3491,7 @@ window.NHB_DATA = {
             "Arcus"
           ],
           "gear": [
-            "Pugio"
+            "Pugiō"
           ],
           "body": null,
           "shield": null,
@@ -3561,7 +3561,7 @@ window.NHB_DATA = {
               "5",
               "Note: Reduced accuracy"
             ],
-            "Pugio": [
+            "Pugiō": [
               "1",
               "5",
               "5",
@@ -3571,7 +3571,7 @@ window.NHB_DATA = {
         },
         {
           "id": "cohors-equitata",
-          "name": "Cohors Equitata",
+          "name": "Cohors Equitāta",
           "type": "Cavalry",
           "move": 12,
           "training": 6,
@@ -3677,7 +3677,7 @@ window.NHB_DATA = {
         },
         {
           "id": "cohors-equitata-retinue",
-          "name": "Cohors Equitata Retinue",
+          "name": "Cohors Equitāta Retinue",
           "type": "Cavalry",
           "move": 10,
           "training": 7,
@@ -3745,7 +3745,7 @@ window.NHB_DATA = {
         },
         {
           "id": "explorator",
-          "name": "Explorator",
+          "name": "Explōrātor",
           "type": "Light Cavalry",
           "move": 14,
           "training": 7,
@@ -3763,7 +3763,7 @@ window.NHB_DATA = {
           "equip": [],
           "gear": [
             "Spatha",
-            "Pugio"
+            "Pugiō"
           ],
           "body": null,
           "shield": "Shield",
@@ -3826,7 +3826,7 @@ window.NHB_DATA = {
               "5",
               ""
             ],
-            "Pugio": [
+            "Pugiō": [
               "1",
               "7",
               "5",
@@ -3836,7 +3836,7 @@ window.NHB_DATA = {
         },
         {
           "id": "scorpio",
-          "name": "Scorpio",
+          "name": "Scorpiō",
           "type": "Light Warmachine",
           "move": 5,
           "training": 6,
@@ -3848,11 +3848,11 @@ window.NHB_DATA = {
             6
           ],
           "equip": [
-            "Scorpio Bolt"
+            "Scorpiō Bolt"
           ],
           "gear": [
             "Gladius",
-            "Pugio"
+            "Pugiō"
           ],
           "body": "Medium Armor",
           "shield": null,
@@ -3869,7 +3869,7 @@ window.NHB_DATA = {
           ],
           "rules": [],
           "weapons": {
-            "Scorpio Bolt": [
+            "Scorpiō Bolt": [
               "48”",
               "7",
               "8",
@@ -3881,7 +3881,7 @@ window.NHB_DATA = {
               "6",
               "Thrusting Blade"
             ],
-            "Pugio": [
+            "Pugiō": [
               "1",
               "6",
               "5",
@@ -3907,7 +3907,7 @@ window.NHB_DATA = {
           ],
           "gear": [
             "Gladius",
-            "Pugio"
+            "Pugiō"
           ],
           "body": "Medium Armor",
           "shield": null,
@@ -3939,7 +3939,7 @@ window.NHB_DATA = {
               "6",
               "Thrusting Blade"
             ],
-            "Pugio": [
+            "Pugiō": [
               "1",
               "6",
               "5",
@@ -4679,17 +4679,17 @@ window.NHB_DATA = {
     "Lakōnikón Xíphos": "short Spartan sword",
     "Akóntion": "javelins",
     "Encheirídion": "dagger",
-    "Toxon": "bow",
-    "Sphendonē": "sling",
-    "Pilum": "heavy javelin",
+    "Tóxon": "bow",
+    "Sphendónē": "sling",
+    "Pīlum": "heavy javelin",
     "Lancea": "light javelins",
     "Hasta": "thrusting spear",
     "Gladius": "short sword",
     "Spatha": "long sword",
-    "Pugio": "dagger",
-    "Clava": "wooden mace",
+    "Pugiō": "dagger",
+    "Clāva": "wooden mace",
     "Arcus": "composite bow",
-    "Scorpio Bolt": "bolt-thrower",
+    "Scorpiō Bolt": "bolt-thrower",
     "Carroballista Bolt": "cart-mounted bolt-thrower",
     "Mācuahuitl": "obsidian-edged sword",
     "Tepoztōpīlli": "obsidian-bladed spear",
