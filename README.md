@@ -63,6 +63,15 @@ Buy a domain from any registrar, then in **Settings → Pages → Custom domain*
 
 Keep the first line of `data/armies.js` (`window.NHB_DATA = `) and the final `;` as they are. If the page goes blank after an edit, a comma or bracket is usually missing.
 
+## Versions
+
+The current version is in `data/armies.js` under `meta.version`, and changes are listed in `CHANGELOG.md`. To release a new version:
+
+1. Change `meta.version` (and `meta.synced` if profiles changed) in `data/armies.js`.
+2. In `index.html`, change every `?v=...` to the new number so browsers load the new files instead of cached ones.
+3. Add an entry at the top of `CHANGELOG.md`.
+4. Commit, then tag it: `git tag v0.2.1 && git push origin main --tags`.
+
 ## Notes
 
 - Saved lists are stored in each player's own browser. They are not shared between people or devices.

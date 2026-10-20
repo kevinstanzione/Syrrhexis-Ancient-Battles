@@ -199,3 +199,6 @@ img { max-width: 100%; }
 .cmd > .sub { margin: 6px 0 0; }
 .roster h2 .label, .cmd h2 .label { margin-left: 6px; }
 .cmdline { font-size: 13px; margin: 0 0 12px; }
+
+.site-foot { margin: 28px 0 12px; text-align: center; font-size: 12px; color: var(--muted); }
+@media print { .site-foot { display: none; } }

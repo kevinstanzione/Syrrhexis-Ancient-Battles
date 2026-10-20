@@ -414,7 +414,7 @@
         ${deck().length ? `<div class="cmdline"><b>Command deck (${deck().length}/${DECK_SIZE}):</b> ${deck().map(c => esc(c.name)).join(", ")}</div>` : ""}
         ${units || `<div class="empty">Add units on the Build tab to see your list here.</div>`}
         ${app}
-        <div class="foot">Profiles synced from your army decks on ${esc(DATA.meta.synced)}.</div>
+        <div class="foot">List builder v${esc(DATA.meta.version)} · profiles synced from your army decks on ${esc(DATA.meta.synced)}.</div>
       </article>
       <div class="actions">${window.NHB_CAN_PRINT ? `<button class="btn primary" data-act="print">Print or save as PDF</button>` : ""}<button class="btn${window.NHB_CAN_PRINT ? "" : " primary"}" data-act="copy">Copy list as text</button><span class="toast" id="copied"></span></div>
       <div id="copyfall"></div>`;
@@ -423,7 +423,7 @@
   function listText(sum) {
     const L = [];
     const m = sum.morale;
-    L.push("Syrrhēxis: Ancient Battles");
+    L.push(`Syrrhēxis: Ancient Battles (list builder v${DATA.meta.version})`);
     L.push(`${state.name || army().name + " list"} — ${army().name}, ${sum.pts}/${sum.limit} pts (bid ${sum.bid})`);
     L.push(`Army Morale ${m.total} | Unease ≤${m.unease} | Panic ≤${m.panic} | Mass Panic ≤${m.massPanic} | Rout ≤0`);
     if (deck().length) L.push(`Command deck (${deck().length}/${DECK_SIZE}): ${deck().map(c => c.name).join(", ")}`);
@@ -553,4 +553,9 @@
   });
 
   render();
+})();
+
+(function () {
+  var v = document.getElementById("ver");
+  if (v && window.NHB_DATA) v.textContent = "Syrrhēxis List Builder v" + window.NHB_DATA.meta.version + " · data synced " + window.NHB_DATA.meta.synced;
 })();
