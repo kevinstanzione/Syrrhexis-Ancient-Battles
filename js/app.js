@@ -209,6 +209,60 @@
     return { model: [...model].sort(), weapon: [...weapon].sort(), chars: [...chars].sort(), types: [...types] };
   }
 
+
+  // ---------- Keyword tooltips ----------
+  // Wraps rule keywords (Cleaving Blade (3), Phalanx, Terrify All...) in buttons that show the rule on hover or tap.
+  const KW = (() => {
+    const all = Object.assign({}, R.model, R.weapon);
+    const reEsc = t => t.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    const list = Object.keys(all).map(name => {
+      let src;
+      if (/ \(X\)$/.test(name)) src = reEsc(name.slice(0, -4)) + " \\((\\d+)\\)";
+      else if (/ X$/.test(name)) src = reEsc(name.slice(0, -2)) + " ([A-Z][\\w-]*)";
+      else src = reEsc(name);
+      return { name, src, re: new RegExp("^(?:" + src + ")$") };
+    }).sort((a, b) => b.src.length - a.src.length);
+    const big = new RegExp("(?<![\\w-])(?:" + list.map(k => k.src).join("|") + ")(?![\\w-])", "g");
+    return { all, list, big };
+  })();
+  function kw(text) {
+    const s = String(text || ""); let out = "", last = 0;
+    s.replace(KW.big, (m, ...rest) => {
+      const at = rest[rest.length - 2];
+      const k = KW.list.find(k => k.re.test(m)); if (!k) return m;
+      const x = (m.match(k.re) || [])[1] || "";
+      out += esc(s.slice(last, at)) + `<button type="button" class="kw" data-kw="${esc(k.name)}" data-x="${esc(x)}">${esc(m)}</button>`;
+      last = at + m.length; return m;
+    });
+    return out + esc(s.slice(last));
+  }
+  const tip = document.createElement("div");
+  tip.id = "kwtip"; tip.setAttribute("role", "tooltip"); tip.hidden = true; document.body.appendChild(tip);
+  let tipFor = null;
+  function showTip(b) {
+    const name = b.dataset.kw, x = b.dataset.x;
+    let txt = KW.all[name] || ""; if (x) txt = txt.replace(/\bX\b/g, x).replace(/type “X”/g, `type “${x}”`);
+    tip.innerHTML = `<b>${esc(x ? name.replace(/\(?X\)?$/, m => m.replace("X", x)) : name)}</b>${esc(txt)}`;
+    tip.hidden = false; tipFor = b;
+    const r = b.getBoundingClientRect(), w = Math.min(320, innerWidth - 24);
+    tip.style.width = w + "px";
+    tip.style.left = Math.max(12, Math.min(r.left, innerWidth - w - 12)) + "px";
+    const h = tip.offsetHeight, below = r.bottom + 6;
+    tip.style.top = (below + h > innerHeight - 8 && r.top - h - 6 > 8 ? r.top - h - 6 : below) + "px";
+  }
+  function hideTip() { tip.hidden = true; tipFor = null; }
+  document.addEventListener("mouseover", e => { const b = e.target.closest && e.target.closest(".kw"); if (b && matchMedia("(hover: hover)").matches) showTip(b); });
+  document.addEventListener("mouseout", e => { const b = e.target.closest && e.target.closest(".kw"); if (b && tipFor === b && !b.contains(e.relatedTarget) && matchMedia("(hover: hover)").matches) hideTip(); });
+  document.addEventListener("click", e => {
+    const b = e.target.closest(".kw");
+    if (b) { e.stopPropagation(); tipFor === b && !matchMedia("(hover: hover)").matches ? hideTip() : showTip(b); return; }
+    hideTip();
+  }, true);
+  document.addEventListener("keydown", e => { if (e.key === "Escape") hideTip(); });
+  addEventListener("scroll", hideTip, { passive: true });
+  document.addEventListener("focusin", e => { if (e.target.classList && e.target.classList.contains("kw") && e.target.matches(":focus-visible")) showTip(e.target); });
+  document.addEventListener("focusout", e => { if (e.target === tipFor) hideTip(); });
+
   // Plain-English description shown under native weapon and armor names.
   const LABELS = (window.NHB_DATA && window.NHB_DATA.labels) || {};
   const desc = n => LABELS[n] ? `<span class="wdesc">${esc(LABELS[n])}</span>` : "";
@@ -220,7 +274,7 @@
       const st = x.u.weapons[w]; if (!st) return "";
       const off = !carried.includes(w);
       const tag = off ? ` <span class="label">option</span>` : x.lo.gear.includes(w) ? ` <span class="label">gear</span>` : "";
-      return `<tr class="${off ? "alt" : ""}"><td>${esc(w)}${tag}${desc(w)}</td><td class="n">${esc(st[0])}</td><td class="n">${esc(st[1])}</td><td class="n">${esc(st[2])}</td><td>${esc(clean(st[3]))}</td></tr>`;
+      return `<tr class="${off ? "alt" : ""}"><td>${esc(w)}${tag}${desc(w)}</td><td class="n">${esc(st[0])}</td><td class="n">${esc(st[1])}</td><td class="n">${esc(st[2])}</td><td>${kw(clean(st[3]))}</td></tr>`;
     }).join("");
   }
 
@@ -233,7 +287,7 @@
     const rows = pieces.map(p => {
       const extra = (p.grants || []).map(g => R.weapon[g] ? `${g}: ${R.weapon[g]}` : g).join(" ");
       const text = [clean(p.text), extra].filter(Boolean).join(". ");
-      return `<tr><td>${esc(p.name)}${p.who ? ` <span class="label">${esc(p.who)}</span>` : ""}${desc(p.name)}</td><td class="n">+${p.v || 0}</td><td class="n">${p.move ? p.move : "0"}</td><td>${esc(text || "None")}</td></tr>`;
+      return `<tr><td>${esc(p.name)}${p.who ? ` <span class="label">${esc(p.who)}</span>` : ""}${desc(p.name)}</td><td class="n">+${p.v || 0}</td><td class="n">${p.move ? p.move : "0"}</td><td>${text ? kw(text) : "None"}</td></tr>`;
     }).join("");
     return `<div class="tablewrap"><table class="wpn armor"><thead><tr><th>Armor</th><th>Value</th><th>Move</th><th>Ability</th></tr></thead><tbody>${rows}</tbody></table></div>`;
   }
@@ -242,7 +296,7 @@
   function profileHtml(x, showAll) {
     const a = x.armor, h = x.health;
     const charTxt = x.chars.length ? x.chars.map(c => c.name + (c.note ? ` (${c.note})` : "")).join(", ") : "None";
-    const custom = (toggles.unit || showAll) && x.u.custom ? Object.entries(x.u.custom).map(([k, v]) => `<div><b>${esc(k)}:</b> ${esc(v)}</div>`).join("") : "";
+    const custom = (toggles.unit || showAll) && x.u.custom ? Object.entries(x.u.custom).map(([k, v]) => `<div><b>${esc(k)}:</b> ${kw(v)}</div>`).join("") : "";
     return `<div class="statline">
           <div class="stat"><div class="k">Move</div><div class="v">${x.move}</div></div>
           <div class="stat"><div class="k">Training</div><div class="v">${x.u.training}</div></div>
@@ -257,7 +311,7 @@
         <div class="lines">
           ${armorLines(a).map(l => `<div><b>Armor:</b> ${esc(l)}</div>`).join("")}
           ${showAll ? "" : `<div><b>Characters:</b> ${esc(charTxt)}</div>`}
-          <div><b>Special rules:</b> ${esc(x.rules.join(", ") || "None")}</div>
+          <div><b>Special rules:</b> ${x.rules.length ? kw(x.rules.join(", ")) : "None"}</div>
           <div><b>Army Morale:</b> ${x.morale.base}${x.morale.bonus ? ` + ${x.morale.bonus} characters` : ""} = ${x.morale.total}</div>
           ${custom}
         </div>`;
