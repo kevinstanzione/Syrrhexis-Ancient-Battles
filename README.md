@@ -70,7 +70,8 @@ The current version is in `data/armies.js` under `meta.version`, and changes are
 1. Change `meta.version` (and `meta.synced` if profiles changed) in `data/armies.js`.
 2. In `index.html`, change every `?v=...` to the new number so browsers load the new files instead of cached ones.
 3. Add an entry at the top of `CHANGELOG.md`.
-4. Commit, then tag it: `git tag v0.2.1 && git push origin main --tags`.
+4. Commit with a message starting with the version, e.g. `Version 0.2.1: ...`.
+5. Optional: on GitHub, open **Releases → Draft a new release**, type the tag (e.g. `v0.2.1`), target `main`, and paste the changelog entry. This bookmarks that exact version so it can be downloaded or restored later.
 
 ## Notes
 
