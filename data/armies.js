@@ -1,7 +1,7 @@
 // Syrrhēxis army data. Edit the values below; keep the first line as is.
 window.NHB_DATA = {
   "meta": {
-    "version": "0.2.2",
+    "version": "0.2.3",
     "synced": "2026-10-19",
     "sources": {
       "Hittite Empire Army": "1aqMPs2Pi5car6pUzcuWmHXArGss_RZdkgATe5OsbVrw",
@@ -112,7 +112,7 @@ window.NHB_DATA = {
               "Cleaving Blade (4). Note: Reduced accuracy"
             ],
             "GIŠ.TUKUL": [
-              "2",
+              "3",
               "2",
               "4",
               "Sunder (2). Note: Reduced accuracy"
@@ -1195,7 +1195,7 @@ window.NHB_DATA = {
               "Thrusting Blade. Note: Reduced accuracy"
             ],
             "Arštaya": [
-              "7 / 8”",
+              "6 / 8”",
               "5",
               "5",
               "Throwing Weapon. Note: Reduced strength"
@@ -1306,7 +1306,7 @@ window.NHB_DATA = {
               "Reach (1). Note: Increased accuracy"
             ],
             "Arštaya": [
-              "7 / 8”",
+              "6 / 8”",
               "6",
               "6",
               "Throwing Weapon. Note: Increased accuracy"
@@ -1490,7 +1490,7 @@ window.NHB_DATA = {
               "Reach (1)"
             ],
             "Arštaya": [
-              "7 / 8”",
+              "6 / 8”",
               "5",
               "6",
               "Throwing Weapon"
@@ -1591,7 +1591,7 @@ window.NHB_DATA = {
           ],
           "weapons": {
             "Arštaya": [
-              "7 / 8”",
+              "6 / 8”",
               "6",
               "6",
               "Throwing Weapon. Note: Increased accuracy but reduced length"
@@ -1696,7 +1696,7 @@ window.NHB_DATA = {
           ],
           "weapons": {
             "Arštaya": [
-              "7 / 8”",
+              "6 / 8”",
               "6",
               "6",
               "Throwing Weapon. Note: Increased accuracy but reduced length"
@@ -1863,7 +1863,7 @@ window.NHB_DATA = {
               "Cleaving Blade (4)"
             ],
             "Arštaya": [
-              "7 / 8”",
+              "6 / 8”",
               "6",
               "6",
               "Throwing Weapon"
@@ -2616,7 +2616,7 @@ window.NHB_DATA = {
           ],
           "weapons": {
             "Akóntion": [
-              "7 / 8”",
+              "6 / 8”",
               "5",
               "6",
               "Throwing Weapon"
@@ -2812,7 +2812,7 @@ window.NHB_DATA = {
           },
           "weapons": {
             "Akóntion": [
-              "7 / 8”",
+              "6 / 8”",
               "5",
               "5",
               "Throwing Weapon"
@@ -3447,13 +3447,13 @@ window.NHB_DATA = {
           "rules": [],
           "weapons": {
             "Hasta": [
-              "7",
+              "8",
               "5",
               "6",
               "Reach (1)"
             ],
             "Lancea": [
-              "7 / 8”",
+              "6 / 8”",
               "6",
               "5",
               "Throwing Weapon"
@@ -3658,13 +3658,13 @@ window.NHB_DATA = {
           ],
           "weapons": {
             "Hasta": [
-              "7",
+              "8",
               "5",
               "6",
               "No Reach"
             ],
             "Lancea": [
-              "7 / 8”",
+              "6 / 8”",
               "5",
               "5",
               "Throwing Weapon"
@@ -3732,7 +3732,7 @@ window.NHB_DATA = {
           ],
           "weapons": {
             "Hasta": [
-              "7",
+              "8",
               "6",
               "6",
               "Note: Increased Accuracy"
@@ -3817,7 +3817,7 @@ window.NHB_DATA = {
           ],
           "weapons": {
             "Lancea": [
-              "7 / 8”",
+              "6 / 8”",
               "6",
               "5",
               "Throwing Weapon"
@@ -4923,7 +4923,7 @@ window.NHB_DATA = {
         "type": "Warrior",
         "move": 6,
         "training": 5,
-        "points": 15,
+        "points": 16,
         "comps": [
           [
             3,
@@ -4976,7 +4976,7 @@ window.NHB_DATA = {
         },
         "weapons": {
           "Dóry": [
-            "9",
+            "10",
             "5",
             "6",
             "Reach (1). Unwieldy (1)"
@@ -5419,7 +5419,7 @@ window.NHB_DATA = {
         ],
         "weapons": {
           "Contus": [
-            "10",
+            "11",
             "5",
             "6",
             "Reach (1). Unwieldy (2)"
