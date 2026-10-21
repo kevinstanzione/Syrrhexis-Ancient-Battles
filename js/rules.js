@@ -33,11 +33,11 @@ window.NHB_RULES = {
     "Pavise": "On Hold, the unit may plant its Pavise: Shooting from its front arc treats it as one cover level better, and units charging its front gain no Charge Strength bonus. Picked up when the unit moves (except an Alignment turn).",
     "Piercing Shot (X)": "Against Closed Order, each Hit causes X additional Hits on the same unit.",
     "Reach (X)": "Models up to X ranks behind the front rank of a Closed Order unit also attack in Melee.",
-    "Recurve Bow": "Ignores the “Attacker moved” penalty if the target is beyond half range.",
+    "Recurve Bow": "This weapon's Direct Fire applies to targets within half of maximum range, instead of a quarter.",
     "Sunder (X)": "Enemies roll Armor Saves at a -X penalty against attacks with this weapon.",
     "Throwing Weapon": "Ignores the “Attacker moved” penalty. While Locked in Combat with a Hold token, may shoot units it is fighting at -3 Accuracy, without Aim or Volley.",
     "Thrusting Blade": "Enemies roll Armor Saves at -1 while the unit has no Flee, Charge, or Run token.",
-    "Unwieldy (X)": "Each turn costs an additional X” of Move Allotment."
+    "Unwieldy (X)": "Closed Order: each turn costs an additional X” of Move Allotment. Open Order: -X Move instead."
   },
   weaponPatterns: [
     [/Cleaving Blade/, "Cleaving Blade (X)"], [/Direct Fire/, "Direct Fire"], [/Massive Suppression/, "Massive Suppression (X)"],

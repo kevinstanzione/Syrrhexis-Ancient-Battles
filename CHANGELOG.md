@@ -6,6 +6,16 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## 0.2.1 — 2026-10-20
+
+### Rules
+- Recurve Bow: Direct Fire now applies within half of maximum range instead of a quarter. It no longer ignores the "Attacker moved" penalty.
+- Unwieldy (X): Open Order units suffer -X Move instead of the extra turning cost.
+
+### Hittites
+- Hattian Archers and Hattian Chariots lose Recurve Bow (keep Direct Fire). Allied Archers and Allied Chariots keep it.
+- Hattian Archers 11 → 9 points.
+
 ## 0.2.0 — 2026-10-20
 
 ### Builder

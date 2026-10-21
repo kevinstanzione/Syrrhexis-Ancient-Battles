@@ -1,7 +1,7 @@
 // Syrrhēxis army data. Edit the values below; keep the first line as is.
 window.NHB_DATA = {
   "meta": {
-    "version": "0.2.0",
+    "version": "0.2.1",
     "synced": "2026-10-19",
     "sources": {
       "Hittite Empire Army": "1aqMPs2Pi5car6pUzcuWmHXArGss_RZdkgATe5OsbVrw",
@@ -509,7 +509,7 @@ window.NHB_DATA = {
           "type": "Light Warrior",
           "move": 7,
           "training": 5,
-          "points": 11,
+          "points": 9,
           "comps": [
             [
               4,
@@ -549,7 +549,7 @@ window.NHB_DATA = {
               "24”",
               "5",
               "4",
-              "Recurve Bow, Direct Fire"
+              "Direct Fire"
             ],
             "GÍR": [
               "1",
@@ -893,7 +893,7 @@ window.NHB_DATA = {
               "24”",
               "5",
               "4",
-              "2 Attacks. Recurve Bow, Direct Fire"
+              "2 Attacks. Direct Fire"
             ],
             "ŠUKUR": [
               "8",
