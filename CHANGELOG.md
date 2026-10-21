@@ -6,6 +6,14 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## 0.2.2 — 2026-10-20
+
+### Mercenaries
+- Carduchian Tribesmen: Aġeġn bow gains Unwieldy (1) and Sunder (1). 11 → 13 points.
+
+### Builder
+- Open Order units now show the Unwieldy (X) Move penalty (e.g. Carduchians with the Aġeġn move 6).
+
 ## 0.2.1 — 2026-10-20
 
 ### Rules

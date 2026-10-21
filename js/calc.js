@@ -155,6 +155,16 @@ window.NHB = (function () {
     const shield = u.mixed ? (u.mixed.front.shield || u.mixed.rest.shield) : lo.shield;
     if (lo.body) m += (armorDef(u, lo.body).move || 0);
     if (shield) m += (armorDef(u, shield).move || 0);
+    // Unwieldy (X): Open Order units lose X Move (Closed Order pay it when turning instead).
+    if (isOpen(u)) {
+      let x = 0;
+      (lo.weapons || []).forEach(w => {
+        const t = (u.weapons && u.weapons[w] && u.weapons[w][3]) || "";
+        const mm = t.match(/Unwieldy \((\d+)\)/);
+        if (mm && (!/With Shield/.test(t) || shield)) x = Math.max(x, +mm[1]);
+      });
+      m -= x;
+    }
     return m;
   }
 
