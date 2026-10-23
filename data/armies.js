@@ -1,7 +1,7 @@
 // Syrrhēxis army data. Edit the values below; keep the first line as is.
 window.NHB_DATA = {
   "meta": {
-    "version": "0.2.11",
+    "version": "0.3.0",
     "synced": "2026-10-22",
     "sources": {
       "Hittite Empire Army": "1aqMPs2Pi5car6pUzcuWmHXArGss_RZdkgATe5OsbVrw",
@@ -5656,7 +5656,7 @@ window.NHB_DATA = {
       },
       {
         "id": "nabatean-skirmishers",
-        "name": "Nabatean Skirmishers",
+        "name": "Arabian Camel Riders",
         "type": "Skirmishing Cavalry",
         "move": 8,
         "training": 5,
@@ -5748,6 +5748,24 @@ window.NHB_DATA = {
       "mercs": 1,
       "text": "Your army may include 1 unit from the Supplemental Mercenaries list.",
       "note": "If you take a mercenary unit, this card must be one of the 3 cards in your hand."
+    },
+    {
+      "id": "persian-mercenaries",
+      "name": "Persian Mercenaries",
+      "armies": ["persia"],
+      "mercs": 2,
+      "mercUnits": ["nabatean-skirmishers", "greek-hoplites", "scythian-archers", "kushite-archers"],
+      "text": "Your army may include 2 units from the Supplemental Mercenaries list, chosen from Arabian Camel Riders, Greek Hoplites, Scythian Archers and Kushite Archers.",
+      "note": "If you take a mercenary unit through this card, this card must be one of the 3 cards in your hand."
+    },
+    {
+      "id": "numeri",
+      "name": "Numerī",
+      "armies": ["rome"],
+      "mercs": 2,
+      "mercUnits": ["cataphract", "numidian-javelineers", "nabatean-skirmishers", "thracian-warriors"],
+      "text": "Your army may include 2 units from the Supplemental Mercenaries list, chosen from Cataphracts, Numidian Javelineers, Arabian Camel Riders and Thracian Warriors.",
+      "note": "If you take a mercenary unit through this card, this card must be one of the 3 cards in your hand."
     }
   ]
 };

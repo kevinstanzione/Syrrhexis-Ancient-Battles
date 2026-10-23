@@ -50,9 +50,12 @@
   const COMMANDS = DATA.commands || [];
   const DECK_SIZE = 6;
   const unitDef = (id, src) => (src === "mercs" ? MERCS : army()).units.find(u => u.id === id);
-  const deck = () => (state.commands || []).map(id => COMMANDS.find(c => c.id === id)).filter(Boolean);
-  const mercAllowed = () => deck().reduce((n, c) => n + (c.mercs || 0), 0);
-  const summarizeState = () => NHB.summarize(army(), state.units, state.size, { pools: { mercs: MERCS }, mercAllowed: mercAllowed() });
+  // Faction cards list the armies that may take them; cards without "armies" are open to every army.
+  const cardsFor = () => COMMANDS.filter(c => !c.armies || c.armies.includes(army().id));
+  const deck = () => (state.commands || []).map(id => cardsFor().find(c => c.id === id)).filter(Boolean);
+  const mercSlots = () => NHB.mercSlots(deck());
+  const mercIds = () => state.units.filter(s => s.src === "mercs").map(s => s.unitId);
+  const summarizeState = () => NHB.summarize(army(), state.units, state.size, { pools: { mercs: MERCS }, mercSlots: mercSlots() });
   const save = () => store.set("nhb-current", state);
 
   // ---------- Tally ----------
@@ -190,17 +193,18 @@
         <span><span class="nm">${esc(u.name)}</span><br><span class="sub">${esc(u.type)} · ${size}</span></span>
         ${tbd ? `<span class="tbd">TBD</span>` : `<span class="num">${u.points}</span>`}</button>`;
     }).join("");
-    const mercN = state.units.filter(s => s.src === "mercs").length, mercOk = mercAllowed();
-    const mercRoster = mercOk ? `<h2>Supplemental Mercenaries <span class="label">${mercN} / ${mercOk} taken</span></h2><div class="roster-list">${MERCS.units.map(u => {
+    const slots = mercSlots(), taken = mercIds(), mercN = taken.length, mercOk = slots.length;
+    const allowedAny = id => slots.some(sl => !sl.units || sl.units.includes(id));
+    const mercRoster = mercOk ? `<h2>Supplemental Mercenaries <span class="label">${mercN} / ${mercOk} taken</span></h2><div class="roster-list">${MERCS.units.filter(u => allowedAny(u.id)).map(u => {
       const size = u.range ? `${u.range[0]}–${u.range[1]}` : u.comps.map(c => c[0] * c[1]).join(" or ");
-      const full = mercN >= mercOk;
+      const full = !NHB.mercFit(slots, taken.concat(u.id)).ok;
       return `<button class="pick" data-act="addunit" data-src="mercs" data-u="${u.id}" ${full ? "disabled" : ""}>
         <span><span class="nm">${esc(u.name)}</span><br><span class="sub">${esc(u.type)} · ${size}</span></span>
         <span class="num">${u.points}</span></button>`;
     }).join("")}</div>` : "";
-    const inDeck = state.commands || [];
+    const inDeck = deck().map(c => c.id);
     const cmd = `<section class="cmd"><h2>Command deck <span class="label">${inDeck.length} / ${DECK_SIZE} cards</span></h2>
-      <div class="cmd-list">${COMMANDS.map(c => {
+      <div class="cmd-list">${cardsFor().map(c => {
         const on = inDeck.includes(c.id), full = !on && inDeck.length >= DECK_SIZE;
         return `<label class="cmdcard ${on ? "on" : ""}"><input type="checkbox" data-act="cmd" data-id="${esc(c.id)}" ${on ? "checked" : ""} ${full ? "disabled" : ""}>
           <span><b>${esc(c.name)}</b><br>${kw(c.text)}${c.note ? `<br><span class="sub">${esc(c.note)}</span>` : ""}</span></label>`;
@@ -544,7 +548,7 @@
     if (act === "cmd") {
       const id = el.dataset.id;
       edit(() => {
-        state.commands = (state.commands || []).filter(c => c !== id);
+        state.commands = deck().map(c => c.id).filter(c => c !== id);
         if (el.checked && state.commands.length < DECK_SIZE) state.commands.push(id);
       });
       return;

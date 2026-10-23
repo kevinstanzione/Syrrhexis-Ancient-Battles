@@ -258,7 +258,31 @@ window.NHB = (function () {
     return w;
   }
 
-  // opts.pools: extra unit lists by source (e.g. { mercs: ... }); opts.mercAllowed: mercenary units the Command deck allows.
+  // Mercenary slots come from Command cards: one slot per unit a card allows, optionally limited to some unit ids.
+  // mercFit matches the chosen mercenary units to those slots (a small bipartite matching), so a unit only
+  // counts if some card in the deck allows it.
+  function mercSlots(cards) {
+    const slots = [];
+    (cards || []).forEach(c => { for (let k = 0; k < (c.mercs || 0); k++) slots.push({ card: c.id, name: c.name, units: c.mercUnits || null }); });
+    return slots;
+  }
+  function mercFit(slots, ids) {
+    const owner = slots.map(() => -1);
+    const can = (s, id) => !slots[s].units || slots[s].units.includes(id);
+    function place(i, seen) {
+      for (let s = 0; s < slots.length; s++) {
+        if (seen[s] || !can(s, ids[i])) continue;
+        seen[s] = true;
+        if (owner[s] < 0 || place(owner[s], seen)) { owner[s] = i; return true; }
+      }
+      return false;
+    }
+    const unplaced = [];
+    ids.forEach((id, i) => { if (!place(i, [])) unplaced.push(id); });
+    return { ok: unplaced.length === 0, unplaced, owner };
+  }
+
+  // opts.pools: extra unit lists by source (e.g. { mercs: ... }); opts.mercSlots: mercenary slots from the Command deck (see mercSlots).
   function summarize(army, list, limit, opts) {
     opts = opts || {};
     const pools = opts.pools || {};
@@ -275,16 +299,19 @@ window.NHB = (function () {
     const retCount = {};
     units.forEach(x => x.chars.forEach(c => { if (RETINUE.includes(c.name)) retCount[c.name] = (retCount[c.name] || 0) + 1; }));
     const armyWarn = Object.keys(retCount).filter(k => retCount[k] > 1).map(k => `Only one ${k} allowed per army (you have ${retCount[k]})`);
-    const mercN = list.filter(s => s.src === "mercs").length, mercOk = opts.mercAllowed || 0;
-    if (mercN > mercOk) armyWarn.push(mercOk
-      ? `Your Command deck allows ${mercOk} Supplemental Mercenaries unit${mercOk > 1 ? "s" : ""} (you have ${mercN})`
-      : `Mercenary units need the Supplemental Mercenaries Command card in your deck (you have ${mercN})`);
+    const mercIds = list.filter(s => s.src === "mercs").map(s => s.unitId), slots = opts.mercSlots || [];
+    if (mercIds.length) {
+      const fit = mercFit(slots, mercIds), mercName = id => ((pools.mercs || { units: [] }).units.find(x => x.id === id) || { name: id }).name;
+      if (!slots.length) armyWarn.push(`Mercenary units need a mercenary Command card in your deck (you have ${mercIds.length})`);
+      else if (mercIds.length > slots.length) armyWarn.push(`Your Command deck allows ${slots.length} mercenary unit${slots.length > 1 ? "s" : ""} (you have ${mercIds.length})`);
+      else if (!fit.ok) armyWarn.push(`No mercenary Command card in your deck has room for ${[...new Set(fit.unplaced.map(mercName))].join(", ")}`);
+    }
     if (pts > limit) armyWarn.unshift(`Over the limit by ${pts - limit} points`);
     const under = Math.max(0, limit - pts);
     return { units, pts, limit, under, bid: Math.min(25, under), morale: armyMorale(morale), armyWarn };
   }
 
   const charMorale = (name, t) => CHAR_MORALE[name] ? CHAR_MORALE[name](t) : 0;
-  return { charMorale, armorDef, models, ranksFiles, loadout, armor, health, unitStrength, points, morale, armyMorale, moveValue, activeRules, chosenChars, warnings, summarize, saveFor, isOpen, CLOSED_ONLY, RETINUE };
+  return { mercSlots, mercFit, charMorale, armorDef, models, ranksFiles, loadout, armor, health, unitStrength, points, morale, armyMorale, moveValue, activeRules, chosenChars, warnings, summarize, saveFor, isOpen, CLOSED_ONLY, RETINUE };
 })();
 if (typeof module !== "undefined") module.exports = NHB;
