@@ -6,6 +6,11 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## 0.4.2 — 2026-10-22
+
+### Command cards
+- New Hittite card: **Kadesh Ambush**. One Chariot unit gains Scout; you lose Army Morale equal to half of what that unit adds to your Starting Army Morale (rounded up). The penalty is a playtest value.
+
 ## 0.4.1 — 2026-10-22
 
 ### Command cards

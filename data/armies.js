@@ -1,7 +1,7 @@
 // Syrrhēxis army data. Edit the values below; keep the first line as is.
 window.NHB_DATA = {
   "meta": {
-    "version": "0.4.1",
+    "version": "0.4.2",
     "synced": "2026-10-22",
     "sources": {
       "Hittite Empire Army": "1aqMPs2Pi5car6pUzcuWmHXArGss_RZdkgATe5OsbVrw",
@@ -5808,6 +5808,16 @@ window.NHB_DATA = {
       "limit": 1,
       "text": "Until the end of the turn, all Chariot units gain +1 Accuracy.",
       "flavor": "Like the Storm God's bulls, the chariots thunder across the field."
+    },
+    {
+      "id": "kadesh-ambush",
+      "name": "Kadesh Ambush",
+      "armies": [
+        "hittite"
+      ],
+      "limit": 1,
+      "text": "Play during deployment. One Chariot unit gains the Scout special rule. You lose Army Morale equal to half the Army Morale that unit adds to your Starting Army Morale, rounded up.",
+      "flavor": "Hidden behind the city, the chariots fall upon the enemy's flank."
     },
     {
       "id": "thousand-gods-of-hatti",
