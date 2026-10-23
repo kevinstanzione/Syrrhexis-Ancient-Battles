@@ -1,7 +1,7 @@
 // Syrrhēxis army data. Edit the values below; keep the first line as is.
 window.NHB_DATA = {
   "meta": {
-    "version": "0.5.4",
+    "version": "0.5.5",
     "synced": "2026-10-22",
     "sources": {
       "Hittite Empire Army": "1aqMPs2Pi5car6pUzcuWmHXArGss_RZdkgATe5OsbVrw",
@@ -5792,6 +5792,13 @@ window.NHB_DATA = {
       "limit": 3,
       "text": "Play when an opponent plays an Obstacle Command card. Lose Army Morale equal to 10% of your Starting Army Morale, rounded up. That card is cancelled and its Obstacle is not placed.",
       "flavor": "Before the wall is raised, the diggers have already undone it."
+    },
+    {
+      "id": "spy",
+      "name": "Spy",
+      "limit": 1,
+      "text": "Play before deployment. Your opponent reveals 2 of the Command cards they did not pick, at random.",
+      "flavor": "A merchant from the enemy camp sells more than wine."
     },
     {
       "id": "blot-out-the-sun",

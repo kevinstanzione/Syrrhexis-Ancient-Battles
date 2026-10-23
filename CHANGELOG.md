@@ -6,6 +6,14 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## 0.5.5 — 2026-10-23
+
+### Command cards
+- New generic card: **Spy** (1 per deck). Before deployment, your opponent reveals 2 of their unpicked Command cards at random.
+
+### Rules
+- The Major Terrain's type and location are now chosen before players pick their 3-card Command hands.
+
 ## 0.5.4 — 2026-10-23
 
 ### Command cards
