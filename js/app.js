@@ -223,7 +223,7 @@
   function rulesUsed(sum) {
     const model = new Set(), weapon = new Set(), chars = new Set(), types = new Set();
     sum.units.forEach(x => {
-      x.rules.forEach(r => { if (/^Terrify/.test(r)) model.add("Terrify X"); else if (R.model[r]) model.add(r); });
+      x.rules.forEach(r => { if (/^Terrify/.test(r)) model.add("Terrify X"); else if (/^Surefooted \(/.test(r)) model.add("Surefooted (X)"); else if (R.model[r]) model.add(r); });
       x.lo.weapons.concat(x.lo.gear).forEach(w => {
         const st = x.u.weapons[w]; if (!st) return;
         R.weaponPatterns.forEach(([re, name]) => { if (re.test(st[3])) weapon.add(name); });
@@ -251,7 +251,8 @@
     const reEsc = t => t.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
     const list = Object.keys(all).map(name => {
       let src;
-      if (/ \(X\)$/.test(name)) src = reEsc(name.slice(0, -4)) + " \\((\\d+)\\)";
+      if (name === "Surefooted (X)") src = "Surefooted \\((?:Stony Plain|Marsh|Sand)(?:, (?:Stony Plain|Marsh|Sand))*\\)";
+      else if (/ \(X\)$/.test(name)) src = reEsc(name.slice(0, -4)) + " \\((\\d+)\\)";
       else if (/ X$/.test(name)) src = reEsc(name.slice(0, -2)) + " ([A-Z][\\w-]*)";
       else src = reEsc(name);
       return { name, src, re: new RegExp("^(?:" + src + ")$") };

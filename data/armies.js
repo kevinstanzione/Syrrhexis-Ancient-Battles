@@ -1,7 +1,7 @@
 // Syrrhēxis army data. Edit the values below; keep the first line as is.
 window.NHB_DATA = {
   "meta": {
-    "version": "0.5.5",
+    "version": "0.5.6",
     "synced": "2026-10-22",
     "sources": {
       "Hittite Empire Army": "1aqMPs2Pi5car6pUzcuWmHXArGss_RZdkgATe5OsbVrw",
@@ -5083,7 +5083,7 @@ window.NHB_DATA = {
         ],
         "rules": [
           "Ambush",
-          "Surefooted",
+          "Surefooted (Marsh, Sand)",
           "Mercenary"
         ],
         "weapons": {
@@ -5305,7 +5305,7 @@ window.NHB_DATA = {
           }
         ],
         "rules": [
-          "Surefooted",
+          "Surefooted (Marsh)",
           "Mercenary"
         ],
         "weapons": {
@@ -5715,6 +5715,7 @@ window.NHB_DATA = {
           "Terrify Cavalry",
           "Terrify Chariots",
           "Scout",
+          "Surefooted (Sand)",
           "Mercenary",
           "Camel Riders"
         ],

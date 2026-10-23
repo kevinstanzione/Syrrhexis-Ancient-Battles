@@ -21,6 +21,7 @@ window.NHB_RULES = {
     "Suicidal": "Not removed due to Damage until the end of the Combat Phase, even if the Unit Health Table would remove it.",
     "Surefooted": "Ignores Difficult Terrain penalties. In a Stony Plain, moves as Skirmishing Warriors. In a Marsh, Move Allotment is still limited to Move but it gains no Break Tokens for moving there.",
     "Tactician": "+1 to Initiative rolls while the unit has a Hold token. Does not stack.",
+    "Surefooted (X)": "As Surefooted, but only within the listed terrain types (Stony Plain, Marsh or Sand). Terrain that follows a type's rules counts as that type: Crumbled Ruins as Stony Plain; Flooded Field and Chinampas as Marsh.",
     "Terrify X": "When this unit charges or is charged by a unit of type X, that unit gains a Break Token. Terrify All affects every unit type.",
     "Volley": "If the unit takes the Hold action, its Shooting attacks have twice their range at -1 to hit and wound rolls. The defender also loses Army Morale equal to half the attacks before rolling. Cannot be used in the same round as Aim."
   },

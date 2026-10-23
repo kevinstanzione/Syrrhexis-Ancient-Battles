@@ -6,6 +6,16 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## 0.5.6 — 2026-10-23
+
+### Rules
+- New: **Surefooted (X)**, Surefooted limited to the listed terrain types (Stony Plain, Marsh, Sand). Terrain that follows a type's rules counts as that type.
+
+### Mercenaries
+- Đông Sơn Axemen: Surefooted → Surefooted (Marsh).
+- Sea People Raiders: Surefooted → Surefooted (Marsh, Sand).
+- Arabian Camel Riders: gain Surefooted (Sand).
+
 ## 0.5.5 — 2026-10-23
 
 ### Command cards
