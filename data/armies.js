@@ -1,7 +1,7 @@
 // Syrrhēxis army data. Edit the values below; keep the first line as is.
 window.NHB_DATA = {
   "meta": {
-    "version": "0.8.7",
+    "version": "0.8.8",
     "synced": "2026-10-22",
     "sources": {
       "Hittite Empire Army": "1aqMPs2Pi5car6pUzcuWmHXArGss_RZdkgATe5OsbVrw",
@@ -5043,10 +5043,10 @@ window.NHB_DATA = {
             4
           ]
         ],
-        "equip": [],
-        "gear": [
+        "equip": [
           "Phásganon"
         ],
+        "gear": [],
         "body": null,
         "shield": "Shield",
         "opts": [
@@ -5057,7 +5057,7 @@ window.NHB_DATA = {
               {
                 "name": "Phásganon sword",
                 "c": 0,
-                "gear": [
+                "w": [
                   "Phásganon"
                 ]
               },
