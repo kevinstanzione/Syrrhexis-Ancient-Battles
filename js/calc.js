@@ -26,7 +26,7 @@ window.NHB = (function () {
   const CHAR_GRANTS = {
     "Lord": ["Noble"], "Ranger Captain": ["Surefooted"],
     "Shaman": ["Frenzy"], "Volleymaster": ["Volley"], "Bowmaster": ["Aim"],
-    "Tribal Leader": ["Noble", "Mercenary"]
+    "Tribal Leader": ["Noble"]
   };
 
   const isOpen = u => !!u.range;

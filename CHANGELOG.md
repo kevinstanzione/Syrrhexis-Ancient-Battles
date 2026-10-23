@@ -6,6 +6,11 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## 0.7.6 — 2026-10-23
+
+### Characters
+- Tribal Leader no longer gives its unit the Mercenary rule. It grants Noble and removes Levy. (This also stops Persian units with a Tribal Leader counting toward All of Mankind.)
+
 ## 0.7.5 — 2026-10-23
 
 ### Characters
