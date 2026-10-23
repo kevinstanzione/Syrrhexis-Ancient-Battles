@@ -6,6 +6,11 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## 0.6.8 — 2026-10-23
+
+### Rules
+- Frenzy trimmed: keeps its Charge token against bigger chargers, ignores Terrify, and gets +2 to Break Tests and Fear Tests. It no longer gives +1 to self-Rally, and the reference to a Run token Accuracy penalty is gone.
+
 ## 0.6.7 — 2026-10-23
 
 ### Command cards
