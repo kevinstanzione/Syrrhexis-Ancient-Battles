@@ -1,7 +1,7 @@
 // Syrrhēxis army data. Edit the values below; keep the first line as is.
 window.NHB_DATA = {
   "meta": {
-    "version": "0.4.0",
+    "version": "0.4.1",
     "synced": "2026-10-22",
     "sources": {
       "Hittite Empire Army": "1aqMPs2Pi5car6pUzcuWmHXArGss_RZdkgATe5OsbVrw",
@@ -5745,9 +5745,9 @@ window.NHB_DATA = {
     {
       "id": "supplemental-mercenaries",
       "name": "Supplemental Mercenaries",
-      "limit": 1,
+      "limit": 3,
       "mercs": 1,
-      "text": "Your army may include 1 unit from the Supplemental Mercenaries list.",
+      "text": "Your army may include 1 unit from the Supplemental Mercenaries list for each copy of this card in your deck.",
       "note": "If you take a mercenary unit, this card must be one of the 3 cards in your hand.",
       "flavor": "Gold buys soldiers when loyalty runs short."
     },
@@ -5826,7 +5826,7 @@ window.NHB_DATA = {
         "rome"
       ],
       "limit": 1,
-      "text": "Play on a Closed Order unit not Locked in Combat. It recovers Health equal to a third of its starting Health (rounded down) and removes 2 Break Tokens. Removed models do not return, and no Army Morale is restored.",
+      "text": "Play on a Closed Order unit, even one Locked in Combat. It recovers Health equal to a third of its starting Health (rounded down) and removes 2 Break Tokens. Removed models do not return, and no Army Morale is restored.",
       "flavor": "Fresh men step forward as the weary front rank falls back."
     },
     {

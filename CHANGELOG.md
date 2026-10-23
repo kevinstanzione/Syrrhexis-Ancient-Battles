@@ -6,6 +6,12 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## 0.4.1 — 2026-10-22
+
+### Command cards
+- Supplemental Mercenaries: up to 3 per deck. Each copy allows 1 mercenary unit.
+- Triplex Aciēs can be played on a unit that is Locked in Combat.
+
 ## 0.4.0 — 2026-10-22
 
 ### Command cards
