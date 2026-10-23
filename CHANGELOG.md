@@ -6,6 +6,15 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## 0.4.4 — 2026-10-23
+
+### Rules
+- Phalanx is negated only if the unit has neither a Shield nor a weapon of Length 6 or more (was: greater than 6).
+
+### Command cards
+- New Aztec card: **Death Whistle**. Enemy units within 24” of a unit with a Shaman or Army Musician take a Fear Test at -1; those that fail lose their Hold Action Token.
+- Fulcum: dropped the Phalanx requirement waiver, which the new Phalanx wording makes unnecessary.
+
 ## 0.4.3 — 2026-10-22
 
 ### Command cards

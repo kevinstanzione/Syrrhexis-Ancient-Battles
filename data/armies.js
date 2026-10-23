@@ -1,7 +1,7 @@
 // Syrrhēxis army data. Edit the values below; keep the first line as is.
 window.NHB_DATA = {
   "meta": {
-    "version": "0.4.3",
+    "version": "0.4.4",
     "synced": "2026-10-22",
     "sources": {
       "Hittite Empire Army": "1aqMPs2Pi5car6pUzcuWmHXArGss_RZdkgATe5OsbVrw",
@@ -5856,7 +5856,7 @@ window.NHB_DATA = {
         "rome"
       ],
       "limit": 1,
-      "text": "Until the end of the turn, all units with Testūdō are treated as having the Phalanx special rule, and ignore its Shield and weapon Length requirement. They may also use their Pīlum in Melee as described in Testūdō (Length 6, -1 Strength, no Sunder), even if they did not take the Hold action.",
+      "text": "Until the end of the turn, all units with Testūdō are treated as having the Phalanx special rule. They may also use their Pīlum in Melee as described in Testūdō (Length 6, -1 Strength, no Sunder), even if they did not take the Hold action.",
       "flavor": "Shields locked edge to edge, the cohort becomes a wall."
     },
     {
@@ -5896,6 +5896,16 @@ window.NHB_DATA = {
       "limit": 1,
       "text": "Until the end of the turn, units within 8” of a Shaman gain Frenzy, and each unit with a Shaman gains +1 Strength with melee weapons.",
       "flavor": "Priests drive the warriors on, promising hearts for the war god."
+    },
+    {
+      "id": "death-whistle",
+      "name": "Death Whistle",
+      "armies": [
+        "aztec"
+      ],
+      "limit": 1,
+      "text": "Enemy units within 24” of a unit with a Shaman or Army Musician take a Fear Test at -1. Units that fail lose their Hold Action Token.",
+      "flavor": "A shriek like the cry of the dead rises from the Aztec ranks."
     },
     {
       "id": "othismos",
