@@ -6,6 +6,11 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## 0.2.7 — 2026-10-22
+
+### Mercenaries
+- New unit: Kushite Archers (Skirmishing Warrior, 6-12 models, 13 points). Pḏt long bow (28", Accuracy 6, Strength 4, Direct Fire, Unwieldy (1)) and Wḏꜣt knife.
+
 ## 0.2.6 — 2026-10-22
 
 ### Persia
