@@ -6,6 +6,11 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## 0.6.7 — 2026-10-23
+
+### Command cards
+- New generic card: **Bodyguard** (up to 3 per deck). For one round, a foot unit with base Training 7+ that isn't a Retinue gains Guard.
+
 ## 0.6.6 — 2026-10-23
 
 ### Rules

@@ -1,7 +1,7 @@
 // Syrrhēxis army data. Edit the values below; keep the first line as is.
 window.NHB_DATA = {
   "meta": {
-    "version": "0.6.6",
+    "version": "0.6.7",
     "synced": "2026-10-22",
     "sources": {
       "Hittite Empire Army": "1aqMPs2Pi5car6pUzcuWmHXArGss_RZdkgATe5OsbVrw",
@@ -5819,6 +5819,13 @@ window.NHB_DATA = {
       "limit": 3,
       "text": "Until the end of the turn, up to two Light Cavalry units that have Feign Charge also gain Feign Retreat.",
       "flavor": "The horsemen wheel away as if beaten, and the foolish give chase."
+    },
+    {
+      "id": "bodyguard",
+      "name": "Bodyguard",
+      "limit": 3,
+      "text": "Until the end of the round, one Warrior, Light Warrior or Skirmishing Warrior unit with base Training 7 or higher, and without Retinue in its name, gains the Guard special rule.",
+      "flavor": "The best men stand closest to their general, ready to step in front of any blow."
     },
     {
       "id": "spy",
