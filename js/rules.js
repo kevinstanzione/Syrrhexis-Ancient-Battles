@@ -10,7 +10,7 @@ window.NHB_RULES = {
     "Frenzy": "Does not lose its Charge token when charged by a unit with greater Unit Strength. Gains no Break Tokens from Terrify. +2 to Break Tests and Fear Tests.",
     "Guard": "When this unit would begin activation with a Hold token, it may instead swap its Order Token with another unit within 12” that has not activated this round. If it does, remove its Hold token.",
     "Levy": "Closed Order: the rear rank does not count for Unit Strength. Open Order: Unit Strength is halved, rounded up. During Mass Panic, automatically fails Break Tests and cannot be Rallied.",
-    "Mercenary": "May Rally itself, but cannot be Rallied by other units except Noble units or Mercenary units with greater Training. Can only Rally other Mercenaries. During Mass Panic, automatically fails Break Tests and cannot be Rallied.",
+    "Mercenary": "May Rally itself, but cannot be Rallied by other units except Noble units or Mercenary units with greater base Training. Can only Rally other Mercenaries. During Mass Panic, automatically fails Break Tests and cannot be Rallied.",
     "Mixed Unit": "Models may have different Equipment and Gear as the profile allows. If models have different Armor Saves, use the most common save, or the weaker if tied.",
     "Noble": "+2 when Rallying other units, and may Rally Mercenary units. Mercenary and Levy units within 24” can be Rallied during Mass Panic.",
     "Parthian Shot": "After a Feign Retreat, may make Shooting attacks despite the Run token, only against the unit it Feign Retreated from, at -2.",
