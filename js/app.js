@@ -41,6 +41,7 @@
   let state = withUids(JSON.parse(JSON.stringify(savedCurrent && !savedCurrent.example ? savedCurrent : EXAMPLE)));
   let toggles = store.get("nhb-toggles", { unit: true, army: false, chars: false, types: false });
   let tab = "build";
+  let cmdTab = "faction"; // "faction" or "generic" on the Commands tab
   let pending = null; // inline confirmation
   const openCards = new Set(); // expanded unit cards, by uid
   const openCmds = new Set(); // expanded Command cards, by id
@@ -207,19 +208,38 @@
         <span><span class="nm">${esc(u.name)}</span><br><span class="sub">${esc(u.type)} · ${size}</span></span>
         <span class="num">${u.points}</span></button>`;
     }).join("")}</div>` : "";
-    const inDeck = deck().map(c => c.id);
-    const cmd = `<section class="cmd"><h2>Command deck <span class="label">${inDeck.length} / ${DECK_SIZE} cards</span></h2>
-      <div class="cmd-list">${cardsFor().map(c => {
-        const n = copiesOf(c.id), lim = limitOf(c), on = n > 0, full = inDeck.length >= DECK_SIZE, open = openCmds.has(c.id);
-        const limText = lim > 1 ? `Up to ${lim} per deck` : "1 per deck";
-        const pick = lim > 1
-          ? `<div class="stepper"><button data-act="cmddec" data-id="${esc(c.id)}" ${n ? "" : "disabled"} aria-label="Remove a copy">−</button><span class="num">${n}</span><button data-act="cmdinc" data-id="${esc(c.id)}" ${n >= lim || full ? "disabled" : ""} aria-label="Add a copy">+</button></div>`
-          : `<input type="checkbox" data-act="cmd" data-id="${esc(c.id)}" ${on ? "checked" : ""} ${!on && full ? "disabled" : ""} aria-label="Add ${esc(c.name)} to deck">`;
-        const details = open ? `<div class="cmd-details">${c.flavor ? `<i class="flavor">${esc(c.flavor)}</i><br>` : ""}${kw(c.text)}${c.note ? `<br><span class="sub">${esc(c.note)}</span>` : ""}</div>` : "";
-        return `<div class="cmdcard ${on ? "on" : ""}${open ? " open" : ""}">${pick}<div class="cmd-main"><div class="cmd-head"><span><b>${esc(c.name)}</b><br><span class="sub">${esc(c.short || "")} · ${limText}</span></span><button class="cmd-more" data-act="cmdmore" data-id="${esc(c.id)}" aria-expanded="${open}" aria-label="${open ? "Hide" : "Show"} rules for ${esc(c.name)}">${open ? "−" : "+"}</button></div>${details}</div></div>`;
-      }).join("")}</div>
-      <p class="sub">Pick up to ${DECK_SIZE} cards. More Command cards are on the way.</p></section>`;
+    const names = deckNames();
+    const cmd = `<section class="cmd cmd-summary"><h2>Command deck <span class="label">${deck().length} / ${DECK_SIZE} cards</span></h2>
+      <p>${names.length ? names.map(esc).join(", ") : `<span class="sub">No cards picked yet.</span>`}</p>
+      <button class="btn" data-act="gocmd">${names.length ? "Edit Command deck" : "Choose Command cards"}</button></section>`;
     $("#view").innerHTML = `${ex}${warn}${cards}${cmd}<section class="roster"><h2>Add a unit</h2><div class="roster-list">${roster}</div>${mercRoster}</section>`;
+  }
+
+  // ---------- Commands ----------
+  function cmdCard(c) {
+    const inDeck = deck();
+    const n = copiesOf(c.id), lim = limitOf(c), on = n > 0, full = inDeck.length >= DECK_SIZE, open = openCmds.has(c.id);
+    const limText = lim > 1 ? `Up to ${lim} per deck` : "1 per deck";
+    const pick = lim > 1
+      ? `<div class="stepper"><button data-act="cmddec" data-id="${esc(c.id)}" ${n ? "" : "disabled"} aria-label="Remove a copy">−</button><span class="num">${n}</span><button data-act="cmdinc" data-id="${esc(c.id)}" ${n >= lim || full ? "disabled" : ""} aria-label="Add a copy">+</button></div>`
+      : `<input type="checkbox" data-act="cmd" data-id="${esc(c.id)}" ${on ? "checked" : ""} ${!on && full ? "disabled" : ""} aria-label="Add ${esc(c.name)} to deck">`;
+    const details = open ? `<div class="cmd-details">${c.flavor ? `<i class="flavor">${esc(c.flavor)}</i><br>` : ""}${kw(c.text)}${c.note ? `<br><span class="sub">${esc(c.note)}</span>` : ""}</div>` : "";
+    return `<div class="cmdcard ${on ? "on" : ""}${open ? " open" : ""}">${pick}<div class="cmd-main"><div class="cmd-head"><span><b>${esc(c.name)}</b><br><span class="sub">${esc(c.short || "")} · ${limText}</span></span><button class="cmd-more" data-act="cmdmore" data-id="${esc(c.id)}" aria-expanded="${open}" aria-label="${open ? "Hide" : "Show"} rules for ${esc(c.name)}">${open ? "−" : "+"}</button></div>${details}</div></div>`;
+  }
+  function renderCmd() {
+    const faction = cardsFor().filter(c => c.armies), generic = cardsFor().filter(c => !c.armies);
+    if (cmdTab === "faction" && !faction.length) cmdTab = "generic";
+    const list = cmdTab === "faction" ? faction : generic;
+    const names = deckNames();
+    const countIn = arr => deck().filter(c => arr.includes(c)).length;
+    $("#view").innerHTML = `<section class="cmd">
+      <h2>Command deck <span class="label">${deck().length} / ${DECK_SIZE} cards</span></h2>
+      <p class="cmd-picked">${names.length ? names.map(esc).join(", ") : `<span class="sub">Pick up to ${DECK_SIZE} cards. Your opponent sees your whole deck; before deployment you secretly choose 3 as your hand.</span>`}</p>
+      <div class="subtabs" role="tablist">
+        ${faction.length ? `<button role="tab" data-act="cmdtab" data-t="faction" aria-selected="${cmdTab === "faction"}">${esc(army().name)} <span class="sub">${countIn(faction)}</span></button>` : ""}
+        <button role="tab" data-act="cmdtab" data-t="generic" aria-selected="${cmdTab === "generic"}">Generic <span class="sub">${countIn(generic)}</span></button>
+      </div>
+      <div class="cmd-list">${list.map(cmdCard).join("")}</div></section>`;
   }
 
   // ---------- Sheet ----------
@@ -473,7 +493,8 @@
     renderSetup();
     $("#tab-build").setAttribute("aria-selected", tab === "build");
     $("#tab-sheet").setAttribute("aria-selected", tab === "sheet");
-    if (tab === "build") renderBuild(sum); else renderSheet(sum);
+    $("#tab-cmd").setAttribute("aria-selected", tab === "cmd");
+    if (tab === "build") renderBuild(sum); else if (tab === "cmd") renderCmd(); else renderSheet(sum);
     render.sum = sum;
   }
 
@@ -483,7 +504,7 @@
   document.addEventListener("click", e => {
     const b = e.target.closest("[data-act], [data-size], [role=tab]");
     if (!b) return;
-    if (b.id === "tab-build" || b.id === "tab-sheet") { tab = b.id === "tab-build" ? "build" : "sheet"; render(); return; }
+    if (b.id === "tab-build" || b.id === "tab-sheet" || b.id === "tab-cmd") { tab = { "tab-build": "build", "tab-sheet": "sheet", "tab-cmd": "cmd" }[b.id]; render(); return; }
     if (b.dataset.size) { const s = +b.dataset.size; if (s !== state.size) { state.size = s; save(); render(); } return; }
     const act = b.dataset.act, i = +b.dataset.i;
     const sel = state.units[i];
@@ -494,6 +515,8 @@
         edit(() => { const id = newUid(); openCards.add(id); const s = { uid: id, unitId: u.id, comp: 0, count: u.range ? u.range[0] : undefined, swaps: {}, adds: {}, chars: {} }; if (src) s.src = src; state.units.push(s); });
         break;
       }
+      case "gocmd": tab = "cmd"; render(); window.scrollTo(0, 0); break;
+      case "cmdtab": cmdTab = b.dataset.t; render(); break;
       case "cmdmore": { const id = b.dataset.id; openCmds.has(id) ? openCmds.delete(id) : openCmds.add(id); render(); break; }
       case "cmdinc": case "cmddec": {
         const id = b.dataset.id, c = cardsFor().find(x => x.id === id); if (!c) break;
