@@ -1,7 +1,7 @@
 // Syrrhēxis army data. Edit the values below; keep the first line as is.
 window.NHB_DATA = {
   "meta": {
-    "version": "0.7.12",
+    "version": "0.7.13",
     "synced": "2026-10-22",
     "sources": {
       "Hittite Empire Army": "1aqMPs2Pi5car6pUzcuWmHXArGss_RZdkgATe5OsbVrw",
@@ -1781,7 +1781,7 @@ window.NHB_DATA = {
               "5”",
               "6",
               "-",
-              "Throwing Weapon. On hit, increase the amount of Morale lost to Suppression from 1 to the enemy’s Training value, then make a bonus attack with a melee weapon (even if not in base contact) at -1 Accuracy."
+              "Throwing Weapon. On hit, increase the amount of Morale lost to Suppression from 1 to the enemy’s Training value, then make a bonus attack with a melee weapon (even if not in base contact) at -1 Accuracy. Ignores Evasion."
             ],
             "Akīnakah Kamna": [
               "1",
@@ -3908,7 +3908,7 @@ window.NHB_DATA = {
               "48”",
               "7",
               "8",
-              "1 Attack. Direct Fire, Piercing Shot (1), Massive Suppression (5)"
+              "1 Attack. Direct Fire, Piercing Shot (1), Massive Suppression (5), Cumbersome"
             ],
             "Gladius": [
               "4",
@@ -3966,7 +3966,7 @@ window.NHB_DATA = {
               "36”",
               "6",
               "7",
-              "1 Attack. Direct Fire, Piercing Shot (1), Massive Suppression (3)"
+              "1 Attack. Direct Fire, Piercing Shot (1), Massive Suppression (3), Cumbersome"
             ],
             "Gladius": [
               "4",

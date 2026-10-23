@@ -28,6 +28,7 @@ window.NHB_RULES = {
   },
   weapon: {
     "Cleaving Blade (X)": "+2 Strength unless the target's Armor Value is X or greater. Always +2 Strength against Elephants.",
+    "Cumbersome": "Against a unit whose Evasion applies, this weapon suffers an additional -1 Accuracy. This stacks with Evasion and with any effects that increase it.",
     "Direct Fire": "+1 Strength against targets within a quarter of maximum range.",
     "Massive Suppression (X)": "Each Hit causes X Army Morale loss from Suppression instead of 1.",
     "Melee Suppression": "Each Hit with this weapon in Melee costs the defending player 1 Army Morale from Suppression, just as a Shooting Hit does. Effects that increase, reduce or negate Suppression also apply.",
@@ -42,7 +43,7 @@ window.NHB_RULES = {
     "Unwieldy (X)": "Closed Order: each turn costs an additional X” of Move Allotment. Open Order: -X Move instead."
   },
   weaponPatterns: [
-    [/Cleaving Blade/, "Cleaving Blade (X)"], [/Direct Fire/, "Direct Fire"], [/Massive Suppression/, "Massive Suppression (X)"],
+    [/Cleaving Blade/, "Cleaving Blade (X)"], [/Cumbersome/, "Cumbersome"], [/Direct Fire/, "Direct Fire"], [/Massive Suppression/, "Massive Suppression (X)"],
     [/Melee Suppression/, "Melee Suppression"], [/Parrying Blade/, "Parrying Blade"], [/Pavise/, "Pavise"], [/Piercing Shot/, "Piercing Shot (X)"], [/Reach \(/, "Reach (X)"],
     [/Recurve Bow/, "Recurve Bow"], [/Sunder \(/, "Sunder (X)"], [/Throwing Weapon/, "Throwing Weapon"], [/Thrusting Blade/, "Thrusting Blade"], [/Unwieldy/, "Unwieldy (X)"]
   ],
