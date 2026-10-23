@@ -193,6 +193,8 @@ window.NHB = (function () {
     let rules = (u.rules || []).slice();
     chars.forEach(c => (CHAR_GRANTS[c] || []).forEach(r => { if (!rules.includes(r)) rules.push(r); }));
     if (chars.includes("Taskmaster") || chars.includes("Tribal Leader")) rules = rules.filter(r => r !== "Levy");
+    // Every Light and Skirmishing Warrior or Cavalry unit has Evasion from its unit type.
+    if (/^(Light|Skirmishing) (Warrior|Cavalry)/.test(u.type) && !rules.includes("Evasion")) rules.push("Evasion");
     return rules;
   }
 

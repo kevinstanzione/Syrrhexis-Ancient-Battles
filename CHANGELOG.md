@@ -6,6 +6,11 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## 0.7.12 — 2026-10-23
+
+### Rules
+- New special rule: **Evasion**. While Open Order with a Run token, Shooting against the unit is at -1 Accuracy. Every Light and Skirmishing Warrior and Cavalry unit has it, and the builder now lists it on those units. This replaces the old general rule that any Open Order runner was harder to hit.
+
 ## 0.7.11 — 2026-10-23
 
 ### Characters
