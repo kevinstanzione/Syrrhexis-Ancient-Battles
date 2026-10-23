@@ -6,6 +6,11 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## 0.9.1 — 2026-10-23
+
+### Mercenaries
+- Carduchian Tribesmen: swapping the Aġeġn bow for Nizak javelins, Dašoyn dagger and Shield is now free (was +1).
+
 ## 0.9.0 — 2026-10-23
 
 ### Names
