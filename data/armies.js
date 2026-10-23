@@ -1,7 +1,7 @@
 // Syrrhēxis army data. Edit the values below; keep the first line as is.
 window.NHB_DATA = {
   "meta": {
-    "version": "0.6.2",
+    "version": "0.6.3",
     "synced": "2026-10-22",
     "sources": {
       "Hittite Empire Army": "1aqMPs2Pi5car6pUzcuWmHXArGss_RZdkgATe5OsbVrw",
@@ -5814,6 +5814,13 @@ window.NHB_DATA = {
       "flavor": "Before the wall is raised, the diggers have already undone it."
     },
     {
+      "id": "feigned-flight",
+      "name": "Feigned Flight",
+      "limit": 3,
+      "text": "Until the end of the turn, up to two Light Cavalry units that have Feign Charge also gain Feign Retreat.",
+      "flavor": "The horsemen wheel away as if beaten, and the foolish give chase."
+    },
+    {
       "id": "spy",
       "name": "Spy",
       "limit": 1,
@@ -6025,6 +6032,16 @@ window.NHB_DATA = {
       "limit": 1,
       "text": "Before deployment, place a 6” × 6” area of Chinampas in the neutral zone, outside every deployment zone. It follows the rules for a Marsh, but units in your army without the Mercenary rule ignore its effects.",
       "flavor": "Canals and floating gardens swallow the invader; the Mexica know every path."
+    },
+    {
+      "id": "the-hot-gates",
+      "name": "The Hot Gates",
+      "armies": [
+        "greek"
+      ],
+      "limit": 1,
+      "text": "Until the end of the turn, one Warrior, Light Warrior or Skirmishing Warrior unit gains Feign Retreat and +1 Move.",
+      "flavor": "The Spartans turn as if to flee, then fall upon the Persians who follow."
     },
     {
       "id": "othismos",
