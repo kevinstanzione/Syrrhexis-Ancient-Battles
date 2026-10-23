@@ -1,7 +1,7 @@
 // Syrrhēxis army data. Edit the values below; keep the first line as is.
 window.NHB_DATA = {
   "meta": {
-    "version": "0.6.3",
+    "version": "0.6.4",
     "synced": "2026-10-22",
     "sources": {
       "Hittite Empire Army": "1aqMPs2Pi5car6pUzcuWmHXArGss_RZdkgATe5OsbVrw",
@@ -6040,7 +6040,7 @@ window.NHB_DATA = {
         "greek"
       ],
       "limit": 1,
-      "text": "Until the end of the turn, one Warrior, Light Warrior or Skirmishing Warrior unit gains Feign Retreat and +1 Move.",
+      "text": "Until the end of the turn, one Warrior, Light Warrior or Skirmishing Warrior unit gains Feign Retreat and +1 Move. If it has Phalanx, it gains +2 Move instead.",
       "flavor": "The Spartans turn as if to flee, then fall upon the Persians who follow."
     },
     {
