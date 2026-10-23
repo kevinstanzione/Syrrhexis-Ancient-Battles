@@ -1,7 +1,7 @@
 // Syrrhēxis army data. Edit the values below; keep the first line as is.
 window.NHB_DATA = {
   "meta": {
-    "version": "0.5.3",
+    "version": "0.5.4",
     "synced": "2026-10-22",
     "sources": {
       "Hittite Empire Army": "1aqMPs2Pi5car6pUzcuWmHXArGss_RZdkgATe5OsbVrw",
@@ -5787,6 +5787,13 @@ window.NHB_DATA = {
       "flavor": "Broken dikes turn the farmland into a mire."
     },
     {
+      "id": "sappers",
+      "name": "Sappers",
+      "limit": 3,
+      "text": "Play when an opponent plays an Obstacle Command card. Lose Army Morale equal to 10% of your Starting Army Morale, rounded up. That card is cancelled and its Obstacle is not placed.",
+      "flavor": "Before the wall is raised, the diggers have already undone it."
+    },
+    {
       "id": "blot-out-the-sun",
       "name": "Blot Out the Sun",
       "armies": [
@@ -5865,6 +5872,16 @@ window.NHB_DATA = {
       "flavor": "Hidden behind the city, the chariots fall upon the enemy's flank."
     },
     {
+      "id": "crossing-the-orontes",
+      "name": "Crossing the Orontes",
+      "armies": [
+        "hittite"
+      ],
+      "limit": 1,
+      "text": "Until the end of the turn, units in your army without the Mercenary rule treat Marsh terrain, and terrain that follows the Marsh rules, as Difficult Terrain only.",
+      "flavor": "The river runs low in summer, and the chariots know the ford."
+    },
+    {
       "id": "thousand-gods-of-hatti",
       "name": "The Thousand Gods of Hatti",
       "armies": [
@@ -5911,7 +5928,7 @@ window.NHB_DATA = {
         "rome"
       ],
       "limit": 1,
-      "text": "Before deployment, place a trench up to 12” long and 1” wide that starts in your deployment zone. Cavalry, Chariots, Elephants and Warmachines cannot cross it. Other units crossing it lose the +1 Strength from their Charge Action Token that turn.",
+      "text": "Obstacle. Before deployment, place a trench up to 12” long and 1” wide that starts in your deployment zone. Cavalry, Chariots, Elephants and Warmachines cannot cross it. Other units crossing it lose the +1 Strength from their Charge Action Token that turn.",
       "flavor": "Caesar's spades guard the flanks better than any cohort."
     },
     {
@@ -5921,7 +5938,7 @@ window.NHB_DATA = {
         "rome"
       ],
       "limit": 1,
-      "text": "Before deployment, place two 3” × 3” Līlia markers anywhere within 6” of your deployment zone. A Cavalry, Chariot or Elephant unit that moves into one suffers 1 hit at Strength 5 per model and gains a Break Token. Warrior units treat it as Difficult Terrain.",
+      "text": "Obstacle. Before deployment, place two 3” × 3” Līlia markers anywhere within 6” of your deployment zone. A Cavalry, Chariot or Elephant unit that moves into one suffers 1 hit at Strength 5 per model and gains a Break Token. Warrior units treat it as Difficult Terrain.",
       "flavor": "The 'lilies' bloom with sharpened stakes."
     },
     {
@@ -6009,7 +6026,7 @@ window.NHB_DATA = {
         "greek"
       ],
       "limit": 1,
-      "text": "Before deployment, place a wall up to 8” long and ½” wide in your deployment zone. No unit may move across it. Shooting attacks that pass over it treat the target as one cover level better.",
+      "text": "Obstacle. Before deployment, place a wall up to 8” long and ½” wide in your deployment zone. No unit may move across it. Shooting attacks that pass over it treat the target as one cover level better.",
       "flavor": "Behind the old wall of the Phocians, three hundred hold the pass."
     }
   ]

@@ -6,6 +6,13 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## 0.5.4 — 2026-10-23
+
+### Command cards
+- New keyword: **Obstacle**, on Fossa, Līlia and Phocian Wall.
+- New generic card: **Sappers** (up to 3 per deck). Cancels an opponent's Obstacle card for 10% of your Starting Army Morale.
+- New Hittite card: **Crossing the Orontes**. For one turn, your non-Mercenary units treat Marsh terrain as Difficult Terrain only.
+
 ## 0.5.3 — 2026-10-23
 
 ### Command cards
