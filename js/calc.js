@@ -19,12 +19,12 @@ window.NHB = (function () {
     "Standard Bearer": t => 2 * t, "Army Standard Bearer": t => 4 * t,
     "Army Musician": t => 2 * t, "Commander": t => 3 * t,
     "Musician": () => 3, "Birdmaster": () => 1, "Bowmaster": () => 1,
-    "Houndmaster": () => 1, "Raider Captain": () => 1, "Ranger Captain": () => 2,
+    "Houndmaster": () => 1, "Skirmish Captain": () => 1, "Ranger Captain": () => 2,
     "Shaman": () => 3, "Taskmaster": () => 0, "Tribal Leader": () => 2,
     "Volleymaster": () => 2
   };
   const CHAR_GRANTS = {
-    "Lord": ["Noble"], "Raider Captain": ["Feign Charge"], "Ranger Captain": ["Surefooted"],
+    "Lord": ["Noble"], "Ranger Captain": ["Surefooted"],
     "Shaman": ["Frenzy"], "Volleymaster": ["Volley"], "Bowmaster": ["Aim"],
     "Tribal Leader": ["Noble", "Mercenary"]
   };
