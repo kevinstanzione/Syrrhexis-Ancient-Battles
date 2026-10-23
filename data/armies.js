@@ -1,7 +1,7 @@
 // Syrrhēxis army data. Edit the values below; keep the first line as is.
 window.NHB_DATA = {
   "meta": {
-    "version": "0.8.0",
+    "version": "0.8.1",
     "synced": "2026-10-22",
     "sources": {
       "Hittite Empire Army": "1aqMPs2Pi5car6pUzcuWmHXArGss_RZdkgATe5OsbVrw",
@@ -5909,7 +5909,7 @@ window.NHB_DATA = {
       "name": "Sound the Recall",
       "short": "Army Musician: Withdraw from lost Melees",
       "limit": 1,
-      "text": "Requires your Army Musician's unit to be on the battlefield and not Fleeing. During this round's Resolution Step, your units within 18” of it may Withdraw from combat even if they lost the Melee.",
+      "text": "Requires your Army Musician's unit to be on the battlefield and not Fleeing. During this round's Resolution Step, your units within 30” of it may Withdraw from combat even if they lost the Melee.",
       "flavor": "At the signal, the line steps back as one, and the enemy is left holding empty ground."
     },
     {
@@ -5927,6 +5927,14 @@ window.NHB_DATA = {
       "limit": 1,
       "text": "Requires your Commander's unit to be on the battlefield and not Fleeing. Play at the end of the Orders Phase. Swap the Order Tokens of two of your units within 12” of your Commander's unit.",
       "flavor": "A rider gallops down the line with new instructions."
+    },
+    {
+      "id": "lead-from-the-front",
+      "name": "Lead from the Front",
+      "short": "Commander: its unit fights harder",
+      "limit": 1,
+      "text": "Requires your Commander's unit to be on the battlefield and not Fleeing. This round, your Commander's unit gains +1 Strength with melee weapons and Terrify All.",
+      "flavor": "When the general draws his sword and wades in, no one wants to stand against him."
     },
     {
       "id": "spy",
