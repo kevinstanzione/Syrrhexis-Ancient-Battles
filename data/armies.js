@@ -1,7 +1,7 @@
 // Syrrhēxis army data. Edit the values below; keep the first line as is.
 window.NHB_DATA = {
   "meta": {
-    "version": "0.7.0",
+    "version": "0.7.1",
     "synced": "2026-10-22",
     "sources": {
       "Hittite Empire Army": "1aqMPs2Pi5car6pUzcuWmHXArGss_RZdkgATe5OsbVrw",
@@ -5861,6 +5861,13 @@ window.NHB_DATA = {
       "limit": 3,
       "text": "Until the end of the turn, all of your units gain the Suicidal special rule.",
       "flavor": "There is no line of retreat. Every man knows it."
+    },
+    {
+      "id": "vanguard",
+      "name": "Vanguard",
+      "limit": 3,
+      "text": "Play during deployment. One Light Warrior, Skirmishing Warrior, Light Cavalry or Skirmishing Cavalry unit gains the Scout special rule.",
+      "flavor": "Sent ahead at dawn, they hold the ground before the army arrives."
     },
     {
       "id": "spy",
