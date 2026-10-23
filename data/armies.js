@@ -4741,7 +4741,7 @@ window.NHB_DATA = {
     "Funda Media": "medium sling",
     "Funda Brevis": "short sling",
     "Pḏt": "long self bow",
-    "Wḏꜣt": "knife",
+    "Wḏȝt": "knife",
     "Contus": "heavy lance",
     "Θanvar": "composite bow",
     "Karəta": "dagger",
@@ -5404,7 +5404,7 @@ window.NHB_DATA = {
           "Pḏt"
         ],
         "gear": [
-          "Wḏꜣt"
+          "Wḏȝt"
         ],
         "body": null,
         "shield": null,
@@ -5433,7 +5433,7 @@ window.NHB_DATA = {
             "4",
             "Direct Fire, Unwieldy (1)"
           ],
-          "Wḏꜣt": [
+          "Wḏȝt": [
             "1",
             "6",
             "5",

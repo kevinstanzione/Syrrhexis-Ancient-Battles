@@ -9,7 +9,7 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 ## 0.2.7 — 2026-10-22
 
 ### Mercenaries
-- New unit: Kushite Archers (Skirmishing Warrior, 6-12 models, 13 points). Pḏt long bow (28", Accuracy 6, Strength 4, Direct Fire, Unwieldy (1)) and Wḏꜣt knife.
+- New unit: Kushite Archers (Skirmishing Warrior, 6-12 models, 13 points). Pḏt long bow (28", Accuracy 6, Strength 4, Direct Fire, Unwieldy (1)) and Wḏȝt knife.
 
 ## 0.2.6 — 2026-10-22
 
