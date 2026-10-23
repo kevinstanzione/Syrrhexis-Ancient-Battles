@@ -1,7 +1,7 @@
 // Syrrhēxis army data. Edit the values below; keep the first line as is.
 window.NHB_DATA = {
   "meta": {
-    "version": "0.7.13",
+    "version": "0.7.14",
     "synced": "2026-10-22",
     "sources": {
       "Hittite Empire Army": "1aqMPs2Pi5car6pUzcuWmHXArGss_RZdkgATe5OsbVrw",
@@ -5871,6 +5871,14 @@ window.NHB_DATA = {
       "limit": 3,
       "text": "Play during deployment. One Light Warrior, Skirmishing Warrior, Light Cavalry or Skirmishing Cavalry unit gains the Scout special rule.",
       "flavor": "Sent ahead at dawn, they hold the ground before the army arrives."
+    },
+    {
+      "id": "the-eclipse",
+      "name": "The Eclipse",
+      "short": "Flip all Initiative bonuses into penalties",
+      "limit": 1,
+      "text": "Play at the end of the Orders Phase. This round, every bonus to Initiative, including bonuses from cards played after this one, becomes a penalty of the same size. Penalties are unaffected.",
+      "flavor": "The sun went dark at midday, and both armies lowered their weapons in fear."
     },
     {
       "id": "spy",
