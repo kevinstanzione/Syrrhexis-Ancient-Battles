@@ -6,6 +6,11 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## 0.2.10 — 2026-10-22
+
+### Persia
+- Pīrū: 115 → 105 points per elephant. With Mercenary and no Lord, nothing in the Persian army can Rally them.
+
 ## 0.2.9 — 2026-10-22
 
 ### Persia
