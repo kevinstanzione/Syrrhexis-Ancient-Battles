@@ -6,6 +6,15 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## 0.5.9 — 2026-10-23
+
+### Hittites
+- Hattian Peltasts: may take a Ranger Captain for 6 instead of a Lead Captain or Raider Captain.
+
+### Rome
+- Auxilia: Ranger Captain option for 5.
+- Explōrātor: Raider Captain replaced with a Ranger Captain for 8.
+
 ## 0.5.8 — 2026-10-23
 
 ### Mercenaries

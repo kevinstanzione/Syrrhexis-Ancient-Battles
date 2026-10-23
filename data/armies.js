@@ -1,7 +1,7 @@
 // Syrrhēxis army data. Edit the values below; keep the first line as is.
 window.NHB_DATA = {
   "meta": {
-    "version": "0.5.8",
+    "version": "0.5.9",
     "synced": "2026-10-22",
     "sources": {
       "Hittite Empire Army": "1aqMPs2Pi5car6pUzcuWmHXArGss_RZdkgATe5OsbVrw",
@@ -667,20 +667,24 @@ window.NHB_DATA = {
             }
           ],
           "chars": [
-            {
-              "one": [
-                [
-                  "Lead Captain",
-                  5
-                ],
-                [
-                  "Raider Captain",
-                  8
-                ]
+          {
+            "one": [
+              [
+                "Lead Captain",
+                5
+              ],
+              [
+                "Raider Captain",
+                8
+              ],
+              [
+                "Ranger Captain",
+                6
               ]
-            }
-          ],
-          "rules": [
+            ]
+          }
+        ],
+        "rules": [
             "Ambush"
           ],
           "weapons": {
@@ -3435,33 +3439,41 @@ window.NHB_DATA = {
             }
           ],
           "chars": [
-            {
-              "one": [
-                [
-                  "Lead Captain",
-                  5
-                ]
-              ],
-              "req": true
-            },
-            {
-              "one": [
-                [
-                  "Standard Bearer",
-                  8
-                ]
+          {
+            "one": [
+              [
+                "Lead Captain",
+                5
               ]
-            },
-            {
-              "one": [
-                [
-                  "Houndmaster",
-                  10
-                ]
+            ],
+            "req": true
+          },
+          {
+            "one": [
+              [
+                "Standard Bearer",
+                8
               ]
-            }
-          ],
-          "rules": [],
+            ]
+          },
+          {
+            "one": [
+              [
+                "Houndmaster",
+                10
+              ]
+            ]
+          },
+          {
+            "one": [
+              [
+                "Ranger Captain",
+                5
+              ]
+            ]
+          }
+        ],
+        "rules": [],
           "weapons": {
             "Hasta": [
               "8",
@@ -3803,32 +3815,32 @@ window.NHB_DATA = {
             }
           ],
           "chars": [
-            {
-              "one": [
-                [
-                  "Birdmaster",
-                  8
-                ]
+          {
+            "one": [
+              [
+                "Birdmaster",
+                8
               ]
-            },
-            {
-              "one": [
-                [
-                  "Raider Captain",
-                  10
-                ]
+            ]
+          },
+          {
+            "one": [
+              [
+                "Ranger Captain",
+                8
               ]
-            },
-            {
-              "one": [
-                [
-                  "Standard Bearer",
-                  12
-                ]
+            ]
+          },
+          {
+            "one": [
+              [
+                "Standard Bearer",
+                12
               ]
-            }
-          ],
-          "rules": [
+            ]
+          }
+        ],
+        "rules": [
             "Scout",
             "Ambush"
           ],
