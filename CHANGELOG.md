@@ -6,6 +6,11 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## 0.6.5 — 2026-10-23
+
+### Characters
+- Houndmaster: the charge drain uses the unit's base Training. Its cost is now Training + 5: 10 on Training 5 units, 13 on Lēgiōnārius Retinue and Praetōriānī Retinue.
+
 ## 0.6.4 — 2026-10-23
 
 ### Command cards

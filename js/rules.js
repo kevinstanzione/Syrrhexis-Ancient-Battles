@@ -48,7 +48,7 @@ window.NHB_RULES = {
   chars: {
     "Birdmaster": "+1 Army Morale. If the unit deploys via Scout, the opponent reveals 1 random Command Card they did not pick.",
     "Bowmaster": "+1 Army Morale. Grants Aim. +1 Shooting attack (not Combat).",
-    "Houndmaster": "+1 Army Morale. When the unit charges, the defender's army loses Army Morale equal to its Training, before Break Tests. Enemies cannot deploy within 12” of this unit.",
+    "Houndmaster": "+1 Army Morale. When the unit charges, the defender's army loses Army Morale equal to its base Training, before Break Tests. Enemies cannot deploy within 12” of this unit.",
     "Lead Captain": "+Training in Army Morale. +1 attack in Combat or Shooting.",
     "Lord": "+3× Training in Army Morale. Grants Noble; -1 to Rally itself. While the unit flees you lose its Training in Army Morale each turn; if eliminated you lose its Training and each opponent gains that much.",
     "Musician": "+3 Army Morale. With no Action Token and not Locked in Combat, at the end of its Movement Step the unit may Special Move: Closed Order 1” forward, back, left or right, or turn once; Open Order 1” toward or away from the enemy side. Combines with the Commander's move. If eliminated you lose its Training and each opponent gains that much.",
