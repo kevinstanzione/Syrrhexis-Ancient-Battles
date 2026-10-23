@@ -6,6 +6,15 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## 0.6.2 — 2026-10-23
+
+### Persia
+- Asagartiyā and Sakā: 2 Ranks of 4 or 2 Ranks of 3 Cavalry (no more single-rank option for these Levy units).
+
+### Rules
+- Feign Retreat drains as much Army Morale as Feign Charge (1 per warrior, 3 per cavalry), so it is strictly stronger.
+- Feign Retreat wording: a failed special Break Test means the target is goaded; a passed test lets it choose to be. A goaded unit that has already activated this round suffers no further restriction.
+
 ## 0.6.1 — 2026-10-23
 
 ### Persia
