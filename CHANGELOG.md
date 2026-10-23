@@ -6,6 +6,14 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## 0.7.9 — 2026-10-23
+
+### Rome
+- Cohors Equitāta Retinue: may take a Lord for 17 instead of its required Lead Captain, giving Rome a Noble to Rally its mercenaries.
+
+### Rules
+- Mercenary: clarified that mercenary units may Rally themselves; only Rallying by other units is restricted.
+
 ## 0.7.8 — 2026-10-23
 
 ### Hittites
