@@ -6,6 +6,14 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## 0.8.0 — 2026-10-23
+
+### Command cards
+- New generic cards tied to Retinue characters, 1 per deck each. Each needs that character's unit on the battlefield and not Fleeing:
+  - Army Standard Bearer: **Rally to the Standard**, **Follow the Eagle** (ongoing)
+  - Army Musician: **Sound the Advance** (ongoing), **Sound the Recall**, **Din of Battle** (ongoing)
+  - Commander: **Change of Orders**
+
 ## 0.7.14 — 2026-10-23
 
 ### Command cards

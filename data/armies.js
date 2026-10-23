@@ -1,7 +1,7 @@
 // Syrrhēxis army data. Edit the values below; keep the first line as is.
 window.NHB_DATA = {
   "meta": {
-    "version": "0.7.14",
+    "version": "0.8.0",
     "synced": "2026-10-22",
     "sources": {
       "Hittite Empire Army": "1aqMPs2Pi5car6pUzcuWmHXArGss_RZdkgATe5OsbVrw",
@@ -5879,6 +5879,54 @@ window.NHB_DATA = {
       "limit": 1,
       "text": "Play at the end of the Orders Phase. This round, every bonus to Initiative, including bonuses from cards played after this one, becomes a penalty of the same size. Penalties are unaffected.",
       "flavor": "The sun went dark at midday, and both armies lowered their weapons in fear."
+    },
+    {
+      "id": "rally-to-the-standard",
+      "name": "Rally to the Standard",
+      "short": "Army Standard Bearer: easier Rallying nearby",
+      "limit": 1,
+      "text": "Requires your Army Standard Bearer's unit to be on the battlefield and not Fleeing. This round, your units within 12” of it gain +2 to Rally tests, and Mercenary and Levy units within 12” of it may be Rallied by any of your units.",
+      "flavor": "Where the banner stands, the army stands."
+    },
+    {
+      "id": "follow-the-eagle",
+      "name": "Follow the Eagle",
+      "short": "Ongoing, Army Standard Bearer: better Charges nearby",
+      "limit": 1,
+      "text": "Ongoing. Requires your Army Standard Bearer's unit to be on the battlefield and not Fleeing. Your units within 12” of it that declare a Charge gain +1 Move, and lose no Army Morale if the Charge fails. Discard this card at the end of the round in which one of your units declares a Charge.",
+      "flavor": "“Leap down, soldiers, unless you wish to betray the eagle to the enemy!”"
+    },
+    {
+      "id": "sound-the-advance",
+      "name": "Sound the Advance",
+      "short": "Ongoing, Army Musician: +1 Move nearby",
+      "limit": 1,
+      "text": "Ongoing. Requires your Army Musician's unit to be on the battlefield and not Fleeing. Your units within 18” of it gain +1 Move. Discard this card as soon as one of your units is charged.",
+      "flavor": "Horns and drums carry the line forward step by step."
+    },
+    {
+      "id": "sound-the-recall",
+      "name": "Sound the Recall",
+      "short": "Army Musician: Withdraw from lost Melees",
+      "limit": 1,
+      "text": "Requires your Army Musician's unit to be on the battlefield and not Fleeing. During this round's Resolution Step, your units within 18” of it may Withdraw from combat even if they lost the Melee.",
+      "flavor": "At the signal, the line steps back as one, and the enemy is left holding empty ground."
+    },
+    {
+      "id": "din-of-battle",
+      "name": "Din of Battle",
+      "short": "Ongoing, Army Musician: blocks enemy Special Moves",
+      "limit": 1,
+      "text": "Ongoing. Requires your Army Musician's unit to be on the battlefield and not Fleeing. Enemy Commander and Musician Special Moves cannot be made by units within 12” of your Army Musician's unit. Discard this card when your Army Musician's unit becomes Locked in Combat.",
+      "flavor": "No order can be heard over the roar of the horns."
+    },
+    {
+      "id": "change-of-orders",
+      "name": "Change of Orders",
+      "short": "Commander: swap two Order Tokens",
+      "limit": 1,
+      "text": "Requires your Commander's unit to be on the battlefield and not Fleeing. Play at the end of the Orders Phase. Swap the Order Tokens of two of your units within 12” of your Commander's unit.",
+      "flavor": "A rider gallops down the line with new instructions."
     },
     {
       "id": "spy",
