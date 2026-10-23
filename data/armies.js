@@ -1,7 +1,7 @@
 // Syrrhēxis army data. Edit the values below; keep the first line as is.
 window.NHB_DATA = {
   "meta": {
-    "version": "0.4.4",
+    "version": "0.5.0",
     "synced": "2026-10-22",
     "sources": {
       "Hittite Empire Army": "1aqMPs2Pi5car6pUzcuWmHXArGss_RZdkgATe5OsbVrw",
@@ -5750,6 +5750,41 @@ window.NHB_DATA = {
       "text": "Your army may include 1 unit from the Supplemental Mercenaries list for each copy of this card in your deck.",
       "note": "If you take a mercenary unit, this card must be one of the 3 cards in your hand.",
       "flavor": "Gold buys soldiers when loyalty runs short."
+    },
+    {
+      "id": "monument",
+      "name": "Monument",
+      "limit": 3,
+      "text": "Before deployment, place a 2” × 2” Monument in the neutral zone, outside every deployment zone. It is impassable and blocks all line of sight that passes over it. Friendly units within 6” of it gain +2 to Break tests.",
+      "flavor": "Beneath the gaze of their ancestors, no warrior wants to be the first to run."
+    },
+    {
+      "id": "watchtower",
+      "name": "Watchtower",
+      "limit": 3,
+      "text": "Before deployment, place a 3” × 3” Watchtower in your deployment zone. It is impassable but does not block line of sight. While a Skirmishing Warrior unit is in base contact with it, and no other unit is in base contact with that unit or the Watchtower, no enemy unit may deploy within 18” of the Watchtower. Any player may use this effect.",
+      "flavor": "From the tower, no ambush goes unseen."
+    },
+    {
+      "id": "dense-brush",
+      "name": "Dense Brush",
+      "limit": 3,
+      "text": "Before deployment, place a 3” × 3” patch of Dense Brush in the neutral zone, outside every deployment zone. It is impassable and blocks all line of sight that passes over it.",
+      "flavor": "Thorn and thicket swallow whole companies from view."
+    },
+    {
+      "id": "crumbled-ruins",
+      "name": "Crumbled Ruins",
+      "limit": 3,
+      "text": "Before deployment, place 4” × 4” Crumbled Ruins in the neutral zone, outside every deployment zone. They follow the rules for a Stony Plain.",
+      "flavor": "The bones of an older city trip the living."
+    },
+    {
+      "id": "flooded-field",
+      "name": "Flooded Field",
+      "limit": 3,
+      "text": "Before deployment, place a 3” × 3” Flooded Field in the neutral zone, outside every deployment zone. It follows the rules for a Marsh.",
+      "flavor": "Broken dikes turn the farmland into a mire."
     },
     {
       "id": "blot-out-the-sun",

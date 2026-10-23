@@ -6,6 +6,11 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## 0.5.0 — 2026-10-23
+
+### Command cards
+- New generic terrain cards, open to every army and up to 3 per deck: **Monument**, **Watchtower**, **Dense Brush**, **Crumbled Ruins** and **Flooded Field**. Sizes and limits are playtest values.
+
 ## 0.4.4 — 2026-10-23
 
 ### Rules
