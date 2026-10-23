@@ -216,7 +216,7 @@
         const st = x.u.weapons[w]; if (!st) return;
         R.weaponPatterns.forEach(([re, name]) => { if (re.test(st[3])) weapon.add(name); });
       });
-      [x.lo.body, x.lo.shield, x.u.mixed && x.u.mixed.front.shield].forEach(n => {
+      [x.lo.body, x.lo.shield, x.lo.barding, x.u.mixed && x.u.mixed.front.shield].forEach(n => {
         const d = n && (x.u.armors || {})[n]; if (d && d.grants) d.grants.forEach(g => weapon.add(g));
       });
       x.chars.forEach(c => chars.add(c.name));
@@ -305,6 +305,7 @@
     const add = (name, who) => { if (!name || pieces.some(p => p.name === name)) return; pieces.push(Object.assign({ who }, NHB.armorDef(x.u, name))); };
     if (x.u.mixed) { add(x.lo.body, "All ranks"); add(x.u.mixed.front.shield, x.u.mixed.front.label); add(x.u.mixed.rest.shield, x.u.mixed.rest.label); }
     else { const who = x.u.type === "Chariot" ? "Crew" : ""; add(x.lo.body, who); add(x.lo.shield, who); }
+    add(x.lo.barding, "Horse");
     if (!pieces.length) return "";
     const rows = pieces.map(p => {
       const extra = (p.grants || []).map(g => R.weapon[g] ? `${g}: ${R.weapon[g]}` : g).join(" ");
@@ -361,6 +362,7 @@
     if (eq.length) bits.push(eq.join(", "));
     if (x.lo.body) bits.push(x.lo.body);
     if (x.lo.shield) bits.push(x.lo.shield);
+    if (x.lo.barding) bits.push(x.lo.barding);
     if (x.lo.crewPlus) bits.push(x.u.type === "Elephant" ? `+${x.lo.crewPlus} crewman per Elephant` : `+${x.lo.crewPlus} rider per Camel`);
     (x.lo.mixed || []).forEach(m => bits.push(`${m.n} × ${m.label.replace(/ \(replaces[^)]*\)/, "")}`));
     return bits.join(" · ") || "No equipment";

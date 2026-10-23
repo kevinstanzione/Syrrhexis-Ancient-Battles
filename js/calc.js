@@ -6,7 +6,8 @@ window.NHB = (function () {
     "Heavy Armor": { v: 3, runflee: -1, move: -1, text: "Extra -1” penalty to Turning. -1 Armor while the unit has a Run or Flee Action Token" },
     "Buckler": { v: 0, melee: 1, text: "+1 Armor against Melee attacks" },
     "Shield": { v: 1, hold: 1, text: "+1 Armor while the unit has a Hold Action Token" },
-    "Heavy Shield": { v: 2, hold: 1, runflee: -1, move: -1, text: "+1 Armor while the unit has a Hold Action Token. -1 Armor while the unit has a Run or Flee Action Token" }
+    "Heavy Shield": { v: 2, hold: 1, runflee: -1, move: -1, text: "+1 Armor while the unit has a Hold Action Token. -1 Armor while the unit has a Run or Flee Action Token" },
+    "Barding": { v: 1, move: -1, text: "Horse armor. Cavalry only" }
   };
   const TYPE_ARMOR = { "Cavalry": 1, "Light Cavalry": 1, "Skirmishing Cavalry": 1, "Chariot": 1 };
   const CLOSED_ONLY = ["Warrior", "Cavalry", "Chariot", "Elephant"];
@@ -55,7 +56,7 @@ window.NHB = (function () {
 
   function loadout(u, sel) {
     let weapons = u.equip.slice();
-    let shield = u.shield, body = u.body, crewPlus = 0, perModel = u.points || 0, gearOverride = null;
+    let shield = u.shield, body = u.body, barding = u.barding || null, crewPlus = 0, perModel = u.points || 0, gearOverride = null;
     const opts = u.opts || [];
     opts.forEach((o, i) => {
       if (o.kind !== "swap") return;
@@ -63,6 +64,7 @@ window.NHB = (function () {
       if (ch.w) weapons = ch.w.slice();
       if ("shield" in ch) shield = ch.shield;
       if ("body" in ch) body = ch.body;
+      if ("barding" in ch) barding = ch.barding;
       if (ch.gear) gearOverride = ch.gear;
       perModel += ch.c || 0;
     });
@@ -74,6 +76,7 @@ window.NHB = (function () {
       if (o.w) o.w.forEach(w => { if (!weapons.includes(w)) weapons.push(w); });
       if (o.shield) shield = o.shield;
       if (o.body) body = o.body;
+      if (o.barding) barding = o.barding;
       if (o.crewPlus) crewPlus += o.crewPlus;
       perModel += o.c || 0;
     });
@@ -97,7 +100,7 @@ window.NHB = (function () {
       if (used >= n) weapons = weapons.filter(w => w !== o.replaces);
     });
     const gear = (gearOverride || u.gear || []).filter(g => !weapons.includes(g));
-    return { weapons, gear, shield, body, crewPlus, perModel, disabled, countCost, mixed, groupUse };
+    return { weapons, gear, shield, body, barding, crewPlus, perModel, disabled, countCost, mixed, groupUse };
   }
 
   function armorDef(u, name) {
@@ -105,11 +108,11 @@ window.NHB = (function () {
     return Object.assign({ name, v: 0 }, ARMOR_CATALOG[name] || {}, (u.armors || {})[name] || {});
   }
 
-  function armorCalc(u, body, shield) {
+  function armorCalc(u, body, shield, barding) {
     if (u.type === "Elephant") {
       return { value: 3, save: saveFor(3), melee: 3, hold: 0, runflee: 0, notes: ["Great Toughness: 3 Armor, ignores mahout and crew armor"] };
     }
-    const parts = [armorDef(u, body), armorDef(u, shield)].filter(Boolean);
+    const parts = [armorDef(u, body), armorDef(u, shield), armorDef(u, barding)].filter(Boolean);
     const mod = TYPE_ARMOR[u.type] || 0;
     let value = mod, melee = 0, hold = 0, runflee = 0;
     const notes = [];
@@ -131,8 +134,8 @@ window.NHB = (function () {
     if (u.mixed) {
       // Mixed Unit: use the most common save, or the weaker if tied.
       const rf = ranksFiles(u, sel);
-      const front = armorCalc(u, lo.body, u.mixed.front.shield);
-      const rest = armorCalc(u, lo.body, u.mixed.rest.shield);
+      const front = armorCalc(u, lo.body, u.mixed.front.shield, lo.barding);
+      const rest = armorCalc(u, lo.body, u.mixed.rest.shield, lo.barding);
       const frontN = rf.files, restN = rf.files * (rf.ranks - 1);
       const useFront = frontN > restN || (frontN === restN && front.value < rest.value);
       if (u.frontArcArmor) {
@@ -145,7 +148,7 @@ window.NHB = (function () {
       main.mixedNote = `${u.mixed.front.label}: Armor ${front.value} (${front.save}); ${u.mixed.rest.label}: Armor ${rest.value} (${rest.save}). Unit uses the most common save.`;
       return main;
     }
-    return armorCalc(u, lo.body, lo.shield);
+    return armorCalc(u, lo.body, lo.shield, lo.barding);
   }
 
   function moveValue(u, lo) {
@@ -155,6 +158,7 @@ window.NHB = (function () {
     const shield = u.mixed ? (u.mixed.front.shield || u.mixed.rest.shield) : lo.shield;
     if (lo.body) m += (armorDef(u, lo.body).move || 0);
     if (shield) m += (armorDef(u, shield).move || 0);
+    if (lo.barding) m += (armorDef(u, lo.barding).move || 0);
     // Unwieldy (X): Open Order units lose X Move (Closed Order pay it when turning instead).
     if (isOpen(u)) {
       let x = 0;

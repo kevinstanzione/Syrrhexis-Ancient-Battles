@@ -1,8 +1,8 @@
 // Syrrhēxis army data. Edit the values below; keep the first line as is.
 window.NHB_DATA = {
   "meta": {
-    "version": "0.2.3",
-    "synced": "2026-10-19",
+    "version": "0.2.4",
+    "synced": "2026-10-22",
     "sources": {
       "Hittite Empire Army": "1aqMPs2Pi5car6pUzcuWmHXArGss_RZdkgATe5OsbVrw",
       "Achaemenid Persia Army": "1hdxpY5jUEu8OthLoyHbMcwjkEKV4eRC4tXijL7JVfDo",
@@ -1566,6 +1566,12 @@ window.NHB_DATA = {
               "kind": "add",
               "shield": "Shield",
               "c": 2
+            },
+            {
+              "label": "Barding",
+              "kind": "add",
+              "barding": "Barding",
+              "c": 2
             }
           ],
           "chars": [
@@ -1594,7 +1600,7 @@ window.NHB_DATA = {
               "6 / 8”",
               "6",
               "6",
-              "Throwing Weapon. Note: Increased accuracy but reduced length"
+              "Throwing Weapon. Note: Increased accuracy"
             ],
             "Aršti": [
               "8",
@@ -1657,6 +1663,12 @@ window.NHB_DATA = {
               "kind": "add",
               "shield": "Shield",
               "c": 3
+            },
+            {
+              "label": "Barding",
+              "kind": "add",
+              "barding": "Barding",
+              "c": 3
             }
           ],
           "chars": [
@@ -1699,7 +1711,7 @@ window.NHB_DATA = {
               "6 / 8”",
               "6",
               "6",
-              "Throwing Weapon. Note: Increased accuracy but reduced length"
+              "Throwing Weapon. Note: Increased accuracy"
             ],
             "Aršti": [
               "8",
@@ -5369,7 +5381,7 @@ window.NHB_DATA = {
         "type": "Cavalry",
         "move": 10,
         "training": 6,
-        "points": 25,
+        "points": 28,
         "comps": [
           [
             2,
@@ -5430,7 +5442,8 @@ window.NHB_DATA = {
             "5",
             ""
           ]
-        }
+        },
+        "barding": "Barding"
       },
       {
         "id": "scythian-archers",

@@ -6,6 +6,19 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## 0.2.4 — 2026-10-22
+
+### Rules
+- New armor: **Barding** (horse armor, Cavalry only). +1 Armor, -1 Move. Stacks with the rider's armor, shield and the Cavalry Toughness bonus.
+
+### Persia
+- Asabāra: Barding option, +2 points per model.
+- Asabāra Retinue: Barding option, +3 points per model.
+- Asabāra and Asabāra Retinue: removed the stale "reduced length" note from the Arštaya.
+
+### Mercenaries
+- Cataphract: Barding by default (Armor 5, 2+; Move 8). 25 → 28 points.
+
 ## 0.2.3 — 2026-10-21
 
 ### Weapon lengths
