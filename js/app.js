@@ -28,7 +28,7 @@
       { unitId: "hattian-chariots", comp: 1, swaps: { 0: 1 }, adds: {}, chars: {} },
       { unitId: "allied-chariots", comp: 0, swaps: {}, adds: {}, chars: {} },
       { unitId: "allied-archers", comp: 0, swaps: {}, adds: {}, chars: {} },
-      { unitId: "allied-peltasts", count: 10, swaps: {}, adds: {}, chars: {} }
+      { unitId: "allied-peltasts", count: 7, swaps: {}, adds: {}, chars: {} }
     ]
   };
 
@@ -36,7 +36,9 @@
   function withUids(s) { s.units.forEach(u => { if (!u.uid) u.uid = newUid(); }); if (!Array.isArray(s.commands)) s.commands = []; return s; }
 
   let lists = store.get("nhb-lists", {});
-  let state = withUids(JSON.parse(JSON.stringify(store.get("nhb-current", EXAMPLE))));
+  // A stored list still marked as the example is replaced by the current example, so point changes reach it.
+  const savedCurrent = store.get("nhb-current", null);
+  let state = withUids(JSON.parse(JSON.stringify(savedCurrent && !savedCurrent.example ? savedCurrent : EXAMPLE)));
   let toggles = store.get("nhb-toggles", { unit: true, army: false, chars: false, types: false });
   let tab = "build";
   let pending = null; // inline confirmation
