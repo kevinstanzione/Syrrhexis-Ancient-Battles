@@ -6,6 +6,13 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## 0.2.5 — 2026-10-22
+
+### Persia
+- Sakā: Skirmishing Cavalry → Light Cavalry. Move 14 → 12, in line with the other Light Cavalry.
+- Sakā: composition 4-8 Cavalry → 2 Ranks of 4 Cavalry, or 1 Rank of 4 Cavalry.
+- Sakā: Barding option, +2 points per model.
+
 ## 0.2.4 — 2026-10-22
 
 ### Rules
