@@ -1,7 +1,7 @@
 // Syrrhēxis army data. Edit the values below; keep the first line as is.
 window.NHB_DATA = {
   "meta": {
-    "version": "0.3.1",
+    "version": "0.4.0",
     "synced": "2026-10-22",
     "sources": {
       "Hittite Empire Army": "1aqMPs2Pi5car6pUzcuWmHXArGss_RZdkgATe5OsbVrw",
@@ -5745,27 +5745,167 @@ window.NHB_DATA = {
     {
       "id": "supplemental-mercenaries",
       "name": "Supplemental Mercenaries",
+      "limit": 1,
       "mercs": 1,
       "text": "Your army may include 1 unit from the Supplemental Mercenaries list.",
-      "note": "If you take a mercenary unit, this card must be one of the 3 cards in your hand."
+      "note": "If you take a mercenary unit, this card must be one of the 3 cards in your hand.",
+      "flavor": "Gold buys soldiers when loyalty runs short."
+    },
+    {
+      "id": "blot-out-the-sun",
+      "name": "Blot Out the Sun",
+      "armies": [
+        "persia"
+      ],
+      "limit": 1,
+      "text": "Until the end of the turn, ranged attacks made with Volley fire, or against targets beyond half the weapon's maximum range, add +1 to Suppression.",
+      "flavor": "So many arrows fly that the sky darkens over the enemy line."
+    },
+    {
+      "id": "all-of-mankind",
+      "name": "All of Mankind",
+      "armies": [
+        "persia"
+      ],
+      "limit": 1,
+      "text": "This round, add +1 to your Initiative roll for each unit with the Mercenary rule in your army, including Pīrū.",
+      "flavor": "Every nation under heaven marches beneath the Great King's banner."
+    },
+    {
+      "id": "scythicon-poison",
+      "name": "Scythicon Poison",
+      "armies": [
+        "persia"
+      ],
+      "limit": 1,
+      "text": "Until the end of the turn, Sakā and Scythian Archers attack at -1 Strength. Their base Suppression is equal to the target's Training value instead of 1.",
+      "flavor": "Steppe archers dip their arrows in rot and venom, so even a scratch spreads terror."
     },
     {
       "id": "persian-mercenaries",
       "name": "King of Kings",
-      "armies": ["persia"],
+      "armies": [
+        "persia"
+      ],
+      "limit": 1,
       "mercs": 2,
-      "mercUnits": ["nabatean-skirmishers", "greek-hoplites", "scythian-archers", "kushite-archers"],
+      "mercUnits": [
+        "nabatean-skirmishers",
+        "greek-hoplites",
+        "scythian-archers",
+        "kushite-archers"
+      ],
       "text": "Your army may include 2 units from the Supplemental Mercenaries list, chosen from Arabian Camel Riders, Greek Hoplites, Scythian Archers and Kushite Archers.",
-      "note": "If you take a mercenary unit through this card, this card must be one of the 3 cards in your hand."
+      "note": "If you take a mercenary unit through this card, this card must be one of the 3 cards in your hand.",
+      "flavor": "Conquered kings send their warriors to serve the throne."
+    },
+    {
+      "id": "chariots-of-the-storm-god",
+      "name": "Chariots of the Storm God",
+      "armies": [
+        "hittite"
+      ],
+      "limit": 1,
+      "text": "Until the end of the turn, all Chariot units gain +1 Accuracy.",
+      "flavor": "Like the Storm God's bulls, the chariots thunder across the field."
+    },
+    {
+      "id": "thousand-gods-of-hatti",
+      "name": "The Thousand Gods of Hatti",
+      "armies": [
+        "hittite"
+      ],
+      "limit": 1,
+      "text": "Until the end of the turn, units within 18” of a Royal Retinue gain the following, based on their name. Allied units: +1 Move and Aim. Levy units: automatically pass their next Break test. Hattian units: +1 Strength with melee weapons, and Frenzy.",
+      "flavor": "Sworn before the gods of Hatti, vassal and native fight as one."
+    },
+    {
+      "id": "triplex-acies",
+      "name": "Triplex Aciēs",
+      "armies": [
+        "rome"
+      ],
+      "limit": 1,
+      "text": "Play on a Closed Order unit not Locked in Combat. It recovers Health equal to a third of its starting Health (rounded down) and removes 2 Break Tokens. Removed models do not return, and no Army Morale is restored.",
+      "flavor": "Fresh men step forward as the weary front rank falls back."
+    },
+    {
+      "id": "impetus",
+      "name": "Impetus",
+      "armies": [
+        "rome"
+      ],
+      "limit": 1,
+      "text": "Until the end of the turn, units using Iacite Pīla ignore its -2 penalty to hit and add +1 to Suppression.",
+      "flavor": "A storm of pila breaks the enemy's shields before the swords go in."
+    },
+    {
+      "id": "fulcum",
+      "name": "Fulcum",
+      "armies": [
+        "rome"
+      ],
+      "limit": 1,
+      "text": "Until the end of the turn, all units with Testūdō are treated as having the Phalanx special rule. They ignore Phalanx's Shield and weapon Length requirement.",
+      "flavor": "Shields locked edge to edge, the cohort becomes a wall."
     },
     {
       "id": "numeri",
       "name": "Numerī",
-      "armies": ["rome"],
+      "armies": [
+        "rome"
+      ],
+      "limit": 1,
       "mercs": 2,
-      "mercUnits": ["cataphract", "numidian-javelineers", "nabatean-skirmishers", "thracian-warriors"],
+      "mercUnits": [
+        "cataphract",
+        "numidian-javelineers",
+        "nabatean-skirmishers",
+        "thracian-warriors"
+      ],
       "text": "Your army may include 2 units from the Supplemental Mercenaries list, chosen from Cataphracts, Numidian Javelineers, Arabian Camel Riders and Thracian Warriors.",
-      "note": "If you take a mercenary unit through this card, this card must be one of the 3 cards in your hand."
+      "note": "If you take a mercenary unit through this card, this card must be one of the 3 cards in your hand.",
+      "flavor": "Bands from the frontiers fight for Rome's pay and favor."
+    },
+    {
+      "id": "flower-war",
+      "name": "Flower War",
+      "armies": [
+        "aztec"
+      ],
+      "limit": 1,
+      "text": "Regain 2 Army Morale for each model that every enemy unit destroyed so far started the game with. You can't regain more than 25% of your Starting Army Morale.",
+      "flavor": "Every captive taken rekindles the warriors' fervor."
+    },
+    {
+      "id": "blood-for-huitzilopochtli",
+      "name": "Blood for Huītzilōpōchtli",
+      "armies": [
+        "aztec"
+      ],
+      "limit": 1,
+      "text": "Until the end of the turn, units within 8” of a Shaman gain Frenzy, and each unit with a Shaman gains +1 Strength with melee weapons.",
+      "flavor": "Priests drive the warriors on, promising hearts for the war god."
+    },
+    {
+      "id": "othismos",
+      "name": "Othismos",
+      "armies": [
+        "greek"
+      ],
+      "limit": 1,
+      "text": "Until the end of the round, Phalanx units with a Charge Action Token also count as having a Hold Action Token.",
+      "flavor": "Shield presses on shield as the phalanx drives forward."
+    },
+    {
+      "id": "in-the-shade",
+      "name": "In the Shade",
+      "armies": [
+        "greek"
+      ],
+      "limit": 1,
+      "text": "Ongoing. Phalanx units you control subtract 1 from Suppression. Discard this card when a Phalanx unit you control fails a Break test or is destroyed. Covers every unit with the Phalanx rule, even while it is negated.",
+      "flavor": "Let their arrows hide the sun; we will fight in the shade."
     }
   ]
 };

@@ -54,6 +54,10 @@
   const cardsFor = () => COMMANDS.filter(c => !c.armies || c.armies.includes(army().id));
   const deck = () => (state.commands || []).map(id => cardsFor().find(c => c.id === id)).filter(Boolean);
   const mercSlots = () => NHB.mercSlots(deck());
+  const copiesOf = id => deck().filter(c => c.id === id).length;
+  const limitOf = c => c.limit || 1;
+  // "Name, Name ×2" for the sheet and copied text, in deck order.
+  const deckNames = () => { const seen = []; deck().forEach(c => { if (!seen.includes(c)) seen.push(c); }); return seen.map(c => c.name + (copiesOf(c.id) > 1 ? ` ×${copiesOf(c.id)}` : "")); };
   const mercIds = () => state.units.filter(s => s.src === "mercs").map(s => s.unitId);
   const summarizeState = () => NHB.summarize(army(), state.units, state.size, { pools: { mercs: MERCS }, mercSlots: mercSlots() });
   const save = () => store.set("nhb-current", state);
@@ -205,9 +209,11 @@
     const inDeck = deck().map(c => c.id);
     const cmd = `<section class="cmd"><h2>Command deck <span class="label">${inDeck.length} / ${DECK_SIZE} cards</span></h2>
       <div class="cmd-list">${cardsFor().map(c => {
-        const on = inDeck.includes(c.id), full = !on && inDeck.length >= DECK_SIZE;
-        return `<label class="cmdcard ${on ? "on" : ""}"><input type="checkbox" data-act="cmd" data-id="${esc(c.id)}" ${on ? "checked" : ""} ${full ? "disabled" : ""}>
-          <span><b>${esc(c.name)}</b><br>${kw(c.text)}${c.note ? `<br><span class="sub">${esc(c.note)}</span>` : ""}</span></label>`;
+        const n = copiesOf(c.id), lim = limitOf(c), on = n > 0, full = inDeck.length >= DECK_SIZE;
+        const limText = lim > 1 ? `Up to ${lim} per deck` : "1 per deck";
+        const body = `<span><b>${esc(c.name)}</b> <span class="sub">· ${limText}</span>${c.flavor ? `<br><i class="flavor">${esc(c.flavor)}</i>` : ""}<br>${kw(c.text)}${c.note ? `<br><span class="sub">${esc(c.note)}</span>` : ""}</span>`;
+        if (lim > 1) return `<div class="cmdcard ${on ? "on" : ""}"><div class="stepper"><button data-act="cmddec" data-id="${esc(c.id)}" ${n ? "" : "disabled"} aria-label="Fewer">−</button><span class="num">${n}</span><button data-act="cmdinc" data-id="${esc(c.id)}" ${n >= lim || full ? "disabled" : ""} aria-label="More">+</button></div>${body}</div>`;
+        return `<label class="cmdcard ${on ? "on" : ""}"><input type="checkbox" data-act="cmd" data-id="${esc(c.id)}" ${on ? "checked" : ""} ${!on && full ? "disabled" : ""}>${body}</label>`;
       }).join("")}</div>
       <p class="sub">Pick up to ${DECK_SIZE} cards. More Command cards are on the way.</p></section>`;
     $("#view").innerHTML = `${ex}${warn}${cards}${cmd}<section class="roster"><h2>Add a unit</h2><div class="roster-list">${roster}</div>${mercRoster}</section>`;
@@ -419,7 +425,7 @@
           <div><div class="v">≤${m.massPanic}</div><div class="k">Mass Panic (25%)</div></div>
           <div><div class="v">≤0</div><div class="k">Complete Rout</div></div>
         </div>
-        ${deck().length ? `<div class="cmdline"><b>Command deck (${deck().length}/${DECK_SIZE}):</b> ${deck().map(c => esc(c.name)).join(", ")}</div>` : ""}
+        ${deck().length ? `<div class="cmdline"><b>Command deck (${deck().length}/${DECK_SIZE}):</b> ${deckNames().map(esc).join(", ")}</div>` : ""}
         ${units || `<div class="empty">Add units on the Build tab to see your list here.</div>`}
         ${app}
         <div class="foot">List builder v${esc(DATA.meta.version)} · profiles synced from your army decks on ${esc(DATA.meta.synced)}.</div>
@@ -434,7 +440,7 @@
     L.push(`Syrrhēxis: Ancient Battles (list builder v${DATA.meta.version})`);
     L.push(`${state.name || army().name + " list"} — ${army().name}, ${sum.pts}/${sum.limit} pts (bid ${sum.bid})`);
     L.push(`Army Morale ${m.total} | Unease ≤${m.unease} | Panic ≤${m.panic} | Mass Panic ≤${m.massPanic} | Rout ≤0`);
-    if (deck().length) L.push(`Command deck (${deck().length}/${DECK_SIZE}): ${deck().map(c => c.name).join(", ")}`);
+    if (deck().length) L.push(`Command deck (${deck().length}/${DECK_SIZE}): ${deckNames().join(", ")}`);
     sum.units.forEach(x => {
       const a = x.armor, h = x.health;
       L.push("");
@@ -482,6 +488,16 @@
       case "addunit": {
         const src = b.dataset.src || undefined, u = unitDef(b.dataset.u, src);
         edit(() => { const id = newUid(); openCards.add(id); const s = { uid: id, unitId: u.id, comp: 0, count: u.range ? u.range[0] : undefined, swaps: {}, adds: {}, chars: {} }; if (src) s.src = src; state.units.push(s); });
+        break;
+      }
+      case "cmdinc": case "cmddec": {
+        const id = b.dataset.id, c = cardsFor().find(x => x.id === id); if (!c) break;
+        edit(() => {
+          const cur = deck().map(x => x.id);
+          if (act === "cmdinc" && copiesOf(id) < limitOf(c) && cur.length < DECK_SIZE) cur.push(id);
+          if (act === "cmddec") { const k = cur.lastIndexOf(id); if (k >= 0) cur.splice(k, 1); }
+          state.commands = cur;
+        });
         break;
       }
       case "expand": { const id = b.dataset.uid; openCards.has(id) ? openCards.delete(id) : openCards.add(id); render(); break; }
