@@ -1,7 +1,7 @@
 // Syrrhēxis army data. Edit the values below; keep the first line as is.
 window.NHB_DATA = {
   "meta": {
-    "version": "0.6.8",
+    "version": "0.6.9",
     "synced": "2026-10-22",
     "sources": {
       "Hittite Empire Army": "1aqMPs2Pi5car6pUzcuWmHXArGss_RZdkgATe5OsbVrw",
@@ -5826,6 +5826,34 @@ window.NHB_DATA = {
       "limit": 3,
       "text": "Until the end of the round, one Warrior, Light Warrior or Skirmishing Warrior unit with base Training 7 or higher, and without Retinue in its name, gains the Guard special rule.",
       "flavor": "The best men stand closest to their general, ready to step in front of any blow."
+    },
+    {
+      "id": "mass-volley",
+      "name": "Mass Volley",
+      "limit": 3,
+      "text": "Until the end of the round, one unit with a ranged weapon gains the Volley special rule.",
+      "flavor": "Every bow on the line looses at once, and the sky goes dark."
+    },
+    {
+      "id": "hold-the-line",
+      "name": "Hold the Line",
+      "limit": 3,
+      "text": "Until the end of the round, all of your Closed Order units gain the Stubborn special rule.",
+      "flavor": "Not one step back."
+    },
+    {
+      "id": "local-guides",
+      "name": "Local Guides",
+      "limit": 3,
+      "text": "Until the end of the turn, one Warrior, Light Warrior or Skirmishing Warrior unit gains the Surefooted special rule.",
+      "flavor": "A shepherd who knows every goat track is worth a hundred spears."
+    },
+    {
+      "id": "hidden-ravine",
+      "name": "Hidden Ravine",
+      "limit": 3,
+      "text": "Play during deployment. One Light Warrior or Skirmishing Warrior unit gains the Ambush special rule.",
+      "flavor": "The ground falls away where no one expects it, and men are waiting there."
     },
     {
       "id": "spy",

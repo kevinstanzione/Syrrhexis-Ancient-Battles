@@ -6,6 +6,11 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## 0.6.9 — 2026-10-23
+
+### Command cards
+- New generic cards, up to 3 per deck: **Mass Volley** (one ranged unit gains Volley), **Hold the Line** (all your Closed Order units gain Stubborn), **Local Guides** (one foot unit gains Surefooted) and **Hidden Ravine** (one Light or Skirmishing Warrior unit gains Ambush).
+
 ## 0.6.8 — 2026-10-23
 
 ### Rules
