@@ -1,7 +1,7 @@
 // Syrrhēxis army data. Edit the values below; keep the first line as is.
 window.NHB_DATA = {
   "meta": {
-    "version": "0.8.1",
+    "version": "0.8.2",
     "synced": "2026-10-22",
     "sources": {
       "Hittite Empire Army": "1aqMPs2Pi5car6pUzcuWmHXArGss_RZdkgATe5OsbVrw",
@@ -5933,8 +5933,16 @@ window.NHB_DATA = {
       "name": "Lead from the Front",
       "short": "Commander: its unit fights harder",
       "limit": 1,
-      "text": "Requires your Commander's unit to be on the battlefield and not Fleeing. This round, your Commander's unit gains +1 Strength with melee weapons and Terrify All.",
+      "text": "Requires your Commander's unit to be on the battlefield and not Fleeing. This round, your Commander's unit gains +1 Strength with melee weapons and Terrify All. If that unit loses a Melee this round, you lose Army Morale equal to twice the Commander's base Training.",
       "flavor": "When the general draws his sword and wades in, no one wants to stand against him."
+    },
+    {
+      "id": "the-colors-must-not-fall",
+      "name": "The Colors Must Not Fall",
+      "short": "Standard Bearer units shrug off Break and Flee",
+      "limit": 1,
+      "text": "Play at the start of the Morale Phase. Each of your units with a Standard Bearer or Army Standard Bearer removes all of its Break and Flee Tokens, then suffers 1 Damage. This Damage has no save and causes Army Morale loss as normal.",
+      "flavor": "Men who would have run turn back to die beside their banner."
     },
     {
       "id": "spy",

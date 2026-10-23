@@ -6,6 +6,12 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## 0.8.2 — 2026-10-23
+
+### Command cards
+- Lead from the Front: if the Commander's unit loses a Melee that round, you lose Army Morale equal to twice the Commander's base Training.
+- New generic card: **The Colors Must Not Fall** (1 per deck). At the start of the Morale Phase, every unit with a Standard Bearer or Army Standard Bearer removes its Break and Flee Tokens, then suffers 1 Damage.
+
 ## 0.8.1 — 2026-10-23
 
 ### Command cards
