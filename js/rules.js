@@ -4,8 +4,10 @@ window.NHB_RULES = {
     "Aim": "If the unit takes the Hold action, it may use Aim: +1 to its Shooting attacks this round and ignore Light Cover. Cannot be used in the same round as Volley.",
     "Ambush": "Deployed after all other units, including Scouts, and after all Byes. Deploy anywhere outside your Deployment Zone, within 12” of an enemy unit. The player with the most Byes chooses who deploys Ambushers first (tie: roll off).",
     "Camel Riders": "Each additional Rider on a Camel counts as a model for Army Morale, adding its Training, and adds 1 to Unit Strength.",
+    "Collision": "While in Closed Order, gains bonus Melee Hits equal to its ranks not contributing attacks (e.g. 4 ranks: +3; with Reach (1): +2). Lost while engaged on a flank or rear side.",
     "Disciplined": "Cannot be Bumped or Pushed. Automatically passes the special Break Test from Feign Retreat, though it may still choose to be goaded. Open Order units only gain this while every model is within 1” of at least 3 others in the unit.",
     "Evasion": "While this unit is in Open Order and has a Run Action Token, Shooting attacks against it suffer -1 Accuracy. All Skirmishing and Light Warriors and Cavalry have Evasion.",
+    "Exposed Flanks": "While in Closed Order: charged in a flank, gain 1 Break Token; charged in the rear, gain 2 (on top of Terrify). Also loses its Charge Action Token and its Collision bonus while engaged on a flank or rear side.",
     "Feign Charge": "Declared instead of a Charge, before measuring; the target must be within the unit's Move. Charge with 1× Move. On contact the enemy loses 1 Army Morale per warrior and 3 per cavalry, then takes any Break Test it would take. The attacker then turns about (Closed Order) and moves up to half its Move away, staying 1” from enemies, and takes a Charge token.",
     "Feign Retreat": "Declared instead of a Charge, before measuring; the target must be within the unit's Move. Charge with 1× Move. The enemy loses 1 Army Morale per warrior and 3 per cavalry. The attacker then flees its full Move toward its Deployment Zone and takes a Run token. The enemy takes a special Break Test: on a fail it is goaded, and on a pass it may choose to be goaded. A goaded unit moves its full Move toward the attacker and takes a Charge token; if it has not yet activated this round, it cannot move or run during its activation, and may only use missile weapons usable while moving.",
     "Frenzy": "Does not lose its Charge token when charged by a unit with greater Unit Strength. Gains no Break Tokens from Terrify. +2 to Break Tests and Fear Tests.",
@@ -86,7 +88,7 @@ window.NHB_RULES = {
     "Commander": "Retinue, one per army. +3× Training Army Morale and +1 Initiative. Gives units within 6” a free 1” shift or turn."
   },
   types: {
-    "Closed Order": "Uses a tray in ranks. Collision: +1 bonus Hit per rank not attacking, lost if engaged to the flank or rear. Gains 1 Break Token when charged in the flank, 2 in the rear.",
+    "Closed Order": "Uses a tray in ranks. Has Collision and Exposed Flanks.",
     "Open Order": "Loose models in 1” Cohesion (a chain or cluster). Out of Cohesion at the start of the Morale Phase: gain a Flee token.",
     "Light Warriors / Light Cavalry": "Deploy as Closed or Open Order. During its activation, a Closed Order unit may spend half its Move Allowance to leave its tray and become Open Order.",
     "Cavalry": "Unit Strength 3 per model. Momentum: +1 Strength with a Charge token; +1 Strength to Throwing Weapon shots with no Action Token and not Locked in Combat. Toughness: +1 Armor.",

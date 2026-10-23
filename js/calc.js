@@ -193,7 +193,9 @@ window.NHB = (function () {
     let rules = (u.rules || []).slice();
     chars.forEach(c => (CHAR_GRANTS[c] || []).forEach(r => { if (!rules.includes(r)) rules.push(r); }));
     if (chars.includes("Taskmaster") || chars.includes("Tribal Leader")) rules = rules.filter(r => r !== "Levy");
-    // Every Light and Skirmishing Warrior or Cavalry unit has Evasion from its unit type.
+    // Unit-type abilities: units that fight on trays (Closed Order, including Light units deployed that way)
+    // have Collision and Exposed Flanks; every Light and Skirmishing Warrior or Cavalry unit has Evasion.
+    if (!u.range) ["Collision", "Exposed Flanks"].forEach(r => { if (!rules.includes(r)) rules.push(r); });
     if (/^(Light|Skirmishing) (Warrior|Cavalry)/.test(u.type) && !rules.includes("Evasion")) rules.push("Evasion");
     return rules;
   }
