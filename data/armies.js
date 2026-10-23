@@ -1,7 +1,7 @@
 // Syrrhēxis army data. Edit the values below; keep the first line as is.
 window.NHB_DATA = {
   "meta": {
-    "version": "0.9.1",
+    "version": "0.9.2",
     "synced": "2026-10-22",
     "sources": {
       "Hittite Empire Army": "1aqMPs2Pi5car6pUzcuWmHXArGss_RZdkgATe5OsbVrw",
@@ -968,7 +968,7 @@ window.NHB_DATA = {
               "0",
               "5",
               "5",
-              "1 Attack. Cannot be used on Charge. Note: Reduced accuracy"
+              "1 Attack, cannot be used on Charge. Note: Reduced accuracy"
             ]
           }
         }
@@ -1515,7 +1515,7 @@ window.NHB_DATA = {
           "type": "Cavalry",
           "move": 10,
           "training": 7,
-          "points": 20,
+          "points": 22,
           "comps": [
             [
               2,
@@ -1532,7 +1532,7 @@ window.NHB_DATA = {
           "gear": [
             "Akīnakah"
           ],
-          "body": null,
+          "body": "Light Armor",
           "shield": null,
           "opts": [
             {
@@ -1556,9 +1556,9 @@ window.NHB_DATA = {
               ]
             },
             {
-              "label": "Light Armor",
+              "label": "Medium Armor",
               "kind": "add",
-              "body": "Light Armor",
+              "body": "Medium Armor",
               "c": 2
             },
             {
@@ -1657,6 +1657,12 @@ window.NHB_DATA = {
                   "c": 0
                 }
               ]
+            },
+            {
+              "label": "Medium Armor",
+              "kind": "add",
+              "body": "Medium Armor",
+              "c": 3
             },
             {
               "label": "Shield",
@@ -2355,7 +2361,7 @@ window.NHB_DATA = {
               "10",
               "5",
               "6",
-              "Reach (1). Unwieldy (1)"
+              "Reach (1), Unwieldy (1)"
             ],
             "Xíphos": [
               "3",
@@ -2464,7 +2470,7 @@ window.NHB_DATA = {
               "10",
               "6",
               "6",
-              "Reach (1). Unwieldy (1)"
+              "Reach (1), Unwieldy (1)"
             ],
             "Kopís": [
               "4",
@@ -2562,7 +2568,7 @@ window.NHB_DATA = {
               "10",
               "6",
               "6",
-              "Reach (1). Unwieldy (1)"
+              "Reach (1), Unwieldy (1)"
             ],
             "Xíphos": [
               "3",
@@ -3102,7 +3108,7 @@ window.NHB_DATA = {
               "6”",
               "5",
               "6",
-              "Throwing Weapon. Sunder (2)"
+              "Throwing Weapon, Sunder (2)"
             ],
             "Gladius": [
               "4",
@@ -3190,7 +3196,7 @@ window.NHB_DATA = {
               "6”",
               "6",
               "6",
-              "Throwing Weapon. Sunder (2)"
+              "Throwing Weapon, Sunder (2)"
             ],
             "Gladius": [
               "4",
@@ -3275,7 +3281,7 @@ window.NHB_DATA = {
               "6”",
               "6",
               "6",
-              "Throwing Weapon. Sunder (2)"
+              "Throwing Weapon, Sunder (2)"
             ],
             "Gladius": [
               "4",
@@ -3353,7 +3359,7 @@ window.NHB_DATA = {
               "6”",
               "6",
               "6",
-              "Throwing Weapon. Sunder (2)"
+              "Throwing Weapon, Sunder (2)"
             ],
             "Gladius": [
               "4",
@@ -4067,7 +4073,7 @@ window.NHB_DATA = {
               "4",
               "5",
               "3",
-              "Melee Suppression. Cleaving Blade (3)"
+              "Melee Suppression, Cleaving Blade (3)"
             ],
             "Tepoztōpīlli": [
               "8",
@@ -4194,7 +4200,7 @@ window.NHB_DATA = {
               "4",
               "6",
               "3",
-              "Melee Suppression. Cleaving Blade (3)"
+              "Melee Suppression, Cleaving Blade (3)"
             ],
             "Tepoztōpīlli": [
               "8",
@@ -4301,7 +4307,7 @@ window.NHB_DATA = {
               "4",
               "6",
               "3",
-              "Melee Suppression. Cleaving Blade (3)"
+              "Melee Suppression, Cleaving Blade (3)"
             ],
             "Tecpatl": [
               "1",
@@ -4420,7 +4426,7 @@ window.NHB_DATA = {
               "4",
               "6",
               "3",
-              "Melee Suppression. Cleaving Blade (3)"
+              "Melee Suppression, Cleaving Blade (3)"
             ],
             "Tepoztōpīlli": [
               "8",
@@ -4677,7 +4683,7 @@ window.NHB_DATA = {
               "4",
               "4",
               "3",
-              "Melee Suppression. Cleaving Blade (3)"
+              "Melee Suppression, Cleaving Blade (3)"
             ]
           },
           "custom": {
@@ -4813,7 +4819,7 @@ window.NHB_DATA = {
             "10",
             "5",
             "6",
-            "Reach (1). Unwieldy (1)"
+            "Reach (1), Unwieldy (1)"
           ],
           "Xíphos": [
             "3",
@@ -5010,7 +5016,7 @@ window.NHB_DATA = {
             "10",
             "5",
             "6",
-            "Reach (1). Unwieldy (1)"
+            "Reach (1), Unwieldy (1)"
           ],
           "Hound": [
             "2",
@@ -5499,7 +5505,7 @@ window.NHB_DATA = {
             "11",
             "5",
             "6",
-            "Reach (1). Unwieldy (2)"
+            "Reach (1), Unwieldy (2)"
           ],
           "Spatha": [
             "5",
@@ -5731,7 +5737,7 @@ window.NHB_DATA = {
             "24”",
             "6",
             "4",
-            "1 Attack per Rider, plus 1 if unit has Hold Token. No movement penalty, Direct Fire"
+            "1 Attack per Rider, plus 1 if unit has Hold Token. Direct Fire. No movement penalty"
           ],
           "Rumḥā": [
             "6 / 8”",

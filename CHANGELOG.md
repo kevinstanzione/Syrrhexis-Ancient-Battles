@@ -6,6 +6,15 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## 0.9.2 — 2026-10-23
+
+### Persia
+- Asabārā wear Light Armor by default (20 → 22 points, folding in the old option cost), with an upgrade to Medium Armor for +2.
+- Asabārā Retinue can upgrade from Light Armor to Medium Armor for +3.
+
+### All armies
+- Weapon Ability text follows one order: extra-attack rules first, then keyword rules separated by commas (e.g. "Throwing Weapon, Sunder (2)"), then non-keyword text.
+
 ## 0.9.1 — 2026-10-23
 
 ### Mercenaries
