@@ -1,7 +1,7 @@
 // Syrrhēxis army data. Edit the values below; keep the first line as is.
 window.NHB_DATA = {
   "meta": {
-    "version": "0.5.0",
+    "version": "0.5.1",
     "synced": "2026-10-22",
     "sources": {
       "Hittite Empire Army": "1aqMPs2Pi5car6pUzcuWmHXArGss_RZdkgATe5OsbVrw",
@@ -5769,21 +5769,21 @@ window.NHB_DATA = {
       "id": "dense-brush",
       "name": "Dense Brush",
       "limit": 3,
-      "text": "Before deployment, place a 3” × 3” patch of Dense Brush in the neutral zone, outside every deployment zone. It is impassable and blocks all line of sight that passes over it.",
+      "text": "Before deployment, place a 6” × 6” patch of Dense Brush in the neutral zone, outside every deployment zone. It is impassable and blocks all line of sight that passes over it.",
       "flavor": "Thorn and thicket swallow whole companies from view."
     },
     {
       "id": "crumbled-ruins",
       "name": "Crumbled Ruins",
       "limit": 3,
-      "text": "Before deployment, place 4” × 4” Crumbled Ruins in the neutral zone, outside every deployment zone. They follow the rules for a Stony Plain.",
+      "text": "Before deployment, place 8” × 8” Crumbled Ruins in the neutral zone, outside every deployment zone. They follow the rules for a Stony Plain.",
       "flavor": "The bones of an older city trip the living."
     },
     {
       "id": "flooded-field",
       "name": "Flooded Field",
       "limit": 3,
-      "text": "Before deployment, place a 3” × 3” Flooded Field in the neutral zone, outside every deployment zone. It follows the rules for a Marsh.",
+      "text": "Before deployment, place a 6” × 6” Flooded Field in the neutral zone, outside every deployment zone. It follows the rules for a Marsh.",
       "flavor": "Broken dikes turn the farmland into a mire."
     },
     {
