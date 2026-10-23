@@ -3,7 +3,7 @@ window.NHB = (function () {
   const ARMOR_CATALOG = {
     "Light Armor": { v: 1, text: "" },
     "Medium Armor": { v: 2, runflee: -1, text: "-1 Armor while the unit has a Run or Flee Action Token" },
-    "Heavy Armor": { v: 3, runflee: -1, move: -1, text: "Extra -1” penalty to Turning. -1 Armor while the unit has a Run or Flee Action Token" },
+    "Heavy Armor": { v: 3, runflee: -1, move: -1, text: "Unwieldy (1). -1 Armor while the unit has a Run or Flee Action Token" },
     "Buckler": { v: 0, melee: 1, text: "+1 Armor against Melee attacks" },
     "Shield": { v: 1, hold: 1, text: "+1 Armor while the unit has a Hold Action Token" },
     "Heavy Shield": { v: 2, hold: 1, runflee: -1, move: -1, text: "+1 Armor while the unit has a Hold Action Token. -1 Armor while the unit has a Run or Flee Action Token" },
@@ -167,6 +167,8 @@ window.NHB = (function () {
         const mm = t.match(/Unwieldy \((\d+)\)/);
         if (mm && (!/With Shield/.test(t) || shield)) x = Math.max(x, +mm[1]);
       });
+      // Heavy Armor carries Unwieldy (1), which stacks with a weapon's Unwieldy.
+      if (lo.body === "Heavy Armor") x += 1;
       m -= x;
     }
     return m;

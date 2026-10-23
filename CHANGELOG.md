@@ -6,6 +6,11 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## 0.8.5 — 2026-10-23
+
+### Rules
+- Heavy Armor now has **Unwieldy (1)** instead of a separate turning penalty. Special rules with a number (X) from more than one source stack, so a Cataphract's Contus (Unwieldy 2) in Heavy Armor counts as Unwieldy (3).
+
 ## 0.8.4 — 2026-10-23
 
 ### Rules
