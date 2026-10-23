@@ -1,7 +1,7 @@
 // Syrrhēxis army data. Edit the values below; keep the first line as is.
 window.NHB_DATA = {
   "meta": {
-    "version": "0.5.2",
+    "version": "0.5.3",
     "synced": "2026-10-22",
     "sources": {
       "Hittite Empire Army": "1aqMPs2Pi5car6pUzcuWmHXArGss_RZdkgATe5OsbVrw",
@@ -5817,6 +5817,16 @@ window.NHB_DATA = {
       "flavor": "Steppe archers dip their arrows in rot and venom, so even a scratch spreads terror."
     },
     {
+      "id": "prepared-ground",
+      "name": "Prepared Ground",
+      "armies": [
+        "persia"
+      ],
+      "limit": 1,
+      "text": "Before deployment, place a 12” × 12” area of Prepared Ground anywhere on the battlefield. It may overlap the Major Terrain. Within it, the Major Terrain has no effect.",
+      "flavor": "Darius's laborers scrape the plain flat for the scythed chariots."
+    },
+    {
       "id": "persian-mercenaries",
       "name": "King of Kings",
       "armies": [
@@ -5963,6 +5973,16 @@ window.NHB_DATA = {
       "flavor": "A shriek like the cry of the dead rises from the Aztec ranks."
     },
     {
+      "id": "chinampas",
+      "name": "Chinampas",
+      "armies": [
+        "aztec"
+      ],
+      "limit": 1,
+      "text": "Before deployment, place a 6” × 6” area of Chinampas in the neutral zone, outside every deployment zone. It follows the rules for a Marsh, but units in your army without the Mercenary rule ignore its effects.",
+      "flavor": "Canals and floating gardens swallow the invader; the Mexica know every path."
+    },
+    {
       "id": "othismos",
       "name": "Othismos",
       "armies": [
@@ -5981,6 +6001,16 @@ window.NHB_DATA = {
       "limit": 1,
       "text": "Ongoing. Phalanx units you control subtract 1 from Suppression. Discard this card when a Phalanx unit you control fails a Break test or is destroyed. Covers every unit with the Phalanx rule, even while it is negated.",
       "flavor": "Let their arrows hide the sun; we will fight in the shade."
+    },
+    {
+      "id": "phocian-wall",
+      "name": "Phocian Wall",
+      "armies": [
+        "greek"
+      ],
+      "limit": 1,
+      "text": "Before deployment, place a wall up to 8” long and ½” wide in your deployment zone. No unit may move across it. Shooting attacks that pass over it treat the target as one cover level better.",
+      "flavor": "Behind the old wall of the Phocians, three hundred hold the pass."
     }
   ]
 };
