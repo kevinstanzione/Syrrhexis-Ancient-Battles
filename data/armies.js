@@ -1,7 +1,7 @@
 // Syrrhēxis army data. Edit the values below; keep the first line as is.
 window.NHB_DATA = {
   "meta": {
-    "version": "0.6.9",
+    "version": "0.7.0",
     "synced": "2026-10-22",
     "sources": {
       "Hittite Empire Army": "1aqMPs2Pi5car6pUzcuWmHXArGss_RZdkgATe5OsbVrw",
@@ -1294,7 +1294,7 @@ window.NHB_DATA = {
           ],
           "rules": [
             "Guard",
-            "Stubborn"
+            "Disciplined"
           ],
           "weapons": {
             "Θanu": [
@@ -1381,7 +1381,7 @@ window.NHB_DATA = {
             }
           ],
           "rules": [
-            "Stubborn"
+            "Disciplined"
           ],
           "weapons": {
             "Aršti": [
@@ -2458,7 +2458,7 @@ window.NHB_DATA = {
           ],
           "rules": [
             "Phalanx",
-            "Stubborn"
+            "Disciplined"
           ],
           "custom": {
             "Sacred Band": "While this unit is at Half Strength, it gains Frenzy and Suicidal."
@@ -2559,7 +2559,7 @@ window.NHB_DATA = {
             }
           ],
           "rules": [
-            "Stubborn"
+            "Disciplined"
           ],
           "weapons": {
             "Dóry": [
@@ -3005,7 +3005,7 @@ window.NHB_DATA = {
           ],
           "rules": [
             "Feign Charge",
-            "Stubborn"
+            "Disciplined"
           ],
           "weapons": {
             "Dóry": [
@@ -3350,7 +3350,7 @@ window.NHB_DATA = {
           "custom": {
             "Testūdō": "When this unit takes the Hold action, it may move half its move and Shooting attacks against it suffer a -2 penalty to hit. It may also use its Pīlum in Melee: Length 6, -1 Strength, and loses Sunder (2).",
             "Iacite Pīla": "When this unit takes the Charge action, it may first make a Shooting attack against the unit it intends to charge at a -2 penalty to hit.",
-            "Fidēlitās": "While this unit has its Commander, it gains Stubborn. Once per game, its controlling player may suffer 1 wound with no save and remove the Commander to recover 1 used Command Card."
+            "Fidēlitās": "While this unit has its Commander, it gains Disciplined. Once per game, its controlling player may suffer 1 wound with no save and remove the Commander to recover 1 used Command Card."
           },
           "weapons": {
             "Pīlum": [
@@ -4412,7 +4412,7 @@ window.NHB_DATA = {
             }
           ],
           "rules": [
-            "Stubborn",
+            "Disciplined",
             "Mixed Unit"
           ],
           "weapons": {
@@ -5004,7 +5004,7 @@ window.NHB_DATA = {
         ],
         "rules": [
           "Mercenary",
-          "Stubborn"
+          "Disciplined"
         ],
         "custom": {
           "Dogs of War": "While this unit has a Hold action token, enemy units locked in combat with it suffer a -1 Accuracy penalty for Melee attacks. Additionally, the enemy morale lost due to Houndmaster is now doubled when charging."
@@ -5838,14 +5838,14 @@ window.NHB_DATA = {
       "id": "hold-the-line",
       "name": "Hold the Line",
       "limit": 3,
-      "text": "Until the end of the round, all of your Closed Order units gain the Stubborn special rule.",
+      "text": "Until the end of the round, all of your Closed Order units gain the Disciplined special rule.",
       "flavor": "Not one step back."
     },
     {
       "id": "local-guides",
       "name": "Local Guides",
       "limit": 3,
-      "text": "Until the end of the turn, one Warrior, Light Warrior or Skirmishing Warrior unit gains the Surefooted special rule.",
+      "text": "Until the end of the turn, up to two Warrior, Light Warrior or Skirmishing Warrior units gain the Surefooted special rule.",
       "flavor": "A shepherd who knows every goat track is worth a hundred spears."
     },
     {
@@ -5854,6 +5854,13 @@ window.NHB_DATA = {
       "limit": 3,
       "text": "Play during deployment. One Light Warrior or Skirmishing Warrior unit gains the Ambush special rule.",
       "flavor": "The ground falls away where no one expects it, and men are waiting there."
+    },
+    {
+      "id": "last-stand",
+      "name": "Last Stand",
+      "limit": 3,
+      "text": "Until the end of the turn, all of your units gain the Suicidal special rule.",
+      "flavor": "There is no line of retreat. Every man knows it."
     },
     {
       "id": "spy",
