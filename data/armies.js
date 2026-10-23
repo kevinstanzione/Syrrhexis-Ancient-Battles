@@ -1,7 +1,7 @@
 // Syrrhēxis army data. Edit the values below; keep the first line as is.
 window.NHB_DATA = {
   "meta": {
-    "version": "0.5.1",
+    "version": "0.5.2",
     "synced": "2026-10-22",
     "sources": {
       "Hittite Empire Army": "1aqMPs2Pi5car6pUzcuWmHXArGss_RZdkgATe5OsbVrw",
@@ -5893,6 +5893,26 @@ window.NHB_DATA = {
       "limit": 1,
       "text": "Until the end of the turn, all units with Testūdō are treated as having the Phalanx special rule. They may also use their Pīlum in Melee as described in Testūdō (Length 6, -1 Strength, no Sunder), even if they did not take the Hold action.",
       "flavor": "Shields locked edge to edge, the cohort becomes a wall."
+    },
+    {
+      "id": "fossa",
+      "name": "Fossa",
+      "armies": [
+        "rome"
+      ],
+      "limit": 1,
+      "text": "Before deployment, place a trench up to 12” long and 1” wide that starts in your deployment zone. Cavalry, Chariots, Elephants and Warmachines cannot cross it. Other units crossing it lose the +1 Strength from their Charge Action Token that turn.",
+      "flavor": "Caesar's spades guard the flanks better than any cohort."
+    },
+    {
+      "id": "lilia",
+      "name": "Līlia",
+      "armies": [
+        "rome"
+      ],
+      "limit": 1,
+      "text": "Before deployment, place two 3” × 3” Līlia markers anywhere within 6” of your deployment zone. A Cavalry, Chariot or Elephant unit that moves into one suffers 1 hit at Strength 5 per model and gains a Break Token. Warrior units treat it as Difficult Terrain.",
+      "flavor": "The 'lilies' bloom with sharpened stakes."
     },
     {
       "id": "numeri",

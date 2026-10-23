@@ -6,6 +6,11 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## 0.5.2 — 2026-10-23
+
+### Command cards
+- New Roman terrain cards, 1 per deck: **Fossa** (a flank trench mounted units can't cross) and **Līlia** (pit traps that wound and shake Cavalry, Chariots and Elephants).
+
 ## 0.5.1 — 2026-10-23
 
 ### Command cards
