@@ -6,6 +6,13 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## 0.7.5 — 2026-10-23
+
+### Characters
+- Volleymaster: +1 Army Morale (was +2), matching the Bowmaster.
+- Lord: no longer has -1 to Rally itself.
+- Taskmaster: no longer gives +2 to Break Tests or self-Rally; it removes Levy, and each passed Break or Rally test still costs 1 Damage.
+
 ## 0.7.4 — 2026-10-23
 
 ### Builder

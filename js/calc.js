@@ -21,7 +21,7 @@ window.NHB = (function () {
     "Musician": () => 3, "Birdmaster": () => 1, "Bowmaster": () => 1,
     "Houndmaster": () => 1, "Skirmish Captain": () => 1, "Ranger Captain": () => 2,
     "Shaman": () => 3, "Taskmaster": () => 0, "Tribal Leader": () => 2,
-    "Volleymaster": () => 2
+    "Volleymaster": () => 1
   };
   const CHAR_GRANTS = {
     "Lord": ["Noble"], "Ranger Captain": ["Surefooted"],
