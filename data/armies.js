@@ -1,7 +1,7 @@
 // Syrrhēxis army data. Edit the values below; keep the first line as is.
 window.NHB_DATA = {
   "meta": {
-    "version": "0.4.2",
+    "version": "0.4.3",
     "synced": "2026-10-22",
     "sources": {
       "Hittite Empire Army": "1aqMPs2Pi5car6pUzcuWmHXArGss_RZdkgATe5OsbVrw",
@@ -5856,7 +5856,7 @@ window.NHB_DATA = {
         "rome"
       ],
       "limit": 1,
-      "text": "Until the end of the turn, all units with Testūdō are treated as having the Phalanx special rule. They ignore Phalanx's Shield and weapon Length requirement.",
+      "text": "Until the end of the turn, all units with Testūdō are treated as having the Phalanx special rule, and ignore its Shield and weapon Length requirement. They may also use their Pīlum in Melee as described in Testūdō (Length 6, -1 Strength, no Sunder), even if they did not take the Hold action.",
       "flavor": "Shields locked edge to edge, the cohort becomes a wall."
     },
     {
