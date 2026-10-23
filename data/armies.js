@@ -1,7 +1,7 @@
 // Syrrhēxis army data. Edit the values below; keep the first line as is.
 window.NHB_DATA = {
   "meta": {
-    "version": "0.8.5",
+    "version": "0.8.6",
     "synced": "2026-10-22",
     "sources": {
       "Hittite Empire Army": "1aqMPs2Pi5car6pUzcuWmHXArGss_RZdkgATe5OsbVrw",
@@ -5813,7 +5813,7 @@ window.NHB_DATA = {
       "name": "Feigned Flight",
       "short": "2 Light Cavalry gain Feign Retreat",
       "limit": 3,
-      "text": "Until the end of the turn, up to two Light Cavalry units that have Feign Charge also gain Feign Retreat.",
+      "text": "Until the end of the round, up to two Light Cavalry units that have Feign Charge also gain Feign Retreat.",
       "flavor": "The horsemen wheel away as if beaten, and the foolish give chase."
     },
     {
@@ -5845,7 +5845,7 @@ window.NHB_DATA = {
       "name": "Local Guides",
       "short": "2 foot units gain Surefooted",
       "limit": 3,
-      "text": "Until the end of the turn, up to two Warrior, Light Warrior or Skirmishing Warrior units gain the Surefooted special rule.",
+      "text": "Until the end of the round, up to two Warrior, Light Warrior or Skirmishing Warrior units gain the Surefooted special rule.",
       "flavor": "A shepherd who knows every goat track is worth a hundred spears."
     },
     {
@@ -5861,7 +5861,7 @@ window.NHB_DATA = {
       "name": "Last Stand",
       "short": "All your units gain Suicidal",
       "limit": 3,
-      "text": "Until the end of the turn, all of your units gain the Suicidal special rule.",
+      "text": "Until the end of the round, all of your units gain the Suicidal special rule.",
       "flavor": "There is no line of retreat. Every man knows it."
     },
     {
@@ -5960,7 +5960,7 @@ window.NHB_DATA = {
         "persia"
       ],
       "limit": 1,
-      "text": "Until the end of the turn, ranged attacks made with Volley fire, or against targets beyond half the weapon's maximum range, add +1 to Suppression.",
+      "text": "Until the end of the round, ranged attacks made with Volley fire, or against targets beyond half the weapon's maximum range, add +1 to Suppression.",
       "flavor": "So many arrows fly that the sky darkens over the enemy line."
     },
     {
@@ -5982,7 +5982,7 @@ window.NHB_DATA = {
         "persia"
       ],
       "limit": 1,
-      "text": "Until the end of the turn, Sakā and Scythian Archers attack at -1 Strength. Their base Suppression is equal to the target's Training value instead of 1.",
+      "text": "Until the end of the round, Sakā and Scythian Archers attack at -1 Strength. Their base Suppression is equal to the target's Training value instead of 1.",
       "flavor": "Steppe archers dip their arrows in rot and venom, so even a scratch spreads terror."
     },
     {
@@ -6023,7 +6023,7 @@ window.NHB_DATA = {
         "hittite"
       ],
       "limit": 1,
-      "text": "Until the end of the turn, all Chariot units gain +1 Accuracy.",
+      "text": "Until the end of the round, all Chariot units gain +1 Accuracy.",
       "flavor": "Like the Storm God's bulls, the chariots thunder across the field."
     },
     {
@@ -6045,7 +6045,7 @@ window.NHB_DATA = {
         "hittite"
       ],
       "limit": 1,
-      "text": "Until the end of the turn, units in your army without the Mercenary rule treat Marsh terrain, and terrain that follows the Marsh rules, as Difficult Terrain only.",
+      "text": "Until the end of the round, units in your army without the Mercenary rule treat Marsh terrain, and terrain that follows the Marsh rules, as Difficult Terrain only.",
       "flavor": "The river runs low in summer, and the chariots know the ford."
     },
     {
@@ -6056,7 +6056,7 @@ window.NHB_DATA = {
         "hittite"
       ],
       "limit": 1,
-      "text": "Until the end of the turn, units within 18” of a Royal Retinue gain the following, based on their name. Allied units: +1 Move and Aim. Levy units: automatically pass their next Break test. Hattian units: +1 Strength with melee weapons, and Frenzy.",
+      "text": "Until the end of the round, units within 18” of a Royal Retinue gain the following, based on their name. Allied units: +1 Move and Aim. Levy units: automatically pass their next Break test. Hattian units: +1 Strength with melee weapons, and Frenzy.",
       "flavor": "Sworn before the gods of Hatti, vassal and native fight as one."
     },
     {
@@ -6078,7 +6078,7 @@ window.NHB_DATA = {
         "rome"
       ],
       "limit": 1,
-      "text": "Until the end of the turn, units using Iacite Pīla ignore its -2 penalty to hit and add +1 to Suppression.",
+      "text": "Until the end of the round, units using Iacite Pīla ignore its -2 penalty to hit and add +1 to Suppression.",
       "flavor": "A storm of pila breaks the enemy's shields before the swords go in."
     },
     {
@@ -6089,7 +6089,7 @@ window.NHB_DATA = {
         "rome"
       ],
       "limit": 1,
-      "text": "Until the end of the turn, all units with Testūdō are treated as having the Phalanx special rule. They may also use their Pīlum in Melee as described in Testūdō (Length 6, -1 Strength, no Sunder), even if they did not take the Hold action.",
+      "text": "Until the end of the round, all units with Testūdō are treated as having the Phalanx special rule. They may also use their Pīlum in Melee as described in Testūdō (Length 6, -1 Strength, no Sunder), even if they did not take the Hold action.",
       "flavor": "Shields locked edge to edge, the cohort becomes a wall."
     },
     {
@@ -6100,7 +6100,7 @@ window.NHB_DATA = {
         "rome"
       ],
       "limit": 1,
-      "text": "Obstacle. Before deployment, place a trench up to 12” long and 1” wide that starts in your deployment zone. Cavalry, Chariots, Elephants and Warmachines cannot cross it. Other units crossing it lose the +1 Strength from their Charge Action Token that turn.",
+      "text": "Obstacle. Before deployment, place a trench up to 12” long and 1” wide that starts in your deployment zone. Cavalry, Chariots, Elephants and Warmachines cannot cross it. Other units crossing it lose the +1 Strength from their Charge Action Token that round.",
       "flavor": "Caesar's spades guard the flanks better than any cohort."
     },
     {
@@ -6152,7 +6152,7 @@ window.NHB_DATA = {
         "aztec"
       ],
       "limit": 1,
-      "text": "Until the end of the turn, units within 8” of a Shaman gain Frenzy, and each unit with a Shaman gains +1 Strength with melee weapons.",
+      "text": "Until the end of the round, units within 8” of a Shaman gain Frenzy, and each unit with a Shaman gains +1 Strength with melee weapons.",
       "flavor": "Priests drive the warriors on, promising hearts for the war god."
     },
     {
@@ -6185,7 +6185,7 @@ window.NHB_DATA = {
         "greek"
       ],
       "limit": 1,
-      "text": "Until the end of the turn, one Warrior, Light Warrior or Skirmishing Warrior unit gains Feign Retreat and +1 Move. If it has Phalanx, it gains +2 Move instead.",
+      "text": "Until the end of the round, one Warrior, Light Warrior or Skirmishing Warrior unit gains Feign Retreat and +1 Move. If it has Phalanx, it gains +2 Move instead.",
       "flavor": "The Spartans turn as if to flee, then fall upon the Persians who follow."
     },
     {
