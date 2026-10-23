@@ -201,6 +201,12 @@ img { max-width: 100%; }
 .cmdline { font-size: 13px; margin: 0 0 12px; }
 .cmdcard .flavor { font-size: 13px; color: var(--muted); }
 .cmdcard .stepper { flex: none; }
+.cmdcard { cursor: default; }
+.cmd-main { flex: 1; min-width: 0; }
+.cmd-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 8px; }
+.cmd-more { flex: none; width: 28px; height: 28px; border-radius: 50%; border: 1px solid var(--line); background: none; font-size: 16px; line-height: 1; color: inherit; cursor: pointer; }
+.cmd-more:hover, .cmdcard.open .cmd-more { border-color: var(--bronze); }
+.cmd-details { margin-top: 8px; padding-top: 8px; border-top: 1px solid var(--line); }
 
 .site-foot { margin: 28px 0 12px; text-align: center; font-size: 12px; color: var(--muted); }
 @media print { .site-foot { display: none; } }

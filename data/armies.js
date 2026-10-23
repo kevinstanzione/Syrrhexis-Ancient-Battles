@@ -1,7 +1,7 @@
 // Syrrhēxis army data. Edit the values below; keep the first line as is.
 window.NHB_DATA = {
   "meta": {
-    "version": "0.7.2",
+    "version": "0.7.3",
     "synced": "2026-10-22",
     "sources": {
       "Hittite Empire Army": "1aqMPs2Pi5car6pUzcuWmHXArGss_RZdkgATe5OsbVrw",
@@ -5765,6 +5765,7 @@ window.NHB_DATA = {
     {
       "id": "supplemental-mercenaries",
       "name": "Supplemental Mercenaries",
+      "short": "1 mercenary unit per copy",
       "limit": 3,
       "mercs": 1,
       "text": "Your army may include 1 unit from the Supplemental Mercenaries list for each copy of this card in your deck.",
@@ -5774,6 +5775,7 @@ window.NHB_DATA = {
     {
       "id": "monument",
       "name": "Monument",
+      "short": "Terrain: +2 to Break Tests nearby",
       "limit": 3,
       "text": "Before deployment, place a 2” × 2” Monument in the neutral zone, outside every deployment zone. It is impassable and blocks all line of sight that passes over it. Friendly units within 6” of it gain +2 to Break tests.",
       "flavor": "Beneath the gaze of their ancestors, no warrior wants to be the first to run."
@@ -5781,6 +5783,7 @@ window.NHB_DATA = {
     {
       "id": "watchtower",
       "name": "Watchtower",
+      "short": "Terrain: keeps enemy deployment away",
       "limit": 3,
       "text": "Before deployment, place a 3” × 3” Watchtower in your deployment zone. It is impassable but does not block line of sight. While a Skirmishing Warrior unit is in base contact with it, and no other unit is in base contact with that unit or the Watchtower, no enemy unit may deploy within 18” of the Watchtower. Any player may use this effect.",
       "flavor": "From the tower, no ambush goes unseen."
@@ -5788,6 +5791,7 @@ window.NHB_DATA = {
     {
       "id": "dense-brush",
       "name": "Dense Brush",
+      "short": "Terrain: blocks movement and sight",
       "limit": 3,
       "text": "Before deployment, place a 6” × 6” patch of Dense Brush in the neutral zone, outside every deployment zone. It is impassable and blocks all line of sight that passes over it.",
       "flavor": "Thorn and thicket swallow whole companies from view."
@@ -5795,6 +5799,7 @@ window.NHB_DATA = {
     {
       "id": "crumbled-ruins",
       "name": "Crumbled Ruins",
+      "short": "Terrain: a patch of Stony Plain",
       "limit": 3,
       "text": "Before deployment, place 8” × 8” Crumbled Ruins in the neutral zone, outside every deployment zone. They follow the rules for a Stony Plain.",
       "flavor": "The bones of an older city trip the living."
@@ -5802,6 +5807,7 @@ window.NHB_DATA = {
     {
       "id": "flooded-field",
       "name": "Flooded Field",
+      "short": "Terrain: a patch of Marsh",
       "limit": 3,
       "text": "Before deployment, place a 6” × 6” Flooded Field in the neutral zone, outside every deployment zone. It follows the rules for a Marsh.",
       "flavor": "Broken dikes turn the farmland into a mire."
@@ -5809,6 +5815,7 @@ window.NHB_DATA = {
     {
       "id": "sappers",
       "name": "Sappers",
+      "short": "Cancel an enemy Obstacle card",
       "limit": 3,
       "text": "Play when an opponent plays an Obstacle Command card. Lose Army Morale equal to 10% of your Starting Army Morale, rounded up. That card is cancelled and its Obstacle is not placed.",
       "flavor": "Before the wall is raised, the diggers have already undone it."
@@ -5816,6 +5823,7 @@ window.NHB_DATA = {
     {
       "id": "feigned-flight",
       "name": "Feigned Flight",
+      "short": "2 Light Cavalry gain Feign Retreat",
       "limit": 3,
       "text": "Until the end of the turn, up to two Light Cavalry units that have Feign Charge also gain Feign Retreat.",
       "flavor": "The horsemen wheel away as if beaten, and the foolish give chase."
@@ -5823,6 +5831,7 @@ window.NHB_DATA = {
     {
       "id": "bodyguard",
       "name": "Bodyguard",
+      "short": "A Training 7+ foot unit gains Guard",
       "limit": 3,
       "text": "Until the end of the round, one Warrior, Light Warrior or Skirmishing Warrior unit with base Training 7 or higher, and without Retinue in its name, gains the Guard special rule.",
       "flavor": "The best men stand closest to their general, ready to step in front of any blow."
@@ -5830,6 +5839,7 @@ window.NHB_DATA = {
     {
       "id": "mass-volley",
       "name": "Mass Volley",
+      "short": "A ranged unit gains Volley",
       "limit": 3,
       "text": "Until the end of the round, one unit with a ranged weapon gains the Volley special rule.",
       "flavor": "Every bow on the line looses at once, and the sky goes dark."
@@ -5837,6 +5847,7 @@ window.NHB_DATA = {
     {
       "id": "hold-the-line",
       "name": "Hold the Line",
+      "short": "Closed Order units gain Disciplined",
       "limit": 3,
       "text": "Until the end of the round, all of your Closed Order units gain the Disciplined special rule.",
       "flavor": "Not one step back."
@@ -5844,6 +5855,7 @@ window.NHB_DATA = {
     {
       "id": "local-guides",
       "name": "Local Guides",
+      "short": "2 foot units gain Surefooted",
       "limit": 3,
       "text": "Until the end of the turn, up to two Warrior, Light Warrior or Skirmishing Warrior units gain the Surefooted special rule.",
       "flavor": "A shepherd who knows every goat track is worth a hundred spears."
@@ -5851,6 +5863,7 @@ window.NHB_DATA = {
     {
       "id": "hidden-ravine",
       "name": "Hidden Ravine",
+      "short": "A light foot unit gains Ambush",
       "limit": 3,
       "text": "Play during deployment. One Light Warrior or Skirmishing Warrior unit gains the Ambush special rule.",
       "flavor": "The ground falls away where no one expects it, and men are waiting there."
@@ -5858,6 +5871,7 @@ window.NHB_DATA = {
     {
       "id": "last-stand",
       "name": "Last Stand",
+      "short": "All your units gain Suicidal",
       "limit": 3,
       "text": "Until the end of the turn, all of your units gain the Suicidal special rule.",
       "flavor": "There is no line of retreat. Every man knows it."
@@ -5865,6 +5879,7 @@ window.NHB_DATA = {
     {
       "id": "vanguard",
       "name": "Vanguard",
+      "short": "A light unit gains Scout",
       "limit": 3,
       "text": "Play during deployment. One Light Warrior, Skirmishing Warrior, Light Cavalry or Skirmishing Cavalry unit gains the Scout special rule.",
       "flavor": "Sent ahead at dawn, they hold the ground before the army arrives."
@@ -5872,6 +5887,7 @@ window.NHB_DATA = {
     {
       "id": "spy",
       "name": "Spy",
+      "short": "See 2 of their unpicked cards",
       "limit": 1,
       "text": "Play before deployment. Your opponent reveals 2 of the Command cards they did not pick, at random.",
       "flavor": "A merchant from the enemy camp sells more than wine."
@@ -5879,6 +5895,7 @@ window.NHB_DATA = {
     {
       "id": "blot-out-the-sun",
       "name": "Blot Out the Sun",
+      "short": "+1 Suppression on long-range volleys",
       "armies": [
         "persia"
       ],
@@ -5889,6 +5906,7 @@ window.NHB_DATA = {
     {
       "id": "all-of-mankind",
       "name": "All of Mankind",
+      "short": "+1 Initiative per Mercenary unit",
       "armies": [
         "persia"
       ],
@@ -5899,6 +5917,7 @@ window.NHB_DATA = {
     {
       "id": "scythicon-poison",
       "name": "Scythicon Poison",
+      "short": "Scythian arrows drain Army Morale",
       "armies": [
         "persia"
       ],
@@ -5909,6 +5928,7 @@ window.NHB_DATA = {
     {
       "id": "prepared-ground",
       "name": "Prepared Ground",
+      "short": "Terrain: cancels the Major Terrain",
       "armies": [
         "persia"
       ],
@@ -5919,6 +5939,7 @@ window.NHB_DATA = {
     {
       "id": "persian-mercenaries",
       "name": "King of Kings",
+      "short": "2 mercenaries from the Persian list",
       "armies": [
         "persia"
       ],
@@ -5937,6 +5958,7 @@ window.NHB_DATA = {
     {
       "id": "chariots-of-the-storm-god",
       "name": "Chariots of the Storm God",
+      "short": "All Chariots gain +1 Accuracy",
       "armies": [
         "hittite"
       ],
@@ -5947,6 +5969,7 @@ window.NHB_DATA = {
     {
       "id": "kadesh-ambush",
       "name": "Kadesh Ambush",
+      "short": "A Chariot unit gains Scout",
       "armies": [
         "hittite"
       ],
@@ -5957,6 +5980,7 @@ window.NHB_DATA = {
     {
       "id": "crossing-the-orontes",
       "name": "Crossing the Orontes",
+      "short": "Treat Marsh as Difficult Terrain",
       "armies": [
         "hittite"
       ],
@@ -5967,6 +5991,7 @@ window.NHB_DATA = {
     {
       "id": "thousand-gods-of-hatti",
       "name": "The Thousand Gods of Hatti",
+      "short": "Buffs units near a Royal Retinue",
       "armies": [
         "hittite"
       ],
@@ -5977,6 +6002,7 @@ window.NHB_DATA = {
     {
       "id": "triplex-acies",
       "name": "Triplex Aciēs",
+      "short": "Heal a unit and remove Break Tokens",
       "armies": [
         "rome"
       ],
@@ -5987,6 +6013,7 @@ window.NHB_DATA = {
     {
       "id": "impetus",
       "name": "Impetus",
+      "short": "Stronger Iacite Pīla throws",
       "armies": [
         "rome"
       ],
@@ -5997,6 +6024,7 @@ window.NHB_DATA = {
     {
       "id": "fulcum",
       "name": "Fulcum",
+      "short": "Testūdō units gain Phalanx",
       "armies": [
         "rome"
       ],
@@ -6007,6 +6035,7 @@ window.NHB_DATA = {
     {
       "id": "fossa",
       "name": "Fossa",
+      "short": "Obstacle: a trench to guard a flank",
       "armies": [
         "rome"
       ],
@@ -6017,6 +6046,7 @@ window.NHB_DATA = {
     {
       "id": "lilia",
       "name": "Līlia",
+      "short": "Obstacle: pit traps for mounted units",
       "armies": [
         "rome"
       ],
@@ -6027,6 +6057,7 @@ window.NHB_DATA = {
     {
       "id": "numeri",
       "name": "Numerī",
+      "short": "2 mercenaries from the Roman list",
       "armies": [
         "rome"
       ],
@@ -6045,6 +6076,7 @@ window.NHB_DATA = {
     {
       "id": "flower-war",
       "name": "Flower War",
+      "short": "Regain Army Morale for kills",
       "armies": [
         "aztec"
       ],
@@ -6055,6 +6087,7 @@ window.NHB_DATA = {
     {
       "id": "blood-for-huitzilopochtli",
       "name": "Blood for Huītzilōpōchtli",
+      "short": "Frenzy for units near Shamans",
       "armies": [
         "aztec"
       ],
@@ -6065,6 +6098,7 @@ window.NHB_DATA = {
     {
       "id": "death-whistle",
       "name": "Death Whistle",
+      "short": "Fear Test that strips Hold tokens",
       "armies": [
         "aztec"
       ],
@@ -6075,6 +6109,7 @@ window.NHB_DATA = {
     {
       "id": "chinampas",
       "name": "Chinampas",
+      "short": "Terrain: Marsh the Aztecs ignore",
       "armies": [
         "aztec"
       ],
@@ -6085,6 +6120,7 @@ window.NHB_DATA = {
     {
       "id": "the-hot-gates",
       "name": "The Hot Gates",
+      "short": "A foot unit gains Feign Retreat",
       "armies": [
         "greek"
       ],
@@ -6095,6 +6131,7 @@ window.NHB_DATA = {
     {
       "id": "othismos",
       "name": "Othismos",
+      "short": "Charging Phalanxes count as Holding",
       "armies": [
         "greek"
       ],
@@ -6105,6 +6142,7 @@ window.NHB_DATA = {
     {
       "id": "in-the-shade",
       "name": "In the Shade",
+      "short": "Ongoing: Phalanx units resist Suppression",
       "armies": [
         "greek"
       ],
@@ -6115,6 +6153,7 @@ window.NHB_DATA = {
     {
       "id": "phocian-wall",
       "name": "Phocian Wall",
+      "short": "Obstacle: a wall that shelters from shooting",
       "armies": [
         "greek"
       ],

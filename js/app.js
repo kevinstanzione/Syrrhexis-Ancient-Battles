@@ -43,6 +43,7 @@
   let tab = "build";
   let pending = null; // inline confirmation
   const openCards = new Set(); // expanded unit cards, by uid
+  const openCmds = new Set(); // expanded Command cards, by id
   let toast = "";
 
   const army = () => DATA.armies.find(a => a.id === state.armyId) || DATA.armies[0];
@@ -209,11 +210,13 @@
     const inDeck = deck().map(c => c.id);
     const cmd = `<section class="cmd"><h2>Command deck <span class="label">${inDeck.length} / ${DECK_SIZE} cards</span></h2>
       <div class="cmd-list">${cardsFor().map(c => {
-        const n = copiesOf(c.id), lim = limitOf(c), on = n > 0, full = inDeck.length >= DECK_SIZE;
+        const n = copiesOf(c.id), lim = limitOf(c), on = n > 0, full = inDeck.length >= DECK_SIZE, open = openCmds.has(c.id);
         const limText = lim > 1 ? `Up to ${lim} per deck` : "1 per deck";
-        const body = `<span><b>${esc(c.name)}</b> <span class="sub">· ${limText}</span>${c.flavor ? `<br><i class="flavor">${esc(c.flavor)}</i>` : ""}<br>${kw(c.text)}${c.note ? `<br><span class="sub">${esc(c.note)}</span>` : ""}</span>`;
-        if (lim > 1) return `<div class="cmdcard ${on ? "on" : ""}"><div class="stepper"><button data-act="cmddec" data-id="${esc(c.id)}" ${n ? "" : "disabled"} aria-label="Fewer">−</button><span class="num">${n}</span><button data-act="cmdinc" data-id="${esc(c.id)}" ${n >= lim || full ? "disabled" : ""} aria-label="More">+</button></div>${body}</div>`;
-        return `<label class="cmdcard ${on ? "on" : ""}"><input type="checkbox" data-act="cmd" data-id="${esc(c.id)}" ${on ? "checked" : ""} ${!on && full ? "disabled" : ""}>${body}</label>`;
+        const pick = lim > 1
+          ? `<div class="stepper"><button data-act="cmddec" data-id="${esc(c.id)}" ${n ? "" : "disabled"} aria-label="Remove a copy">−</button><span class="num">${n}</span><button data-act="cmdinc" data-id="${esc(c.id)}" ${n >= lim || full ? "disabled" : ""} aria-label="Add a copy">+</button></div>`
+          : `<input type="checkbox" data-act="cmd" data-id="${esc(c.id)}" ${on ? "checked" : ""} ${!on && full ? "disabled" : ""} aria-label="Add ${esc(c.name)} to deck">`;
+        const details = open ? `<div class="cmd-details">${c.flavor ? `<i class="flavor">${esc(c.flavor)}</i><br>` : ""}${kw(c.text)}${c.note ? `<br><span class="sub">${esc(c.note)}</span>` : ""}</div>` : "";
+        return `<div class="cmdcard ${on ? "on" : ""}${open ? " open" : ""}">${pick}<div class="cmd-main"><div class="cmd-head"><span><b>${esc(c.name)}</b><br><span class="sub">${esc(c.short || "")} · ${limText}</span></span><button class="cmd-more" data-act="cmdmore" data-id="${esc(c.id)}" aria-expanded="${open}" aria-label="${open ? "Hide" : "Show"} rules for ${esc(c.name)}">${open ? "−" : "+"}</button></div>${details}</div></div>`;
       }).join("")}</div>
       <p class="sub">Pick up to ${DECK_SIZE} cards. More Command cards are on the way.</p></section>`;
     $("#view").innerHTML = `${ex}${warn}${cards}${cmd}<section class="roster"><h2>Add a unit</h2><div class="roster-list">${roster}</div>${mercRoster}</section>`;
@@ -491,6 +494,7 @@
         edit(() => { const id = newUid(); openCards.add(id); const s = { uid: id, unitId: u.id, comp: 0, count: u.range ? u.range[0] : undefined, swaps: {}, adds: {}, chars: {} }; if (src) s.src = src; state.units.push(s); });
         break;
       }
+      case "cmdmore": { const id = b.dataset.id; openCmds.has(id) ? openCmds.delete(id) : openCmds.add(id); render(); break; }
       case "cmdinc": case "cmddec": {
         const id = b.dataset.id, c = cardsFor().find(x => x.id === id); if (!c) break;
         edit(() => {
