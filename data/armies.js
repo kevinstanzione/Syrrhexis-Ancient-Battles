@@ -1,7 +1,7 @@
 // Syrrhēxis army data. Edit the values below; keep the first line as is.
 window.NHB_DATA = {
   "meta": {
-    "version": "0.8.8",
+    "version": "0.9.0",
     "synced": "2026-10-22",
     "sources": {
       "Hittite Empire Army": "1aqMPs2Pi5car6pUzcuWmHXArGss_RZdkgATe5OsbVrw",
@@ -980,7 +980,7 @@ window.NHB_DATA = {
       "units": [
         {
           "id": "sparabara",
-          "name": "Sparabāra",
+          "name": "Sparabārā",
           "type": "Warrior",
           "move": 6,
           "training": 6,
@@ -1210,7 +1210,7 @@ window.NHB_DATA = {
         },
         {
           "id": "anusiya",
-          "name": "Anušiya",
+          "name": "Anušiyā",
           "type": "Warrior",
           "move": 6,
           "training": 7,
@@ -1321,7 +1321,7 @@ window.NHB_DATA = {
         },
         {
           "id": "anusiya-retinue",
-          "name": "Anušiya Retinue",
+          "name": "Anušiyā Retinue",
           "type": "Warrior",
           "move": 5,
           "training": 8,
@@ -1396,7 +1396,7 @@ window.NHB_DATA = {
         },
         {
           "id": "takabara",
-          "name": "Takabāra",
+          "name": "Takabārā",
           "type": "Light Warrior",
           "move": 7,
           "training": 5,
@@ -1511,7 +1511,7 @@ window.NHB_DATA = {
         },
         {
           "id": "asabara",
-          "name": "Asabāra",
+          "name": "Asabārā",
           "type": "Cavalry",
           "move": 10,
           "training": 7,
@@ -1618,7 +1618,7 @@ window.NHB_DATA = {
         },
         {
           "id": "asabara-retinue",
-          "name": "Asabāra Retinue",
+          "name": "Asabārā Retinue",
           "type": "Cavalry",
           "move": 8,
           "training": 8,
@@ -1906,7 +1906,7 @@ window.NHB_DATA = {
         },
         {
           "id": "ratha",
-          "name": "Raθa",
+          "name": "Raθā",
           "type": "Chariot",
           "move": 10,
           "training": 6,
@@ -2001,7 +2001,7 @@ window.NHB_DATA = {
         },
         {
           "id": "ratha-apaxsa",
-          "name": "Raθa-Dāça",
+          "name": "Raθā-Dāça",
           "type": "Chariot",
           "move": 12,
           "training": 7,
@@ -2075,7 +2075,7 @@ window.NHB_DATA = {
         },
         {
           "id": "ratha-retinue",
-          "name": "Raθa Retinue",
+          "name": "Raθā Retinue",
           "type": "Chariot",
           "move": 10,
           "training": 8,
@@ -3032,7 +3032,7 @@ window.NHB_DATA = {
       "units": [
         {
           "id": "legionarius",
-          "name": "Lēgiōnārius",
+          "name": "Lēgiōnāriī",
           "type": "Warrior",
           "move": 6,
           "training": 7,
@@ -3120,7 +3120,7 @@ window.NHB_DATA = {
         },
         {
           "id": "veteranus",
-          "name": "Veterānus",
+          "name": "Veterānī",
           "type": "Warrior",
           "move": 6,
           "training": 7,
@@ -3208,7 +3208,7 @@ window.NHB_DATA = {
         },
         {
           "id": "legionarius-retinue",
-          "name": "Lēgiōnārius Retinue",
+          "name": "Lēgiōnāriī Retinue",
           "type": "Warrior",
           "move": 5,
           "training": 8,
@@ -3503,7 +3503,7 @@ window.NHB_DATA = {
         },
         {
           "id": "sagittarius",
-          "name": "Sagittārius",
+          "name": "Sagittāriī",
           "type": "Light Warrior",
           "move": 7,
           "training": 5,
@@ -3780,7 +3780,7 @@ window.NHB_DATA = {
         },
         {
           "id": "explorator",
-          "name": "Explōrātor",
+          "name": "Explōrātōrēs",
           "type": "Light Cavalry",
           "move": 14,
           "training": 7,
@@ -3990,7 +3990,7 @@ window.NHB_DATA = {
       "units": [
         {
           "id": "yaonamicqui",
-          "name": "Yāōnāmicqui",
+          "name": "Yāōnāmicqueh",
           "type": "Skirmishing Warrior",
           "move": 7,
           "training": 5,
@@ -4088,7 +4088,7 @@ window.NHB_DATA = {
         },
         {
           "id": "cuauhocelotl",
-          "name": "Cuāuhocēlōtl",
+          "name": "Cuāuhocēlōmeh",
           "type": "Light Warrior",
           "move": 7,
           "training": 7,
@@ -4227,7 +4227,7 @@ window.NHB_DATA = {
         },
         {
           "id": "cuauhocelotl-retinue",
-          "name": "Cuāuhocēlōtl Retinue",
+          "name": "Cuāuhocēlōmeh Retinue",
           "type": "Light Warrior",
           "move": 6,
           "training": 8,
@@ -4313,7 +4313,7 @@ window.NHB_DATA = {
         },
         {
           "id": "cuachic",
-          "name": "Cuāchic",
+          "name": "Cuāchicqueh",
           "type": "Light Warrior",
           "move": 7,
           "training": 8,
@@ -4524,7 +4524,7 @@ window.NHB_DATA = {
         },
         {
           "id": "yaominqui",
-          "name": "Yāōminqui",
+          "name": "Yāōminqueh",
           "type": "Skirmishing Warrior",
           "move": 7,
           "training": 5,
@@ -4605,7 +4605,7 @@ window.NHB_DATA = {
         },
         {
           "id": "yaomotlatqui",
-          "name": "Yāōmotlatqui",
+          "name": "Yāōmotlatqueh",
           "type": "Skirmishing Warrior",
           "move": 7,
           "training": 5,
@@ -5446,7 +5446,7 @@ window.NHB_DATA = {
       },
       {
         "id": "cataphract",
-        "name": "Cataphract",
+        "name": "Cataphracts",
         "type": "Cavalry",
         "move": 10,
         "training": 6,

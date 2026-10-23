@@ -6,6 +6,11 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## 0.9.0 — 2026-10-23
+
+### Names
+- Unit names now use the plural throughout (weapon names stay singular). Renamed: Sparabārā, Anušiyā (and Retinue), Takabārā, Asabārā (and Retinue), Raθā, Raθā-Dāça, Raθā Retinue; Lēgiōnāriī (and Retinue), Veterānī, Sagittāriī, Explōrātōrēs; Yāōnāmicqueh, Cuāuhocēlōmeh (and Retinue), Cuāchicqueh, Yāōminqueh, Yāōmotlatqueh; Cataphracts. Saved lists still load.
+
 ## 0.8.8 — 2026-10-23
 
 ### Mercenaries
