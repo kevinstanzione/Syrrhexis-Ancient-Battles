@@ -13,6 +13,7 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 
 ### Rules
 - Unwieldy's extra turn cost also applies to the Alignment turn before a Charge.
+- Terrify X also gives a Break Token to a unit of type X that this unit successfully Bumps during a Charge.
 
 ## 0.9.3 — 2026-10-23
 
