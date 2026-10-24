@@ -1,7 +1,7 @@
 // Syrrhēxis army data. Edit the values below; keep the first line as is.
 window.NHB_DATA = {
   "meta": {
-    "version": "0.9.3",
+    "version": "0.9.4",
     "synced": "2026-10-22",
     "sources": {
       "Hittite Empire Army": "1aqMPs2Pi5car6pUzcuWmHXArGss_RZdkgATe5OsbVrw",
@@ -5769,25 +5769,25 @@ window.NHB_DATA = {
     {
       "id": "monument",
       "name": "Monument",
-      "short": "Terrain: +2 to Break Tests nearby",
+      "short": "Obstacle: +2 to Break Tests nearby",
       "limit": 3,
-      "text": "Before deployment, place a 2” × 2” Monument in the neutral zone, outside every deployment zone. It is impassable and blocks all line of sight that passes over it. Friendly units within 6” of it gain +2 to Break tests.",
+      "text": "Obstacle. Before deployment, place a 2” × 2” Monument in the neutral zone, outside every deployment zone. It is impassable and blocks all line of sight that passes over it. Friendly units within 6” of it gain +2 to Break tests.",
       "flavor": "Beneath the gaze of their ancestors, no warrior wants to be the first to run."
     },
     {
       "id": "watchtower",
       "name": "Watchtower",
-      "short": "Terrain: keeps enemy deployment away",
+      "short": "Obstacle: keeps enemy deployment away",
       "limit": 3,
-      "text": "Before deployment, place a 3” × 3” Watchtower in your deployment zone. It is impassable but does not block line of sight. While a Skirmishing Warrior unit is in base contact with it, and no other unit is in base contact with that unit or the Watchtower, no enemy unit may deploy within 18” of the Watchtower. Any player may use this effect.",
+      "text": "Obstacle. Before deployment, place a 3” × 3” Watchtower in your deployment zone. It is impassable but does not block line of sight. While a Skirmishing Warrior unit is in base contact with it, and no other unit is in base contact with that unit or the Watchtower, no enemy unit may deploy within 18” of the Watchtower. Any player may use this effect.",
       "flavor": "From the tower, no ambush goes unseen."
     },
     {
       "id": "dense-brush",
       "name": "Dense Brush",
-      "short": "Terrain: blocks movement and sight",
+      "short": "Obstacle: blocks movement and sight",
       "limit": 3,
-      "text": "Before deployment, place a 6” × 6” patch of Dense Brush in the neutral zone, outside every deployment zone. It is impassable and blocks all line of sight that passes over it.",
+      "text": "Obstacle. Before deployment, place a 6” × 6” patch of Dense Brush in the neutral zone, outside every deployment zone. It is impassable and blocks all line of sight that passes over it.",
       "flavor": "Thorn and thicket swallow whole companies from view."
     },
     {

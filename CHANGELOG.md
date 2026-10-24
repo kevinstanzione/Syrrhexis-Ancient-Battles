@@ -6,6 +6,14 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## 0.9.4 — 2026-10-24
+
+### Command cards
+- Monument, Watchtower and Dense Brush are now Obstacles, so Sappers can cancel them.
+
+### Rules
+- Unwieldy's extra turn cost also applies to the Alignment turn before a Charge.
+
 ## 0.9.3 — 2026-10-23
 
 ### Rules
