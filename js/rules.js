@@ -26,7 +26,7 @@ window.NHB_RULES = {
     "Tactician": "+1 to Initiative rolls while the unit has a Hold token. Does not stack.",
     "Surefooted (X)": "As Surefooted, but only within the listed terrain types (Stony Plain, Marsh or Sand). Terrain that follows a type's rules counts as that type: Crumbled Ruins as Stony Plain; Flooded Field and Chinampas as Marsh.",
     "Terrify X": "When this unit charges or is charged by a unit of type X, that unit gains a Break Token. Terrify All affects every unit type.",
-    "Volley": "If the unit takes the Hold action, it may use Volley: its Shooting attacks this turn have twice their range, at -1 Accuracy and -1 Strength. Before rolling to hit, the defender loses Army Morale equal to half the number of Volley attacks, rounded down, on top of Suppression and Damage. Cannot be used in the same round as Aim."
+    "Volley": "If the unit takes the Hold action, it may use Volley: its Shooting attacks this turn have twice their range, at -1 Accuracy and -1 Strength. Friendly units do not prevent it from shooting, and Cover against its attacks is one step lighter (Heavy → Cover → Light → none). Cannot be used in the same round as Aim."
   },
   weapon: {
     "Cleaving Blade (X)": "+2 Strength unless the target's Armor Value is X or greater. Always +2 Strength against Elephants.",
