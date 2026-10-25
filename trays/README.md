@@ -27,3 +27,7 @@ To regenerate after army changes: `pip install trimesh manifold3d`, then `python
 | [Chariot_40x60mm_1-rank_of_3.stl](stl/Chariot/Chariot_40x60mm_1-rank_of_3.stl) | 126.4 x 66.4 x 3.4 | Raθā-Dāça (Achaemenid Persia) |
 | [Chariot_40x60mm_1-rank_of_4.stl](stl/Chariot/Chariot_40x60mm_1-rank_of_4.stl) | 166.4 x 66.4 x 3.4 | Hattian Chariots (Hittite Empire); Raθā (Achaemenid Persia) |
 | [Large-Chariot-Elephant_60x80mm_1-rank_of_2.stl](stl/Large-Chariot-Elephant/Large-Chariot-Elephant_60x80mm_1-rank_of_2.stl) | 126.4 x 86.4 x 3.4 | Pīrū (Achaemenid Persia); Raθā Retinue (Achaemenid Persia) |
+
+## Turn Template
+
+[Turn_Template_45deg_3.5in.stl](stl/Turn_Template_45deg_3.5in.stl): a 45° wedge with 3.5" arms, 2.5 mm thick, with inch ticks along both edges and reference notches at 15° and 30°. Built by `python trays/make_turn_template.py`.

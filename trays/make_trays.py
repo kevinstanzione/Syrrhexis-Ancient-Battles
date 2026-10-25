@@ -83,6 +83,9 @@ def main():
         fh.write("| File | Outer size (W x D x H mm) | Used by |\n|---|---|---|\n")
         for kind, name, r, fl, W, D, H, users in rows:
             fh.write(f"| [{name}](stl/{kind}/{name}) | {W:.1f} x {D:.1f} x {H:.1f} | {'; '.join(users)} |\n")
+        fh.write("\n## Turn Template\n\n[Turn_Template_45deg_3.5in.stl](stl/Turn_Template_45deg_3.5in.stl): a 45° wedge with 3.5\" arms, "
+                 "2.5 mm thick, with inch ticks along both edges and reference notches at 15° and 30°. "
+                 "Built by `python trays/make_turn_template.py`.\n")
     print(len(rows), "trays written")
     for row in rows: print(row[1], f"{row[4]:.1f}x{row[5]:.1f}")
 
