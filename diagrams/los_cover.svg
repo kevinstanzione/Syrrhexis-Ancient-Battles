@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 290" width="816" height="696" font-family="Georgia, 'Times New Roman', serif">
+<defs></defs>
+<rect width="340" height="290" fill="#fff"/>
+<rect x="0" y="0" width="340" height="230" fill="#f6f1e6" stroke="#6b6253" stroke-width="0.8"/>
+<g transform="translate(120.0,45.0) rotate(180.0)"><rect x="-53.0" y="-23.0" width="106" height="46" rx="1.5" fill="#c9d8ee" stroke="#3f6fb0" stroke-width="1"/><rect x="-49.4" y="-19.4" width="18.8" height="18.8" rx="1" fill="#fff" fill-opacity="0.55" stroke="#3f6fb0" stroke-width="0.5"/><line x1="-47.0" y1="-17.8" x2="-33.0" y2="-17.8" stroke="#3f6fb0" stroke-width="1.2" stroke-linecap="round"/><rect x="-29.4" y="-19.4" width="18.8" height="18.8" rx="1" fill="#fff" fill-opacity="0.55" stroke="#3f6fb0" stroke-width="0.5"/><line x1="-27.0" y1="-17.8" x2="-13.0" y2="-17.8" stroke="#3f6fb0" stroke-width="1.2" stroke-linecap="round"/><rect x="-9.4" y="-19.4" width="18.8" height="18.8" rx="1" fill="#fff" fill-opacity="0.55" stroke="#3f6fb0" stroke-width="0.5"/><line x1="-7.0" y1="-17.8" x2="7.0" y2="-17.8" stroke="#3f6fb0" stroke-width="1.2" stroke-linecap="round"/><rect x="10.6" y="-19.4" width="18.8" height="18.8" rx="1" fill="#fff" fill-opacity="0.55" stroke="#3f6fb0" stroke-width="0.5"/><line x1="13.0" y1="-17.8" x2="27.0" y2="-17.8" stroke="#3f6fb0" stroke-width="1.2" stroke-linecap="round"/><rect x="30.6" y="-19.4" width="18.8" height="18.8" rx="1" fill="#fff" fill-opacity="0.55" stroke="#3f6fb0" stroke-width="0.5"/><line x1="33.0" y1="-17.8" x2="47.0" y2="-17.8" stroke="#3f6fb0" stroke-width="1.2" stroke-linecap="round"/><rect x="-49.4" y="0.6" width="18.8" height="18.8" rx="1" fill="#fff" fill-opacity="0.55" stroke="#3f6fb0" stroke-width="0.5"/><line x1="-47.0" y1="2.2" x2="-33.0" y2="2.2" stroke="#3f6fb0" stroke-width="1.2" stroke-linecap="round"/><rect x="-29.4" y="0.6" width="18.8" height="18.8" rx="1" fill="#fff" fill-opacity="0.55" stroke="#3f6fb0" stroke-width="0.5"/><line x1="-27.0" y1="2.2" x2="-13.0" y2="2.2" stroke="#3f6fb0" stroke-width="1.2" stroke-linecap="round"/><rect x="-9.4" y="0.6" width="18.8" height="18.8" rx="1" fill="#fff" fill-opacity="0.55" stroke="#3f6fb0" stroke-width="0.5"/><line x1="-7.0" y1="2.2" x2="7.0" y2="2.2" stroke="#3f6fb0" stroke-width="1.2" stroke-linecap="round"/><rect x="10.6" y="0.6" width="18.8" height="18.8" rx="1" fill="#fff" fill-opacity="0.55" stroke="#3f6fb0" stroke-width="0.5"/><line x1="13.0" y1="2.2" x2="27.0" y2="2.2" stroke="#3f6fb0" stroke-width="1.2" stroke-linecap="round"/><rect x="30.6" y="0.6" width="18.8" height="18.8" rx="1" fill="#fff" fill-opacity="0.55" stroke="#3f6fb0" stroke-width="0.5"/><line x1="33.0" y1="2.2" x2="47.0" y2="2.2" stroke="#3f6fb0" stroke-width="1.2" stroke-linecap="round"/><line x1="-53.0" y1="-23.0" x2="53.0" y2="-23.0" stroke="#3f6fb0" stroke-width="2.2"/></g>
+<text x="120.0" y="12.0" font-size="6" fill="#3f6fb0" text-anchor="middle" font-weight="bold">Target: 10 models</text>
+<rect x="60" y="74" width="65" height="22" rx="8" fill="#4f7f4a" fill-opacity="0.55" stroke="#4f7f4a" stroke-width="0.9"/>
+<circle cx="70" cy="82" r="5" fill="#4f7f4a" opacity="0.8"/>
+<circle cx="84" cy="89" r="5" fill="#4f7f4a" opacity="0.8"/>
+<circle cx="98" cy="81" r="5" fill="#4f7f4a" opacity="0.8"/>
+<circle cx="112" cy="88" r="5" fill="#4f7f4a" opacity="0.8"/>
+<circle cx="118" cy="80" r="5" fill="#4f7f4a" opacity="0.8"/>
+<text x="56.0" y="87.0" font-size="5.5" fill="#4f7f4a" text-anchor="end" font-style="italic">Dense Brush</text>
+<g transform="translate(135.0,190.0) rotate(0.0)"><rect x="-43.0" y="-23.0" width="86" height="46" rx="1.5" fill="#f0cfc9" stroke="#b4473a" stroke-width="1"/><rect x="-39.4" y="-19.4" width="18.8" height="18.8" rx="1" fill="#fff" fill-opacity="0.55" stroke="#b4473a" stroke-width="0.5"/><line x1="-37.0" y1="-17.8" x2="-23.0" y2="-17.8" stroke="#b4473a" stroke-width="1.2" stroke-linecap="round"/><rect x="-19.4" y="-19.4" width="18.8" height="18.8" rx="1" fill="#fff" fill-opacity="0.55" stroke="#b4473a" stroke-width="0.5"/><line x1="-17.0" y1="-17.8" x2="-3.0" y2="-17.8" stroke="#b4473a" stroke-width="1.2" stroke-linecap="round"/><rect x="0.6" y="-19.4" width="18.8" height="18.8" rx="1" fill="#fff" fill-opacity="0.55" stroke="#b4473a" stroke-width="0.5"/><line x1="3.0" y1="-17.8" x2="17.0" y2="-17.8" stroke="#b4473a" stroke-width="1.2" stroke-linecap="round"/><rect x="20.6" y="-19.4" width="18.8" height="18.8" rx="1" fill="#fff" fill-opacity="0.55" stroke="#b4473a" stroke-width="0.5"/><line x1="23.0" y1="-17.8" x2="37.0" y2="-17.8" stroke="#b4473a" stroke-width="1.2" stroke-linecap="round"/><rect x="-39.4" y="0.6" width="18.8" height="18.8" rx="1" fill="#fff" fill-opacity="0.55" stroke="#b4473a" stroke-width="0.5"/><line x1="-37.0" y1="2.2" x2="-23.0" y2="2.2" stroke="#b4473a" stroke-width="1.2" stroke-linecap="round"/><rect x="-19.4" y="0.6" width="18.8" height="18.8" rx="1" fill="#fff" fill-opacity="0.55" stroke="#b4473a" stroke-width="0.5"/><line x1="-17.0" y1="2.2" x2="-3.0" y2="2.2" stroke="#b4473a" stroke-width="1.2" stroke-linecap="round"/><rect x="0.6" y="0.6" width="18.8" height="18.8" rx="1" fill="#fff" fill-opacity="0.55" stroke="#b4473a" stroke-width="0.5"/><line x1="3.0" y1="2.2" x2="17.0" y2="2.2" stroke="#b4473a" stroke-width="1.2" stroke-linecap="round"/><rect x="20.6" y="0.6" width="18.8" height="18.8" rx="1" fill="#fff" fill-opacity="0.55" stroke="#b4473a" stroke-width="0.5"/><line x1="23.0" y1="2.2" x2="37.0" y2="2.2" stroke="#b4473a" stroke-width="1.2" stroke-linecap="round"/><line x1="-43.0" y1="-23.0" x2="43.0" y2="-23.0" stroke="#b4473a" stroke-width="2.2"/></g>
+<text x="135.0" y="222.0" font-size="6" fill="#b4473a" text-anchor="middle" font-weight="bold">Archers: 8 models</text>
+<line x1="105" y1="170" x2="67" y2="68" stroke="#6b6253" stroke-dasharray="2 2" stroke-width="0.6"/>
+<line x1="105" y1="170" x2="133" y2="68" stroke="#2b2b2b" stroke-width="0.6"/>
+<line x1="105" y1="170" x2="173" y2="68" stroke="#2b2b2b" stroke-width="0.6"/>
+<line x1="165" y1="170" x2="67" y2="68" stroke="#6b6253" stroke-dasharray="2 2" stroke-width="0.6"/>
+<line x1="165" y1="170" x2="110" y2="68" stroke="#2b2b2b" stroke-width="0.6"/>
+<line x1="165" y1="170" x2="173" y2="68" stroke="#2b2b2b" stroke-width="0.6"/>
+<text x="97.0" y="156.0" font-size="5.5" fill="#6b6253" text-anchor="end" font-weight="bold">sees 40%:</text>
+<text x="97.0" y="163.0" font-size="5.5" fill="#6b6253" text-anchor="end" font-style="italic">blocked</text>
+<text x="173.0" y="156.0" font-size="5.5" fill="#2b2b2b" text-anchor="start" font-weight="bold">sees 60%:</text>
+<text x="173.0" y="163.0" font-size="5.5" fill="#2b2b2b" text-anchor="start" font-style="italic">can see</text>
+<text x="296.0" y="26.0" font-size="5" fill="#2b2b2b" text-anchor="middle" font-weight="bold">% Attacking Unit Can See</text>
+<text x="266.0" y="37.0" font-size="4.5" fill="#2b2b2b" text-anchor="middle">100%</text>
+<text x="286.0" y="37.0" font-size="4.5" fill="#2b2b2b" text-anchor="middle">≥50%</text>
+<text x="306.0" y="37.0" font-size="4.5" fill="#2b2b2b" text-anchor="middle">≥25%</text>
+<text x="326.0" y="37.0" font-size="4.5" fill="#2b2b2b" text-anchor="middle">≥0%</text>
+<text x="236.0" y="66.0" font-size="5" fill="#2b2b2b" text-anchor="middle" font-weight="bold" transform="rotate(-90 236 66)">% Defending Unit Seen</text>
+<text x="248.0" y="48.1" font-size="4.5" fill="#2b2b2b" text-anchor="middle">100%</text>
+<rect x="256" y="40" width="20" height="13" fill="#fff" stroke="#6b6253" stroke-width="0.5"/>
+<text x="266.0" y="48.1" font-size="4.5" fill="#2b2b2b" text-anchor="middle">None</text>
+<rect x="276" y="40" width="20" height="13" fill="#fff" stroke="#6b6253" stroke-width="0.5"/>
+<text x="286.0" y="48.1" font-size="4.5" fill="#2b2b2b" text-anchor="middle">Light</text>
+<rect x="296" y="40" width="20" height="13" fill="#fff" stroke="#6b6253" stroke-width="0.5"/>
+<text x="306.0" y="48.1" font-size="4.5" fill="#2b2b2b" text-anchor="middle">Cover</text>
+<rect x="316" y="40" width="20" height="13" fill="#fff" stroke="#6b6253" stroke-width="0.5"/>
+<text x="326.0" y="48.1" font-size="4.5" fill="#2b2b2b" text-anchor="middle">Heavy</text>
+<text x="248.0" y="61.1" font-size="4.5" fill="#2b2b2b" text-anchor="middle">≥50%</text>
+<rect x="256" y="53" width="20" height="13" fill="#fff" stroke="#6b6253" stroke-width="0.5"/>
+<text x="266.0" y="61.1" font-size="4.5" fill="#2b2b2b" text-anchor="middle">Light</text>
+<rect x="276" y="53" width="20" height="13" fill="#efe2bf" stroke="#6b6253" stroke-width="1.2"/>
+<text x="286.0" y="61.1" font-size="4.5" fill="#2b2b2b" text-anchor="middle" font-weight="bold">Cover</text>
+<rect x="296" y="53" width="20" height="13" fill="#fff" stroke="#6b6253" stroke-width="0.5"/>
+<text x="306.0" y="61.1" font-size="4.5" fill="#2b2b2b" text-anchor="middle">Heavy</text>
+<rect x="316" y="53" width="20" height="13" fill="#fff" stroke="#6b6253" stroke-width="0.5"/>
+<text x="326.0" y="61.1" font-size="4.5" fill="#2b2b2b" text-anchor="middle">No</text>
+<text x="248.0" y="74.1" font-size="4.5" fill="#2b2b2b" text-anchor="middle">≥25%</text>
+<rect x="256" y="66" width="20" height="13" fill="#fff" stroke="#6b6253" stroke-width="0.5"/>
+<text x="266.0" y="74.1" font-size="4.5" fill="#2b2b2b" text-anchor="middle">Cover</text>
+<rect x="276" y="66" width="20" height="13" fill="#fff" stroke="#6b6253" stroke-width="0.5"/>
+<text x="286.0" y="74.1" font-size="4.5" fill="#2b2b2b" text-anchor="middle">Heavy</text>
+<rect x="296" y="66" width="20" height="13" fill="#fff" stroke="#6b6253" stroke-width="0.5"/>
+<text x="306.0" y="74.1" font-size="4.5" fill="#2b2b2b" text-anchor="middle">No</text>
+<rect x="316" y="66" width="20" height="13" fill="#fff" stroke="#6b6253" stroke-width="0.5"/>
+<text x="326.0" y="74.1" font-size="4.5" fill="#2b2b2b" text-anchor="middle">No</text>
+<text x="248.0" y="87.1" font-size="4.5" fill="#2b2b2b" text-anchor="middle">≥0%</text>
+<rect x="256" y="79" width="20" height="13" fill="#fff" stroke="#6b6253" stroke-width="0.5"/>
+<text x="266.0" y="87.1" font-size="4.5" fill="#2b2b2b" text-anchor="middle">Heavy</text>
+<rect x="276" y="79" width="20" height="13" fill="#fff" stroke="#6b6253" stroke-width="0.5"/>
+<text x="286.0" y="87.1" font-size="4.5" fill="#2b2b2b" text-anchor="middle">No</text>
+<rect x="296" y="79" width="20" height="13" fill="#fff" stroke="#6b6253" stroke-width="0.5"/>
+<text x="306.0" y="87.1" font-size="4.5" fill="#2b2b2b" text-anchor="middle">No</text>
+<rect x="316" y="79" width="20" height="13" fill="#fff" stroke="#6b6253" stroke-width="0.5"/>
+<text x="326.0" y="87.1" font-size="4.5" fill="#2b2b2b" text-anchor="middle">No</text>
+<text x="296.0" y="101.0" font-size="4.5" fill="#6b6253" text-anchor="middle" font-style="italic">No = cannot shoot</text>
+<rect x="280.0" y="218" width="25.4" height="3" fill="#2b2b2b" stroke="#2b2b2b" stroke-width="0.5"/>
+<rect x="305.4" y="218" width="25.4" height="3" fill="#fff" stroke="#2b2b2b" stroke-width="0.5"/>
+<text x="280.0" y="216.0" font-size="5" fill="#2b2b2b" text-anchor="middle">0</text>
+<text x="305.4" y="216.0" font-size="5" fill="#2b2b2b" text-anchor="middle">1"</text>
+<text x="330.8" y="216.0" font-size="5" fill="#2b2b2b" text-anchor="middle">2"</text>
+<text x="4" y="243" font-size="8" font-weight="bold" fill="#2b2b2b">Line of Sight and Cover</text>
+<text x="4" y="254" font-size="6" fill="#2b2b2b">Dense Brush hides 4 of the target’s 10 models, so 60% of the defending unit is seen (the ≥50% row).</text>
+<text x="4" y="262" font-size="6" fill="#2b2b2b">Each archer checks whether it can see at least half the target; only terrain and units in between</text>
+<text x="4" y="270" font-size="6" fill="#2b2b2b">block its view. The two left-hand files are blocked, so 6 of 8 (75%) can see (the ≥50% column). The</text>
+<text x="4" y="278" font-size="6" fill="#2b2b2b">table gives Cover. Because battlefield objects cause it, the archers lose half their shooting</text>
+<text x="4" y="286" font-size="6" fill="#2b2b2b">attacks and suffer -1 Accuracy.</text>
+</svg>
