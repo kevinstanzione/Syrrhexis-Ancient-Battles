@@ -1,7 +1,7 @@
 // Syrrhēxis army data. Edit the values below; keep the first line as is.
 window.NHB_DATA = {
   "meta": {
-    "version": "0.9.6",
+    "version": "0.9.7",
     "synced": "2026-10-22",
     "sources": {
       "Hittite Empire Army": "1aqMPs2Pi5car6pUzcuWmHXArGss_RZdkgATe5OsbVrw",
@@ -5831,6 +5831,70 @@ window.NHB_DATA = {
       "flavor": "Step back together. Shields up. Not one man turns his back."
     },
     {
+      "id": "challenge-of-champions",
+      "name": "Challenge of Champions",
+      "short": "Two champions duel; the loser’s army loses heart",
+      "limit": 1,
+      "text": "Play at the start of a round. Choose a friendly unit with a Special Character and an enemy unit with a Special Character within 12” of it. Each player rolls 1d6 and adds the Training value of their chosen unit, rerolling ties. The loser’s army loses Army Morale equal to 10% of its Starting Army Morale, rounded up, and the loser’s unit gains a Break Token.",
+      "flavor": "Let the two best men decide what ten thousand cannot."
+    },
+    {
+      "id": "war-hymn",
+      "name": "War Hymn",
+      "short": "Advancing units steady themselves with song",
+      "limit": 1,
+      "text": "Play at the start of the Activation Phase. Until the end of the round, friendly Closed Order units that make a Standard Move or Charge this round gain +1 to Break Tests and Fear Tests.",
+      "flavor": "The hymn rolled down the line, and with it the men went forward in step."
+    },
+    {
+      "id": "night-march",
+      "name": "Night March",
+      "short": "Armies meet in half-light; shooting is short-ranged",
+      "limit": 1,
+      "text": "Play before deployment. Until the end of the first round, Shooting attacks may not target a unit more than 12” away.",
+      "flavor": "They marched through the dark, and dawn found them already upon the enemy."
+    },
+    {
+      "id": "raid-the-baggage",
+      "name": "Raid the Baggage",
+      "short": "Break through to the enemy’s camp for a morale blow",
+      "limit": 1,
+      "text": "Play when a friendly unit without a Flee Action Token ends its move touching the enemy’s Friendly board edge. The enemy loses Army Morale equal to 10% of its Starting Army Morale, rounded up.",
+      "flavor": "While the battle hung in the balance, the horsemen were already among the wagons."
+    },
+    {
+      "id": "favorable-omens",
+      "name": "Favorable Omens",
+      "short": "Reroll 1s for Initiative until the omens turn",
+      "limit": 1,
+      "text": "Play at the start of the game. Whenever you roll a 1 for Initiative, you may reroll it. If the reroll is also a 1, the omens turn against you: this card ends. The Eclipse also ends it.",
+      "flavor": "The priest read the entrails and smiled."
+    },
+    {
+      "id": "downpour",
+      "name": "Downpour",
+      "short": "Weather: rain spoils shooting and mires chariots",
+      "limit": 1,
+      "text": "Weather. Play during the End of the Round Phase of a round in which you had the Initiative. During the next round, all Shooting attacks suffer -1 Accuracy, Direct Fire has no effect, and Chariot units treat the whole battlefield as Difficult Terrain.",
+      "flavor": "The sky opened, the bowstrings went slack, and the chariot wheels sank to the axles."
+    },
+    {
+      "id": "sandstorm",
+      "name": "Sandstorm",
+      "short": "Weather: blinding sand limits sight and charges to 12”",
+      "limit": 1,
+      "text": "Weather. Play during the End of the Round Phase of a round in which you had the Initiative. During the next round, no unit may draw Line of Sight to, or declare a Charge against, a unit more than 12” away. At the end of each unit’s activation, if it is within 12” of Sand terrain and did not take the Hold action, it suffers 1 Hit at Strength 4.",
+      "flavor": "The wind rose off the desert, and the enemy line vanished behind a wall of sand."
+    },
+    {
+      "id": "scorching-heat",
+      "name": "Scorching Heat",
+      "short": "Weather: armored units that exert themselves lose heart",
+      "limit": 1,
+      "text": "Weather. Play during the End of the Round Phase of a round in which you had the Initiative. During the next round, each time a unit Runs, Flees, or Charges, its controlling player loses Army Morale equal to the unit’s Armor Value, not counting bonuses from its unit type (such as the Toughness of Cavalry and Elephants).",
+      "flavor": "By noon the bronze was too hot to touch, and men fell in the ranks without a wound."
+    },
+    {
       "id": "crumbled-ruins",
       "name": "Crumbled Ruins",
       "short": "Terrain: a patch of Stony Plain",
@@ -5923,7 +5987,7 @@ window.NHB_DATA = {
       "name": "The Eclipse",
       "short": "Flip all Initiative bonuses into penalties",
       "limit": 1,
-      "text": "Play at the end of the Orders Phase. This round, every bonus to Initiative, including bonuses from cards played after this one, becomes a penalty of the same size. Penalties are unaffected.",
+      "text": "Play at the end of the Orders Phase. This round, every bonus to Initiative, including bonuses from cards played after this one, becomes a penalty of the same size. Penalties are unaffected. Any Favorable Omens card in play ends.",
       "flavor": "The sun went dark at midday, and both armies lowered their weapons in fear."
     },
     {

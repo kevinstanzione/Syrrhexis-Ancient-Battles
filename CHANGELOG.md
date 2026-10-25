@@ -6,6 +6,13 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## 0.9.7 — 2026-10-25
+
+### Command cards
+- New generic cards: Challenge of Champions, War Hymn, Night March, Raid the Baggage and Favorable Omens (1 per deck each).
+- The Eclipse ends any Favorable Omens in play.
+- New Weather cards: Downpour, Sandstorm and Scorching Heat (1 per deck each). Weather cards are played at the end of a round in which you had the Initiative, last through the next round, and only one can be in effect at a time.
+
 ## 0.9.6 — 2026-10-25
 
 ### Command cards
