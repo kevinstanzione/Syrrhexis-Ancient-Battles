@@ -886,7 +886,7 @@ window.NHB_DATA = {
             "Horses": [
               "3",
               "5",
-              "7",
+              "5",
               "2 Attacks, can only use on Charge. May be used in conjunction with ŠUKUR.TUR or ŠUKUR"
             ],
             "GIŠ.BAN": [
@@ -961,7 +961,7 @@ window.NHB_DATA = {
             "Horses": [
               "3",
               "5",
-              "7",
+              "5",
               "2 Attacks, can only use on Charge"
             ],
             "GÍR": [
@@ -1994,7 +1994,7 @@ window.NHB_DATA = {
             "Horses": [
               "3",
               "5",
-              "7",
+              "5",
               "2 Attacks, can only use on Charge. May be used in conjunction with Arštaya"
             ],
             "Akīnakah Kamna": [
@@ -2056,13 +2056,13 @@ window.NHB_DATA = {
             "Dāça": [
               "0",
               "9",
-              "6",
+              "7",
               "2 Attacks, can only be used on Charge. Before rolling to hit, each enemy unit in the Melee takes a Fear Test; against units that pass, this weapon has Accuracy 5. Destroy model after resolving Wounds."
             ],
             "Horses": [
               "3",
               "5",
-              "7",
+              "5",
               "2 Attacks, can only use on Charge. May be used in conjunction with Dāça"
             ],
             "Arštaya": [
@@ -2162,7 +2162,7 @@ window.NHB_DATA = {
             "Horses": [
               "3",
               "5",
-              "7",
+              "5",
               "4 Attacks, can only use on Charge. May be used in conjunction with Arštaya or Aršti"
             ],
             "Akīnakah": [

@@ -14,6 +14,10 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 ### Rules
 - Firing Angle is now a single arc for the whole unit and never causes Cover.
 
+### Chariots
+- Chariot Horses drop from Strength 7 to 5 (7 on the charge with the Charge token and Momentum).
+- The Raθā-Dāça's scythes rise from Strength 6 to 7.
+
 ## 0.9.4 — 2026-10-24
 
 ### Command cards
