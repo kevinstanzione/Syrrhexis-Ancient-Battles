@@ -17,6 +17,7 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 ### Chariots
 - Chariot Horses drop from Strength 7 to 5 (7 on the charge with the Charge token and Momentum).
 - The Raθā-Dāça's scythes rise from Strength 6 to 7.
+- Points: Hattian Chariots 75 → 72, Allied Chariots 50 → 47, Raθā 50 → 47, Raθā Retinue 90 → 84.
 
 ## 0.9.4 — 2026-10-24
 

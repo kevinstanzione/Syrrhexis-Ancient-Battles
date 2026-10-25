@@ -789,7 +789,7 @@ window.NHB_DATA = {
           "type": "Chariot",
           "move": 10,
           "training": 6,
-          "points": 75,
+          "points": 72,
           "comps": [
             [
               1,
@@ -909,7 +909,7 @@ window.NHB_DATA = {
           "type": "Chariot",
           "move": 11,
           "training": 5,
-          "points": 50,
+          "points": 47,
           "comps": [
             [
               1,
@@ -1916,7 +1916,7 @@ window.NHB_DATA = {
           "type": "Chariot",
           "move": 10,
           "training": 6,
-          "points": 50,
+          "points": 47,
           "comps": [
             [
               1,
@@ -2085,7 +2085,7 @@ window.NHB_DATA = {
           "type": "Chariot",
           "move": 10,
           "training": 8,
-          "points": 90,
+          "points": 84,
           "comps": [
             [
               1,
