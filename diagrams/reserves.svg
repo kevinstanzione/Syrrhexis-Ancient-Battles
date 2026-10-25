@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 330 342" width="792" height="821" font-family="Georgia, 'Times New Roman', serif">
+<defs><marker id="arrow_b4473a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#b4473a"/></marker></defs>
+<rect width="330" height="342" fill="#fff"/>
+<rect x="0" y="0" width="330" height="290" fill="#f6f1e6" stroke="#6b6253" stroke-width="0.8"/>
+<rect x="45" y="22" width="243.8" height="243.8" fill="#f6f1e6" stroke="#2b2b2b" stroke-width="1"/>
+<line x1="45" y1="143.9" x2="288.8" y2="143.9" stroke="#6b6253" stroke-width="0.6" stroke-dasharray="1.5 2"/>
+<line x1="45.0" y1="265.8" x2="288.8" y2="265.8" stroke="#b4473a" stroke-width="3.5" stroke-linecap="round"/>
+<line x1="45.0" y1="143.9" x2="45.0" y2="265.8" stroke="#b4473a" stroke-width="3.5" stroke-linecap="round"/>
+<line x1="288.8" y1="143.9" x2="288.8" y2="265.8" stroke="#b4473a" stroke-width="3.5" stroke-linecap="round"/>
+<line x1="45.0" y1="22.0" x2="45.0" y2="143.9" stroke="#6b6253" stroke-width="1" stroke-dasharray="2 2"/>
+<line x1="288.8" y1="22.0" x2="288.8" y2="143.9" stroke="#6b6253" stroke-width="1" stroke-dasharray="2 2"/>
+<text x="39.0" y="83.0" font-size="5" fill="#6b6253" text-anchor="middle" font-style="italic" transform="rotate(-90 39 82.96)">No entry: enemy half</text>
+<text x="296.8" y="83.0" font-size="5" fill="#6b6253" text-anchor="middle" font-style="italic" transform="rotate(90 296.84 82.96)">No entry: enemy half</text>
+<text x="166.9" y="140.9" font-size="4.5" fill="#6b6253" text-anchor="middle" font-style="italic">halfway line</text>
+<g transform="translate(49.6,187.8) rotate(90)" opacity="0.35"><rect x="-8.6" y="-4.6" width="17.2" height="9.2" fill="#f0cfc9" stroke="#b4473a" stroke-width="0.7" stroke-dasharray="2 1.5"/><line x1="-4.0" y1="-4.6" x2="-4.0" y2="4.6" stroke="#b4473a" stroke-width="0.25"/><line x1="0.0" y1="-4.6" x2="0.0" y2="4.6" stroke="#b4473a" stroke-width="0.25"/><line x1="4.0" y1="-4.6" x2="4.0" y2="4.6" stroke="#b4473a" stroke-width="0.25"/><line x1="-8.6" y1="0.0" x2="8.6" y2="0.0" stroke="#b4473a" stroke-width="0.25"/></g>
+<g transform="translate(80.1,187.8) rotate(90)"><rect x="-8.6" y="-4.6" width="17.2" height="9.2" fill="#f0cfc9" stroke="#b4473a" stroke-width="0.7"/><line x1="-4.0" y1="-4.6" x2="-4.0" y2="4.6" stroke="#b4473a" stroke-width="0.25"/><line x1="0.0" y1="-4.6" x2="0.0" y2="4.6" stroke="#b4473a" stroke-width="0.25"/><line x1="4.0" y1="-4.6" x2="4.0" y2="4.6" stroke="#b4473a" stroke-width="0.25"/><line x1="-8.6" y1="0.0" x2="8.6" y2="0.0" stroke="#b4473a" stroke-width="0.25"/><line x1="-8.6" y1="-4.6" x2="8.6" y2="-4.6" stroke="#b4473a" stroke-width="1.6"/></g>
+<g transform="translate(166.9,261.2) rotate(0)" opacity="0.35"><rect x="-8.6" y="-4.6" width="17.2" height="9.2" fill="#f0cfc9" stroke="#b4473a" stroke-width="0.7" stroke-dasharray="2 1.5"/><line x1="-4.0" y1="-4.6" x2="-4.0" y2="4.6" stroke="#b4473a" stroke-width="0.25"/><line x1="0.0" y1="-4.6" x2="0.0" y2="4.6" stroke="#b4473a" stroke-width="0.25"/><line x1="4.0" y1="-4.6" x2="4.0" y2="4.6" stroke="#b4473a" stroke-width="0.25"/><line x1="-8.6" y1="0.0" x2="8.6" y2="0.0" stroke="#b4473a" stroke-width="0.25"/></g>
+<g transform="translate(166.9,230.8) rotate(0)"><rect x="-8.6" y="-4.6" width="17.2" height="9.2" fill="#f0cfc9" stroke="#b4473a" stroke-width="0.7"/><line x1="-4.0" y1="-4.6" x2="-4.0" y2="4.6" stroke="#b4473a" stroke-width="0.25"/><line x1="0.0" y1="-4.6" x2="0.0" y2="4.6" stroke="#b4473a" stroke-width="0.25"/><line x1="4.0" y1="-4.6" x2="4.0" y2="4.6" stroke="#b4473a" stroke-width="0.25"/><line x1="-8.6" y1="0.0" x2="8.6" y2="0.0" stroke="#b4473a" stroke-width="0.25"/><line x1="-8.6" y1="-4.6" x2="8.6" y2="-4.6" stroke="#b4473a" stroke-width="1.6"/></g>
+<line x1="55.0" y1="173.8" x2="79.5" y2="173.8" stroke="#b4473a" stroke-width="0.9" marker-end="url(#arrow_b4473a)"/>
+<text x="67.2" y="170.8" font-size="5.5" fill="#b4473a" text-anchor="middle">standard move</text>
+<line x1="182.9" y1="259.8" x2="182.9" y2="237.4" stroke="#b4473a" stroke-width="0.9" marker-end="url(#arrow_b4473a)"/>
+<text x="186.9" y="245.8" font-size="5" fill="#b4473a" text-anchor="start">standard move</text>
+<text x="166.9" y="275.8" font-size="6" fill="#b4473a" text-anchor="middle" font-weight="bold">Red Friendly edge</text>
+<text x="166.9" y="17.0" font-size="6" fill="#3f6fb0" text-anchor="middle" font-weight="bold">Enemy edge</text>
+<rect x="255" y="278" width="30.5" height="2.5" fill="#2b2b2b"/><rect x="285.5" y="278" width="30.5" height="2.5" fill="#fff" stroke="#2b2b2b" stroke-width="0.5"/>
+<text x="255.0" y="276.0" font-size="5" fill="#2b2b2b" text-anchor="middle">0</text>
+<text x="285.5" y="276.0" font-size="5" fill="#2b2b2b" text-anchor="middle">6"</text>
+<text x="316.0" y="276.0" font-size="5" fill="#2b2b2b" text-anchor="middle">12"</text>
+<text x="4" y="303" font-size="8" font-weight="bold" fill="#2b2b2b">Reserves</text>
+<text x="4" y="314" font-size="6" fill="#2b2b2b">From the second round, a Reserve unit may enter along its Friendly board edge, or along either</text>
+<text x="4" y="322" font-size="6" fill="#2b2b2b">Neutral edge within its own half of the battlefield (the thick red lines), never in the enemy’s</text>
+<text x="4" y="330" font-size="6" fill="#2b2b2b">half. It then makes a standard move: not a Charge or a Run, since it has no Action Token yet, and</text>
+<text x="4" y="338" font-size="6" fill="#2b2b2b">it cannot shoot. Reserves that have not arrived by the fourth round are destroyed.</text>
+</svg>

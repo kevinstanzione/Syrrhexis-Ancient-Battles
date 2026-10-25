@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 330 342" width="792" height="821" font-family="Georgia, 'Times New Roman', serif">
+<defs></defs>
+<rect width="330" height="342" fill="#fff"/>
+<rect x="0" y="0" width="330" height="290" fill="#f6f1e6" stroke="#6b6253" stroke-width="0.8"/>
+<rect x="45" y="22" width="243.8" height="243.8" fill="#f6f1e6" stroke="#2b2b2b" stroke-width="1"/>
+<line x1="45" y1="143.9" x2="288.8" y2="143.9" stroke="#6b6253" stroke-width="0.6" stroke-dasharray="1.5 2"/>
+<rect x="45" y="22" width="243.8" height="61.0" fill="#3f6fb0" fill-opacity="0.13"/>
+<rect x="45" y="204.9" width="243.8" height="61.0" fill="#b4473a" fill-opacity="0.13"/>
+<rect x="45.0" y="22" width="61.0" height="243.8" fill="none" stroke="#9aa37a" stroke-width="0.8" stroke-dasharray="3 2"/>
+<rect x="136.4" y="22" width="61.0" height="243.8" fill="#d8dcc0" fill-opacity="0.85" stroke="#9aa37a" stroke-width="0.9"/>
+<rect x="227.9" y="22" width="61.0" height="243.8" fill="none" stroke="#9aa37a" stroke-width="0.8" stroke-dasharray="3 2"/>
+<text x="166.9" y="140.9" font-size="6" fill="#6b6253" text-anchor="middle" font-weight="bold">Major Terrain</text>
+<text x="166.9" y="148.9" font-size="5" fill="#6b6253" text-anchor="middle" font-style="italic">(or left, or right)</text>
+<text x="166.9" y="54.5" font-size="5.5" fill="#3f6fb0" text-anchor="middle" font-style="italic">Blue deployment zone (12”)</text>
+<text x="166.9" y="237.4" font-size="5.5" fill="#b4473a" text-anchor="middle" font-style="italic">Red deployment zone (12”)</text>
+<text x="166.9" y="275.8" font-size="6" fill="#b4473a" text-anchor="middle" font-weight="bold">Red Friendly edge  /  Blue Enemy edge</text>
+<text x="166.9" y="17.0" font-size="6" fill="#3f6fb0" text-anchor="middle" font-weight="bold">Blue Friendly edge  /  Red Enemy edge</text>
+<text x="39.0" y="143.9" font-size="6" fill="#2b2b2b" text-anchor="middle" transform="rotate(-90 39 143.92)">Neutral edge</text>
+<text x="296.8" y="143.9" font-size="6" fill="#2b2b2b" text-anchor="middle" transform="rotate(90 296.84 143.92)">Neutral edge</text>
+<text x="292.8" y="140.9" font-size="5" fill="#6b6253" text-anchor="middle"></text>
+<text x="49.0" y="141.9" font-size="4.5" fill="#6b6253" text-anchor="start" font-style="italic">halfway line</text>
+<rect x="255" y="278" width="30.5" height="2.5" fill="#2b2b2b"/><rect x="285.5" y="278" width="30.5" height="2.5" fill="#fff" stroke="#2b2b2b" stroke-width="0.5"/>
+<text x="255.0" y="276.0" font-size="5" fill="#2b2b2b" text-anchor="middle">0</text>
+<text x="285.5" y="276.0" font-size="5" fill="#2b2b2b" text-anchor="middle">6"</text>
+<text x="316.0" y="276.0" font-size="5" fill="#2b2b2b" text-anchor="middle">12"</text>
+<text x="251.0" y="281.0" font-size="5" fill="#6b6253" text-anchor="middle"></text>
+<text x="4" y="303" font-size="8" font-weight="bold" fill="#2b2b2b">The Battlefield</text>
+<text x="4" y="314" font-size="6" fill="#2b2b2b">A standard game is played on a 4’ x 4’ board. Each player’s own edge is their Friendly board</text>
+<text x="4" y="322" font-size="6" fill="#2b2b2b">edge; the side edges are Neutral. Deployment zones extend 12” from each Friendly edge. The Major</text>
+<text x="4" y="330" font-size="6" fill="#2b2b2b">Terrain, a 1’ x 4’ strip on this board, runs between the two players’ edges along the left, down</text>
+<text x="4" y="338" font-size="6" fill="#2b2b2b">the centre, or along the right; the First Player chooses its location or its type.</text>
+</svg>

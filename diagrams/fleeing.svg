@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 330 285" width="792" height="684" font-family="Georgia, 'Times New Roman', serif">
+<defs><marker id="arrow_b4473a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#b4473a"/></marker></defs>
+<rect width="330" height="285" fill="#fff"/>
+<rect x="0" y="0" width="330" height="225" fill="#f6f1e6" stroke="#6b6253" stroke-width="0.8"/>
+<line x1="8" y1="193" x2="322" y2="193" stroke="#b4473a" stroke-width="2.2"/>
+<text x="165.0" y="203.0" font-size="6" fill="#b4473a" text-anchor="middle" font-weight="bold">Red Friendly edge</text>
+<g transform="translate(60.0,28.9) rotate(180)" opacity="0.35"><rect x="-12.9" y="-6.9" width="25.8" height="13.8" fill="#f0cfc9" stroke="#b4473a" stroke-width="0.7" stroke-dasharray="2 1.5"/><line x1="-6.0" y1="-6.9" x2="-6.0" y2="6.9" stroke="#b4473a" stroke-width="0.25"/><line x1="0.0" y1="-6.9" x2="0.0" y2="6.9" stroke="#b4473a" stroke-width="0.25"/><line x1="6.0" y1="-6.9" x2="6.0" y2="6.9" stroke="#b4473a" stroke-width="0.25"/><line x1="-12.9" y1="0.0" x2="12.9" y2="0.0" stroke="#b4473a" stroke-width="0.25"/></g>
+<g transform="translate(60.0,120.3) rotate(180)"><rect x="-12.9" y="-6.9" width="25.8" height="13.8" fill="#f0cfc9" stroke="#b4473a" stroke-width="0.7"/><line x1="-6.0" y1="-6.9" x2="-6.0" y2="6.9" stroke="#b4473a" stroke-width="0.25"/><line x1="0.0" y1="-6.9" x2="0.0" y2="6.9" stroke="#b4473a" stroke-width="0.25"/><line x1="6.0" y1="-6.9" x2="6.0" y2="6.9" stroke="#b4473a" stroke-width="0.25"/><line x1="-12.9" y1="0.0" x2="12.9" y2="0.0" stroke="#b4473a" stroke-width="0.25"/><line x1="-12.9" y1="-6.9" x2="12.9" y2="-6.9" stroke="#b4473a" stroke-width="1.6"/></g>
+<line x1="80.0" y1="28.9" x2="80.0" y2="118.3" stroke="#b4473a" stroke-width="0.9" marker-end="url(#arrow_b4473a)"/>
+<text x="84.0" y="74.6" font-size="5.5" fill="#b4473a" text-anchor="start" font-weight="bold">flees 12”</text>
+<text x="84.0" y="81.6" font-size="5" fill="#b4473a" text-anchor="start" font-style="italic">(2x Move 6)</text>
+<circle cx="38.0" cy="120.3" r="6.5" fill="#2b2b2b"/>
+<text x="38.0" y="122.1" font-size="3.8" fill="#fff" text-anchor="middle" font-weight="bold">FLEE</text>
+<g transform="translate(290.0,186.1) rotate(180)" opacity="0.35"><rect x="-9.9" y="-6.9" width="19.8" height="13.8" fill="#f0cfc9" stroke="#b4473a" stroke-width="0.7" stroke-dasharray="2 1.5"/><line x1="-3.0" y1="-6.9" x2="-3.0" y2="6.9" stroke="#b4473a" stroke-width="0.25"/><line x1="3.0" y1="-6.9" x2="3.0" y2="6.9" stroke="#b4473a" stroke-width="0.25"/><line x1="-9.9" y1="0.0" x2="9.9" y2="0.0" stroke="#b4473a" stroke-width="0.25"/></g>
+<text x="290.0" y="169.2" font-size="5" fill="#b4473a" text-anchor="middle" font-style="italic">touches the edge:</text>
+<text x="290.0" y="176.2" font-size="5.5" fill="#b4473a" text-anchor="middle" font-weight="bold">removed</text>
+<clipPath id="table"><rect x="0" y="0" width="330" height="193"/></clipPath>
+<rect clip-path="url(#table)" x="45.7" y="19.7" width="208.7" height="196.7" rx="91.4" fill="#4f7f4a" fill-opacity="0.07" stroke="#4f7f4a" stroke-width="0.9" stroke-dasharray="4 3"/>
+<g transform="translate(150.0,118.0) rotate(0)"><rect x="-12.9" y="-6.9" width="25.8" height="13.8" fill="#f0cfc9" stroke="#b4473a" stroke-width="0.7"/><line x1="-6.0" y1="-6.9" x2="-6.0" y2="6.9" stroke="#b4473a" stroke-width="0.25"/><line x1="0.0" y1="-6.9" x2="0.0" y2="6.9" stroke="#b4473a" stroke-width="0.25"/><line x1="6.0" y1="-6.9" x2="6.0" y2="6.9" stroke="#b4473a" stroke-width="0.25"/><line x1="-12.9" y1="0.0" x2="12.9" y2="0.0" stroke="#b4473a" stroke-width="0.25"/><line x1="-12.9" y1="-6.9" x2="12.9" y2="-6.9" stroke="#b4473a" stroke-width="1.6"/></g>
+<circle cx="172.9" cy="118.0" r="6.5" fill="#4f7f4a"/>
+<text x="172.9" y="119.8" font-size="3.8" fill="#fff" text-anchor="middle" font-weight="bold">HOLD</text>
+<text x="180.0" y="31.7" font-size="5.5" fill="#4f7f4a" text-anchor="middle" font-weight="bold">12” Rally range</text>
+<text x="60.0" y="139.2" font-size="5" fill="#4f7f4a" text-anchor="middle" font-style="italic">within 12”: can be Rallied</text>
+<rect x="0.4" y="0.4" width="329.2" height="224.2" fill="none" stroke="#6b6253" stroke-width="0.8"/>
+<rect x="230.6" y="12" width="45.7" height="2.5" fill="#2b2b2b"/><rect x="276.3" y="12" width="45.7" height="2.5" fill="#fff" stroke="#2b2b2b" stroke-width="0.5"/>
+<text x="230.6" y="10.0" font-size="5" fill="#2b2b2b" text-anchor="middle">0</text>
+<text x="276.3" y="10.0" font-size="5" fill="#2b2b2b" text-anchor="middle">6"</text>
+<text x="322.0" y="10.0" font-size="5" fill="#2b2b2b" text-anchor="middle">12"</text>
+<text x="4" y="238" font-size="8" font-weight="bold" fill="#2b2b2b">Fleeing and Rallying</text>
+<text x="4" y="249" font-size="6" fill="#2b2b2b">In the Morale Phase, a unit with a Flee Token moves up to twice its Move toward its Friendly</text>
+<text x="4" y="257" font-size="6" fill="#2b2b2b">board edge, as far as it can, and its player loses Army Morale equal to its Unit Strength. A</text>
+<text x="4" y="265" font-size="6" fill="#2b2b2b">fleeing unit that touches its Friendly edge is removed, losing Army Morale equal to the base</text>
+<text x="4" y="273" font-size="6" fill="#2b2b2b">Training of its remaining models. During its activation, a unit with a Hold Token may try to</text>
+<text x="4" y="281" font-size="6" fill="#2b2b2b">Rally a fleeing friendly unit within 12”; a fleeing unit may also try to Rally itself.</text>
+</svg>
