@@ -20,6 +20,6 @@ for k in range(2):
         s.model(x, y, 'blue', ang=0, dashed=stray)
     if k == 1:
         bx, by = pts[-1]
-        s.text(bx - 22, by + 4, 'stray model', 5.5, C['red'], 'end', italic=True)
+        s.text(bx - 31, by + 4, 'stray model', 5.5, C['red'], 'end', italic=True)
 s.scale(8, PH - 12)
 print(s.save('cohesion.svg'))
