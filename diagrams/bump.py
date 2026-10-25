@@ -29,5 +29,5 @@ for k, title in enumerate(['Before', 'After']):
             if abs(ny - y) > 6: s.arrow(x, y + 9, nx, ny - 10, C['blue'], w=0.8)
             s.model(nx, ny, 'blue', ang=180)
         s.text(cx, PH - 6, 'Charge succeeds', 6, C['red'], bold=True)
-s.scale(PW - 56, PH - 16)
+s.scale(3, 240)
 print(s.save('bump.svg'))

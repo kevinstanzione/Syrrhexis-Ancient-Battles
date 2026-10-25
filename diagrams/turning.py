@@ -31,4 +31,21 @@ s.text(P[0] + w + 22, P[1] + 28, '(+X” Unwieldy)', 5.5, C['red'], 'start', ita
 s.text(P[0] + w / 2, P[1] - 5, 'Start (front edge)', 5.5, C['red'], italic=True)
 s.text(P[0] - 30, P[1] + 80, 'After a 45° turn', 6, C['red'], 'end', bold=True)
 s.scale(8, H - 12)
+# the Turn Template itself, actual size
+def template(ax, ay, label=True):
+    pts = [(ax, ay)] + [(ax + R * math.cos(math.radians(a)), ay - R * math.sin(math.radians(a))) for a in [i * 0.5 for i in range(91)]]
+    s.add(f'<polygon points="{" ".join(f"{x:.1f},{y:.1f}" for x, y in pts)}" fill="{C["gold"]}" stroke="{C["line"]}" stroke-width="1"/>')
+    for a in (0, 45):
+        for i in (1, 2, 3):
+            ex, ey = ax + i * IN * math.cos(math.radians(a)), ay - i * IN * math.sin(math.radians(a))
+            nx, ny = -math.sin(math.radians(a)) * 4, -math.cos(math.radians(a)) * 4
+            sgn = 1 if a == 0 else -1
+            s.add(f'<line x1="{ex:.1f}" y1="{ey:.1f}" x2="{ex + sgn*nx:.1f}" y2="{ey + sgn*ny:.1f}" stroke="{C["line"]}" stroke-width="0.8"/>')
+    for a in (15, 30):
+        p = lambda r: (ax + r * math.cos(math.radians(a)), ay - r * math.sin(math.radians(a)))
+        (x1, y1), (x2, y2) = p(R - 3), p(R)
+        s.add(f'<line x1="{x1:.1f}" y1="{y1:.1f}" x2="{x2:.1f}" y2="{y2:.1f}" stroke="{C["line"]}" stroke-width="1.2"/>')
+    if label:
+        s.text(ax + 46, ay - R * 0.72 - 6, 'Turn Template (actual size)', 5.5, C['ink'], 'middle', bold=True)
+template(W - 98, H - 18)
 print(s.save('turning.svg'))

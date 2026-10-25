@@ -28,7 +28,7 @@ for k, t in enumerate(titles):
         s.tray(*p1, 2, 4, ang, 'red')
         s.text(p1[0] - 30, p1[1] - 40, 'Attacker', 6, C['red'], bold=True)
         s.add(f'<circle cx="{touch_x:.1f}" cy="{front}" r="2.2" fill="{C["ink"]}"/>')
-        s.text(touch_x + 6, front + 9, 'first contact', 5.5, C['ink'], 'start', italic=True)
+        s.text(touch_x + 5, front - 6, 'first contact', 5.5, C['ink'], 'start', italic=True)
     elif k == 1:
         s.tray(*p1, 2, 4, ang, 'red', ghost=True)
         s.tray(*p2, 2, 4, 180, 'red')
