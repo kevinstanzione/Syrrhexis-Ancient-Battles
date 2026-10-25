@@ -44,7 +44,7 @@ class SVG:
         if self._markers is None: self._markers = set()
         self._markers.add(col)
 
-    def tray(self, x, y, ranks, files, ang=0, side='red', bw=20, bd=20, ghost=False, name=None, outline=False):
+    def tray(self, x, y, ranks, files, ang=0, side='red', bw=20, bd=20, ghost=False, name=None, outline=False, hl=0):
         """Closed Order tray centred on (x, y); front edge at the top before rotation."""
         col, coll = (C['red'], C['redl']) if side == 'red' else (C['blue'], C['bluel'])
         w, d = files * bw + 2 * B, ranks * bd + 2 * B
@@ -59,7 +59,8 @@ class SVG:
             for r in range(ranks):
                 for f in range(files):
                     bx, by = -w / 2 + B + f * bw, -d / 2 + B + r * bd
-                    g.append(f'<rect x="{bx+0.6}" y="{by+0.6}" width="{bw-1.2}" height="{bd-1.2}" rx="1" fill="#fff" fill-opacity="0.55" stroke="{col}" stroke-width="0.5"/>')
+                    hf = f'fill="{col}" fill-opacity="0.55"' if r < hl else 'fill="#fff" fill-opacity="0.55"'
+                    g.append(f'<rect x="{bx+0.6}" y="{by+0.6}" width="{bw-1.2}" height="{bd-1.2}" rx="1" {hf} stroke="{col}" stroke-width="0.5"/>')
                     g.append(f'<line x1="{bx+3}" y1="{by+2.2}" x2="{bx+bw-3}" y2="{by+2.2}" stroke="{col}" stroke-width="1.2" stroke-linecap="round"/>')
             g.append(f'<line x1="{-w/2}" y1="{-d/2}" x2="{w/2}" y2="{-d/2}" stroke="{col}" stroke-width="2.2"/>')
         if name: g.append(f'<text x="0" y="{d/2+8}" font-size="6" text-anchor="middle" fill="{col}" font-weight="bold">{name}</text>')
@@ -67,7 +68,7 @@ class SVG:
         self.add(''.join(g))
         return w, d
 
-    def model(self, x, y, side='red', face=None, ang=None, dashed=False, ghost=False, bw=20):
+    def model(self, x, y, side='red', face=None, ang=None, dashed=False, ghost=False, bw=20, hl=False):
         """Open Order model on a square base; front faces the point `face` or the angle `ang` (0 = up)."""
         col, coll = (C['red'], C['redl']) if side == 'red' else (C['blue'], C['bluel'])
         if ang is None:
@@ -75,7 +76,7 @@ class SVG:
         da = ' stroke-dasharray="2 1.5"' if dashed or ghost else ''
         op = ' opacity="0.35"' if ghost else ''
         self.add(f'<g transform="translate({x:.1f},{y:.1f}) rotate({ang:.1f})"{op}>'
-                 f'<rect x="{-bw/2+0.6}" y="{-bw/2+0.6}" width="{bw-1.2}" height="{bw-1.2}" rx="1" fill="{coll}" stroke="{col}" stroke-width="0.9"{da}/>'
+                 f'<rect x="{-bw/2+0.6}" y="{-bw/2+0.6}" width="{bw-1.2}" height="{bw-1.2}" rx="1" fill="{col if hl else coll}" fill-opacity="{0.55 if hl else 1}" stroke="{col}" stroke-width="0.9"{da}/>'
                  + ('' if ghost else f'<line x1="{-bw/2+3}" y1="{-bw/2+2.2}" x2="{bw/2-3}" y2="{-bw/2+2.2}" stroke="{col}" stroke-width="1.2" stroke-linecap="round"/>')
                  + '</g>')
 

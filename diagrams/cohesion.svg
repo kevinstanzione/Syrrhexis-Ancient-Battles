@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 386 214" width="926" height="514" font-family="Georgia, 'Times New Roman', serif">
+<defs></defs>
+<rect width="386" height="214" fill="#fff"/>
+<rect x="0" y="0" width="190" height="170" fill="#f6f1e6" stroke="#6b6253" stroke-width="0.8"/>
+<text x="5.0" y="10.0" font-size="7" fill="#2b2b2b" text-anchor="start" font-weight="bold">In Cohesion</text>
+<rect x="7.3" y="47.3" width="45.4" height="45.4" rx="12.7" fill="#3f6fb0" fill-opacity="0.07" stroke="#3f6fb0" stroke-width="0.5" stroke-dasharray="2 2"/>
+<rect x="39.3" y="61.3" width="45.4" height="45.4" rx="12.7" fill="#3f6fb0" fill-opacity="0.07" stroke="#3f6fb0" stroke-width="0.5" stroke-dasharray="2 2"/>
+<rect x="69.3" y="43.3" width="45.4" height="45.4" rx="12.7" fill="#3f6fb0" fill-opacity="0.07" stroke="#3f6fb0" stroke-width="0.5" stroke-dasharray="2 2"/>
+<rect x="99.3" y="65.3" width="45.4" height="45.4" rx="12.7" fill="#3f6fb0" fill-opacity="0.07" stroke="#3f6fb0" stroke-width="0.5" stroke-dasharray="2 2"/>
+<rect x="127.3" y="49.3" width="45.4" height="45.4" rx="12.7" fill="#3f6fb0" fill-opacity="0.07" stroke="#3f6fb0" stroke-width="0.5" stroke-dasharray="2 2"/>
+<rect x="137.3" y="81.3" width="45.4" height="45.4" rx="12.7" fill="#3f6fb0" fill-opacity="0.07" stroke="#3f6fb0" stroke-width="0.5" stroke-dasharray="2 2"/>
+<g transform="translate(30.0,70.0) rotate(0.0)"><rect x="-9.4" y="-9.4" width="18.8" height="18.8" rx="1" fill="#c9d8ee" fill-opacity="1" stroke="#3f6fb0" stroke-width="0.9"/><line x1="-7.0" y1="-7.8" x2="7.0" y2="-7.8" stroke="#3f6fb0" stroke-width="1.2" stroke-linecap="round"/></g>
+<g transform="translate(62.0,84.0) rotate(0.0)"><rect x="-9.4" y="-9.4" width="18.8" height="18.8" rx="1" fill="#c9d8ee" fill-opacity="1" stroke="#3f6fb0" stroke-width="0.9"/><line x1="-7.0" y1="-7.8" x2="7.0" y2="-7.8" stroke="#3f6fb0" stroke-width="1.2" stroke-linecap="round"/></g>
+<g transform="translate(92.0,66.0) rotate(0.0)"><rect x="-9.4" y="-9.4" width="18.8" height="18.8" rx="1" fill="#c9d8ee" fill-opacity="1" stroke="#3f6fb0" stroke-width="0.9"/><line x1="-7.0" y1="-7.8" x2="7.0" y2="-7.8" stroke="#3f6fb0" stroke-width="1.2" stroke-linecap="round"/></g>
+<g transform="translate(122.0,88.0) rotate(0.0)"><rect x="-9.4" y="-9.4" width="18.8" height="18.8" rx="1" fill="#c9d8ee" fill-opacity="1" stroke="#3f6fb0" stroke-width="0.9"/><line x1="-7.0" y1="-7.8" x2="7.0" y2="-7.8" stroke="#3f6fb0" stroke-width="1.2" stroke-linecap="round"/></g>
+<g transform="translate(150.0,72.0) rotate(0.0)"><rect x="-9.4" y="-9.4" width="18.8" height="18.8" rx="1" fill="#c9d8ee" fill-opacity="1" stroke="#3f6fb0" stroke-width="0.9"/><line x1="-7.0" y1="-7.8" x2="7.0" y2="-7.8" stroke="#3f6fb0" stroke-width="1.2" stroke-linecap="round"/></g>
+<g transform="translate(160.0,104.0) rotate(0.0)"><rect x="-9.4" y="-9.4" width="18.8" height="18.8" rx="1" fill="#c9d8ee" fill-opacity="1" stroke="#3f6fb0" stroke-width="0.9"/><line x1="-7.0" y1="-7.8" x2="7.0" y2="-7.8" stroke="#3f6fb0" stroke-width="1.2" stroke-linecap="round"/></g>
+<rect x="196" y="0" width="190" height="170" fill="#f6f1e6" stroke="#6b6253" stroke-width="0.8"/>
+<text x="201.0" y="10.0" font-size="7" fill="#2b2b2b" text-anchor="start" font-weight="bold">Out of Cohesion</text>
+<rect x="203.3" y="47.3" width="45.4" height="45.4" rx="12.7" fill="#3f6fb0" fill-opacity="0.07" stroke="#3f6fb0" stroke-width="0.5" stroke-dasharray="2 2"/>
+<rect x="235.3" y="61.3" width="45.4" height="45.4" rx="12.7" fill="#3f6fb0" fill-opacity="0.07" stroke="#3f6fb0" stroke-width="0.5" stroke-dasharray="2 2"/>
+<rect x="265.3" y="43.3" width="45.4" height="45.4" rx="12.7" fill="#3f6fb0" fill-opacity="0.07" stroke="#3f6fb0" stroke-width="0.5" stroke-dasharray="2 2"/>
+<rect x="295.3" y="65.3" width="45.4" height="45.4" rx="12.7" fill="#3f6fb0" fill-opacity="0.07" stroke="#3f6fb0" stroke-width="0.5" stroke-dasharray="2 2"/>
+<rect x="323.3" y="49.3" width="45.4" height="45.4" rx="12.7" fill="#3f6fb0" fill-opacity="0.07" stroke="#3f6fb0" stroke-width="0.5" stroke-dasharray="2 2"/>
+<rect x="323.3" y="119.3" width="45.4" height="45.4" rx="12.7" fill="#3f6fb0" fill-opacity="0.07" stroke="#3f6fb0" stroke-width="0.5" stroke-dasharray="2 2"/>
+<g transform="translate(226.0,70.0) rotate(0.0)"><rect x="-9.4" y="-9.4" width="18.8" height="18.8" rx="1" fill="#c9d8ee" fill-opacity="1" stroke="#3f6fb0" stroke-width="0.9"/><line x1="-7.0" y1="-7.8" x2="7.0" y2="-7.8" stroke="#3f6fb0" stroke-width="1.2" stroke-linecap="round"/></g>
+<g transform="translate(258.0,84.0) rotate(0.0)"><rect x="-9.4" y="-9.4" width="18.8" height="18.8" rx="1" fill="#c9d8ee" fill-opacity="1" stroke="#3f6fb0" stroke-width="0.9"/><line x1="-7.0" y1="-7.8" x2="7.0" y2="-7.8" stroke="#3f6fb0" stroke-width="1.2" stroke-linecap="round"/></g>
+<g transform="translate(288.0,66.0) rotate(0.0)"><rect x="-9.4" y="-9.4" width="18.8" height="18.8" rx="1" fill="#c9d8ee" fill-opacity="1" stroke="#3f6fb0" stroke-width="0.9"/><line x1="-7.0" y1="-7.8" x2="7.0" y2="-7.8" stroke="#3f6fb0" stroke-width="1.2" stroke-linecap="round"/></g>
+<g transform="translate(318.0,88.0) rotate(0.0)"><rect x="-9.4" y="-9.4" width="18.8" height="18.8" rx="1" fill="#c9d8ee" fill-opacity="1" stroke="#3f6fb0" stroke-width="0.9"/><line x1="-7.0" y1="-7.8" x2="7.0" y2="-7.8" stroke="#3f6fb0" stroke-width="1.2" stroke-linecap="round"/></g>
+<g transform="translate(346.0,72.0) rotate(0.0)"><rect x="-9.4" y="-9.4" width="18.8" height="18.8" rx="1" fill="#c9d8ee" fill-opacity="1" stroke="#3f6fb0" stroke-width="0.9"/><line x1="-7.0" y1="-7.8" x2="7.0" y2="-7.8" stroke="#3f6fb0" stroke-width="1.2" stroke-linecap="round"/></g>
+<g transform="translate(346.0,142.0) rotate(0.0)"><rect x="-9.4" y="-9.4" width="18.8" height="18.8" rx="1" fill="#c9d8ee" fill-opacity="1" stroke="#3f6fb0" stroke-width="0.9" stroke-dasharray="2 1.5"/><line x1="-7.0" y1="-7.8" x2="7.0" y2="-7.8" stroke="#3f6fb0" stroke-width="1.2" stroke-linecap="round"/></g>
+<text x="324.0" y="146.0" font-size="5.5" fill="#b4473a" text-anchor="end" font-style="italic">stray model</text>
+<rect x="8.0" y="158" width="25.4" height="3" fill="#2b2b2b" stroke="#2b2b2b" stroke-width="0.5"/>
+<rect x="33.4" y="158" width="25.4" height="3" fill="#fff" stroke="#2b2b2b" stroke-width="0.5"/>
+<text x="8.0" y="156.0" font-size="5" fill="#2b2b2b" text-anchor="middle">0</text>
+<text x="33.4" y="156.0" font-size="5" fill="#2b2b2b" text-anchor="middle">1"</text>
+<text x="58.8" y="156.0" font-size="5" fill="#2b2b2b" text-anchor="middle">2"</text>
+<text x="4" y="183" font-size="8" font-weight="bold" fill="#2b2b2b">Open Order Cohesion</text>
+<text x="4" y="194" font-size="6" fill="#2b2b2b">An Open Order unit must end its activation in 1” Cohesion: every model within 1” of another model in the unit, in</text>
+<text x="4" y="202" font-size="6" fill="#2b2b2b">a chain or a cluster. Each dashed halo reaches ½” beyond its base, so models whose halos touch are within 1” of</text>
+<text x="4" y="210" font-size="6" fill="#2b2b2b">each other. On the right, one model’s halo touches no other, so the unit is out of Cohesion.</text>
+</svg>
