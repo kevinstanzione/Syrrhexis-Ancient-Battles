@@ -1,7 +1,7 @@
 // Syrrhēxis army data. Edit the values below; keep the first line as is.
 window.NHB_DATA = {
   "meta": {
-    "version": "0.9.4",
+    "version": "0.9.5",
     "synced": "2026-10-22",
     "sources": {
       "Hittite Empire Army": "1aqMPs2Pi5car6pUzcuWmHXArGss_RZdkgATe5OsbVrw",
@@ -5789,6 +5789,14 @@ window.NHB_DATA = {
       "limit": 3,
       "text": "Obstacle. Before deployment, place a 6” × 6” patch of Dense Brush in the neutral zone, outside every deployment zone. It is impassable and blocks all line of sight that passes over it.",
       "flavor": "Thorn and thicket swallow whole companies from view."
+    },
+    {
+      "id": "rolling-wagons",
+      "name": "Rolling Wagons",
+      "short": "Obstacle: wagons crash into the enemy line",
+      "limit": 1,
+      "text": "Obstacle. Before deployment, place 3 wagon markers (40 × 60mm) in your deployment zone, facing the enemy board edge. Once per game, at the start of any Activation Phase, release them: each wagon moves directly forward up to 18” until it touches a unit or impassable terrain. If it touches an enemy unit, that unit takes a Fear Test and gains a Break Token, then the wagon makes 2 attacks at Accuracy 9, Strength 7 against it (Accuracy 5 if the unit passed the test). The wagon is then removed. A wagon that touches a friendly unit or impassable terrain, or travels 18”, is removed without effect. Wagons are not units: they cannot be targeted or charged, do not generate or lose Army Morale, and take no Order Tokens.",
+      "flavor": "The tribesmen massed their carts at the head of the pass, ready to send them crashing into the climbing phalanx."
     },
     {
       "id": "crumbled-ruins",
