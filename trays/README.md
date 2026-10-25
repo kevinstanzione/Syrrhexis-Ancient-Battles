@@ -30,4 +30,4 @@ To regenerate after army changes: `pip install trimesh manifold3d`, then `python
 
 ## Turn Template
 
-[Turn_Template_45deg_3.5in.stl](stl/Turn_Template_45deg_3.5in.stl): a 45° wedge with 3.5" arms, 2.5 mm thick, with inch ticks along both edges and reference notches at 15° and 30°. Built by `python trays/make_turn_template.py`.
+[Turn_Template_135deg_3.5in.stl](stl/Turn_Template_135deg_3.5in.stl): two 3.5" arms meeting at 135°, 2.5 mm thick, with inch ticks along the inner edges. Put its corner at a front corner of a tray with the front edge against one arm; after a full 45° turn backwards, the tray's flank is flush with the other arm. Built by `python trays/make_turn_template.py`.
