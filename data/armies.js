@@ -1,7 +1,7 @@
 // Syrrhēxis army data. Edit the values below; keep the first line as is.
 window.NHB_DATA = {
   "meta": {
-    "version": "0.9.5",
+    "version": "0.9.6",
     "synced": "2026-10-22",
     "sources": {
       "Hittite Empire Army": "1aqMPs2Pi5car6pUzcuWmHXArGss_RZdkgATe5OsbVrw",
@@ -5779,7 +5779,7 @@ window.NHB_DATA = {
       "name": "Watchtower",
       "short": "Obstacle: keeps enemy deployment away",
       "limit": 3,
-      "text": "Obstacle. Before deployment, place a 3” × 3” Watchtower in your deployment zone. It is impassable but does not block line of sight. While a Skirmishing Warrior unit is in base contact with it, and no other unit is in base contact with that unit or the Watchtower, no enemy unit may deploy within 18” of the Watchtower. Any player may use this effect.",
+      "text": "Obstacle, Flammable. Before deployment, place a 3” × 3” Watchtower in your deployment zone. It is impassable but does not block line of sight. While a Skirmishing Warrior unit is in base contact with it, and no other unit is in base contact with that unit or the Watchtower, no enemy unit may deploy within 18” of the Watchtower. Any player may use this effect.",
       "flavor": "From the tower, no ambush goes unseen."
     },
     {
@@ -5787,7 +5787,7 @@ window.NHB_DATA = {
       "name": "Dense Brush",
       "short": "Obstacle: blocks movement and sight",
       "limit": 3,
-      "text": "Obstacle. Before deployment, place a 6” × 6” patch of Dense Brush in the neutral zone, outside every deployment zone. It is impassable and blocks all line of sight that passes over it.",
+      "text": "Obstacle, Flammable. Before deployment, place a 6” × 6” patch of Dense Brush in the neutral zone, outside every deployment zone. It is impassable and blocks all line of sight that passes over it.",
       "flavor": "Thorn and thicket swallow whole companies from view."
     },
     {
@@ -5795,8 +5795,40 @@ window.NHB_DATA = {
       "name": "Rolling Wagons",
       "short": "Obstacle: wagons crash into the enemy line",
       "limit": 1,
-      "text": "Obstacle. Before deployment, place 3 wagon markers (40 × 60mm) in your deployment zone, facing the enemy board edge. Once per game, at the start of any Activation Phase, release them: each wagon moves directly forward up to 18” until it touches a unit or impassable terrain. If it touches an enemy unit, that unit takes a Fear Test and gains a Break Token, then the wagon makes 2 attacks at Accuracy 9, Strength 7 against it (Accuracy 5 if the unit passed the test). The wagon is then removed. A wagon that touches a friendly unit or impassable terrain, or travels 18”, is removed without effect. Wagons are not units: they cannot be targeted or charged, do not generate or lose Army Morale, and take no Order Tokens.",
+      "text": "Obstacle, Flammable. Before deployment, place 3 wagon markers (40 × 60mm) in your deployment zone, facing the enemy board edge. Once per game, at the start of any Activation Phase, release them: each wagon moves directly forward up to 18” until it touches a unit or impassable terrain. If it touches an enemy unit, that unit takes a Fear Test and gains a Break Token, then the wagon makes 2 attacks at Accuracy 9, Strength 7 against it (Accuracy 5 if the unit passed the test). The wagon is then removed. A wagon that touches a friendly unit or impassable terrain, or travels 18”, is removed without effect. Wagons are not units: they cannot be targeted or charged, do not generate or lose Army Morale, and take no Order Tokens.",
       "flavor": "The tribesmen massed their carts at the head of the pass, ready to send them crashing into the climbing phalanx."
+    },
+    {
+      "id": "fire-brands",
+      "name": "Fire Brands",
+      "short": "Set fire to chariots, war engines or Flammable Obstacles",
+      "limit": 1,
+      "text": "Play during the Combat Phase, before any Melee is resolved. Choose one friendly unit. If it is in base contact with an enemy Chariot or Warmachine unit, that unit suffers 1 Hit at Strength 6 per model of the friendly unit in base contact with it, ignoring Armor from Shields, and gains 2 Break Tokens. These Hits replace the friendly unit’s melee attacks for this Combat Phase. If it is in base contact with a Flammable Obstacle, the Obstacle burns: it is impassable and blocks all line of sight until the end of the next round, then is removed. A wagon from Rolling Wagons that has not been released, or an abandoned war engine, is simply removed.",
+      "flavor": "Pitch, tow and torches, and a stout arm to throw them."
+    },
+    {
+      "id": "caltrops",
+      "name": "Caltrops",
+      "short": "Scatter iron spikes in front of a holding unit",
+      "limit": 1,
+      "text": "Play during the activation of a friendly Closed Order unit with a Hold Token. Place a strip of caltrops 1” deep along that unit’s front edge, as wide as its tray. A Cavalry, Chariot or Elephant unit that moves into the strip, including during a Charge, loses the +1 Strength from its Charge Action Token that round, and each of its models in contact with the strip suffers 1 Hit at Strength 4. Other units treat the strip as Difficult Terrain. The caltrops stay for the rest of the game.",
+      "flavor": "Four iron points, and however it falls, one stands upright."
+    },
+    {
+      "id": "bribed-mercenaries",
+      "name": "Bribed Mercenaries",
+      "short": "An enemy Mercenary unit sits out the round",
+      "limit": 1,
+      "text": "Play at the start of the Activation Phase. Choose an enemy unit with the Mercenary special rule. Until the end of the round, it cannot move, shoot, or Rally, and it makes no melee attacks. You lose Army Morale equal to 10% of your Starting Army Morale, rounded up.",
+      "flavor": "They were paid to fight. Now they are paid to watch."
+    },
+    {
+      "id": "disengage",
+      "name": "Disengage",
+      "short": "A unit in combat pulls back and fights on elsewhere",
+      "limit": 1,
+      "text": "Play at the start of the activation of a friendly Closed Order unit that is Locked in Combat. It moves directly backwards up to 2”, without moving into base contact with any enemy unit, and is no longer Locked in Combat. It then continues its activation as normal, but may not Charge this round.",
+      "flavor": "Step back together. Shields up. Not one man turns his back."
     },
     {
       "id": "crumbled-ruins",
