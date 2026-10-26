@@ -6,6 +6,11 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## 0.9.9 — 2026-10-25
+
+### Command cards
+- New generic card: Hammer and Anvil (up to 3 per deck). Closed Order Cavalry and Chariots charging a pinned enemy count as charging its flank.
+
 ## 0.9.8 — 2026-10-25
 
 ### Command cards

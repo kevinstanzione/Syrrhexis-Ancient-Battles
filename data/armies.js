@@ -1,7 +1,7 @@
 // Syrrhēxis army data. Edit the values below; keep the first line as is.
 window.NHB_DATA = {
   "meta": {
-    "version": "0.9.8",
+    "version": "0.9.9",
     "synced": "2026-10-22",
     "sources": {
       "Hittite Empire Army": "1aqMPs2Pi5car6pUzcuWmHXArGss_RZdkgATe5OsbVrw",
@@ -5925,6 +5925,14 @@ window.NHB_DATA = {
       "limit": 3,
       "text": "Until the end of the round, up to two Light Cavalry or Skirmishing Cavalry units gain Feign Retreat.",
       "flavor": "The horsemen wheel away as if beaten, and the foolish give chase."
+    },
+    {
+      "id": "hammer-and-anvil",
+      "name": "Hammer and Anvil",
+      "short": "Cavalry and chariots strike pinned enemies as if in the flank",
+      "limit": 3,
+      "text": "Until the end of the round, when a friendly Closed Order Cavalry or Chariot unit charges an enemy unit that is already Locked in Combat with another friendly unit, the charge counts as a charge to the enemy’s flank, whichever arc the attacker is in. The enemy gains Break Tokens from Exposed Flanks and loses its Collision bonus Hits.",
+      "flavor": "The phalanx held them fast; the Companions struck like a hammer on the anvil."
     },
     {
       "id": "bodyguard",
