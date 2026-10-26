@@ -6,6 +6,12 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## 0.10.0 — 2026-10-25
+
+### Command cards
+- New generic card: Flaming Ammunition (limit 1). A Direct Fire or Piercing Shot weapon trades those keywords for extra Break Tokens and Fear Tests against Cavalry, Chariots and Elephants, and can burn Flammable Obstacles or abandoned war engines at range. Not playable during Downpour.
+- New generic card: Trumpeting Charge (limit 1). A charging Elephant forces Fear Tests on its target and every enemy unit within 6”; failures gain a Break Token and lose their Hold Action Token.
+
 ## 0.9.9 — 2026-10-25
 
 ### Command cards

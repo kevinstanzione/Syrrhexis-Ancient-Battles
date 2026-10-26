@@ -1,7 +1,7 @@
 // Syrrhēxis army data. Edit the values below; keep the first line as is.
 window.NHB_DATA = {
   "meta": {
-    "version": "0.9.9",
+    "version": "0.10.0",
     "synced": "2026-10-22",
     "sources": {
       "Hittite Empire Army": "1aqMPs2Pi5car6pUzcuWmHXArGss_RZdkgATe5OsbVrw",
@@ -5933,6 +5933,22 @@ window.NHB_DATA = {
       "limit": 3,
       "text": "Until the end of the round, when a friendly Closed Order Cavalry or Chariot unit charges an enemy unit that is already Locked in Combat with another friendly unit, the charge counts as a charge to the enemy’s flank, whichever arc the attacker is in. The enemy gains Break Tokens from Exposed Flanks and loses its Collision bonus Hits.",
       "flavor": "The phalanx held them fast; the Companions struck like a hammer on the anvil."
+    },
+    {
+      "id": "flaming-ammunition",
+      "name": "Flaming Ammunition",
+      "short": "Fire arrows and bolts that panic animals and burn obstacles",
+      "limit": 1,
+      "text": "Cannot be played during Downpour. Play when a friendly unit with a Direct Fire or Piercing Shot weapon activates. Until the end of the round, that weapon loses Direct Fire and Piercing Shot, but each Hit that causes damage gives the target 1 extra Break Token, and a Cavalry, Chariot or Elephant unit that takes a Hit from it must take a Fear Test, gaining another Break Token if it fails. The unit may also target a Flammable Obstacle or an abandoned enemy war engine within range and line of sight: the Obstacle burns as with Fire Brands, and the war engine is removed.",
+      "flavor": "Pitch-soaked bolts arced over the walls like falling stars."
+    },
+    {
+      "id": "trumpeting-charge",
+      "name": "Trumpeting Charge",
+      "short": "A charging elephant terrifies every enemy near its target",
+      "limit": 1,
+      "text": "Play when a friendly Elephant unit declares a Charge. Before it moves, the target and every other enemy unit within 6” of the target take a Fear Test. Each unit that fails gains a Break Token and loses its Hold Action Token.",
+      "flavor": "The beasts raised their trunks and screamed, and the line before them wavered."
     },
     {
       "id": "bodyguard",
