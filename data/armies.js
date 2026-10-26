@@ -1,7 +1,7 @@
 // Syrrhēxis army data. Edit the values below; keep the first line as is.
 window.NHB_DATA = {
   "meta": {
-    "version": "0.9.7",
+    "version": "0.9.8",
     "synced": "2026-10-22",
     "sources": {
       "Hittite Empire Army": "1aqMPs2Pi5car6pUzcuWmHXArGss_RZdkgATe5OsbVrw",
@@ -5921,9 +5921,9 @@ window.NHB_DATA = {
     {
       "id": "feigned-flight",
       "name": "Feigned Flight",
-      "short": "2 Light Cavalry gain Feign Retreat",
+      "short": "2 Light or Skirmishing Cavalry gain Feign Retreat",
       "limit": 3,
-      "text": "Until the end of the round, up to two Light Cavalry units that have Feign Charge also gain Feign Retreat.",
+      "text": "Until the end of the round, up to two Light Cavalry or Skirmishing Cavalry units gain Feign Retreat.",
       "flavor": "The horsemen wheel away as if beaten, and the foolish give chase."
     },
     {

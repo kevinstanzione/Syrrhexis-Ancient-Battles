@@ -6,6 +6,11 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## 0.9.8 — 2026-10-25
+
+### Command cards
+- Feigned Flight now works on any two Light or Skirmishing Cavalry units, with no Feign Charge requirement.
+
 ## 0.9.7 — 2026-10-25
 
 ### Command cards
