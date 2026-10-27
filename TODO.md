@@ -2,6 +2,7 @@
 
 ## Rulebook
 - Track the rulebook version, starting at 0.1.0, and bump it with each change.
+- Credit Kevin Stanzione as the author (cover and title page of the PDF).
 
 ## Diagrams: recreate Kevin's images in the house style
 - Order tokens and Order Pass tokens (PDF p7)
