@@ -1,0 +1,105 @@
+:root {
+  --ink: #241f1a; --muted: #6b6253; --red: #8e2f24; --rule: #b9a98a; --paper: #fbf8f1; --band: #efe6d2; --blue: #3f6fb0;
+}
+@page {
+  size: 8in 10in;
+  margin: 0.72in 0.6in 0.7in 0.6in;
+  background: var(--paper);
+  @bottom-center { content: counter(page); font: 600 8.5pt 'Cinzel'; color: var(--muted); }
+}
+@page :left {
+  margin-left: 0.55in; margin-right: 0.7in;
+  @top-left { content: "Syrrhēxis: Ancient Battles"; font: 7.5pt 'Cinzel'; color: var(--muted); letter-spacing: .08em;
+              border-bottom: .5pt solid var(--rule); padding-bottom: 3pt; width: 100%; }
+}
+@page :right {
+  margin-left: 0.7in; margin-right: 0.55in;
+  @top-right { content: string(chapter); font: 7.5pt 'Cinzel'; color: var(--muted); letter-spacing: .08em;
+               border-bottom: .5pt solid var(--rule); padding-bottom: 3pt; width: 100%; text-align: right; }
+}
+@page cover { margin: 0; background: #2a2119; @bottom-center { content: none; } @top-left { content: none; } @top-right { content: none; } }
+@page front { @bottom-center { content: none; } @top-left { content: none; } @top-right { content: none; } }
+
+html { font-family: 'EB Garamond', Georgia, serif; font-size: 9.6pt; line-height: 1.28; color: var(--ink);
+       hyphens: auto; font-variant-numeric: oldstyle-nums; }
+body { margin: 0; }
+
+/* ---------- cover ---------- */
+.cover { page: cover; height: 10in; overflow: hidden; break-after: page; }
+.cover .frame { width: 6.3in; height: 8.4in; margin: 0.8in 0.85in; box-sizing: border-box; padding: 1.5in 0.4in 0;
+  border: 2pt solid #c8a96a; outline: .6pt solid #c8a96a; outline-offset: 5pt; text-align: center; color: #efe2bf; }
+.kicker { font: 600 8.5pt 'Cinzel'; letter-spacing: .3em; text-transform: uppercase; color: #c8a96a; }
+.ctitle { font: 700 52pt 'Cinzel'; letter-spacing: .06em; margin: .35in 0 0; color: #f3e6c4; string-set: none; }
+.csub { font: 400 21pt 'Cinzel'; letter-spacing: .34em; margin-top: 4pt; color: #c8a96a; }
+.cgreek { font: italic 13pt 'EB Garamond'; margin-top: .55in; color: #d9c79c; }
+.cera { font: 11pt 'EB Garamond'; margin-top: 8pt; color: #d9c79c; }
+.cver { font: 600 8pt 'Cinzel'; letter-spacing: .22em; margin-top: 2.6in; color: #c8a96a; text-transform: uppercase; }
+
+/* ---------- contents ---------- */
+.toc { page: front; break-after: page; }
+.toch { font: 700 22pt 'Cinzel'; color: var(--red); text-align: center; margin: 0 0 14pt; letter-spacing: .08em;
+        border-bottom: 1pt solid var(--rule); padding-bottom: 8pt; }
+.toc ul { list-style: none; padding: 0; margin: 0; columns: 2; column-gap: .35in; font-size: 8.4pt; }
+.toc li a { color: var(--ink); text-decoration: none; }
+.toc li a::after { content: leader('.') target-counter(attr(href), page); color: var(--muted); }
+.toc li.t1 { font: 600 8.4pt 'Cinzel'; margin-top: 4.5pt; color: var(--red); break-after: avoid; }
+.toc li.t1 a { color: var(--red); }
+.toc li.t2 { padding-left: 10pt; line-height: 1.22; }
+
+/* ---------- body ---------- */
+main { columns: 2; column-gap: .26in; column-fill: balance; }
+p { margin: 0 0 4.5pt; text-align: justify; orphans: 2; widows: 2; }
+b { font-weight: 600; }
+a { color: inherit; text-decoration: none; }
+a.xref { color: var(--red); }
+
+h1, h2, h3, h4, h5 { break-after: avoid; hyphens: none; text-align: left; }
+h1 { column-span: all; string-set: chapter content(); font: 700 17pt 'Cinzel'; color: var(--red); letter-spacing: .05em;
+     margin: 14pt 0 9pt; padding: 5pt 0 4pt; border-top: 1.4pt solid var(--red); border-bottom: .5pt solid var(--rule); }
+main > h1:first-child { margin-top: 0; }
+h2 { font: 700 11.5pt 'Cinzel'; color: var(--ink); margin: 10pt 0 4pt; padding-bottom: 2pt; border-bottom: .6pt solid var(--rule); }
+h3 { font: 600 10.4pt 'EB Garamond'; font-variant: small-caps; letter-spacing: .03em; color: var(--red); margin: 8pt 0 2.5pt; }
+h4 { font: 600 italic 9.8pt 'EB Garamond'; margin: 6pt 0 1.5pt; color: var(--ink); }
+h5 { font: 600 9pt 'Source Sans 3'; text-transform: uppercase; letter-spacing: .05em; margin: 5pt 0 1pt; color: var(--muted); }
+
+ul, ol { margin: 0 0 5pt; padding-left: 13pt; }
+li { margin: 0 0 2pt; text-align: justify; }
+ul li::marker { color: var(--red); }
+ol li::marker { font-weight: 600; color: var(--red); }
+li ul, li ol { margin-top: 2pt; }
+
+/* tables */
+table { border-collapse: collapse; width: 100%; margin: 4pt 0 8pt; font: 7.9pt/1.22 'Source Sans 3'; break-inside: avoid;
+        font-variant-numeric: lining-nums tabular-nums; hyphens: manual; }
+table.wide { column-span: all; }
+th { background: #5a2a22; color: #fbf3e2; font-weight: 600; text-align: left; padding: 3pt 4pt; vertical-align: bottom; }
+td { padding: 2.4pt 4pt; border-bottom: .4pt solid #d8ccb2; vertical-align: top; }
+tr:nth-child(even) td { background: var(--band); }
+td b, th b { font-weight: 700; }
+table a.xref { color: var(--red); }
+.cellimg { max-width: 100%; max-height: 1in; }
+
+/* figures */
+figure { margin: 5pt 0 8pt; break-inside: avoid; text-align: center; }
+figure img { width: 100%; }
+figure.full { column-span: all; }
+figure.full img { width: auto; max-width: 100%; max-height: 3in; }
+
+/* example unit profile card */
+.profile { column-span: all; border: .8pt solid var(--rule); background: #f5eedd; padding: 6pt 9pt 2pt; margin: 4pt 0 10pt; break-inside: avoid; }
+.profile table.narrow { font-size: 9pt; margin: 0 0 3pt; }
+
+.profile p { text-align: left; margin: 0 0 1.5pt; }
+.profile > p:nth-of-type(1) { font: 700 13pt 'Cinzel'; color: var(--red); margin: 0; }
+.profile > p:nth-of-type(2) { font-style: italic; color: var(--muted); margin: 0 0 5pt; }
+.profile table.narrow { width: 2.4in; margin: 0 0 5pt; }
+.profile table.wide { margin-top: 6pt; }
+p.kv { text-align: left; padding-left: 70pt; text-indent: -70pt; }
+p.kv .k { display: inline-block; width: 70pt; text-indent: 0; font-weight: 600; color: var(--red); }
+
+p.span { column-span: all; text-align: left; font-style: italic; margin-bottom: 10pt; }
+main.pb { break-before: page; }
+main.pb > h1:first-child { margin-top: 0; }
+
+figure.apx img { max-height: 2.15in; }
+figure.tall img { width: 88%; }
