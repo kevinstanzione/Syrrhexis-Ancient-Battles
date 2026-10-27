@@ -33,7 +33,8 @@ body { margin: 0; }
 .csub { font: 400 21pt 'Cinzel'; letter-spacing: .34em; margin-top: 4pt; color: #c8a96a; }
 .cgreek { font: italic 13pt 'EB Garamond'; margin-top: .55in; color: #d9c79c; }
 .cera { font: 11pt 'EB Garamond'; margin-top: 8pt; color: #d9c79c; }
-.cver { font: 600 8pt 'Cinzel'; letter-spacing: .22em; margin-top: 2.6in; color: #c8a96a; text-transform: uppercase; }
+.cauth { font: italic 13pt 'EB Garamond'; margin-top: 1.9in; color: #efe2bf; }
+.cver { font: 600 8pt 'Cinzel'; letter-spacing: .22em; margin-top: 0.5in; color: #c8a96a; text-transform: uppercase; }
 
 /* ---------- contents ---------- */
 .toc { page: front; break-after: page; }
@@ -83,7 +84,7 @@ table a.xref { color: var(--red); }
 figure { margin: 5pt 0 8pt; break-inside: avoid; text-align: center; }
 figure img { width: 100%; }
 figure.full { column-span: all; }
-figure.full img { width: auto; max-width: 100%; max-height: 3in; }
+figure.full img { display: block; margin: 0 auto; width: auto; max-width: 100%; max-height: 3.5in; }
 
 /* example unit profile card */
 .profile { column-span: all; border: .8pt solid var(--rule); background: #f5eedd; padding: 6pt 9pt 2pt; margin: 4pt 0 10pt; break-inside: avoid; }

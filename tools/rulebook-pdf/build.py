@@ -12,11 +12,14 @@ esc = lambda s: html.escape(s, quote=False)
 
 # chapters whose short text shouldn't force a fresh page
 WIDE_TABLE_COLS = 5
-FULL_IMGS = {'images/image13.png', 'images/image6.png', 'images/image15.png',
+FULL_IMGS = {'order_tokens.png', 'action_tokens.png', 'break_tokens.png', 'musician.png', 'commander.png', 'skirmish_captain.png', 'feign.png', 'run_them_down.png', 'images/image13.png', 'images/image6.png', 'images/image15.png',
              'images/image7.png', 'images/image22.png'}
 
 
 def img_src(oid):
+    if oid not in IMGMAP:
+        uri = OBJS[oid]['inlineObjectProperties']['embeddedObject'].get('imageProperties', {}).get('sourceUri', '')
+        IMGMAP[oid] = uri.split('/')[-1]
     m = IMGMAP[oid]
     if m.startswith('images/'):
         return os.path.join(HERE, 'export', m), m
@@ -136,6 +139,8 @@ def convert():
         if st == 'TITLE':
             title = text
             continue
+        if st == 'SUBTITLE':
+            continue
         if st.startswith('HEADING'):
             close_lists()
             if not text:
@@ -224,7 +229,8 @@ doc = f'''<!doctype html><html><head><meta charset="utf-8">{FONTS}
     <div class="csub">Ancient Battles</div>
     <div class="cgreek">σύρρηξις · the clash of battle lines</div>
     <div class="cera">From the Bronze Age to the end of Classical Antiquity</div>
-    <div class="cver">Core Rules · Version 0.1 · October 2026</div>
+    <div class="cauth">by Kevin Stanzione</div>
+    <div class="cver">Core Rules · Version 0.1.0 · October 2026</div>
   </div>
 </section>
 <section class="toc"><h1 class="toch">Contents</h1><ul>{toc_html}</ul></section>
