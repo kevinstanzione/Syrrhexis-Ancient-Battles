@@ -197,7 +197,7 @@
       const size = u.range ? `${u.range[0]}–${u.range[1]}${/Warmachine/.test(u.type) ? " Engineers" : ""}` : u.comps.map(c => c[0] * c[1]).join(" or ");
       return `<button class="pick" data-act="addunit" data-u="${u.id}" ${tbd ? "disabled" : ""}>
         <span><span class="nm">${esc(u.name)}</span><br><span class="sub">${esc(u.type)} · ${size}</span></span>
-        ${tbd ? `<span class="tbd">TBD</span>` : `<span class="num">${u.points}</span>`}</button>`;
+        ${tbd ? `<span class="tbd">TBD</span>` : u.engine ? `<span class="num eng">${u.engine}<br><span class="per">+${u.points}/Engineer</span></span>` : `<span class="num">${u.points}</span>`}</button>`;
     }).join("");
     const slots = mercSlots(), taken = mercIds(), mercN = taken.length, mercOk = slots.length;
     const allowedAny = id => slots.some(sl => !sl.units || sl.units.includes(id));

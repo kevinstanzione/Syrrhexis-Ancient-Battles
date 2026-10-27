@@ -113,6 +113,8 @@ table.wpn tr.alt td { color: var(--muted); }
 .pick:disabled { opacity: .55; cursor: not-allowed; }
 .pick .nm { font-weight: 500; }
 .pick .sub { font-size: 12px; color: var(--muted); }
+.pick .num.eng { text-align: right; line-height: 1.15; }
+.pick .num .per { font-size: 11px; color: var(--muted); white-space: nowrap; }
 .tbd { font-size: 11px; letter-spacing: .06em; border: 1px solid var(--muted); border-radius: 4px; padding: 1px 5px; color: var(--muted); }
 .empty { border: 1px dashed var(--line); border-radius: 8px; padding: 20px; text-align: center; color: var(--muted); }
 

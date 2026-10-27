@@ -6,6 +6,11 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## 0.10.1 — 2026-10-27
+
+### Builder
+- War engines in the unit list now show the engine's base cost plus the cost per Engineer (e.g. "60 +12/Engineer") instead of only the Engineer cost.
+
 ## 0.10.0 — 2026-10-25
 
 ### Command cards
