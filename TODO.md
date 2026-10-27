@@ -6,7 +6,7 @@
 - Bold pass: remove most of the bold in the rule text. Keep bold only for a game term where it's defined and for easy-to-miss exceptions (e.g. "does not"). Keep italics for special rule and weapon keywords. No bold for plain numbers or whole sentences. Apply the same convention to the whole book.
 - Collision clarifications:
   - Bonus hits use the Strength of the melee weapon the unit chose for that Melee (link to the weapon-choice rule). Mixed Units: decision still needed.
-  - Only full ranks count (Kevin's current call). Option to consider: count a rank that is at least half full, which removes the cliff where losing one model from the rear rank costs a Collision hit.
+  - Only full ranks count (Kevin's current call). Models only come off at Half Strength (half the models, from the rear), so a unit with an odd number of ranks drops 1.5 ranks and loses 2 Collision hits (e.g. 3×6 goes from 2 to 0). Option to consider: count a rank that is at least half full, so that unit keeps 1.
   - Watch in playtesting: Collision applies every round, so deep blocks may grind down Open Order units.
 - Credit Kevin Stanzione as the author (cover and title page of the PDF).
 
