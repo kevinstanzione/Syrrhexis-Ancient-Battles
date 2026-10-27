@@ -14,6 +14,10 @@ It runs in any browser, on desktop or phone, with nothing to install or sign up 
 - **Get a ready-to-play sheet.** The list sheet works out each unit's armor, health breaks and Unit Strength, plus your Army Morale. It includes the full text of every special rule, weapon rule and character ability your list uses.
 - **Print or share.** Print the sheet or save it as a PDF, or copy the list as plain text to paste into a message.
 
+## Rulebook
+
+The current rulebook (version 0.1.0) is here as a PDF: [Syrrhexis_Rulebook.pdf](rulebook/Syrrhexis_Rulebook.pdf).
+
 ## Movement trays
 
 Printable STL trays for every Closed Order formation are in the [trays](trays/) folder, with a list of which units use each one.
