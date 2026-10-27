@@ -6,7 +6,6 @@ s = SVG(2 * PW + G, PH, 'The Musician’s Special Move', [
     'unit moves 1” by the quickest route toward or away from the enemy side of the board. It may not begin or end within 1” of an enemy.'])
 s.panel(0, 0, PW, PH, 'Closed Order: shift 1” or turn once')
 cx, cy = 100, 98
-s.tray(cx, cy - IN, 2, 4, 0, 'blue', outline=True)
 s.tray(cx, cy, 2, 4, 0, 'blue')
 for dx, dy, lab in [(0, -1, 'forward'), (0, 1, 'back'), (-1, 0, 'left'), (1, 0, 'right')]:
     x2, y2 = cx + dx * (46 + IN), cy + dy * (26 + IN)
@@ -18,10 +17,11 @@ ox = PW + G
 s.panel(ox, 0, PW, PH, 'Open Order: 1” toward or away')
 s.text(ox + PW / 2, 26, 'enemy side of the board', 5.5, C['red'], italic=True)
 s.add(f'<line x1="{ox+10}" y1="30" x2="{ox+PW-10}" y2="30" stroke="{C["red"]}" stroke-width="1.6"/>')
-pts = [(-30, 0), (-10, -6), (10, 2), (30, -4), (0, 20), (20, 22)]
+pts = [(-52, 0), (-26, 2), (0, -1), (26, 2), (52, 0)]
 for px, py in pts:
-    s.model(ox + 100 + px, 100 + py, 'blue', ghost=True)
-    s.model(ox + 100 + px, 100 + py - IN, 'blue', ang=0)
-s.arrow(ox + 165, 110, ox + 165, 110 - IN, C['blue'], w=1)
-s.text(ox + 172, 100, '1”', 6, C['blue'], 'start', bold=True)
+    s.model(ox + 90 + px, 112 + py, 'blue', ghost=True)
+    s.model(ox + 90 + px, 112 + py - IN, 'blue', ang=0)
+s.arrow(ox + 172, 112, ox + 172, 112 - IN, C['blue'], w=1)
+s.text(ox + 176, 103, '1”', 6, C['blue'], 'start', bold=True)
+s.text(ox + 90, 136, 'dashed: start positions', 5, C['line'], italic=True)
 print(s.save('musician.svg'))

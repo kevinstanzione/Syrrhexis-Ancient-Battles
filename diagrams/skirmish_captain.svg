@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 462 259" width="1109" height="622" font-family="Georgia, 'Times New Roman', serif">
-<defs><marker id="arrow_b4473a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#b4473a"/></marker><marker id="arrow_3f6fb0" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#3f6fb0"/></marker></defs>
+<defs><marker id="arrow_3f6fb0" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#3f6fb0"/></marker><marker id="arrow_b4473a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#b4473a"/></marker></defs>
 <rect width="462" height="259" fill="#fff"/>
 <rect x="0" y="0" width="150" height="215" fill="#f6f1e6" stroke="#6b6253" stroke-width="0.8"/>
 <text x="5.0" y="10.0" font-size="7" fill="#2b2b2b" text-anchor="start" font-weight="bold">1. Charge declared</text>
@@ -28,8 +28,8 @@
 <rect x="239.4" y="47.4" width="7.2" height="7.2" rx="0.8" fill="#c9d8ee" stroke="#3f6fb0" stroke-width="0.6"/>
 <rect x="251.4" y="43.4" width="7.2" height="7.2" rx="0.8" fill="#c9d8ee" stroke="#3f6fb0" stroke-width="0.6"/>
 <line x1="284.0" y1="112.0" x2="284.0" y2="52.0" stroke="#3f6fb0" stroke-width="1" marker-end="url(#arrow_3f6fb0)"/>
-<text x="280.0" y="106.0" font-size="4.8" fill="#3f6fb0" text-anchor="end" font-style="italic">up to Move (7”),</text>
-<text x="280.0" y="112.0" font-size="4.8" fill="#3f6fb0" text-anchor="end" font-style="italic">through the friendly unit</text>
+<text x="280.0" y="92.0" font-size="4.8" fill="#3f6fb0" text-anchor="end" font-style="italic">up to Move (7”),</text>
+<text x="280.0" y="98.0" font-size="4.8" fill="#3f6fb0" text-anchor="end" font-style="italic">through the friendly unit</text>
 <g transform="translate(276.0,44.0)"><circle r="6" fill="#cf8f55" stroke="#7a4a22" stroke-width="1"/><circle r="4.68" fill="none" stroke="#7a4a22" stroke-width="0.4"/><text x="0" y="0.88" font-size="2.52" fill="#fff8ec" text-anchor="middle" font-weight="bold" font-family="Georgia, serif">RUN</text></g>
 <g transform="translate(231.0,182.0) rotate(0)"><rect x="-19.1" y="-19.1" width="38.2" height="38.2" fill="#f0cfc9" stroke="#b4473a" stroke-width="0.7"/><line x1="-9.0" y1="-19.1" x2="-9.0" y2="19.1" stroke="#b4473a" stroke-width="0.25"/><line x1="0.0" y1="-19.1" x2="0.0" y2="19.1" stroke="#b4473a" stroke-width="0.25"/><line x1="9.0" y1="-19.1" x2="9.0" y2="19.1" stroke="#b4473a" stroke-width="0.25"/><line x1="-19.1" y1="0.0" x2="19.1" y2="0.0" stroke="#b4473a" stroke-width="0.25"/><line x1="-19.1" y1="-19.1" x2="19.1" y2="-19.1" stroke="#b4473a" stroke-width="1.6"/></g>
 <rect x="312" y="0" width="150" height="215" fill="#f6f1e6" stroke="#6b6253" stroke-width="0.8"/>
@@ -43,8 +43,8 @@
 <g transform="translate(387.0,182.0) rotate(0)" opacity="0.35"><rect x="-19.1" y="-19.1" width="38.2" height="38.2" fill="#f0cfc9" stroke="#b4473a" stroke-width="0.7" stroke-dasharray="2 1.5"/><line x1="-9.0" y1="-19.1" x2="-9.0" y2="19.1" stroke="#b4473a" stroke-width="0.25"/><line x1="0.0" y1="-19.1" x2="0.0" y2="19.1" stroke="#b4473a" stroke-width="0.25"/><line x1="9.0" y1="-19.1" x2="9.0" y2="19.1" stroke="#b4473a" stroke-width="0.25"/><line x1="-19.1" y1="0.0" x2="19.1" y2="0.0" stroke="#b4473a" stroke-width="0.25"/></g>
 <g transform="translate(387.0,104.0) rotate(0)"><rect x="-19.1" y="-19.1" width="38.2" height="38.2" fill="#f0cfc9" stroke="#b4473a" stroke-width="0.7"/><line x1="-9.0" y1="-19.1" x2="-9.0" y2="19.1" stroke="#b4473a" stroke-width="0.25"/><line x1="0.0" y1="-19.1" x2="0.0" y2="19.1" stroke="#b4473a" stroke-width="0.25"/><line x1="9.0" y1="-19.1" x2="9.0" y2="19.1" stroke="#b4473a" stroke-width="0.25"/><line x1="-19.1" y1="0.0" x2="19.1" y2="0.0" stroke="#b4473a" stroke-width="0.25"/><line x1="-19.1" y1="-19.1" x2="19.1" y2="-19.1" stroke="#b4473a" stroke-width="1.6"/></g>
 <line x1="440.0" y1="182.0" x2="440.0" y2="102.0" stroke="#b4473a" stroke-width="1" marker-end="url(#arrow_b4473a)"/>
-<text x="436.0" y="172.0" font-size="4.8" fill="#b4473a" text-anchor="end" font-style="italic">full Charge Move into</text>
-<text x="436.0" y="178.0" font-size="4.8" fill="#b4473a" text-anchor="end" font-style="italic">the first enemy in its path</text>
+<text x="436.0" y="152.0" font-size="4.8" fill="#b4473a" text-anchor="end" font-style="italic">full Charge Move into</text>
+<text x="436.0" y="158.0" font-size="4.8" fill="#b4473a" text-anchor="end" font-style="italic">the first enemy in its path</text>
 <text x="4" y="228" font-size="8" font-weight="bold" fill="#2b2b2b">The Skirmish Captain</text>
 <text x="4" y="239" font-size="6" fill="#2b2b2b">When an enemy declares a Charge against a unit with a Skirmish Captain, before measuring, it may take a Fear Test. If it passes, it</text>
 <text x="4" y="247" font-size="6" fill="#2b2b2b">falls back directly away from the charger up to its Move, through friendly units if needed (not ending on or touching them, or within</text>

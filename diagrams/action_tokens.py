@@ -8,7 +8,7 @@ s.panel(0, 0, W, H)
 def pair(x, a, b, note_a, note_b):
     action_token(s, x, 42, a, 12 if a in ('Hold', 'Flee') else 11)
     s.text(x, 64, note_a, 5, C['line'], italic=True)
-    flip(s, x + 18, 44, x + 18, 96)
+    flip(s, x, 69, 85)
     action_token(s, x, 100, b, 12 if b in ('Hold', 'Flee') else 11)
     s.text(x, 122, note_b, 5, C['line'], italic=True)
 s.panel(6, 6, 100, H - 12, 'Hold / Flee')

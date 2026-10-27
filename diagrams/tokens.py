@@ -71,11 +71,8 @@ def break_token(s, x, y, r=6):
     s.add(f'<g transform="translate({x:.1f},{y:.1f})">{body}</g>')
 
 
-def flip(s, x1, y1, x2, y2, col=None):
-    """Curved 'flip over' arrow between two token positions."""
+def flip(s, x, y1, y2, col=None):
+    """Straight 'flip over' arrow, centred on x, with a small label to its right."""
     col = col or C['red']
-    s._marker(col)
-    mx = (x1 + x2) / 2 + 12
-    my = (y1 + y2) / 2
-    s.add(f'<path d="M{x1+10:.1f},{y1:.1f} Q{mx:.1f},{my:.1f} {x2+10:.1f},{y2:.1f}" fill="none" stroke="{col}" '
-          f'stroke-width="1.1" marker-end="url(#arrow_{col.strip("#")})"/>')
+    s.arrow(x, y1, x, y2, col, w=1.1)
+    s.text(x + 4, (y1 + y2) / 2 + 2, 'flip', 4.8, col, 'start', italic=True)

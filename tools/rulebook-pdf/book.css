@@ -84,16 +84,14 @@ table a.xref { color: var(--red); }
 figure { margin: 5pt 0 8pt; break-inside: avoid; text-align: center; }
 figure img { width: 100%; }
 figure.full { column-span: all; }
-figure.full img { display: block; margin: 0 auto; width: auto; max-width: 100%; max-height: 3.5in; }
+figure.full img { display: block; margin: 0 auto; width: auto; max-width: 100%; max-height: 4in; }
 
 /* example unit profile card */
 .profile { column-span: all; border: .8pt solid var(--rule); background: #f5eedd; padding: 6pt 9pt 2pt; margin: 4pt 0 10pt; break-inside: avoid; }
 .profile table.narrow { font-size: 9pt; margin: 0 0 3pt; }
 
 .profile p { text-align: left; margin: 0 0 1.5pt; }
-.profile > p:nth-of-type(1) { font: 700 13pt 'Cinzel'; color: var(--red); margin: 0; }
-.profile > p:nth-of-type(2) { font-style: italic; color: var(--muted); margin: 0 0 5pt; }
-.profile table.narrow { width: 2.4in; margin: 0 0 5pt; }
+
 .profile table.wide { margin-top: 6pt; }
 p.kv { text-align: left; padding-left: 70pt; text-indent: -70pt; }
 p.kv .k { display: inline-block; width: 70pt; text-indent: 0; font-weight: 600; color: var(--red); }
@@ -104,3 +102,10 @@ main.pb > h1:first-child { margin-top: 0; }
 
 figure.apx img { max-height: 2.15in; }
 figure.tall img { width: 88%; }
+
+.profile table.phead { margin: 0 0 4pt; font: inherit; }
+.profile table.phead > tbody > tr > td, .profile table.phead > tr > td { background: none; border: none; padding: 0; vertical-align: middle; }
+.profile td.pname p:first-child { font: 700 13pt 'Cinzel'; color: var(--red); margin: 0; }
+.profile td.pname p:last-child { font-style: italic; color: var(--muted); margin: 0; }
+.profile td.pstats { width: 2.4in; }
+.profile td.pstats table { margin: 0; }

@@ -20,7 +20,7 @@
 <text x="205.0" y="92.0" font-size="6" fill="#b4473a" text-anchor="start" font-weight="bold">Fail:</text>
 <text x="226.0" y="92.0" font-size="5.5" fill="#2b2b2b" text-anchor="start">remove its Action and</text>
 <text x="226.0" y="99.0" font-size="5.5" fill="#2b2b2b" text-anchor="start">Break Tokens, add Flee</text>
-<g transform="translate(300.0,112.0)"><polygon points="0,-8 10.0,0 0,8 -10.0,0" fill="#ecdcae" stroke="#9b8452" stroke-width="1"/><polygon points="0,-6.24 7.84,0 0,6.24 -7.84,0" fill="none" stroke="#9b8452" stroke-width="0.4"/><text x="0" y="1.18" font-size="3.36" fill="#9b8452" text-anchor="middle" font-weight="bold" font-family="Georgia, serif">FLEE</text></g>
+<g transform="translate(306.0,82.0)"><polygon points="0,-8 10.0,0 0,8 -10.0,0" fill="#ecdcae" stroke="#9b8452" stroke-width="1"/><polygon points="0,-6.24 7.84,0 0,6.24 -7.84,0" fill="none" stroke="#9b8452" stroke-width="0.4"/><text x="0" y="1.18" font-size="3.36" fill="#9b8452" text-anchor="middle" font-weight="bold" font-family="Georgia, serif">FLEE</text></g>
 <text x="4" y="138" font-size="8" font-weight="bold" fill="#2b2b2b">Break Tokens and Break Tests</text>
 <text x="4" y="149" font-size="6" fill="#2b2b2b">Break Tokens come from Terrify, charges into a flank or rear, and other effects. In the Morale</text>
 <text x="4" y="157" font-size="6" fill="#2b2b2b">Phase, a unit with any Break Tokens rolls 1d6 + Training, at -1 for each Break Token after the</text>

@@ -158,7 +158,9 @@ def convert():
                 from PIL import Image as _I
                 _w, _h = _I.open(src).size
                 cls = 'full' if (key in FULL_IMGS or _w / _h >= 1.65) else ('col tall' if _h > _w else 'col')
-                out.append(f'<figure class="{cls}"><img src="file://{src}"></figure>')
+                svg = src[:-4].replace('/png/', '/') + '.svg' if src.endswith('.png') else src
+                if not os.path.exists(svg): svg = src
+                out.append(f'<figure class="{cls}"><img src="file://{svg}"></figure>')
             if not text:
                 continue
         if not text:
@@ -198,8 +200,11 @@ def convert():
 
 title, toc, content = convert()
 
+# post-process: put the profile's name/type beside its Move/Training/Points table
+content = re.sub(r'(<table class="narrow c3">(?:(?!</table>).)*?</table>)\s*(<p><i><b>Hoplîtai</b></i></p>)\s*(<p>Warrior</p>)',
+                 r'<table class="phead"><tr><td class="pname">\2\3</td><td class="pstats">\1</td></tr></table>', content, count=1, flags=re.S)
 # post-process: wrap the example unit profile (from "Hoplîtai" through the stat table) as a card
-content = re.sub(r'(<table class="narrow c3">(?:(?!</table>).)*?</table>\s*<p><i><b>Hoplîtai</b></i></p>.*?<table class="wide c\d">.*?</table>)',
+content = re.sub(r'(<table class="phead">.*?<table class="wide c\d">.*?</table>)',
                  r'<div class="profile">\1</div>', content, count=1, flags=re.S)
 
 faces = [('Cinzel','Cinzel',400,'normal'),('Cinzel','Cinzel',600,'normal'),('Cinzel','Cinzel',700,'normal'),
