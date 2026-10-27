@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 352" width="816" height="845" font-family="Georgia, 'Times New Roman', serif">
+<defs></defs>
+<rect width="340" height="352" fill="#fff"/>
+<rect x="0" y="0" width="340" height="300" fill="#f6f1e6" stroke="#6b6253" stroke-width="0.8"/>
+<rect x="62" y="22" width="243.8" height="243.8" fill="#f6f1e6" stroke="#2b2b2b" stroke-width="1"/>
+<line x1="62" y1="143.9" x2="305.8" y2="143.9" stroke="#6b6253" stroke-width="0.6" stroke-dasharray="1.5 2"/>
+<rect x="62" y="22" width="243.8" height="61.0" fill="#3f6fb0" fill-opacity="0.12"/>
+<rect x="62" y="204.9" width="243.8" height="61.0" fill="#b4473a" fill-opacity="0.12"/>
+<rect x="62" y="22" width="61.0" height="243.8" fill="#b9c9b0" fill-opacity="0.75" stroke="#9aa37a" stroke-width="0.8"/>
+<path d="M70.0,32.0 q3,-4 6,0 q3,4 6,0" fill="none" stroke="#6f8f8a" stroke-width="0.7"/>
+<path d="M107.0,49.0 q3,-4 6,0 q3,4 6,0" fill="none" stroke="#6f8f8a" stroke-width="0.7"/>
+<path d="M97.0,66.0 q3,-4 6,0 q3,4 6,0" fill="none" stroke="#6f8f8a" stroke-width="0.7"/>
+<path d="M87.1,83.0 q3,-4 6,0 q3,4 6,0" fill="none" stroke="#6f8f8a" stroke-width="0.7"/>
+<path d="M77.1,100.0 q3,-4 6,0 q3,4 6,0" fill="none" stroke="#6f8f8a" stroke-width="0.7"/>
+<path d="M114.1,117.0 q3,-4 6,0 q3,4 6,0" fill="none" stroke="#6f8f8a" stroke-width="0.7"/>
+<path d="M104.2,134.0 q3,-4 6,0 q3,4 6,0" fill="none" stroke="#6f8f8a" stroke-width="0.7"/>
+<path d="M94.2,151.0 q3,-4 6,0 q3,4 6,0" fill="none" stroke="#6f8f8a" stroke-width="0.7"/>
+<path d="M84.2,168.0 q3,-4 6,0 q3,4 6,0" fill="none" stroke="#6f8f8a" stroke-width="0.7"/>
+<path d="M74.3,185.0 q3,-4 6,0 q3,4 6,0" fill="none" stroke="#6f8f8a" stroke-width="0.7"/>
+<path d="M111.3,202.0 q3,-4 6,0 q3,4 6,0" fill="none" stroke="#6f8f8a" stroke-width="0.7"/>
+<path d="M101.3,219.0 q3,-4 6,0 q3,4 6,0" fill="none" stroke="#6f8f8a" stroke-width="0.7"/>
+<path d="M91.4,236.0 q3,-4 6,0 q3,4 6,0" fill="none" stroke="#6f8f8a" stroke-width="0.7"/>
+<path d="M81.4,253.0 q3,-4 6,0 q3,4 6,0" fill="none" stroke="#6f8f8a" stroke-width="0.7"/>
+<text x="92.5" y="143.9" font-size="6" fill="#6b6253" text-anchor="middle" font-weight="bold" transform="rotate(-90 92.47999999999999 143.92)">Marsh</text>
+<rect x="244.6" y="41.8" width="15.2" height="15.2" rx="1.5" fill="#c7b08a" stroke="#6b6253" stroke-width="0.7"/>
+<text x="252.2" y="64.1" font-size="5" fill="#6b6253" text-anchor="middle" font-style="italic">Watchtower</text>
+<rect x="193.1" y="128.7" width="30.5" height="30.5" rx="1.5" fill="#9aae78" stroke="#6b6253" stroke-width="0.7"/>
+<text x="208.3" y="166.2" font-size="5" fill="#6b6253" text-anchor="middle" font-style="italic">Dense Brush</text>
+<rect x="144.7" y="227.2" width="10.2" height="10.2" rx="1.5" fill="#d9d2c3" stroke="#6b6253" stroke-width="0.7"/>
+<text x="149.8" y="244.4" font-size="5" fill="#6b6253" text-anchor="middle" font-style="italic">Monument</text>
+<g transform="translate(164.4,55.5) rotate(180)"><rect x="-12.6" y="-8.6" width="25.2" height="17.2" fill="#c9d8ee" stroke="#3f6fb0" stroke-width="0.7"/><line x1="-8.0" y1="-8.6" x2="-8.0" y2="8.6" stroke="#3f6fb0" stroke-width="0.25"/><line x1="-4.0" y1="-8.6" x2="-4.0" y2="8.6" stroke="#3f6fb0" stroke-width="0.25"/><line x1="0.0" y1="-8.6" x2="0.0" y2="8.6" stroke="#3f6fb0" stroke-width="0.25"/><line x1="4.0" y1="-8.6" x2="4.0" y2="8.6" stroke="#3f6fb0" stroke-width="0.25"/><line x1="8.0" y1="-8.6" x2="8.0" y2="8.6" stroke="#3f6fb0" stroke-width="0.25"/><line x1="-12.6" y1="-4.0" x2="12.6" y2="-4.0" stroke="#3f6fb0" stroke-width="0.25"/><line x1="-12.6" y1="0.0" x2="12.6" y2="0.0" stroke="#3f6fb0" stroke-width="0.25"/><line x1="-12.6" y1="4.0" x2="12.6" y2="4.0" stroke="#3f6fb0" stroke-width="0.25"/><line x1="-12.6" y1="-8.6" x2="12.6" y2="-8.6" stroke="#3f6fb0" stroke-width="1.6"/></g>
+<g transform="translate(208.3,55.5) rotate(180)"><rect x="-12.6" y="-8.6" width="25.2" height="17.2" fill="#c9d8ee" stroke="#3f6fb0" stroke-width="0.7"/><line x1="-8.0" y1="-8.6" x2="-8.0" y2="8.6" stroke="#3f6fb0" stroke-width="0.25"/><line x1="-4.0" y1="-8.6" x2="-4.0" y2="8.6" stroke="#3f6fb0" stroke-width="0.25"/><line x1="0.0" y1="-8.6" x2="0.0" y2="8.6" stroke="#3f6fb0" stroke-width="0.25"/><line x1="4.0" y1="-8.6" x2="4.0" y2="8.6" stroke="#3f6fb0" stroke-width="0.25"/><line x1="8.0" y1="-8.6" x2="8.0" y2="8.6" stroke="#3f6fb0" stroke-width="0.25"/><line x1="-12.6" y1="-4.0" x2="12.6" y2="-4.0" stroke="#3f6fb0" stroke-width="0.25"/><line x1="-12.6" y1="0.0" x2="12.6" y2="0.0" stroke="#3f6fb0" stroke-width="0.25"/><line x1="-12.6" y1="4.0" x2="12.6" y2="4.0" stroke="#3f6fb0" stroke-width="0.25"/><line x1="-12.6" y1="-8.6" x2="12.6" y2="-8.6" stroke="#3f6fb0" stroke-width="1.6"/></g>
+<g transform="translate(276.6,55.5) rotate(180)"><rect x="-8.6" y="-4.6" width="17.2" height="9.2" fill="#c9d8ee" stroke="#3f6fb0" stroke-width="0.7"/><line x1="-4.0" y1="-4.6" x2="-4.0" y2="4.6" stroke="#3f6fb0" stroke-width="0.25"/><line x1="0.0" y1="-4.6" x2="0.0" y2="4.6" stroke="#3f6fb0" stroke-width="0.25"/><line x1="4.0" y1="-4.6" x2="4.0" y2="4.6" stroke="#3f6fb0" stroke-width="0.25"/><line x1="-8.6" y1="0.0" x2="8.6" y2="0.0" stroke="#3f6fb0" stroke-width="0.25"/><line x1="-8.6" y1="-4.6" x2="8.6" y2="-4.6" stroke="#3f6fb0" stroke-width="1.6"/></g>
+<rect x="135.2" y="74.0" width="4" height="4" fill="#c9d8ee" stroke="#3f6fb0" stroke-width="0.5"/>
+<rect x="141.2" y="77.0" width="4" height="4" fill="#c9d8ee" stroke="#3f6fb0" stroke-width="0.5"/>
+<rect x="147.2" y="74.0" width="4" height="4" fill="#c9d8ee" stroke="#3f6fb0" stroke-width="0.5"/>
+<rect x="153.2" y="77.0" width="4" height="4" fill="#c9d8ee" stroke="#3f6fb0" stroke-width="0.5"/>
+<rect x="159.2" y="74.0" width="4" height="4" fill="#c9d8ee" stroke="#3f6fb0" stroke-width="0.5"/>
+<rect x="165.2" y="77.0" width="4" height="4" fill="#c9d8ee" stroke="#3f6fb0" stroke-width="0.5"/>
+<g transform="translate(183.9,235.4) rotate(0)"><rect x="-10.6" y="-8.6" width="21.2" height="17.2" fill="#f0cfc9" stroke="#b4473a" stroke-width="0.7"/><line x1="-6.0" y1="-8.6" x2="-6.0" y2="8.6" stroke="#b4473a" stroke-width="0.25"/><line x1="-2.0" y1="-8.6" x2="-2.0" y2="8.6" stroke="#b4473a" stroke-width="0.25"/><line x1="2.0" y1="-8.6" x2="2.0" y2="8.6" stroke="#b4473a" stroke-width="0.25"/><line x1="6.0" y1="-8.6" x2="6.0" y2="8.6" stroke="#b4473a" stroke-width="0.25"/><line x1="-10.6" y1="-4.0" x2="10.6" y2="-4.0" stroke="#b4473a" stroke-width="0.25"/><line x1="-10.6" y1="0.0" x2="10.6" y2="0.0" stroke="#b4473a" stroke-width="0.25"/><line x1="-10.6" y1="4.0" x2="10.6" y2="4.0" stroke="#b4473a" stroke-width="0.25"/><line x1="-10.6" y1="-8.6" x2="10.6" y2="-8.6" stroke="#b4473a" stroke-width="1.6"/></g>
+<g transform="translate(227.8,235.4) rotate(0)"><rect x="-10.6" y="-8.6" width="21.2" height="17.2" fill="#f0cfc9" stroke="#b4473a" stroke-width="0.7"/><line x1="-6.0" y1="-8.6" x2="-6.0" y2="8.6" stroke="#b4473a" stroke-width="0.25"/><line x1="-2.0" y1="-8.6" x2="-2.0" y2="8.6" stroke="#b4473a" stroke-width="0.25"/><line x1="2.0" y1="-8.6" x2="2.0" y2="8.6" stroke="#b4473a" stroke-width="0.25"/><line x1="6.0" y1="-8.6" x2="6.0" y2="8.6" stroke="#b4473a" stroke-width="0.25"/><line x1="-10.6" y1="-4.0" x2="10.6" y2="-4.0" stroke="#b4473a" stroke-width="0.25"/><line x1="-10.6" y1="0.0" x2="10.6" y2="0.0" stroke="#b4473a" stroke-width="0.25"/><line x1="-10.6" y1="4.0" x2="10.6" y2="4.0" stroke="#b4473a" stroke-width="0.25"/><line x1="-10.6" y1="-8.6" x2="10.6" y2="-8.6" stroke="#b4473a" stroke-width="1.6"/></g>
+<g transform="translate(271.7,235.4) rotate(0)"><rect x="-10.6" y="-4.6" width="21.2" height="9.2" fill="#f0cfc9" stroke="#b4473a" stroke-width="0.7"/><line x1="-6.0" y1="-4.6" x2="-6.0" y2="4.6" stroke="#b4473a" stroke-width="0.25"/><line x1="-2.0" y1="-4.6" x2="-2.0" y2="4.6" stroke="#b4473a" stroke-width="0.25"/><line x1="2.0" y1="-4.6" x2="2.0" y2="4.6" stroke="#b4473a" stroke-width="0.25"/><line x1="6.0" y1="-4.6" x2="6.0" y2="4.6" stroke="#b4473a" stroke-width="0.25"/><line x1="-10.6" y1="0.0" x2="10.6" y2="0.0" stroke="#b4473a" stroke-width="0.25"/><line x1="-10.6" y1="-4.6" x2="10.6" y2="-4.6" stroke="#b4473a" stroke-width="1.6"/></g>
+<rect x="196.1" y="209.9" width="4" height="4" fill="#f0cfc9" stroke="#b4473a" stroke-width="0.5"/>
+<rect x="202.1" y="212.9" width="4" height="4" fill="#f0cfc9" stroke="#b4473a" stroke-width="0.5"/>
+<rect x="208.1" y="209.9" width="4" height="4" fill="#f0cfc9" stroke="#b4473a" stroke-width="0.5"/>
+<rect x="214.1" y="212.9" width="4" height="4" fill="#f0cfc9" stroke="#b4473a" stroke-width="0.5"/>
+<rect x="220.1" y="209.9" width="4" height="4" fill="#f0cfc9" stroke="#b4473a" stroke-width="0.5"/>
+<rect x="226.1" y="212.9" width="4" height="4" fill="#f0cfc9" stroke="#b4473a" stroke-width="0.5"/>
+<text x="183.9" y="17.0" font-size="6" fill="#3f6fb0" text-anchor="middle" font-weight="bold">Blue Friendly edge</text>
+<text x="183.9" y="275.8" font-size="6" fill="#b4473a" text-anchor="middle" font-weight="bold">Red Friendly edge</text>
+<text x="312.8" y="52.5" font-size="5" fill="#3f6fb0" text-anchor="start">12”</text>
+<text x="312.8" y="235.4" font-size="5" fill="#b4473a" text-anchor="start">12”</text>
+<rect x="14.0" y="40.0" width="16" height="23" rx="1.5" fill="#c9d8ee" stroke="#2b2b2b" stroke-width="0.6" transform="rotate(-8 22 51)"/>
+<rect x="19.0" y="38.0" width="16" height="23" rx="1.5" fill="#c9d8ee" stroke="#2b2b2b" stroke-width="0.6" transform="rotate(0 27 51)"/>
+<rect x="24.0" y="36.0" width="16" height="23" rx="1.5" fill="#c9d8ee" stroke="#2b2b2b" stroke-width="0.6" transform="rotate(8 32 51)"/>
+<text x="30.0" y="74.0" font-size="5" fill="#3f6fb0" text-anchor="middle" font-style="italic">Blue Command</text>
+<text x="30.0" y="80.0" font-size="5" fill="#3f6fb0" text-anchor="middle" font-style="italic">hand</text>
+<rect x="14.0" y="217.8" width="16" height="23" rx="1.5" fill="#f0cfc9" stroke="#2b2b2b" stroke-width="0.6" transform="rotate(-8 22 228.83999999999997)"/>
+<rect x="19.0" y="215.8" width="16" height="23" rx="1.5" fill="#f0cfc9" stroke="#2b2b2b" stroke-width="0.6" transform="rotate(0 27 228.83999999999997)"/>
+<rect x="24.0" y="213.8" width="16" height="23" rx="1.5" fill="#f0cfc9" stroke="#2b2b2b" stroke-width="0.6" transform="rotate(8 32 228.83999999999997)"/>
+<text x="30.0" y="251.8" font-size="5" fill="#b4473a" text-anchor="middle" font-style="italic">Red Command</text>
+<text x="30.0" y="257.8" font-size="5" fill="#b4473a" text-anchor="middle" font-style="italic">hand</text>
+<rect x="262" y="290" width="30.5" height="2.5" fill="#2b2b2b"/><rect x="292.5" y="290" width="30.5" height="2.5" fill="#fff" stroke="#2b2b2b" stroke-width="0.5"/>
+<text x="262.0" y="288.0" font-size="5" fill="#2b2b2b" text-anchor="middle">0</text>
+<text x="292.5" y="288.0" font-size="5" fill="#2b2b2b" text-anchor="middle">6"</text>
+<text x="323.0" y="288.0" font-size="5" fill="#2b2b2b" text-anchor="middle">12"</text>
+<text x="4" y="313" font-size="8" font-weight="bold" fill="#2b2b2b">A Battlefield Ready to Play</text>
+<text x="4" y="324" font-size="6" fill="#2b2b2b">A 4’ x 4’ board after Setting Up. The Major Terrain (here a Marsh) runs along the left edge. Terrain</text>
+<text x="4" y="332" font-size="6" fill="#2b2b2b">features from Command cards are placed: a Watchtower in Blue’s deployment zone, Dense Brush in the</text>
+<text x="4" y="340" font-size="6" fill="#2b2b2b">neutral middle and a Monument by Red. Each army is deployed wholly within its 12” zone, Closed Order</text>
+<text x="4" y="348" font-size="6" fill="#2b2b2b">units facing the enemy edge, and each player’s 3-card Command hand waits beside the board.</text>
+</svg>

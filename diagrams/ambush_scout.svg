@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 352" width="816" height="845" font-family="Georgia, 'Times New Roman', serif">
+<defs></defs>
+<rect width="340" height="352" fill="#fff"/>
+<rect x="0" y="0" width="340" height="300" fill="#f6f1e6" stroke="#6b6253" stroke-width="0.8"/>
+<rect x="48" y="22" width="243.8" height="243.8" fill="#f6f1e6" stroke="#2b2b2b" stroke-width="1"/>
+<line x1="48" y1="143.9" x2="291.8" y2="143.9" stroke="#6b6253" stroke-width="0.6" stroke-dasharray="1.5 2"/>
+<rect x="48" y="22" width="243.8" height="61.0" fill="#3f6fb0" fill-opacity="0.12"/>
+<rect x="48" y="204.9" width="243.8" height="61.0" fill="#b4473a" fill-opacity="0.12"/>
+<text x="169.9" y="260.8" font-size="5" fill="#b4473a" text-anchor="middle" font-style="italic">Red deployment zone: no Scouts or Ambushers here</text>
+<defs><clipPath id="cb"><rect x="48" y="22" width="243.8" height="243.8"/></clipPath></defs>
+<rect x="47.6" y="13.4" width="147.1" height="139.1" rx="61.0" fill="#efe2bf" fill-opacity="0.45" stroke="#6b6253" stroke-width="0.6" stroke-dasharray="3 2" clip-path="url(#cb)"/>
+<rect x="125.6" y="6.1" width="147.1" height="139.1" rx="61.0" fill="#efe2bf" fill-opacity="0.45" stroke="#6b6253" stroke-width="0.6" stroke-dasharray="3 2" clip-path="url(#cb)"/>
+<g transform="translate(121.2,83.0) rotate(180)"><rect x="-12.6" y="-8.6" width="25.2" height="17.2" fill="#c9d8ee" stroke="#3f6fb0" stroke-width="0.7"/><line x1="-8.0" y1="-8.6" x2="-8.0" y2="8.6" stroke="#3f6fb0" stroke-width="0.25"/><line x1="-4.0" y1="-8.6" x2="-4.0" y2="8.6" stroke="#3f6fb0" stroke-width="0.25"/><line x1="0.0" y1="-8.6" x2="0.0" y2="8.6" stroke="#3f6fb0" stroke-width="0.25"/><line x1="4.0" y1="-8.6" x2="4.0" y2="8.6" stroke="#3f6fb0" stroke-width="0.25"/><line x1="8.0" y1="-8.6" x2="8.0" y2="8.6" stroke="#3f6fb0" stroke-width="0.25"/><line x1="-12.6" y1="-4.0" x2="12.6" y2="-4.0" stroke="#3f6fb0" stroke-width="0.25"/><line x1="-12.6" y1="0.0" x2="12.6" y2="0.0" stroke="#3f6fb0" stroke-width="0.25"/><line x1="-12.6" y1="4.0" x2="12.6" y2="4.0" stroke="#3f6fb0" stroke-width="0.25"/><line x1="-12.6" y1="-8.6" x2="12.6" y2="-8.6" stroke="#3f6fb0" stroke-width="1.6"/></g>
+<g transform="translate(199.2,75.6) rotate(180)"><rect x="-12.6" y="-8.6" width="25.2" height="17.2" fill="#c9d8ee" stroke="#3f6fb0" stroke-width="0.7"/><line x1="-8.0" y1="-8.6" x2="-8.0" y2="8.6" stroke="#3f6fb0" stroke-width="0.25"/><line x1="-4.0" y1="-8.6" x2="-4.0" y2="8.6" stroke="#3f6fb0" stroke-width="0.25"/><line x1="0.0" y1="-8.6" x2="0.0" y2="8.6" stroke="#3f6fb0" stroke-width="0.25"/><line x1="4.0" y1="-8.6" x2="4.0" y2="8.6" stroke="#3f6fb0" stroke-width="0.25"/><line x1="8.0" y1="-8.6" x2="8.0" y2="8.6" stroke="#3f6fb0" stroke-width="0.25"/><line x1="-12.6" y1="-4.0" x2="12.6" y2="-4.0" stroke="#3f6fb0" stroke-width="0.25"/><line x1="-12.6" y1="0.0" x2="12.6" y2="0.0" stroke="#3f6fb0" stroke-width="0.25"/><line x1="-12.6" y1="4.0" x2="12.6" y2="4.0" stroke="#3f6fb0" stroke-width="0.25"/><line x1="-12.6" y1="-8.6" x2="12.6" y2="-8.6" stroke="#3f6fb0" stroke-width="1.6"/></g>
+<text x="199.2" y="126.9" font-size="5.5" fill="#6b6253" text-anchor="middle" font-weight="bold">within 12” of an enemy:</text>
+<text x="199.2" y="133.9" font-size="5.5" fill="#6b6253" text-anchor="middle" font-style="italic">Ambush allowed, Scouts not</text>
+<g transform="translate(247.9,173.2) rotate(0)"><rect x="-10.6" y="-10.6" width="21.2" height="21.2" fill="#f0cfc9" stroke="#b4473a" stroke-width="0.7"/><line x1="-5.0" y1="-10.6" x2="-5.0" y2="10.6" stroke="#b4473a" stroke-width="0.25"/><line x1="0.0" y1="-10.6" x2="0.0" y2="10.6" stroke="#b4473a" stroke-width="0.25"/><line x1="5.0" y1="-10.6" x2="5.0" y2="10.6" stroke="#b4473a" stroke-width="0.25"/><line x1="-10.6" y1="0.0" x2="10.6" y2="0.0" stroke="#b4473a" stroke-width="0.25"/><line x1="-10.6" y1="-10.6" x2="10.6" y2="-10.6" stroke="#b4473a" stroke-width="1.6"/></g>
+<text x="247.9" y="189.2" font-size="5.2" fill="#b4473a" text-anchor="middle" font-weight="bold">Scout: more than</text>
+<text x="247.9" y="195.2" font-size="5.2" fill="#b4473a" text-anchor="middle" font-style="italic">12” from every enemy</text>
+<g transform="translate(67.5,124.4) rotate(90)"><rect x="-8.6" y="-4.6" width="17.2" height="9.2" fill="#f0cfc9" stroke="#b4473a" stroke-width="0.7"/><line x1="-4.0" y1="-4.6" x2="-4.0" y2="4.6" stroke="#b4473a" stroke-width="0.25"/><line x1="0.0" y1="-4.6" x2="0.0" y2="4.6" stroke="#b4473a" stroke-width="0.25"/><line x1="4.0" y1="-4.6" x2="4.0" y2="4.6" stroke="#b4473a" stroke-width="0.25"/><line x1="-8.6" y1="0.0" x2="8.6" y2="0.0" stroke="#b4473a" stroke-width="0.25"/><line x1="-8.6" y1="-4.6" x2="8.6" y2="-4.6" stroke="#b4473a" stroke-width="1.6"/></g>
+<text x="77.5" y="122.4" font-size="5.2" fill="#b4473a" text-anchor="start" font-weight="bold">Ambush: within</text>
+<text x="77.5" y="128.4" font-size="5.2" fill="#b4473a" text-anchor="start" font-style="italic">12” of an enemy unit</text>
+<text x="169.9" y="17.0" font-size="6" fill="#3f6fb0" text-anchor="middle" font-weight="bold">Blue Friendly edge</text>
+<text x="169.9" y="275.8" font-size="6" fill="#b4473a" text-anchor="middle" font-weight="bold">Red Friendly edge</text>
+<rect x="262" y="290" width="30.5" height="2.5" fill="#2b2b2b"/><rect x="292.5" y="290" width="30.5" height="2.5" fill="#fff" stroke="#2b2b2b" stroke-width="0.5"/>
+<text x="262.0" y="288.0" font-size="5" fill="#2b2b2b" text-anchor="middle">0</text>
+<text x="292.5" y="288.0" font-size="5" fill="#2b2b2b" text-anchor="middle">6"</text>
+<text x="323.0" y="288.0" font-size="5" fill="#2b2b2b" text-anchor="middle">12"</text>
+<text x="4" y="313" font-size="8" font-weight="bold" fill="#2b2b2b">Scout and Ambush</text>
+<text x="4" y="324" font-size="6" fill="#2b2b2b">Scouting and Ambushing units deploy after everyone else, and never in their own deployment zone. A</text>
+<text x="4" y="332" font-size="6" fill="#2b2b2b">Scout may be placed anywhere else as long as it is not within 12” of an enemy model. An Ambusher may</text>
+<text x="4" y="340" font-size="6" fill="#2b2b2b">be placed anywhere else as long as it is within 12” of an enemy unit. Scouts deploy before</text>
+<text x="4" y="348" font-size="6" fill="#2b2b2b">Ambushers, so an Ambush can answer where the Scouts went.</text>
+</svg>
