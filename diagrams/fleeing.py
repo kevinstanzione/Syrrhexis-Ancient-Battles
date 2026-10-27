@@ -1,4 +1,5 @@
 from board import *
+from tokens import action_token
 k = 0.3
 W, H = 330, 225
 s = SVG(W, H, 'Fleeing and Rallying', [
@@ -21,7 +22,7 @@ mini_tray(s, fx, fy1 + mm(23), 2, 4, 180, 'red', k=k)
 s.arrow(fx + 20, fy0 + mm(23), fx + 20, fy1 + mm(23) - 2, C['red'], w=0.9)
 s.text(fx + 24, (fy0 + fy1) / 2 + mm(23), 'flees 12”', 5.5, C['red'], 'start', bold=True)
 s.text(fx + 24, (fy0 + fy1) / 2 + mm(23) + 7, '(2x Move 6)', 5, C['red'], 'start', italic=True)
-token(fx - 22, fy1 + mm(23), 'FLEE', C['ink'])
+action_token(s, fx, fy1 + mm(23) + 17, 'Flee', 8)
 # 2. a fleeing unit that reaches the edge is removed
 rx = 290
 mini_tray(s, rx, edge - mm(23), 2, 3, 180, 'red', ghost=True, k=k)
@@ -33,9 +34,9 @@ w, d = mm(86), mm(46); R = mm(12 * IN)
 s.add(f'<clipPath id="table"><rect x="0" y="0" width="{W}" height="{edge}"/></clipPath>')
 s.add(f'<rect clip-path="url(#table)" x="{hx - w/2 - R:.1f}" y="{hy - d/2 - R:.1f}" width="{w + 2*R:.1f}" height="{d + 2*R:.1f}" rx="{R:.1f}" fill="{C["green"]}" fill-opacity="0.07" stroke="{C["green"]}" stroke-width="0.9" stroke-dasharray="4 3"/>')
 mini_tray(s, hx, hy, 2, 4, 0, 'red', k=k)
-token(hx + w / 2 + 10, hy, 'HOLD', C['green'])
-s.text(hx + 30, hy - d / 2 - R + 12, '12” Rally range', 5.5, C['green'], bold=True)
-s.text(fx, fy1 + mm(46) + 12, 'within 12”: can be Rallied', 5, C['green'], italic=True)
+action_token(s, hx + w / 2 + 14, hy, 'Hold', 8)
+s.text(hx, hy - d / 2 - R + 18, '12” Rally range', 5.5, C['green'], bold=True)
+s.text(fx + 16, fy1 + mm(23) + 19, 'within 12”: can be Rallied', 5, C['green'], 'start', italic=True)
 s.add(f'<rect x="0.4" y="0.4" width="{W-0.8}" height="{H-0.8}" fill="none" stroke="{C["line"]}" stroke-width="0.8"/>')
 w12 = mm(12 * IN)
 s.add(f'<rect x="{W-8-w12:.1f}" y="{12}" width="{w12/2:.1f}" height="2.5" fill="{C["ink"]}"/><rect x="{W-8-w12/2:.1f}" y="12" width="{w12/2:.1f}" height="2.5" fill="#fff" stroke="{C["ink"]}" stroke-width="0.5"/>')

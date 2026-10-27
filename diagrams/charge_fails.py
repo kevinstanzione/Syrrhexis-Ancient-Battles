@@ -1,4 +1,5 @@
 from style import *
+from tokens import round_token
 W, H = 240, 370
 s = SVG(W, H, 'Charge Fails', [
     'Hattian Infantry (Move 6) would normally charge up to 12”, but they start in Crumbled Ruins, which follow the rules for a',
@@ -28,8 +29,7 @@ dim(cx + 62, bfront, start_front, 'needs 7”')
 dim(cx - 60, end_front, start_front, 'moves 6”', C['red'], left=True)
 dim(cx - 60, bfront, end_front, '1” gap', C['line'], left=True)
 tx, ty = cx - 45, end_front + dr + 14
-s.add(f'<circle cx="{tx+20}" cy="{ty}" r="7" fill="{C["ink"]}"/>')
-s.text(tx + 20, ty + 2.2, 'RUN', 4.5, '#fff', bold=True)
+round_token(s, tx + 20, ty, 'Run', 8)
 s.text(tx + 30, ty + 2, 'Run token', 5.5, C['ink'], 'start', italic=True)
 s.text(cx, start_front + dr + 9, 'Start', 5.5, C['red'], italic=True)
 s.text(cx, 14, 'Defender', 6, C['blue'], bold=True) if False else None

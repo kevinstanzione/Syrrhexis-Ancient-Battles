@@ -1,4 +1,5 @@
 from style import *
+from tokens import break_token
 W, H = 300, 215
 s = SVG(W, H, 'Exposed Flanks', [
     'A Closed Order unit charged in a flank gains 1 Break Token, and charged in the rear gains 2, on top of any from Terrify. It also',
@@ -11,7 +12,7 @@ s.text(cx - 76, cy - 40, 'Flank charge', 6, C['red'], bold=True)
 s.tray(cx, cy + 33 + 23, 2, 4, 0, 'red')
 s.text(cx, cy + 33 + 46 + 10, 'Rear charge', 6, C['red'], bold=True)
 def tok(x, y):
-    s.add(f'<circle cx="{x}" cy="{y}" r="6" fill="{C["ink"]}"/>'); s.text(x, y + 2, 'B', 5.5, '#fff', bold=True)
+    break_token(s, x, y + 1, 6)
 tok(cx - 40, cy - 48); s.text(cx - 30, cy - 46, '+1 Break Token (flank)', 5.5, C['ink'], 'start')
 tok(cx - 40, cy - 64); tok(cx - 26, cy - 64); s.text(cx - 16, cy - 62, '+2 Break Tokens (rear)', 5.5, C['ink'], 'start')
 s.text(cx + 62, cy + 4, 'No Collision Hits', 5.5, C['blue'], 'start', bold=True)
