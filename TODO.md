@@ -11,6 +11,7 @@
 - Add a Dahae / Scythian horse archer unit (hippotoxótai) with Feign Retreat and Parthian Shot.
 
 ## Siege expansion (future)
+- Core of the expansion: destructible terrain and fortifications (walls, gates, towers) that can be damaged and breached.
 - Plan: general-purpose siege weapons available to every army, plus a few army-specific ones.
 - Add sapper units (undermining walls, digging, fire under the foundations).
 - Elephants battering gates and walls (Indian *nagarayanam*) as a siege rule rather than a mounted engine.
