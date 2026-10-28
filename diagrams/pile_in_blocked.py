@@ -15,7 +15,7 @@ def scenario(name, title, caption, second_red):
     stop = None
     if second_red:
         r2x = 198                           # second red unit right of the defender
-        stop = r2x - 23 - dw / 2            # defender can only slide until it touches it
+        stop = r2x - 23 - dw / 2 - 2        # defender stops just short: Pile In moves may not touch another enemy unit
     dx_end = ax_slide if stop is None else min(ax_slide, stop)
     panels = ['After the Charge', 'Steps 1–2: Rotate, then slide', 'Steps 3–4: Defender slides']
     for k, t in enumerate(panels):
@@ -55,5 +55,5 @@ scenario('pile_in_blocked', 'Pile In: Attacker Blocked', [
     'get centred, so the defender, which is not touching any other enemy unit, slides to centre itself on the attacker (step 4).'], False)
 scenario('pile_in_blocked_twice', 'Pile In: Both Units Blocked', [
     'The same charge, but a second red unit stands beside the defender. The attacker is blocked by the defender’s friendly unit as',
-    'before, and the defender can only slide until it touches the second red unit. The two units are flush but not centred. That does',
-    'not stop the Melee or cost either side anything; the Pile In simply ends there.'], True)
+    'before. The defender slides toward centre but must stop just short of the second red unit, because a Pile In move may never',
+    'touch any other enemy unit, so that unit does not join the Melee. The two units end flush but not centred, and the Pile In ends there.'], True)
