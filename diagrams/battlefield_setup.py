@@ -18,11 +18,11 @@ for i in range(14):
     x = ox + 8 + (i * 37) % (t - 14); y = oy + 10 + i * 17
     s.add(f'<path d="M{x:.1f},{y:.1f} q3,-4 6,0 q3,4 6,0" fill="none" stroke="#6f8f8a" stroke-width="0.7"/>')
 s.text(ox + t / 2, oy + S / 2, 'Marsh', 6, C['line'], bold=True, rot=-90)
-def feature(x, y, w_in, h_in, label, fill):
+def feature(x, y, w_in, h_in, label, fill, above=False):
     w, h = bx(w_in * IN), bx(h_in * IN)
     s.add(f'<rect x="{x - w/2:.1f}" y="{y - h/2:.1f}" width="{w:.1f}" height="{h:.1f}" rx="1.5" fill="{fill}" stroke="{C["line"]}" stroke-width="0.7"/>')
-    s.text(x, y + h / 2 + 7, label, 5, C['line'], italic=True)
-feature(ox + S * 0.78, oy + z * 0.45, 3, 3, 'Watchtower', '#c7b08a')
+    s.text(x, y - h / 2 - 3 if above else y + h / 2 + 7, label, 5, C['line'], italic=True)
+feature(ox + S * 0.78, oy + z * 0.45, 3, 3, 'Watchtower', '#c7b08a', above=True)
 feature(ox + S * 0.6, oy + S / 2, 6, 6, 'Dense Brush', '#9aae78')
 feature(ox + S * 0.36, oy + S - z * 0.55, 2, 2, 'Monument', '#d9d2c3')
 # Blue army (facing down = rotate 180)

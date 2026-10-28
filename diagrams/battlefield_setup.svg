@@ -23,7 +23,7 @@
 <path d="M81.4,253.0 q3,-4 6,0 q3,4 6,0" fill="none" stroke="#6f8f8a" stroke-width="0.7"/>
 <text x="92.5" y="143.9" font-size="6" fill="#6b6253" text-anchor="middle" font-weight="bold" transform="rotate(-90 92.47999999999999 143.92)">Marsh</text>
 <rect x="244.6" y="41.8" width="15.2" height="15.2" rx="1.5" fill="#c7b08a" stroke="#6b6253" stroke-width="0.7"/>
-<text x="252.2" y="64.1" font-size="5" fill="#6b6253" text-anchor="middle" font-style="italic">Watchtower</text>
+<text x="252.2" y="38.8" font-size="5" fill="#6b6253" text-anchor="middle" font-style="italic">Watchtower</text>
 <rect x="193.1" y="128.7" width="30.5" height="30.5" rx="1.5" fill="#9aae78" stroke="#6b6253" stroke-width="0.7"/>
 <text x="208.3" y="166.2" font-size="5" fill="#6b6253" text-anchor="middle" font-style="italic">Dense Brush</text>
 <rect x="144.7" y="227.2" width="10.2" height="10.2" rx="1.5" fill="#d9d2c3" stroke="#6b6253" stroke-width="0.7"/>
