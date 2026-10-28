@@ -102,7 +102,7 @@ def scaled(fname, metres, max_px):
     target = metres * PX_PER_M
     kx = target / img.width
     # scale height so every pole comes out equally thick, within limits so heads aren't distorted much
-    ky = min(max(POLE_PX / pole_thickness(img, axis), kx * 0.6), kx * 1.5)
+    ky = min(max(POLE_PX / pole_thickness(img, axis), kx * 0.6), kx * 1.15)
     img = img.resize((round(img.width * kx), max(1, round(img.height * ky))), Image.LANCZOS)
     axis = round(axis * ky)
     if img.width <= max_px:
