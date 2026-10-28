@@ -6,6 +6,12 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## 0.10.3 — 2026-10-27
+
+### Unit compositions
+- Wider options for spear units: Hattian Infantry 4×5 or 3×5 (was 4×4 or 3×4); Auxilia 4×4 or 3×5 (was 4×4, 3×4 or 2×4); Hieròs Lóchos 4×5 or 3×6 (was 3×5); Hattian Royal Guard 2×5 or 2×6 (was 2×4); Lydian Houndsmen 3×5 or 2×6 (was 2×4).
+- Saved lists using a composition that no longer exists fall back to the unit's first composition.
+
 ## 0.10.2 — 2026-10-27
 
 ### Rules text

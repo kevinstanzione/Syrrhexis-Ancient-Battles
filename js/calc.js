@@ -34,12 +34,12 @@ window.NHB = (function () {
 
   function models(u, sel) {
     if (u.range) return Math.min(u.range[1], Math.max(u.range[0], sel.count || u.range[0]));
-    const c = u.comps[sel.comp || 0];
+    const c = u.comps[sel.comp || 0] || u.comps[0];
     return c[0] * c[1];
   }
   function ranksFiles(u, sel) {
     if (u.range) return null;
-    const c = u.comps[sel.comp || 0];
+    const c = u.comps[sel.comp || 0] || u.comps[0];
     return { ranks: c[0], files: c[1] };
   }
 
