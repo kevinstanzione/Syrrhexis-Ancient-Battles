@@ -22,4 +22,5 @@
 
 ## Army ideas
 - Shieldwall candidates: Sumerian heavy phalanx (instead of Phalanx), a Germanic-style spear warband for European Barbarians, Libyan heavy infantry for Hannibal's Forces.
+- Neo-Assyrian chariots: a lighter regular chariot (2 horses, 2–3 crew) and a separate heavy royal retinue chariot (4 horses, 4 crew plus parasol), like the Persian split. Other armies' retinue chariots, if any, use the same vehicle as their regular chariots.
 - Pavise candidates: Neo-Assyrian archer and shield-bearer unit (Mixed Unit like the Sparabārā), Mauryan foot archers with tall ox-hide shields.
