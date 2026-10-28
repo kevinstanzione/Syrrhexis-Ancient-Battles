@@ -15,7 +15,8 @@ s.add(f'<rect x="{ox}" y="{oy + S - z:.1f}" width="{S:.1f}" height="{z:.1f}" fil
 t = bx(12 * IN)
 s.add(f'<rect x="{ox}" y="{oy}" width="{t:.1f}" height="{S:.1f}" fill="#b9c9b0" fill-opacity="0.75" stroke="{C["terrain"]}" stroke-width="0.8"/>')
 for i in range(14):
-    x = ox + 8 + (i * 37) % (t - 14); y = oy + 10 + i * 17
+    x = ox + 6 + (i * 0.38 % 1) * (t - 24); y = oy + 10 + i * 17
+    if abs(y - (oy + S / 2)) < 22 and abs(x + 6 - (ox + t / 2)) < 14: x = ox + 6
     s.add(f'<path d="M{x:.1f},{y:.1f} q3,-4 6,0 q3,4 6,0" fill="none" stroke="#6f8f8a" stroke-width="0.7"/>')
 s.text(ox + t / 2, oy + S / 2, 'Marsh', 6, C['line'], bold=True, rot=-90)
 def feature(x, y, w_in, h_in, label, fill, above=False):
