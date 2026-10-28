@@ -13,7 +13,9 @@
 ## Siege expansion (future)
 - Plan: general-purpose siege weapons available to every army, plus a few army-specific ones.
 - Elephants battering gates and walls (Indian *nagarayanam*) as a siege rule rather than a mounted engine.
-- Possible Mauryan Jāmadagnya bolt thrower (named in the Arthashastra; thinly attested).
+- Mauryan Jāmadagnya bolt thrower (named in the Arthashastra; thinly attested). Siege only, no war engines in standard games.
+- Qin: traction trebuchets, bed crossbows, linked-crossbow cart, cloud ladders and rams. Siege only, no war engines in standard games; Qin field identity is massed crossbow infantry.
+- Neo-Assyrian: wheeled rams with turrets, siege ladders and sappers. Siege only, no war engines in standard games.
 - Roman plutei: wheeled mantlets screening siege engines and crews (Pavise-style protection for war engines).
 
 ## Army ideas
