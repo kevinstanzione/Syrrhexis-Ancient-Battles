@@ -29,5 +29,4 @@
 - Spears spread done: art/spears/ (21 images, build_spread.py, spears_spread.png/.pdf). Placement in the rulebook still to decide.
 - Next spreads: chariots, hand weapons, shields, armor, standards, musical instruments.
 - Chariots (empty, strict side profile facing right, pole and yoke but no horses, harness or crew): Hattian, Allied (Syrian), Raθā, Raθā-Dāça, Raθā Retinue (royal), Egyptian, Assyrian (light), Assyrian royal (heavy 4-horse with parasol), Sumerian battle wagon, Sumerian straddle car, Celtic, Qin, Mauryan. Prompts were drafted in chat on 2026-10-28; same style prompt as the spears.
-- Sumerian straddle car image still to do: ChatGPT's output filter rejected two attempts (likely the seat shape). Retry in a fresh chat with a flat plank seat and a rectangular box body, using the battle wagon image as the style reference; drop it from the spread if it keeps failing.
 - Style for all spreads: black and white ink, fine pen linework with cross-hatching, plain white background, no text; one item per image; avoid the words "butt" and "shaft" (ChatGPT's filter flags them), use "ferrule"/"end spike" and "pole".
