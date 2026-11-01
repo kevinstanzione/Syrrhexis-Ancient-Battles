@@ -13,7 +13,8 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - Mixed Unit: a rank counts as contributing attacks if any of its models attacks.
 
 ### Units
-- Length 0 is now reserved for Collision. Weapons that had Length 0 are now Length 1: the Allied Chariots' GÍR, the Raθā's Akīnakah Kamna, the Raθā-Dāça's Dāça and the Arabian Camel Riders' Sakkīnā.
+- Length 0 is now reserved for Collision. Weapons that had Length 0 are now Length 1: the Allied Chariots' GÍR, the Raθā's Akīnakah Kamna and the Arabian Camel Riders' Sakkīnā.
+- Raθā-Dāça: the Dāça scythes are now Length 12, so they strike first and their Damage counts for First Blood.
 
 ## 0.10.4 — 2026-10-27
 

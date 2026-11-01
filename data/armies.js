@@ -2054,7 +2054,7 @@ window.NHB_DATA = {
           ],
           "weapons": {
             "Dāça": [
-              "1",
+              "12",
               "9",
               "7",
               "2 Attacks, can only be used on Charge. Before rolling to hit, each enemy unit in the Melee takes a Fear Test; against units that pass, this weapon has Accuracy 5. Destroy model after resolving Wounds."
