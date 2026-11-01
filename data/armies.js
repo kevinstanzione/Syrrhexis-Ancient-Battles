@@ -965,7 +965,7 @@ window.NHB_DATA = {
               "2 Attacks, can only use on Charge"
             ],
             "GÍR": [
-              "0",
+              "1",
               "5",
               "5",
               "1 Attack, cannot be used on Charge. Note: Reduced accuracy"
@@ -1998,7 +1998,7 @@ window.NHB_DATA = {
               "2 Attacks, can only use on Charge. May be used in conjunction with Arštaya"
             ],
             "Akīnakah Kamna": [
-              "0",
+              "1",
               "5",
               "5",
               "1 Attack, cannot be used on Charge. Note: Reduced accuracy"
@@ -2054,7 +2054,7 @@ window.NHB_DATA = {
           ],
           "weapons": {
             "Dāça": [
-              "0",
+              "1",
               "9",
               "7",
               "2 Attacks, can only be used on Charge. Before rolling to hit, each enemy unit in the Melee takes a Fear Test; against units that pass, this weapon has Accuracy 5. Destroy model after resolving Wounds."
@@ -5742,7 +5742,7 @@ window.NHB_DATA = {
             "1 Attack per Rider, plus 1. Throwing Weapon"
           ],
           "Sakkīnā": [
-            "0",
+            "1",
             "6",
             "5",
             "1 Attack per Rider, plus 1"
