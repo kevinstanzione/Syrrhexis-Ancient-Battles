@@ -6,6 +6,12 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## 0.10.5 — 2026-11-01
+
+### Rules text
+- Collision: bonus Hits use the selected weapon's Strength, with the unit's own Strength modifiers, but none of the weapon's special rules, and they resolve when the unit strikes.
+- Mixed Unit: a rank counts as attacking if any of its models attacks; Collision bonus Hits use the Strength of the weapon used by the most attacking models, the lower if tied.
+
 ## 0.10.4 — 2026-10-27
 
 ### Builder
