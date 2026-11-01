@@ -14,7 +14,8 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 
 ### Units
 - Length 0 is now reserved for Collision. Weapons that had Length 0 are now Length 1: the Allied Chariots' GÍR, the Raθā's Akīnakah Kamna and the Arabian Camel Riders' Sakkīnā.
-- Raθā-Dāça: the Dāça scythes are now Length 12, so they strike first and their Damage counts for First Blood.
+- Raθā-Dāça: the Dāça scythes are now Length 12, so they strike first and their Damage counts for First Blood. Points 48 → 50 per chariot.
+- Thracian Warriors: compositions are now 3×4 or 2×5 (was 2×4), so their Rhomphaía attacks are less exposed to First Blood.
 
 ## 0.10.4 — 2026-10-27
 

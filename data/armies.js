@@ -2011,7 +2011,7 @@ window.NHB_DATA = {
           "type": "Chariot",
           "move": 12,
           "training": 7,
-          "points": 48,
+          "points": 50,
           "comps": [
             [
               1,
@@ -5130,7 +5130,7 @@ window.NHB_DATA = {
           ],
           [
             2,
-            4
+            5
           ]
         ],
         "equip": [
