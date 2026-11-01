@@ -5163,7 +5163,7 @@ window.NHB_DATA = {
         "weapons": {
           "Rhomphaía": [
             "6",
-            "3",
+            "4",
             "8",
             "Sunder (2)"
           ],
