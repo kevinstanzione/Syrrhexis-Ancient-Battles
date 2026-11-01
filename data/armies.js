@@ -4839,7 +4839,7 @@ window.NHB_DATA = {
           ],
           [
             3,
-            4
+            5
           ]
         ],
         "equip": [
