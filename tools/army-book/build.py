@@ -173,9 +173,38 @@ def special_rules(u):
     return ', '.join(esc(n) for n in names) if names else 'None'
 
 
+KEYWORDS = ['Cleaving Blade', 'Cumbersome', 'Direct Fire', 'Massive Suppression', 'Melee Suppression', 'Parrying Blade',
+            'Pavise', 'Piercing Shot', 'Reach', 'Recurve Bow', 'Sunder', 'Throwing Weapon', 'Thrusting Blade', 'Unwieldy']
+KW = re.compile(r'\b(' + '|'.join(KEYWORDS) + r')(?: \(\d+\))?')
+ATTACK = re.compile(r'^(\d+ (extra )?attacks?\b|can only (be )?use|cannot be used on charge|only while)', re.I)
+
+
+def ability(text, u, extra_keywords=()):
+    """Weapon/armour ability in a fixed order: attack-related text, then keywords (bold), then other rules.
+    The builder's 'Note: increased accuracy' style remarks are dropped."""
+    attacks, kws, other = [], list(extra_keywords), []
+    for sent in re.split(r'\.\s+', (text or '').strip().rstrip('.')):
+        if not sent or sent.lower().startswith('note:'):
+            continue
+        parts = [x.strip() for x in sent.split(',')]
+        if all(KW.fullmatch(x) for x in parts):
+            kws += parts
+        elif ATTACK.match(sent):
+            attacks.append(sent)
+        else:
+            other.append(sent)
+    def bold(t):
+        return KW.sub(lambda m: f'<b>{m.group(0)}</b>', ital(t, u))
+    out = [bold(x) for x in attacks]
+    if kws:
+        out.append(', '.join(f'<b>{esc(k)}</b>' for k in kws))
+    out += [bold(x) for x in other]
+    return '. '.join(out)
+
+
 def weapon_table(u):
     rows = ''.join(
-        f"<tr><td><b>{ital(n, u)}</b></td><td>{esc(v[0])}</td><td>{esc(v[1])}</td><td>{esc(v[2])}</td><td>{esc(v[3])}</td></tr>"
+        f"<tr><td><b>{ital(n, u)}</b></td><td>{esc(v[0])}</td><td>{esc(v[1])}</td><td>{esc(v[2])}</td><td>{ability(v[3], u)}</td></tr>"
         for n, v in u['weapons'].items())
     return ('<table class="wtab"><tr><th>Weapon</th><th>Length/Range</th><th>Accuracy</th><th>Strength</th>'
             f'<th>Ability</th></tr>{rows}</table>')
@@ -188,10 +217,8 @@ def armor_table(u):
     rows = []
     for n, v in a.items():
         mv = v.get('move', 0)
-        abil = v.get('text', '')
-        if v.get('grants'):
-            abil += ('. ' if abil else '') + ', '.join(v['grants'])
-        rows.append(f"<tr><td><b>{ital(n, u)}</b></td><td>+{v.get('v', 0)}</td><td>{mv if mv else '0'}</td><td>{esc(abil)}</td></tr>")
+        abil = ability(v.get('text', ''), u, v.get('grants') or [])
+        rows.append(f"<tr><td><b>{ital(n, u)}</b></td><td>+{v.get('v', 0)}</td><td>{mv if mv else '0'}</td><td>{abil}</td></tr>")
     return ('<table class="atab"><tr><th>Armor</th><th>Modifier</th><th>Move</th><th>Ability</th></tr>'
             + ''.join(rows) + '</table>')
 
