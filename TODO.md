@@ -16,8 +16,8 @@
 - Rename Aga-ús to Aga-ús Retinue.
 - Martu: Ilar throwsticks as the base weapon, Ĝešbu javelins as an upgrade (suggested +1 pt per model).
 - Aga-ús axe: Length 4 and Accuracy 5. It is wielded two-handed (no shield), which justifies the extra length over other axes.
-- Rebalance the Sumerian points once all of the above changes are in (Eren 2x5 and Rear Captain, Šukur Accuracy 6, dagger removals, Aga-ús axe, Martu weapons, Unwieldy on both vehicles).
-- Gigir: Unwieldy (2). Gigir-tur: Unwieldy (1). Both already take the Chariot Wheeled Vehicle turning cost for 3+ animals, so this stacks.
+- Rebalance the Sumerian points once all of the above changes are in (Eren 2x5 and Rear Captain, Šukur Accuracy 6, dagger removals, Aga-ús axe, Martu weapons, Gigir losing Unwieldy).
+- Gigir and Gigir-tur: no extra Unwieldy; the Wheeled Vehicle turning cost for 3+ animals is enough. Remove the Gigir's current Unwieldy (1) from the draft.
 
 ## Armies of Alexander (paused)
 - Draft unit list: Pezhétairoi (sarissa with Reach (2)), Hypaspistaí, Agēma Retinue (foot), Argyráspides, Hetaîroi, Basilikḕ Ílē Retinue (mounted), Thessaloì Hippeîs, Pródromoi, Agriânes, Krêtes Toxótai, Thureophóroi, Eléphantes, Oxybeleîs. Extras: scythed chariots, Katáphraktoi, Tarantînoi.
