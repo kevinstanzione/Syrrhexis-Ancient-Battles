@@ -1,7 +1,7 @@
 // Syrrhēxis army data. Edit the values below; keep the first line as is.
 window.NHB_DATA = {
   "meta": {
-    "version": "0.10.8",
+    "version": "0.10.9",
     "synced": "2026-10-22",
     "sources": {
       "Hittite Empire Army": "1aqMPs2Pi5car6pUzcuWmHXArGss_RZdkgATe5OsbVrw",
@@ -905,7 +905,7 @@ window.NHB_DATA = {
         },
         {
           "id": "allied-chariots",
-          "name": "Anše.Kur.Ra Maryannu",
+          "name": "Anše.Kur.Ra Mittanni",
           "type": "Chariot",
           "move": 11,
           "training": 5,
@@ -6186,7 +6186,7 @@ window.NHB_DATA = {
         "hittite"
       ],
       "limit": 1,
-      "text": "Until the end of the round, units within 18” of a Mešedi Retinue gain the following. Giš.Ban Arzawa, Šukur.Tur Kaška and Anše.Kur.Ra Maryannu: +1 Move and Aim. Levy units: automatically pass their next Break test. Karaš Ḫatti, Giš.Ban Ḫatti, Šukur.Tur Ḫatti, Anše.Kur.Ra Ḫatti and Mešedi: +1 Strength with melee weapons, and Frenzy.",
+      "text": "Until the end of the round, units within 18” of a Mešedi Retinue gain the following. Giš.Ban Arzawa, Šukur.Tur Kaška and Anše.Kur.Ra Mittanni: +1 Move and Aim. Levy units: automatically pass their next Break test. Karaš Ḫatti, Giš.Ban Ḫatti, Šukur.Tur Ḫatti, Anše.Kur.Ra Ḫatti and Mešedi: +1 Strength with melee weapons, and Frenzy.",
       "flavor": "Sworn before the gods of Hatti, vassal and native fight as one."
     },
     {

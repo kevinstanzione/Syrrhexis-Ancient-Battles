@@ -6,6 +6,11 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## 0.10.9 — 2026-11-01
+
+### Names
+- Anše.Kur.Ra Maryannu renamed Anše.Kur.Ra Mittanni (chariotry of Mitanni), matching the troop term + homeland pattern of the other allied units.
+
 ## 0.10.8 — 2026-11-01
 
 ### Names

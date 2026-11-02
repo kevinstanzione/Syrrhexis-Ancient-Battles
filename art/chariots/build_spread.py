@@ -29,7 +29,7 @@ PAGES = [
         ('sumerian_straddle_car', 'Straddle Car', 'Sumerian Kingdom', 0.6),
         ('egyptian', 'Egyptian Chariot', 'Dynastic Egypt', 0.95),
         ('hattian', 'Anše.Kur.Ra Ḫatti', 'Hittite Empire', 1.0),
-        ('allied', 'Anše.Kur.Ra Maryannu', 'Hittite Empire', 0.9),
+        ('allied', 'Anše.Kur.Ra Mittanni', 'Hittite Empire', 0.9),
         ('assyrian', 'Assyrian Chariot', 'Neo-Assyrian Empire', 1.0),
         ('assyrian_royal', 'Royal Chariot', 'Neo-Assyrian Empire', 1.45),
     ]),

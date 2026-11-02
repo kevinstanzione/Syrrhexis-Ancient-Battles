@@ -28,7 +28,7 @@
 ## Art spreads (future)
 - Spears spread done: art/spears/ (21 images, build_spread.py, spears_spread.png/.pdf). Placement in the rulebook still to decide.
 - Next spreads: chariots, hand weapons, shields, armor, standards, musical instruments.
-- Chariots (empty, strict side profile facing right, pole and yoke but no horses, harness or crew): Anše.Kur.Ra Ḫatti, Anše.Kur.Ra Maryannu, Raθā, Raθā-Dāça, Raθā Retinue (royal), Egyptian, Assyrian (light), Assyrian royal (heavy 4-horse with parasol), Sumerian battle wagon, Sumerian straddle car, Celtic, Qin, Mauryan. Prompts were drafted in chat on 2026-10-28; same style prompt as the spears.
+- Chariots (empty, strict side profile facing right, pole and yoke but no horses, harness or crew): Anše.Kur.Ra Ḫatti, Anše.Kur.Ra Mittanni, Raθā, Raθā-Dāça, Raθā Retinue (royal), Egyptian, Assyrian (light), Assyrian royal (heavy 4-horse with parasol), Sumerian battle wagon, Sumerian straddle car, Celtic, Qin, Mauryan. Prompts were drafted in chat on 2026-10-28; same style prompt as the spears.
 - Style for all spreads: black and white ink, fine pen linework with cross-hatching, plain white background, no text; one item per image; avoid the words "butt" and "shaft" (ChatGPT's filter flags them), use "ferrule"/"end spike" and "pole".
 
 - Hittite unit names: Giš.Ban Ḫatti and Šukur.Tur Ḫatti are constructed ("bows/javelins of Hatti", after the way chariotry is written as "horses"); the others are attested terms or real peoples.
