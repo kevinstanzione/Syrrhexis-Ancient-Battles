@@ -14,6 +14,7 @@
 - Lú-daluš: Ranger Captain instead of Lead Captain.
 - Fewer daggers: remove the Gír from Lú-ĝešbu, Eren, Šub-lugal, Gigir, Gigir-tur and Martu. Keep it on the Aga-ús.
 - Rename Aga-ús to Aga-ús Retinue.
+- Martu: Ilar throwsticks as the base weapon, Ĝešbu javelins as an upgrade (suggested +1 pt per model).
 - Aga-ús axe: better without a shield. Options: Accuracy 5 (keeping Length 3 like other axes), or Length 4 and Accuracy 5.
 - Gigir: Unwieldy (2). Gigir-tur: Unwieldy (1). Both already take the Chariot Wheeled Vehicle turning cost for 3+ animals, so this stacks.
 
