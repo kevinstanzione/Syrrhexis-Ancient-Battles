@@ -9,7 +9,7 @@ import numpy as np
 from PIL import Image, ImageDraw, ImageFont, ImageChops
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-FONTS = os.environ.get('SYRRHEXIS_FONTS', '/tmp/claude-0/-home-claude/a0507b15-7376-5b6e-bdf2-863847d2a364/scratchpad/pdf/ttf')
+FONTS = os.environ.get('SYRRHEXIS_FONTS', os.path.join(HERE, '..', '..', 'tools', 'fonts'))
 DPI = 300
 W, H = 8 * DPI, 10 * DPI
 PAPER = (251, 248, 241)

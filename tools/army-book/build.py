@@ -5,13 +5,13 @@ generic Command cards, then the Supplemental Mercenaries. Unit profiles use the 
 the sample profile in the rulebook.
 
 Run from the repo root:  python3 tools/army-book/build.py [army_id ...]
-(no ids = every army). Needs node, weasyprint and the rulebook fonts (SYRRHEXIS_FONTS).
+(no ids = every army). Needs node and weasyprint; fonts come from tools/fonts.
 """
 import html, json, os, re, subprocess, sys, logging
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.abspath(os.path.join(HERE, '..', '..'))
-FONTS = os.environ.get('SYRRHEXIS_FONTS', '/tmp/claude-0/-home-claude/a0507b15-7376-5b6e-bdf2-863847d2a364/scratchpad/pdf/ttf')
+FONTS = os.environ.get('SYRRHEXIS_FONTS', os.path.join(ROOT, 'tools', 'fonts'))
 OUT = os.path.join(ROOT, 'rulebook', 'Syrrhexis_Army_Book.pdf')
 esc = lambda s: html.escape(str(s), quote=False)
 

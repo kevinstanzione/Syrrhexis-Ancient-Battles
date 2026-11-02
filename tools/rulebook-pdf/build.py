@@ -218,8 +218,9 @@ if k > 0:
     tail = content[k:].replace('<p>', '<p class="span">').replace('<figure class="col">', '<figure class="full apx">').replace('<figure class="full">', '<figure class="full apx">')
     content = content[:k] + tail
 
+FONT_DIR = os.environ.get('SYRRHEXIS_FONTS', os.path.abspath(os.path.join(HERE, '..', 'fonts')))
 FONTS = '<style>' + ''.join(
-    f"@font-face{{font-family:'{fam}';src:url('file://{HERE}/ttf/{fn}-{w}.ttf');font-weight:{w};font-style:{sty}}}"
+    f"@font-face{{font-family:'{fam}';src:url('file://{FONT_DIR}/{fn}-{w}.ttf');font-weight:{w};font-style:{sty}}}"
     for fam, fn, w, sty in faces) + '</style>'
 
 toc_html = ''.join(
