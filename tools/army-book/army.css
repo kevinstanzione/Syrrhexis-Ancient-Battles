@@ -138,3 +138,8 @@ section.army > h1 { margin-top: 0; font-size: 20pt; }
 .toc ul { columns: 1; font-size: 11pt; }
 .toc li { margin-bottom: 4pt; }
 .th { font-family: 'EB Garamond'; font-weight: 600; font-size: 0.86em; }
+.profile .sub { display: block; }
+.profile .rk { font-weight: 600; }
+.profile td i { font-style: italic; }
+.profile table.wtab td:first-child b, .profile table.atab td:first-child b { font: 600 9pt 'EB Garamond'; }
+.profile table.wtab td, .profile table.atab td { vertical-align: baseline; }

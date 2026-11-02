@@ -7,7 +7,7 @@ the sample profile in the rulebook.
 Run from the repo root:  python3 tools/army-book/build.py [army_id ...]
 (no ids = every army). Needs node, weasyprint and the rulebook fonts (SYRRHEXIS_FONTS).
 """
-import html, json, os, subprocess, sys, logging
+import html, json, os, re, subprocess, sys, logging
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.abspath(os.path.join(HERE, '..', '..'))
@@ -45,8 +45,12 @@ def named(w):
     return f'<i>{esc(w)}</i> {esc(lab)}' if lab else esc(w)
 
 
-def cost(c):
-    return 'at no cost' if not c else f'for [{c}]'
+def pts(c):
+    return '(free)' if not c else f"({c} {'pt' if c == 1 else 'pts'})"
+
+
+def per_model(c):
+    return '(free)' if not c else f"(+{c} {'pt' if c == 1 else 'pts'} per model)"
 
 
 def title(s):
@@ -89,15 +93,41 @@ def composition(u):
     return s
 
 
+def natives(u):
+    """Native-language names on this unit (weapons, armour, shields): always set in italics."""
+    ns = set(LABELS) | set(u.get('weapons', {})) | set(u.get('armors') or {})
+    return sorted((n for n in ns if n not in ENGLISH), key=len, reverse=True)
+
+
+ENGLISH = {'Horses', 'Elephant', 'Light Armor', 'Medium Armor', 'Heavy Armor', 'Shield', 'Heavy Shield', 'Barding'}
+
+
+def ital(text, u):
+    """Escape text and italicise every native name in it."""
+    t = esc(text)
+    ns = natives(u)
+    if not ns:
+        return t
+    pat = re.compile(r'(?<![\w>])(' + '|'.join(re.escape(esc(n)) for n in ns) + r')(?![\w<])')
+    return pat.sub(r'<i>\1</i>', t)
+
+
+def lines(rows):
+    """Several labelled sub-lines inside one profile entry (e.g. per rank)."""
+    return '<br>'.join(f'<span class="rk">{esc(k)}:</span> {v}' for k, v in rows)
+
+
 def equipment(u):
     if u.get('mixed'):
-        out = []
+        rows = []
         for part in ('front', 'rest'):
             m = u['mixed'][part]
             items = [named(w) for w in m['w']] + ([named(m['shield'])] if m.get('shield') else [])
-            out.append(f"{esc(m['label'])}: {join_and(items)}")
-        tail = [esc(x) for x in (u.get('body'), u.get('shield')) if x]
-        return '. '.join(out) + (f". All: {join_and(tail)}" if tail else '')
+            rows.append((m['label'].replace('ranks', 'Ranks'), join_and(items)))
+        tail = [named(x) if x in LABELS else esc(x) for x in (u.get('body'), u.get('shield')) if x]
+        if tail:
+            rows.append(('All Ranks', join_and(tail)))
+        return lines(rows)
     items = [named(w) for w in u['equip'] if w != 'Horses']
     items += [named(x) if x in LABELS else esc(x) for x in (u.get('body'), u.get('shield')) if x]
     return join_and(items)
@@ -109,28 +139,33 @@ def options(u):
         k = o['kind']
         if k == 'swap':
             ch = o['choices']
-            base = ch[0]
-            alts = [f"{esc(c['name'])} {cost(c['c'])}" for c in ch[1:]]
-            out.append(f"{esc(o['label'])}: replace {esc(base['name'])} with {join_or(alts)}")
+            alts = [f"{ital(c['name'], u)} {per_model(c['c'])}" for c in ch[1:]]
+            out.append(f"{ital(o['label'], u)}: replace {ital(ch[0]['name'], u)} with {join_or(alts)}")
         elif k == 'count':
-            out.append(f"Any model may take {esc(o['label'])} {cost(o['c'])}")
+            out.append(f"Any model may take {ital(o['label'], u)} {per_model(o['c'])}")
         elif k == 'add':
             if o.get('unlessWeapon'):
-                out.append(f"Models without {esc(o['unlessWeapon'])} may take {esc(o['label'])} {cost(o['c'])}")
+                out.append(f"Models without {ital(o['unlessWeapon'], u)} may take {ital(o['label'], u)} {per_model(o['c'])}")
             else:
-                out.append(f"{esc(o['label'])} {cost(o['c'])}")
+                out.append(f"{ital(o['label'], u)} {per_model(o['c'])}")
     return '. '.join(out) + '.' if out else 'None'
+
+
+def char_group(g):
+    names = [f"{esc(n.strip())} {pts(c)}" for n, c in g['one']]
+    return ('Must take ' if g.get('req') else '') + join_or(names)
 
 
 def characters(u):
-    out = []
-    for g in u.get('chars', []):
-        names = [f"{esc(n.strip())} {cost(c)}" for n, c in g['one']]
-        s = ('Must take ' if g.get('req') else '') + join_or(names)
-        if g.get('note'):
-            s += f" ({esc(g['note'])})"
-        out.append(s)
-    return '. '.join(out) + '.' if out else 'None'
+    groups = u.get('chars', [])
+    if not groups:
+        return 'None'
+    if any(g.get('note') for g in groups):        # characters tied to particular ranks
+        by = {}
+        for g in groups:
+            by.setdefault(g.get('note') or 'Any rank', []).append(char_group(g))
+        return lines((k, '. '.join(v) + '.') for k, v in by.items())
+    return '. '.join(char_group(g) for g in groups) + '.'
 
 
 def special_rules(u):
@@ -140,7 +175,7 @@ def special_rules(u):
 
 def weapon_table(u):
     rows = ''.join(
-        f"<tr><td><b>{esc(n)}</b></td><td>{esc(v[0])}</td><td>{esc(v[1])}</td><td>{esc(v[2])}</td><td>{esc(v[3])}</td></tr>"
+        f"<tr><td><b>{ital(n, u)}</b></td><td>{esc(v[0])}</td><td>{esc(v[1])}</td><td>{esc(v[2])}</td><td>{esc(v[3])}</td></tr>"
         for n, v in u['weapons'].items())
     return ('<table class="wtab"><tr><th>Weapon</th><th>Length/Range</th><th>Accuracy</th><th>Strength</th>'
             f'<th>Ability</th></tr>{rows}</table>')
@@ -156,13 +191,13 @@ def armor_table(u):
         abil = v.get('text', '')
         if v.get('grants'):
             abil += ('. ' if abil else '') + ', '.join(v['grants'])
-        rows.append(f"<tr><td><b>{esc(n)}</b></td><td>+{v.get('v', 0)}</td><td>{mv if mv else '0'}</td><td>{esc(abil)}</td></tr>")
+        rows.append(f"<tr><td><b>{ital(n, u)}</b></td><td>+{v.get('v', 0)}</td><td>{mv if mv else '0'}</td><td>{esc(abil)}</td></tr>")
     return ('<table class="atab"><tr><th>Armor</th><th>Modifier</th><th>Move</th><th>Ability</th></tr>'
             + ''.join(rows) + '</table>')
 
 
 def profile(u):
-    kv = lambda k, v: f'<p class="kv"><span class="k">{k}</span> {v}</p>'
+    kv = lambda k, v: f'<p class="kv"><span class="k">{k}</span>{v}</p>'
     custom = ''.join(f'<p class="rule"><b>{esc(n)}.</b> {esc(t)}</p>' for n, t in (u.get('custom') or {}).items())
     return f'''<section class="profile">
 <table class="phead"><tr><td class="pname"><p>{title(u['name'])}</p><p>{esc(u['type'])}</p></td>
@@ -220,7 +255,7 @@ def build(ids):
         toc += '<li><a href="#generic-cards">Generic Command Cards</a></li><li><a href="#mercenaries">Supplemental Mercenaries</a></li>'
     faces = [('Cinzel', 'Cinzel', 400, 'normal'), ('Cinzel', 'Cinzel', 700, 'normal'),
              ('EB Garamond', 'EBGaramond', 400, 'normal'), ('EB Garamond', 'EBGaramond', 600, 'normal'),
-             ('EB Garamond', 'EBGaramond', 700, 'normal'), ('EB Garamond', 'EBGaramond-Italic', 400, 'italic'),
+             ('EB Garamond', 'EBGaramond', 700, 'normal'), ('EB Garamond', 'EBGaramond-Italic', 400, 'italic'), ('EB Garamond', 'EBGaramond-Italic', 600, 'italic'),
              ('Source Sans 3', 'SourceSans3', 400, 'normal'), ('Source Sans 3', 'SourceSans3', 600, 'normal'),
              ('Source Sans 3', 'SourceSans3', 700, 'normal')]
     fonts = ''.join(f"@font-face{{font-family:'{f}';src:url('file://{FONTS}/{n}-{w}.ttf');font-weight:{w};font-style:{s}}}"
