@@ -14,10 +14,15 @@
 - Lú-daluš: Ranger Captain instead of Lead Captain.
 - Fewer daggers: remove the Gír from Lú-ĝešbu, Eren, Šub-lugal, Gigir, Gigir-tur and Martu. Keep it on the Aga-ús.
 - Rename Aga-ús to Aga-ús Retinue.
+- Aga-ús Retinue: add Army Standard Bearer to its required character choice (Lord, Commander, Army Musician or Army Standard Bearer).
+- Command card idea: a god-priest card (the king as chief priest of the city god), e.g. all non-Mercenary units gain Frenzy for a round.
 - Martu: Ilar throwsticks as the base weapon, Ĝešbu javelins as an upgrade (suggested +1 pt per model).
 - Aga-ús axe: Length 4 and Accuracy 5. It is wielded two-handed (no shield), which justifies the extra length over other axes.
 - Rebalance the Sumerian points once all of the above changes are in (Eren 2x5 and Rear Captain, Šukur Accuracy 6, dagger removals, Aga-ús axe, Martu weapons).
 - Vehicles: keep the plan as drafted. The Gigir (battle wagon) keeps Unwieldy (1); the Gigir-tur (straddle car) has none. No further Unwieldy.
+
+## Hittite Empire
+- Command card idea: the Golden Spearmen (Šukur.Guškin), the guard unit that backed up the Mešedi. Effect to be decided.
 
 ## Armies of Alexander (paused)
 - Draft unit list: Pezhétairoi (sarissa with Reach (2)), Hypaspistaí, Agēma Retinue (foot), Argyráspides, Hetaîroi, Basilikḕ Ílē Retinue (mounted), Thessaloì Hippeîs, Pródromoi, Agriânes, Krêtes Toxótai, Thureophóroi, Eléphantes, Oxybeleîs. Extras: scythed chariots, Katáphraktoi, Tarantînoi.
