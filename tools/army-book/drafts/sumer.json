@@ -18,10 +18,10 @@
      ]
     ],
     "equip": [
-     "šukur"
+     "Šukur"
     ],
     "gear": [
-     "gír"
+     "Gír"
     ],
     "body": null,
     "shield": null,
@@ -34,7 +34,7 @@
      "rest": {
       "label": "Other ranks",
       "w": [
-       "šukur"
+       "Šukur"
       ],
       "shield": null
      }
@@ -62,13 +62,13 @@
      "Eren Shield Wall": "Attacks against this unit from its front arc use the 1st Rank's Armor; attacks from its flanks or rear use the Armor of the other ranks. When this unit enters Half Strength, it removes models from its front rank first, working backward, instead of from its rear rank. A unit loses Shieldwall while none of its models carry a Shield or Heavy Shield."
     },
     "weapons": {
-     "šukur": [
+     "Šukur": [
       "8",
       "5",
       "6",
       "Reach (1)"
      ],
-     "gír": [
+     "Gír": [
       "1",
       "6",
       "5",
@@ -95,12 +95,12 @@
      ]
     ],
     "equip": [
-     "šukur"
+     "Šukur"
     ],
     "gear": [
-     "gír"
+     "Gír"
     ],
-    "body": "gú-è",
+    "body": "Gú-è",
     "shield": null,
     "opts": [],
     "chars": [
@@ -121,19 +121,19 @@
      "Guard"
     ],
     "armors": {
-     "gú-è": {
+     "Gú-è": {
       "v": 1,
       "text": "-1 Armor against Weapon Attacks with Strength 7 or greater"
      }
     },
     "weapons": {
-     "šukur": [
+     "Šukur": [
       "8",
       "6",
       "6",
       "Reach (1)"
      ],
-     "gír": [
+     "Gír": [
       "1",
       "7",
       "5",
@@ -159,10 +159,10 @@
      ]
     ],
     "equip": [
-     "tukul"
+     "Tukul"
     ],
     "gear": [
-     "gír"
+     "Gír"
     ],
     "body": null,
     "shield": null,
@@ -172,9 +172,9 @@
       "kind": "swap",
       "choices": [
        {
-        "name": "tukul mace",
+        "name": "Tukul mace",
         "w": [
-         "tukul"
+         "Tukul"
         ],
         "c": 0
        },
@@ -210,7 +210,7 @@
      "Levy"
     ],
     "weapons": {
-     "tukul": [
+     "Tukul": [
       "3",
       "3",
       "4",
@@ -222,7 +222,7 @@
       "4",
       "Throwing Weapon"
      ],
-     "gír": [
+     "Gír": [
       "1",
       "5",
       "5",
@@ -242,10 +242,10 @@
      12
     ],
     "equip": [
-     "ĝešbu"
+     "Ĝešbu"
     ],
     "gear": [
-     "gír"
+     "Gír"
     ],
     "body": null,
     "shield": null,
@@ -268,13 +268,13 @@
      "Scout"
     ],
     "weapons": {
-     "ĝešbu": [
+     "Ĝešbu": [
       "6 / 8”",
       "5",
       "6",
       "Throwing Weapon"
      ],
-     "gír": [
+     "Gír": [
       "1",
       "6",
       "5",
@@ -294,10 +294,10 @@
      12
     ],
     "equip": [
-     "daluš"
+     "Daluš"
     ],
     "gear": [
-     "gír"
+     "Gír"
     ],
     "body": null,
     "shield": null,
@@ -318,13 +318,13 @@
     ],
     "rules": [],
     "weapons": {
-     "daluš": [
+     "Daluš": [
       "28”",
       "5",
       "4",
       ""
      ],
-     "gír": [
+     "Gír": [
       "1",
       "6",
       "5",
@@ -350,10 +350,10 @@
      ]
     ],
     "equip": [
-     "ĝešpan"
+     "Ĝešpan"
     ],
     "gear": [
-     "gír"
+     "Gír"
     ],
     "body": null,
     "shield": null,
@@ -363,16 +363,16 @@
       "kind": "swap",
       "choices": [
        {
-        "name": "ĝešpan bow",
+        "name": "Ĝešpan bow",
         "w": [
-         "ĝešpan"
+         "Ĝešpan"
         ],
         "c": 0
        },
        {
-        "name": "qaštum composite bow",
+        "name": "Qaštum composite bow",
         "w": [
-         "qaštum"
+         "Qaštum"
         ],
         "c": 1
        }
@@ -395,19 +395,19 @@
     ],
     "rules": [],
     "weapons": {
-     "ĝešpan": [
+     "Ĝešpan": [
       "24”",
       "5",
       "4",
       "Direct Fire"
      ],
-     "qaštum": [
+     "Qaštum": [
       "24”",
       "5",
       "4",
       "Recurve Bow, Direct Fire"
      ],
-     "gír": [
+     "Gír": [
       "1",
       "6",
       "5",
@@ -438,12 +438,12 @@
      "horses": 4
     },
     "equip": [
-     "ĝešbu",
-     "ĝiš-gíd-da",
+     "Ĝešbu",
+     "Ĝiš-gíd-da",
      "Kunga"
     ],
     "gear": [
-     "gír"
+     "Gír"
     ],
     "body": null,
     "shield": null,
@@ -462,13 +462,13 @@
      "Unwieldy (1)"
     ],
     "weapons": {
-     "ĝešbu": [
+     "Ĝešbu": [
       "5 / 8”",
       "5",
       "6",
       "1 Attack Melee, 2 Attacks Shooting. Throwing Weapon"
      ],
-     "ĝiš-gíd-da": [
+     "Ĝiš-gíd-da": [
       "8",
       "5",
       "6",
@@ -478,9 +478,9 @@
       "2",
       "5",
       "4",
-      "4 Attacks, can only use on Charge. May be used in conjunction with ĝešbu or ĝiš-gíd-da"
+      "4 Attacks, can only use on Charge. May be used in conjunction with Ĝešbu or Ĝiš-gíd-da"
      ],
-     "gír": [
+     "Gír": [
       "1",
       "5",
       "5",
@@ -511,11 +511,11 @@
      "horses": 4
     },
     "equip": [
-     "ĝešbu",
+     "Ĝešbu",
      "Kunga"
     ],
     "gear": [
-     "gír"
+     "Gír"
     ],
     "body": null,
     "shield": null,
@@ -523,7 +523,7 @@
     "chars": [],
     "rules": [],
     "weapons": {
-     "ĝešbu": [
+     "Ĝešbu": [
       "5 / 8”",
       "4",
       "6",
@@ -533,9 +533,9 @@
       "2",
       "5",
       "4",
-      "4 Attacks, can only use on Charge. May be used in conjunction with ĝešbu"
+      "4 Attacks, can only use on Charge. May be used in conjunction with Ĝešbu"
      ],
-     "gír": [
+     "Gír": [
       "1",
       "4",
       "5",
@@ -557,12 +557,12 @@
      ]
     ],
     "equip": [
-     "ha-zi-in"
+     "Ha-zi-in"
     ],
     "gear": [
-     "gír"
+     "Gír"
     ],
-    "body": "gú-è",
+    "body": "Gú-è",
     "shield": null,
     "opts": [
      {
@@ -570,9 +570,9 @@
       "kind": "swap",
       "choices": [
        {
-        "name": "ha-zi-in axe and gú-è cape",
+        "name": "Ha-zi-in axe and Gú-è cape",
         "w": [
-         "ha-zi-in"
+         "Ha-zi-in"
         ],
         "c": 0
        },
@@ -615,19 +615,19 @@
      "Guard"
     ],
     "armors": {
-     "gú-è": {
+     "Gú-è": {
       "v": 1,
       "text": "-1 Armor against Weapon Attacks with Strength 7 or greater"
      }
     },
     "weapons": {
-     "ha-zi-in": [
+     "Ha-zi-in": [
       "3",
       "4",
       "5",
       "Cleaving Blade (4)"
      ],
-     "gír": [
+     "Gír": [
       "1",
       "8",
       "5",
@@ -653,11 +653,11 @@
      ]
     ],
     "equip": [
-     "ĝešbu",
-     "pāšum"
+     "Ĝešbu",
+     "Pāšum"
     ],
     "gear": [
-     "gír"
+     "Gír"
     ],
     "body": null,
     "shield": null,
@@ -667,9 +667,9 @@
       "kind": "swap",
       "choices": [
        {
-        "name": "ĝešbu javelins",
+        "name": "Ĝešbu javelins",
         "w": [
-         "ĝešbu"
+         "Ĝešbu"
         ],
         "c": 0
        },
@@ -702,7 +702,7 @@
      "Ambush"
     ],
     "weapons": {
-     "ĝešbu": [
+     "Ĝešbu": [
       "6 / 8”",
       "5",
       "6",
@@ -714,13 +714,13 @@
       "4",
       "Throwing Weapon"
      ],
-     "pāšum": [
+     "Pāšum": [
       "3",
       "3",
       "5",
       "Cleaving Blade (4)"
      ],
-     "gír": [
+     "Gír": [
       "1",
       "6",
       "5",
@@ -731,18 +731,18 @@
   ]
  },
  "labels": {
-  "šukur": "spear",
-  "gír": "dagger",
-  "tukul": "mace",
+  "Šukur": "bronze spear",
+  "Gír": "bronze dagger",
+  "Tukul": "stone-headed mace",
   "Ilar": "throwsticks",
-  "ĝešbu": "javelins",
-  "daluš": "sling",
-  "ĝešpan": "bow",
-  "qaštum": "composite bow",
-  "ĝiš-gíd-da": "long spear",
-  "ha-zi-in": "axe",
-  "pāšum": "duckbill axe",
-  "gú-è": "studded cape",
+  "Ĝešbu": "javelins",
+  "Daluš": "sling",
+  "Ĝešpan": "simple bow",
+  "Qaštum": "composite bow",
+  "Ĝiš-gíd-da": "long spear",
+  "Ha-zi-in": "bronze axe",
+  "Pāšum": "duckbill axe",
+  "Gú-è": "studded cape",
   "Kunga": "donkey-onager hybrids"
  }
 }
