@@ -49,8 +49,10 @@ def pts(c):
     return '(free)' if not c else f"({c} {'pt' if c == 1 else 'pts'})"
 
 
-def per_model(c):
-    return '(free)' if not c else f"(+{c} {'pt' if c == 1 else 'pts'} per model)"
+def per_model(c, u=None):
+    t = (u or {}).get('type', '')
+    each = 'Elephant' if t == 'Elephant' else 'Chariot' if t == 'Chariot' else 'model'
+    return '(free)' if not c else f"(+{c} {'pt' if c == 1 else 'pts'} per {each})"
 
 
 def title(s):
@@ -139,15 +141,15 @@ def options(u):
         k = o['kind']
         if k == 'swap':
             ch = o['choices']
-            alts = [f"{ital(c['name'], u)} {per_model(c['c'])}" for c in ch[1:]]
+            alts = [f"{ital(c['name'], u)} {per_model(c['c'], u)}" for c in ch[1:]]
             out.append(f"{ital(o['label'], u)}: replace {ital(ch[0]['name'], u)} with {join_or(alts)}")
         elif k == 'count':
-            out.append(f"Any model may take {ital(o['label'], u)} {per_model(o['c'])}")
+            out.append(f"Any model may take {ital(o['label'], u)} {per_model(o['c'], u)}")
         elif k == 'add':
             if o.get('unlessWeapon'):
-                out.append(f"Models without {ital(o['unlessWeapon'], u)} may take {ital(o['label'], u)} {per_model(o['c'])}")
+                out.append(f"Models without {ital(o['unlessWeapon'], u)} may take {ital(o['label'], u)} {per_model(o['c'], u)}")
             else:
-                out.append(f"{ital(o['label'], u)} {per_model(o['c'])}")
+                out.append(f"{ital(o['label'], u)} {per_model(o['c'], u)}")
     return '. '.join(out) + '.' if out else 'None'
 
 
@@ -265,6 +267,22 @@ def army_section(a):
             f'<h2>Unit Profiles</h2>' + ''.join(profile(u) for u in a['units']) + cards_html + '</section>')
 
 
+def load_rules():
+    js = ("global.window={};process.stdout.write(JSON.stringify(require(%r), (k, v) => v instanceof RegExp ? undefined : v))"
+          % os.path.join(ROOT, 'js', 'rules.js'))
+    return json.loads(subprocess.check_output(['node', '-e', js]))
+
+
+def glossary():
+    R = load_rules()
+    sec = lambda title, d: (f'<h2>{title}</h2><div class="gloss">' + ''.join(
+        f'<p><b>{esc(k)}.</b> {esc(v)}</p>' for k, v in sorted(d.items())) + '</div>')
+    return ('<section class="army"><h1 id="rules-reference">Rules Reference</h1>'
+            '<p class="era">Condensed from the rulebook for use at the table. Where this summary and the rulebook differ, the rulebook applies.</p>'
+            + sec('Unit Types', R['types']) + sec('Special Rules', R['model']) + sec('Weapon Keywords', R['weapon'])
+            + sec('Characters', R['chars']) + '</section>')
+
+
 def build(ids):
     armies = [a for a in D['armies'] if not ids or a['id'] in ids]
     parts = [army_section(a) for a in armies]
@@ -277,14 +295,18 @@ def build(ids):
                      '<p class="era">Supplemental Mercenaries is not an army list and cannot be chosen as your army. '
                      'Its units can only be added to an army through Command Cards.</p><h2>Unit Profiles</h2>'
                      + ''.join(profile(u) for u in D['mercs']['units']) + '</section>')
+    parts.append(glossary())
     toc = ''.join(f'<li><a href="#{a["id"]}">{esc(a["name"])}</a></li>' for a in armies)
     if not ids:
         toc += '<li><a href="#generic-cards">Generic Command Cards</a></li><li><a href="#mercenaries">Supplemental Mercenaries</a></li>'
+    toc += '<li><a href="#rules-reference">Rules Reference</a></li>'
     faces = [('Cinzel', 'Cinzel', 400, 'normal'), ('Cinzel', 'Cinzel', 700, 'normal'),
              ('EB Garamond', 'EBGaramond', 400, 'normal'), ('EB Garamond', 'EBGaramond', 600, 'normal'),
              ('EB Garamond', 'EBGaramond', 700, 'normal'), ('EB Garamond', 'EBGaramond-Italic', 400, 'italic'), ('EB Garamond', 'EBGaramond-Italic', 600, 'italic'),
              ('Source Sans 3', 'SourceSans3', 400, 'normal'), ('Source Sans 3', 'SourceSans3', 600, 'normal'),
-             ('Source Sans 3', 'SourceSans3', 700, 'normal')]
+             ('Source Sans 3', 'SourceSans3', 700, 'normal'),
+             ('Source Sans 3', 'SourceSans3-Italic', 400, 'italic'), ('Source Sans 3', 'SourceSans3-Italic', 600, 'italic'),
+             ('Source Sans 3', 'SourceSans3-Italic', 700, 'italic')]
     fonts = ''.join(f"@font-face{{font-family:'{f}';src:url('file://{FONTS}/{n}-{w}.ttf');font-weight:{w};font-style:{s}}}"
                     for f, n, w, s in faces)
     css = open(os.path.join(HERE, 'army.css')).read()
