@@ -6,6 +6,22 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## 0.10.8 — 2026-11-01
+
+### Names
+- Hittite units now have native names, in the pattern troop term + where they come from:
+  - Levy Infantry → Nam.Ra (deportees)
+  - Hattian Infantry → Karaš Ḫatti (army of Hatti)
+  - Hattian Royal Guard → Mešedi (the royal bodyguard)
+  - Royal Retinue → Mešedi Retinue
+  - Hattian Archers → Giš.Ban Ḫatti (bows of Hatti)
+  - Allied Archers → Giš.Ban Arzawa (bows of Arzawa)
+  - Hattian Peltasts → Šukur.Tur Ḫatti (javelins of Hatti)
+  - Allied Peltasts → Šukur.Tur Kaška (javelins of the Kaška)
+  - Hattian Chariots → Anše.Kur.Ra Ḫatti (chariotry of Hatti)
+  - Allied Chariots → Anše.Kur.Ra Maryannu (Mitannian chariot warriors)
+- The Thousand Gods of Hatti now names the units it affects. Saved lists are unaffected.
+
 ## 0.10.7 — 2026-11-01
 
 ### Weapons

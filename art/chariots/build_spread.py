@@ -28,8 +28,8 @@ PAGES = [
         ('sumerian_wagon', 'Battle Wagon', 'Sumerian Kingdom', 0.75),
         ('sumerian_straddle_car', 'Straddle Car', 'Sumerian Kingdom', 0.6),
         ('egyptian', 'Egyptian Chariot', 'Dynastic Egypt', 0.95),
-        ('hattian', 'Hattian Chariot', 'Hittite Empire', 1.0),
-        ('allied', 'Allied Chariot', 'Hittite Empire', 0.9),
+        ('hattian', 'Anše.Kur.Ra Ḫatti', 'Hittite Empire', 1.0),
+        ('allied', 'Anše.Kur.Ra Maryannu', 'Hittite Empire', 0.9),
         ('assyrian', 'Assyrian Chariot', 'Neo-Assyrian Empire', 1.0),
         ('assyrian_royal', 'Royal Chariot', 'Neo-Assyrian Empire', 1.45),
     ]),
@@ -53,7 +53,8 @@ F_SUB = font('EBGaramond-Italic-400', 40)
 F_NAME = font('Cinzel-700', 36)
 F_ARMY = font('EBGaramond-Italic-400', 32)
 F_SCALE = font('SourceSans3-400', 26)
-F_NAME_FALLBACK = font('EBGaramond-700', 40)      # Cinzel has no θ
+F_NAME_FALLBACK = font('EBGaramond-700', 40)      # Cinzel has no θ or Ḫ
+NO_CINZEL = set('θΘḪḫ')
 
 
 def has_glyph(f, ch):
@@ -61,10 +62,10 @@ def has_glyph(f, ch):
 
 
 def draw_name(d, xy, text):
-    """Draw a unit name in Cinzel, falling back to EB Garamond for letters Cinzel lacks (θ)."""
+    """Draw a unit name in Cinzel, falling back to EB Garamond for letters Cinzel lacks (θ, Ḫ)."""
     x, y = xy
     for ch in text:
-        f = F_NAME if ch != 'θ' else F_NAME_FALLBACK
+        f = F_NAME_FALLBACK if ch in NO_CINZEL else F_NAME
         d.text((x, y + (0 if f is F_NAME else -4)), ch, font=f, fill=INK)
         x += d.textlength(ch, font=f)
 

@@ -2,7 +2,7 @@ from style import *
 from tokens import round_token
 W, H = 240, 370
 s = SVG(W, H, 'Charge Fails', [
-    'Hattian Infantry (Move 6) would normally charge up to 12”, but they start in Crumbled Ruins, which follow the rules for a',
+    'Karaš Ḫatti (Move 6) would normally charge up to 12”, but they start in Crumbled Ruins, which follow the rules for a',
     'Stony Plain, so the whole Charge is limited to their Move of 6”. They need 7” to reach the defender, so the Charge fails.',
     'They move directly forward as far as they can, without coming within 1” of an enemy unit. Their Charge Action Token becomes',
     'a Run Action Token, and their controlling player loses Army Morale equal to their Unit Strength.'])

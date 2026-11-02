@@ -1,7 +1,7 @@
 // Syrrhēxis army data. Edit the values below; keep the first line as is.
 window.NHB_DATA = {
   "meta": {
-    "version": "0.10.7",
+    "version": "0.10.8",
     "synced": "2026-10-22",
     "sources": {
       "Hittite Empire Army": "1aqMPs2Pi5car6pUzcuWmHXArGss_RZdkgATe5OsbVrw",
@@ -20,7 +20,7 @@ window.NHB_DATA = {
       "units": [
         {
           "id": "levy-infantry",
-          "name": "Levy Infantry",
+          "name": "Nam.Ra",
           "type": "Warrior",
           "move": 6,
           "training": 4,
@@ -121,7 +121,7 @@ window.NHB_DATA = {
         },
         {
           "id": "hattian-infantry",
-          "name": "Hattian Infantry",
+          "name": "Karaš Ḫatti",
           "type": "Warrior",
           "move": 6,
           "training": 5,
@@ -236,7 +236,7 @@ window.NHB_DATA = {
         },
         {
           "id": "hattian-royal-guard",
-          "name": "Hattian Royal Guard",
+          "name": "Mešedi",
           "type": "Warrior",
           "move": 5,
           "training": 6,
@@ -371,7 +371,7 @@ window.NHB_DATA = {
         },
         {
           "id": "royal-retinue",
-          "name": "Royal Retinue",
+          "name": "Mešedi Retinue",
           "type": "Warrior",
           "move": 5,
           "training": 7,
@@ -505,7 +505,7 @@ window.NHB_DATA = {
         },
         {
           "id": "hattian-archers",
-          "name": "Hattian Archers",
+          "name": "Giš.Ban Ḫatti",
           "type": "Light Warrior",
           "move": 7,
           "training": 5,
@@ -561,7 +561,7 @@ window.NHB_DATA = {
         },
         {
           "id": "allied-archers",
-          "name": "Allied Archers",
+          "name": "Giš.Ban Arzawa",
           "type": "Light Warrior",
           "move": 7,
           "training": 4,
@@ -623,7 +623,7 @@ window.NHB_DATA = {
         },
         {
           "id": "hattian-peltasts",
-          "name": "Hattian Peltasts",
+          "name": "Šukur.Tur Ḫatti",
           "type": "Skirmishing Warrior",
           "move": 7,
           "training": 5,
@@ -704,7 +704,7 @@ window.NHB_DATA = {
         },
         {
           "id": "allied-peltasts",
-          "name": "Allied Peltasts",
+          "name": "Šukur.Tur Kaška",
           "type": "Skirmishing Warrior",
           "move": 7,
           "training": 4,
@@ -785,7 +785,7 @@ window.NHB_DATA = {
         },
         {
           "id": "hattian-chariots",
-          "name": "Hattian Chariots",
+          "name": "Anše.Kur.Ra Ḫatti",
           "type": "Chariot",
           "move": 10,
           "training": 6,
@@ -905,7 +905,7 @@ window.NHB_DATA = {
         },
         {
           "id": "allied-chariots",
-          "name": "Allied Chariots",
+          "name": "Anše.Kur.Ra Maryannu",
           "type": "Chariot",
           "move": 11,
           "training": 5,
@@ -6181,12 +6181,12 @@ window.NHB_DATA = {
     {
       "id": "thousand-gods-of-hatti",
       "name": "The Thousand Gods of Hatti",
-      "short": "Buffs units near a Royal Retinue",
+      "short": "Buffs units near a Mešedi Retinue",
       "armies": [
         "hittite"
       ],
       "limit": 1,
-      "text": "Until the end of the round, units within 18” of a Royal Retinue gain the following, based on their name. Allied units: +1 Move and Aim. Levy units: automatically pass their next Break test. Hattian units: +1 Strength with melee weapons, and Frenzy.",
+      "text": "Until the end of the round, units within 18” of a Mešedi Retinue gain the following. Giš.Ban Arzawa, Šukur.Tur Kaška and Anše.Kur.Ra Maryannu: +1 Move and Aim. Levy units: automatically pass their next Break test. Karaš Ḫatti, Giš.Ban Ḫatti, Šukur.Tur Ḫatti, Anše.Kur.Ra Ḫatti and Mešedi: +1 Strength with melee weapons, and Frenzy.",
       "flavor": "Sworn before the gods of Hatti, vassal and native fight as one."
     },
     {

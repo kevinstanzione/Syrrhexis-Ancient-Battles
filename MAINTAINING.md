@@ -41,7 +41,7 @@ Buy a domain from any registrar, then in **Settings → Pages → Custom domain*
 ```js
 {
   "id": "hattian-infantry",          // unique, no spaces
-  "name": "Hattian Infantry",
+  "name": "Karaš Ḫatti",
   "type": "Warrior",                 // Warrior, Light Warrior, Skirmishing Warrior, Cavalry, Light Cavalry,
                                      // Skirmishing Cavalry, Chariot, Elephant, Light Warmachine
   "move": 6, "training": 5,
