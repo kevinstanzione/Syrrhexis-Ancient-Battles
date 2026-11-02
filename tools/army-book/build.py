@@ -137,7 +137,7 @@ def equipment(u):
         if tail:
             rows.append(('All Ranks', join_and(tail)))
         return lines(rows)
-    items = [named(w) for w in u['equip'] if w not in ('Horses', 'Kunga')]
+    items = [named(w) for w in u['equip'] if w != 'Horses']
     items += [named(x) if x in LABELS else esc(x) for x in (u.get('body'), u.get('shield')) if x]
     return join_and(items)
 
