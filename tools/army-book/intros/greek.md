@@ -1,0 +1,7 @@
+c. 490–338 BC · From Marathon to Chaeronea
+
+In the two centuries after the Persian Wars, the city-states of Greece fought the Great King, and far more often one another, with armies of citizen hoplites. Each man bought his own bronze helmet, armour, spear and the great round shield, the aspis, and took his place in the phalanx beside his neighbours. Athens, Sparta and Thebes each led Greece in turn, and at Marathon, Thermopylae and Plataea the hoplites showed that they could stand against anything Persia sent.
+
+The phalanx was a wall of overlapping shields and levelled spears, eight or more ranks deep, which won by pushing and stabbing its way through the enemy line in the shoving match the Greeks called othismos. Its finest troops were professionals such as the Spartans and the Hieròs Lóchos, the Sacred Band of Thebes, whose 300 men were never beaten until Philip of Macedon destroyed them at Chaeronea. As the period wore on, light troops grew in importance: peltasts with javelins and light shields destroyed a Spartan regiment at Lechaeum in 390 BC, and Cretan archers and Rhodian slingers were hired for their skill. Cavalry was few in number and kept to the wings.
+
+On the table, Greece wins in the centre. A hoplite phalanx is very hard to beat from the front, so pick a fight where it can strike head on and let the enemy come onto your spears. Its weakness is its flanks: use your peltasts, slingers and few horsemen to keep enemy cavalry and skirmishers away from them, and don't let faster troops pick the phalanx apart from a distance.

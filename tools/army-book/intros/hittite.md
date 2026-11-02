@@ -1,0 +1,7 @@
+c. 1400–1180 BC · From Šuppiluliuma I to the fall of Hattusa
+
+From their capital at Hattusa in the highlands of Anatolia, the Hittite Great Kings built an empire that rivalled Egypt itself. Šuppiluliuma I broke the power of Mitanni and brought the cities of Syria under Hittite rule, and his successors held a web of vassal kingdoms together through treaties sworn before the "thousand gods of Hatti". When the king marched, those vassals marched with him, bringing their own archers, spearmen and chariots to stand beside the native Hattian troops.
+
+The chariot was the heart of the army. Hittite chariots were heavier than their Egyptian rivals and carried a crew of three, the driver joined by a spearman and a shield-bearer, so they could ride down infantry as well as skirmish. At Kadesh in 1274 BC, Muwatalli II hid thousands of them behind the city and threw them across the Orontes into the flank of Ramesses II's marching army, nearly destroying it before Egyptian reinforcements arrived. Behind the chariots stood solid spearmen, the king's guard and his household troops, while archers and javelin-men screened the line and lay in wait for the enemy.
+
+On the table, the Hittites win with their chariots. Use the infantry to hold the centre and fix the enemy in place, screen with archers and peltasts, then drive the chariots into a flank once the enemy is committed. The vassal contingents add numbers and missile power, but they are Mercenaries: keep them away from the worst of the fighting once Army Morale starts to fall.

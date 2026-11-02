@@ -290,8 +290,21 @@ def glossary():
             + sec('Characters', R['chars']) + '</section>')
 
 
+def start_year(aid):
+    """First year in the intro's date line (BC negative), so armies print oldest first."""
+    p = os.path.join(HERE, 'intros', aid + '.md')
+    if not os.path.exists(p):
+        return 10 ** 6
+    line = open(p).readline()
+    m = re.search(r'(\d+)\s*(BC)?', line)
+    if not m:
+        return 10 ** 6
+    y = int(m.group(1))
+    return -y if (m.group(2) or ('BC' in line and 'AD' not in line.split(m.group(1))[0])) else y
+
+
 def build(ids):
-    armies = [a for a in D['armies'] if not ids or a['id'] in ids]
+    armies = sorted((a for a in D['armies'] if not ids or a['id'] in ids), key=lambda a: start_year(a['id']))
     parts = [army_section(a) for a in armies]
     if not ids:
         generic = [c for c in D['commands'] if not c.get('armies')]
@@ -303,7 +316,8 @@ def build(ids):
                      'Its units can only be added to an army through Command Cards.</p><h2>Unit Profiles</h2>'
                      + ''.join(profile(u) for u in D['mercs']['units']) + '</section>')
     parts.append(glossary())
-    toc = ''.join(f'<li><a href="#{a["id"]}">{esc(a["name"])}</a></li>' for a in armies)
+    quickref = open(os.path.join(HERE, 'quickref.html')).read()
+    toc = '<li><a href="#quick-reference">Quick Reference</a></li>' + ''.join(f'<li><a href="#{a["id"]}">{esc(a["name"])}</a></li>' for a in armies)
     if not ids:
         toc += '<li><a href="#generic-cards">Generic Command Cards</a></li><li><a href="#mercenaries">Supplemental Mercenaries</a></li>'
     toc += '<li><a href="#rules-reference">Rules Reference</a></li>'
@@ -325,6 +339,7 @@ def build(ids):
 <div class="cera">Army lists, Command cards and Supplemental Mercenaries</div>
 <div class="cauth">by Kevin Stanzione</div><div class="cver">Army data version {esc(version)}</div></div></section>
 <section class="toc"><h1 class="toch">Contents</h1><ul>{toc}</ul></section>
+{quickref}
 {''.join(parts)}</body></html>'''
 
 
