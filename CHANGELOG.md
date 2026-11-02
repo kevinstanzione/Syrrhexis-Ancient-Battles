@@ -6,6 +6,20 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## 0.10.6 — 2026-11-01
+
+### Names
+- Hittite Sumerograms are now written as proper names instead of all capitals: Šukur, Šukur.Tur, Ḫa.Zi.In, Giš.Tukul, Gír, Gír.Gal, Gír.Gal.Gur, Giš.Ban, Kuš.Daluš and Túg.ŠirʾAm.
+
+### Weapons
+- Removed the "Note: increased/reduced accuracy" (and strength or length) remarks from weapon abilities; the stat columns already show the values.
+
+### Command cards
+- Prepared Ground (Persia) now also cancels terrain that follows the rules for a Major Terrain type, such as Flooded Field. Obstacles are unaffected.
+
+### Rules text
+- Volley summary: "this turn" now reads "this round".
+
 ## 0.10.5 — 2026-11-01
 
 ### Rules text

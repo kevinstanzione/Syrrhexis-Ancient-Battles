@@ -1,7 +1,7 @@
 // Syrrhēxis army data. Edit the values below; keep the first line as is.
 window.NHB_DATA = {
   "meta": {
-    "version": "0.10.5",
+    "version": "0.10.6",
     "synced": "2026-10-22",
     "sources": {
       "Hittite Empire Army": "1aqMPs2Pi5car6pUzcuWmHXArGss_RZdkgATe5OsbVrw",
@@ -36,7 +36,7 @@ window.NHB_DATA = {
             ]
           ],
           "equip": [
-            "ŠUKUR"
+            "Šukur"
           ],
           "gear": [],
           "body": null,
@@ -47,23 +47,23 @@ window.NHB_DATA = {
               "kind": "swap",
               "choices": [
                 {
-                  "name": "ŠUKUR spear",
+                  "name": "Šukur spear",
                   "w": [
-                    "ŠUKUR"
+                    "Šukur"
                   ],
                   "c": 0
                 },
                 {
-                  "name": "ḪA.ZI.IN axe",
+                  "name": "Ḫa.Zi.In axe",
                   "w": [
-                    "ḪA.ZI.IN"
+                    "Ḫa.Zi.In"
                   ],
                   "c": 0
                 },
                 {
-                  "name": "GIŠ.TUKUL club",
+                  "name": "Giš.Tukul club",
                   "w": [
-                    "GIŠ.TUKUL"
+                    "Giš.Tukul"
                   ],
                   "c": 0
                 }
@@ -74,7 +74,7 @@ window.NHB_DATA = {
               "kind": "add",
               "shield": "Shield",
               "c": 1,
-              "unlessWeapon": "ŠUKUR"
+              "unlessWeapon": "Šukur"
             }
           ],
           "chars": [
@@ -99,23 +99,23 @@ window.NHB_DATA = {
             "Levy"
           ],
           "weapons": {
-            "ŠUKUR": [
+            "Šukur": [
               "9",
               "4",
               "6",
-              "Reach (1). Note: Reduced accuracy"
+              "Reach (1)"
             ],
-            "ḪA.ZI.IN": [
+            "Ḫa.Zi.In": [
               "3",
               "2",
               "5",
-              "Cleaving Blade (4). Note: Reduced accuracy"
+              "Cleaving Blade (4)"
             ],
-            "GIŠ.TUKUL": [
+            "Giš.Tukul": [
               "3",
               "2",
               "4",
-              "Sunder (2). Note: Reduced accuracy"
+              "Sunder (2)"
             ]
           }
         },
@@ -137,10 +137,10 @@ window.NHB_DATA = {
             ]
           ],
           "equip": [
-            "ŠUKUR"
+            "Šukur"
           ],
           "gear": [
-            "GÍR"
+            "Gír"
           ],
           "body": null,
           "shield": null,
@@ -150,30 +150,30 @@ window.NHB_DATA = {
               "kind": "swap",
               "choices": [
                 {
-                  "name": "ŠUKUR spear",
+                  "name": "Šukur spear",
                   "w": [
-                    "ŠUKUR"
+                    "Šukur"
                   ],
                   "c": 0
                 },
                 {
-                  "name": "GÍR.GAL sword",
+                  "name": "Gír.Gal sword",
                   "w": [
-                    "GÍR.GAL"
+                    "Gír.Gal"
                   ],
                   "c": 0
                 },
                 {
-                  "name": "GÍR.GAL.GUR sword",
+                  "name": "Gír.Gal.Gur sword",
                   "w": [
-                    "GÍR.GAL.GUR"
+                    "Gír.Gal.Gur"
                   ],
                   "c": 0
                 },
                 {
-                  "name": "ḪA.ZI.IN axe",
+                  "name": "Ḫa.Zi.In axe",
                   "w": [
-                    "ḪA.ZI.IN"
+                    "Ḫa.Zi.In"
                   ],
                   "c": 0
                 }
@@ -202,31 +202,31 @@ window.NHB_DATA = {
           ],
           "rules": [],
           "weapons": {
-            "ŠUKUR": [
+            "Šukur": [
               "9",
               "5",
               "6",
               "Reach (1). With Shield equipped: -1 Accuracy and Unwieldy (1)"
             ],
-            "GÍR.GAL": [
+            "Gír.Gal": [
               "3",
               "5",
               "6",
               "Parrying Blade"
             ],
-            "GÍR.GAL.GUR": [
+            "Gír.Gal.Gur": [
               "3",
               "4",
               "5",
               "Cleaving Blade (3)"
             ],
-            "ḪA.ZI.IN": [
+            "Ḫa.Zi.In": [
               "3",
               "3",
               "5",
               "Cleaving Blade (4)"
             ],
-            "GÍR": [
+            "Gír": [
               "1",
               "6",
               "5",
@@ -252,12 +252,12 @@ window.NHB_DATA = {
             ]
           ],
           "equip": [
-            "ŠUKUR"
+            "Šukur"
           ],
           "gear": [
-            "GÍR"
+            "Gír"
           ],
-          "body": "TÚG.ŠIRʾAM",
+          "body": "Túg.ŠirʾAm",
           "shield": null,
           "opts": [
             {
@@ -265,30 +265,30 @@ window.NHB_DATA = {
               "kind": "swap",
               "choices": [
                 {
-                  "name": "ŠUKUR spear",
+                  "name": "Šukur spear",
                   "w": [
-                    "ŠUKUR"
+                    "Šukur"
                   ],
                   "c": 0
                 },
                 {
-                  "name": "GÍR.GAL sword",
+                  "name": "Gír.Gal sword",
                   "w": [
-                    "GÍR.GAL"
+                    "Gír.Gal"
                   ],
                   "c": 0
                 },
                 {
-                  "name": "GÍR.GAL.GUR sword",
+                  "name": "Gír.Gal.Gur sword",
                   "w": [
-                    "GÍR.GAL.GUR"
+                    "Gír.Gal.Gur"
                   ],
                   "c": 0
                 },
                 {
-                  "name": "ḪA.ZI.IN axe",
+                  "name": "Ḫa.Zi.In axe",
                   "w": [
-                    "ḪA.ZI.IN"
+                    "Ḫa.Zi.In"
                   ],
                   "c": 0
                 }
@@ -329,7 +329,7 @@ window.NHB_DATA = {
             "Noble"
           ],
           "armors": {
-            "TÚG.ŠIRʾAM": {
+            "Túg.ŠirʾAm": {
               "v": 1,
               "melee": 1,
               "text": "+1 Armor in Melee Combat",
@@ -337,35 +337,35 @@ window.NHB_DATA = {
             }
           },
           "weapons": {
-            "ŠUKUR": [
+            "Šukur": [
               "9",
               "6",
               "6",
-              "Reach (1). With Shield equipped: -1 Accuracy and Unwieldy (1). Note: Increased accuracy"
+              "Reach (1). With Shield equipped: -1 Accuracy and Unwieldy (1)"
             ],
-            "GÍR.GAL": [
+            "Gír.Gal": [
               "3",
               "6",
               "6",
-              "Parrying Blade. Note: Increased accuracy"
+              "Parrying Blade"
             ],
-            "GÍR.GAL.GUR": [
+            "Gír.Gal.Gur": [
               "3",
               "4",
               "5",
               "Cleaving Blade (3)"
             ],
-            "ḪA.ZI.IN": [
+            "Ḫa.Zi.In": [
               "3",
               "3",
               "5",
               "Cleaving Blade (4)"
             ],
-            "GÍR": [
+            "Gír": [
               "1",
               "7",
               "5",
-              "Note: Increased accuracy"
+              ""
             ]
           }
         },
@@ -383,12 +383,12 @@ window.NHB_DATA = {
             ]
           ],
           "equip": [
-            "ŠUKUR"
+            "Šukur"
           ],
           "gear": [
-            "GÍR"
+            "Gír"
           ],
-          "body": "TÚG.ŠIRʾAM",
+          "body": "Túg.ŠirʾAm",
           "shield": null,
           "opts": [
             {
@@ -396,30 +396,30 @@ window.NHB_DATA = {
               "kind": "swap",
               "choices": [
                 {
-                  "name": "ŠUKUR spear",
+                  "name": "Šukur spear",
                   "w": [
-                    "ŠUKUR"
+                    "Šukur"
                   ],
                   "c": 0
                 },
                 {
-                  "name": "GÍR.GAL sword",
+                  "name": "Gír.Gal sword",
                   "w": [
-                    "GÍR.GAL"
+                    "Gír.Gal"
                   ],
                   "c": 0
                 },
                 {
-                  "name": "GÍR.GAL.GUR sword",
+                  "name": "Gír.Gal.Gur sword",
                   "w": [
-                    "GÍR.GAL.GUR"
+                    "Gír.Gal.Gur"
                   ],
                   "c": 0
                 },
                 {
-                  "name": "ḪA.ZI.IN axe",
+                  "name": "Ḫa.Zi.In axe",
                   "w": [
-                    "ḪA.ZI.IN"
+                    "Ḫa.Zi.In"
                   ],
                   "c": 0
                 }
@@ -463,7 +463,7 @@ window.NHB_DATA = {
             "Noble"
           ],
           "armors": {
-            "TÚG.ŠIRʾAM": {
+            "Túg.ŠirʾAm": {
               "v": 1,
               "melee": 1,
               "text": "+1 Armor in Melee Combat",
@@ -471,35 +471,35 @@ window.NHB_DATA = {
             }
           },
           "weapons": {
-            "ŠUKUR": [
+            "Šukur": [
               "9",
               "6",
               "6",
-              "Reach (1). With Shield equipped: -1 Accuracy and Unwieldy (1). Note: Increased accuracy"
+              "Reach (1). With Shield equipped: -1 Accuracy and Unwieldy (1)"
             ],
-            "GÍR.GAL": [
+            "Gír.Gal": [
               "3",
               "6",
               "6",
-              "Parrying Blade. Note: Increased accuracy"
+              "Parrying Blade"
             ],
-            "GÍR.GAL.GUR": [
+            "Gír.Gal.Gur": [
               "3",
               "4",
               "5",
               "Cleaving Blade (3)"
             ],
-            "ḪA.ZI.IN": [
+            "Ḫa.Zi.In": [
               "3",
               "3",
               "5",
               "Cleaving Blade (4)"
             ],
-            "GÍR": [
+            "Gír": [
               "1",
               "7",
               "5",
-              "Note: Increased accuracy"
+              ""
             ]
           }
         },
@@ -521,10 +521,10 @@ window.NHB_DATA = {
             ]
           ],
           "equip": [
-            "GIŠ.BAN"
+            "Giš.Ban"
           ],
           "gear": [
-            "GÍR"
+            "Gír"
           ],
           "body": null,
           "shield": null,
@@ -545,13 +545,13 @@ window.NHB_DATA = {
           ],
           "rules": [],
           "weapons": {
-            "GIŠ.BAN": [
+            "Giš.Ban": [
               "24”",
               "5",
               "4",
               "Direct Fire"
             ],
-            "GÍR": [
+            "Gír": [
               "1",
               "6",
               "5",
@@ -577,10 +577,10 @@ window.NHB_DATA = {
             ]
           ],
           "equip": [
-            "GIŠ.BAN"
+            "Giš.Ban"
           ],
           "gear": [
-            "GÍR"
+            "Gír"
           ],
           "body": null,
           "shield": null,
@@ -607,17 +607,17 @@ window.NHB_DATA = {
             "Mercenary"
           ],
           "weapons": {
-            "GIŠ.BAN": [
+            "Giš.Ban": [
               "24”",
               "6",
               "4",
-              "Recurve Bow, Direct Fire. Note: Increased accuracy"
+              "Recurve Bow, Direct Fire"
             ],
-            "GÍR": [
+            "Gír": [
               "1",
               "6",
               "4",
-              "Note: Reduced strength"
+              ""
             ]
           }
         },
@@ -633,7 +633,7 @@ window.NHB_DATA = {
             12
           ],
           "equip": [
-            "ŠUKUR.TUR"
+            "Šukur.Tur"
           ],
           "gear": [],
           "body": null,
@@ -644,16 +644,16 @@ window.NHB_DATA = {
               "kind": "swap",
               "choices": [
                 {
-                  "name": "ŠUKUR.TUR javelins",
+                  "name": "Šukur.Tur javelins",
                   "w": [
-                    "ŠUKUR.TUR"
+                    "Šukur.Tur"
                   ],
                   "c": 0
                 },
                 {
-                  "name": "ḪA.ZI.IN axe",
+                  "name": "Ḫa.Zi.In axe",
                   "w": [
-                    "ḪA.ZI.IN"
+                    "Ḫa.Zi.In"
                   ],
                   "c": 0
                 }
@@ -688,13 +688,13 @@ window.NHB_DATA = {
             "Ambush"
           ],
           "weapons": {
-            "ŠUKUR.TUR": [
+            "Šukur.Tur": [
               "6 / 8”",
               "5",
               "6",
               "Throwing Weapon"
             ],
-            "ḪA.ZI.IN": [
+            "Ḫa.Zi.In": [
               "3",
               "3",
               "5",
@@ -714,7 +714,7 @@ window.NHB_DATA = {
             10
           ],
           "equip": [
-            "ŠUKUR.TUR"
+            "Šukur.Tur"
           ],
           "gear": [],
           "body": null,
@@ -725,17 +725,17 @@ window.NHB_DATA = {
               "kind": "swap",
               "choices": [
                 {
-                  "name": "ŠUKUR.TUR javelins",
+                  "name": "Šukur.Tur javelins",
                   "w": [
-                    "ŠUKUR.TUR"
+                    "Šukur.Tur"
                   ],
                   "c": 0
                 },
                 {
-                  "name": "KUŠ.DALUŠ sling and GÍR dagger",
+                  "name": "Kuš.Daluš sling and Gír dagger",
                   "w": [
-                    "KUŠ.DALUŠ",
-                    "GÍR"
+                    "Kuš.Daluš",
+                    "Gír"
                   ],
                   "c": 1
                 }
@@ -763,19 +763,19 @@ window.NHB_DATA = {
             "Mercenary"
           ],
           "weapons": {
-            "ŠUKUR.TUR": [
+            "Šukur.Tur": [
               "6 / 8”",
               "5",
               "6",
               "Throwing Weapon"
             ],
-            "KUŠ.DALUŠ": [
+            "Kuš.Daluš": [
               "28”",
               "5",
               "4",
               ""
             ],
-            "GÍR": [
+            "Gír": [
               "1",
               "6",
               "5",
@@ -806,7 +806,7 @@ window.NHB_DATA = {
             "horses": 2
           },
           "equip": [
-            "ŠUKUR.TUR",
+            "Šukur.Tur",
             "Horses"
           ],
           "gear": [],
@@ -818,27 +818,27 @@ window.NHB_DATA = {
               "kind": "swap",
               "choices": [
                 {
-                  "name": "ŠUKUR.TUR javelins and Shield",
+                  "name": "Šukur.Tur javelins and Shield",
                   "w": [
-                    "ŠUKUR.TUR",
+                    "Šukur.Tur",
                     "Horses"
                   ],
                   "c": 0,
                   "shield": "Shield"
                 },
                 {
-                  "name": "GIŠ.BAN bow",
+                  "name": "Giš.Ban bow",
                   "w": [
-                    "GIŠ.BAN",
+                    "Giš.Ban",
                     "Horses"
                   ],
                   "c": 0,
                   "shield": null
                 },
                 {
-                  "name": "ŠUKUR spear",
+                  "name": "Šukur spear",
                   "w": [
-                    "ŠUKUR",
+                    "Šukur",
                     "Horses"
                   ],
                   "c": 1,
@@ -847,9 +847,9 @@ window.NHB_DATA = {
               ]
             },
             {
-              "label": "TÚG.ŠIRʾAM armor (crew)",
+              "label": "Túg.ŠirʾAm armor (crew)",
               "kind": "add",
-              "body": "TÚG.ŠIRʾAM",
+              "body": "Túg.ŠirʾAm",
               "c": 6
             }
           ],
@@ -870,36 +870,36 @@ window.NHB_DATA = {
             "Runners": "During the End of Round phase, if this unit does not have a Run, Charge, or Flee token and is not locked in combat, it gets bonus attacks. Select an enemy unit within 6” to target with 2 bonus attacks, at Accuracy 5 and Strength 5. These attacks cannot be modified."
           },
           "armors": {
-            "TÚG.ŠIRʾAM": {
+            "Túg.ŠirʾAm": {
               "v": 1,
               "melee": 1,
               "text": "+1 Armor in Melee Combat"
             }
           },
           "weapons": {
-            "ŠUKUR.TUR": [
+            "Šukur.Tur": [
               "5 / 8”",
               "5",
               "6",
-              "2 Attacks. Throwing Weapon. Note: Reduced length"
+              "2 Attacks. Throwing Weapon"
             ],
             "Horses": [
               "3",
               "5",
               "5",
-              "2 Attacks, can only use on Charge. May be used in conjunction with ŠUKUR.TUR or ŠUKUR"
+              "2 Attacks, can only use on Charge. May be used in conjunction with Šukur.Tur or Šukur"
             ],
-            "GIŠ.BAN": [
+            "Giš.Ban": [
               "24”",
               "5",
               "4",
               "2 Attacks. Direct Fire"
             ],
-            "ŠUKUR": [
+            "Šukur": [
               "8",
               "5",
               "6",
-              "2 Attacks. Note: Reduced length"
+              "2 Attacks"
             ]
           }
         },
@@ -922,13 +922,13 @@ window.NHB_DATA = {
             "horses": 2
           },
           "equip": [
-            "GIŠ.BAN",
+            "Giš.Ban",
             "Horses"
           ],
           "gear": [
-            "GÍR"
+            "Gír"
           ],
-          "body": "TÚG.ŠIRʾAM",
+          "body": "Túg.ŠirʾAm",
           "shield": null,
           "opts": [],
           "chars": [
@@ -945,18 +945,18 @@ window.NHB_DATA = {
             "Mercenary"
           ],
           "armors": {
-            "TÚG.ŠIRʾAM": {
+            "Túg.ŠirʾAm": {
               "v": 1,
               "melee": 1,
               "text": "+1 Armor in Melee Combat"
             }
           },
           "weapons": {
-            "GIŠ.BAN": [
+            "Giš.Ban": [
               "24”",
               "6",
               "4",
-              "2 Attacks. Recurve Bow, Direct Fire. Note: Increased Accuracy"
+              "2 Attacks. Recurve Bow, Direct Fire"
             ],
             "Horses": [
               "3",
@@ -964,11 +964,11 @@ window.NHB_DATA = {
               "5",
               "2 Attacks, can only use on Charge"
             ],
-            "GÍR": [
+            "Gír": [
               "1",
               "5",
               "5",
-              "1 Attack, cannot be used on Charge. Note: Reduced accuracy"
+              "1 Attack, cannot be used on Charge"
             ]
           }
         }
@@ -1186,19 +1186,19 @@ window.NHB_DATA = {
               "8",
               "5",
               "5",
-              "Reach (1). Note: Reduced strength"
+              "Reach (1)"
             ],
             "Akīnakah": [
               "2",
               "5",
               "5",
-              "Thrusting Blade. Note: Reduced accuracy"
+              "Thrusting Blade"
             ],
             "Arštaya": [
               "6 / 8”",
               "5",
               "5",
-              "Throwing Weapon. Note: Reduced strength"
+              "Throwing Weapon"
             ],
             "Akīnakah Kamna": [
               "1",
@@ -1297,19 +1297,19 @@ window.NHB_DATA = {
               "24”",
               "7",
               "4",
-              "Recurve Bow, Direct Fire. Note: Increased accuracy"
+              "Recurve Bow, Direct Fire"
             ],
             "Aršti": [
               "8",
               "6",
               "6",
-              "Reach (1). Note: Increased accuracy"
+              "Reach (1)"
             ],
             "Arštaya": [
               "6 / 8”",
               "6",
               "6",
-              "Throwing Weapon. Note: Increased accuracy"
+              "Throwing Weapon"
             ],
             "Akīnakah": [
               "2",
@@ -1384,7 +1384,7 @@ window.NHB_DATA = {
               "8",
               "6",
               "6",
-              "Reach (1). Note: Increased accuracy"
+              "Reach (1)"
             ],
             "Akīnakah": [
               "2",
@@ -1600,13 +1600,13 @@ window.NHB_DATA = {
               "6 / 8”",
               "6",
               "6",
-              "Throwing Weapon. Note: Increased accuracy"
+              "Throwing Weapon"
             ],
             "Aršti": [
               "8",
               "6",
               "6",
-              "Note: Increased accuracy"
+              ""
             ],
             "Akīnakah": [
               "2",
@@ -1717,19 +1717,19 @@ window.NHB_DATA = {
               "6 / 8”",
               "6",
               "6",
-              "Throwing Weapon. Note: Increased accuracy"
+              "Throwing Weapon"
             ],
             "Aršti": [
               "8",
               "6",
               "6",
-              "Note: Increased accuracy"
+              ""
             ],
             "Akīnakah": [
               "2",
               "7",
               "5",
-              "Thrusting Blade. Note: Increased accuracy"
+              "Thrusting Blade"
             ]
           }
         },
@@ -1983,13 +1983,13 @@ window.NHB_DATA = {
               "24”",
               "7",
               "4",
-              "2 Attacks. Recurve Bow, Direct Fire. Note: Increased accuracy"
+              "2 Attacks. Recurve Bow, Direct Fire"
             ],
             "Arštaya": [
               "6 / 8”",
               "6",
               "6",
-              "1 Attack Melee, 2 Attacks Shooting. Throwing Weapon. Note: Increased accuracy"
+              "1 Attack Melee, 2 Attacks Shooting. Throwing Weapon"
             ],
             "Horses": [
               "3",
@@ -2001,7 +2001,7 @@ window.NHB_DATA = {
               "1",
               "5",
               "5",
-              "1 Attack, cannot be used on Charge. Note: Reduced accuracy"
+              "1 Attack, cannot be used on Charge"
             ]
           }
         },
@@ -2069,7 +2069,7 @@ window.NHB_DATA = {
               "6 / 8”",
               "6",
               "6",
-              "1 Attack Melee, 2 Attacks Shooting. Throwing Weapon. Note: Increased accuracy"
+              "1 Attack Melee, 2 Attacks Shooting. Throwing Weapon"
             ],
             "Akīnakah": [
               "1",
@@ -2151,13 +2151,13 @@ window.NHB_DATA = {
               "6 / 8”",
               "6",
               "6",
-              "2 Attack Melee, 3 Attacks Shooting. Throwing Weapon. Note: Increased accuracy"
+              "2 Attack Melee, 3 Attacks Shooting. Throwing Weapon"
             ],
             "Aršti": [
               "7",
               "6",
               "6",
-              "3 Attacks. Note: Increased accuracy"
+              "3 Attacks"
             ],
             "Horses": [
               "3",
@@ -2245,19 +2245,19 @@ window.NHB_DATA = {
               "24”",
               "7",
               "4",
-              "1 attack per Crewman, plus 1. Recurve Bow, Direct Fire. Note: Increased accuracy"
+              "1 attack per Crewman, plus 1. Recurve Bow, Direct Fire"
             ],
             "Arštaya": [
               "4 / 8”",
               "6",
               "6",
-              "1 attack per Crewman, plus 1 if Shooting. Throwing Weapon. Note: Increased accuracy"
+              "1 attack per Crewman, plus 1 if Shooting. Throwing Weapon"
             ],
             "Aršti": [
               "5",
               "6",
               "6",
-              "1 attack per Crewman. Note: Increased accuracy but reduced length"
+              "1 attack per Crewman"
             ],
             "Elephant": [
               "10",
@@ -3592,13 +3592,13 @@ window.NHB_DATA = {
               "5",
               "4",
               "5",
-              "Note: Reduced accuracy"
+              ""
             ],
             "Pugiō": [
               "1",
               "5",
               "5",
-              "Note: Reduced accuracy"
+              ""
             ]
           }
         },
@@ -3770,13 +3770,13 @@ window.NHB_DATA = {
               "8",
               "6",
               "6",
-              "Note: Increased Accuracy"
+              ""
             ],
             "Spatha": [
               "5",
               "6",
               "5",
-              "Note: Increased Accuracy"
+              ""
             ]
           }
         },
@@ -4690,16 +4690,16 @@ window.NHB_DATA = {
     }
   ],
   "labels": {
-    "ŠUKUR": "bronze spear",
-    "ŠUKUR.TUR": "bronze javelins",
-    "ḪA.ZI.IN": "bronze battle-axe",
-    "GIŠ.TUKUL": "wooden war club",
-    "GÍR.GAL": "bronze sword",
-    "GÍR.GAL.GUR": "curved sickle sword",
-    "GÍR": "bronze dagger",
-    "GIŠ.BAN": "composite bow",
-    "KUŠ.DALUŠ": "sling",
-    "TÚG.ŠIRʾAM": "long scale coat",
+    "Šukur": "bronze spear",
+    "Šukur.Tur": "bronze javelins",
+    "Ḫa.Zi.In": "bronze battle-axe",
+    "Giš.Tukul": "wooden war club",
+    "Gír.Gal": "bronze sword",
+    "Gír.Gal.Gur": "curved sickle sword",
+    "Gír": "bronze dagger",
+    "Giš.Ban": "composite bow",
+    "Kuš.Daluš": "sling",
+    "Túg.ŠirʾAm": "long scale coat",
     "Aršti": "short spear",
     "Arštaya": "javelins",
     "Θanu": "composite bow",
@@ -6123,7 +6123,7 @@ window.NHB_DATA = {
         "persia"
       ],
       "limit": 1,
-      "text": "Before deployment, place a 12” × 12” area of Prepared Ground anywhere on the battlefield. It may overlap the Major Terrain. Within it, the Major Terrain has no effect.",
+      "text": "Before deployment, place a 12” × 12” area of Prepared Ground anywhere on the battlefield. It may overlap the Major Terrain. Within it, the Major Terrain, and any terrain that follows the rules for a Major Terrain type (such as Flooded Field), has no effect. Obstacles are unaffected.",
       "flavor": "Darius's laborers scrape the plain flat for the scythed chariots."
     },
     {

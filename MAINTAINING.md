@@ -48,14 +48,14 @@ Buy a domain from any registrar, then in **Settings → Pages → Custom domain*
   "points": 12,                      // per model; null shows the unit as TBD
   "comps": [[4,4],[3,4]],            // Closed Order: [ranks, files] choices
   // "range": [8,12],                // Open Order: min and max models instead of comps
-  "equip": ["ŠUKUR"], "gear": ["GÍR"],
+  "equip": ["Šukur"], "gear": ["Gír"],
   "body": null, "shield": null,      // armor names, e.g. "Light Armor", "Shield"
   "opts": [ ... ],                   // weapon swaps ("swap"), unit-wide upgrades ("add"),
                                      // per-model options for Mixed Units ("count")
   "chars": [ {"one": [["Lead Captain", 3], ["Standard Bearer", 8]]} ],
                                      // add "req": true for "must take"
   "rules": [],                       // special rule names from the rulebook
-  "weapons": { "ŠUKUR": ["9","5","6","Reach (1)"] }   // Length/Range, Accuracy, Strength, Ability
+  "weapons": { "Šukur": ["9","5","6","Reach (1)"] }   // Length/Range, Accuracy, Strength, Ability
 }
 ```
 

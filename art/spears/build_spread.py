@@ -27,7 +27,7 @@ PAGES = [
     ('Spears I', 'The Bronze Age to Alexander', [
         ('sumerian_spear', 'Sumerian Spear', 'Sumerian Kingdom', 2.0),
         ('egyptian_spear', 'Egyptian Spear', 'Dynastic Egypt', 1.8),
-        ('sukur', 'ŠUKUR', 'Hittite Empire', 2.0),
+        ('sukur', 'Šukur', 'Hittite Empire', 2.0),
         ('enchos', 'Énchos', 'Sea People Raiders', 2.0),
         ('assyrian_spear', 'Assyrian Spear', 'Neo-Assyrian Empire', 2.0),
         ('assyrian_lance', 'Assyrian Cavalry Lance', 'Neo-Assyrian Empire', 2.8),
