@@ -1,0 +1,747 @@
+{
+ "draft": true,
+ "army": {
+  "id": "sumer",
+  "name": "Sumerian Kingdom",
+  "units": [
+   {
+    "id": "eren",
+    "name": "Eren",
+    "type": "Warrior",
+    "move": 6,
+    "training": 5,
+    "points": 11,
+    "comps": [
+     [
+      4,
+      4
+     ]
+    ],
+    "equip": [
+     "šukur"
+    ],
+    "gear": [
+     "gír"
+    ],
+    "body": null,
+    "shield": null,
+    "mixed": {
+     "front": {
+      "label": "1st Rank",
+      "w": [],
+      "shield": "Heavy Shield"
+     },
+     "rest": {
+      "label": "Other ranks",
+      "w": [
+       "šukur"
+      ],
+      "shield": null
+     }
+    },
+    "opts": [],
+    "chars": [
+     {
+      "one": [
+       [
+        "Lead Captain",
+        3
+       ],
+       [
+        "Standard Bearer",
+        8
+       ]
+      ]
+     }
+    ],
+    "rules": [
+     "Mixed Unit",
+     "Shieldwall"
+    ],
+    "custom": {
+     "Eren Shield Wall": "Attacks against this unit from its front arc use the 1st Rank's Armor; attacks from its flanks or rear use the Armor of the other ranks. When this unit enters Half Strength, it removes models from its front rank first, working backward, instead of from its rear rank. A unit loses Shieldwall while none of its models carry a Shield or Heavy Shield."
+    },
+    "weapons": {
+     "šukur": [
+      "8",
+      "5",
+      "6",
+      "Reach (1)"
+     ],
+     "gír": [
+      "1",
+      "6",
+      "5",
+      ""
+     ]
+    },
+    "frontArcArmor": true
+   },
+   {
+    "id": "sub-lugal",
+    "name": "Šub-lugal",
+    "type": "Warrior",
+    "move": 6,
+    "training": 6,
+    "points": 14,
+    "comps": [
+     [
+      4,
+      4
+     ],
+     [
+      3,
+      5
+     ]
+    ],
+    "equip": [
+     "šukur"
+    ],
+    "gear": [
+     "gír"
+    ],
+    "body": "gú-è",
+    "shield": null,
+    "opts": [],
+    "chars": [
+     {
+      "one": [
+       [
+        "Lead Captain",
+        4
+       ],
+       [
+        "Standard Bearer",
+        10
+       ]
+      ]
+     }
+    ],
+    "rules": [
+     "Guard"
+    ],
+    "armors": {
+     "gú-è": {
+      "v": 1,
+      "text": "-1 Armor against Weapon Attacks with Strength 7 or greater"
+     }
+    },
+    "weapons": {
+     "šukur": [
+      "8",
+      "6",
+      "6",
+      "Reach (1)"
+     ],
+     "gír": [
+      "1",
+      "7",
+      "5",
+      ""
+     ]
+    }
+   },
+   {
+    "id": "gurus",
+    "name": "Guruš",
+    "type": "Warrior",
+    "move": 6,
+    "training": 4,
+    "points": 7,
+    "comps": [
+     [
+      4,
+      5
+     ],
+     [
+      3,
+      5
+     ]
+    ],
+    "equip": [
+     "tukul"
+    ],
+    "gear": [
+     "gír"
+    ],
+    "body": null,
+    "shield": null,
+    "opts": [
+     {
+      "label": "Weapon",
+      "kind": "swap",
+      "choices": [
+       {
+        "name": "tukul mace",
+        "w": [
+         "tukul"
+        ],
+        "c": 0
+       },
+       {
+        "name": "ilar throwsticks",
+        "w": [
+         "ilar"
+        ],
+        "c": 1
+       }
+      ]
+     }
+    ],
+    "chars": [
+     {
+      "one": [
+       [
+        "Taskmaster",
+        5
+       ]
+      ]
+     },
+     {
+      "one": [
+       [
+        "Lead Captain",
+        3
+       ]
+      ]
+     }
+    ],
+    "rules": [
+     "Levy"
+    ],
+    "weapons": {
+     "tukul": [
+      "3",
+      "3",
+      "4",
+      "Sunder (2)"
+     ],
+     "ilar": [
+      "6”",
+      "4",
+      "4",
+      "Throwing Weapon"
+     ],
+     "gír": [
+      "1",
+      "5",
+      "5",
+      ""
+     ]
+    }
+   },
+   {
+    "id": "lu-gesbu",
+    "name": "Lú-ĝešbu",
+    "type": "Skirmishing Warrior",
+    "move": 7,
+    "training": 5,
+    "points": 10,
+    "range": [
+     8,
+     12
+    ],
+    "equip": [
+     "ĝešbu"
+    ],
+    "gear": [
+     "gír"
+    ],
+    "body": null,
+    "shield": null,
+    "opts": [],
+    "chars": [
+     {
+      "one": [
+       [
+        "Lead Captain",
+        5
+       ],
+       [
+        "Skirmish Captain",
+        8
+       ]
+      ]
+     }
+    ],
+    "rules": [
+     "Scout"
+    ],
+    "weapons": {
+     "ĝešbu": [
+      "6 / 8”",
+      "5",
+      "6",
+      "Throwing Weapon"
+     ],
+     "gír": [
+      "1",
+      "6",
+      "5",
+      ""
+     ]
+    }
+   },
+   {
+    "id": "lu-dalus",
+    "name": "Lú-daluš",
+    "type": "Skirmishing Warrior",
+    "move": 7,
+    "training": 5,
+    "points": 10,
+    "range": [
+     8,
+     12
+    ],
+    "equip": [
+     "daluš"
+    ],
+    "gear": [
+     "gír"
+    ],
+    "body": null,
+    "shield": null,
+    "opts": [],
+    "chars": [
+     {
+      "one": [
+       [
+        "Lead Captain",
+        5
+       ],
+       [
+        "Skirmish Captain",
+        8
+       ]
+      ]
+     }
+    ],
+    "rules": [],
+    "weapons": {
+     "daluš": [
+      "28”",
+      "5",
+      "4",
+      ""
+     ],
+     "gír": [
+      "1",
+      "6",
+      "5",
+      ""
+     ]
+    }
+   },
+   {
+    "id": "lu-gespan",
+    "name": "Lú-ĝešpan",
+    "type": "Light Warrior",
+    "move": 7,
+    "training": 5,
+    "points": 10,
+    "comps": [
+     [
+      4,
+      4
+     ],
+     [
+      2,
+      6
+     ]
+    ],
+    "equip": [
+     "ĝešpan"
+    ],
+    "gear": [
+     "gír"
+    ],
+    "body": null,
+    "shield": null,
+    "opts": [
+     {
+      "label": "Weapon",
+      "kind": "swap",
+      "choices": [
+       {
+        "name": "ĝešpan bow",
+        "w": [
+         "ĝešpan"
+        ],
+        "c": 0
+       },
+       {
+        "name": "qaštum composite bow",
+        "w": [
+         "qaštum"
+        ],
+        "c": 1
+       }
+      ]
+     }
+    ],
+    "chars": [
+     {
+      "one": [
+       [
+        "Lead Captain",
+        5
+       ],
+       [
+        "Volleymaster",
+        10
+       ]
+      ]
+     }
+    ],
+    "rules": [],
+    "weapons": {
+     "ĝešpan": [
+      "24”",
+      "5",
+      "4",
+      "Direct Fire"
+     ],
+     "qaštum": [
+      "24”",
+      "5",
+      "4",
+      "Recurve Bow, Direct Fire"
+     ],
+     "gír": [
+      "1",
+      "6",
+      "5",
+      ""
+     ]
+    }
+   },
+   {
+    "id": "gigir",
+    "name": "Gigir",
+    "type": "Chariot",
+    "move": 8,
+    "training": 5,
+    "points": 50,
+    "comps": [
+     [
+      1,
+      3
+     ],
+     [
+      1,
+      2
+     ]
+    ],
+    "crew": {
+     "driver": 1,
+     "crew": 1,
+     "horses": 4
+    },
+    "equip": [
+     "ĝešbu",
+     "ĝiš-gíd-da",
+     "Kunga"
+    ],
+    "gear": [
+     "gír"
+    ],
+    "body": null,
+    "shield": null,
+    "opts": [],
+    "chars": [
+     {
+      "one": [
+       [
+        "Lord",
+        15
+       ]
+      ]
+     }
+    ],
+    "rules": [
+     "Unwieldy (1)"
+    ],
+    "weapons": {
+     "ĝešbu": [
+      "5 / 8”",
+      "5",
+      "6",
+      "1 Attack Melee, 2 Attacks Shooting. Throwing Weapon"
+     ],
+     "ĝiš-gíd-da": [
+      "8",
+      "5",
+      "6",
+      "1 Attack"
+     ],
+     "Kunga": [
+      "2",
+      "5",
+      "4",
+      "4 Attacks, can only use on Charge. May be used in conjunction with ĝešbu or ĝiš-gíd-da"
+     ],
+     "gír": [
+      "1",
+      "5",
+      "5",
+      "1 Attack, cannot be used on Charge"
+     ]
+    }
+   },
+   {
+    "id": "gigir-tur",
+    "name": "Gigir-tur",
+    "type": "Chariot",
+    "move": 11,
+    "training": 4,
+    "points": 33,
+    "comps": [
+     [
+      1,
+      3
+     ],
+     [
+      1,
+      2
+     ]
+    ],
+    "crew": {
+     "driver": 1,
+     "crew": 0,
+     "horses": 4
+    },
+    "equip": [
+     "ĝešbu",
+     "Kunga"
+    ],
+    "gear": [
+     "gír"
+    ],
+    "body": null,
+    "shield": null,
+    "opts": [],
+    "chars": [],
+    "rules": [],
+    "weapons": {
+     "ĝešbu": [
+      "5 / 8”",
+      "4",
+      "6",
+      "1 Attack. Throwing Weapon"
+     ],
+     "Kunga": [
+      "2",
+      "5",
+      "4",
+      "4 Attacks, can only use on Charge. May be used in conjunction with ĝešbu"
+     ],
+     "gír": [
+      "1",
+      "4",
+      "5",
+      "1 Attack, cannot be used on Charge"
+     ]
+    }
+   },
+   {
+    "id": "aga-us",
+    "name": "Aga-ús",
+    "type": "Warrior",
+    "move": 5,
+    "training": 8,
+    "points": 15,
+    "comps": [
+     [
+      1,
+      5
+     ]
+    ],
+    "equip": [
+     "ha-zi-in"
+    ],
+    "gear": [
+     "gír"
+    ],
+    "body": "gú-è",
+    "shield": null,
+    "opts": [
+     {
+      "label": "Loadout",
+      "kind": "swap",
+      "choices": [
+       {
+        "name": "ha-zi-in axe and gú-è cape",
+        "w": [
+         "ha-zi-in"
+        ],
+        "c": 0
+       },
+       {
+        "name": "Heavy Shield (no attacks except characters; gains Shieldwall)",
+        "w": [],
+        "c": 0
+       }
+      ]
+     }
+    ],
+    "chars": [
+     {
+      "req": true,
+      "one": [
+       [
+        "Lord",
+        17
+       ],
+       [
+        "Commander",
+        40
+       ],
+       [
+        "Army Musician",
+        60
+       ]
+      ]
+     },
+     {
+      "one": [
+       [
+        "Standard Bearer",
+        20
+       ]
+      ]
+     }
+    ],
+    "rules": [
+     "Guard"
+    ],
+    "armors": {
+     "gú-è": {
+      "v": 1,
+      "text": "-1 Armor against Weapon Attacks with Strength 7 or greater"
+     }
+    },
+    "weapons": {
+     "ha-zi-in": [
+      "3",
+      "4",
+      "5",
+      "Cleaving Blade (4)"
+     ],
+     "gír": [
+      "1",
+      "8",
+      "5",
+      ""
+     ]
+    }
+   },
+   {
+    "id": "martu",
+    "name": "Martu",
+    "type": "Light Warrior",
+    "move": 7,
+    "training": 5,
+    "points": 12,
+    "comps": [
+     [
+      3,
+      4
+     ],
+     [
+      2,
+      6
+     ]
+    ],
+    "equip": [
+     "ĝešbu",
+     "pāšum"
+    ],
+    "gear": [
+     "gír"
+    ],
+    "body": null,
+    "shield": null,
+    "opts": [
+     {
+      "label": "Weapon",
+      "kind": "swap",
+      "choices": [
+       {
+        "name": "ĝešbu javelins",
+        "w": [
+         "ĝešbu"
+        ],
+        "c": 0
+       },
+       {
+        "name": "ilar throwsticks",
+        "w": [
+         "ilar"
+        ],
+        "c": 0
+       }
+      ]
+     }
+    ],
+    "chars": [
+     {
+      "one": [
+       [
+        "Tribal Leader",
+        8
+       ],
+       [
+        "Lead Captain",
+        5
+       ]
+      ]
+     }
+    ],
+    "rules": [
+     "Mercenary",
+     "Ambush"
+    ],
+    "weapons": {
+     "ĝešbu": [
+      "6 / 8”",
+      "5",
+      "6",
+      "Throwing Weapon"
+     ],
+     "ilar": [
+      "6”",
+      "5",
+      "4",
+      "Throwing Weapon"
+     ],
+     "pāšum": [
+      "3",
+      "3",
+      "5",
+      "Cleaving Blade (4)"
+     ],
+     "gír": [
+      "1",
+      "6",
+      "5",
+      ""
+     ]
+    }
+   }
+  ]
+ },
+ "labels": {
+  "šukur": "spear",
+  "gír": "dagger",
+  "tukul": "mace",
+  "ilar": "throwsticks",
+  "ĝešbu": "javelins",
+  "daluš": "sling",
+  "ĝešpan": "bow",
+  "qaštum": "composite bow",
+  "ĝiš-gíd-da": "long spear",
+  "ha-zi-in": "axe",
+  "pāšum": "duckbill axe",
+  "gú-è": "studded cape"
+ }
+}

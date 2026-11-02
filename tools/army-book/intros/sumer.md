@@ -1,0 +1,7 @@
+c. 2600–2000 BC · From Early Dynastic Lagash to the Third Dynasty of Ur
+
+The cities of Sumer, in the marshes and river plains of southern Mesopotamia, fought the first wars we can see in pictures. Lagash, Umma, Ur, Uruk and Kish were rival city-states, each ruled in the name of its god, and they fought for centuries over fields, canals and water. Around 2334 BC Sargon of Akkad united them by force into the first empire, and after Akkad fell, the kings of Ur rebuilt a Sumerian state that lasted until Elamite invaders and Amorite migrants, the Martu, brought it down around 2004 BC.
+
+The Stele of the Vultures shows King Eannatum of Lagash leading a dense block of spearmen behind a wall of great rectangular shields, trampling the dead of Umma. The Standard of Ur shows caped infantry with spears and heavy four-wheeled battle wagons, pulled by teams of donkey hybrids and crewed by a driver and a javelin-man, riding down their enemies. Behind the citizen levies stood the king's own retainers and guards, and as the period went on, archers, the Akkadian composite bow and hired Amorite raiders grew in importance.
+
+On the table, Sumer wins with its wall. The Eren are very hard to break from the front, so lead with them and let the enemy come onto their shields, with the caped Šub-lugal and the levies behind. Your battle wagons are slow but heavy: hold them back until the enemy is engaged, then crash into a flank. Protect your lightly armoured troops from enemy archers, because almost nothing in the army carries armour.

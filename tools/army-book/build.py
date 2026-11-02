@@ -23,6 +23,13 @@ def load_data():
 
 
 D = load_data()
+# Playtest armies not yet in the list builder: drafts/<id>.json = {"draft": true, "army": {...}, "labels": {...}}
+for _f in sorted(os.listdir(os.path.join(HERE, 'drafts'))):
+    if _f.endswith('.json'):
+        _d = json.load(open(os.path.join(HERE, 'drafts', _f), encoding='utf8'))
+        _d['army']['draft'] = True
+        D['armies'].append(_d['army'])
+        D.setdefault('labels', {}).update(_d.get('labels', {}))
 LABELS = D.get('labels', {})
 
 NOUN = {'Chariot': ('Chariot', 'Chariots'), 'Elephant': ('Elephant', 'Elephants')}
@@ -89,7 +96,7 @@ def composition(u):
         if c.get('crew'):
             bits.append(f"{c['crew']} Crewman" if c['crew'] == 1 else f"{c['crew']} Crewmen")
         if c.get('horses'):
-            bits.append(f"{c['horses']} Horses")
+            bits.append(f"{c['horses']} {'Kunga' if 'Kunga' in u.get('equip', []) else 'Horses'}")
         per = 'Chariot' if u['type'] == 'Chariot' else 'Elephant'
         s += f". {join_and(bits)} per {per}"
     return s
@@ -130,7 +137,7 @@ def equipment(u):
         if tail:
             rows.append(('All Ranks', join_and(tail)))
         return lines(rows)
-    items = [named(w) for w in u['equip'] if w != 'Horses']
+    items = [named(w) for w in u['equip'] if w not in ('Horses', 'Kunga')]
     items += [named(x) if x in LABELS else esc(x) for x in (u.get('body'), u.get('shield')) if x]
     return join_and(items)
 
@@ -270,7 +277,9 @@ def intro(aid):
 def army_section(a):
     cards = [c for c in D['commands'] if a['id'] in (c.get('armies') or [])]
     cards_html = (f'<h2>{esc(a["name"])} Command Cards</h2><div class="cards">' + ''.join(card(c) for c in cards) + '</div>') if cards else ''
-    return (f'<section class="army"><h1 id="{a["id"]}">{title(a["name"])}</h1>{intro(a["id"])}'
+    draft = ('<p class="draft">Playtest draft: this army is not yet in the list builder, and its profiles and points may change.</p>'
+             if a.get('draft') else '')
+    return (f'<section class="army"><h1 id="{a["id"]}">{title(a["name"])}</h1>{draft}{intro(a["id"])}'
             f'<h2>Unit Profiles</h2>' + ''.join(profile(u) for u in a['units']) + cards_html + '</section>')
 
 
