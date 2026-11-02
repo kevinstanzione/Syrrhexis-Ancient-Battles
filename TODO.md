@@ -6,6 +6,17 @@
   - Watch in playtesting: Collision applies every round, so deep blocks may grind down Open Order units.
 
 
+## Sumerian Kingdom (Kevin's review, 2026-11-01; not done yet)
+- Weapon names everywhere capitalised as proper nouns (check the army book, the draft data and the plan doc's tables).
+- Unit order in the army book: Warriors, Light Warriors, Skirmishing Warriors, Cavalry, Light Cavalry, Skirmishing Cavalry, Chariots, Elephants, Warmachines; a Retinue goes straight after the unit it's most like (e.g. Anušiyā Retinue after Anušiyā). Apply to every army, not only Sumer.
+- Eren: add a 2x5 composition; add Rear Captain as a character option; Šukur Accuracy 6. Check Eren Shield Wall still works at 2x5 (half = 5 models from the front = all 5 shieldbearers; Collision drops to 1 hit).
+- Šub-lugal: Lead Captain, plus Musician or Standard Bearer as options (slightly more elite).
+- Lú-daluš: Ranger Captain instead of Lead Captain.
+- Fewer daggers: remove the Gír from Lú-ĝešbu, Eren, Šub-lugal, Gigir, Gigir-tur and Martu. Keep it on the Aga-ús.
+- Rename Aga-ús to Aga-ús Retinue.
+- Aga-ús axe: better without a shield. Options: Accuracy 5 (keeping Length 3 like other axes), or Length 4 and Accuracy 5.
+- Gigir: Unwieldy (2). Gigir-tur: Unwieldy (1). Both already take the Chariot Wheeled Vehicle turning cost for 3+ animals, so this stacks.
+
 ## Armies of Alexander (paused)
 - Draft unit list: Pezhétairoi (sarissa with Reach (2)), Hypaspistaí, Agēma Retinue (foot), Argyráspides, Hetaîroi, Basilikḕ Ílē Retinue (mounted), Thessaloì Hippeîs, Pródromoi, Agriânes, Krêtes Toxótai, Thureophóroi, Eléphantes, Oxybeleîs. Extras: scythed chariots, Katáphraktoi, Tarantînoi.
 - Add a Dahae / Scythian horse archer unit (hippotoxótai) with Feign Retreat and Parthian Shot.
