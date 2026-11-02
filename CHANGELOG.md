@@ -6,6 +6,11 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## 0.11.0 — 2026-11-01
+
+### Builder
+- The footer links to the Army Book PDF: every army's profiles, Command cards, the Supplemental Mercenaries, a quick reference and a rules reference. It replaces the Google Slides army decks.
+
 ## 0.10.9 — 2026-11-01
 
 ### Names

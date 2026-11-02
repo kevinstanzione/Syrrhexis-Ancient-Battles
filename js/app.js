@@ -609,5 +609,10 @@
 
 (function () {
   var v = document.getElementById("ver");
-  if (v && window.NHB_DATA) v.textContent = "Syrrhēxis List Builder v" + window.NHB_DATA.meta.version + " · data synced " + window.NHB_DATA.meta.synced;
+  if (v && window.NHB_DATA) {
+    v.textContent = "Syrrhēxis List Builder v" + window.NHB_DATA.meta.version + " · data synced " + window.NHB_DATA.meta.synced + " · ";
+    var a = document.createElement("a");
+    a.href = "rulebook/Syrrhexis_Army_Book.pdf"; a.target = "_blank"; a.rel = "noopener"; a.textContent = "Army Book (PDF)";
+    v.appendChild(a);
+  }
 })();

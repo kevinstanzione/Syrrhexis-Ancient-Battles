@@ -218,3 +218,4 @@ img { max-width: 100%; }
 .subtabs { display: flex; gap: 4px; flex-wrap: wrap; margin: 0 0 12px; }
 .subtabs button { border: 1px solid var(--line); background: none; border-radius: 999px; padding: 6px 14px; font-size: 14px; color: var(--muted); cursor: pointer; }
 .subtabs button[aria-selected=true] { border-color: var(--bronze); color: var(--ink); }
+.site-foot a { color: inherit; text-decoration: underline; }
