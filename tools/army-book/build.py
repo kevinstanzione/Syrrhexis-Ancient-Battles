@@ -170,7 +170,7 @@ def characters(u):
 
 def special_rules(u):
     names = list(u.get('rules', [])) + list((u.get('custom') or {}).keys())
-    return ', '.join(esc(n) for n in names) if names else 'None'
+    return ', '.join(f'<b>{esc(n)}</b>' for n in names) if names else 'None'
 
 
 KEYWORDS = ['Cleaving Blade', 'Cumbersome', 'Direct Fire', 'Massive Suppression', 'Melee Suppression', 'Parrying Blade',
