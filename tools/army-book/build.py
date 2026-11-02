@@ -244,11 +244,18 @@ def profile(u):
 </section>'''
 
 
+CARD_KW = re.compile(r'\b(Obstacles?|Flammable|Weather)\b')
+
+
+def card_text(t):
+    return CARD_KW.sub(r'<b>\1</b>', esc(t))
+
+
 def card(c):
-    note = f'<p class="cnote">{esc(c["note"])}</p>' if c.get('note') else ''
+    note = f'<p class="cnote">{card_text(c["note"])}</p>' if c.get('note') else ''
     return f'''<div class="ccard"><div class="chead"><span class="cname">{title(c['name'])}</span>
 <span class="climit">Limit {c.get('limit', 1)}</span></div>
-<p class="ctext">{esc(c['text'])}</p>{note}<p class="cflavor">{esc(c.get('flavor', ''))}</p></div>'''
+<p class="ctext">{card_text(c['text'])}</p>{note}<p class="cflavor">{esc(c.get('flavor', ''))}</p></div>'''
 
 
 def intro(aid):
