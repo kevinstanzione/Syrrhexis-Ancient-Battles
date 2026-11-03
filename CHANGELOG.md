@@ -11,6 +11,7 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 ### Command cards
 - Last Stand: Limit 3 → 1.
 - Scythicon Poison (Persia): affects up to 2 chosen Sakā or Scythian Archers units, not all of them.
+- Kadesh Ambush (Hittite): no longer costs Army Morale.
 
 ## 0.11.4 — 2026-11-03
 

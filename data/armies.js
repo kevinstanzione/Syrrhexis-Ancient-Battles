@@ -6172,7 +6172,7 @@ window.NHB_DATA = {
         "hittite"
       ],
       "limit": 1,
-      "text": "Play during deployment. One Chariot unit gains the Scout special rule. You lose Army Morale equal to half the Army Morale that unit adds to your Starting Army Morale, rounded up.",
+      "text": "Play during deployment. One Chariot unit gains the Scout special rule.",
       "flavor": "Hidden behind the city, the chariots fall upon the enemy's flank."
     },
     {
