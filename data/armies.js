@@ -1,7 +1,7 @@
 // Syrrhēxis army data. Edit the values below; keep the first line as is.
 window.NHB_DATA = {
   "meta": {
-    "version": "0.11.1",
+    "version": "0.11.2",
     "synced": "2026-10-22",
     "sources": {
       "Hittite Empire Army": "1aqMPs2Pi5car6pUzcuWmHXArGss_RZdkgATe5OsbVrw",
@@ -6188,6 +6188,17 @@ window.NHB_DATA = {
       "limit": 1,
       "text": "Until the end of the round, units within 18” of a Mešedi Retinue gain the following. Giš.Ban Arzawa, Šukur.Tur Kaška and Anše.Kur.Ra Mittanni: +1 Move and Aim. Levy units: automatically pass their next Break test. Karaš Ḫatti, Giš.Ban Ḫatti, Šukur.Tur Ḫatti, Anše.Kur.Ra Ḫatti and Mešedi: +1 Strength with melee weapons, and Frenzy.",
       "flavor": "Sworn before the gods of Hatti, vassal and native fight as one."
+    },
+    {
+      "id": "golden-spearmen",
+      "name": "The Golden Spearmen",
+      "short": "A Mešedi unit at Half Strength keeps its models",
+      "armies": [
+        "hittite"
+      ],
+      "limit": 1,
+      "text": "Play when a Mešedi or Mešedi Retinue unit enters Half Strength. It removes no models and gains no Break Tokens for entering it. It still suffers the Half Strength penalties.",
+      "flavor": "The Šukur.Guškin, the king's second guard, step into the gaps around him."
     },
     {
       "id": "triplex-acies",

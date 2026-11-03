@@ -13,9 +13,6 @@
 - Gigir-tur points: recheck after Straddle Car (lower Unit Strength means less Bump/Terrify but much smaller Flee losses).
 - Still open from the plan: a name for the Eren Shield Wall rule, confirm Šukur Length 8, more Command cards, then move the list into the builder with the Shieldwall rule.
 
-## Hittite Empire
-- Command card idea: the Golden Spearmen (Šukur.Guškin), the guard unit that backed up the Mešedi. Effect to be decided.
-
 ## Armies of Alexander (paused)
 - Draft unit list: Pezhétairoi (sarissa with Reach (2)), Hypaspistaí, Agēma Retinue (foot), Argyráspides, Hetaîroi, Basilikḕ Ílē Retinue (mounted), Thessaloì Hippeîs, Pródromoi, Agriânes, Krêtes Toxótai, Thureophóroi, Eléphantes, Oxybeleîs. Extras: scythed chariots, Katáphraktoi, Tarantînoi.
 - Add a Dahae / Scythian horse archer unit (hippotoxótai) with Feign Retreat and Parthian Shot.
