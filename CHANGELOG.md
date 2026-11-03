@@ -13,6 +13,9 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - Scythicon Poison (Persia): affects up to 2 chosen Sakā or Scythian Archers units, not all of them.
 - Kadesh Ambush (Hittite): no longer costs Army Morale.
 
+### Rulebook
+- Breaking: a unit that passes its Break Test removes 1 Break Token, or all of them if it was not Locked in Combat and suffered no Damage that round (was: all of them).
+
 ### Points and stats
 - Pīrū (Persia): Training 8 → 6 and 105 → 100 pts per elephant, so Break Tokens from Flaming Pigs, Līlia and Terrify can break them. Weapon Accuracy unchanged.
 

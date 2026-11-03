@@ -6,6 +6,9 @@
   - Watch in playtesting: Collision applies every round, so deep blocks may grind down Open Order units.
 
 
+## Playtest watch
+- Breaking (changed 2026-11-03): passing removes 1 Break Token, or all if the unit was not Locked in Combat and took no Damage. Watch how often units break, especially at Mass Casualties (2 tokens every Activation Phase).
+
 ## Sumerian Kingdom
 - Review changes made 2026-11-03 in the army book draft (tools/army-book/drafts/sumer.json): Eren 2x5, Rear Captain, Šukur Accuracy 6; Šub-lugal characters; Lú-daluš Ranger Captain; Gír removed from Lú-ĝešbu, Eren, Šub-lugal, both vehicles and Martu; Aga-ús Retinue (Army Standard Bearer, Ha-zi-in 4/5/5); Martu Ilar base with Ĝešbu upgrade; new card The God's Steward.
 - Points after the review, to playtest: Eren 11 -> 12, Aga-ús Retinue 15 -> 16, Martu 12 -> 11; others unchanged.
