@@ -1,7 +1,7 @@
 // Syrrhēxis army data. Edit the values below; keep the first line as is.
 window.NHB_DATA = {
   "meta": {
-    "version": "0.11.2",
+    "version": "0.11.3",
     "synced": "2026-10-22",
     "sources": {
       "Hittite Empire Army": "1aqMPs2Pi5car6pUzcuWmHXArGss_RZdkgATe5OsbVrw",
@@ -6359,7 +6359,7 @@ window.NHB_DATA = {
         "greek"
       ],
       "limit": 1,
-      "text": "Obstacle. Before deployment, place a wall up to 8” long and ½” wide in your deployment zone. No unit may move across it. Shooting attacks that pass over it treat the target as one cover level better.",
+      "text": "Obstacle. Before deployment, place a wall up to 8” long and ½” wide in your deployment zone. No unit may move across it. It does not block Line of Sight. Shooting attacks that pass over it treat the target as in at least Cover.",
       "flavor": "Behind the old wall of the Phocians, three hundred hold the pass."
     }
   ]

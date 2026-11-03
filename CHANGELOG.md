@@ -6,6 +6,11 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## 0.11.3 — 2026-11-03
+
+### Command cards
+- Phocian Wall (Greece): now says it does not block Line of Sight, and gives a fixed rating: shots over it treat the target as in at least Cover (was "one cover level better").
+
 ## 0.11.2 — 2026-11-03
 
 ### Command cards

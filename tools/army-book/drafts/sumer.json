@@ -762,7 +762,7 @@
     "sumer"
    ],
    "limit": 1,
-   "text": "Obstacle. Before deployment, place a wall up to 8” long and ½” wide anywhere within 6” of your deployment zone. No unit may move across it. Enemy units with Scout or Ambush cannot be deployed within 12” of it.",
+   "text": "Obstacle. Before deployment, place a wall up to 8” long and ½” wide anywhere within 6” of your deployment zone. No unit may move across it. It does not block Line of Sight. Shooting attacks that pass over it treat the target as in at least Light Cover. Enemy units with Scout or Ambush cannot be deployed within 12” of it.",
    "flavor": "Shu-Sin raises the wall that keeps the Amorites away."
   }
  ]
