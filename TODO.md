@@ -11,7 +11,8 @@
 - Points after the review, to playtest: Eren 11 -> 12, Aga-ús Retinue 15 -> 16, Martu 12 -> 11; others unchanged.
 - Added 2026-11-03: Gigir-tur Straddle Car rule (1 Unit Strength per Kunga, car = 5); Shields of Lagash Command card (ongoing advance under shields). Both in the army book draft; plan doc not yet updated.
 - Gigir-tur points: recheck after Straddle Car (lower Unit Strength means less Bump/Terrify but much smaller Flee losses).
-- Still open from the plan: a name for the Eren Shield Wall rule, confirm Šukur Length 8, more Command cards, then move the list into the builder with the Shieldwall rule.
+- Command cards (draft): The God's Steward, Shields of Lagash, Battle Net of Ningirsu, Muriq-Tidnim.
+- Still open from the plan: a name for the Eren Shield Wall rule, then move the list into the builder with the Shieldwall rule. Šukur Length 8 confirmed.
 
 ## Armies of Alexander (paused)
 - Draft unit list: Pezhétairoi (sarissa with Reach (2)), Hypaspistaí, Agēma Retinue (foot), Argyráspides, Hetaîroi, Basilikḕ Ílē Retinue (mounted), Thessaloì Hippeîs, Pródromoi, Agriânes, Krêtes Toxótai, Thureophóroi, Eléphantes, Oxybeleîs. Extras: scythed chariots, Katáphraktoi, Tarantînoi.
