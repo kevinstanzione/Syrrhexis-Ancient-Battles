@@ -1,7 +1,7 @@
 // Syrrhēxis army data. Edit the values below; keep the first line as is.
 window.NHB_DATA = {
   "meta": {
-    "version": "0.11.4",
+    "version": "0.11.5",
     "synced": "2026-10-22",
     "sources": {
       "Hittite Empire Army": "1aqMPs2Pi5car6pUzcuWmHXArGss_RZdkgATe5OsbVrw",
@@ -5998,7 +5998,7 @@ window.NHB_DATA = {
       "id": "last-stand",
       "name": "Last Stand",
       "short": "All your units gain Suicidal",
-      "limit": 3,
+      "limit": 1,
       "text": "Until the end of the round, all of your units gain the Suicidal special rule.",
       "flavor": "There is no line of retreat. Every man knows it."
     },
@@ -6120,7 +6120,7 @@ window.NHB_DATA = {
         "persia"
       ],
       "limit": 1,
-      "text": "Until the end of the round, Sakā and Scythian Archers attack at -1 Strength. Their base Suppression is equal to the target's Training value instead of 1.",
+      "text": "Choose up to 2 friendly Sakā or Scythian Archers units. Until the end of the round, they attack at -1 Strength, and their base Suppression is equal to the target's Training value instead of 1.",
       "flavor": "Steppe archers dip their arrows in rot and venom, so even a scratch spreads terror."
     },
     {
