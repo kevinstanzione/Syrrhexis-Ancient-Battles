@@ -5823,7 +5823,7 @@ window.NHB_DATA = {
       "name": "Disengage",
       "short": "A unit in combat pulls back and fights on elsewhere",
       "limit": 1,
-      "text": "Play at the start of the activation of a friendly Closed Order unit that is Locked in Combat. It moves directly backwards up to 2”, without moving into base contact with any enemy unit, and is no longer Locked in Combat. It then continues its activation as normal, but may not Charge this round.",
+      "text": "Play at the start of the activation of a friendly unit that is Locked in Combat. It moves directly backwards up to 2” (Open Order: each model moves up to 2” away), without moving into base contact with any enemy unit, and is no longer Locked in Combat. It then continues its activation as normal, but may not Charge this round.",
       "flavor": "Step back together. Shields up. Not one man turns his back."
     },
     {

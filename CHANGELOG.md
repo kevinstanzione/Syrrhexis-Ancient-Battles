@@ -12,6 +12,7 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - Phalanx: only charges into its front arc gain the Break Token, and Feign Charges and Feign Retreats count.
 ### Command cards
 - The Hot Gates (Greece): choose Feign Retreat (as before) or Disengage for a unit Locked in Combat.
+- Disengage now works on Open Order units too (each model moves up to 2” away).
 
 ### Rulebook
 - New Locked in Combat rule (a unit Locked in Combat when it activates takes no action; it may still throw Throwing Weapons if it has a Hold token, then loses the token). A unit that Flees leaves the Melee.
