@@ -18,6 +18,10 @@ It runs in any browser, on desktop or phone, with nothing to install or sign up 
 
 The current rulebook (version 0.1.0) is here as a PDF: [Syrrhexis_Rulebook.pdf](rulebook/Syrrhexis_Rulebook.pdf).
 
+## Army Book
+
+Every army's unit profiles and Command cards, the generic Command cards, the Supplemental Mercenaries, a quick reference and a rules reference, as a PDF: [Syrrhexis_Army_Book.pdf](rulebook/Syrrhexis_Army_Book.pdf). It is generated from the list builder's data (`tools/army-book/build.py`), so it always matches the builder.
+
 ## Movement trays
 
 Printable STL trays for every Closed Order formation are in the [trays](trays/) folder, with a list of which units use each one.
