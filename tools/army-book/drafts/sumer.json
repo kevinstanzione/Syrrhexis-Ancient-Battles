@@ -742,7 +742,7 @@
     "sumer"
    ],
    "limit": 1,
-   "text": "Ongoing. At the End of the Round, each friendly unit with a Shield or Heavy Shield that has a Hold Action Token and is not Locked in Combat moves directly forward up to half its Move value, stopping 1” from any enemy unit. It keeps its Hold Action Token. Discard this card as soon as a friendly unit with a Shield or Heavy Shield declares a Charge, or one with a Hold Action Token is charged.",
+   "text": "Ongoing. At the End of the Round, each friendly unit with a Shield or Heavy Shield that has a Hold Action Token and is not Locked in Combat moves directly forward up to half its Move value, stopping 1” from any enemy unit. It keeps its Hold Action Token. Discard this card as soon as a friendly unit with a Shield or Heavy Shield is Locked in Combat.",
    "flavor": "Behind a wall of shields, the men of Lagash tread down the dead of Umma."
   }
  ]
