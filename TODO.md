@@ -1,25 +1,15 @@
 # To do
 
 ## Rulebook
-- Collision:
-  - Only full ranks count (Kevin's current call). Models only come off at Half Strength (half the models, from the rear), so a unit with an odd number of ranks drops 1.5 ranks and loses 2 Collision hits (e.g. 3×6 goes from 2 to 0). Option to consider: count a rank that is at least half full, so that unit keeps 1.
+- Collision: stays a Strength 5 strike, and a rank missing any models gives no Collision hits (decided 2026-11-03). Ideas not taken for now: count half-full ranks; Strength equal to the rank's width.
   - Watch in playtesting: Collision applies every round, so deep blocks may grind down Open Order units.
 
 
-## Sumerian Kingdom (Kevin's review, 2026-11-01; not done yet)
-- Weapon names everywhere capitalised as proper nouns (check the army book, the draft data and the plan doc's tables).
-- Unit order in the army book: Warriors, Light Warriors, Skirmishing Warriors, Cavalry, Light Cavalry, Skirmishing Cavalry, Chariots, Elephants, Warmachines; a Retinue goes straight after the unit it's most like (e.g. Anušiyā Retinue after Anušiyā). Apply to every army, not only Sumer.
-- Eren: add a 2x5 composition; add Rear Captain as a character option; Šukur Accuracy 6. Check Eren Shield Wall still works at 2x5 (half = 5 models from the front = all 5 shieldbearers; Collision drops to 1 hit).
-- Šub-lugal: Lead Captain, plus Musician or Standard Bearer as options (slightly more elite).
-- Lú-daluš: Ranger Captain instead of Lead Captain.
-- Fewer daggers: remove the Gír from Lú-ĝešbu, Eren, Šub-lugal, Gigir, Gigir-tur and Martu. Keep it on the Aga-ús.
-- Rename Aga-ús to Aga-ús Retinue.
-- Aga-ús Retinue: add Army Standard Bearer to its required character choice (Lord, Commander, Army Musician or Army Standard Bearer).
-- Command card idea: a god-priest card (the king as chief priest of the city god), e.g. all non-Mercenary units gain Frenzy for a round.
-- Martu: Ilar throwsticks as the base weapon, Ĝešbu javelins as an upgrade (suggested +1 pt per model).
-- Aga-ús axe: Length 4 and Accuracy 5. It is wielded two-handed (no shield), which justifies the extra length over other axes.
-- Rebalance the Sumerian points once all of the above changes are in (Eren 2x5 and Rear Captain, Šukur Accuracy 6, dagger removals, Aga-ús axe, Martu weapons).
-- Vehicles: keep the plan as drafted. The Gigir (battle wagon) keeps Unwieldy (1); the Gigir-tur (straddle car) has none. No further Unwieldy.
+## Sumerian Kingdom
+- Review changes made 2026-11-03 in the army book draft (tools/army-book/drafts/sumer.json): Eren 2x5, Rear Captain, Šukur Accuracy 6; Šub-lugal characters; Lú-daluš Ranger Captain; Gír removed from Lú-ĝešbu, Eren, Šub-lugal, both vehicles and Martu; Aga-ús Retinue (Army Standard Bearer, Ha-zi-in 4/5/5); Martu Ilar base with Ĝešbu upgrade; new card The God's Steward.
+- Points after the review, to playtest: Eren 11 -> 12, Aga-ús Retinue 15 -> 16, Martu 12 -> 11; others unchanged.
+- Plan doc (Claude Docs) tables still use lowercase weapon names.
+- Still open from the plan: a name for the Eren Shield Wall rule, confirm Šukur Length 8, more Command cards, then move the list into the builder with the Shieldwall rule.
 
 ## Hittite Empire
 - Command card idea: the Golden Spearmen (Šukur.Guškin), the guard unit that backed up the Mešedi. Effect to be decided.

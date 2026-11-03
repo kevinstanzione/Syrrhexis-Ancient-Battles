@@ -10,19 +10,21 @@
     "type": "Warrior",
     "move": 6,
     "training": 5,
-    "points": 11,
+    "points": 12,
     "comps": [
      [
       4,
       4
+     ],
+     [
+      2,
+      5
      ]
     ],
     "equip": [
      "Šukur"
     ],
-    "gear": [
-     "Gír"
-    ],
+    "gear": [],
     "body": null,
     "shield": null,
     "mixed": {
@@ -52,6 +54,14 @@
         8
        ]
       ]
+     },
+     {
+      "one": [
+       [
+        "Rear Captain",
+        6
+       ]
+      ]
      }
     ],
     "rules": [
@@ -64,15 +74,9 @@
     "weapons": {
      "Šukur": [
       "8",
-      "5",
+      "6",
       "6",
       "Reach (1)"
-     ],
-     "Gír": [
-      "1",
-      "6",
-      "5",
-      ""
      ]
     },
     "frontArcArmor": true
@@ -97,9 +101,7 @@
     "equip": [
      "Šukur"
     ],
-    "gear": [
-     "Gír"
-    ],
+    "gear": [],
     "body": "Gú-è",
     "shield": null,
     "opts": [],
@@ -109,6 +111,14 @@
        [
         "Lead Captain",
         4
+       ]
+      ]
+     },
+     {
+      "one": [
+       [
+        "Musician",
+        6
        ],
        [
         "Standard Bearer",
@@ -132,12 +142,6 @@
       "6",
       "6",
       "Reach (1)"
-     ],
-     "Gír": [
-      "1",
-      "7",
-      "5",
-      ""
      ]
     }
    },
@@ -244,9 +248,7 @@
     "equip": [
      "Ĝešbu"
     ],
-    "gear": [
-     "Gír"
-    ],
+    "gear": [],
     "body": null,
     "shield": null,
     "opts": [],
@@ -273,12 +275,6 @@
       "5",
       "6",
       "Throwing Weapon"
-     ],
-     "Gír": [
-      "1",
-      "6",
-      "5",
-      ""
      ]
     }
    },
@@ -306,8 +302,8 @@
      {
       "one": [
        [
-        "Lead Captain",
-        5
+        "Ranger Captain",
+        6
        ],
        [
         "Skirmish Captain",
@@ -442,9 +438,7 @@
      "Ĝiš-gíd-da",
      "Kunga"
     ],
-    "gear": [
-     "Gír"
-    ],
+    "gear": [],
     "body": null,
     "shield": null,
     "opts": [],
@@ -479,12 +473,6 @@
       "5",
       "4",
       "4 Attacks, can only use on Charge. May be used in conjunction with Ĝešbu or Ĝiš-gíd-da"
-     ],
-     "Gír": [
-      "1",
-      "5",
-      "5",
-      "1 Attack, cannot be used on Charge"
      ]
     }
    },
@@ -514,9 +502,7 @@
      "Ĝešbu",
      "Kunga"
     ],
-    "gear": [
-     "Gír"
-    ],
+    "gear": [],
     "body": null,
     "shield": null,
     "opts": [],
@@ -534,22 +520,16 @@
       "5",
       "4",
       "4 Attacks, can only use on Charge. May be used in conjunction with Ĝešbu"
-     ],
-     "Gír": [
-      "1",
-      "4",
-      "5",
-      "1 Attack, cannot be used on Charge"
      ]
     }
    },
    {
     "id": "aga-us",
-    "name": "Aga-ús",
+    "name": "Aga-ús Retinue",
     "type": "Warrior",
     "move": 5,
     "training": 8,
-    "points": 15,
+    "points": 16,
     "comps": [
      [
       1,
@@ -599,6 +579,10 @@
        [
         "Army Musician",
         60
+       ],
+       [
+        "Army Standard Bearer",
+        28
        ]
       ]
      },
@@ -622,8 +606,8 @@
     },
     "weapons": {
      "Ha-zi-in": [
-      "3",
       "4",
+      "5",
       "5",
       "Cleaving Blade (4)"
      ],
@@ -641,7 +625,7 @@
     "type": "Light Warrior",
     "move": 7,
     "training": 5,
-    "points": 12,
+    "points": 11,
     "comps": [
      [
       3,
@@ -653,12 +637,10 @@
      ]
     ],
     "equip": [
-     "Ĝešbu",
+     "Ilar",
      "Pāšum"
     ],
-    "gear": [
-     "Gír"
-    ],
+    "gear": [],
     "body": null,
     "shield": null,
     "opts": [
@@ -667,18 +649,18 @@
       "kind": "swap",
       "choices": [
        {
-        "name": "Ĝešbu javelins",
-        "w": [
-         "Ĝešbu"
-        ],
-        "c": 0
-       },
-       {
         "name": "Ilar throwsticks",
         "w": [
          "Ilar"
         ],
         "c": 0
+       },
+       {
+        "name": "Ĝešbu javelins",
+        "w": [
+         "Ĝešbu"
+        ],
+        "c": 1
        }
       ]
      }
@@ -702,16 +684,16 @@
      "Ambush"
     ],
     "weapons": {
-     "Ĝešbu": [
-      "6 / 8”",
-      "5",
-      "6",
-      "Throwing Weapon"
-     ],
      "Ilar": [
       "6”",
       "5",
       "4",
+      "Throwing Weapon"
+     ],
+     "Ĝešbu": [
+      "6 / 8”",
+      "5",
+      "6",
       "Throwing Weapon"
      ],
      "Pāšum": [
@@ -719,12 +701,6 @@
       "3",
       "5",
       "Cleaving Blade (4)"
-     ],
-     "Gír": [
-      "1",
-      "6",
-      "5",
-      ""
      ]
     }
    }
@@ -744,5 +720,17 @@
   "Pāšum": "duckbill axe",
   "Gú-è": "studded cape",
   "Kunga": "donkey-onager hybrids"
- }
+ },
+ "commands": [
+  {
+   "id": "gods-steward",
+   "name": "The God's Steward",
+   "armies": [
+    "sumer"
+   ],
+   "limit": 1,
+   "text": "Until the end of the round, every unit in your army without the Mercenary rule gains Frenzy.",
+   "flavor": "The king rules as steward of the city's god, and the god's people fight for him."
+  }
+ ]
 }

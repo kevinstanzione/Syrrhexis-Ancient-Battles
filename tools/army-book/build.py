@@ -30,6 +30,7 @@ for _f in sorted(os.listdir(os.path.join(HERE, 'drafts'))):
         _d['army']['draft'] = True
         D['armies'].append(_d['army'])
         D.setdefault('labels', {}).update(_d.get('labels', {}))
+        D['commands'].extend(_d.get('commands', []))
 LABELS = D.get('labels', {})
 
 NOUN = {'Chariot': ('Chariot', 'Chariots'), 'Elephant': ('Elephant', 'Elephants')}
@@ -274,13 +275,37 @@ def intro(aid):
     return f'<p class="era-dates">{esc(head)}</p><div class="era">' + ''.join(f'<p>{esc(x)}</p>' for x in body) + '</div>'
 
 
+TYPE_ORDER = ['Warrior', 'Light Warrior', 'Skirmishing Warrior', 'Cavalry', 'Light Cavalry', 'Skirmishing Cavalry',
+              'Chariot', 'Elephant', 'Light Warmachine', 'Warmachine']
+
+
+# A Retinue whose name doesn't match its closest unit: unit id -> id of the unit it follows.
+RETINUE_AFTER = {'aga-us': 'sub-lugal'}
+
+
+def ordered(units):
+    """Book order: by unit type (TYPE_ORDER), keeping the army list's order within a type, and each
+    "X Retinue" straight after X. A Retinue with no matching unit stays at the end of its type."""
+    rank = lambda u: TYPE_ORDER.index(u['type']) if u['type'] in TYPE_ORDER else len(TYPE_ORDER)
+    names = {u['name'] for u in units}
+    ids = {u['id'] for u in units}
+    follows = lambda r: RETINUE_AFTER.get(r['id']) if RETINUE_AFTER.get(r['id']) in ids else None
+    base = [u for u in units if not (u['name'].endswith(' Retinue') and u['name'][:-8] in names) and not follows(u)]
+    base.sort(key=rank)                       # stable: keeps list order within a type
+    out = []
+    for u in base:
+        out.append(u)
+        out += [r for r in units if r is not u and (r['name'] == u['name'] + ' Retinue' or follows(r) == u['id'])]
+    return out
+
+
 def army_section(a):
     cards = [c for c in D['commands'] if a['id'] in (c.get('armies') or [])]
     cards_html = (f'<h2>{esc(a["name"])} Command Cards</h2><div class="cards">' + ''.join(card(c) for c in cards) + '</div>') if cards else ''
     draft = ('<p class="draft">Playtest draft: this army is not yet in the list builder, and its profiles and points may change.</p>'
              if a.get('draft') else '')
     return (f'<section class="army"><h1 id="{a["id"]}">{title(a["name"])}</h1>{draft}{intro(a["id"])}'
-            f'<h2>Unit Profiles</h2>' + ''.join(profile(u) for u in a['units']) + cards_html + '</section>')
+            f'<h2>Unit Profiles</h2>' + ''.join(profile(u) for u in ordered(a['units'])) + cards_html + '</section>')
 
 
 def load_rules():
