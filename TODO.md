@@ -9,7 +9,8 @@
 ## Sumerian Kingdom
 - Review changes made 2026-11-03 in the army book draft (tools/army-book/drafts/sumer.json): Eren 2x5, Rear Captain, Šukur Accuracy 6; Šub-lugal characters; Lú-daluš Ranger Captain; Gír removed from Lú-ĝešbu, Eren, Šub-lugal, both vehicles and Martu; Aga-ús Retinue (Army Standard Bearer, Ha-zi-in 4/5/5); Martu Ilar base with Ĝešbu upgrade; new card The God's Steward.
 - Points after the review, to playtest: Eren 11 -> 12, Aga-ús Retinue 15 -> 16, Martu 12 -> 11; others unchanged.
-- Plan doc (Claude Docs) tables still use lowercase weapon names.
+- Added 2026-11-03: Gigir-tur Straddle Car rule (1 Unit Strength per Kunga, car = 5); Shields of Lagash Command card (ongoing advance under shields). Both in the army book draft; plan doc not yet updated.
+- Gigir-tur points: recheck after Straddle Car (lower Unit Strength means less Bump/Terrify but much smaller Flee losses).
 - Still open from the plan: a name for the Eren Shield Wall rule, confirm Šukur Length 8, more Command cards, then move the list into the builder with the Shieldwall rule.
 
 ## Hittite Empire

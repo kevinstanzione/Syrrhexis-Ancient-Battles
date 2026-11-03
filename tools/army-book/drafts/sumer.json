@@ -521,6 +521,9 @@
       "4",
       "4 Attacks, can only use on Charge. May be used in conjunction with Ĝešbu"
      ]
+    },
+    "custom": {
+     "Straddle Car": "Each Kunga counts as 1 Unit Strength instead of 2, so each car is Unit Strength 5."
     }
    },
    {
@@ -731,6 +734,16 @@
    "limit": 1,
    "text": "Until the end of the round, every unit in your army without the Mercenary rule gains Frenzy.",
    "flavor": "The king rules as steward of the city's god, and the god's people fight for him."
+  },
+  {
+   "id": "shields-of-lagash",
+   "name": "Shields of Lagash",
+   "armies": [
+    "sumer"
+   ],
+   "limit": 1,
+   "text": "Ongoing. At the End of the Round, each friendly unit with a Shield or Heavy Shield that has a Hold Action Token and is not Locked in Combat moves directly forward up to half its Move value, stopping 1” from any enemy unit. It keeps its Hold Action Token. Discard this card as soon as a friendly unit with a Shield or Heavy Shield declares a Charge, or one with a Hold Action Token is charged.",
+   "flavor": "Behind a wall of shields, the men of Lagash tread down the dead of Umma."
   }
  ]
 }
