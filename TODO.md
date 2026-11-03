@@ -2,6 +2,7 @@
 
 ## Rulebook
 - Collision: stays a Strength 5 strike, and a rank missing any models gives no Collision hits (decided 2026-11-03). Ideas not taken for now: count half-full ranks; Strength equal to the rank's width.
+- Fleeing from Melee (shelved 2026-11-03, not rejected): Parting Blows (each enemy in contact makes a free front-rank strike at +1 Strength before the Flee move, no Collision, no strike back), or a pursuit move for the winner.
   - Watch in playtesting: Collision applies every round, so deep blocks may grind down Open Order units.
 
 

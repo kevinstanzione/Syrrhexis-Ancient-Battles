@@ -6310,12 +6310,12 @@ window.NHB_DATA = {
     {
       "id": "the-hot-gates",
       "name": "The Hot Gates",
-      "short": "A foot unit gains Feign Retreat",
+      "short": "A foot unit gains Feign Retreat or Disengages",
       "armies": [
         "greek"
       ],
       "limit": 1,
-      "text": "Until the end of the round, one Warrior, Light Warrior or Skirmishing Warrior unit gains Feign Retreat and +1 Move. If it has Phalanx, it gains +2 Move instead.",
+      "text": "Choose one friendly Warrior, Light Warrior or Skirmishing Warrior unit and one effect. Feign Retreat: until the end of the round, it gains Feign Retreat and +1 Move (+2 Move if it has Phalanx). Disengage: if it is Locked in Combat, play this card at the start of its activation; it moves directly backwards up to 2” (Open Order: each model moves up to 2” away), without moving into base contact with any enemy unit, and is no longer Locked in Combat. It then continues its activation as normal, but may not Charge this round.",
       "flavor": "The Spartans turn as if to flee, then fall upon the Persians who follow."
     },
     {
