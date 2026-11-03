@@ -11,6 +11,9 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 ### Command cards
 - Phocian Wall (Greece): now says it does not block Line of Sight, and gives a fixed rating: shots over it treat the target as in at least Cover (was "one cover level better").
 
+### Rulebook
+- Terrain from Command cards affects Line of Sight and Cover only as its card says; if the card says nothing, it neither blocks Line of Sight nor gives Cover, whatever model is used.
+
 ## 0.11.2 — 2026-11-03
 
 ### Command cards
