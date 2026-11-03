@@ -6,6 +6,12 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## 0.11.1 — 2026-11-03
+
+### Rules text
+- Phalanx: only charges into its front arc gain the Break Token, and Feign Charges and Feign Retreats count.
+- Rulebook: new Locked in Combat rule (a unit Locked in Combat when it activates takes no action; it may still throw Throwing Weapons if it has a Hold token, then loses the token). A unit that Flees leaves the Melee.
+
 ## 0.11.0 — 2026-11-01
 
 ### Builder
