@@ -2178,8 +2178,8 @@ window.NHB_DATA = {
           "name": "Pīrū",
           "type": "Elephant",
           "move": 8,
-          "training": 8,
-          "points": 105,
+          "training": 6,
+          "points": 100,
           "comps": [
             [
               1,

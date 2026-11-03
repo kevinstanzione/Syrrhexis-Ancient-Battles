@@ -13,6 +13,9 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - Scythicon Poison (Persia): affects up to 2 chosen Sakā or Scythian Archers units, not all of them.
 - Kadesh Ambush (Hittite): no longer costs Army Morale.
 
+### Points and stats
+- Pīrū (Persia): Training 8 → 6 and 105 → 100 pts per elephant, so Break Tokens from Flaming Pigs, Līlia and Terrify can break them. Weapon Accuracy unchanged.
+
 ## 0.11.4 — 2026-11-03
 
 ### Command cards

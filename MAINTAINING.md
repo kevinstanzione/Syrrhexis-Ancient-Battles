@@ -78,3 +78,4 @@ The current version is in `data/armies.js` under `meta.version`, and changes are
 - Saved lists are stored in each player's own browser. They are not shared between people or devices.
 - Rules text in `js/rules.js` is condensed from the Syrrhēxis: Ancient Battles rulebook. Update it when the rulebook changes.
 - Design convention: no weapon goes below Accuracy 3, even with a penalty for a clumsy or specialised weapon.
+- Design convention: Training is morale, preparation and resistance to fear (Army Morale, Break, Fear and Rally tests). It does not set weapon Accuracy; the two can differ.
