@@ -1,7 +1,7 @@
 // Syrrhēxis army data. Edit the values below; keep the first line as is.
 window.NHB_DATA = {
   "meta": {
-    "version": "0.11.3",
+    "version": "0.11.4",
     "synced": "2026-10-22",
     "sources": {
       "Hittite Empire Army": "1aqMPs2Pi5car6pUzcuWmHXArGss_RZdkgATe5OsbVrw",
@@ -5793,6 +5793,14 @@ window.NHB_DATA = {
       "limit": 1,
       "text": "Obstacle, Flammable. Before deployment, place 3 wagon markers (40 × 60mm) in your deployment zone, facing the enemy board edge. Once per game, at the start of any Activation Phase, release them: each wagon moves directly forward up to 18” until it touches a unit or impassable terrain. If it touches an enemy unit, that unit takes a Fear Test and gains a Break Token, then the wagon makes 2 attacks at Accuracy 9, Strength 7 against it (Accuracy 5 if the unit passed the test). The wagon is then removed. A wagon that touches a friendly unit or impassable terrain, or travels 18”, is removed without effect. Wagons are not units: they cannot be targeted or charged, do not generate or lose Army Morale, and take no Order Tokens.",
       "flavor": "The tribesmen massed their carts at the head of the pass, ready to send them crashing into the climbing phalanx."
+    },
+    {
+      "id": "flaming-pigs",
+      "name": "Flaming Pigs",
+      "short": "Burning pigs panic the enemy, above all Elephants",
+      "limit": 1,
+      "text": "Flammable. Before deployment, place 2 pig markers in your deployment zone. Once per game, at the start of any Activation Phase, set them alight: each pig moves up to 12” toward the closest enemy unit it can see, until it touches a unit or impassable terrain. If it touches an enemy unit, that unit takes a Fear Test and gains 2 Break Tokens if it fails; Elephant units automatically fail. If it touches a Flammable Obstacle, the Obstacle burns as with Fire Brands. The pig is then removed. A pig that touches a friendly unit, or travels 12”, is removed without effect. Pigs are not units: they cannot be targeted or charged, do not generate or lose Army Morale, and take no Order Tokens.",
+      "flavor": "The squealing, burning swine sent the war elephants trampling back through their own lines."
     },
     {
       "id": "fire-brands",
