@@ -1,7 +1,7 @@
 // Syrrhēxis army data. Edit the values below; keep the first line as is.
 window.NHB_DATA = {
   "meta": {
-    "version": "0.12.1",
+    "version": "0.12.2",
     "synced": "2026-10-22",
     "sources": {
       "Hittite Empire Army": "1aqMPs2Pi5car6pUzcuWmHXArGss_RZdkgATe5OsbVrw",
@@ -1138,7 +1138,7 @@ window.NHB_DATA = {
                   "w": [
                     "Arštaya"
                   ],
-                  "c": 1
+                  "c": 0
                 },
                 {
                   "name": "Akīnakah sword",
@@ -2599,12 +2599,12 @@ window.NHB_DATA = {
           "points": 12,
           "comps": [
             [
-              4,
-              4
+              2,
+              5
             ],
             [
               2,
-              5
+              4
             ]
           ],
           "equip": [
@@ -3042,7 +3042,7 @@ window.NHB_DATA = {
           "type": "Warrior",
           "move": 6,
           "training": 7,
-          "points": 21,
+          "points": 20,
           "comps": [
             [
               4,
@@ -3130,7 +3130,7 @@ window.NHB_DATA = {
           "type": "Warrior",
           "move": 6,
           "training": 7,
-          "points": 23,
+          "points": 22,
           "comps": [
             [
               4,
@@ -3415,7 +3415,7 @@ window.NHB_DATA = {
                   "w": [
                     "Lancea"
                   ],
-                  "c": 1
+                  "c": 0
                 },
                 {
                   "name": "Spatha sword",

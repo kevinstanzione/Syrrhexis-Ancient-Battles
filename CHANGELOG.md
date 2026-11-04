@@ -6,6 +6,14 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## 0.12.2 — 2026-11-03
+
+### Points and options (after the Throwing Weapon change)
+- Lēgiōnāriī 21 → 20 pts; Veterānī 23 → 22 pts.
+- Kardakā: Arštaya javelin swap now free (was +1 per model). Auxilia: Lancea javelin swap now free (was +1 per model).
+- Peltastaí: compositions are now 2 Ranks of 5 or 2 Ranks of 4 (was 4×4 or 2×5).
+- Movement trays list regenerated; adds a 3 Ranks of 6 tray.
+
 ## 0.12.1 — 2026-11-03
 
 ### Rules text
