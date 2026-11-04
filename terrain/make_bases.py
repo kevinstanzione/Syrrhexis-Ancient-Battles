@@ -19,8 +19,8 @@ CHAMFER = 1.2    # top-edge chamfer, inside the footprint (mm)
 BASES = [
     ("Monument_2x2in", "Monument", 2 * IN, 2 * IN, "rect", 1, "2” x 2” impassable feature"),
     ("Watchtower_3x3in", "Watchtower", 3 * IN, 3 * IN, "rect", 1, "3” x 3” impassable feature"),
-    ("Wall_8x0.5in", "Phocian Wall / Muriq-Tidnim", 8 * IN, 0.5 * IN, "rect", 1, "full 8” length; needs a 205 mm print bed"),
-    ("Wall_4x0.5in_half", "Phocian Wall / Muriq-Tidnim", 4 * IN, 0.5 * IN, "rect", 2, "print 2 and butt them together for a shorter bed"),
+    ("Wall_8x0.5in", "Field Wall / Phocian Wall / Muriq-Tidnim", 8 * IN, 0.5 * IN, "rect", 1, "full 8” length; needs a 205 mm print bed"),
+    ("Wall_4x0.5in_half", "Field Wall / Phocian Wall / Muriq-Tidnim", 4 * IN, 0.5 * IN, "rect", 2, "print 2 and butt them together for a shorter bed"),
     ("Wagon_40x60mm", "Rolling Wagons", 40, 60, "rect", 3, "one per wagon marker"),
     ("Pig_25mm", "Flaming Pigs", 25, 25, "round", 2, "one per pig marker"),
 ]
