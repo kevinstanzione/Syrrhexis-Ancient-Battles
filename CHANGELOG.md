@@ -10,6 +10,7 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 
 ### Command cards
 - New generic card: Field Wall (Obstacle, Wall; 8” × ½” in your deployment zone, Light Cover; Limit 1).
+- Fossa (Rome): not a Wall. Units that can cross it now do so at half their Move Allowance, and a Charge across it is broken (no +1 Strength from the Charge token, no Collision, no charge-only weapons).
 - Phocian Wall and Muriq-Tidnim are now marked Wall. Walls can be crossed (half Move Allowance, Warriors and Cavalry only), shot over by a unit touching them, and defended (a Charge across a wall loses its +1 Strength, Collision and charge-only weapons). See Walls in the rulebook.
 
 ### Rules

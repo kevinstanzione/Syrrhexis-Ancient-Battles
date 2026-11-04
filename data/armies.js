@@ -6257,7 +6257,7 @@ window.NHB_DATA = {
         "rome"
       ],
       "limit": 1,
-      "text": "Obstacle. Before deployment, place a trench up to 12” long and 1” wide that starts in your deployment zone. Cavalry, Chariots, Elephants and Warmachines cannot cross it. Other units crossing it lose the +1 Strength from their Charge Action Token that round.",
+      "text": "Obstacle. Before deployment, place a trench up to 12” long and 1” wide that starts in your deployment zone. It is not a Wall. Cavalry, Chariots, Elephants and Warmachines cannot cross it. Other units cross it at half their Move Allowance. A Charge that crosses it is broken: the charging unit gains no +1 Strength from its Charge Action Token, causes no Collision, and cannot use weapons that may only be used on the Charge.",
       "flavor": "Caesar's spades guard the flanks better than any cohort."
     },
     {
