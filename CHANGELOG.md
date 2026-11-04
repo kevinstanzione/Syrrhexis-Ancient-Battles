@@ -13,6 +13,7 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - Feign Retreat adds a Fear Test (was a special Break Test). A goaded Closed Order unit makes one Alignment turn toward the attacker, then moves its full Move.
 - Break Token diagram updated for the new Breaking rule.
 - Sumer draft: Gigir-tur gains Feign Retreat (33 pts); Eren rule named Guru.
+- Parthian Shot: the penalty is now stated as -2 Accuracy.
 
 ## 0.13.0 — 2026-11-03
 
