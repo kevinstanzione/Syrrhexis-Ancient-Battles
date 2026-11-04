@@ -6538,8 +6538,8 @@ window.NHB_DATA = {
       "flavor": "Beneath the gaze of their ancestors, no warrior wants to be the first to run."
     },
     {
-      "id": "weight-of-the-charge",
-      "name": "Weight of the Charge",
+      "id": "staggering-impact",
+      "name": "Staggering Impact",
       "short": "A big enough charge can strip an enemy Hold token",
       "limit": 3,
       "text": "Play when a friendly unit’s Charge makes contact with an enemy unit that has a Hold Action Token, if your unit’s Unit Strength is equal to or greater than the target’s. Before Collision, Bumps or Break Tokens are resolved, the target takes a Fear Test. If it fails, it loses its Hold Action Token.",
