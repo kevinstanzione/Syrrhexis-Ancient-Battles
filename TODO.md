@@ -7,7 +7,8 @@
 
 
 ## Terrain bases (3D print)
-- Write a generator (like trays/make_trays.py) for exact-size printable bases for small Command-card terrain: Phocian Wall and Muriq-Tidnim (8" x 1/2"), Watchtower (3" x 3"), Monument (2" x 2"), plus small markers (Rolling Wagons 40x60mm, Flaming Pigs). Large terrain and Major Terrain use felt, so no bases.
+- Generator done: terrain/make_bases.py writes exact-size plates to terrain/stl (Monument 2x2", Watchtower 3x3", wall 8x1/2" or two 4" halves, Rolling Wagons 40x60mm, Flaming Pigs 25mm round). Large terrain and Major Terrain use felt, so no bases.
+- Monument model: first Meshy image done (stele on stepped plinth with altar). Scale so the plinth fits inside 50.8 mm.
 - Models for the bases come from ChatGPT images run through Meshy (Monument prompt drafted 2026-11-03: Bronze Age victory stele).
 
 ## Playtest watch
