@@ -252,7 +252,7 @@ def profile(u):
 </section>'''
 
 
-CARD_KW = re.compile(r'\b(Obstacles?|Flammable|Weather)\b')
+CARD_KW = re.compile(r'\b(Obstacles?|Walls?|Flammable|Weather)\b')
 
 
 def card_text(t):

@@ -6,6 +6,15 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## 0.12.3 — 2026-11-03
+
+### Command cards
+- Phocian Wall and Muriq-Tidnim are now marked Wall. Walls can be crossed (half Move Allowance, Warriors and Cavalry only), shot over by a unit touching them, and defended (a Charge across a wall loses its +1 Strength, Collision and charge-only weapons). See Walls in the rulebook.
+
+### Rules
+- A Closed Order unit traces its line of fire from the centre of its tray.
+- Shooting at an Open Order unit: the line runs to its closest model that can be reached without being Blocked.
+
 ## 0.12.2 — 2026-11-03
 
 ### Points and options (after the Throwing Weapon change)
