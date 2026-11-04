@@ -6,6 +6,11 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## 0.15.0 — 2026-11-04
+
+### Command cards
+- New generic card: Weight of the Charge (Limit 3). When your charging unit makes contact with an enemy on Hold and has at least its Unit Strength, the target takes a Fear Test or loses its Hold Action Token.
+
 ## 0.14.0 — 2026-11-04
 
 ### Armies

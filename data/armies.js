@@ -1,7 +1,7 @@
 // Syrrhēxis army data. Edit the values below; keep the first line as is.
 window.NHB_DATA = {
   "meta": {
-    "version": "0.14.0",
+    "version": "0.15.0",
     "synced": "2026-10-22",
     "sources": {
       "Hittite Empire Army": "1aqMPs2Pi5car6pUzcuWmHXArGss_RZdkgATe5OsbVrw",
@@ -6536,6 +6536,14 @@ window.NHB_DATA = {
       "limit": 3,
       "text": "Obstacle. Before deployment, place a 2” × 2” Monument in the neutral zone, outside every deployment zone. It is impassable and blocks all line of sight that passes over it. Friendly units within 6” of it gain +2 to Break tests.",
       "flavor": "Beneath the gaze of their ancestors, no warrior wants to be the first to run."
+    },
+    {
+      "id": "weight-of-the-charge",
+      "name": "Weight of the Charge",
+      "short": "A big enough charge can strip an enemy Hold token",
+      "limit": 3,
+      "text": "Play when a friendly unit’s Charge makes contact with an enemy unit that has a Hold Action Token, if your unit’s Unit Strength is equal to or greater than the target’s. Before Collision, Bumps or Break Tokens are resolved, the target takes a Fear Test. If it fails, it loses its Hold Action Token.",
+      "flavor": "A line can stand its ground only until the ground itself is pushed back."
     },
     {
       "id": "field-wall",
