@@ -6,6 +6,14 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## 0.13.1 — 2026-11-03
+
+### Rules
+- Feign Charge and Feign Retreat now work the same way: contact, the enemy loses Army Morale equal to the attacker's Unit Strength and gains Break Tokens for Terrify or size as for a normal Charge, then the attacker turns about and moves up to its full Move in any direction, ending with a Run token.
+- Feign Retreat adds a Fear Test (was a special Break Test). A goaded Closed Order unit makes one Alignment turn toward the attacker, then moves its full Move.
+- Break Token diagram updated for the new Breaking rule.
+- Sumer draft: Gigir-tur gains Feign Retreat (33 pts); Eren rule named Guru.
+
 ## 0.13.0 — 2026-11-03
 
 ### Command cards
