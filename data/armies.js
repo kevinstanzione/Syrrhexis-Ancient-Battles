@@ -1,7 +1,7 @@
 // Syrrhēxis army data. Edit the values below; keep the first line as is.
 window.NHB_DATA = {
   "meta": {
-    "version": "0.11.5",
+    "version": "0.12.0",
     "synced": "2026-10-22",
     "sources": {
       "Hittite Empire Army": "1aqMPs2Pi5car6pUzcuWmHXArGss_RZdkgATe5OsbVrw",
@@ -5775,7 +5775,7 @@ window.NHB_DATA = {
       "name": "Watchtower",
       "short": "Obstacle: keeps enemy deployment away",
       "limit": 3,
-      "text": "Obstacle, Flammable. Before deployment, place a 3” × 3” Watchtower in your deployment zone. It is impassable but does not block line of sight. While a Skirmishing Warrior unit is in base contact with it, and no other unit is in base contact with that unit or the Watchtower, no enemy unit may deploy within 18” of the Watchtower. Any player may use this effect.",
+      "text": "Obstacle, Flammable. Before deployment, place a 3” × 3” Watchtower in your deployment zone. It is impassable but does not block line of sight. Shooting attacks that pass over it treat the target as in at least Light Cover. While a Skirmishing Warrior unit is in base contact with it, and no other unit is in base contact with that unit or the Watchtower, no enemy unit may deploy within 18” of the Watchtower. Any player may use this effect.",
       "flavor": "From the tower, no ambush goes unseen."
     },
     {
@@ -5791,7 +5791,7 @@ window.NHB_DATA = {
       "name": "Rolling Wagons",
       "short": "Obstacle: wagons crash into the enemy line",
       "limit": 1,
-      "text": "Obstacle, Flammable. Before deployment, place 3 wagon markers (40 × 60mm) in your deployment zone, facing the enemy board edge. Once per game, at the start of any Activation Phase, release them: each wagon moves directly forward up to 18” until it touches a unit or impassable terrain. If it touches an enemy unit, that unit takes a Fear Test and gains a Break Token, then the wagon makes 2 attacks at Accuracy 9, Strength 7 against it (Accuracy 5 if the unit passed the test). The wagon is then removed. A wagon that touches a friendly unit or impassable terrain, or travels 18”, is removed without effect. Wagons are not units: they cannot be targeted or charged, do not generate or lose Army Morale, and take no Order Tokens.",
+      "text": "Obstacle, Flammable. Before deployment, place 3 wagon markers (40 × 60mm) in your deployment zone, facing the enemy board edge. Until released, the wagons are impassable, do not block line of sight, and shooting attacks that pass over them treat the target as in at least Light Cover. Once per game, at the start of any Activation Phase, release them: each wagon moves directly forward up to 18” until it touches a unit or impassable terrain. If it touches an enemy unit, that unit takes a Fear Test and gains a Break Token, then the wagon makes 2 attacks at Accuracy 9, Strength 7 against it (Accuracy 5 if the unit passed the test). The wagon is then removed. A wagon that touches a friendly unit or impassable terrain, or travels 18”, is removed without effect. Wagons are not units: they cannot be targeted or charged, do not generate or lose Army Morale, and take no Order Tokens.",
       "flavor": "The tribesmen massed their carts at the head of the pass, ready to send them crashing into the climbing phalanx."
     },
     {
@@ -5903,7 +5903,7 @@ window.NHB_DATA = {
       "name": "Crumbled Ruins",
       "short": "Terrain: a patch of Stony Plain",
       "limit": 3,
-      "text": "Before deployment, place 8” × 8” Crumbled Ruins in the neutral zone, outside every deployment zone. They follow the rules for a Stony Plain.",
+      "text": "Before deployment, place 8” × 8” Crumbled Ruins in the neutral zone, outside every deployment zone. They follow the rules for a Stony Plain, and units in them have Light Cover.",
       "flavor": "The bones of an older city trip the living."
     },
     {

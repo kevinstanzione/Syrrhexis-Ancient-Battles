@@ -6,6 +6,19 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## 0.12.0 — 2026-11-03
+
+### Rulebook: shooting
+- True line of sight is gone. Shooting now traces a single line of fire: from the centre of a Closed Order tray's front edge (or a model the Open Order unit chooses as its Leader for the shot) to the centre of the target's tray (or the closest model of an Open Order target).
+- Blocked: the line may not cross terrain that blocks Line of Sight, a Closed Order unit other than the target, or any friendly unit (unless using Volley).
+- Cover comes from terrain the line crosses or the target stands in, plus Light Cover from an Open Order enemy unit in the way; use the best. Light Cover -1 Accuracy, Cover -2 Accuracy, Heavy Cover -2 Accuracy and half the attacks. The visibility table and the separate friendly/enemy/terrain cover rules are removed.
+
+### Command cards
+- Watchtower: shots over it give Light Cover.
+- Rolling Wagons: impassable until released, and shots over them give Light Cover.
+- Crumbled Ruins: units in them have Light Cover.
+- Abandoned war engines (rulebook): no longer block Line of Sight; they give Light Cover.
+
 ## 0.11.5 — 2026-11-03
 
 ### Command cards
