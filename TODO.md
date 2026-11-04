@@ -6,6 +6,10 @@
   - Watch in playtesting: Collision applies every round, so deep blocks may grind down Open Order units.
 
 
+## Terrain bases (3D print)
+- Write a generator (like trays/make_trays.py) for exact-size printable bases for small Command-card terrain: Phocian Wall and Muriq-Tidnim (8" x 1/2"), Watchtower (3" x 3"), Monument (2" x 2"), plus small markers (Rolling Wagons 40x60mm, Flaming Pigs). Large terrain and Major Terrain use felt, so no bases.
+- Models for the bases come from ChatGPT images run through Meshy (Monument prompt drafted 2026-11-03: Bronze Age victory stele).
+
 ## Playtest watch
 - Breaking (changed 2026-11-03): passing removes 1 Break Token, or all if the unit was not Locked in Combat and took no Damage. Watch how often units break, especially at Mass Casualties (2 tokens every Activation Phase).
 
