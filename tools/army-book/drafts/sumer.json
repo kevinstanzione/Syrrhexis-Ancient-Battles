@@ -507,7 +507,9 @@
     "shield": null,
     "opts": [],
     "chars": [],
-    "rules": [],
+    "rules": [
+     "Feign Retreat"
+    ],
     "weapons": {
      "Ĝešbu": [
       "5 / 8”",
