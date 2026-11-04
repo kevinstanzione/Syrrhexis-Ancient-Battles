@@ -40,7 +40,7 @@ window.NHB_RULES = {
     "Reach (X)": "Models up to X ranks behind the front rank of a Closed Order unit also attack in Melee.",
     "Recurve Bow": "This weapon's Direct Fire applies to targets within half of maximum range, instead of a quarter.",
     "Sunder (X)": "Enemies roll Armor Saves at a -X penalty against attacks with this weapon.",
-    "Throwing Weapon": "Ignores the “Attacker moved” penalty. While Locked in Combat with a Hold token, may shoot units it is fighting at -3 Accuracy, without Aim or Volley.",
+    "Throwing Weapon": "In Closed Order, only the front two ranks throw. Ignores the “Attacker moved” penalty. While Locked in Combat with a Hold token, may shoot units it is fighting at -3 Accuracy, without Aim or Volley.",
     "Thrusting Blade": "Enemies roll Armor Saves at -1 while the unit has no Flee, Charge, or Run token.",
     "Unwieldy (X)": "Closed Order: each turn costs an additional X” of Move Allotment, including the Alignment turn before a Charge. Open Order: -X Move instead."
   },
