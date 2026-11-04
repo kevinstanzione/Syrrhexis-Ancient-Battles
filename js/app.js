@@ -389,8 +389,9 @@
   function loadoutText(x) {
     const bits = [];
     if (x.u.mixed) {
-      bits.push(`${x.u.mixed.front.label}: ${x.u.mixed.front.w.join(", ")}${x.u.mixed.front.shield ? ", " + x.u.mixed.front.shield : ""}`);
-      bits.push(`${x.u.mixed.rest.label}: ${x.u.mixed.rest.w.join(", ")}`);
+      const kit = m => [...m.w, m.shield].filter(Boolean).join(", ") || "none";
+      bits.push(`${x.u.mixed.front.label}: ${kit(x.u.mixed.front)}`);
+      bits.push(`${x.u.mixed.rest.label}: ${kit(x.u.mixed.rest)}`);
       if (x.lo.body) bits.push(`All: ${x.lo.body}`);
       return bits.join(" · ");
     }

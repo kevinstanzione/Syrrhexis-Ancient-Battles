@@ -6,6 +6,16 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## 0.14.0 — 2026-11-04
+
+### Armies
+- New army: Sumerian Kingdom (c. 2600–2000 BC), moved from the Army Book draft into the builder. Ten units: Eren (with the Guru rule), Šub-lugal, Guruš, Lú-ĝešbu, Lú-daluš, Lú-ĝešpan, Gigir, Gigir-tur (Feign Retreat, Straddle Car), Aga-ús Retinue and Martu.
+- Four Sumerian Command cards: The God's Steward, Shields of Lagash, Battle Net of Ningirsu and Muriq-Tidnim.
+
+### Builder
+- Chariot crews can set a per-horse Unit Strength (`horseUS`), used by Straddle Car.
+- Mixed units no longer print a stray comma when a rank carries only a shield.
+
 ## 0.13.1 — 2026-11-03
 
 ### Rules

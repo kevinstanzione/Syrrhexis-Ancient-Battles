@@ -24,7 +24,8 @@ def load_data():
 
 D = load_data()
 # Playtest armies not yet in the list builder: drafts/<id>.json = {"draft": true, "army": {...}, "labels": {...}}
-for _f in sorted(os.listdir(os.path.join(HERE, 'drafts'))):
+_DRAFTS = os.path.join(HERE, 'drafts')
+for _f in (sorted(os.listdir(_DRAFTS)) if os.path.isdir(_DRAFTS) else []):
     if _f.endswith('.json'):
         _d = json.load(open(os.path.join(HERE, 'drafts', _f), encoding='utf8'))
         _d['army']['draft'] = True

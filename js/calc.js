@@ -207,7 +207,7 @@ window.NHB = (function () {
     const n = models(u, sel);
     const levy = activeRules(u, sel).includes("Levy");
     const rf = ranksFiles(u, sel);
-    if (u.type === "Chariot") { const c = u.crew; return n * (c.driver + c.crew + 2 * c.horses); }
+    if (u.type === "Chariot") { const c = u.crew; return n * (c.driver + c.crew + (c.horseUS == null ? 2 : c.horseUS) * c.horses); } // horseUS: Straddle Car
     if (u.type === "Elephant") { const c = u.crew; return n * (c.mahout + c.crew + lo.crewPlus + 12); }
     if (/Warmachine/.test(u.type)) return n + (u.engineUS || 3);
     const per = /Cavalry/.test(u.type) ? 3 : 1;
