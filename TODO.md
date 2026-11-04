@@ -9,6 +9,8 @@
 ## Terrain bases (3D print)
 - Generator done: terrain/make_bases.py writes exact-size plates to terrain/stl (Monument 2x2", Watchtower 3x3", wall 8x1/2" or two 4" halves, Rolling Wagons 40x60mm, Flaming Pigs 25mm round). Large terrain and Major Terrain use felt, so no bases.
 - Monument model: first Meshy image done (stele on stepped plinth with altar). Scale so the plinth fits inside 50.8 mm.
+- Meshy models done 2026-11-03: Monument, Muriq-Tidnim wall section, timber Watchtower. Walls are chunky and untextured on the back: mirror the textured front onto the back and thin to about 12 mm deep. Scale each wall section to 4" long. Watchtower footing is rectangular: fit the long side to about 74 mm.
+- Still to model: Phocian Wall (prompt drafted), Field Wall, Rolling Wagons, Flaming Pigs.
 - Models for the bases come from ChatGPT images run through Meshy (Monument prompt drafted 2026-11-03: Bronze Age victory stele).
 
 ## Playtest watch
