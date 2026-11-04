@@ -69,7 +69,7 @@
      "Shieldwall"
     ],
     "custom": {
-     "Eren Shield Wall": "Attacks against this unit from its front arc use the 1st Rank's Armor; attacks from its flanks or rear use the Armor of the other ranks. When this unit enters Half Strength, it removes models from its front rank first, working backward, instead of from its rear rank. A unit loses Shieldwall while none of its models carry a Shield or Heavy Shield."
+     "Guru": "Attacks against this unit from its front arc use the 1st Rank's Armor; attacks from its flanks or rear use the Armor of the other ranks. When this unit enters Half Strength, it removes models from its front rank first, working backward, instead of from its rear rank. A unit loses Shieldwall while none of its models carry a Shield or Heavy Shield."
     },
     "weapons": {
      "Šukur": [

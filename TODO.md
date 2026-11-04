@@ -22,7 +22,7 @@
 - Added 2026-11-03: Gigir-tur Straddle Car rule (1 Unit Strength per Kunga, car = 5); Shields of Lagash Command card (ongoing advance under shields). Both in the army book draft; plan doc not yet updated.
 - Gigir-tur points: recheck after Straddle Car (lower Unit Strength means less Bump/Terrify but much smaller Flee losses).
 - Command cards (draft): The God's Steward, Shields of Lagash, Battle Net of Ningirsu, Muriq-Tidnim.
-- Still open from the plan: a name for the Eren Shield Wall rule, then move the list into the builder with the Shieldwall rule. Šukur Length 8 confirmed.
+- Eren rule named Guru (Sumerian "shield", ePSD2 guru) on 2026-11-03. Still open: move the list into the builder with the Shieldwall rule. Šukur Length 8 confirmed.
 
 ## Armies of Alexander (paused)
 - Draft unit list: Pezhétairoi (sarissa with Reach (2)), Hypaspistaí, Agēma Retinue (foot), Argyráspides, Hetaîroi, Basilikḕ Ílē Retinue (mounted), Thessaloì Hippeîs, Pródromoi, Agriânes, Krêtes Toxótai, Thureophóroi, Eléphantes, Oxybeleîs. Extras: scythed chariots, Katáphraktoi, Tarantînoi.
