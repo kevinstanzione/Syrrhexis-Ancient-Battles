@@ -5774,7 +5774,7 @@ window.NHB_DATA = {
       "id": "field-wall",
       "name": "Field Wall",
       "short": "Obstacle: a low wall that gives Light Cover",
-      "limit": 2,
+      "limit": 1,
       "text": "Obstacle, Wall. Before deployment, place a wall up to 8” long and ½” wide in your deployment zone. It does not block Line of Sight. Shooting attacks that pass over it treat the target as in at least Light Cover.",
       "flavor": "Stones cleared from the fields, piled shoulder-high along the boundary."
     },

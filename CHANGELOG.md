@@ -9,7 +9,7 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 ## 0.13.0 — 2026-11-03
 
 ### Command cards
-- New generic card: Field Wall (Obstacle, Wall; 8” × ½” in your deployment zone, Light Cover; Limit 2).
+- New generic card: Field Wall (Obstacle, Wall; 8” × ½” in your deployment zone, Light Cover; Limit 1).
 - Phocian Wall and Muriq-Tidnim are now marked Wall. Walls can be crossed (half Move Allowance, Warriors and Cavalry only), shot over by a unit touching them, and defended (a Charge across a wall loses its +1 Strength, Collision and charge-only weapons). See Walls in the rulebook.
 
 ### Rules
