@@ -23,6 +23,9 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 ### Deployment
 - The First Player chooses who deploys first, and also chooses who deploys their Scouting units first and who deploys their Ambushing units first (was decided by Byes, with a roll-off).
 
+### 2v2
+- Teams share one Army Morale: both armies' Starting Army Morale is added together, and gains, losses and categories apply to the shared total. "Each opponent gains" Army Morale (Lord, Standard Bearers, Musicians, Commander) is now "the opponent", meaning the opposing team in 2v2.
+
 ### Points (re-priced for the new tables)
 - Pīrū 100 → 90; Raθā-Dāça 50 → 46; Scorpiō engine 60 → 50; Carroballista engine 70 → 62; Thracian Warriors 12 → 11.
 - Guruš 7 → 8; Martu 11 → 12; Lydian Houndsmen 16 → 17.
