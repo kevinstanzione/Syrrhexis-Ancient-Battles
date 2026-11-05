@@ -6,6 +6,29 @@
   - Watch in playtesting: Collision applies every round, so deep blocks may grind down Open Order units.
 
 
+### Rulebook corrections (Kevin's read-through, 2026-11-04)
+Rules (agreed, do first):
+- Aim: reduce Cover by one step (same as Volley) instead of ignoring Light Cover. Rulebook and builder rules text.
+- Shooting modifiers table: split cover into three rows (Light Cover -1 Accuracy; Cover -2; Heavy Cover -2 and lose half the attacks). Aim row "+1 Accuracy, reduces Cover by one step"; Volley row "-1 Accuracy, reduces Cover by one step".
+- Shooting Modifiers section: rewrite. Name the two bare conditions, Close Range (target within half max range, +1 Accuracy) and On the Move (attacker moved, -1 Accuracy). Everything else points to its named rule. Rows become e.g. "Defender has Evasion | -1 Accuracy (another -1 for Cumbersome weapons)", "Attacker uses a Throwing Weapon | Ignore On the Move". Drop "special ability" wording (Volley, Aim, Throwing Weapon) and link each name to its rule.
+- Cohesion: Standard Move has the Open Order cohesion diagram but no rule text for it, and nothing says what happens to a model out of Cohesion. Find where Cohesion is defined, add the rule, decide the stray-model rule with Kevin.
+- Rename the "Shooting or Rallying" step (later). Options: Command Step, Action Step, Missile Step, Volley and Rally Step.
+Text and layout:
+- Make every "see X" cross-reference a real link (Toughness, Great Toughness, Command cards and so on).
+- Evasion is the only Unit Type ability with flavour text; remove it to match the rest.
+- Body Armor table: style "Unwieldy (1)" on Heavy Armor as a proper rule callout.
+- Game Round Sequence, Activation Phase: in the Shooting or Rallying step the description after the hyphen is bold; only the step name should be.
+- Game Round Sequence: End of the Round is pushed to the top of the next column; keep it under the Morale Phase.
+Diagrams:
+- Battlefield: "Blue/Red deployment zone" labels overlap the Major Terrain strip lines.
+- Turn Template: doesn't match the rule (template corner at the tray's front corner, front edge flush to one arm); the turn goes the wrong way and the dashed "before" box is wrong. Reread the rule and redraw.
+- Charge Arcs: "Defender: Hoplîtai, 4 ranks of 5" overlaps the dashed lines; shrink or move down.
+- Path and Bumping: move "Skirmishers" a little right and down, off the dotted line.
+- Charge Fails: move "Crumbled Ruins (Stony Plain)" left off the dotted line; make the "need 7”" bar dashed.
+- Pile In, Closed vs Closed: centre panel step 1 curved arrowhead is drawn wrong.
+- Pile In, Open Order: add a dot on the attacker panel's Leader, to match the defender panel's Focus dot.
+- Firing Angle: "Target A / in the arc" overlaps the blue dotted line; move down.
+
 ## Terrain bases (3D print)
 - Generator done: terrain/make_bases.py writes exact-size plates to terrain/stl (Monument 2x2", Watchtower 3x3", wall 8x1/2" or two 4" halves, Rolling Wagons 40x60mm, Flaming Pigs 25mm round). Large terrain and Major Terrain use felt, so no bases.
 - Monument model: first Meshy image done (stele on stepped plinth with altar). Scale so the plinth fits inside 50.8 mm.
