@@ -32,6 +32,7 @@ Diagrams:
 - Charge Fails: move "Crumbled Ruins (Stony Plain)" left off the dotted line; make the "need 7”" bar dashed.
 - Pile In, Closed vs Closed: centre panel step 1 curved arrowhead is drawn wrong.
 - Pile In, Open Order: add a dot on the attacker panel's Leader, to match the defender panel's Focus dot.
+- Who Attacks in Melee (reach diagram): name Collision in the panels, e.g. "5 attacks + 3 Collision Hits" instead of "+ 3 Hits", and make the +1 rank markers read as Collision.
 - Firing Angle: "Target A / in the arc" overlaps the blue dotted line; move down.
 
 ## Terrain bases (3D print)
