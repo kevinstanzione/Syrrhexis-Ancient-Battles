@@ -6,6 +6,11 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## Rulebook — 2026-11-05
+
+- Melees: every unit joined through base contact with an enemy is one Melee, so chained fights merge. Units attack only enemies they touch and may split attacks between them; Damage is totalled per side, with one winner and one Combat Move. A Melee that splits becomes separate Melees.
+- Combat Moves: a moving unit stops at an enemy, a friendly unit, impassable terrain or the board edge, so it may move less than 2” or not at all; still in contact means still Locked in Combat. A Pushed unit that cannot move at least 1” gains 2 Break Tokens.
+
 ## 0.16.0 — 2026-11-04
 
 ### Rules
