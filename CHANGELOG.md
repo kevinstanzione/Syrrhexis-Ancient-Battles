@@ -6,6 +6,10 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## Rulebook — 2v2 (2026-11-05)
+
+- 2v2 Games rewritten: a team plays as one side; 4’ × 6’ board with a shared Friendly edge and deployment zone; team bid is the sum of both players' bids (up to 50); each player keeps their own Command deck and hand, but card effects apply to the team; the team deploys as one army (shared Byes, First Player picks who deploys first and who places Scouts and Ambushers first); one Initiative roll per team with both teammates' bonuses; shared Army Morale.
+
 ## 0.17.0 — 2026-11-05
 
 ### Points (Special Characters, after the Army Morale changes)
