@@ -9,6 +9,7 @@
 ### Rulebook corrections (Kevin's read-through, 2026-11-04)
 Done 2026-11-05: Aim and the Shooting Modifiers rework, "see X" links, Evasion flavour, Unwieldy styling, Activation Phase bold, End of the Round placement, Cohesion note, Stony Plain Strength 6, and the diagram fixes (Battlefield, Turning, Charge Arcs, Path and Bumping, Charge Fails, both Pile In, Firing Angle).
 Still to do:
+- Walls diagram for the Terrain chapter: crossing a wall, and fighting across one (charger stops at the wall, defender drawn up). Shooting over is optional.
 - Melee definition (decided 2026-11-04, Option 1): every unit joined by base contact with an enemy is one Melee (chains merge). A unit may only attack enemies in base contact with it, dividing its attacks between them. If units leave and a Melee splits into separate groups, each group becomes its own Melee. Still one winner and one Combat Move per Melee.
 - Combat Moves when boxed in (decided 2026-11-04): a unit making or receiving a Combat Move stops if it would touch an enemy unit, pass through a friendly unit or impassable terrain, or leave the battlefield (never pushed off the board), so it may move less than 2” or not at all; still in contact means still Locked in Combat. A Pushed unit that cannot move at least 1” gains 2 Break Tokens.
 - Rename the "Shooting or Rallying" step (later). Options: Command Step, Action Step, Missile Step, Volley and Rally Step.
