@@ -20,6 +20,9 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - Rear Captain: +1 to Break Tests and to Rally itself (was +2).
 - Commander and Army Standard Bearer: Army Morale lost while their unit flees, and when it is eliminated, is now their Training (was 2×), the same as the Lord, Standard Bearer and Army Musician.
 
+### Deployment
+- The First Player chooses who deploys first, and also chooses who deploys their Scouting units first and who deploys their Ambushing units first (was decided by Byes, with a roll-off).
+
 ### Points (re-priced for the new tables)
 - Pīrū 100 → 90; Raθā-Dāça 50 → 46; Scorpiō engine 60 → 50; Carroballista engine 70 → 62; Thracian Warriors 12 → 11.
 - Guruš 7 → 8; Martu 11 → 12; Lydian Houndsmen 16 → 17.
