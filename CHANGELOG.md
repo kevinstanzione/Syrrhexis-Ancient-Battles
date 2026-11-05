@@ -10,6 +10,7 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 
 ### Rules
 - Aim now reduces Cover by one step, like Volley (was: ignores Light Cover).
+- Defending a Wall: a unit may charge an enemy anywhere behind a wall that it could reach without the wall. The charger stops at the wall and the defender is drawn up into contact with it (up to its Move; if it can't reach, the Charge fails). Closes the gap where a unit standing just behind a wall couldn't be charged.
 - Marsh: every Break Token effect now gives 2 Break Tokens (moving within it, an Elephant starting wholly within it, and a stuck Chariot or Warmachine, which was 4).
 - Stony Plain: Chariots, Elephants and Warmachines take 1 hit at Strength 6 for each Chariot, Elephant or war engine (was 1 hit at Strength 4).
 - Gain X and Lose X on the Hitting and Wounding tables now add or remove dice instead of successes: Gain X rolls X extra dice, Lose X rolls X fewer (a pool can reach 0). This softens low Accuracy and Strength and tames the flat bonus at 7 and above.
