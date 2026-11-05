@@ -19,7 +19,7 @@ for k, title in enumerate(['Before', 'After']):
         s.tray(cx, ry, 2, 4, 0, 'red')
         s.text(cx, PH - 6, 'Attacker charges', 6, C['red'], bold=True)
         for x, y in old: s.model(x, y, 'blue', ang=180)
-        s.text(cx + 78, 133, 'Skirmishers', 5.5, C['blue'], 'end', italic=True)
+        s.text(cx + 83, 137, 'Skirmishers', 5.5, C['blue'], 'end', italic=True)
     else:
         s.tray(cx, ry, 2, 4, 0, 'red', ghost=True)
         s.tray(cx, bfront + 23, 2, 4, 0, 'red')

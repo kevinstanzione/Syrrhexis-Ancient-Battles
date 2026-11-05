@@ -4,7 +4,8 @@ s = SVG(W, H, 'Turning with the Turn Template', [
     'The Turn Template is two 3.5” arms meeting at 135°. Put its corner at a front corner of the tray, with the front edge flush',
     'against one arm, then turn the unit backwards around that corner. After a full 45° turn, the unit’s flank is flush with the',
     'other arm; it may stop sooner for a smaller turn. Each turn costs 1” of Move, plus X” for Unwieldy (X). A unit may keep',
-    'turning the same way for 1” per turn, but must move forward at least 1” before turning the other way.'])
+    'turning the same way for 1” per turn, but must move forward at least 1” before turning the other way. Here the tray pivots on',
+    'its front-left corner, so its right end swings back and the unit turns to face right; pivot on the front-right corner to turn left.'])
 s.panel(0, 0, W, H)
 w, d = 4 * 20 + 2 * B, 2 * 20 + 2 * B
 P = (110, 40)   # pivot: front-left corner of the tray
@@ -24,10 +25,10 @@ def bracket(px, py):
             s.add(f'<line x1="{x:.1f}" y1="{y:.1f}" x2="{x + 4*n[0]:.1f}" y2="{y + 4*n[1]:.1f}" stroke="{C["line"]}" stroke-width="0.7"/>')
 bracket(*P)
 s.text(P[0] + ARM - 2, P[1] - 13, 'Turn Template', 5.5, C['ink'], 'end', bold=True)
-s.tray(*centre(0), 2, 4, 0, 'red', outline=True)
+s.tray(*centre(0), 2, 4, 0, 'red', ghost=True)
 s.tray(*centre(45), 2, 4, 45, 'red')
 s.add(f'<circle cx="{P[0]}" cy="{P[1]}" r="2.2" fill="{C["ink"]}"/>')
-s.arc_arrow(P[0], P[1], w + 8, 2, 41)
+s.arc_arrow(P[0], P[1], w + 6, 3, 43)
 s.text(P[0] + w + 16, P[1] + 34, '1” of Move', 6, C['red'], 'start', bold=True)
 s.text(P[0] + w + 16, P[1] + 42, '(+X” Unwieldy)', 5.5, C['red'], 'start', italic=True)
 s.text(P[0] + w - 14, P[1] + 22, 'Start', 5.5, C['red'], italic=True)

@@ -15,17 +15,18 @@ rx0, ry0 = 30, start_front - 14
 s.add(f'<rect x="{rx0}" y="{ry0}" width="{W - 2*rx0 + 10}" height="{H - ry0 - 30}" rx="6" fill="{C["terrainl"]}" stroke="{C["terrain"]}" stroke-width="1" stroke-dasharray="4 2"/>')
 for i, (x, y) in enumerate([(45, ry0 + 12), (205, ry0 + 20), (50, ry0 + 70), (200, ry0 + 75)]):
     s.add(f'<path d="M{x},{y} l5,-4 l6,2 l2,5 l-6,3 l-6,-1 z" fill="{C["terrain"]}" opacity="0.8"/>')
-s.text(W - 14, ry0 + 103, 'Crumbled Ruins (Stony Plain)', 5.5, C['line'], 'end', italic=True)
+s.text(W - 27, ry0 + 101, 'Crumbled Ruins (Stony Plain)', 5.5, C['line'], 'end', italic=True)
 s.tray(cx, bfront - 33, 3, 5, 180, 'blue')
 s.tray(cx, start_front + dr / 2, 3, 4, 0, 'red', ghost=True)
 end_front = start_front - 6 * IN
 s.tray(cx, end_front + dr / 2, 3, 4, 0, 'red')
-def dim(x, y1, y2, label, col=None, left=False):
+def dim(x, y1, y2, label, col=None, left=False, dashed=False):
     col = col or C['ink']
-    s.add(f'<line x1="{x}" y1="{y1:.1f}" x2="{x}" y2="{y2:.1f}" stroke="{col}" stroke-width="0.8"/>')
+    dash = ' stroke-dasharray="3 2"' if dashed else ''
+    s.add(f'<line x1="{x}" y1="{y1:.1f}" x2="{x}" y2="{y2:.1f}" stroke="{col}" stroke-width="0.8"{dash}/>')
     for y in (y1, y2): s.add(f'<line x1="{x-3}" y1="{y:.1f}" x2="{x+3}" y2="{y:.1f}" stroke="{col}" stroke-width="0.8"/>')
     s.text(x + (-5 if left else 5), (y1 + y2) / 2 + 2, label, 6, col, 'end' if left else 'start', bold=True)
-dim(cx + 62, bfront, start_front, 'needs 7”')
+dim(cx + 62, bfront, start_front, 'needs 7”', dashed=True)
 dim(cx - 60, end_front, start_front, 'moves 6”', C['red'], left=True)
 dim(cx - 60, bfront, end_front, '1” gap', C['line'], left=True)
 tx, ty = cx - 45, end_front + dr + 14

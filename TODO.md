@@ -7,34 +7,16 @@
 
 
 ### Rulebook corrections (Kevin's read-through, 2026-11-04)
-Rules (agreed, do first):
-- Aim: reduce Cover by one step (same as Volley) instead of ignoring Light Cover. Rulebook and builder rules text.
-- Shooting modifiers table: split cover into three rows (Light Cover -1 Accuracy; Cover -2; Heavy Cover -2 and lose half the attacks). Aim row "+1 Accuracy, reduces Cover by one step"; Volley row "-1 Accuracy, reduces Cover by one step".
-- Shooting Modifiers section: rewrite. Name the two bare conditions, Close Range (target within half max range, +1 Accuracy) and On the Move (attacker moved, -1 Accuracy). Everything else points to its named rule. Rows become e.g. "Defender has Evasion | -1 Accuracy (another -1 for Cumbersome weapons)", "Attacker uses a Throwing Weapon | Ignore On the Move". Drop "special ability" wording (Volley, Aim, Throwing Weapon) and link each name to its rule.
-- Cohesion: Standard Move has the Open Order cohesion diagram but no rule text for it, and nothing says what happens to a model out of Cohesion. Find where Cohesion is defined, add the rule, decide the stray-model rule with Kevin.
+Done 2026-11-05: Aim and the Shooting Modifiers rework, "see X" links, Evasion flavour, Unwieldy styling, Activation Phase bold, End of the Round placement, Cohesion note, Stony Plain Strength 6, and the diagram fixes (Battlefield, Turning, Charge Arcs, Path and Bumping, Charge Fails, both Pile In, Firing Angle).
+Still to do:
 - Melee definition (decided 2026-11-04, Option 1): every unit joined by base contact with an enemy is one Melee (chains merge). A unit may only attack enemies in base contact with it, dividing its attacks between them. If units leave and a Melee splits into separate groups, each group becomes its own Melee. Still one winner and one Combat Move per Melee.
 - Combat Moves when boxed in (decided 2026-11-04): a unit making or receiving a Combat Move stops if it would touch an enemy unit, pass through a friendly unit or impassable terrain, or leave the battlefield (never pushed off the board), so it may move less than 2” or not at all; still in contact means still Locked in Combat. A Pushed unit that cannot move at least 1” gains 2 Break Tokens.
 - Rename the "Shooting or Rallying" step (later). Options: Command Step, Action Step, Missile Step, Volley and Rally Step.
-Text and layout:
 - Armor Save table: make the Shooting and Melee copies identical: header "Armor Value", columns 0, 1, 2, 3, 4, ≥5; saves –, 6+, 5+, 4+, 3+, 2+. (Melee currently says "Total Armor" and runs to 8; Shooting ends at ≥6.)
 - Melee Wounds (Strength) modifiers table: move "Attacker has Run Token | -1 Strength" up to just above "Defender has Flee Token". House style for modifier tables: penalties first, in order of severity, then bonuses. Check the other modifier tables (including the reworked Shooting table) follow it.
 - Melee Hits modifiers table: add a First Blood row, "Attacker has taken Damage earlier in this Melee (First Blood) | -1 attack per model's worth of Damage", linked to the First Blood paragraph.
-- Make every "see X" cross-reference a real link (Toughness, Great Toughness, Command cards and so on).
-- Evasion is the only Unit Type ability with flavour text; remove it to match the rest.
-- Body Armor table: style "Unwieldy (1)" on Heavy Armor as a proper rule callout.
-- Game Round Sequence, Activation Phase: in the Shooting or Rallying step the description after the hyphen is bold; only the step name should be.
-- Game Round Sequence: End of the Round is pushed to the top of the next column; keep it under the Morale Phase.
-Diagrams:
-- Battlefield: "Blue/Red deployment zone" labels overlap the Major Terrain strip lines.
-- Turn Template: doesn't match the rule (template corner at the tray's front corner, front edge flush to one arm); the turn goes the wrong way and the dashed "before" box is wrong. Reread the rule and redraw.
-- Charge Arcs: "Defender: Hoplîtai, 4 ranks of 5" overlaps the dashed lines; shrink or move down.
-- Path and Bumping: move "Skirmishers" a little right and down, off the dotted line.
-- Charge Fails: move "Crumbled Ruins (Stony Plain)" left off the dotted line; make the "need 7”" bar dashed.
-- Pile In, Closed vs Closed: centre panel step 1 curved arrowhead is drawn wrong.
-- Pile In, Open Order: add a dot on the attacker panel's Leader, to match the defender panel's Focus dot.
 - Who Attacks in Melee (reach diagram): name Collision in the panels, e.g. "5 attacks + 3 Collision Hits" instead of "+ 3 Hits", and make the +1 rank markers read as Collision.
 - Break Tokens diagram: text already shows the new pass rule (remove 1, or all if not in combat and no Damage). Make it visual: show the Pass outcome as the tray with 2 of its 3 Break Tokens left (one crossed out), and the out-of-combat case clearing all three.
-- Firing Angle: "Target A / in the arc" overlaps the blue dotted line; move down.
 
 ## Terrain bases (3D print)
 - Generator done: terrain/make_bases.py writes exact-size plates to terrain/stl (Monument 2x2", Watchtower 3x3", wall 8x1/2" or two 4" halves, Rolling Wagons 40x60mm, Flaming Pigs 25mm round). Large terrain and Major Terrain use felt, so no bases.

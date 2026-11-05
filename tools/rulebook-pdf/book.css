@@ -109,3 +109,4 @@ figure.tall img { width: 88%; }
 .profile td.pname p:last-child { font-style: italic; color: var(--muted); margin: 0; }
 .profile td.pstats { width: 2.4in; }
 .profile td.pstats table { margin: 0; }
+.seq { break-inside: avoid; }

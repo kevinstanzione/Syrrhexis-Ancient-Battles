@@ -15,7 +15,7 @@ s.add(f'<clipPath id="pan"><rect x="0" y="0" width="{W}" height="{H}"/></clipPat
 s.add(f'<polygon clip-path="url(#pan)" points="{" ".join(f"{x:.1f},{y:.1f}" for x, y in pts)}" fill="{C["blue"]}" fill-opacity="0.10" stroke="{C["blue"]}" stroke-width="0.7" stroke-dasharray="3 2"/>')
 s.tray(cx, cy, 2, 4, 0, 'blue', name='Archers')
 s.text(30, 112, 'firing arc', 5.5, C['blue'], italic=True, rot=-45)
-s.tray(200, 45, 2, 3, 200, 'red'); s.text(262, 35, 'Target A', 6, C['red'], bold=True); s.text(262, 42, 'in the arc', 5.5, C['red'], italic=True)
+s.tray(200, 45, 2, 3, 200, 'red'); s.text(268, 47, 'Target A', 6, C['red'], bold=True); s.text(268, 54, 'in the arc', 5.5, C['red'], italic=True)
 s.tray(cx - 8, fy - IN - 23, 2, 4, 180, 'red'); s.text(cx - 8, fy - IN - 58, 'Target C', 6, C['red'], bold=True); s.text(cx - 8, fy - IN - 51, '1” away: No Cover', 5.5, C['red'], italic=True)
 s.tray(258, 150, 2, 2, 270, 'red'); s.text(258, 112, 'Target B', 6, C['red'], bold=True); s.text(258, 119, 'outside the arc', 5.5, C['red'], italic=True)
 s.add(f'<rect x="0.4" y="0.4" width="{W-0.8}" height="{H-0.8}" fill="none" stroke="{C["line"]}" stroke-width="0.8"/>')

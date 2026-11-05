@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 228" width="720" height="547" font-family="Georgia, 'Times New Roman', serif">
-<defs><marker id="arrow_b4473a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#b4473a"/></marker></defs>
-<rect width="300" height="228" fill="#fff"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 244" width="720" height="586" font-family="Georgia, 'Times New Roman', serif">
+<defs></defs>
+<rect width="300" height="244" fill="#fff"/>
 <rect x="0" y="0" width="300" height="160" fill="#f6f1e6" stroke="#6b6253" stroke-width="0.8"/>
 <polygon points="47.1,102.9 40.1,95.8 102.9,32.9 110.0,30.0 198.9,30.0 198.9,40.0 110.0,40.0" fill="#efe2bf" stroke="#6b6253" stroke-width="0.9"/>
 <line x1="135.4" y1="40.0" x2="135.4" y2="36.0" stroke="#6b6253" stroke-width="0.7"/>
@@ -10,10 +10,11 @@
 <line x1="74.1" y1="75.9" x2="71.3" y2="73.1" stroke="#6b6253" stroke-width="0.7"/>
 <line x1="56.1" y1="93.9" x2="53.3" y2="91.1" stroke="#6b6253" stroke-width="0.7"/>
 <text x="196.9" y="27.0" font-size="5.5" fill="#2b2b2b" text-anchor="end" font-weight="bold">Turn Template</text>
-<g transform="translate(153.0,63.0) rotate(0.0)"><rect x="-43.0" y="-23.0" width="86" height="46" rx="1.5" fill="none" stroke="#b4473a" stroke-width="1.2" stroke-dasharray="3 2"/><line x1="-43.0" y1="-23.0" x2="43.0" y2="-23.0" stroke="#b4473a" stroke-width="2" stroke-dasharray="3 2"/></g>
+<g transform="translate(153.0,63.0) rotate(0.0)" opacity="0.35"><rect x="-43.0" y="-23.0" width="86" height="46" rx="1.5" fill="#f0cfc9" stroke="#b4473a" stroke-width="1" stroke-dasharray="3 2"/></g>
 <g transform="translate(124.1,86.7) rotate(45.0)"><rect x="-43.0" y="-23.0" width="86" height="46" rx="1.5" fill="#f0cfc9" stroke="#b4473a" stroke-width="1"/><rect x="-39.4" y="-19.4" width="18.8" height="18.8" rx="1" fill="#fff" fill-opacity="0.55" stroke="#b4473a" stroke-width="0.5"/><line x1="-37.0" y1="-17.8" x2="-23.0" y2="-17.8" stroke="#b4473a" stroke-width="1.2" stroke-linecap="round"/><rect x="-19.4" y="-19.4" width="18.8" height="18.8" rx="1" fill="#fff" fill-opacity="0.55" stroke="#b4473a" stroke-width="0.5"/><line x1="-17.0" y1="-17.8" x2="-3.0" y2="-17.8" stroke="#b4473a" stroke-width="1.2" stroke-linecap="round"/><rect x="0.6" y="-19.4" width="18.8" height="18.8" rx="1" fill="#fff" fill-opacity="0.55" stroke="#b4473a" stroke-width="0.5"/><line x1="3.0" y1="-17.8" x2="17.0" y2="-17.8" stroke="#b4473a" stroke-width="1.2" stroke-linecap="round"/><rect x="20.6" y="-19.4" width="18.8" height="18.8" rx="1" fill="#fff" fill-opacity="0.55" stroke="#b4473a" stroke-width="0.5"/><line x1="23.0" y1="-17.8" x2="37.0" y2="-17.8" stroke="#b4473a" stroke-width="1.2" stroke-linecap="round"/><rect x="-39.4" y="0.6" width="18.8" height="18.8" rx="1" fill="#fff" fill-opacity="0.55" stroke="#b4473a" stroke-width="0.5"/><line x1="-37.0" y1="2.2" x2="-23.0" y2="2.2" stroke="#b4473a" stroke-width="1.2" stroke-linecap="round"/><rect x="-19.4" y="0.6" width="18.8" height="18.8" rx="1" fill="#fff" fill-opacity="0.55" stroke="#b4473a" stroke-width="0.5"/><line x1="-17.0" y1="2.2" x2="-3.0" y2="2.2" stroke="#b4473a" stroke-width="1.2" stroke-linecap="round"/><rect x="0.6" y="0.6" width="18.8" height="18.8" rx="1" fill="#fff" fill-opacity="0.55" stroke="#b4473a" stroke-width="0.5"/><line x1="3.0" y1="2.2" x2="17.0" y2="2.2" stroke="#b4473a" stroke-width="1.2" stroke-linecap="round"/><rect x="20.6" y="0.6" width="18.8" height="18.8" rx="1" fill="#fff" fill-opacity="0.55" stroke="#b4473a" stroke-width="0.5"/><line x1="23.0" y1="2.2" x2="37.0" y2="2.2" stroke="#b4473a" stroke-width="1.2" stroke-linecap="round"/><line x1="-43.0" y1="-23.0" x2="43.0" y2="-23.0" stroke="#b4473a" stroke-width="2.2"/></g>
 <circle cx="110" cy="40" r="2.2" fill="#2b2b2b"/>
-<path d="M203.9,43.3 A94,94 0 0 1 180.9,101.7" fill="none" stroke="#b4473a" stroke-width="1.2" marker-end="url(#arrow_b4473a)"/>
+<path d="M201.9,44.8 A92,92 0 0 1 179.9,99.8" fill="none" stroke="#b4473a" stroke-width="1.2"/>
+<path d="M177.3,102.7 L178.8,97.3 L182.6,100.9 z" fill="#b4473a"/>
 <text x="212.0" y="74.0" font-size="6" fill="#b4473a" text-anchor="start" font-weight="bold">1” of Move</text>
 <text x="212.0" y="82.0" font-size="5.5" fill="#b4473a" text-anchor="start" font-style="italic">(+X” Unwieldy)</text>
 <text x="182.0" y="62.0" font-size="5.5" fill="#b4473a" text-anchor="middle" font-style="italic">Start</text>
@@ -31,5 +32,7 @@
 <text x="4" y="200" font-size="6" fill="#2b2b2b">that corner. After a full 45° turn, the unit’s flank is flush with the other arm; it may</text>
 <text x="4" y="208" font-size="6" fill="#2b2b2b">stop sooner for a smaller turn. Each turn costs 1” of Move, plus X” for Unwieldy (X). A</text>
 <text x="4" y="216" font-size="6" fill="#2b2b2b">unit may keep turning the same way for 1” per turn, but must move forward at least 1”</text>
-<text x="4" y="224" font-size="6" fill="#2b2b2b">before turning the other way.</text>
+<text x="4" y="224" font-size="6" fill="#2b2b2b">before turning the other way. Here the tray pivots on its front-left corner, so its</text>
+<text x="4" y="232" font-size="6" fill="#2b2b2b">right end swings back and the unit turns to face right; pivot on the front-right corner</text>
+<text x="4" y="240" font-size="6" fill="#2b2b2b">to turn left.</text>
 </svg>

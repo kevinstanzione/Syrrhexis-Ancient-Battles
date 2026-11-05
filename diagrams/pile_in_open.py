@@ -3,7 +3,7 @@ PW, PH, G = 210, 230, 6
 s = SVG(2 * PW + G, PH, 'Pile In with Open Order Units', [
     'Open Order models pile in and Closed Order trays stay put. Each model moves up to twice its Move to get into base contact,',
     'and against a Closed Order unit it may only touch one side of it. Left: Open Order attackers pile in along the Destination',
-    'edge they charged, after the Leader’s charge move. Right: the attacker charged the Focus of the Charge (marked with a dot), which stays put; the rest of the defending unit, which started in Cohesion around it, piles in along the attacker’s front edge. A model with no room gets as close as it can. Faded bases are start positions.'])
+    'edge they charged, after the Leader’s charge move (the Leader is marked with a dot). Right: the attacker charged the Focus of the Charge (marked with a dot), which stays put; the rest of the defending unit, which started in Cohesion around it, piles in along the attacker’s front edge. A model with no room gets as close as it can. Faded bases are start positions.'])
 # left: open attacker (red) vs closed defender (blue)
 s.panel(0, 0, PW, PH, 'Open Order attacker')
 cx = PW / 2; s.tray(cx, 60, 3, 5, 180, 'blue', name=None)
@@ -16,6 +16,7 @@ for i, ((sx, sy), (ex, ey)) in enumerate(zip(starts, ends)):
     s.model(ex, ey, 'red', ang=0)
 s.text(cx, 18, 'Defender (Closed Order)', 6, C['blue'], bold=True)
 s.text(cx - 8, edge + 28, 'Leader', 5, C['red'], italic=True)
+s.add(f'<circle cx="{cx - 8:.1f}" cy="{edge + 11:.1f}" r="2.6" fill="{C["ink"]}"/>')
 # right: closed attacker (red) vs open defender (blue)
 x0 = PW + G; cx = x0 + PW / 2
 s.panel(x0, 0, PW, PH, 'Open Order defender')

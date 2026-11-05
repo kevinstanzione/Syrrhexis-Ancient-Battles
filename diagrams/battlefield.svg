@@ -11,6 +11,8 @@
 <rect x="227.9" y="22" width="61.0" height="243.8" fill="none" stroke="#9aa37a" stroke-width="0.8" stroke-dasharray="3 2"/>
 <text x="166.9" y="140.9" font-size="6" fill="#6b6253" text-anchor="middle" font-weight="bold">Major Terrain</text>
 <text x="166.9" y="148.9" font-size="5" fill="#6b6253" text-anchor="middle" font-style="italic">(or left, or right)</text>
+<rect x="125.9" y="47.5" width="82" height="9.5" rx="2" fill="#f5f0e6" fill-opacity="0.92" stroke="#9aa37a" stroke-width="0.4"/>
+<rect x="125.9" y="230.4" width="82" height="9.5" rx="2" fill="#f5f0e6" fill-opacity="0.92" stroke="#9aa37a" stroke-width="0.4"/>
 <text x="166.9" y="54.5" font-size="5.5" fill="#3f6fb0" text-anchor="middle" font-style="italic">Blue deployment zone (12”)</text>
 <text x="166.9" y="237.4" font-size="5.5" fill="#b4473a" text-anchor="middle" font-style="italic">Red deployment zone (12”)</text>
 <text x="166.9" y="275.8" font-size="6" fill="#b4473a" text-anchor="middle" font-weight="bold">Red Friendly edge  /  Blue Enemy edge</text>

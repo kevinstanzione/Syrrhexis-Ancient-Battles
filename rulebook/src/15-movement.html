@@ -1,5 +1,5 @@
 <h1 id="movement">Movement</h1>
-<p>Every unit profile in the game has a Movement Value - a number in inches that dictates the normal distance the unit can travel in combat. Move values, and distances worked out from them, are never rounded: half of a Move of 5 is 2.5”. Only the distance spent on each part of a divided move is rounded up to the nearest inch (see Activation).</p>
+<p>Every unit profile in the game has a Movement Value - a number in inches that dictates the normal distance the unit can travel in combat. Move values, and distances worked out from them, are never rounded: half of a Move of 5 is 2.5”. Only the distance spent on each part of a divided move is rounded up to the nearest inch (see <a class="xref" href="#activation">Activation</a>).</p>
 <p>When a unit is activated, during the Movement step it takes one action. Normally the controlling player chooses one of four actions: <a class="xref" href="#standard-move">Standard Move</a>, <a class="xref" href="#run">Run</a>, <a class="xref" href="#charge">Charge</a>, or <a class="xref" href="#hold">Hold</a>. A unit with a Flee Action Token does not choose: it must take the <a class="xref" href="#flee">Flee</a> action instead. Every action except Standard Move gives the unit the Action Token of the same name (see <a class="xref" href="#action-tokens">Action Tokens</a>). The token reminds both players what the unit did, because it changes how the unit attacks and defends. The table below summarizes the five actions.</p>
 <table class="narrow c2"><tr><th><b>Action</b></th><th><b>What it does</b></th></tr><tr><td><a class="xref" href="#standard-move">Standard Move</a></td><td>Move up to the unit’s Move value, turning as needed, without ending within 1” of an enemy unit. The unit may shoot afterwards. No Action Token.</td></tr><tr><td><a class="xref" href="#run">Run</a></td><td>Move up to twice the Move value. Gains a Run Action Token: -1 Strength, and the unit cannot shoot.</td></tr><tr><td><a class="xref" href="#charge">Charge</a></td><td>Move up to twice the Move value into contact with an enemy unit. Gains a Charge Action Token: +1 Strength, and the unit cannot shoot.</td></tr><tr><td><a class="xref" href="#hold">Hold</a></td><td>Stay in place to meet the enemy. Gains a Hold Action Token until the unit’s next activation: +1 Accuracy, and +1 to Break and Fear Tests.</td></tr><tr><td><a class="xref" href="#flee">Flee</a> (forced)</td><td>Only for a unit with a Flee Action Token. It first tries to Rally itself; if it does not, it Flees.</td></tr></table>
 <p>There are 3 major rules that apply to all forms of Movement:<br>1. No unit may overlap another unit</p>
@@ -11,6 +11,7 @@
 <p>A Standard Move action provides the unit its Move Value in Move Allowance. In other terms, the unit is allowed to move a number of inches this activation equal to its Move Value.</p>
 <p>For a closed order unit on a tray, begin measuring the move from the front of the tray, and end measuring from the front of the tray. Make sure to not move the unit forward extra distance by changing the measure reference point.</p>
 <p>For an open order unit, with loose models rather than on a tray, the models move individually but must end the activation with 1” Cohesion. This means that any given open order model must be within 1” of another open order model - either in the form of a chain or a cluster. When open order units move, you may first rotate them freely so that their front is in the direction of travel, and use that edge as a measuring reference.</p>
+<p>A unit can still end up out of Cohesion through other effects, such as losing models. An Open Order unit that is not in Cohesion at the beginning of the Morale Phase gains a Flee Token (see <a class="xref" href="#open-order-units">Open Order Units</a>), so move stray models back into Cohesion with the rest of their unit on its next activation.</p>
 <figure class="full"><img src="../../diagrams/cohesion.svg"></figure>
 <h3 id="turning">Turning</h3>
 <p>During a unit’s Standard Move it may also turn. Units may turn and move in any order as they use their Move Value, and the rules for turning differ between Closed and Open Order units. A unit may stop partway through its move to turn, but each part of the move is rounded up to the nearest inch (see <a class="xref" href="#activation">Activation</a>). For example, a unit that moves 0.8” and then turns has spent 1”.</p>
@@ -32,7 +33,7 @@ Suffers -1 Strength
 </li><li>
 Cannot shoot
 <ul><li>
-Chariot and Elephant units may still shoot, at -2 Accuracy (see Stable Firing)
+Chariot and Elephant units may still shoot, at -2 Accuracy (see <a class="xref" href="#stable-firing">Stable Firing</a>)
 </li></ul>
 </li><li>
 If Closed Order, may only turn once
@@ -144,7 +145,7 @@ If the unit does not Rally itself, it Flees. See <a class="xref" href="#fleeing"
 </li><li>
 Fleeing units cannot shoot
 <ul><li>
-Chariot and Elephant units may still shoot, at -2 Accuracy (see Stable Firing)
+Chariot and Elephant units may still shoot, at -2 Accuracy (see <a class="xref" href="#stable-firing">Stable Firing</a>)
 </li></ul>
 </li><li>
 Unit cannot take any movement action except Flee, removes any other Action Token except Flee, and keeps this Action Token until the unit Rallies

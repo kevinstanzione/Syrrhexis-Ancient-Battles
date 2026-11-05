@@ -35,7 +35,7 @@ def tray(x,y,ranks,files,ang,col,coll,bw=20,bd=20,name=None):
             g.append(f'<rect x="{bx+0.6}" y="{by+0.6}" width="{bw-1.2}" height="{bd-1.2}" rx="1" fill="#fff" fill-opacity="0.55" stroke="{col}" stroke-width="0.5"/>')
             g.append(f'<line x1="{bx+3}" y1="{by+2.2}" x2="{bx+bw-3}" y2="{by+2.2}" stroke="{col}" stroke-width="1.2" stroke-linecap="round"/>')
     g.append(f'<line x1="{-w/2}" y1="{-d/2}" x2="{w/2}" y2="{-d/2}" stroke="{col}" stroke-width="2.2"/>')  # front edge
-    if name: g.append(f'<text x="0" y="{d/2+8}" font-size="6.5" text-anchor="middle" fill="{col}" font-weight="bold">{name}</text>')
+    if name: g.append(f'<text x="0" y="{d/2+13}" font-size="5.6" text-anchor="middle" fill="{col}" font-weight="bold">{name}</text>')
     g.append('</g>'); add(''.join(g))
 # defender
 tray(cx,cy,4,5,0,C['blue'],C['bluel'],name='Defender: Hoplîtai, 4 ranks of 5')

@@ -9,6 +9,8 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 ## 0.16.0 — 2026-11-04
 
 ### Rules
+- Aim now reduces Cover by one step, like Volley (was: ignores Light Cover).
+- Stony Plain: Chariots, Elephants and Warmachines take 1 hit at Strength 6 for each Chariot, Elephant or war engine (was 1 hit at Strength 4).
 - Gain X and Lose X on the Hitting and Wounding tables now add or remove dice instead of successes: Gain X rolls X extra dice, Lose X rolls X fewer (a pool can reach 0). This softens low Accuracy and Strength and tames the flat bonus at 7 and above.
 
 ### Points (re-priced for the new tables)

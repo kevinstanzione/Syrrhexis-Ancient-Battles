@@ -33,11 +33,20 @@ class SVG:
         if label: self.text((x1 + x2) / 2 + loff[0], (y1 + y2) / 2 + loff[1], label, 5.5, col)
 
     def arc_arrow(self, cx, cy, r, a0, a1, col=None):
-        col = col or C['red']; mid = 'arrow_' + col.strip('#'); self._marker(col)
+        """Curved arrow along a circle from angle a0 to a1 (degrees, y down), with a head drawn at the end along the tangent."""
+        col = col or C['red']
         p = lambda a: (cx + r * math.cos(math.radians(a)), cy + r * math.sin(math.radians(a)))
-        (x0, y0), (x1, y1) = p(a0), p(a1)
+        sgn = 1 if a1 > a0 else -1
+        hl, hw = 5.0, 2.6
+        a_stop = a1 - sgn * math.degrees(hl * 0.8 / r)
+        (x0, y0), (xs, ys), (x1, y1) = p(a0), p(a_stop), p(a1)
         sweep = 1 if a1 > a0 else 0
-        self.add(f'<path d="M{x0:.1f},{y0:.1f} A{r},{r} 0 0 {sweep} {x1:.1f},{y1:.1f}" fill="none" stroke="{col}" stroke-width="1.2" marker-end="url(#{mid})"/>')
+        self.add(f'<path d="M{x0:.1f},{y0:.1f} A{r},{r} 0 0 {sweep} {xs:.1f},{ys:.1f}" fill="none" stroke="{col}" stroke-width="1.2"/>')
+        t = math.radians(a1)
+        dx, dy = -math.sin(t) * sgn, math.cos(t) * sgn
+        bx, by = x1 - dx * hl, y1 - dy * hl
+        px, py = -dy, dx
+        self.add(f'<path d="M{x1:.1f},{y1:.1f} L{bx + px * hw:.1f},{by + py * hw:.1f} L{bx - px * hw:.1f},{by - py * hw:.1f} z" fill="{col}"/>')
 
     _markers = None
     def _marker(self, col):

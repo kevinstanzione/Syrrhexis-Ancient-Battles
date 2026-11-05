@@ -18,6 +18,8 @@ for i, x in enumerate([ox, ox + S / 2 - t / 2, ox + S - t]):
         s.add(f'<rect x="{x:.1f}" y="{oy}" width="{t:.1f}" height="{S:.1f}" fill="none" stroke="{C["terrain"]}" stroke-width="0.8" stroke-dasharray="3 2"/>')
 s.text(ox + S / 2, oy + S / 2 - 3, 'Major Terrain', 6, C['line'], bold=True)
 s.text(ox + S / 2, oy + S / 2 + 5, '(or left, or right)', 5, C['line'], italic=True)
+for _y in (oy + z / 2, oy + S - z / 2):
+    s.add(f'<rect x="{ox + S / 2 - 41:.1f}" y="{_y - 5:.1f}" width="82" height="9.5" rx="2" fill="#f5f0e6" fill-opacity="0.92" stroke="{C["terrain"]}" stroke-width="0.4"/>')
 s.text(ox + S / 2, oy + z / 2 + 2, 'Blue deployment zone (12”)', 5.5, C['blue'], italic=True)
 s.text(ox + S / 2, oy + S - z / 2 + 2, 'Red deployment zone (12”)', 5.5, C['red'], italic=True)
 s.text(ox + S / 2, oy + S + 10, 'Red Friendly edge  /  Blue Enemy edge', 6, C['red'], bold=True)

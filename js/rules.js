@@ -1,7 +1,7 @@
 // Rules text from the Syrrhēxis rulebook, condensed for the list printout.
 window.NHB_RULES = {
   model: {
-    "Aim": "If the unit takes the Hold action, it may use Aim: +1 to its Shooting attacks this round and ignore Light Cover. Cannot be used in the same round as Volley.",
+    "Aim": "If the unit takes the Hold action, it may use Aim: +1 to its Shooting attacks this round, and Cover against them is one step lower (Heavy → Cover → Light → none). Cannot be used in the same round as Volley.",
     "Ambush": "Deployed after all other units, including Scouts, and after all Byes. Deploy anywhere outside your Deployment Zone, within 12” of an enemy unit. The player with the most Byes chooses who deploys Ambushers first (tie: roll off).",
     "Camel Riders": "Each additional Rider on a Camel counts as a model for Army Morale, adding its Training, and adds 1 to Unit Strength.",
     "Collision": "While in Closed Order, gains bonus Melee Hits equal to its ranks not contributing attacks (e.g. 4 ranks: +3; with Reach (1): +2). They are a Strength 5 strike at Length 0, after every weapon, using the unit's Melee Strength modifiers (Charge, Momentum and so on) but no weapon rules; never reduced by First Blood. Lost while engaged on a flank or rear side.",
