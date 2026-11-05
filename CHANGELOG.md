@@ -13,6 +13,13 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - Stony Plain: Chariots, Elephants and Warmachines take 1 hit at Strength 6 for each Chariot, Elephant or war engine (was 1 hit at Strength 4).
 - Gain X and Lose X on the Hitting and Wounding tables now add or remove dice instead of successes: Gain X rolls X extra dice, Lose X rolls X fewer (a pool can reach 0). This softens low Accuracy and Strength and tames the flat bonus at 7 and above.
 
+### Special Characters
+- Characters no longer add flat amounts of Army Morale (Birdmaster, Bowmaster, Houndmaster, Musician, Ranger Captain, Shaman, Skirmish Captain, Tribal Leader, Volleymaster). Characters whose bonus scales with Training keep it; the Army Musician now adds its Training (was 2× Training). Taskmaster's "no Army Morale" note removed.
+- Birdmaster: works like the Spy card (before deployment, see 2 random unpicked Command cards), once per army, with no Scout requirement.
+- Houndmaster: when its unit's Charge makes contact, the defender loses Army Morale equal to the unit's base Training (reworded for current rules).
+- Rear Captain: +1 to Break Tests and to Rally itself (was +2).
+- Commander and Army Standard Bearer: Army Morale lost while their unit flees, and when it is eliminated, is now their Training (was 2×), the same as the Lord, Standard Bearer and Army Musician.
+
 ### Points (re-priced for the new tables)
 - Pīrū 100 → 90; Raθā-Dāça 50 → 46; Scorpiō engine 60 → 50; Carroballista engine 70 → 62; Thracian Warriors 12 → 11.
 - Guruš 7 → 8; Martu 11 → 12; Lydian Houndsmen 16 → 17.
