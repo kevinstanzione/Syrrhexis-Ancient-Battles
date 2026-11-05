@@ -8,7 +8,7 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 
 ## Rulebook — 2v2 (2026-11-05)
 
-- 2v2 Games rewritten: a team plays as one side; 4’ × 6’ board with a shared Friendly edge and deployment zone; team bid is the sum of both players' bids (up to 50); each player keeps their own Command deck and hand, but card effects apply to the team; the team deploys as one army (shared Byes, First Player picks who deploys first and who places Scouts and Ambushers first); one Initiative roll per team with both teammates' bonuses; shared Army Morale.
+- 2v2 Games rewritten: a team plays as one side; 4’ × 6’ board with a shared Friendly edge and deployment zone; team bid is the sum of both players' bids (up to 50); each player keeps their own Command deck and hand, but card effects apply to the team; the team deploys as one army (shared Byes, First Player picks who deploys first and who places Scouts and Ambushers first); one Initiative roll per team with both teammates' bonuses; shared Army Morale. Shared activation: each teammate numbers Order Tokens for their own units, and on a team's turn both teammates activate their next unit (resolved one after the other); Pass Tokens compare the teams' turn counts.
 
 ## 0.17.0 — 2026-11-05
 
