@@ -6,6 +6,14 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## 0.17.0 — 2026-11-05
+
+### Points (Special Characters, after the Army Morale changes)
+- Rear Captain −2 where it cost 8 or 10 (now 6 and 8), and 6 → 5 on the Eren: its Break and Rally bonus is now +1.
+- Birdmaster 8 → 10: it now triggers on Scout or Ambush and reveals 2 cards.
+- Army Standard Bearer +2 (28 → 30, 25 → 27) and Commander +2 (40 → 42, 30 → 32): their flee and elimination losses are halved.
+- Musician +1 on Training 7+ units (Anušiyā, Hoplîtai, Hieròs Lóchos, Lēgiōnāriī, Veterānī): it now adds its Training to Army Morale.
+
 ## Rulebook — 2026-11-05
 
 - Frenzy: no longer gives +2 on Break Tests and Fear Tests. It still ignores Terrify Break Tokens and keeps its Charge token when charged by a bigger unit.

@@ -1,7 +1,7 @@
 // Syrrhēxis army data. Edit the values below; keep the first line as is.
 window.NHB_DATA = {
   "meta": {
-    "version": "0.16.0",
+    "version": "0.17.0",
     "synced": "2026-10-22",
     "sources": {
       "Hittite Empire Army": "1aqMPs2Pi5car6pUzcuWmHXArGss_RZdkgATe5OsbVrw",
@@ -73,7 +73,7 @@ window.NHB_DATA = {
               "one": [
                 [
                   "Rear Captain",
-                  6
+                  5
                 ]
               ]
             }
@@ -594,7 +594,7 @@ window.NHB_DATA = {
                 ],
                 [
                   "Commander",
-                  40
+                  42
                 ],
                 [
                   "Army Musician",
@@ -602,7 +602,7 @@ window.NHB_DATA = {
                 ],
                 [
                   "Army Standard Bearer",
-                  28
+                  30
                 ]
               ]
             },
@@ -1154,7 +1154,7 @@ window.NHB_DATA = {
                 ],
                 [
                   "Commander",
-                  40
+                  42
                 ],
                 [
                   "Army Musician",
@@ -1995,7 +1995,7 @@ window.NHB_DATA = {
               "one": [
                 [
                   "Musician",
-                  8
+                  9
                 ]
               ]
             }
@@ -2075,7 +2075,7 @@ window.NHB_DATA = {
               "one": [
                 [
                   "Army Standard Bearer",
-                  28
+                  30
                 ],
                 [
                   "Army Musician",
@@ -2083,7 +2083,7 @@ window.NHB_DATA = {
                 ],
                 [
                   "Commander",
-                  40
+                  42
                 ]
               ]
             }
@@ -2408,7 +2408,7 @@ window.NHB_DATA = {
               "one": [
                 [
                   "Army Standard Bearer",
-                  28
+                  30
                 ],
                 [
                   "Army Musician",
@@ -2416,7 +2416,7 @@ window.NHB_DATA = {
                 ],
                 [
                   "Commander",
-                  40
+                  42
                 ]
               ]
             }
@@ -2484,7 +2484,7 @@ window.NHB_DATA = {
               "one": [
                 [
                   "Birdmaster",
-                  8
+                  10
                 ]
               ]
             }
@@ -2848,7 +2848,7 @@ window.NHB_DATA = {
               "one": [
                 [
                   "Commander",
-                  30
+                  32
                 ],
                 [
                   "Lord",
@@ -3052,7 +3052,7 @@ window.NHB_DATA = {
               "one": [
                 [
                   "Rear Captain",
-                  8
+                  6
                 ]
               ]
             },
@@ -3060,7 +3060,7 @@ window.NHB_DATA = {
               "one": [
                 [
                   "Musician",
-                  7
+                  8
                 ]
               ]
             }
@@ -3156,7 +3156,7 @@ window.NHB_DATA = {
               "one": [
                 [
                   "Rear Captain",
-                  8
+                  6
                 ]
               ],
               "req": true
@@ -3165,7 +3165,7 @@ window.NHB_DATA = {
               "one": [
                 [
                   "Musician",
-                  8
+                  9
                 ]
               ]
             }
@@ -3266,7 +3266,7 @@ window.NHB_DATA = {
                 ],
                 [
                   "Commander",
-                  40
+                  42
                 ]
               ],
               "req": true
@@ -3711,7 +3711,7 @@ window.NHB_DATA = {
               "one": [
                 [
                   "Commander",
-                  40
+                  42
                 ]
               ],
               "req": true
@@ -3789,7 +3789,7 @@ window.NHB_DATA = {
               "one": [
                 [
                   "Rear Captain",
-                  8
+                  6
                 ]
               ]
             },
@@ -3805,7 +3805,7 @@ window.NHB_DATA = {
               "one": [
                 [
                   "Musician",
-                  7
+                  8
                 ]
               ]
             }
@@ -3877,7 +3877,7 @@ window.NHB_DATA = {
               "one": [
                 [
                   "Rear Captain",
-                  8
+                  6
                 ]
               ]
             },
@@ -3893,7 +3893,7 @@ window.NHB_DATA = {
               "one": [
                 [
                   "Musician",
-                  7
+                  8
                 ]
               ]
             }
@@ -3969,7 +3969,7 @@ window.NHB_DATA = {
               "one": [
                 [
                   "Army Standard Bearer",
-                  28
+                  30
                 ],
                 [
                   "Army Musician",
@@ -3977,7 +3977,7 @@ window.NHB_DATA = {
                 ],
                 [
                   "Commander",
-                  40
+                  42
                 ]
               ],
               "req": true
@@ -4046,7 +4046,7 @@ window.NHB_DATA = {
               "one": [
                 [
                   "Commander",
-                  40
+                  42
                 ]
               ],
               "req": true
@@ -4375,7 +4375,7 @@ window.NHB_DATA = {
               "one": [
                 [
                   "Rear Captain",
-                  10
+                  8
                 ]
               ]
             },
@@ -4460,7 +4460,7 @@ window.NHB_DATA = {
               "one": [
                 [
                   "Army Standard Bearer",
-                  25
+                  27
                 ],
                 [
                   "Army Musician",
@@ -4468,7 +4468,7 @@ window.NHB_DATA = {
                 ],
                 [
                   "Commander",
-                  40
+                  42
                 ]
               ],
               "req": true
@@ -4537,7 +4537,7 @@ window.NHB_DATA = {
             "one": [
               [
                 "Birdmaster",
-                8
+                10
               ]
             ]
           },
@@ -4991,7 +4991,7 @@ window.NHB_DATA = {
               "one": [
                 [
                   "Commander",
-                  40
+                  42
                 ],
                 [
                   "Army Musician",
@@ -4999,7 +4999,7 @@ window.NHB_DATA = {
                 ],
                 [
                   "Army Standard Bearer",
-                  28
+                  30
                 ],
                 [
                   "Lord",
@@ -6209,7 +6209,7 @@ window.NHB_DATA = {
             "one": [
               [
                 "Rear Captain",
-                10
+                8
               ]
             ]
           }

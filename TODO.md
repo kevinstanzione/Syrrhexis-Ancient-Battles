@@ -10,7 +10,6 @@
 Done 2026-11-05: First Blood row, Strength table order, matching Armor Save tables; Walls diagram, Who Attacks Collision labels, Break Tokens visual, Scout and Ambush label; Aim and the Shooting Modifiers rework, "see X" links, Evasion flavour, Unwieldy styling, Activation Phase bold, End of the Round placement, Cohesion note, Stony Plain Strength 6, and the diagram fixes (Battlefield, Turning, Charge Arcs, Path and Bumping, Charge Fails, both Pile In, Firing Angle).
 Still to do:
 - 2v2: rewrite the 2v2 Games section so the mode is properly defined (turn order, deployment, Initiative, Command cards, shared Army Morale, victory).
-- Re-cost Special Characters on every army profile after the 2026-11-05 changes (no flat Army Morale, Musician +Training, Rear Captain +1, Birdmaster 2 cards, equal flee losses).
 
 ## Terrain bases (3D print)
 - Generator done: terrain/make_bases.py writes exact-size plates to terrain/stl (Monument 2x2", Watchtower 3x3", wall 8x1/2" or two 4" halves, Rolling Wagons 40x60mm, Flaming Pigs 25mm round). Large terrain and Major Terrain use felt, so no bases.
