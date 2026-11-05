@@ -16,6 +16,7 @@ Rules (agreed, do first):
 - Combat Moves when boxed in (decided 2026-11-04): a unit making or receiving a Combat Move stops if it would touch an enemy unit, pass through a friendly unit or impassable terrain, or leave the battlefield (never pushed off the board), so it may move less than 2” or not at all; still in contact means still Locked in Combat. A Pushed unit that cannot move at least 1” gains 2 Break Tokens.
 - Rename the "Shooting or Rallying" step (later). Options: Command Step, Action Step, Missile Step, Volley and Rally Step.
 Text and layout:
+- Melee Hits modifiers table: add a First Blood row, "Attacker has taken Damage earlier in this Melee (First Blood) | -1 attack per model's worth of Damage", linked to the First Blood paragraph.
 - Make every "see X" cross-reference a real link (Toughness, Great Toughness, Command cards and so on).
 - Evasion is the only Unit Type ability with flavour text; remove it to match the rest.
 - Body Armor table: style "Unwieldy (1)" on Heavy Armor as a proper rule callout.
