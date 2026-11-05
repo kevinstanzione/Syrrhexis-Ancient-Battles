@@ -1,7 +1,7 @@
 // Syrrhēxis army data. Edit the values below; keep the first line as is.
 window.NHB_DATA = {
   "meta": {
-    "version": "0.15.1",
+    "version": "0.16.0",
     "synced": "2026-10-22",
     "sources": {
       "Hittite Empire Army": "1aqMPs2Pi5car6pUzcuWmHXArGss_RZdkgATe5OsbVrw",
@@ -165,7 +165,7 @@ window.NHB_DATA = {
           "type": "Warrior",
           "move": 6,
           "training": 4,
-          "points": 7,
+          "points": 8,
           "comps": [
             [
               4,
@@ -645,7 +645,7 @@ window.NHB_DATA = {
           "type": "Light Warrior",
           "move": 7,
           "training": 5,
-          "points": 11,
+          "points": 12,
           "comps": [
             [
               3,
@@ -2723,7 +2723,7 @@ window.NHB_DATA = {
           "type": "Chariot",
           "move": 12,
           "training": 7,
-          "points": 50,
+          "points": 46,
           "comps": [
             [
               1,
@@ -2891,7 +2891,7 @@ window.NHB_DATA = {
           "type": "Elephant",
           "move": 8,
           "training": 6,
-          "points": 100,
+          "points": 90,
           "comps": [
             [
               1,
@@ -4590,7 +4590,7 @@ window.NHB_DATA = {
           "move": 5,
           "training": 6,
           "points": 12,
-          "engine": 60,
+          "engine": 50,
           "engineUS": 3,
           "range": [
             3,
@@ -4645,7 +4645,7 @@ window.NHB_DATA = {
           "move": 6,
           "training": 6,
           "points": 12,
-          "engine": 70,
+          "engine": 62,
           "engineUS": 3,
           "range": [
             2,
@@ -5683,7 +5683,7 @@ window.NHB_DATA = {
         "type": "Warrior",
         "move": 6,
         "training": 5,
-        "points": 16,
+        "points": 17,
         "comps": [
           [
             3,
@@ -5845,7 +5845,7 @@ window.NHB_DATA = {
         "type": "Light Warrior",
         "move": 7,
         "training": 5,
-        "points": 12,
+        "points": 11,
         "comps": [
           [
             3,

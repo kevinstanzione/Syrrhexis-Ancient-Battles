@@ -6,6 +6,15 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## 0.16.0 — 2026-11-04
+
+### Rules
+- Gain X and Lose X on the Hitting and Wounding tables now add or remove dice instead of successes: Gain X rolls X extra dice, Lose X rolls X fewer (a pool can reach 0). This softens low Accuracy and Strength and tames the flat bonus at 7 and above.
+
+### Points (re-priced for the new tables)
+- Pīrū 100 → 90; Raθā-Dāça 50 → 46; Scorpiō engine 60 → 50; Carroballista engine 70 → 62; Thracian Warriors 12 → 11.
+- Guruš 7 → 8; Martu 11 → 12; Lydian Houndsmen 16 → 17.
+
 ## Rulebook 0.2.0 — 2026-11-04
 
 - The rulebook source moved from the Google Doc into this repo (`rulebook/src`, one HTML file per chapter); the PDF is built with `tools/rulebook-pdf/build.py`. The Google Doc is retired.
