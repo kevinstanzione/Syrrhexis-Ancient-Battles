@@ -1,7 +1,7 @@
 from style import *
 W, H = 340, 230
 s = SVG(W, H, 'Line of Fire and Cover', [
-    'The archers trace a line of fire from the centre of their tray’s front edge to the centre of each target’s tray. The line to',
+    'The archers trace a line of fire from the centre of their tray to the centre of each target’s tray. The line to',
     'Target A crosses a Phocian Wall, which gives Cover: the archers shoot at -2 Accuracy. The line to Target B crosses Dense',
     'Brush, which blocks Line of Sight, so the archers cannot shoot Target B at all, even though some of its models stick out',
     'past the brush. Only the line matters, not how much of the target the archers can see.'])
@@ -17,7 +17,7 @@ s.text(bx, 14, 'Target B', 6, C['blue'], bold=True)
 cx, cy = 170, 185
 s.tray(cx, cy, 2, 4, 0, 'red', name=None)
 s.text(cx, H - 8, 'Archers', 6, C['red'], bold=True)
-fx, fy = cx, cy - 20 - B          # centre of front edge
+fx, fy = cx, cy                   # centre of the tray (Closed Order line of fire)
 # Phocian Wall across the line to A
 def lerp(p, q, t): return (p[0] + (q[0] - p[0]) * t, p[1] + (q[1] - p[1]) * t)
 wa = lerp((fx, fy), (ax, ay), 0.55)

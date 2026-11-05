@@ -8,13 +8,13 @@
 <text x="245.0" y="14.0" font-size="6" fill="#3f6fb0" text-anchor="middle" font-weight="bold">Target B</text>
 <g transform="translate(170.0,185.0) rotate(0.0)"><rect x="-43.0" y="-23.0" width="86" height="46" rx="1.5" fill="#f0cfc9" stroke="#b4473a" stroke-width="1"/><rect x="-39.4" y="-19.4" width="18.8" height="18.8" rx="1" fill="#fff" fill-opacity="0.55" stroke="#b4473a" stroke-width="0.5"/><line x1="-37.0" y1="-17.8" x2="-23.0" y2="-17.8" stroke="#b4473a" stroke-width="1.2" stroke-linecap="round"/><rect x="-19.4" y="-19.4" width="18.8" height="18.8" rx="1" fill="#fff" fill-opacity="0.55" stroke="#b4473a" stroke-width="0.5"/><line x1="-17.0" y1="-17.8" x2="-3.0" y2="-17.8" stroke="#b4473a" stroke-width="1.2" stroke-linecap="round"/><rect x="0.6" y="-19.4" width="18.8" height="18.8" rx="1" fill="#fff" fill-opacity="0.55" stroke="#b4473a" stroke-width="0.5"/><line x1="3.0" y1="-17.8" x2="17.0" y2="-17.8" stroke="#b4473a" stroke-width="1.2" stroke-linecap="round"/><rect x="20.6" y="-19.4" width="18.8" height="18.8" rx="1" fill="#fff" fill-opacity="0.55" stroke="#b4473a" stroke-width="0.5"/><line x1="23.0" y1="-17.8" x2="37.0" y2="-17.8" stroke="#b4473a" stroke-width="1.2" stroke-linecap="round"/><rect x="-39.4" y="0.6" width="18.8" height="18.8" rx="1" fill="#fff" fill-opacity="0.55" stroke="#b4473a" stroke-width="0.5"/><line x1="-37.0" y1="2.2" x2="-23.0" y2="2.2" stroke="#b4473a" stroke-width="1.2" stroke-linecap="round"/><rect x="-19.4" y="0.6" width="18.8" height="18.8" rx="1" fill="#fff" fill-opacity="0.55" stroke="#b4473a" stroke-width="0.5"/><line x1="-17.0" y1="2.2" x2="-3.0" y2="2.2" stroke="#b4473a" stroke-width="1.2" stroke-linecap="round"/><rect x="0.6" y="0.6" width="18.8" height="18.8" rx="1" fill="#fff" fill-opacity="0.55" stroke="#b4473a" stroke-width="0.5"/><line x1="3.0" y1="2.2" x2="17.0" y2="2.2" stroke="#b4473a" stroke-width="1.2" stroke-linecap="round"/><rect x="20.6" y="0.6" width="18.8" height="18.8" rx="1" fill="#fff" fill-opacity="0.55" stroke="#b4473a" stroke-width="0.5"/><line x1="23.0" y1="2.2" x2="37.0" y2="2.2" stroke="#b4473a" stroke-width="1.2" stroke-linecap="round"/><line x1="-43.0" y1="-23.0" x2="43.0" y2="-23.0" stroke="#b4473a" stroke-width="2.2"/></g>
 <text x="170.0" y="222.0" font-size="6" fill="#b4473a" text-anchor="middle" font-weight="bold">Archers</text>
-<rect x="94.75" y="94.64999999999999" width="68" height="6" fill="#bdb4a2" stroke="#6b6253" stroke-width="0.8"/>
-<text x="90.8" y="99.6" font-size="5.5" fill="#6b6253" text-anchor="end" font-style="italic">Phocian Wall: Cover</text>
-<rect x="189.25" y="85.64999999999999" width="44" height="24" rx="8" fill="#4f7f4a" fill-opacity="0.55" stroke="#4f7f4a" stroke-width="0.9"/>
-<text x="237.2" y="99.6" font-size="5.5" fill="#4f7f4a" text-anchor="start" font-style="italic">Dense Brush: blocks</text>
-<line x1="170" y1="162" x2="95" y2="45" stroke="#2b2b2b" stroke-width="0.8"/>
-<line x1="170" y1="162" x2="245" y2="45" stroke="#6b6253" stroke-width="0.8" stroke-dasharray="2 2"/>
-<circle cx="170" cy="162" r="1.8" fill="#2b2b2b"/>
+<rect x="94.75" y="105.0" width="68" height="6" fill="#bdb4a2" stroke="#6b6253" stroke-width="0.8"/>
+<text x="90.8" y="110.0" font-size="5.5" fill="#6b6253" text-anchor="end" font-style="italic">Phocian Wall: Cover</text>
+<rect x="189.25" y="96.0" width="44" height="24" rx="8" fill="#4f7f4a" fill-opacity="0.55" stroke="#4f7f4a" stroke-width="0.9"/>
+<text x="237.2" y="110.0" font-size="5.5" fill="#4f7f4a" text-anchor="start" font-style="italic">Dense Brush: blocks</text>
+<line x1="170" y1="185" x2="95" y2="45" stroke="#2b2b2b" stroke-width="0.8"/>
+<line x1="170" y1="185" x2="245" y2="45" stroke="#6b6253" stroke-width="0.8" stroke-dasharray="2 2"/>
+<circle cx="170" cy="185" r="1.8" fill="#2b2b2b"/>
 <circle cx="95" cy="45" r="1.8" fill="#2b2b2b"/>
 <circle cx="245" cy="45" r="1.8" fill="#2b2b2b"/>
 <text x="100.0" y="77.0" font-size="5.5" fill="#2b2b2b" text-anchor="end" font-weight="bold">Cover: -2 Accuracy</text>
@@ -25,9 +25,9 @@
 <text x="305.4" y="216.0" font-size="5" fill="#2b2b2b" text-anchor="middle">1"</text>
 <text x="330.8" y="216.0" font-size="5" fill="#2b2b2b" text-anchor="middle">2"</text>
 <text x="4" y="243" font-size="8" font-weight="bold" fill="#2b2b2b">Line of Fire and Cover</text>
-<text x="4" y="254" font-size="6" fill="#2b2b2b">The archers trace a line of fire from the centre of their tray’s front edge to the centre of each</text>
-<text x="4" y="262" font-size="6" fill="#2b2b2b">target’s tray. The line to Target A crosses a Phocian Wall, which gives Cover: the archers shoot at</text>
-<text x="4" y="270" font-size="6" fill="#2b2b2b">-2 Accuracy. The line to Target B crosses Dense Brush, which blocks Line of Sight, so the archers</text>
-<text x="4" y="278" font-size="6" fill="#2b2b2b">cannot shoot Target B at all, even though some of its models stick out past the brush. Only the line</text>
-<text x="4" y="286" font-size="6" fill="#2b2b2b">matters, not how much of the target the archers can see.</text>
+<text x="4" y="254" font-size="6" fill="#2b2b2b">The archers trace a line of fire from the centre of their tray to the centre of each target’s tray.</text>
+<text x="4" y="262" font-size="6" fill="#2b2b2b">The line to Target A crosses a Phocian Wall, which gives Cover: the archers shoot at -2 Accuracy.</text>
+<text x="4" y="270" font-size="6" fill="#2b2b2b">The line to Target B crosses Dense Brush, which blocks Line of Sight, so the archers cannot shoot</text>
+<text x="4" y="278" font-size="6" fill="#2b2b2b">Target B at all, even though some of its models stick out past the brush. Only the line matters, not</text>
+<text x="4" y="286" font-size="6" fill="#2b2b2b">how much of the target the archers can see.</text>
 </svg>
