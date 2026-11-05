@@ -33,6 +33,7 @@ Diagrams:
 - Pile In, Closed vs Closed: centre panel step 1 curved arrowhead is drawn wrong.
 - Pile In, Open Order: add a dot on the attacker panel's Leader, to match the defender panel's Focus dot.
 - Who Attacks in Melee (reach diagram): name Collision in the panels, e.g. "5 attacks + 3 Collision Hits" instead of "+ 3 Hits", and make the +1 rank markers read as Collision.
+- Break Tokens diagram: text already shows the new pass rule (remove 1, or all if not in combat and no Damage). Make it visual: show the Pass outcome as the tray with 2 of its 3 Break Tokens left (one crossed out), and the out-of-combat case clearing all three.
 - Firing Angle: "Target A / in the arc" overlaps the blue dotted line; move down.
 
 ## Terrain bases (3D print)
