@@ -1,32 +1,50 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 330 185" width="792" height="444" font-family="Georgia, 'Times New Roman', serif">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 330 205" width="792" height="492" font-family="Georgia, 'Times New Roman', serif">
 <defs></defs>
-<rect width="330" height="185" fill="#fff"/>
-<rect x="0" y="0" width="330" height="125" fill="#f6f1e6" stroke="#6b6253" stroke-width="0.8"/>
-<rect x="6" y="6" width="70" height="113" fill="#f6f1e6" stroke="#6b6253" stroke-width="0.8"/>
+<rect width="330" height="205" fill="#fff"/>
+<rect x="0" y="0" width="330" height="145" fill="#f6f1e6" stroke="#6b6253" stroke-width="0.8"/>
+<rect x="6" y="6" width="70" height="133" fill="#f6f1e6" stroke="#6b6253" stroke-width="0.8"/>
 <text x="11.0" y="16.0" font-size="7" fill="#2b2b2b" text-anchor="start" font-weight="bold">Break Token</text>
-<g transform="translate(41.0,50.0)"><polygon points="0.00,-17.50 15.16,8.75 -15.16,8.75" fill="#9e2f2b" stroke="#5a1714" stroke-width="0.9" stroke-linejoin="round"/><path d="M0,-10.50 l-3.08,6.30 l4.20,1.68 l-3.50,7.70" fill="none" stroke="#f3d9d4" stroke-width="1.82" stroke-linejoin="round"/></g>
-<text x="41.0" y="82.0" font-size="5" fill="#6b6253" text-anchor="middle" font-style="italic">one per effect;</text>
-<text x="41.0" y="89.0" font-size="5" fill="#6b6253" text-anchor="middle" font-style="italic">tokens stack</text>
-<rect x="82" y="6" width="242" height="113" fill="#f6f1e6" stroke="#6b6253" stroke-width="0.8"/>
+<g transform="translate(41.0,60.0)"><polygon points="0.00,-17.50 15.16,8.75 -15.16,8.75" fill="#9e2f2b" stroke="#5a1714" stroke-width="0.9" stroke-linejoin="round"/><path d="M0,-10.50 l-3.08,6.30 l4.20,1.68 l-3.50,7.70" fill="none" stroke="#f3d9d4" stroke-width="1.82" stroke-linejoin="round"/></g>
+<text x="41.0" y="92.0" font-size="5" fill="#6b6253" text-anchor="middle" font-style="italic">one per effect;</text>
+<text x="41.0" y="99.0" font-size="5" fill="#6b6253" text-anchor="middle" font-style="italic">tokens stack</text>
+<rect x="82" y="6" width="242" height="133" fill="#f6f1e6" stroke="#6b6253" stroke-width="0.8"/>
 <text x="87.0" y="16.0" font-size="7" fill="#2b2b2b" text-anchor="start" font-weight="bold">Example: Training 6, three Break Tokens</text>
-<g transform="translate(140.0,72.0) rotate(0.0)"><rect x="-43.0" y="-23.0" width="86" height="46" rx="1.5" fill="#c9d8ee" stroke="#3f6fb0" stroke-width="1"/><rect x="-39.4" y="-19.4" width="18.8" height="18.8" rx="1" fill="#fff" fill-opacity="0.55" stroke="#3f6fb0" stroke-width="0.5"/><line x1="-37.0" y1="-17.8" x2="-23.0" y2="-17.8" stroke="#3f6fb0" stroke-width="1.2" stroke-linecap="round"/><rect x="-19.4" y="-19.4" width="18.8" height="18.8" rx="1" fill="#fff" fill-opacity="0.55" stroke="#3f6fb0" stroke-width="0.5"/><line x1="-17.0" y1="-17.8" x2="-3.0" y2="-17.8" stroke="#3f6fb0" stroke-width="1.2" stroke-linecap="round"/><rect x="0.6" y="-19.4" width="18.8" height="18.8" rx="1" fill="#fff" fill-opacity="0.55" stroke="#3f6fb0" stroke-width="0.5"/><line x1="3.0" y1="-17.8" x2="17.0" y2="-17.8" stroke="#3f6fb0" stroke-width="1.2" stroke-linecap="round"/><rect x="20.6" y="-19.4" width="18.8" height="18.8" rx="1" fill="#fff" fill-opacity="0.55" stroke="#3f6fb0" stroke-width="0.5"/><line x1="23.0" y1="-17.8" x2="37.0" y2="-17.8" stroke="#3f6fb0" stroke-width="1.2" stroke-linecap="round"/><rect x="-39.4" y="0.6" width="18.8" height="18.8" rx="1" fill="#fff" fill-opacity="0.55" stroke="#3f6fb0" stroke-width="0.5"/><line x1="-37.0" y1="2.2" x2="-23.0" y2="2.2" stroke="#3f6fb0" stroke-width="1.2" stroke-linecap="round"/><rect x="-19.4" y="0.6" width="18.8" height="18.8" rx="1" fill="#fff" fill-opacity="0.55" stroke="#3f6fb0" stroke-width="0.5"/><line x1="-17.0" y1="2.2" x2="-3.0" y2="2.2" stroke="#3f6fb0" stroke-width="1.2" stroke-linecap="round"/><rect x="0.6" y="0.6" width="18.8" height="18.8" rx="1" fill="#fff" fill-opacity="0.55" stroke="#3f6fb0" stroke-width="0.5"/><line x1="3.0" y1="2.2" x2="17.0" y2="2.2" stroke="#3f6fb0" stroke-width="1.2" stroke-linecap="round"/><rect x="20.6" y="0.6" width="18.8" height="18.8" rx="1" fill="#fff" fill-opacity="0.55" stroke="#3f6fb0" stroke-width="0.5"/><line x1="23.0" y1="2.2" x2="37.0" y2="2.2" stroke="#3f6fb0" stroke-width="1.2" stroke-linecap="round"/><line x1="-43.0" y1="-23.0" x2="43.0" y2="-23.0" stroke="#3f6fb0" stroke-width="2.2"/></g>
-<g transform="translate(112.0,38.0)"><polygon points="0.00,-7.50 6.50,3.75 -6.50,3.75" fill="#9e2f2b" stroke="#5a1714" stroke-width="0.9" stroke-linejoin="round"/><path d="M0,-4.50 l-1.32,2.70 l1.80,0.72 l-1.50,3.30" fill="none" stroke="#f3d9d4" stroke-width="0.78" stroke-linejoin="round"/></g>
-<g transform="translate(127.0,38.0)"><polygon points="0.00,-7.50 6.50,3.75 -6.50,3.75" fill="#9e2f2b" stroke="#5a1714" stroke-width="0.9" stroke-linejoin="round"/><path d="M0,-4.50 l-1.32,2.70 l1.80,0.72 l-1.50,3.30" fill="none" stroke="#f3d9d4" stroke-width="0.78" stroke-linejoin="round"/></g>
-<g transform="translate(142.0,38.0)"><polygon points="0.00,-7.50 6.50,3.75 -6.50,3.75" fill="#9e2f2b" stroke="#5a1714" stroke-width="0.9" stroke-linejoin="round"/><path d="M0,-4.50 l-1.32,2.70 l1.80,0.72 l-1.50,3.30" fill="none" stroke="#f3d9d4" stroke-width="0.78" stroke-linejoin="round"/></g>
+<g transform="translate(140.0,82.0) rotate(0.0)"><rect x="-43.0" y="-23.0" width="86" height="46" rx="1.5" fill="#c9d8ee" stroke="#3f6fb0" stroke-width="1"/><rect x="-39.4" y="-19.4" width="18.8" height="18.8" rx="1" fill="#fff" fill-opacity="0.55" stroke="#3f6fb0" stroke-width="0.5"/><line x1="-37.0" y1="-17.8" x2="-23.0" y2="-17.8" stroke="#3f6fb0" stroke-width="1.2" stroke-linecap="round"/><rect x="-19.4" y="-19.4" width="18.8" height="18.8" rx="1" fill="#fff" fill-opacity="0.55" stroke="#3f6fb0" stroke-width="0.5"/><line x1="-17.0" y1="-17.8" x2="-3.0" y2="-17.8" stroke="#3f6fb0" stroke-width="1.2" stroke-linecap="round"/><rect x="0.6" y="-19.4" width="18.8" height="18.8" rx="1" fill="#fff" fill-opacity="0.55" stroke="#3f6fb0" stroke-width="0.5"/><line x1="3.0" y1="-17.8" x2="17.0" y2="-17.8" stroke="#3f6fb0" stroke-width="1.2" stroke-linecap="round"/><rect x="20.6" y="-19.4" width="18.8" height="18.8" rx="1" fill="#fff" fill-opacity="0.55" stroke="#3f6fb0" stroke-width="0.5"/><line x1="23.0" y1="-17.8" x2="37.0" y2="-17.8" stroke="#3f6fb0" stroke-width="1.2" stroke-linecap="round"/><rect x="-39.4" y="0.6" width="18.8" height="18.8" rx="1" fill="#fff" fill-opacity="0.55" stroke="#3f6fb0" stroke-width="0.5"/><line x1="-37.0" y1="2.2" x2="-23.0" y2="2.2" stroke="#3f6fb0" stroke-width="1.2" stroke-linecap="round"/><rect x="-19.4" y="0.6" width="18.8" height="18.8" rx="1" fill="#fff" fill-opacity="0.55" stroke="#3f6fb0" stroke-width="0.5"/><line x1="-17.0" y1="2.2" x2="-3.0" y2="2.2" stroke="#3f6fb0" stroke-width="1.2" stroke-linecap="round"/><rect x="0.6" y="0.6" width="18.8" height="18.8" rx="1" fill="#fff" fill-opacity="0.55" stroke="#3f6fb0" stroke-width="0.5"/><line x1="3.0" y1="2.2" x2="17.0" y2="2.2" stroke="#3f6fb0" stroke-width="1.2" stroke-linecap="round"/><rect x="20.6" y="0.6" width="18.8" height="18.8" rx="1" fill="#fff" fill-opacity="0.55" stroke="#3f6fb0" stroke-width="0.5"/><line x1="23.0" y1="2.2" x2="37.0" y2="2.2" stroke="#3f6fb0" stroke-width="1.2" stroke-linecap="round"/><line x1="-43.0" y1="-23.0" x2="43.0" y2="-23.0" stroke="#3f6fb0" stroke-width="2.2"/></g>
+<g transform="translate(112.0,48.0)"><polygon points="0.00,-7.50 6.50,3.75 -6.50,3.75" fill="#9e2f2b" stroke="#5a1714" stroke-width="0.9" stroke-linejoin="round"/><path d="M0,-4.50 l-1.32,2.70 l1.80,0.72 l-1.50,3.30" fill="none" stroke="#f3d9d4" stroke-width="0.78" stroke-linejoin="round"/></g>
+<g transform="translate(127.0,48.0)"><polygon points="0.00,-7.50 6.50,3.75 -6.50,3.75" fill="#9e2f2b" stroke="#5a1714" stroke-width="0.9" stroke-linejoin="round"/><path d="M0,-4.50 l-1.32,2.70 l1.80,0.72 l-1.50,3.30" fill="none" stroke="#f3d9d4" stroke-width="0.78" stroke-linejoin="round"/></g>
+<g transform="translate(142.0,48.0)"><polygon points="0.00,-7.50 6.50,3.75 -6.50,3.75" fill="#9e2f2b" stroke="#5a1714" stroke-width="0.9" stroke-linejoin="round"/><path d="M0,-4.50 l-1.32,2.70 l1.80,0.72 l-1.50,3.30" fill="none" stroke="#f3d9d4" stroke-width="0.78" stroke-linejoin="round"/></g>
 <text x="205.0" y="36.0" font-size="6.5" fill="#2b2b2b" text-anchor="start" font-weight="bold">Test: 1d6 + 6 - 2 ≥ 7</text>
 <text x="205.0" y="46.0" font-size="5.5" fill="#6b6253" text-anchor="start" font-style="italic">so a roll of 3 or more passes</text>
-<text x="205.0" y="70.0" font-size="6" fill="#4f7f4a" text-anchor="start" font-weight="bold">Pass:</text>
-<text x="226.0" y="70.0" font-size="5.5" fill="#2b2b2b" text-anchor="start">remove 1 Break Token</text>
-<text x="226.0" y="77.0" font-size="5.5" fill="#2b2b2b" text-anchor="start">(all if not in combat</text>
-<text x="226.0" y="84.0" font-size="5.5" fill="#2b2b2b" text-anchor="start">and no Damage)</text>
-<text x="205.0" y="99.0" font-size="6" fill="#b4473a" text-anchor="start" font-weight="bold">Fail:</text>
-<text x="226.0" y="99.0" font-size="5.5" fill="#2b2b2b" text-anchor="start">remove its Action and</text>
-<text x="226.0" y="106.0" font-size="5.5" fill="#2b2b2b" text-anchor="start">Break Tokens, add Flee</text>
-<g transform="translate(306.0,92.0)"><polygon points="0,-8 10.0,0 0,8 -10.0,0" fill="#ecdcae" stroke="#9b8452" stroke-width="1"/><polygon points="0,-6.24 7.84,0 0,6.24 -7.84,0" fill="none" stroke="#9b8452" stroke-width="0.4"/><text x="0" y="1.18" font-size="3.36" fill="#9b8452" text-anchor="middle" font-weight="bold" font-family="Georgia, serif">FLEE</text></g>
-<text x="4" y="138" font-size="8" font-weight="bold" fill="#2b2b2b">Break Tokens and Break Tests</text>
-<text x="4" y="149" font-size="6" fill="#2b2b2b">Break Tokens come from Terrify, charges into a flank or rear, and other effects. In the Morale</text>
-<text x="4" y="157" font-size="6" fill="#2b2b2b">Phase, a unit with any Break Tokens rolls 1d6 + Training, at -1 for each Break Token after the</text>
-<text x="4" y="165" font-size="6" fill="#2b2b2b">first, and needs 7 or more. If it passes, it removes 1 Break Token, or all of them if it was not</text>
-<text x="4" y="173" font-size="6" fill="#2b2b2b">Locked in Combat and took no Damage this round. If it fails, its Action and Break Tokens are</text>
-<text x="4" y="181" font-size="6" fill="#2b2b2b">replaced with a Flee Token.</text>
+<text x="205.0" y="62.0" font-size="5.5" fill="#4f7f4a" text-anchor="start" font-weight="bold">Pass, in combat or took Damage:</text>
+<g transform="translate(212.0,74.0)"><polygon points="0.00,-6.25 5.41,3.12 -5.41,3.12" fill="#9e2f2b" stroke="#5a1714" stroke-width="0.9" stroke-linejoin="round"/><path d="M0,-3.75 l-1.10,2.25 l1.50,0.60 l-1.25,2.75" fill="none" stroke="#f3d9d4" stroke-width="0.65" stroke-linejoin="round"/></g>
+<g transform="translate(225.0,74.0)"><polygon points="0.00,-6.25 5.41,3.12 -5.41,3.12" fill="#9e2f2b" stroke="#5a1714" stroke-width="0.9" stroke-linejoin="round"/><path d="M0,-3.75 l-1.10,2.25 l1.50,0.60 l-1.25,2.75" fill="none" stroke="#f3d9d4" stroke-width="0.65" stroke-linejoin="round"/></g>
+<g opacity="0.3">
+<g transform="translate(238.0,74.0)"><polygon points="0.00,-6.25 5.41,3.12 -5.41,3.12" fill="#9e2f2b" stroke="#5a1714" stroke-width="0.9" stroke-linejoin="round"/><path d="M0,-3.75 l-1.10,2.25 l1.50,0.60 l-1.25,2.75" fill="none" stroke="#f3d9d4" stroke-width="0.65" stroke-linejoin="round"/></g>
+</g>
+<path d="M233,69 L243,79 M243,69 L233,79" stroke="#2b2b2b" stroke-width="1"/>
+<text x="250.0" y="76.0" font-size="5.2" fill="#2b2b2b" text-anchor="start">remove 1 Break Token</text>
+<text x="205.0" y="92.0" font-size="5.5" fill="#4f7f4a" text-anchor="start" font-weight="bold">Pass, not in combat, no Damage:</text>
+<g opacity="0.3">
+<g transform="translate(212.0,104.0)"><polygon points="0.00,-6.25 5.41,3.12 -5.41,3.12" fill="#9e2f2b" stroke="#5a1714" stroke-width="0.9" stroke-linejoin="round"/><path d="M0,-3.75 l-1.10,2.25 l1.50,0.60 l-1.25,2.75" fill="none" stroke="#f3d9d4" stroke-width="0.65" stroke-linejoin="round"/></g>
+</g>
+<path d="M207,99 L217,109 M217,99 L207,109" stroke="#2b2b2b" stroke-width="1"/>
+<g opacity="0.3">
+<g transform="translate(225.0,104.0)"><polygon points="0.00,-6.25 5.41,3.12 -5.41,3.12" fill="#9e2f2b" stroke="#5a1714" stroke-width="0.9" stroke-linejoin="round"/><path d="M0,-3.75 l-1.10,2.25 l1.50,0.60 l-1.25,2.75" fill="none" stroke="#f3d9d4" stroke-width="0.65" stroke-linejoin="round"/></g>
+</g>
+<path d="M220,99 L230,109 M230,99 L220,109" stroke="#2b2b2b" stroke-width="1"/>
+<g opacity="0.3">
+<g transform="translate(238.0,104.0)"><polygon points="0.00,-6.25 5.41,3.12 -5.41,3.12" fill="#9e2f2b" stroke="#5a1714" stroke-width="0.9" stroke-linejoin="round"/><path d="M0,-3.75 l-1.10,2.25 l1.50,0.60 l-1.25,2.75" fill="none" stroke="#f3d9d4" stroke-width="0.65" stroke-linejoin="round"/></g>
+</g>
+<path d="M233,99 L243,109 M243,99 L233,109" stroke="#2b2b2b" stroke-width="1"/>
+<text x="250.0" y="106.0" font-size="5.2" fill="#2b2b2b" text-anchor="start">remove them all</text>
+<text x="205.0" y="124.0" font-size="6" fill="#b4473a" text-anchor="start" font-weight="bold">Fail:</text>
+<text x="226.0" y="124.0" font-size="5.2" fill="#2b2b2b" text-anchor="start">Action and Break Tokens</text>
+<text x="226.0" y="131.0" font-size="5.2" fill="#2b2b2b" text-anchor="start">are replaced with Flee</text>
+<g transform="translate(306.0,126.0)"><polygon points="0,-8 10.0,0 0,8 -10.0,0" fill="#ecdcae" stroke="#9b8452" stroke-width="1"/><polygon points="0,-6.24 7.84,0 0,6.24 -7.84,0" fill="none" stroke="#9b8452" stroke-width="0.4"/><text x="0" y="1.18" font-size="3.36" fill="#9b8452" text-anchor="middle" font-weight="bold" font-family="Georgia, serif">FLEE</text></g>
+<text x="4" y="158" font-size="8" font-weight="bold" fill="#2b2b2b">Break Tokens and Break Tests</text>
+<text x="4" y="169" font-size="6" fill="#2b2b2b">Break Tokens come from Terrify, charges into a flank or rear, and other effects. In the Morale</text>
+<text x="4" y="177" font-size="6" fill="#2b2b2b">Phase, a unit with any Break Tokens rolls 1d6 + Training, at -1 for each Break Token after the</text>
+<text x="4" y="185" font-size="6" fill="#2b2b2b">first, and needs 7 or more. If it passes, it removes 1 Break Token, or all of them if it was not</text>
+<text x="4" y="193" font-size="6" fill="#2b2b2b">Locked in Combat and took no Damage this round. If it fails, its Action and Break Tokens are</text>
+<text x="4" y="201" font-size="6" fill="#2b2b2b">replaced with a Flee Token.</text>
 </svg>

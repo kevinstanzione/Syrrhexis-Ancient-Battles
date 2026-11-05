@@ -3,13 +3,14 @@ W, H = 340, 300
 s = SVG(W, H, 'Scout and Ambush', [
     'Scouting and Ambushing units deploy after everyone else, and never in their own deployment zone. A Scout may be placed anywhere',
     'else as long as it is not within 12” of an enemy model. An Ambusher may be placed anywhere else as long as it is within 12” of an',
-    'enemy unit. Scouts deploy before Ambushers, so an Ambush can answer where the Scouts went.'])
+    'enemy unit. Scouts deploy before Ambushers, so an Ambush can answer where the Scouts went. A deployment zone is closed only to its',
+    'own side’s Scouts and Ambushers: an enemy Ambusher may deploy in it, and may be ambushed there in turn.'])
 s.panel(0, 0, W, H)
 ox, oy = 48, 22; S = bx(BOARD); z = bx(12 * IN); r = bx(12 * IN)
 board(s, ox, oy)
 s.add(f'<rect x="{ox}" y="{oy}" width="{S:.1f}" height="{z:.1f}" fill="{C["blue"]}" fill-opacity="0.12"/>')
 s.add(f'<rect x="{ox}" y="{oy + S - z:.1f}" width="{S:.1f}" height="{z:.1f}" fill="{C["red"]}" fill-opacity="0.12"/>')
-s.text(ox + S / 2, oy + S - 5, 'Red deployment zone: no Scouts or Ambushers here', 5, C['red'], italic=True)
+s.text(ox + S / 2, oy + S - 5, 'Red deployment zone: no Red Scouts or Ambushers (Blue may still Ambush here)', 5, C['red'], italic=True)
 s.add(f'<defs><clipPath id="cb"><rect x="{ox}" y="{oy}" width="{S:.1f}" height="{S:.1f}"/></clipPath></defs>')
 blue = [(0.3, 0.25, 4, 6), (0.62, 0.22, 4, 6)]
 for fx, fy, rk, fl in blue:

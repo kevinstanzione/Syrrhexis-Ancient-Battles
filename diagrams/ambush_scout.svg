@@ -1,12 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 352" width="816" height="845" font-family="Georgia, 'Times New Roman', serif">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 368" width="816" height="883" font-family="Georgia, 'Times New Roman', serif">
 <defs></defs>
-<rect width="340" height="352" fill="#fff"/>
+<rect width="340" height="368" fill="#fff"/>
 <rect x="0" y="0" width="340" height="300" fill="#f6f1e6" stroke="#6b6253" stroke-width="0.8"/>
 <rect x="48" y="22" width="243.8" height="243.8" fill="#f6f1e6" stroke="#2b2b2b" stroke-width="1"/>
 <line x1="48" y1="143.9" x2="291.8" y2="143.9" stroke="#6b6253" stroke-width="0.6" stroke-dasharray="1.5 2"/>
 <rect x="48" y="22" width="243.8" height="61.0" fill="#3f6fb0" fill-opacity="0.12"/>
 <rect x="48" y="204.9" width="243.8" height="61.0" fill="#b4473a" fill-opacity="0.12"/>
-<text x="169.9" y="260.8" font-size="5" fill="#b4473a" text-anchor="middle" font-style="italic">Red deployment zone: no Scouts or Ambushers here</text>
+<text x="169.9" y="260.8" font-size="5" fill="#b4473a" text-anchor="middle" font-style="italic">Red deployment zone: no Red Scouts or Ambushers (Blue may still Ambush here)</text>
 <defs><clipPath id="cb"><rect x="48" y="22" width="243.8" height="243.8"/></clipPath></defs>
 <rect x="47.6" y="13.4" width="147.1" height="139.1" rx="61.0" fill="#efe2bf" fill-opacity="0.45" stroke="#6b6253" stroke-width="0.6" stroke-dasharray="3 2" clip-path="url(#cb)"/>
 <rect x="125.6" y="6.1" width="147.1" height="139.1" rx="61.0" fill="#efe2bf" fill-opacity="0.45" stroke="#6b6253" stroke-width="0.6" stroke-dasharray="3 2" clip-path="url(#cb)"/>
@@ -30,5 +30,7 @@
 <text x="4" y="324" font-size="6" fill="#2b2b2b">Scouting and Ambushing units deploy after everyone else, and never in their own deployment zone. A</text>
 <text x="4" y="332" font-size="6" fill="#2b2b2b">Scout may be placed anywhere else as long as it is not within 12” of an enemy model. An Ambusher may</text>
 <text x="4" y="340" font-size="6" fill="#2b2b2b">be placed anywhere else as long as it is within 12” of an enemy unit. Scouts deploy before</text>
-<text x="4" y="348" font-size="6" fill="#2b2b2b">Ambushers, so an Ambush can answer where the Scouts went.</text>
+<text x="4" y="348" font-size="6" fill="#2b2b2b">Ambushers, so an Ambush can answer where the Scouts went. A deployment zone is closed only to its</text>
+<text x="4" y="356" font-size="6" fill="#2b2b2b">own side’s Scouts and Ambushers: an enemy Ambusher may deploy in it, and may be ambushed there in</text>
+<text x="4" y="364" font-size="6" fill="#2b2b2b">turn.</text>
 </svg>
