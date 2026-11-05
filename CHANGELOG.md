@@ -6,6 +6,11 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## Rulebook 0.2.0 — 2026-11-04
+
+- The rulebook source moved from the Google Doc into this repo (`rulebook/src`, one HTML file per chapter); the PDF is built with `tools/rulebook-pdf/build.py`. The Google Doc is retired.
+- Chapters reordered: Model Characteristics, Unit Types (now with Unit Strength), Gear and Equipment, Building an Army, Army Lists, Setting Up, Measuring Distances, Game Round (now with Initiative, Action Tokens and Commands), Movement, Shooting, Melee, Damage & Health, Psychology, a new Terrain chapter, Special Characters, Special Rules, Priority. Update History stays at the front.
+
 ## 0.15.1 — 2026-11-04
 
 ### Command cards

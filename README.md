@@ -16,7 +16,7 @@ It runs in any browser, on desktop or phone, with nothing to install or sign up 
 
 ## Rulebook
 
-The current rulebook (version 0.1.0) is here as a PDF: [Syrrhexis_Rulebook.pdf](rulebook/Syrrhexis_Rulebook.pdf).
+The current rulebook (version 0.2.0) is here as a PDF: [Syrrhexis_Rulebook.pdf](rulebook/Syrrhexis_Rulebook.pdf).
 
 ## Army Book
 
