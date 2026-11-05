@@ -9,6 +9,9 @@
 ### Rulebook corrections (Kevin's read-through, 2026-11-04)
 Done 2026-11-05: Aim and the Shooting Modifiers rework, "see X" links, Evasion flavour, Unwieldy styling, Activation Phase bold, End of the Round placement, Cohesion note, Stony Plain Strength 6, and the diagram fixes (Battlefield, Turning, Charge Arcs, Path and Bumping, Charge Fails, both Pile In, Firing Angle).
 Still to do:
+- 2v2: rewrite the 2v2 Games section so the mode is properly defined (turn order, deployment, Initiative, Command cards, shared Army Morale, victory).
+- Scout and Ambush diagram: the red zone is labelled "no Scouting or Ambushing here", but enemy Ambushers can deploy there (and could be ambushed in turn). Fix the label.
+- Re-cost Special Characters on every army profile after the 2026-11-05 changes (no flat Army Morale, Musician +Training, Rear Captain +1, Birdmaster 2 cards, equal flee losses).
 - Walls diagram for the Terrain chapter: crossing a wall, and fighting across one (charger stops at the wall, defender drawn up). Shooting over is optional.
 - Melee definition (decided 2026-11-04, Option 1): every unit joined by base contact with an enemy is one Melee (chains merge). A unit may only attack enemies in base contact with it, dividing its attacks between them. If units leave and a Melee splits into separate groups, each group becomes its own Melee. Still one winner and one Combat Move per Melee.
 - Combat Moves when boxed in (decided 2026-11-04): a unit making or receiving a Combat Move stops if it would touch an enemy unit, pass through a friendly unit or impassable terrain, or leave the battlefield (never pushed off the board), so it may move less than 2” or not at all; still in contact means still Locked in Combat. A Pushed unit that cannot move at least 1” gains 2 Break Tokens.

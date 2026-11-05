@@ -50,12 +50,12 @@ window.NHB_RULES = {
     [/Recurve Bow/, "Recurve Bow"], [/Sunder \(/, "Sunder (X)"], [/Throwing Weapon/, "Throwing Weapon"], [/Thrusting Blade/, "Thrusting Blade"], [/Unwieldy/, "Unwieldy (X)"]
   ],
   chars: {
-    "Birdmaster": "Before deployment, the opponent reveals 2 random Command cards they did not pick, as for the Spy card. Once per army, however many Birdmasters.",
+    "Birdmaster": "If the unit deploys via Scout or Ambush, the opponent reveals 2 random Command cards they did not pick.",
     "Bowmaster": "Grants Aim. +1 Shooting attack (not Combat).",
     "Houndmaster": "When the unit's Charge makes contact, the defending player loses Army Morale equal to its base Training. Enemies cannot deploy within 12” of this unit.",
     "Lead Captain": "+Training in Army Morale. +1 attack in Combat or Shooting.",
     "Lord": "+3× Training in Army Morale. Grants Noble. While the unit flees you lose its Training in Army Morale each round; if eliminated you lose its Training and the opponent gains that much.",
-    "Musician": "With no Action Token and not Locked in Combat, at the end of its Movement Step the unit may Special Move: Closed Order 1” forward, back, left or right, or turn once; Open Order 1” toward or away from the enemy side. Combines with the Commander's move. If eliminated you lose its Training and the opponent gains that much.",
+    "Musician": "+Training in Army Morale. With no Action Token and not Locked in Combat, at the end of its Movement Step the unit may Special Move: Closed Order 1” forward, back, left or right, or turn once; Open Order 1” toward or away from the enemy side. Combines with the Commander's move. If eliminated you lose its Training and the opponent gains that much.",
     "Skirmish Captain": "When an enemy declares a Charge against this unit, before measuring, it may take a Fear Test. If it passes, it falls back directly away from the charger up to its Move, may pass through allied units (not ending on or touching them, or within 1” of an enemy), and gains a Run token. If the charger can no longer reach it, the charger may charge the first enemy unit in its straight path with its full Charge Move; if there is none, it moves as far as it can and loses no Army Morale for a failed charge. On a failed Fear Test the charge resolves normally. Light Warriors with a Skirmish Captain deploy in Open Order.",
     "Ranger Captain": "Grants Surefooted.",
     "Rear Captain": "+Training in Army Morale. +1 to Break Tests and +1 to Rally itself.",
@@ -65,16 +65,16 @@ window.NHB_RULES = {
     "Tribal Leader": "Grants Noble and removes Levy. +1 attack in Combat or Shooting.",
     "Volleymaster": "Grants Volley. +1 Shooting attack (not Combat).",
     "Army Standard Bearer": "Retinue. +4× Training in Army Morale. +1 Initiative. While the unit flees you lose its Training each round; if eliminated you lose its Training and the opponent gains that much. One per army.",
-    "Army Musician": "Retinue. +Training in Army Morale. +1 Initiative. At the end of the Activation Phase you may swap all your Hold tokens for Charge tokens, or all Charge tokens for Hold tokens. Flee/eliminated losses as Lord. One per army.",
+    "Army Musician": "Retinue. +2× Training in Army Morale. +1 Initiative. At the end of the Activation Phase you may swap all your Hold tokens for Charge tokens, or all Charge tokens for Hold tokens. Flee/eliminated losses as Lord. One per army.",
     "Commander": "Retinue. +3× Training in Army Morale. +1 Initiative. At the end of an allied unit's Movement Step (no Action Token, not Locked in Combat) within 6” (18” with a Standard Bearer), it may Special Move as a Musician; if out of range it takes a Run token instead. Flee/eliminated losses as Lord. One per army."
   },
   charShort: {
-    "Birdmaster": "Before deployment, see 2 Command cards your opponent did not pick (once per army).",
+    "Birdmaster": "If the unit Scouts or Ambushes, see 2 Command cards your opponent did not pick.",
     "Bowmaster": "Grants Aim and +1 Shooting attack.",
     "Houndmaster": "Its charges cost the enemy Army Morale equal to its Training. Enemies can't deploy within 12”.",
     "Lead Captain": "+Training Army Morale. +1 attack in Combat or Shooting.",
     "Lord": "+3× Training Army Morale. Grants Noble. Costs you Army Morale if the unit flees or dies.",
-    "Musician": "Free 1” shift or one turn at the end of its move.",
+    "Musician": "+Training Army Morale. Free 1” shift or one turn at the end of its move.",
     "Skirmish Captain": "When charged, may take a Fear Test to fall back through allied units; the charger may hit the unit behind instead.",
     "Ranger Captain": "Grants Surefooted.",
     "Rear Captain": "+Training Army Morale. +1 to Break Tests and to Rally itself.",
@@ -84,7 +84,7 @@ window.NHB_RULES = {
     "Tribal Leader": "Grants Noble and removes Levy. +1 attack in Combat or Shooting.",
     "Volleymaster": "Grants Volley and +1 Shooting attack.",
     "Army Standard Bearer": "Retinue, one per army. +4× Training Army Morale and +1 Initiative. Big Army Morale loss if the unit flees or dies.",
-    "Army Musician": "Retinue, one per army. +Training Army Morale and +1 Initiative. Before Combat, swap all your Hold tokens for Charge tokens or the reverse.",
+    "Army Musician": "Retinue, one per army. +2× Training Army Morale and +1 Initiative. Before Combat, swap all your Hold tokens for Charge tokens or the reverse.",
     "Commander": "Retinue, one per army. +3× Training Army Morale and +1 Initiative. Gives units within 6” a free 1” shift or turn."
   },
   types: {
