@@ -25,7 +25,7 @@ PX_PER_M = USABLE / LONGEST
 # (file, name, army, length in metres, note)
 PAGES = [
     ('Spears I', 'The Bronze Age to Alexander', [
-        ('sumerian_spear', 'Sumerian Spear', 'Sumerian Kingdom', 2.0),
+        ('sumerian_spear', 'Sumerian Spear', 'Sumerian City-States', 2.0),
         ('egyptian_spear', 'Egyptian Spear', 'Dynastic Egypt', 1.8),
         ('sukur', 'Šukur', 'Hittite Empire', 2.0),
         ('enchos', 'Énchos', 'Sea People Raiders', 2.0),

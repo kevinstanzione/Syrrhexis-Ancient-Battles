@@ -6,6 +6,15 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## 0.18.0 — 2026-11-10
+
+### Armies
+- Sumerian Kingdom renamed **Sumerian City-States**. Saved lists still load.
+
+### Mercenaries
+- New: **Galatian Warriors** (Warrior, Training 5, 12 pts): Heavy Shield, Máchaira long sword with Cleaving Blade (3), optional Gaîsos javelins (+1) and Medium Armor (+2); Frenzy; Tribal Leader and Musician.
+- Removed: Ptolemaic Guards, replaced by the Galatian Warriors. Saved lists that included them will drop that unit.
+
 ## Rulebook — 2v2 (2026-11-05)
 
 - 2v2 Games rewritten: a team plays as one side; 4’ × 6’ board with a shared Friendly edge and deployment zone; team bid is the sum of both players' bids (up to 50); each player keeps their own Command deck and hand, but card effects apply to the team; the team deploys as one army (shared Byes, First Player picks who deploys first and who places Scouts and Ambushers first); one Initiative roll per team with both teammates' bonuses; shared Army Morale. Shared activation: each teammate numbers Order Tokens for their own units, and on a team's turn both teammates activate their next unit (resolved one after the other); Pass Tokens compare the teams' turn counts.

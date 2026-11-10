@@ -25,8 +25,8 @@ COL_W = (USABLE - GAP) // 2
 # (file, name, army, approximate real wheel diameter in metres)
 PAGES = [
     ('Chariots I', 'From Ur to Nineveh', [
-        ('sumerian_wagon', 'Battle Wagon', 'Sumerian Kingdom', 0.75),
-        ('sumerian_straddle_car', 'Straddle Car', 'Sumerian Kingdom', 0.6),
+        ('sumerian_wagon', 'Battle Wagon', 'Sumerian City-States', 0.75),
+        ('sumerian_straddle_car', 'Straddle Car', 'Sumerian City-States', 0.6),
         ('egyptian', 'Egyptian Chariot', 'Dynastic Egypt', 0.95),
         ('hattian', 'Anše.Kur.Ra Ḫatti', 'Hittite Empire', 1.0),
         ('allied', 'Anše.Kur.Ra Mittanni', 'Hittite Empire', 0.9),

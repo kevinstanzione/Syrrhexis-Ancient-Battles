@@ -10,10 +10,6 @@
 Done 2026-11-05: First Blood row, Strength table order, matching Armor Save tables; Walls diagram, Who Attacks Collision labels, Break Tokens visual, Scout and Ambush label; Aim and the Shooting Modifiers rework, "see X" links, Evasion flavour, Unwieldy styling, Activation Phase bold, End of the Round placement, Cohesion note, Stony Plain Strength 6, and the diagram fixes (Battlefield, Turning, Charge Arcs, Path and Bumping, Charge Fails, both Pile In, Firing Angle).
 Still to do:
 
-### Batched for the next update
-- Replace the Ptolemaic Guards mercenary with Galatian Warriors (decided 2026-11-10): Warrior (Closed Order), Training 5, ~12–13 pts; thureos (Heavy Shield), no body armour (mail for nobles as Medium Armor upgrade ~+2), long sword with Cleaving Blade, gaisos javelins as an option; Mercenary, Frenzy; characters Tribal Leader (~7–8) and Musician (carnyx, ~5). Note the removal in the changelog.
-- Rename the army "Sumerian Kingdom" to "Sumerian City-States" (decided 2026-11-07) in the builder, the Army Book (title, intro, card text), the rulebook, CHANGELOG and TODO. Keep the id `sumer` so saved lists still load.
-
 ## Terrain bases (3D print)
 - Generator done: terrain/make_bases.py writes exact-size plates to terrain/stl (Monument 2x2", Watchtower 3x3", wall 8x1/2" or two 4" halves, Rolling Wagons 40x60mm, Flaming Pigs 25mm round). Large terrain and Major Terrain use felt, so no bases.
 - Monument model: first Meshy image done (stele on stepped plinth with altar). Scale so the plinth fits inside 50.8 mm.
@@ -24,13 +20,13 @@ Still to do:
 ## Playtest watch
 - Breaking (changed 2026-11-03): passing removes 1 Break Token, or all if the unit was not Locked in Combat and took no Damage. Watch how often units break, especially at Mass Casualties (2 tokens every Activation Phase).
 
-## Sumerian Kingdom
+## Sumerian City-States
 - Review changes made 2026-11-03 in the army book draft (tools/army-book/drafts/sumer.json): Eren 2x5, Rear Captain, Šukur Accuracy 6; Šub-lugal characters; Lú-daluš Ranger Captain; Gír removed from Lú-ĝešbu, Eren, Šub-lugal, both vehicles and Martu; Aga-ús Retinue (Army Standard Bearer, Ha-zi-in 4/5/5); Martu Ilar base with Ĝešbu upgrade; new card The God's Steward.
 - Points after the review, to playtest: Eren 11 -> 12, Aga-ús Retinue 15 -> 16, Martu 12 -> 11; others unchanged.
 - Added 2026-11-03: Gigir-tur Straddle Car rule (1 Unit Strength per Kunga, car = 5); Shields of Lagash Command card (ongoing advance under shields). Both in the army book draft; plan doc not yet updated.
 - Gigir-tur: gained Feign Retreat 2026-11-03, stays 33 pts (Straddle Car took its shock role; Feign Retreat makes it a harasser).
 - Command cards (draft): The God's Steward, Shields of Lagash, Battle Net of Ningirsu, Muriq-Tidnim.
-- Eren rule named Guru (Sumerian "shield", ePSD2 guru) on 2026-11-03. Sumer moved into the builder in 0.14.0 (2026-11-04); intro rewritten, waiting on Kevin's read. Šukur Length 8 confirmed.
+- Eren rule named Guru (Sumerian "shield", ePSD2 guru) on 2026-11-03. Sumer moved into the builder in 0.14.0 (2026-11-04); intro rewritten, waiting on Kevin's read. Renamed from Sumerian Kingdom in 0.18.0. Plan doc still needs syncing (Guru, Straddle Car, Feign Retreat, points, name). Šukur Length 8 confirmed.
 
 ## Armies of Alexander (paused)
 - Draft unit list: Pezhétairoi (sarissa with Reach (2)), Hypaspistaí, Agēma Retinue (foot), Argyráspides, Hetaîroi, Basilikḕ Ílē Retinue (mounted), Thessaloì Hippeîs, Pródromoi, Agriânes, Krêtes Toxótai, Thureophóroi, Eléphantes, Oxybeleîs. Extras: scythed chariots, Katáphraktoi, Tarantînoi.

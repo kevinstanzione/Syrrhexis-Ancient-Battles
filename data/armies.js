@@ -1,7 +1,7 @@
 // Syrrhēxis army data. Edit the values below; keep the first line as is.
 window.NHB_DATA = {
   "meta": {
-    "version": "0.17.0",
+    "version": "0.18.0",
     "synced": "2026-10-22",
     "sources": {
       "Hittite Empire Army": "1aqMPs2Pi5car6pUzcuWmHXArGss_RZdkgATe5OsbVrw",
@@ -16,7 +16,7 @@ window.NHB_DATA = {
   "armies": [
     {
       "id": "sumer",
-      "name": "Sumerian Kingdom",
+      "name": "Sumerian City-States",
       "units": [
         {
           "id": "eren",
@@ -5402,6 +5402,8 @@ window.NHB_DATA = {
     }
   ],
   "labels": {
+    "Máchaira": "long slashing sword",
+    "Gaîsos": "javelins",
     "Tukul": "stone-headed mace",
     "Ilar": "throwsticks",
     "Ĝešbu": "javelins",
@@ -5615,65 +5617,78 @@ window.NHB_DATA = {
         }
       },
       {
-        "id": "ptolemaic-guards",
-        "name": "Ptolemaic Guards",
+        "id": "galatian-warriors",
+        "name": "Galatian Warriors",
         "type": "Warrior",
         "move": 6,
-        "training": 6,
-        "points": 15,
+        "training": 5,
+        "points": 12,
         "comps": [
+          [
+            4,
+            5
+          ],
           [
             3,
             4
-          ],
-          [
-            2,
-            5
           ]
         ],
         "equip": [
-          "Akóntion"
+          "Máchaira"
         ],
-        "gear": [
-          "Encheirídion"
-        ],
-        "body": "Light Armor",
+        "gear": [],
+        "body": null,
         "shield": "Heavy Shield",
-        "opts": [],
+        "opts": [
+          {
+            "label": "Gaîsos javelins",
+            "kind": "add",
+            "w": [
+              "Gaîsos"
+            ],
+            "c": 1
+          },
+          {
+            "label": "Medium Armor",
+            "kind": "add",
+            "body": "Medium Armor",
+            "c": 2
+          }
+        ],
         "chars": [
           {
             "one": [
               [
-                "Lead Captain",
-                6
+                "Tribal Leader",
+                7
               ]
             ]
           },
           {
             "one": [
               [
-                "Lord",
-                15
+                "Musician",
+                5
               ]
             ]
           }
         ],
         "rules": [
-          "Guard",
+          "Frenzy",
           "Mercenary"
         ],
         "weapons": {
-          "Akóntion": [
+          "Máchaira": [
+            "5",
+            "5",
+            "5",
+            "Cleaving Blade (3)"
+          ],
+          "Gaîsos": [
             "6 / 8”",
             "5",
             "6",
             "Throwing Weapon"
-          ],
-          "Encheirídion": [
-            "1",
-            "7",
-            "5",
-            ""
           ]
         }
       },
