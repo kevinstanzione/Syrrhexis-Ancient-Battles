@@ -11,6 +11,7 @@ Done 2026-11-05: First Blood row, Strength table order, matching Armor Save tabl
 Still to do:
 
 ### Batched for the next update
+- Replace the Ptolemaic Guards mercenary with Galatian Warriors (decided 2026-11-10): Warrior (Closed Order), Training 5, ~12–13 pts; thureos (Heavy Shield), no body armour (mail for nobles as Medium Armor upgrade ~+2), long sword with Cleaving Blade, gaisos javelins as an option; Mercenary, Frenzy; characters Tribal Leader (~7–8) and Musician (carnyx, ~5). Note the removal in the changelog.
 - Rename the army "Sumerian Kingdom" to "Sumerian City-States" (decided 2026-11-07) in the builder, the Army Book (title, intro, card text), the rulebook, CHANGELOG and TODO. Keep the id `sumer` so saved lists still load.
 
 ## Terrain bases (3D print)
