@@ -1,7 +1,7 @@
 <h1 id="movement">Movement</h1>
 <p>Every unit profile in the game has a Movement Value - a number in inches that dictates the normal distance the unit can travel in combat. Move values, and distances worked out from them, are never rounded: half of a Move of 5 is 2.5”. Only the distance spent on each part of a divided move is rounded up to the nearest inch (see <a class="xref" href="#activation">Activation</a>).</p>
 <p>When a unit is activated, during the Movement step it takes one action. Normally the controlling player chooses one of four actions: <a class="xref" href="#standard-move">Standard Move</a>, <a class="xref" href="#run">Run</a>, <a class="xref" href="#charge">Charge</a>, or <a class="xref" href="#hold">Hold</a>. A unit with a Flee Action Token does not choose: it must take the <a class="xref" href="#flee">Flee</a> action instead. Every action except Standard Move gives the unit the Action Token of the same name (see <a class="xref" href="#action-tokens">Action Tokens</a>). The token reminds both players what the unit did, because it changes how the unit attacks and defends. The table below summarizes the five actions.</p>
-<table class="narrow c2"><tr><th><b>Action</b></th><th><b>What it does</b></th></tr><tr><td><a class="xref" href="#standard-move">Standard Move</a></td><td>Move up to the unit’s Move value, turning as needed, without ending within 1” of an enemy unit. The unit may shoot afterwards. No Action Token.</td></tr><tr><td><a class="xref" href="#run">Run</a></td><td>Move up to twice the Move value. Gains a Run Action Token: -1 Strength, and the unit cannot shoot.</td></tr><tr><td><a class="xref" href="#charge">Charge</a></td><td>Move up to twice the Move value into contact with an enemy unit. Gains a Charge Action Token: +1 Strength, and the unit cannot shoot.</td></tr><tr><td><a class="xref" href="#hold">Hold</a></td><td>Stay in place to meet the enemy. Gains a Hold Action Token until the unit’s next activation: +1 Accuracy, and +1 to Break and Fear Tests.</td></tr><tr><td><a class="xref" href="#flee">Flee</a> (forced)</td><td>Only for a unit with a Flee Action Token. It first tries to Rally itself; if it does not, it Flees.</td></tr></table>
+<table class="narrow c2"><tr><th><b>Action</b></th><th><b>What it does</b></th></tr><tr><td><a class="xref" href="#standard-move">Standard Move</a></td><td>Move up to the unit’s Move value, turning as needed, without ending within 1” of an enemy unit. The unit may shoot afterwards. No Action Token.</td></tr><tr><td><a class="xref" href="#run">Run</a></td><td>Move up to twice the Move value. Gains a Run Action Token: -1 Strength, and the unit cannot shoot.</td></tr><tr><td><a class="xref" href="#charge">Charge</a></td><td>Move up to twice the Move value into contact with an enemy unit. Gains a Charge Action Token: +1 Strength, and the unit cannot shoot.</td></tr><tr><td><a class="xref" href="#hold">Hold</a></td><td>Stay in place to meet the enemy. Gains a Hold Action Token until the unit’s next activation: +1 Accuracy, and +1 to Break and Fear Tests.</td></tr><tr><td><a class="xref" href="#flee">Flee</a> (forced)</td><td>Only for a unit with a Flee Action Token. It may only try to Rally itself. If it does not, it moves in the Fleeing Step.</td></tr></table>
 <p>There are 3 major rules that apply to all forms of Movement:<br>1. No unit may overlap another unit</p>
 <p>2. No unit may move through another unit, without a special ability</p>
 <p>3. No unit may willingly move off the board, and if they are forced to they are removed from play</p>
@@ -140,7 +140,7 @@ Cannot move. If the unit moves due to any effect except alignment, remove the Ho
 Remove Hold Action token at the beginning of the next activation
 </li></ul>
 <h2 id="flee">Flee</h2>
-<p>Fleeing is an action players will avoid but are sometimes forced to take. If a unit begins its activation with a Flee Action Token, it will attempt to Rally itself otherwise it will run from combat. See <a class="xref" href="#rallying">Rallying</a> for more details.</p>
+<p>Fleeing is an action players will avoid but are sometimes forced to take. If a unit begins its activation with a Flee Action Token, it attempts to Rally itself and takes no other action. If it does not Rally, it runs in the Fleeing Step of the Morale Phase. See <a class="xref" href="#rallying">Rallying</a> for more details.</p>
 <h3 id="flee-action-token">Flee Action Token</h3>
 <p>While a unit has a Flee Action Token, it incurs several penalties:</p>
 <ul><li>
@@ -148,14 +148,14 @@ Enemy attacks against the unit gain +1 Strength
 </li><li>
 At the beginning of this unit’s activation, it first attempts to Rally itself, if possible
 </li><li>
-If the unit does not Rally itself, it Flees. See <a class="xref" href="#fleeing">Fleeing</a>
+If the unit does not Rally itself, it stays where it is until the Fleeing Step, when it Flees. See <a class="xref" href="#fleeing">Fleeing</a>
 </li><li>
 Fleeing units cannot shoot
 <ul><li>
 Chariot and Elephant units may still shoot, at -2 Accuracy (see <a class="xref" href="#stable-firing">Stable Firing</a>)
 </li></ul>
 </li><li>
-Unit cannot take any movement action except Flee, removes any other Action Token except Flee, and keeps this Action Token until the unit Rallies
+Unit cannot take any movement action in its activation, removes any other Action Token except Flee, and keeps this Action Token until the unit Rallies
 </li><li>
 If a Fleeing unit wins a Melee, during the Resolution the unit must Withdraw as far back as possible.
 </li></ul>
