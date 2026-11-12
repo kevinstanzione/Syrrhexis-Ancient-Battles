@@ -1579,7 +1579,7 @@ window.NHB_DATA = {
             "Feign Charge"
           ],
           "custom": {
-            "Runners": "During the End of Round phase, if this unit does not have a Run, Charge, or Flee token and is not locked in combat, it gets bonus attacks. Select an enemy unit within 6” to target with 2 bonus attacks, at Accuracy 5 and Strength 5. These attacks cannot be modified."
+            "Runners": "At the end of the Activation Phase, before Combat, if this unit does not have a Run, Charge, or Flee token and is not locked in combat, it gets bonus attacks. Select an enemy unit within 6” to target with 2 bonus attacks, at Accuracy 5 and Strength 5. These attacks cannot be modified."
           },
           "armors": {
             "Túg.ŠirʾAm": {
@@ -3820,7 +3820,7 @@ window.NHB_DATA = {
           ],
           "rules": [],
           "custom": {
-            "Testūdō": "When this unit takes the Hold action, it may move half its move and keeps its Hold Action Token, and Shooting attacks against it suffer -2 Accuracy. It may also use its Pīlum in Melee: Length 6, -1 Strength, and loses Sunder (2).",
+            "Testūdō": "When this unit takes the Hold action, it may move half its move and keeps its Hold Action Token. If it does, Shooting attacks against it suffer -2 Accuracy until its next activation. On Hold it may also use its Pīlum in Melee: Length 6, -1 Strength, and loses Sunder (2).",
             "Iacite Pīla": "When this unit takes the Charge action, it may first make a Shooting attack against the unit it intends to charge at -2 Accuracy."
           },
           "weapons": {
@@ -3908,7 +3908,7 @@ window.NHB_DATA = {
           ],
           "rules": [],
           "custom": {
-            "Testūdō": "When this unit takes the Hold action, it may move half its move and keeps its Hold Action Token, and Shooting attacks against it suffer -2 Accuracy. It may also use its Pīlum in Melee: Length 6, -1 Strength, and loses Sunder (2).",
+            "Testūdō": "When this unit takes the Hold action, it may move half its move and keeps its Hold Action Token. If it does, Shooting attacks against it suffer -2 Accuracy until its next activation. On Hold it may also use its Pīlum in Melee: Length 6, -1 Strength, and loses Sunder (2).",
             "Iacite Pīla": "When this unit takes the Charge action, it may first make a Shooting attack against the unit it intends to charge at -2 Accuracy."
           },
           "weapons": {
@@ -3993,7 +3993,7 @@ window.NHB_DATA = {
           ],
           "rules": [],
           "custom": {
-            "Testūdō": "When this unit takes the Hold action, it may move half its move and keeps its Hold Action Token, and Shooting attacks against it suffer -2 Accuracy. It may also use its Pīlum in Melee: Length 6, -1 Strength, and loses Sunder (2).",
+            "Testūdō": "When this unit takes the Hold action, it may move half its move and keeps its Hold Action Token. If it does, Shooting attacks against it suffer -2 Accuracy until its next activation. On Hold it may also use its Pīlum in Melee: Length 6, -1 Strength, and loses Sunder (2).",
             "Iacite Pīla": "When this unit takes the Charge action, it may first make a Shooting attack against the unit it intends to charge at -2 Accuracy."
           },
           "weapons": {
@@ -4070,7 +4070,7 @@ window.NHB_DATA = {
           ],
           "rules": [],
           "custom": {
-            "Testūdō": "When this unit takes the Hold action, it may move half its move and keeps its Hold Action Token, and Shooting attacks against it suffer -2 Accuracy. It may also use its Pīlum in Melee: Length 6, -1 Strength, and loses Sunder (2).",
+            "Testūdō": "When this unit takes the Hold action, it may move half its move and keeps its Hold Action Token. If it does, Shooting attacks against it suffer -2 Accuracy until its next activation. On Hold it may also use its Pīlum in Melee: Length 6, -1 Strength, and loses Sunder (2).",
             "Iacite Pīla": "When this unit takes the Charge action, it may first make a Shooting attack against the unit it intends to charge at -2 Accuracy.",
             "Fidēlitās": "While this unit has its Commander, it gains Disciplined. Once per game, its controlling player may suffer 1 wound with no save and remove the Commander to recover 1 used Command Card."
           },
@@ -6962,12 +6962,12 @@ window.NHB_DATA = {
     {
       "id": "chariots-of-the-storm-god",
       "name": "Chariots of the Storm God",
-      "short": "All Chariots gain +1 Accuracy",
+      "short": "Your Chariots gain +1 Accuracy",
       "armies": [
         "hittite"
       ],
       "limit": 1,
-      "text": "Until the end of the round, all Chariot units gain +1 Accuracy.",
+      "text": "Until the end of the round, all your Chariot units gain +1 Accuracy.",
       "flavor": "Like the Storm God's bulls, the chariots thunder across the field."
     },
     {
