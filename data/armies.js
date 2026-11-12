@@ -2499,7 +2499,7 @@ window.NHB_DATA = {
               "5”",
               "6",
               "-",
-              "Throwing Weapon. On hit, increase the amount of Morale lost to Suppression from 1 to the enemy’s Training value, then make a bonus attack with a melee weapon (even if not in base contact) at -1 Accuracy. Ignores Evasion."
+              "Throwing Weapon. On hit, increase the amount of Morale lost to Suppression from 1 to the enemy’s Training value. No Wound roll: instead, for each hit the unit makes 1 bonus Melee attack against that target with its Akīnakah Kamna, at -1 Accuracy, even if not in base contact. Ignores Evasion."
             ],
             "Akīnakah Kamna": [
               "1",
@@ -4072,7 +4072,7 @@ window.NHB_DATA = {
           "custom": {
             "Testūdō": "When this unit takes the Hold action, it may move half its move and keeps its Hold Action Token. If it does, Shooting attacks against it suffer -2 Accuracy until its next activation. On Hold it may also use its Pīlum in Melee: Length 6, -1 Strength, and loses Sunder (2).",
             "Iacite Pīla": "When this unit takes the Charge action, it may first make a Shooting attack against the unit it intends to charge at -2 Accuracy.",
-            "Fidēlitās": "While this unit has its Commander, it gains Disciplined. Once per game, its controlling player may suffer 1 wound with no save and remove the Commander to recover 1 used Command Card."
+            "Fidēlitās": "While this unit has its Commander, it gains Disciplined. Once per game, its controlling player may have the unit suffer 1 Damage with no save and remove the Commander to recover 1 used Command Card. They also lose the Army Morale the Commander added, as if it had been eliminated."
           },
           "weapons": {
             "Pīlum": [
@@ -6915,7 +6915,7 @@ window.NHB_DATA = {
         "persia"
       ],
       "limit": 1,
-      "text": "This round, add +1 to your Initiative roll for each unit with the Mercenary rule in your army, including Pīrū.",
+      "text": "This round, add +1 to your Initiative roll for each unit with the Mercenary rule you have on the battlefield, including Pīrū.",
       "flavor": "Every nation under heaven marches beneath the Great King's banner."
     },
     {

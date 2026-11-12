@@ -163,7 +163,7 @@ def options(u):
             out.append(f"Any model may take {ital(o['label'], u)} {per_model(o['c'], u)}")
         elif k == 'add':
             if o.get('unlessWeapon'):
-                out.append(f"Models without {ital(o['unlessWeapon'], u)} may take {ital(o['label'], u)} {per_model(o['c'], u)}")
+                out.append(f"If the unit does not carry {ital(o['unlessWeapon'], u)}, it may take {ital(o['label'], u)} {per_model(o['c'], u)}")
             else:
                 out.append(f"{ital(o['label'], u)} {per_model(o['c'], u)}")
     return '. '.join(out) + '.' if out else 'None'
