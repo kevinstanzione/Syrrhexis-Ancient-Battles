@@ -6,6 +6,30 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## 0.20.0 — 2026-11-11
+
+### Units
+- **Hippeîs** and **Hippeîs Retinue** are now Cavalry (Closed Order): 2 Ranks of 4 or 3, and 2 Ranks of 2. Saved lists with these units may need their size re-picked.
+- **Carduchian Tribesmen** are now Skirmishing Warriors.
+- **Pīrū**: the Elephant attacks alongside the crew's Θanu.
+- **Lydian Houndsmen**: the Hound attacks alongside the Dóry or Kopís.
+- **Kamanda** lasso: no Wound roll; each hit gives 1 bonus Akīnakah Kamna attack.
+- **Testūdō**: -2 Accuracy only after its half move. **Runners** trigger at the end of the Activation Phase.
+
+### Points
+- Giš.Ban Ḫatti 9 → 10 (Giš.Ban is now a plain bow; Arzawa and Mittanni keep Recurve Bow).
+- Iberian Shock Troops 13 → 15, Thracian Warriors 11 → 13, Veterānī 22 → 21.
+
+### Command cards
+- Chariots of the Storm God, Feigned Flight, Local Guides, Bodyguard and Mass Volley affect only your units. Monument helps your units. Thousand Gods of Hatti does not affect the Mešedi Retinue itself. All of Mankind counts mercenaries on the battlefield. Fidēlitās also costs the Commander's Army Morale. Triplex Aciēs restores the Penalty Category. Flower War reworded. Battle Net of Ningirsu and Scorching Heat clarified. Supplemental Mercenaries: one copy in hand per mercenary unit.
+
+### Army Book
+- New "How to Read a Profile" page; Quick Reference Army Morale updated to the Contribution rules; Barding, Mahouts and Camel Riders printed on profiles; armor tables list only armor a unit can take; typo fixes.
+
+## Rulebook 0.3.1 — 2026-11-11
+
+- Ongoing and terrain cards stay face up with their owner; no Charge on the round a unit arrives from Reserve; no armor Move penalty for Chariot or Elephant crews.
+
 ## 0.19.0 — 2026-11-11
 
 ### Builder
