@@ -2,7 +2,7 @@
 window.NHB_RULES = {
   model: {
     "Aim": "If the unit takes the Hold action, it may use Aim: +1 to its Shooting attacks this round, and Cover against them is one step lower (Heavy → Cover → Light → none). Cannot be used in the same round as Volley.",
-    "Ambush": "Deployed after all other units, including Scouts, and after all Byes. Deploy anywhere outside your Deployment Zone, within 12” of an enemy unit. The First Player chooses who deploys Ambushers first.",
+    "Ambush": "Deployed after all other units, including Scouts, and after all Byes. Optional. Deploy anywhere outside your Deployment Zone, within 12” of an enemy unit and more than 1” from every enemy unit. The First Player chooses who deploys Ambushers first.",
     "Camel Riders": "Each additional Rider on a Camel counts as a model for Army Morale, adding its Training, and adds 1 to Unit Strength.",
     "Collision": "While in Closed Order, gains bonus Melee Hits equal to its ranks not contributing attacks (e.g. 4 ranks: +3; with Reach (1): +2). They are a Strength 5 strike at Length 0, after every weapon, using the unit's Melee Strength modifiers (Charge, Momentum and so on) but no weapon rules; never reduced by First Blood. Lost while engaged on a flank or rear side.",
     "Disciplined": "Cannot be Bumped or Pushed, so a Charge whose path it blocks fails. Automatically passes the special Break Test from Feign Retreat, though it may still choose to be goaded. Open Order units only gain this while every model is within 1” of at least 3 others in the unit.",
@@ -19,7 +19,7 @@ window.NHB_RULES = {
     "Parthian Shot": "After a Feign Retreat, may make Shooting attacks despite the Run token, only against the unit it Feign Retreated from, at -2 Accuracy.",
     "Phalanx": "Rolls to hit this unit in Shooting and Melee are at -1 (to the roll, not Accuracy). -1 Move. Units charging its front (Feign Charges and Feign Retreats included) gain a Break Token unless they have a melee weapon longer than the Phalanx unit's longest. Negated by certain terrain, at Half Strength or under 6 models, or if it has neither a Shield nor a weapon of Length 6 or more.",
     "Run Them Down": "The first time this unit charges or is charged, at the end of that Combat Phase each model becomes its own Open Order unit. Each must then Charge the closest visible enemy unit every activation, or Run toward it (no Army Morale is lost for these forced Charges failing). Elephants target the closest unit, friend or foe. These models cannot Hold, Flee or Rally and auto-pass Break Tests.",
-    "Scout": "Deployed after units without Scout or Ambush and after all Byes. Deploy outside your Deployment Zone, not within 12” of an enemy model. The First Player chooses who deploys Scouts first.",
+    "Scout": "Deployed after units without Scout or Ambush and after all Byes. Optional. Deploy outside your Deployment Zone, not within 12” of an enemy unit. The First Player chooses who deploys Scouts first.",
     "Shieldwall": "While this unit has a Hold Action Token, attacks against it suffer -1 Accuracy.",
     "Suicidal": "Not removed due to Damage until the end of the Combat Phase, even if the Unit Health Table would remove it.",
     "Surefooted": "Ignores Difficult Terrain penalties. In a Stony Plain, moves as Skirmishing Warriors. In a Marsh, Move Allotment is still limited to Move but it gains no Break Tokens for moving there.",

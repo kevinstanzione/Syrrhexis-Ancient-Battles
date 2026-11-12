@@ -10,6 +10,10 @@
 Done 2026-11-05: First Blood row, Strength table order, matching Armor Save tables; Walls diagram, Who Attacks Collision labels, Break Tokens visual, Scout and Ambush label; Aim and the Shooting Modifiers rework, "see X" links, Evasion flavour, Unwieldy styling, Activation Phase bold, End of the Round placement, Cohesion note, Stony Plain Strength 6, and the diagram fixes (Battlefield, Turning, Charge Arcs, Path and Bumping, Charge Fails, both Pile In, Firing Angle).
 Still to do:
 
+## Tokens and templates
+- Design Strength, Accuracy and Training (leadership) Penalty tokens (noted 2026-11-11). Splitting a Unit copies the parent's tokens onto every new unit, so a set needs enough of each.
+- Corner Marker: a small 90° template that marks a tray's footprint for About Face (added 2026-11-11). Make an STL to go with the Turn Template.
+
 ## Terrain bases (3D print)
 - Generator done: terrain/make_bases.py writes exact-size plates to terrain/stl (Monument 2x2", Watchtower 3x3", wall 8x1/2" or two 4" halves, Rolling Wagons 40x60mm, Flaming Pigs 25mm round). Large terrain and Major Terrain use felt, so no bases.
 - Monument model: first Meshy image done (stele on stepped plinth with altar). Scale so the plinth fits inside 50.8 mm.
