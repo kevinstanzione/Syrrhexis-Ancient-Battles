@@ -6557,7 +6557,7 @@ window.NHB_DATA = {
       "name": "Monument",
       "short": "Obstacle: +2 to Break Tests nearby",
       "limit": 3,
-      "text": "Obstacle. Before deployment, place a 2” × 2” Monument in the neutral zone, outside every deployment zone. It is impassable and blocks all lines of fire that pass over it. Friendly units within 6” of it gain +2 to Break tests.",
+      "text": "Obstacle. Before deployment, place a 2” × 2” Monument in the neutral zone, outside every deployment zone. It is impassable and blocks all lines of fire that pass over it. Your units within 6” of it gain +2 to Break tests.",
       "flavor": "Beneath the gaze of their ancestors, no warrior wants to be the first to run."
     },
     {
