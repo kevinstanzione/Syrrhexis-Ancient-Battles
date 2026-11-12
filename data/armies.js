@@ -6531,7 +6531,7 @@ window.NHB_DATA = {
         "sumer"
       ],
       "limit": 1,
-      "text": "Obstacle, Wall. Before deployment, place a wall up to 8” long and ½” wide anywhere within 6” of your deployment zone. It does not block Line of Sight. Shooting attacks that pass over it treat the target as in at least Light Cover. Enemy units with Scout or Ambush cannot be deployed within 12” of it.",
+      "text": "Obstacle, Wall. Before deployment, place a wall up to 8” long and ½” wide anywhere within 6” of your deployment zone. It does not block lines of fire. Shooting attacks that pass over it treat the target as in at least Light Cover. Enemy units with Scout or Ambush cannot be deployed within 12” of it.",
       "flavor": "Shu-Sin raises the wall that keeps the Amorites away."
     },
     {
@@ -6549,7 +6549,7 @@ window.NHB_DATA = {
       "name": "Monument",
       "short": "Obstacle: +2 to Break Tests nearby",
       "limit": 3,
-      "text": "Obstacle. Before deployment, place a 2” × 2” Monument in the neutral zone, outside every deployment zone. It is impassable and blocks all line of sight that passes over it. Friendly units within 6” of it gain +2 to Break tests.",
+      "text": "Obstacle. Before deployment, place a 2” × 2” Monument in the neutral zone, outside every deployment zone. It is impassable and blocks all lines of fire that pass over it. Friendly units within 6” of it gain +2 to Break tests.",
       "flavor": "Beneath the gaze of their ancestors, no warrior wants to be the first to run."
     },
     {
@@ -6565,7 +6565,7 @@ window.NHB_DATA = {
       "name": "Field Wall",
       "short": "Obstacle: a low wall that gives Light Cover",
       "limit": 1,
-      "text": "Obstacle, Wall. Before deployment, place a wall up to 8” long and ½” wide in your deployment zone. It does not block Line of Sight. Shooting attacks that pass over it treat the target as in at least Light Cover.",
+      "text": "Obstacle, Wall. Before deployment, place a wall up to 8” long and ½” wide in your deployment zone. It does not block lines of fire. Shooting attacks that pass over it treat the target as in at least Light Cover.",
       "flavor": "Stones cleared from the fields, piled shoulder-high along the boundary."
     },
     {
@@ -6573,7 +6573,7 @@ window.NHB_DATA = {
       "name": "Watchtower",
       "short": "Obstacle: keeps enemy deployment away",
       "limit": 3,
-      "text": "Obstacle, Flammable. Before deployment, place a 3” × 3” Watchtower in your deployment zone. It is impassable but does not block line of sight. Shooting attacks that pass over it treat the target as in at least Light Cover. While a Skirmishing Warrior unit is in base contact with it, and no other unit is in base contact with that unit or the Watchtower, no enemy unit may deploy within 18” of the Watchtower. Any player may use this effect.",
+      "text": "Obstacle, Flammable. Before deployment, place a 3” × 3” Watchtower in your deployment zone. It is impassable but does not block lines of fire. Shooting attacks that pass over it treat the target as in at least Light Cover. While a Skirmishing Warrior unit is in base contact with it, and no other unit is in base contact with that unit or the Watchtower, no enemy unit may deploy within 18” of the Watchtower. Any player may use this effect.",
       "flavor": "From the tower, no ambush goes unseen."
     },
     {
@@ -6581,7 +6581,7 @@ window.NHB_DATA = {
       "name": "Dense Brush",
       "short": "Obstacle: blocks movement and sight",
       "limit": 3,
-      "text": "Obstacle, Flammable. Before deployment, place a 6” × 6” patch of Dense Brush in the neutral zone, outside every deployment zone. It is impassable and blocks all line of sight that passes over it.",
+      "text": "Obstacle, Flammable. Before deployment, place a 6” × 6” patch of Dense Brush in the neutral zone, outside every deployment zone. It is impassable and blocks all lines of fire that pass over it.",
       "flavor": "Thorn and thicket swallow whole companies from view."
     },
     {
@@ -6589,7 +6589,7 @@ window.NHB_DATA = {
       "name": "Rolling Wagons",
       "short": "Obstacle: wagons crash into the enemy line",
       "limit": 1,
-      "text": "Obstacle, Flammable. Before deployment, place 3 wagon markers (40 × 60mm) in your deployment zone, facing the enemy board edge. Until released, the wagons are impassable, do not block line of sight, and shooting attacks that pass over them treat the target as in at least Light Cover. Once per game, at the start of any Activation Phase, release them: each wagon moves directly forward up to 18” until it touches a unit or impassable terrain. If it touches an enemy unit, that unit takes a Fear Test and gains a Break Token, then the wagon makes 2 attacks at Accuracy 9, Strength 7 against it (Accuracy 5 if the unit passed the test). The wagon is then removed. A wagon that touches a friendly unit or impassable terrain, or travels 18”, is removed without effect. Wagons are not units: they cannot be targeted or charged, do not generate or lose Army Morale, and take no Order Tokens.",
+      "text": "Obstacle, Flammable. Before deployment, place 3 wagon markers (40 × 60mm) in your deployment zone, facing the enemy board edge. Until released, the wagons are impassable, do not block lines of fire, and shooting attacks that pass over them treat the target as in at least Light Cover. Once per game, at the start of any Activation Phase, release them: each wagon moves directly forward up to 18” until it touches a unit or impassable terrain. If it touches an enemy unit, that unit takes a Fear Test and gains a Break Token, then the wagon makes 2 attacks at Accuracy 9, Strength 7 against it (Accuracy 5 if the unit passed the test). The wagon is then removed. A wagon that touches a friendly unit or impassable terrain, or travels 18”, is removed without effect. Wagons are not units: they cannot be targeted or charged, do not generate or lose Army Morale, and take no Order Tokens.",
       "flavor": "The tribesmen massed their carts at the head of the pass, ready to send them crashing into the climbing phalanx."
     },
     {
@@ -6597,7 +6597,7 @@ window.NHB_DATA = {
       "name": "Flaming Pigs",
       "short": "Burning pigs panic the enemy, above all Elephants",
       "limit": 1,
-      "text": "Flammable. Before deployment, place 2 pig markers in your deployment zone. Once per game, at the start of any Activation Phase, set them alight: each pig moves up to 12” toward the closest enemy unit it can see, until it touches a unit or impassable terrain. If it touches an enemy unit, that unit takes a Fear Test and gains 2 Break Tokens if it fails; Elephant units automatically fail. If it touches a Flammable Obstacle, the Obstacle burns as with Fire Brands. The pig is then removed. A pig that touches a friendly unit, or travels 12”, is removed without effect. Pigs are not units: they cannot be targeted or charged, do not generate or lose Army Morale, and take no Order Tokens.",
+      "text": "Flammable. Before deployment, place 2 pig markers in your deployment zone. Once per game, at the start of any Activation Phase, set them alight: each pig moves up to 12” toward the closest enemy unit it has a line of fire to, until it touches a unit or impassable terrain. If it touches an enemy unit, that unit takes a Fear Test and gains 2 Break Tokens if it fails; Elephant units automatically fail. If it touches a Flammable Obstacle, the Obstacle burns as with Fire Brands. The pig is then removed. A pig that touches a friendly unit, or travels 12”, is removed without effect. Pigs are not units: they cannot be targeted or charged, do not generate or lose Army Morale, and take no Order Tokens.",
       "flavor": "The squealing, burning swine sent the war elephants trampling back through their own lines."
     },
     {
@@ -6605,7 +6605,7 @@ window.NHB_DATA = {
       "name": "Fire Brands",
       "short": "Set fire to chariots, war engines or Flammable Obstacles",
       "limit": 1,
-      "text": "Play during the Combat Phase, before any Melee is resolved. Choose one friendly unit. If it is in base contact with an enemy Chariot or Warmachine unit, that unit suffers 1 Hit at Strength 6 per model of the friendly unit in base contact with it, ignoring Armor from Shields, and gains 2 Break Tokens. These Hits replace the friendly unit’s melee attacks for this Combat Phase. If it is in base contact with a Flammable Obstacle, the Obstacle burns: it is impassable and blocks all line of sight until the end of the next round, then is removed. A wagon from Rolling Wagons that has not been released, or an abandoned war engine, is simply removed.",
+      "text": "Play during the Combat Phase, before any Melee is resolved. Choose one friendly unit. If it is in base contact with an enemy Chariot or Warmachine unit, that unit suffers 1 Hit at Strength 6 per model of the friendly unit in base contact with it, ignoring Armor from Shields, and gains 2 Break Tokens. These Hits replace the friendly unit’s melee attacks for this Combat Phase. If it is in base contact with a Flammable Obstacle, the Obstacle burns: it is impassable and blocks all lines of fire until the end of the next round, then is removed. A wagon from Rolling Wagons that has not been released, or an abandoned war engine, is simply removed.",
       "flavor": "Pitch, tow and torches, and a stout arm to throw them."
     },
     {
@@ -6685,7 +6685,7 @@ window.NHB_DATA = {
       "name": "Sandstorm",
       "short": "Weather: blinding sand limits sight and charges to 12”",
       "limit": 1,
-      "text": "Weather. Play during the End of the Round Phase of a round in which you had the Initiative. During the next round, no unit may draw Line of Sight to, or declare a Charge against, a unit more than 12” away. At the end of each unit’s activation, if it is within 12” of Sand terrain and did not take the Hold action, it suffers 1 Hit at Strength 4.",
+      "text": "Weather. Play during the End of the Round Phase of a round in which you had the Initiative. During the next round, no unit may trace a line of fire to, or declare a Charge against, a unit more than 12” away. At the end of each unit’s activation, if it is within 12” of Sand terrain and did not take the Hold action, it suffers 1 Hit at Strength 4.",
       "flavor": "The wind rose off the desert, and the enemy line vanished behind a wall of sand."
     },
     {
@@ -6741,7 +6741,7 @@ window.NHB_DATA = {
       "name": "Flaming Ammunition",
       "short": "Fire arrows and bolts that panic animals and burn obstacles",
       "limit": 1,
-      "text": "Cannot be played during Downpour. Play when a friendly unit with a Direct Fire or Piercing Shot weapon activates. Until the end of the round, that weapon loses Direct Fire and Piercing Shot, but each Hit that causes damage gives the target 1 extra Break Token, and a Cavalry, Chariot or Elephant unit that takes a Hit from it must take a Fear Test, gaining another Break Token if it fails. The unit may also target a Flammable Obstacle or an abandoned enemy war engine within range and line of sight: the Obstacle burns as with Fire Brands, and the war engine is removed.",
+      "text": "Cannot be played during Downpour. Play when a friendly unit with a Direct Fire or Piercing Shot weapon activates. Until the end of the round, that weapon loses Direct Fire and Piercing Shot, but each Hit that causes damage gives the target 1 extra Break Token, and a Cavalry, Chariot or Elephant unit that takes a Hit from it must take a Fear Test, gaining another Break Token if it fails. The unit may also target a Flammable Obstacle or an abandoned enemy war engine within range and line of fire: the Obstacle burns as with Fire Brands, and the war engine is removed.",
       "flavor": "Pitch-soaked bolts arced over the walls like falling stars."
     },
     {
@@ -7165,7 +7165,7 @@ window.NHB_DATA = {
         "greek"
       ],
       "limit": 1,
-      "text": "Obstacle, Wall. Before deployment, place a wall up to 8” long and ½” wide in your deployment zone. It does not block Line of Sight. Shooting attacks that pass over it treat the target as in at least Cover.",
+      "text": "Obstacle, Wall. Before deployment, place a wall up to 8” long and ½” wide in your deployment zone. It does not block lines of fire. Shooting attacks that pass over it treat the target as in at least Cover.",
       "flavor": "Behind the old wall of the Phocians, three hundred hold the pass."
     }
   ]
