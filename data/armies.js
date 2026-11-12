@@ -398,7 +398,7 @@ window.NHB_DATA = {
                 ],
                 [
                   "Volleymaster",
-                  10
+                  8
                 ]
               ]
             }
@@ -1250,7 +1250,7 @@ window.NHB_DATA = {
                 ],
                 [
                   "Volleymaster",
-                  10
+                  8
                 ]
               ]
             }
@@ -1756,7 +1756,7 @@ window.NHB_DATA = {
               "one": [
                 [
                   "Volleymaster",
-                  10
+                  8
                 ]
               ],
               "note": "2nd Rank"
@@ -3412,7 +3412,7 @@ window.NHB_DATA = {
               "one": [
                 [
                   "Volleymaster",
-                  10
+                  8
                 ],
                 [
                   "Bowmaster",
@@ -3466,7 +3466,7 @@ window.NHB_DATA = {
                 ],
                 [
                   "Volleymaster",
-                  10
+                  8
                 ]
               ]
             }
@@ -3570,7 +3570,7 @@ window.NHB_DATA = {
           "type": "Cavalry",
           "move": 12,
           "training": 6,
-          "points": 20,
+          "points": 19,
           "comps": [
             [
               2,
@@ -3662,7 +3662,7 @@ window.NHB_DATA = {
           "type": "Cavalry",
           "move": 10,
           "training": 7,
-          "points": 19,
+          "points": 18,
           "comps": [
             [
               2,
@@ -4283,7 +4283,7 @@ window.NHB_DATA = {
               "one": [
                 [
                   "Volleymaster",
-                  10
+                  8
                 ],
                 [
                   "Bowmaster",
@@ -4598,7 +4598,7 @@ window.NHB_DATA = {
           "move": 5,
           "training": 6,
           "points": 12,
-          "engine": 50,
+          "engine": 30,
           "engineUS": 3,
           "range": [
             3,
@@ -4653,7 +4653,7 @@ window.NHB_DATA = {
           "move": 6,
           "training": 6,
           "points": 12,
-          "engine": 62,
+          "engine": 45,
           "engineUS": 3,
           "range": [
             2,
@@ -5706,7 +5706,7 @@ window.NHB_DATA = {
         "type": "Warrior",
         "move": 6,
         "training": 5,
-        "points": 17,
+        "points": 18,
         "comps": [
           [
             3,
@@ -5981,7 +5981,7 @@ window.NHB_DATA = {
               ],
               [
                 "Volleymaster",
-                10
+                8
               ]
             ]
           }
