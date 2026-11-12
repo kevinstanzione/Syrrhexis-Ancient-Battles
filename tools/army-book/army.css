@@ -166,3 +166,11 @@ section.army > h1 { margin-top: 0; font-size: 20pt; }
 .qnote { font-size: 8.4pt; line-height: 1.2; }
 .qbox h2 { font-size: 10.5pt; margin: 0 0 2pt; }
 .draft { font: 600 8.5pt 'Source Sans 3'; color: var(--red); border: .6pt solid var(--red); padding: 3pt 6pt; margin: -2pt 0 6pt; text-align: left; }
+
+/* War Machine header: engine cost, a narrow gap, then the Engineers' stats */
+.profile td.pstats.wm { width: 3.4in; }
+table.wmhead { width: 100%; border-collapse: collapse; margin: 0; }
+table.wmhead > tbody > tr > td, table.wmhead > tr > td { background: none !important; border: none !important; padding: 0 !important; vertical-align: bottom; }
+table.wmhead td.g1 { width: 27%; } table.wmhead td.gap { width: 1.2%; } table.wmhead td.g2 { width: 71.8%; }
+.glab { font: 700 7.5pt 'Source Sans 3'; text-transform: uppercase; letter-spacing: .08em; color: var(--red); text-align: center; border-bottom: .8pt solid var(--red); margin-bottom: 2pt; padding-bottom: 1pt; white-space: nowrap; }
+table.wmhead table.stats { width: 100%; margin: 0; }

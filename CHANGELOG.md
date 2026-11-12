@@ -6,6 +6,22 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## 0.21.0 — 2026-11-12
+
+### Units
+- **Pīrū**: the Elephant and the crew's melee weapons are separate choices again (not combined). Elephant Strength 10 → 8; Elephants gain **Momentum** (+1 Strength while they have a Charge token), so a charging elephant still strikes at Strength 10.
+
+### Points
+- Scorpiō war engine 50 → 30, Carroballista war engine 62 → 45 (Warmachines no longer Gain dice to hit or to wound).
+- Hippeîs 20 → 19, Hippeîs Retinue 19 → 18, Volleymaster 10 → 8, Lydian Houndsmen 17 → 18.
+
+### Army Book
+- Warmachine profiles have a new header: War Machine points, then the Engineers' Move, Training and Points. "How to Read a Profile" updated.
+
+## Rulebook 0.3.2 — 2026-11-12
+
+- Elephants gain Momentum; Warmachines never Gain or Lose dice on the Wounding Table either.
+
 ## 0.20.0 — 2026-11-11
 
 ### Units

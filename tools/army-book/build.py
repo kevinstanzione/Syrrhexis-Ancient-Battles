@@ -84,7 +84,7 @@ def join_and(xs):
 def composition(u):
     if u.get('engine'):
         lo, hi = u['range']
-        return f"1 Warmachine [{u['engine']}] &amp; {lo}–{hi} Engineers"
+        return f"1 War Machine &amp; {lo}–{hi} Engineers"
     if u.get('range'):
         lo, hi = u['range']
         return f"{lo}–{hi} {noun(u, 2)}"
@@ -250,12 +250,20 @@ def armor_table(u):
 
 def profile(u):
     kv = lambda k, v: f'<p class="kv"><span class="k">{k}</span>{v}</p>'
+    if u.get('engine'):                           # War Machine cost, then the Engineers' stats
+        stats = f'''<td class="pstats wm"><table class="wmhead"><tr>
+<td class="g1"><div class="glab">War Machine</div><table class="stats"><tr><th>Points</th></tr><tr><td>{u['engine']}</td></tr></table></td>
+<td class="gap"></td>
+<td class="g2"><div class="glab">Engineers</div><table class="stats"><tr><th>Move</th><th>Training</th><th>Points</th></tr>
+<tr><td>{u['move']}</td><td>{u['training']}</td><td>{u['points']}</td></tr></table></td></tr></table></td>'''
+    else:
+        stats = f'''<td class="pstats"><table class="stats"><tr><th>Move</th><th>Training</th><th>Points</th></tr>
+<tr><td>{u['move']}</td><td>{u['training']}</td><td>{u['points']}</td></tr></table></td>'''
     custom = ''.join(f'<p class="rule"><b>{esc(n)}.</b> {esc(t)}</p>' for n, t in (u.get('custom') or {}).items())
     custom += ''.join(f'<p class="rule"><b>{esc(n)}.</b> {esc(RULES["model"][n])}</p>' for n in u.get('rules', []) if n in PROFILE_RULES)
     return f'''<section class="profile">
 <table class="phead"><tr><td class="pname"><p>{title(u['name'])}</p><p>{esc(u['type'])}</p></td>
-<td class="pstats"><table class="stats"><tr><th>Move</th><th>Training</th><th>Points</th></tr>
-<tr><td>{u['move']}</td><td>{u['training']}</td><td>{u['points']}</td></tr></table></td></tr></table>
+{stats}</tr></table>
 {kv('Composition:', composition(u))}
 {kv('Equipment:', equipment(u))}
 {kv('Options:', options(u))}
