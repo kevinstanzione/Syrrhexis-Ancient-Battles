@@ -3812,7 +3812,7 @@ window.NHB_DATA = {
           ],
           "rules": [],
           "custom": {
-            "Testūdō": "When this unit takes the Hold action, it may move half its move and Shooting attacks against it suffer a -2 penalty to hit. It may also use its Pīlum in Melee: Length 6, -1 Strength, and loses Sunder (2).",
+            "Testūdō": "When this unit takes the Hold action, it may move half its move and keeps its Hold Action Token, and Shooting attacks against it suffer a -2 penalty to hit. It may also use its Pīlum in Melee: Length 6, -1 Strength, and loses Sunder (2).",
             "Iacite Pīla": "When this unit takes the Charge action, it may first make a Shooting attack against the unit it intends to charge at a -2 penalty to hit."
           },
           "weapons": {
@@ -3900,7 +3900,7 @@ window.NHB_DATA = {
           ],
           "rules": [],
           "custom": {
-            "Testūdō": "When this unit takes the Hold action, it may move half its move and Shooting attacks against it suffer a -2 penalty to hit. It may also use its Pīlum in Melee: Length 6, -1 Strength, and loses Sunder (2).",
+            "Testūdō": "When this unit takes the Hold action, it may move half its move and keeps its Hold Action Token, and Shooting attacks against it suffer a -2 penalty to hit. It may also use its Pīlum in Melee: Length 6, -1 Strength, and loses Sunder (2).",
             "Iacite Pīla": "When this unit takes the Charge action, it may first make a Shooting attack against the unit it intends to charge at a -2 penalty to hit."
           },
           "weapons": {
@@ -3985,7 +3985,7 @@ window.NHB_DATA = {
           ],
           "rules": [],
           "custom": {
-            "Testūdō": "When this unit takes the Hold action, it may move half its move and Shooting attacks against it suffer a -2 penalty to hit. It may also use its Pīlum in Melee: Length 6, -1 Strength, and loses Sunder (2).",
+            "Testūdō": "When this unit takes the Hold action, it may move half its move and keeps its Hold Action Token, and Shooting attacks against it suffer a -2 penalty to hit. It may also use its Pīlum in Melee: Length 6, -1 Strength, and loses Sunder (2).",
             "Iacite Pīla": "When this unit takes the Charge action, it may first make a Shooting attack against the unit it intends to charge at a -2 penalty to hit."
           },
           "weapons": {
@@ -4062,7 +4062,7 @@ window.NHB_DATA = {
           ],
           "rules": [],
           "custom": {
-            "Testūdō": "When this unit takes the Hold action, it may move half its move and Shooting attacks against it suffer a -2 penalty to hit. It may also use its Pīlum in Melee: Length 6, -1 Strength, and loses Sunder (2).",
+            "Testūdō": "When this unit takes the Hold action, it may move half its move and keeps its Hold Action Token, and Shooting attacks against it suffer a -2 penalty to hit. It may also use its Pīlum in Melee: Length 6, -1 Strength, and loses Sunder (2).",
             "Iacite Pīla": "When this unit takes the Charge action, it may first make a Shooting attack against the unit it intends to charge at a -2 penalty to hit.",
             "Fidēlitās": "While this unit has its Commander, it gains Disciplined. Once per game, its controlling player may suffer 1 wound with no save and remove the Commander to recover 1 used Command Card."
           },
