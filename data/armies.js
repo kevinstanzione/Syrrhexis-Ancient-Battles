@@ -3850,7 +3850,7 @@ window.NHB_DATA = {
           "type": "Warrior",
           "move": 6,
           "training": 7,
-          "points": 22,
+          "points": 21,
           "comps": [
             [
               4,
@@ -4412,7 +4412,7 @@ window.NHB_DATA = {
               "8",
               "5",
               "6",
-              "No Reach"
+              ""
             ],
             "Lancea": [
               "6 / 8”",
