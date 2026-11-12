@@ -83,7 +83,7 @@ window.NHB_DATA = {
             "Shieldwall"
           ],
           "custom": {
-            "Guru": "Attacks against this unit from its front arc use the 1st Rank's Armor; attacks from its flanks or rear use the Armor of the other ranks. When this unit enters Half Strength, it removes models from its front rank first, working backward, instead of from its rear rank. A unit loses Shieldwall while none of its models carry a Shield or Heavy Shield."
+            "Guru": "Attacks against this unit from its front arc use the 1st Rank's Armor; attacks from its flanks or rear use the Armor of the other ranks. When this unit enters Half Strength, it removes models from its front rank first, working backward, instead of from its rear rank. A unit loses Shieldwall while none of its models carry a Shield or Heavy Shield. The front rank makes no Melee attacks, so it counts as a rank not contributing attacks for Collision."
           },
           "weapons": {
             "Šukur": [
@@ -6528,7 +6528,7 @@ window.NHB_DATA = {
         "sumer"
       ],
       "limit": 1,
-      "text": "Until the end of the round, enemy units Locked in Combat with your units cannot leave the Melee. They cannot Flee (a unit that would Flee stays Locked in Combat and keeps its Flee Action Token), Disengage, or make a Withdraw Combat Move.",
+      "text": "Until the end of the round, enemy units Locked in Combat with your units cannot leave the Melee. They cannot Flee (a unit that would Flee stays Locked in Combat and keeps its Flee Action Token; its controller still loses Army Morale for the failed Break Test, but none in the Fleeing Step), Disengage, or make a Withdraw Combat Move.",
       "flavor": "Ningirsu casts his great net over the men of Umma, and none escape."
     },
     {
