@@ -226,7 +226,7 @@ window.NHB = (function () {
     return lo.perModel * models(u, sel) + (lo.countCost || 0) + (u.engine || 0) + chosenChars(u, sel).reduce((s, c) => s + (c.cost || 0), 0);
   }
 
-  // Army Morale counts the men: drivers, mahouts and crewmen for Chariots and Elephants; horses and elephants don't count.
+  // Army Morale counts the men at their Training: drivers, mahouts and crewmen for Chariots and Elephants. Mounts are added separately (mountMorale).
   function moraleModels(u, sel) {
     const n = models(u, sel);
     if (u.type === "Chariot") return n * (u.crew.driver + u.crew.crew);
@@ -234,9 +234,17 @@ window.NHB = (function () {
     if (/Cavalry/.test(u.type)) return n * (1 + (loadout(u, sel).crewPlus || 0)); // Camel Riders: extra riders count
     return n;
   }
+  // Mounts add a flat amount: 1 per horse, donkey or camel, 5 per elephant (not multiplied by Training).
+  function mountMorale(u, sel) {
+    const n = models(u, sel);
+    if (u.type === "Chariot") return n * u.crew.horses;
+    if (u.type === "Elephant") return n * 5;
+    if (/Cavalry/.test(u.type)) return n;
+    return 0;
+  }
   function morale(u, sel) {
     const t = u.training, n = moraleModels(u, sel);
-    const base = t * n;
+    const base = t * n + mountMorale(u, sel);
     const bonus = chosenChars(u, sel).reduce((s, c) => s + (CHAR_MORALE[c.name] ? CHAR_MORALE[c.name](t) : 0), 0);
     return { base, bonus, total: base + bonus };
   }
