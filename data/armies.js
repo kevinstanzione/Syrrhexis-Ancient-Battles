@@ -3812,8 +3812,8 @@ window.NHB_DATA = {
           ],
           "rules": [],
           "custom": {
-            "Testūdō": "When this unit takes the Hold action, it may move half its move and keeps its Hold Action Token, and Shooting attacks against it suffer a -2 penalty to hit. It may also use its Pīlum in Melee: Length 6, -1 Strength, and loses Sunder (2).",
-            "Iacite Pīla": "When this unit takes the Charge action, it may first make a Shooting attack against the unit it intends to charge at a -2 penalty to hit."
+            "Testūdō": "When this unit takes the Hold action, it may move half its move and keeps its Hold Action Token, and Shooting attacks against it suffer -2 Accuracy. It may also use its Pīlum in Melee: Length 6, -1 Strength, and loses Sunder (2).",
+            "Iacite Pīla": "When this unit takes the Charge action, it may first make a Shooting attack against the unit it intends to charge at -2 Accuracy."
           },
           "weapons": {
             "Pīlum": [
@@ -3900,8 +3900,8 @@ window.NHB_DATA = {
           ],
           "rules": [],
           "custom": {
-            "Testūdō": "When this unit takes the Hold action, it may move half its move and keeps its Hold Action Token, and Shooting attacks against it suffer a -2 penalty to hit. It may also use its Pīlum in Melee: Length 6, -1 Strength, and loses Sunder (2).",
-            "Iacite Pīla": "When this unit takes the Charge action, it may first make a Shooting attack against the unit it intends to charge at a -2 penalty to hit."
+            "Testūdō": "When this unit takes the Hold action, it may move half its move and keeps its Hold Action Token, and Shooting attacks against it suffer -2 Accuracy. It may also use its Pīlum in Melee: Length 6, -1 Strength, and loses Sunder (2).",
+            "Iacite Pīla": "When this unit takes the Charge action, it may first make a Shooting attack against the unit it intends to charge at -2 Accuracy."
           },
           "weapons": {
             "Pīlum": [
@@ -3985,8 +3985,8 @@ window.NHB_DATA = {
           ],
           "rules": [],
           "custom": {
-            "Testūdō": "When this unit takes the Hold action, it may move half its move and keeps its Hold Action Token, and Shooting attacks against it suffer a -2 penalty to hit. It may also use its Pīlum in Melee: Length 6, -1 Strength, and loses Sunder (2).",
-            "Iacite Pīla": "When this unit takes the Charge action, it may first make a Shooting attack against the unit it intends to charge at a -2 penalty to hit."
+            "Testūdō": "When this unit takes the Hold action, it may move half its move and keeps its Hold Action Token, and Shooting attacks against it suffer -2 Accuracy. It may also use its Pīlum in Melee: Length 6, -1 Strength, and loses Sunder (2).",
+            "Iacite Pīla": "When this unit takes the Charge action, it may first make a Shooting attack against the unit it intends to charge at -2 Accuracy."
           },
           "weapons": {
             "Pīlum": [
@@ -4062,8 +4062,8 @@ window.NHB_DATA = {
           ],
           "rules": [],
           "custom": {
-            "Testūdō": "When this unit takes the Hold action, it may move half its move and keeps its Hold Action Token, and Shooting attacks against it suffer a -2 penalty to hit. It may also use its Pīlum in Melee: Length 6, -1 Strength, and loses Sunder (2).",
-            "Iacite Pīla": "When this unit takes the Charge action, it may first make a Shooting attack against the unit it intends to charge at a -2 penalty to hit.",
+            "Testūdō": "When this unit takes the Hold action, it may move half its move and keeps its Hold Action Token, and Shooting attacks against it suffer -2 Accuracy. It may also use its Pīlum in Melee: Length 6, -1 Strength, and loses Sunder (2).",
+            "Iacite Pīla": "When this unit takes the Charge action, it may first make a Shooting attack against the unit it intends to charge at -2 Accuracy.",
             "Fidēlitās": "While this unit has its Commander, it gains Disciplined. Once per game, its controlling player may suffer 1 wound with no save and remove the Commander to recover 1 used Command Card."
           },
           "weapons": {
@@ -6896,7 +6896,7 @@ window.NHB_DATA = {
         "persia"
       ],
       "limit": 1,
-      "text": "Until the end of the round, ranged attacks made with Volley fire, or against targets beyond half the weapon's maximum range, add +1 to Suppression.",
+      "text": "Until the end of the round, ranged attacks made with Volley fire, or against targets beyond half the weapon's printed range, add +1 to Suppression.",
       "flavor": "So many arrows fly that the sky darkens over the enemy line."
     },
     {
@@ -7025,7 +7025,7 @@ window.NHB_DATA = {
         "rome"
       ],
       "limit": 1,
-      "text": "Until the end of the round, units using Iacite Pīla ignore its -2 penalty to hit and add +1 to Suppression.",
+      "text": "Until the end of the round, units using Iacite Pīla ignore its -2 Accuracy and add +1 to Suppression.",
       "flavor": "A storm of pila breaks the enemy's shields before the swords go in."
     },
     {
