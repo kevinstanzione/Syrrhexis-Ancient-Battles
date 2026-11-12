@@ -12,7 +12,7 @@
 <tr><td>More than 75%</td><td>Full Strength</td><td>No penalty</td></tr>
 <tr><td>75% or less</td><td>Weakened</td><td>-1 Accuracy, -1 Strength. Gain 1 Break token on entering</td></tr>
 <tr><td>50% or less</td><td>Half Strength</td><td>-1 Accuracy, -1 Strength. Remove half the models (rounded down). Gain 2 Break tokens on entering. Cannot Rally itself</td></tr>
-<tr><td>25% or less</td><td>Mass Casualties</td><td>-2 Accuracy, -2 Strength. Gain 2 Break tokens on entering and every Activation Phase. Cannot Rally itself</td></tr>
+<tr><td>25% or less</td><td>Mass Casualties</td><td>-2 Accuracy, -2 Strength. Gain 2 Break tokens on entering and at the start of every Activation Phase. Cannot Rally itself</td></tr>
 <tr><td>0% or less</td><td>Eradicated</td><td>Remove the unit</td></tr></table>
 <p class="qnote">Breakpoints are rounded down: a unit with 25 Health breaks at 18, 12, 6 and 0. Penalties are not cumulative; entering a worse category applies only the difference.</p></div>
 
@@ -26,12 +26,13 @@
 <p class="qnote"><b>Levy:</b> a Closed Order unit ignores its rear rank (unless it has only one); an Open Order unit halves its Unit Strength, rounded up.</p></div>
 
 <div class="qbox"><h2>Army Morale</h2>
-<p class="qnote"><b>Starting Army Morale</b> is the sum of every model's Training. Count Drivers, Mahouts and Crewmen as models; Horses and Elephants do not count. Special Characters add their own bonus.</p>
+<p class="qnote"><b>Starting Army Morale</b> is the sum of every model's Training. Count Drivers, Mahouts and Crewmen as models. Each horse, donkey or camel adds 1 and each elephant adds 5. Special Characters add their own bonus. What a unit adds, with its characters, is its <b>Contribution</b>.</p>
 <table class="loss"><tr><th>Lose Army Morale for</th><th>Amount</th></tr>
 <tr><td>Each Shooting Hit (Suppression)</td><td>1</td></tr>
-<tr><td>Each point of Damage</td><td>The unit's base Training</td></tr>
-<tr><td>A failed Charge, a Flee move</td><td>The unit's Unit Strength</td></tr>
-<tr><td>A unit destroyed or leaving play</td><td>The rest of what it added</td></tr></table>
+<tr><td>Each Health category entered</td><td>25% of Contribution</td></tr>
+<tr><td>A failed Break Test, each Fleeing Step</td><td>25% of Contribution</td></tr>
+<tr><td>A failed Charge</td><td>The unit's Unit Strength</td></tr>
+<tr><td>A unit destroyed any other way or leaving play</td><td>What is left of its Contribution</td></tr></table>
 <table><tr><th>Army Morale</th><th>Category</th><th>Effect</th></tr>
 <tr><td>More than 75%</td><td>Holding Strong</td><td>No penalty</td></tr>
 <tr><td>75% or less</td><td>Unease</td><td>-1 Training to Mercenary and Levy units</td></tr>

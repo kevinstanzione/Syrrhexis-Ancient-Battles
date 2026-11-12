@@ -1221,7 +1221,7 @@ window.NHB_DATA = {
           "type": "Light Warrior",
           "move": 7,
           "training": 5,
-          "points": 9,
+          "points": 10,
           "comps": [
             [
               4,
@@ -2863,7 +2863,7 @@ window.NHB_DATA = {
               "6 / 8”",
               "6",
               "6",
-              "2 Attack Melee, 3 Attacks Shooting. Throwing Weapon"
+              "2 Attacks Melee, 3 Attacks Shooting. Throwing Weapon"
             ],
             "Aršti": [
               "7",
@@ -2975,7 +2975,7 @@ window.NHB_DATA = {
               "10",
               "5",
               "10",
-              "1 attack. 2 extra attacks on Charge"
+              "1 attack. 2 extra attacks on Charge. May be used in conjunction with Θanu"
             ]
           }
         }
@@ -3567,13 +3567,19 @@ window.NHB_DATA = {
         {
           "id": "hippeis",
           "name": "Hippeîs",
-          "type": "Light Cavalry",
+          "type": "Cavalry",
           "move": 12,
           "training": 6,
           "points": 20,
-          "range": [
-            4,
-            8
+          "comps": [
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              3
+            ]
           ],
           "equip": [
             "Dóry"
@@ -3653,13 +3659,15 @@ window.NHB_DATA = {
         {
           "id": "hippeis-retinue",
           "name": "Hippeîs Retinue",
-          "type": "Light Cavalry",
+          "type": "Cavalry",
           "move": 10,
           "training": 7,
           "points": 19,
-          "range": [
-            3,
-            4
+          "comps": [
+            [
+              2,
+              2
+            ]
           ],
           "equip": [
             "Dóry"
@@ -5422,7 +5430,7 @@ window.NHB_DATA = {
     "Gír.Gal": "bronze sword",
     "Gír.Gal.Gur": "curved sickle sword",
     "Gír": "bronze dagger",
-    "Giš.Ban": "composite bow",
+    "Giš.Ban": "bow",
     "Kuš.Daluš": "sling",
     "Túg.ŠirʾAm": "long scale coat",
     "Aršti": "short spear",
@@ -5916,7 +5924,7 @@ window.NHB_DATA = {
       {
         "id": "carduchian-tribesmen",
         "name": "Carduchian Tribesmen",
-        "type": "Light Warrior",
+        "type": "Skirmishing Warrior",
         "move": 7,
         "training": 4,
         "points": 13,
@@ -6282,7 +6290,7 @@ window.NHB_DATA = {
                 ]
               },
               {
-                "name": "Arštaya javelins (replace Karəta)",
+                "name": "Arštaya javelins",
                 "w": [
                   "Θanvar",
                   "Arštaya"

@@ -51,6 +51,8 @@ def noun(u, n):
 def named(w):
     """'Aršti' -> 'Aršti short spear' using the builder's plain-English labels."""
     lab = LABELS.get(w)
+    if lab and lab.split()[0].split('-')[0].lower() in w.lower():
+        lab = None                                # e.g. "Scorpiō Bolt" + "bolt-thrower"
     return f'<i>{esc(w)}</i> {esc(lab)}' if lab else esc(w)
 
 
@@ -95,6 +97,8 @@ def composition(u):
         bits = []
         if c.get('driver'):
             bits.append(f"{c['driver']} Driver")
+        if c.get('mahout'):
+            bits.append(f"{c['mahout']} Mahout")
         if c.get('crew'):
             bits.append(f"{c['crew']} Crewman" if c['crew'] == 1 else f"{c['crew']} Crewmen")
         if c.get('horses'):
@@ -140,7 +144,7 @@ def equipment(u):
             rows.append(('All Ranks', join_and(tail)))
         return lines(rows)
     items = [named(w) for w in u['equip'] if w != 'Horses']
-    items += [named(x) if x in LABELS else esc(x) for x in (u.get('body'), u.get('shield')) if x]
+    items += [named(x) if x in LABELS else esc(x) for x in (u.get('body'), u.get('shield'), u.get('barding')) if x]
     return join_and(items)
 
 
@@ -151,7 +155,10 @@ def options(u):
         if k == 'swap':
             ch = o['choices']
             alts = [f"{ital(c['name'], u)} {per_model(c['c'], u)}" for c in ch[1:]]
-            out.append(f"{ital(o['label'], u)}: replace {ital(ch[0]['name'], u)} with {join_or(alts)}")
+            if ch[0]['name'].lower().startswith('no '):
+                out.append(f"{ital(o['label'], u)}: may take {join_or(alts)}")
+            else:
+                out.append(f"{ital(o['label'], u)}: replace {ital(ch[0]['name'], u)} with {join_or(alts)}")
         elif k == 'count':
             out.append(f"Any model may take {ital(o['label'], u)} {per_model(o['c'], u)}")
         elif k == 'add':
@@ -225,6 +232,13 @@ def armor_table(u):
     a = u.get('armors')
     if not a:
         return ''
+    can = {u.get('body'), u.get('shield'), u.get('barding')}
+    for o in u.get('opts', []):
+        can |= {o.get('body'), o.get('shield')}
+        for c in o.get('choices', []):
+            can |= {c.get('body'), c.get('shield')}
+    if any(n in can for n in a):
+        a = {n: v for n, v in a.items() if n in can}
     rows = []
     for n, v in a.items():
         mv = v.get('move', 0)
@@ -237,6 +251,7 @@ def armor_table(u):
 def profile(u):
     kv = lambda k, v: f'<p class="kv"><span class="k">{k}</span>{v}</p>'
     custom = ''.join(f'<p class="rule"><b>{esc(n)}.</b> {esc(t)}</p>' for n, t in (u.get('custom') or {}).items())
+    custom += ''.join(f'<p class="rule"><b>{esc(n)}.</b> {esc(RULES["model"][n])}</p>' for n in u.get('rules', []) if n in PROFILE_RULES)
     return f'''<section class="profile">
 <table class="phead"><tr><td class="pname"><p>{title(u['name'])}</p><p>{esc(u['type'])}</p></td>
 <td class="pstats"><table class="stats"><tr><th>Move</th><th>Training</th><th>Points</th></tr>
@@ -309,6 +324,10 @@ def army_section(a):
             f'<h2>Unit Profiles</h2>' + ''.join(profile(u) for u in ordered(a['units'])) + cards_html + '</section>')
 
 
+# Rules that belong to a single unit: printed in full on its profile as well as in the Rules Reference.
+PROFILE_RULES = {'Camel Riders'}
+
+
 def load_rules():
     js = ("global.window={};process.stdout.write(JSON.stringify(require(%r), (k, v) => v instanceof RegExp ? undefined : v))"
           % os.path.join(ROOT, 'js', 'rules.js'))
@@ -316,13 +335,16 @@ def load_rules():
 
 
 def glossary():
-    R = load_rules()
+    R = RULES
     sec = lambda title, d: (f'<h2>{title}</h2><div class="gloss">' + ''.join(
         f'<p><b>{esc(k)}.</b> {esc(v)}</p>' for k, v in sorted(d.items())) + '</div>')
     return ('<section class="army"><h1 id="rules-reference">Rules Reference</h1>'
             '<p class="era">Condensed from the rulebook for use at the table. Where this summary and the rulebook differ, the rulebook applies.</p>'
             + sec('Unit Types', R['types']) + sec('Special Rules', R['model']) + sec('Weapon Keywords', R['weapon'])
             + sec('Characters', R['chars']) + '</section>')
+
+
+RULES = load_rules()
 
 
 def start_year(aid):
@@ -352,7 +374,8 @@ def build(ids):
                      + ''.join(profile(u) for u in D['mercs']['units']) + '</section>')
     parts.append(glossary())
     quickref = open(os.path.join(HERE, 'quickref.html')).read()
-    toc = '<li><a href="#quick-reference">Quick Reference</a></li>' + ''.join(f'<li><a href="#{a["id"]}">{esc(a["name"])}</a></li>' for a in armies)
+    quickref += open(os.path.join(HERE, 'howto.html')).read()
+    toc = '<li><a href="#quick-reference">Quick Reference</a></li><li><a href="#reading-a-profile">How to Read a Profile</a></li>' + ''.join(f'<li><a href="#{a["id"]}">{esc(a["name"])}</a></li>' for a in armies)
     if not ids:
         toc += '<li><a href="#generic-cards">Generic Command Cards</a></li><li><a href="#mercenaries">Supplemental Mercenaries</a></li>'
     toc += '<li><a href="#rules-reference">Rules Reference</a></li>'

@@ -22,7 +22,7 @@ window.NHB_RULES = {
     "Scout": "Deployed after units without Scout or Ambush and after all Byes. Optional. Deploy outside your Deployment Zone, not within 12” of an enemy unit. The First Player chooses who deploys Scouts first.",
     "Shieldwall": "While this unit has a Hold Action Token, attacks against it suffer -1 Accuracy.",
     "Suicidal": "Not removed due to Damage until the end of the Combat Phase, even if the Unit Health Table would remove it.",
-    "Surefooted": "Ignores Difficult Terrain penalties. In a Stony Plain, moves as Skirmishing Warriors. In a Marsh, Move Allotment is still limited to Move but it gains no Break Tokens for moving there.",
+    "Surefooted": "Ignores Difficult Terrain penalties. In a Stony Plain, is exempt from the Move cap, like Open Order Warriors. In a Marsh, Move Allowance is still limited to Move but it gains no Break Tokens for moving there.",
     "Tactician": "+1 to Initiative rolls while the unit has a Hold token. Does not stack.",
     "Surefooted (X)": "As Surefooted, but only within the listed terrain types (Stony Plain, Marsh or Sand). Terrain that follows a type's rules counts as that type: Crumbled Ruins as Stony Plain; Flooded Field and Chinampas as Marsh.",
     "Terrify X": "When this unit charges or is charged by a unit of type X, that unit gains a Break Token. So does a unit of type X it successfully Bumps during a Charge. Terrify All affects every unit type.",
@@ -42,7 +42,7 @@ window.NHB_RULES = {
     "Sunder (X)": "Enemies roll Armor Saves at a -X penalty against attacks with this weapon.",
     "Throwing Weapon": "In Closed Order, only the front two ranks throw. Ignores the On the Move penalty. While Locked in Combat with a Hold token, may shoot units it is fighting at -3 Accuracy, without Aim or Volley.",
     "Thrusting Blade": "Enemies roll Armor Saves at -1 while the unit has no Flee, Charge, or Run token.",
-    "Unwieldy (X)": "Closed Order: each turn costs an additional X” of Move Allotment, including the Alignment turn before a Charge. Open Order: -X Move instead."
+    "Unwieldy (X)": "Closed Order: each turn costs an additional X” of Move Allowance, including the Alignment turn before a Charge. Open Order: -X Move instead."
   },
   weaponPatterns: [
     [/Cleaving Blade/, "Cleaving Blade (X)"], [/Cumbersome/, "Cumbersome"], [/Direct Fire/, "Direct Fire"], [/Massive Suppression/, "Massive Suppression (X)"],
@@ -93,7 +93,7 @@ window.NHB_RULES = {
     "Light Warriors / Light Cavalry": "Deploy as Closed or Open Order. During its activation, a Closed Order unit may spend half its Move Allowance to leave its tray and become Open Order.",
     "Cavalry": "Unit Strength 3 per model. Momentum: +1 Strength with a Charge token; +1 Strength to Throwing Weapon shots with no Action Token and not Locked in Combat. Toughness: +1 Armor.",
     "Chariots": "Health 1 per driver, crewman and horse; Unit Strength 1 per driver and crewman, 2 per horse. Momentum (as Cavalry). Protected Platform: +1 Armor, using the crew's armor, not the driver's. Stable Firing: may shoot with a Run or Flee token at -2 Accuracy. Wheeled Vehicle: move 1” between turns in the same direction (2” with 3+ animals), 2” between turns in opposite directions (3” with 3+ animals).",
-    "Warmachines": "Engineers are Open Order models within 1” of their war engine. Health 1 per Engineer; Unit Strength 1 per Engineer plus 3 for a Light war engine. Crewed: the engine moves or shoots only with 2+ Engineers within 1”. Protected Engine: attacks target the Engineers; the engine cannot be Bumped, Pushed or moved through. If every Engineer is destroyed or fleeing, the engine is abandoned and counts as destroyed at the end of the game; Engineers without an engine can recover it. Light Warmachines may move and shoot in the same activation but cannot Run or Charge.",
+    "Warmachines": "Engineers are Open Order models within 1” of their war engine. Health 1 per Engineer; Unit Strength 1 per Engineer plus 3 for a Light, 5 for a Heavy or 7 for a Massive war engine. Crewed: the engine moves or shoots only with 2+ Engineers within 1”. Protected Engine: attacks target the Engineers; the engine cannot be Bumped, Pushed or moved through. If every Engineer is destroyed or fleeing, the engine is abandoned and counts as destroyed at the end of the game; Engineers without an engine can recover it. Light Warmachines may move and shoot in the same activation but cannot Run or Charge. Heavy Warmachines may move or shoot in an activation, not both, and cannot Run or Charge. Massive Warmachines cannot move once deployed.",
     "Elephants": "Health 6 per elephant; Unit Strength 1 per mahout and crewman, 12 per elephant. Great Toughness: Armor 3, ignoring crew armor. Stable Firing. Anxious: double Army Morale lost to Suppression; only Elephants can Rally them. Furious: at Half Strength gains Run Them Down and Suicidal."
   }
 };
