@@ -65,7 +65,7 @@ window.NHB_RULES = {
     "Tribal Leader": "Grants Noble and removes Levy. +1 attack in Combat or Shooting.",
     "Volleymaster": "Grants Volley. +1 Shooting attack (not Combat).",
     "Army Standard Bearer": "Retinue. +4× Training in Army Morale. +1 Initiative. While the unit flees you lose its Training each round; if eliminated you lose its Training and the opponent gains that much. One per army.",
-    "Army Musician": "Retinue. +2× Training in Army Morale. +1 Initiative. At the end of the Activation Phase you may swap all your Hold tokens for Charge tokens, or all Charge tokens for Hold tokens. Flee/eliminated losses as Lord. One per army.",
+    "Army Musician": "Retinue. +2× Training in Army Morale. +1 Initiative. At the end of the Activation Phase you may swap all your Hold tokens for Charge tokens, or all Charge tokens for Hold tokens (not Chariots or Elephants). Flee/eliminated losses as Lord. One per army.",
     "Commander": "Retinue. +3× Training in Army Morale. +1 Initiative. At the end of an allied unit's Movement Step (no Action Token, not Locked in Combat) within 6” (18” with a Standard Bearer), it may Special Move as a Musician; if out of range it takes a Run token instead. Flee/eliminated losses as Lord. One per army."
   },
   charShort: {
@@ -84,7 +84,7 @@ window.NHB_RULES = {
     "Tribal Leader": "Grants Noble and removes Levy. +1 attack in Combat or Shooting.",
     "Volleymaster": "Grants Volley and +1 Shooting attack.",
     "Army Standard Bearer": "Retinue, one per army. +4× Training Army Morale and +1 Initiative. Big Army Morale loss if the unit flees or dies.",
-    "Army Musician": "Retinue, one per army. +2× Training Army Morale and +1 Initiative. Before Combat, swap all your Hold tokens for Charge tokens or the reverse.",
+    "Army Musician": "Retinue, one per army. +2× Training Army Morale and +1 Initiative. Before Combat, swap all your Hold tokens for Charge tokens or the reverse (not Chariots or Elephants).",
     "Commander": "Retinue, one per army. +3× Training Army Morale and +1 Initiative. Gives units within 6” a free 1” shift or turn."
   },
   types: {
