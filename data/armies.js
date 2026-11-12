@@ -6549,7 +6549,7 @@ window.NHB_DATA = {
       "limit": 3,
       "mercs": 1,
       "text": "Your army may include 1 unit from the Supplemental Mercenaries list for each copy of this card in your deck.",
-      "note": "If you take a mercenary unit, this card must be one of the 3 cards in your hand.",
+      "note": "For each mercenary unit you take, one copy of this card must be in your 3-card hand.",
       "flavor": "Gold buys soldiers when loyalty runs short."
     },
     {
@@ -7022,7 +7022,7 @@ window.NHB_DATA = {
         "rome"
       ],
       "limit": 1,
-      "text": "Play on a Closed Order unit, even one Locked in Combat. It recovers Health equal to a third of its starting Health (rounded down) and removes 2 Break Tokens. Removed models do not return, and no Army Morale is restored.",
+      "text": "Play on a Closed Order unit, even one Locked in Combat. It recovers Health equal to a third of its starting Health (rounded down) and removes 2 Break Tokens. If this lifts it into a better Penalty Category, it takes that category’s penalties instead, removing Penalty tokens to match. Removed models do not return, and no Army Morale is restored.",
       "flavor": "Fresh men step forward as the weary front rank falls back."
     },
     {
@@ -7096,7 +7096,7 @@ window.NHB_DATA = {
         "aztec"
       ],
       "limit": 1,
-      "text": "Regain 2 Army Morale for each model that every enemy unit destroyed so far started the game with. You can't regain more than 25% of your Starting Army Morale.",
+      "text": "Regain 2 Army Morale for each model in each enemy unit destroyed so far, counting the models it started the game with. You can't regain more than 25% of your Starting Army Morale.",
       "flavor": "Every captive taken rekindles the warriors' fervor."
     },
     {
