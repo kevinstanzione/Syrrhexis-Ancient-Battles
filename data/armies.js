@@ -2974,8 +2974,8 @@ window.NHB_DATA = {
             "Elephant": [
               "10",
               "5",
-              "10",
-              "1 attack. 2 extra attacks on Charge. May be used in conjunction with Θanu"
+              "8",
+              "1 attack. 2 extra attacks on Charge"
             ]
           }
         }
