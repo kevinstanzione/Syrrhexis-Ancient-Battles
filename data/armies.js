@@ -5764,7 +5764,7 @@ window.NHB_DATA = {
             "2",
             "3",
             "4",
-            "1 attack per Warrior in 1st rank. Only while this unit has a Hold action token"
+            "1 attack per Warrior in 1st rank. Only while this unit has a Hold action token. May be used in conjunction with Dóry or Kopís"
           ],
           "Kopís": [
             "4",
@@ -6701,7 +6701,7 @@ window.NHB_DATA = {
       "name": "Scorching Heat",
       "short": "Weather: armored units that exert themselves lose heart",
       "limit": 1,
-      "text": "Weather. Play during the End of the Round Phase of a round in which you had the Initiative. During the next round, each time a unit Runs, Flees, or Charges, its controlling player loses Army Morale equal to the unit’s Armor Value, not counting bonuses from its unit type (such as the Toughness of Cavalry and Elephants).",
+      "text": "Weather. Play during the End of the Round Phase of a round in which you had the Initiative. During the next round, each time a unit Runs, Flees, or Charges, its controlling player loses Army Morale equal to the unit’s Armor Value, not counting bonuses from its unit type (such as the Toughness of Cavalry). Elephants count their crew’s armor instead.",
       "flavor": "By noon the bronze was too hot to touch, and men fell in the ranks without a wound."
     },
     {
@@ -6733,7 +6733,7 @@ window.NHB_DATA = {
       "name": "Feigned Flight",
       "short": "2 Light or Skirmishing Cavalry gain Feign Retreat",
       "limit": 3,
-      "text": "Until the end of the round, up to two Light Cavalry or Skirmishing Cavalry units gain Feign Retreat.",
+      "text": "Until the end of the round, up to two of your Light Cavalry or Skirmishing Cavalry units gain Feign Retreat.",
       "flavor": "The horsemen wheel away as if beaten, and the foolish give chase."
     },
     {
@@ -6765,7 +6765,7 @@ window.NHB_DATA = {
       "name": "Bodyguard",
       "short": "A Training 7+ foot unit gains Guard",
       "limit": 3,
-      "text": "Until the end of the round, one Warrior, Light Warrior or Skirmishing Warrior unit with base Training 7 or higher, and without Retinue in its name, gains the Guard special rule.",
+      "text": "Until the end of the round, one of your Warrior, Light Warrior or Skirmishing Warrior units with base Training 7 or higher, and without Retinue in its name, gains the Guard special rule.",
       "flavor": "The best men stand closest to their general, ready to step in front of any blow."
     },
     {
@@ -6773,7 +6773,7 @@ window.NHB_DATA = {
       "name": "Mass Volley",
       "short": "A ranged unit gains Volley",
       "limit": 3,
-      "text": "Until the end of the round, one unit with a ranged weapon gains the Volley special rule.",
+      "text": "Until the end of the round, one of your units with a ranged weapon gains the Volley special rule.",
       "flavor": "Every bow on the line looses at once, and the sky goes dark."
     },
     {
@@ -6789,7 +6789,7 @@ window.NHB_DATA = {
       "name": "Local Guides",
       "short": "2 foot units gain Surefooted",
       "limit": 3,
-      "text": "Until the end of the round, up to two Warrior, Light Warrior or Skirmishing Warrior units gain the Surefooted special rule.",
+      "text": "Until the end of the round, up to two of your Warrior, Light Warrior or Skirmishing Warrior units gain the Surefooted special rule.",
       "flavor": "A shepherd who knows every goat track is worth a hundred spears."
     },
     {
