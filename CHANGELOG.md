@@ -6,6 +6,15 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## 0.21.1 — 2026-11-12
+
+### Command cards
+- **Triplex Aciēs**: regain 25% of the unit's Contribution for each Health category it moves back up.
+- **Kadesh Ambush**, **Hidden Ravine**, **Vanguard**: played during deployment, before Byes are counted.
+- **Rally to the Standard**: Elephant units are not affected. **Sound the Advance**: Chariots and Elephants don't gain the +1 Move.
+- **The Colors Must Not Fall**: its Damage costs Army Morale only if the unit enters a lower Health category.
+- **Caltrops**: played at the start of the Orders Phase, before Order Tokens are placed, on a Closed Order unit still holding from the previous round and not Locked in Combat.
+
 ## 0.21.0 — 2026-11-12
 
 ### Units
