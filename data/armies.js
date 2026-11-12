@@ -6797,7 +6797,7 @@ window.NHB_DATA = {
       "name": "Hidden Ravine",
       "short": "A light foot unit gains Ambush",
       "limit": 3,
-      "text": "Play during deployment. One Light Warrior or Skirmishing Warrior unit gains the Ambush special rule.",
+      "text": "Play during deployment, before Byes are counted. One Light Warrior or Skirmishing Warrior unit gains the Ambush special rule.",
       "flavor": "The ground falls away where no one expects it, and men are waiting there."
     },
     {
@@ -6813,7 +6813,7 @@ window.NHB_DATA = {
       "name": "Vanguard",
       "short": "A light unit gains Scout",
       "limit": 3,
-      "text": "Play during deployment. One Light Warrior, Skirmishing Warrior, Light Cavalry or Skirmishing Cavalry unit gains the Scout special rule.",
+      "text": "Play during deployment, before Byes are counted. One Light Warrior, Skirmishing Warrior, Light Cavalry or Skirmishing Cavalry unit gains the Scout special rule.",
       "flavor": "Sent ahead at dawn, they hold the ground before the army arrives."
     },
     {
@@ -6829,7 +6829,7 @@ window.NHB_DATA = {
       "name": "Rally to the Standard",
       "short": "Army Standard Bearer: easier Rallying nearby",
       "limit": 1,
-      "text": "Requires your Army Standard Bearer's unit to be on the battlefield and not Fleeing. This round, your units within 12” of it gain +2 to Rally tests, and Mercenary and Levy units within 12” of it may be Rallied by any of your units.",
+      "text": "Requires your Army Standard Bearer's unit to be on the battlefield and not Fleeing. This round, your units within 12” of it gain +2 to Rally tests, and Mercenary and Levy units within 12” of it may be Rallied by any of your units. Elephant units are not affected.",
       "flavor": "Where the banner stands, the army stands."
     },
     {
@@ -6845,7 +6845,7 @@ window.NHB_DATA = {
       "name": "Sound the Advance",
       "short": "Ongoing, Army Musician: +1 Move nearby",
       "limit": 1,
-      "text": "Ongoing. Requires your Army Musician's unit to be on the battlefield and not Fleeing. Your units within 18” of it gain +1 Move. Discard this card as soon as one of your units is charged.",
+      "text": "Ongoing. Requires your Army Musician's unit to be on the battlefield and not Fleeing. Your units within 18” of it, except Chariots and Elephants, gain +1 Move. Discard this card as soon as one of your units is charged.",
       "flavor": "Horns and drums carry the line forward step by step."
     },
     {
@@ -6885,7 +6885,7 @@ window.NHB_DATA = {
       "name": "The Colors Must Not Fall",
       "short": "Chosen banner units shrug off Break and Flee",
       "limit": 1,
-      "text": "Play at the start of the Morale Phase. Choose any number of your units with a Standard Bearer or Army Standard Bearer. Each chosen unit removes all of its Break and Flee Tokens, then suffers 1 Damage. This Damage has no save and causes Army Morale loss as normal.",
+      "text": "Play at the start of the Morale Phase. Choose any number of your units with a Standard Bearer or Army Standard Bearer. Each chosen unit removes all of its Break and Flee Tokens, then suffers 1 Damage. This Damage has no save, and costs Army Morale if the unit enters a lower Health category.",
       "flavor": "Men who would have run turn back to die beside their banner."
     },
     {
@@ -6978,7 +6978,7 @@ window.NHB_DATA = {
         "hittite"
       ],
       "limit": 1,
-      "text": "Play during deployment. One Chariot unit gains the Scout special rule.",
+      "text": "Play during deployment, before Byes are counted. One Chariot unit gains the Scout special rule.",
       "flavor": "Hidden behind the city, the chariots fall upon the enemy's flank."
     },
     {
@@ -7022,7 +7022,7 @@ window.NHB_DATA = {
         "rome"
       ],
       "limit": 1,
-      "text": "Play on a Closed Order unit, even one Locked in Combat. It recovers Health equal to a third of its starting Health (rounded down) and removes 2 Break Tokens. If this lifts it into a better Penalty Category, it takes that category’s penalties instead, removing Penalty tokens to match. Removed models do not return, and no Army Morale is restored.",
+      "text": "Play on a Closed Order unit, even one Locked in Combat. It recovers Health equal to a third of its starting Health (rounded down) and removes 2 Break Tokens. If this lifts it into a better Health category, it takes that category’s penalties instead, removing Penalty tokens to match, and you regain 25% of its Contribution for each category it moves up. Removed models do not return.",
       "flavor": "Fresh men step forward as the weary front rank falls back."
     },
     {
