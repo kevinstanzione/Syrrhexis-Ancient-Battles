@@ -6621,7 +6621,7 @@ window.NHB_DATA = {
       "name": "Caltrops",
       "short": "Scatter iron spikes in front of a holding unit",
       "limit": 1,
-      "text": "Play during the activation of a friendly Closed Order unit with a Hold Token. Place a strip of caltrops 1” deep along that unit’s front edge, as wide as its tray. A Cavalry, Chariot or Elephant unit that moves into the strip, including during a Charge, loses the +1 Strength from its Charge Action Token that round, and each of its models in contact with the strip suffers 1 Hit at Strength 4. Other units treat the strip as Difficult Terrain. The caltrops stay for the rest of the game.",
+      "text": "Play at the end of a friendly Closed Order unit’s own activation, after it takes the Hold action; it cannot be played during an enemy activation or in response to a Charge. Place a strip of caltrops 1” deep along that unit’s front edge, as wide as its tray. A Cavalry, Chariot or Elephant unit that moves into the strip, including during a Charge, loses the +1 Strength from its Charge Action Token that round, and each of its models in contact with the strip suffers 1 Hit at Strength 4. Other units treat the strip as Difficult Terrain. The caltrops stay for the rest of the game.",
       "flavor": "Four iron points, and however it falls, one stands upright."
     },
     {
