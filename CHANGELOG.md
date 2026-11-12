@@ -6,6 +6,17 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## 0.19.0 — 2026-11-11
+
+### Builder
+- Army Morale now counts mounts: +1 per horse, donkey or camel and +5 per elephant (flat, not multiplied by Training). Chariot, Elephant and Cavalry units show higher Army Morale.
+- Rules text updated to the rulebook review: optional Scout and Ambush (Ambush more than 1” from the enemy), Army Musician does not affect Chariots or Elephants, Special Characters no longer cost Army Morale while fleeing or when killed (the opponent still gains their Training), Feign Charge and Feign Retreat contact and move-away wording, Disciplined and goading, Parrying Blade +1 Armor, Direct Fire and Recurve Bow use printed range, Volley adds half range.
+- Testūdō keeps its Hold token; "penalty to hit" on Testūdō, Iacite Pīla and Impetus is now Accuracy. Terrain and Command card text says "line of fire" instead of "line of sight".
+
+## Rulebook 0.3.0 — 2026-11-11
+
+- Rules review: Army Morale lost per unit Contribution (25% per Health category, failed Break Test and Fleeing Step); mounts add Army Morale; About Face and forward-only Closed Order movement; Splitting a Unit; Blocked Flee moves; Goading; Attacks with Multiple Weapons; Building a Command deck; optional Scout and Ambush; fleeing units move only in the Fleeing Step; on-Charge weapons need a Charge Action Token; Volley adds half range; Gain and Lose once per attack (none on Warmachine hit rolls); a natural 1 always fails Break and Fear Tests; many clarifications and editorial fixes. Full list in the rulebook's Update History.
+
 ## 0.18.0 — 2026-11-10
 
 ### Armies
