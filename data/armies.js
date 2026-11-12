@@ -5564,7 +5564,7 @@ window.NHB_DATA = {
         "type": "Warrior",
         "move": 6,
         "training": 6,
-        "points": 13,
+        "points": 15,
         "comps": [
           [
             4,
@@ -5868,7 +5868,7 @@ window.NHB_DATA = {
         "type": "Light Warrior",
         "move": 7,
         "training": 5,
-        "points": 11,
+        "points": 13,
         "comps": [
           [
             3,
