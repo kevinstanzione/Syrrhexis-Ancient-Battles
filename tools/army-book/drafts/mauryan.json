@@ -12,7 +12,7 @@
         "type": "Elephant",
         "move": 8,
         "training": 6,
-        "points": 90,
+        "points": 95,
         "comps": [
           [
             1,
@@ -95,7 +95,7 @@
             "10",
             "5",
             "8",
-            "1 attack. 2 extra attacks on Charge"
+            "1 attack. 2 extra attacks on Charge. Sunder (1)"
           ]
         }
       }

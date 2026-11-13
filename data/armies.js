@@ -1,7 +1,7 @@
 // Syrrhēxis army data. Edit the values below; keep the first line as is.
 window.NHB_DATA = {
   "meta": {
-    "version": "0.26.0",
+    "version": "0.27.0",
     "synced": "2026-10-22",
     "sources": {
       "Hittite Empire Army": "1aqMPs2Pi5car6pUzcuWmHXArGss_RZdkgATe5OsbVrw",
@@ -2840,8 +2840,8 @@ window.NHB_DATA = {
             "Dāça": [
               "12",
               "9",
-              "7",
-              "2 Attacks, can only be used on Charge. Before rolling to hit, each enemy unit in the Melee takes a Fear Test; against units that pass, this weapon has Accuracy 5. Destroy model after resolving Wounds."
+              "6",
+              "2 Attacks, can only be used on Charge, Sunder (2). Before rolling to hit, each enemy unit in the Melee takes a Fear Test; against units that pass, this weapon has Accuracy 5. Destroy model after resolving Wounds."
             ],
             "Horses": [
               "3",
@@ -2963,7 +2963,7 @@ window.NHB_DATA = {
           "type": "Elephant",
           "move": 8,
           "training": 6,
-          "points": 90,
+          "points": 95,
           "comps": [
             [
               1,
@@ -3035,7 +3035,7 @@ window.NHB_DATA = {
               "10",
               "5",
               "8",
-              "1 attack. 2 extra attacks on Charge"
+              "1 attack. 2 extra attacks on Charge. Sunder (1)"
             ],
             "Aršti": [
               "5",
@@ -4519,7 +4519,7 @@ window.NHB_DATA = {
           "type": "Elephant",
           "move": 8,
           "training": 6,
-          "points": 100,
+          "points": 105,
           "comps": [
             [
               1,
@@ -4593,7 +4593,7 @@ window.NHB_DATA = {
               "10",
               "5",
               "8",
-              "1 attack. 2 extra attacks on Charge"
+              "1 attack. 2 extra attacks on Charge. Sunder (1)"
             ],
             "Dóry": [
               "5",
@@ -4616,7 +4616,7 @@ window.NHB_DATA = {
           "move": 5,
           "training": 6,
           "points": 11,
-          "engine": 28,
+          "engine": 30,
           "engineUS": 3,
           "range": [
             3,
@@ -4647,7 +4647,7 @@ window.NHB_DATA = {
               "40”",
               "6",
               "7",
-              "1 Attack. Direct Fire, Piercing Shot (1), Massive Suppression (5), Cumbersome"
+              "1 Attack. Direct Fire, Piercing Shot (1), Sunder (2), Massive Suppression (5), Cumbersome"
             ],
             "Encheirídion": [
               "1",
@@ -5553,7 +5553,7 @@ window.NHB_DATA = {
           "move": 5,
           "training": 6,
           "points": 12,
-          "engine": 30,
+          "engine": 34,
           "engineUS": 3,
           "range": [
             3,
@@ -5585,7 +5585,7 @@ window.NHB_DATA = {
               "48”",
               "7",
               "8",
-              "1 Attack. Direct Fire, Piercing Shot (1), Massive Suppression (5), Cumbersome"
+              "1 Attack. Direct Fire, Piercing Shot (1), Sunder (3), Massive Suppression (5), Cumbersome"
             ],
             "Gladius": [
               "4",
@@ -5608,7 +5608,7 @@ window.NHB_DATA = {
           "move": 6,
           "training": 6,
           "points": 12,
-          "engine": 45,
+          "engine": 47,
           "engineUS": 3,
           "range": [
             2,
@@ -5643,7 +5643,7 @@ window.NHB_DATA = {
               "36”",
               "6",
               "7",
-              "1 Attack. Direct Fire, Piercing Shot (1), Massive Suppression (3), Cumbersome"
+              "1 Attack. Direct Fire, Piercing Shot (1), Sunder (2), Massive Suppression (3), Cumbersome"
             ],
             "Gladius": [
               "4",

@@ -6,6 +6,17 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## 0.27.0 — 2026-11-13
+
+### Weapons
+- Bolt throwers gain Sunder: **Scorpiō Bolt** Sunder (3), **Oxybelḗs** Sunder (2), **Carroballista Bolt** Sunder (2).
+- **Dāça** (Raθā-Dāça scythed chariot): Strength 7 → 6, gains Sunder (2). Weaker against unarmored troops, stronger against armored ones.
+- **Elephant** attacks (Pīrū, Eléphantes) gain Sunder (1). The Mauryan starter draft matches.
+
+### Points
+- War machine engines: Scorpiō 30 → 34, Oxybeleîs 28 → 30, Carroballista 45 → 47.
+- Elephants: Pīrū 90 → 95, Eléphantes 100 → 105 per elephant.
+
 ## Rulebook 0.3.4 — 2026-11-13
 
 - Pencil spot illustrations with a torn-paper edge, full column width: Cretan archer (Shooting), cataphract (Charge Movement), Iberian warrior (Melee Hits), Aztec conch player (Musician), Persian standard bearer (Standard Bearer) and Roman centurion (Commander). No rules changes.
