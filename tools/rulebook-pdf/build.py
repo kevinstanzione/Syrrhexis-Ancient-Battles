@@ -2,6 +2,8 @@
 
 The rulebook source is one HTML fragment per chapter in rulebook/src, read in file-name order.
 Each fragment starts with its <h1>; images point at ../../diagrams/*.svg.
+Pencil spot art is written as <img src="art:NAME">: the build takes art/illustrations/NAME.png,
+fades its edges into the page colour (vignette) and embeds a small JPEG.
 
     python3 tools/rulebook-pdf/build.py
 
@@ -12,6 +14,7 @@ import html as H
 import logging
 import os
 import re
+import tempfile
 
 import weasyprint
 
@@ -21,7 +24,7 @@ SRC = os.path.join(ROOT, 'rulebook', 'src')
 OUT = os.path.join(ROOT, 'rulebook', 'Syrrhexis_Rulebook.pdf')
 FONT_DIR = os.environ.get('SYRRHEXIS_FONTS', os.path.join(ROOT, 'tools', 'fonts'))
 TITLE = 'Syrrhēxis: Ancient Battles'
-COVER_VERSION = 'Core Rules · Version 0.3.3 · November 2026'
+COVER_VERSION = 'Core Rules · Version 0.3.4 · November 2026'
 TOC_SKIP = {'Update History'}
 
 FACES = [('Cinzel', 'Cinzel', 400, 'normal'), ('Cinzel', 'Cinzel', 600, 'normal'), ('Cinzel', 'Cinzel', 700, 'normal'),
@@ -30,9 +33,33 @@ FACES = [('Cinzel', 'Cinzel', 400, 'normal'), ('Cinzel', 'Cinzel', 600, 'normal'
          ('Source Sans 3', 'SourceSans3', 400, 'normal'), ('Source Sans 3', 'SourceSans3', 600, 'normal'), ('Source Sans 3', 'SourceSans3', 700, 'normal')]
 
 
+ART_DIR = os.path.join(ROOT, 'art', 'illustrations')
+ART_CACHE = os.path.join(tempfile.gettempdir(), 'syrrhexis-rulebook-art')
+PAPER = (251, 248, 241)
+
+
+def vignette(name):
+    """art/illustrations/<name>.png with its edges faded into the page colour, as a file:// JPEG."""
+    from PIL import Image, ImageDraw, ImageFilter
+    im = Image.open(os.path.join(ART_DIR, name + '.png')).convert('RGB')
+    im.thumbnail((1000, 1000))
+    W, H = im.size
+    k = W / 700.0
+    m = Image.new('L', (W, H), 0)
+    ImageDraw.Draw(m).rounded_rectangle([int(22 * k), int(22 * k), W - int(22 * k), H - int(22 * k)], radius=int(60 * k), fill=255)
+    m = m.filter(ImageFilter.GaussianBlur(18 * k))
+    page = Image.new('RGB', (W, H), PAPER)
+    page.paste(im, (0, 0), m)
+    os.makedirs(ART_CACHE, exist_ok=True)
+    out = os.path.join(ART_CACHE, name + '.jpg')
+    page.save(out, 'JPEG', quality=84)
+    return 'file://' + out
+
+
 def assemble():
     files = sorted(glob.glob(os.path.join(SRC, '*.html')))
     content = '\n'.join(open(f, encoding='utf-8').read() for f in files)
+    content = re.sub(r'src="art:([\w-]+)"', lambda m: f'src="{vignette(m.group(1))}"', content)
     ids = re.findall(r'<h[1-6] id="([^"]+)"', content)
     dup = {i for i in ids if ids.count(i) > 1}
     assert not dup, ('duplicate heading ids', dup)

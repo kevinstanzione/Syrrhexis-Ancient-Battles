@@ -110,3 +110,7 @@ figure.tall img { width: 88%; }
 .profile td.pstats { width: 2.4in; }
 .profile td.pstats table { margin: 0; }
 .seq { break-inside: avoid; }
+
+/* pencil spot art (vignetted at build time) */
+figure.spot { margin: 2pt 0 6pt; }
+figure.spot img { width: 82%; }
