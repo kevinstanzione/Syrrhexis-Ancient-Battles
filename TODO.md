@@ -58,6 +58,10 @@ Still to do:
 ## Rules to decide
 - Unwieldy (X) for Open Order units (leaning yes): keep -X Move and add -X Accuracy with the Unwieldy weapon. Raised by the Pródromoi riding 8-wide in Open Order. If adopted, give the Carduchian Aġeġn bow +1 base Accuracy so they stay where they are.
 
+## Future army notes
+- **Mauryan Empire — Gajādhyakṣa** (Superintendent of Elephants, from the Arthaśāstra), Mauryan Retinue units only: this unit may Rally friendly Elephant units within 12” as if it were an Elephant unit; 18” if it includes a Commander. A Commander is not required.
+- **Hannibal's Forces — Mallet and Chisel** (on the Carthaginian elephant unit itself; Livy on Hasdrubal at the Metaurus): when this unit would become Furious, you may instead destroy it. You lose only half its Army Morale Contribution.
+
 ## Siege expansion (future)
 - Core of the expansion: destructible terrain and fortifications (walls, gates, towers) that can be damaged and breached.
 - Plan: general-purpose siege weapons available to every army, plus a few army-specific ones.
