@@ -272,9 +272,10 @@ window.NHB = (function () {
   // Mercenary slots come from Command cards: one slot per unit a card allows, optionally limited to some unit ids.
   // mercFit matches the chosen mercenary units to those slots (a small bipartite matching), so a unit only
   // counts if some card in the deck allows it.
-  function mercSlots(cards) {
-    const slots = [];
-    (cards || []).forEach(c => { for (let k = 0; k < (c.mercs || 0); k++) slots.push({ card: c.id, name: c.name, units: c.mercUnits || null, dropMercenary: !!c.dropMercenary }); });
+  // pool (optional): the mercenary list; units marked cardOnly (e.g. Pḏtyw for King of Kings) are left out of open slots.
+  function mercSlots(cards, pool) {
+    const slots = [], open = pool && pool.units.some(u => u.cardOnly) ? pool.units.filter(u => !u.cardOnly).map(u => u.id) : null;
+    (cards || []).forEach(c => { for (let k = 0; k < (c.mercs || 0); k++) slots.push({ card: c.id, name: c.name, units: c.mercUnits || open, dropMercenary: !!c.dropMercenary }); });
     // Slots whose units lose the Mercenary rule (e.g. Lord of Asia) are filled first.
     return slots.sort((a, b) => b.dropMercenary - a.dropMercenary);
   }

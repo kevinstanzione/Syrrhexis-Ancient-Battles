@@ -32,6 +32,11 @@ Still to do:
 - Command cards (draft): The God's Steward, Shields of Lagash, Battle Net of Ningirsu, Muriq-Tidnim.
 - Eren rule named Guru (Sumerian "shield", ePSD2 guru) on 2026-11-03. Sumer moved into the builder in 0.14.0 (2026-11-04); intro rewritten, waiting on Kevin's read. Renamed from Sumerian Kingdom in 0.18.0. Plan doc still needs syncing (Guru, Straddle Car, Feign Retreat, points, name). Šukur Length 8 confirmed.
 
+## Kingdom of Kush
+- Built in 0.28.0 (9 units, 5 Command cards). Playtest pricing, especially the Šmsw Retinue (15, Training 7), Wrrt (45) and the Horses of Kush Army Morale.
+- Names are Egyptian and some are constructed (Ssmtyw from ssmt "horse"); add them to the Reconstructed and Constructed Names doc. Mḏꜣyw (Medjay) is a slightly late term, kept on purpose.
+- Army opener art not made yet.
+
 ## Armies of Alexander
 - Built in 0.23.0 (13 units); 6 Command cards as of 0.25.0 (Émbolon, Lord of Asia, Oblique Advance, Aristander's Eagle, Ipsus, Synaspismós). Playtest pricing, especially Pezhétairoi (15), Argyráspides (19), Eléphantes (100) and Thureophóroi (12).
 - Idea for later: Ptolemaic African forest elephants (smaller, Elephant Strength 7, cheaper). Conflicts with the no-negative-cost rule, so it would need its own profile.
@@ -39,8 +44,8 @@ Still to do:
 
 ## King of Kings rework (Persia, planned)
 - Pulls units from other army lists, not just the mercenary pool: 4 from Supplemental Mercenaries (Arabian Camel Riders, Greek Hoplites, Scythian Archers, Cretan Archers) + 4 from other lists (Indian elephants from the Mauryan list, replacing the Pīrū; Kushite archers from the Kush list; Egyptians; Assyrians). Borrowed units gain Mercenary. No surcharge for now. Still to confirm: still 2 units per card? Elephants come from the Mauryan (Indian) list, not the Successor list: no tower.
-- Starter lists saved in tools/army-book/drafts (not in the builder or Army Book yet): mauryan.json holds the Pīrū (Old Persian names to rename to Sanskrit), kush.json holds the Kushite Archers (English name to replace). Both copies drop the Mercenary rule. The live Persian Pīrū and mercenary Kushite Archers stay until the King of Kings rework goes live.
-- Kushite Archers leave the general mercenary pool once the Kush list exists. The full card waits on the Mauryan, Kush, Egypt and Assyria lists.
+- Starter list saved in tools/army-book/drafts/mauryan.json (not in the builder or Army Book yet): holds the Pīrū (Old Persian names to rename to Sanskrit) without the Mercenary rule. The live Persian Pīrū stays until the King of Kings rework goes live.
+- Done 0.28.0: Kushite Archers left the general mercenary pool and became the Kush Pḏtyw; King of Kings still offers them (merc copy marked cardOnly). The full card waits on the Mauryan, Egypt and Assyria lists.
 
 ## Rules to decide
 - Unwieldy (X) for Open Order units (leaning yes): keep -X Move and add -X Accuracy with the Unwieldy weapon. Raised by the Pródromoi riding 8-wide in Open Order. If adopted, give the Carduchian Aġeġn bow +1 base Accuracy so they stay where they are.

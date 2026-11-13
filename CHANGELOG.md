@@ -6,6 +6,17 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## 0.28.0 — 2026-11-13
+
+### New army: Kingdom of Kush
+- The Napatan kingdom of the 25th Dynasty (c. 750–650 BC), with 9 units: **Pḏtyw** (archers), **Šmsw Retinue** (royal archers), **ꜥḥꜣwtyw** (mace warriors), **Mšꜥ** (spearmen), **Ḏꜣmw** (Egyptian recruits, Levy), **Mšwš** (Libyan warriors, Mercenary), **Wrrt** (chariots), **Ssmtyw** (horsemen) and **Mḏꜣyw** (desert scouts).
+- **Horses of Kush**: each horse of the Wrrt and Ssmtyw adds 2 Army Morale instead of 1.
+- Command cards (1 per deck): **The Running Stele**, **Purification Before Amun**, **Ta-Seti**, **Bow of the Kushite King** and **The Horses of Piye**.
+- Native names are Egyptian, the language of the Napatan court.
+
+### Mercenaries
+- The Kushite Archers leave the Supplemental Mercenaries list; they are now the Kush **Pḏtyw**. **King of Kings** (Persia) can still take them, with the Mercenary rule.
+
 ## Rulebook 0.3.5 — 2026-11-13
 
 - Musician and Commander: a Chariot or Elephant unit can only Special Move directly forward or backwards 1”, never turn or move sideways (Wheeled Vehicle and elephant turning can't be skipped).

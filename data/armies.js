@@ -1,7 +1,7 @@
 // Syrrhēxis army data. Edit the values below; keep the first line as is.
 window.NHB_DATA = {
   "meta": {
-    "version": "0.27.2",
+    "version": "0.28.0",
     "synced": "2026-10-22",
     "sources": {
       "Hittite Empire Army": "1aqMPs2Pi5car6pUzcuWmHXArGss_RZdkgATe5OsbVrw",
@@ -1681,6 +1681,580 @@ window.NHB_DATA = {
               "5",
               "5",
               "1 Attack, cannot be used on Charge"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "kush",
+      "name": "Kingdom of Kush",
+      "units": [
+        {
+          "id": "pdtyw",
+          "name": "Pḏtyw",
+          "type": "Skirmishing Warrior",
+          "move": 7,
+          "training": 5,
+          "points": 13,
+          "range": [
+            6,
+            12
+          ],
+          "equip": [
+            "Pḏt"
+          ],
+          "gear": [
+            "Bꜣgsw"
+          ],
+          "body": null,
+          "shield": null,
+          "opts": [],
+          "chars": [
+            {
+              "one": [
+                [
+                  "Bowmaster",
+                  10
+                ],
+                [
+                  "Ranger Captain",
+                  6
+                ]
+              ]
+            }
+          ],
+          "rules": [],
+          "weapons": {
+            "Pḏt": [
+              "28”",
+              "6",
+              "4",
+              "Direct Fire, Unwieldy (1)"
+            ],
+            "Bꜣgsw": [
+              "1",
+              "6",
+              "5",
+              ""
+            ]
+          }
+        },
+        {
+          "id": "smsw",
+          "name": "Šmsw Retinue",
+          "type": "Light Warrior",
+          "move": 6,
+          "training": 7,
+          "points": 15,
+          "comps": [
+            [
+              1,
+              5
+            ]
+          ],
+          "equip": [
+            "Pḏt"
+          ],
+          "gear": [
+            "Bꜣgsw"
+          ],
+          "body": null,
+          "shield": null,
+          "opts": [],
+          "chars": [
+            {
+              "req": true,
+              "one": [
+                [
+                  "Lead Captain",
+                  7
+                ],
+                [
+                  "Bowmaster",
+                  10
+                ]
+              ]
+            },
+            {
+              "req": true,
+              "one": [
+                [
+                  "Lord",
+                  17
+                ],
+                [
+                  "Commander",
+                  42
+                ],
+                [
+                  "Army Musician",
+                  60
+                ],
+                [
+                  "Army Standard Bearer",
+                  27
+                ]
+              ]
+            }
+          ],
+          "rules": [],
+          "weapons": {
+            "Pḏt": [
+              "28”",
+              "7",
+              "4",
+              "Direct Fire, Unwieldy (1)"
+            ],
+            "Bꜣgsw": [
+              "1",
+              "6",
+              "5",
+              ""
+            ]
+          }
+        },
+        {
+          "id": "ahawtyw",
+          "name": "ꜥḥꜣwtyw",
+          "type": "Light Warrior",
+          "move": 7,
+          "training": 6,
+          "points": 11,
+          "comps": [
+            [
+              3,
+              4
+            ],
+            [
+              2,
+              6
+            ]
+          ],
+          "equip": [
+            "Ḥḏ"
+          ],
+          "gear": [],
+          "body": null,
+          "shield": "Shield",
+          "opts": [
+            {
+              "label": "ꜥmꜥꜣt throwsticks",
+              "kind": "add",
+              "w": [
+                "ꜥmꜥꜣt"
+              ],
+              "c": 1
+            }
+          ],
+          "chars": [
+            {
+              "one": [
+                [
+                  "Lead Captain",
+                  6
+                ],
+                [
+                  "Musician",
+                  6
+                ]
+              ]
+            },
+            {
+              "one": [
+                [
+                  "Standard Bearer",
+                  10
+                ]
+              ]
+            }
+          ],
+          "rules": [],
+          "weapons": {
+            "Ḥḏ": [
+              "3",
+              "5",
+              "5",
+              "Sunder (1)"
+            ],
+            "ꜥmꜥꜣt": [
+              "6”",
+              "5",
+              "4",
+              "Throwing Weapon"
+            ]
+          }
+        },
+        {
+          "id": "msa",
+          "name": "Mšꜥ",
+          "type": "Warrior",
+          "move": 6,
+          "training": 6,
+          "points": 12,
+          "comps": [
+            [
+              4,
+              4
+            ],
+            [
+              3,
+              5
+            ]
+          ],
+          "equip": [
+            "Nỉwy"
+          ],
+          "gear": [
+            "Bꜣgsw"
+          ],
+          "body": null,
+          "shield": "Shield",
+          "opts": [],
+          "chars": [
+            {
+              "one": [
+                [
+                  "Lead Captain",
+                  6
+                ]
+              ]
+            },
+            {
+              "one": [
+                [
+                  "Standard Bearer",
+                  10
+                ]
+              ]
+            },
+            {
+              "one": [
+                [
+                  "Musician",
+                  6
+                ]
+              ]
+            }
+          ],
+          "rules": [],
+          "weapons": {
+            "Nỉwy": [
+              "8",
+              "5",
+              "5",
+              "Reach (1)"
+            ],
+            "Bꜣgsw": [
+              "1",
+              "6",
+              "5",
+              ""
+            ]
+          }
+        },
+        {
+          "id": "djamw",
+          "name": "Ḏꜣmw",
+          "type": "Warrior",
+          "move": 6,
+          "training": 4,
+          "points": 8,
+          "comps": [
+            [
+              4,
+              5
+            ],
+            [
+              3,
+              5
+            ]
+          ],
+          "equip": [
+            "Nỉwy"
+          ],
+          "gear": [
+            "Bꜣgsw"
+          ],
+          "body": null,
+          "shield": "Shield",
+          "opts": [],
+          "chars": [
+            {
+              "one": [
+                [
+                  "Taskmaster",
+                  4
+                ]
+              ]
+            },
+            {
+              "one": [
+                [
+                  "Lead Captain",
+                  3
+                ]
+              ]
+            }
+          ],
+          "rules": [
+            "Levy"
+          ],
+          "weapons": {
+            "Nỉwy": [
+              "8",
+              "4",
+              "5",
+              "Reach (1)"
+            ],
+            "Bꜣgsw": [
+              "1",
+              "5",
+              "5",
+              ""
+            ]
+          }
+        },
+        {
+          "id": "mswsw",
+          "name": "Mšwš",
+          "type": "Light Warrior",
+          "move": 7,
+          "training": 5,
+          "points": 12,
+          "comps": [
+            [
+              3,
+              4
+            ],
+            [
+              2,
+              6
+            ]
+          ],
+          "equip": [
+            "Nsjwt",
+            "Zft"
+          ],
+          "gear": [],
+          "body": null,
+          "shield": null,
+          "opts": [],
+          "chars": [
+            {
+              "one": [
+                [
+                  "Tribal Leader",
+                  8
+                ],
+                [
+                  "Lead Captain",
+                  5
+                ]
+              ]
+            }
+          ],
+          "rules": [
+            "Mercenary"
+          ],
+          "weapons": {
+            "Nsjwt": [
+              "6 / 8”",
+              "5",
+              "6",
+              "Throwing Weapon"
+            ],
+            "Zft": [
+              "5",
+              "5",
+              "5",
+              "Thrusting Blade"
+            ]
+          }
+        },
+        {
+          "id": "wrrt",
+          "name": "Wrrt",
+          "type": "Chariot",
+          "move": 11,
+          "training": 6,
+          "points": 45,
+          "comps": [
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "crew": {
+            "driver": 1,
+            "crew": 1,
+            "horses": 2
+          },
+          "equip": [
+            "Pḏt",
+            "Horses"
+          ],
+          "gear": [
+            "Bꜣgsw"
+          ],
+          "body": "Light Armor",
+          "shield": null,
+          "opts": [],
+          "chars": [
+            {
+              "one": [
+                [
+                  "Standard Bearer",
+                  15
+                ]
+              ]
+            }
+          ],
+          "rules": [
+            "Feign Charge"
+          ],
+          "weapons": {
+            "Pḏt": [
+              "24”",
+              "6",
+              "4",
+              "2 Attacks. Direct Fire"
+            ],
+            "Horses": [
+              "3",
+              "5",
+              "5",
+              "2 Attacks, can only use on Charge"
+            ],
+            "Bꜣgsw": [
+              "1",
+              "5",
+              "5",
+              "1 Attack, cannot be used on Charge"
+            ]
+          },
+          "mountMorale": 2,
+          "custom": {
+            "Horses of Kush": "Each horse in this unit adds 2 to Starting Army Morale instead of 1."
+          }
+        },
+        {
+          "id": "ssmtyw",
+          "name": "Ssmtyw",
+          "type": "Light Cavalry",
+          "move": 12,
+          "training": 5,
+          "points": 18,
+          "comps": [
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              3
+            ]
+          ],
+          "equip": [
+            "Nsjwt"
+          ],
+          "gear": [
+            "Bꜣgsw"
+          ],
+          "body": null,
+          "shield": "Shield",
+          "opts": [],
+          "chars": [
+            {
+              "one": [
+                [
+                  "Lead Captain",
+                  5
+                ]
+              ]
+            }
+          ],
+          "rules": [
+            "Feign Charge",
+            "Scout"
+          ],
+          "weapons": {
+            "Nsjwt": [
+              "6 / 8”",
+              "5",
+              "6",
+              "Throwing Weapon"
+            ],
+            "Bꜣgsw": [
+              "1",
+              "6",
+              "5",
+              ""
+            ]
+          },
+          "mountMorale": 2,
+          "custom": {
+            "Horses of Kush": "Each horse in this unit adds 2 to Starting Army Morale instead of 1."
+          }
+        },
+        {
+          "id": "mdjayw",
+          "name": "Mḏꜣyw",
+          "type": "Skirmishing Warrior",
+          "move": 7,
+          "training": 5,
+          "points": 10,
+          "range": [
+            6,
+            12
+          ],
+          "equip": [
+            "ꜥmꜥꜣt"
+          ],
+          "gear": [
+            "Bꜣgsw"
+          ],
+          "body": null,
+          "shield": null,
+          "opts": [],
+          "chars": [
+            {
+              "one": [
+                [
+                  "Skirmish Captain",
+                  8
+                ]
+              ]
+            },
+            {
+              "one": [
+                [
+                  "Houndmaster",
+                  10
+                ]
+              ]
+            }
+          ],
+          "rules": [
+            "Ambush",
+            "Surefooted (Stony Plain, Sand)"
+          ],
+          "weapons": {
+            "ꜥmꜥꜣt": [
+              "6”",
+              "5",
+              "4",
+              "Throwing Weapon"
+            ],
+            "Bꜣgsw": [
+              "1",
+              "6",
+              "5",
+              ""
             ]
           }
         }
@@ -6453,7 +7027,12 @@ window.NHB_DATA = {
     "Xystón": "cavalry lance",
     "Lónchē": "spear",
     "Oxybelḗs": "bolt thrower",
-    "Makedonikḗ Aspís": "Macedonian shield"
+    "Makedonikḗ Aspís": "Macedonian shield",
+    "Ḥḏ": "mace",
+    "ꜥmꜥꜣt": "throwstick",
+    "Nỉwy": "spear",
+    "Nsjwt": "javelins",
+    "Zft": "long sword"
   },
   "mercs": {
     "id": "mercs",
@@ -7168,7 +7747,7 @@ window.NHB_DATA = {
       },
       {
         "id": "kushite-archers",
-        "name": "Kushite Archers",
+        "name": "Pḏtyw",
         "type": "Skirmishing Warrior",
         "move": 7,
         "training": 5,
@@ -7212,7 +7791,8 @@ window.NHB_DATA = {
             "5",
             ""
           ]
-        }
+        },
+        "cardOnly": true
       },
       {
         "id": "cataphract",
@@ -7977,7 +8557,7 @@ window.NHB_DATA = {
         "scythian-archers",
         "kushite-archers"
       ],
-      "text": "Your army may include 2 units from the Supplemental Mercenaries list, chosen from Arabian Camel Riders, Greek Hoplites, Scythian Archers and Kushite Archers.",
+      "text": "Your army may include 2 units chosen from Arabian Camel Riders, Greek Hoplites and Scythian Archers from the Supplemental Mercenaries list, and Pḏtyw (Kushite archers) from the Kingdom of Kush list. Units taken this way have the Mercenary rule.",
       "note": "If you take a mercenary unit through this card, this card must be one of the 3 cards in your hand.",
       "flavor": "Conquered kings send their warriors to serve the throne."
     },
@@ -8271,6 +8851,61 @@ window.NHB_DATA = {
       "limit": 1,
       "text": "Obstacle, Wall. Before deployment, place a wall up to 8” long and ½” wide in your deployment zone. It does not block lines of fire. Shooting attacks that pass over it treat the target as in at least Cover.",
       "flavor": "Behind the old wall of the Phocians, three hundred hold the pass."
+    },
+    {
+      "id": "running-stele",
+      "name": "The Running Stele",
+      "short": "Infantry move faster for a round",
+      "armies": [
+        "kush"
+      ],
+      "limit": 1,
+      "text": "Play at the start of a round. Until the end of the round, friendly Warrior and Light Warrior units gain +1 Move, or +2 Move while they have a Run Action Token.",
+      "flavor": "The king's soldiers ran by night across the desert, from Memphis to the Faiyum and back again before the dawn."
+    },
+    {
+      "id": "purification-before-amun",
+      "name": "Purification Before Amun",
+      "short": "Pass Fear Tests and ignore Terrify for a round",
+      "armies": [
+        "kush"
+      ],
+      "limit": 1,
+      "text": "Play at the start of a round. Until the end of the round, friendly units automatically pass Fear Tests and gain no Break Tokens from Terrify, either from the Terrify special rule or from a Charge by a much larger unit.",
+      "flavor": "At Thebes the army washed in the river, put on clean linen, and bowed before Amun before marching north."
+    },
+    {
+      "id": "ta-seti",
+      "name": "Ta-Seti",
+      "short": "Aimed shots gain +1 Accuracy and +1 Strength",
+      "armies": [
+        "kush"
+      ],
+      "limit": 1,
+      "text": "Play at the start of a round. Until the end of the round, friendly units that use Aim gain an additional +1 Accuracy and +1 Strength with their Shooting attacks.",
+      "flavor": "In the Land of the Bow, a man was taught to put his arrow through an enemy's eye."
+    },
+    {
+      "id": "bow-of-the-kushite-king",
+      "name": "Bow of the Kushite King",
+      "short": "Pḏtyw shoot back at an enemy that shoots",
+      "armies": [
+        "kush"
+      ],
+      "limit": 1,
+      "text": "Play after an enemy unit resolves a Shooting attack against a friendly unit. Each friendly Pḏtyw unit within 12” of that friendly unit that is not Locked in Combat and has a line of fire to the attacker may immediately make a Shooting attack against it at -2 Accuracy. This does not change their Action Tokens.",
+      "flavor": "Tell your king: when his men draw a bow like this one as easily as I do, then let him march on Kush."
+    },
+    {
+      "id": "horses-of-piye",
+      "name": "The Horses of Piye",
+      "short": "Kushite horsemen and chariots steady themselves",
+      "armies": [
+        "kush"
+      ],
+      "limit": 1,
+      "text": "Play at the start of a round. Each friendly Wrrt and Ssmtyw unit removes 1 Break Token. Until the end of the round, these units may attempt to Rally themselves even at Half Strength or Mass Casualties.",
+      "flavor": "Piye walked into the stables of the fallen and wept that the horses had been left to hunger."
     }
   ]
 };

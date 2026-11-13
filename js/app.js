@@ -55,7 +55,7 @@
   // Faction cards list the armies that may take them; cards without "armies" are open to every army.
   const cardsFor = () => COMMANDS.filter(c => !c.armies || c.armies.includes(army().id));
   const deck = () => (state.commands || []).map(id => cardsFor().find(c => c.id === id)).filter(Boolean);
-  const mercSlots = () => NHB.mercSlots(deck());
+  const mercSlots = () => NHB.mercSlots(deck(), MERCS);
   const copiesOf = id => deck().filter(c => c.id === id).length;
   const limitOf = c => c.limit || 1;
   // "Name, Name ×2" for the sheet and copied text, in deck order.
