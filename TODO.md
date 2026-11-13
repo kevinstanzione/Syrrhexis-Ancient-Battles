@@ -33,8 +33,7 @@ Still to do:
 - Eren rule named Guru (Sumerian "shield", ePSD2 guru) on 2026-11-03. Sumer moved into the builder in 0.14.0 (2026-11-04); intro rewritten, waiting on Kevin's read. Renamed from Sumerian Kingdom in 0.18.0. Plan doc still needs syncing (Guru, Straddle Car, Feign Retreat, points, name). Šukur Length 8 confirmed.
 
 ## Armies of Alexander
-- Built in 0.23.0 (13 units, Émbolon and Lord of Asia cards). Playtest pricing, especially Pezhétairoi (15), Argyráspides (19), Eléphantes (100) and Thureophóroi (12).
-- Command card idea: Aristander's Eagle (Alexander's seer at Gaugamela pointed to an eagle flying over Alexander toward the enemy); morale or Initiative effect, to design later.
+- Built in 0.23.0 (13 units); 6 Command cards as of 0.25.0 (Émbolon, Lord of Asia, Oblique Advance, Aristander's Eagle, Ipsus, Synaspismós). Playtest pricing, especially Pezhétairoi (15), Argyráspides (19), Eléphantes (100) and Thureophóroi (12).
 - Idea for later: Ptolemaic African forest elephants (smaller, Elephant Strength 7, cheaper). Conflicts with the no-negative-cost rule, so it would need its own profile.
 - Builder: units taken through Lord of Asia still show "Mercenary ·" on their card in the editor (the printed list drops the rule correctly).
 

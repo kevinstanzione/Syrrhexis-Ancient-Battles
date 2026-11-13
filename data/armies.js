@@ -1,7 +1,7 @@
 // Syrrhēxis army data. Edit the values below; keep the first line as is.
 window.NHB_DATA = {
   "meta": {
-    "version": "0.24.0",
+    "version": "0.25.0",
     "synced": "2026-10-22",
     "sources": {
       "Hittite Empire Army": "1aqMPs2Pi5car6pUzcuWmHXArGss_RZdkgATe5OsbVrw",
@@ -8216,6 +8216,50 @@ window.NHB_DATA = {
       "text": "Your army may include 2 units from the Supplemental Mercenaries list, chosen from Greek Hoplites, Scythian Archers (the Dahae horse archers) and Cataphracts. Units taken through this card do not have the Mercenary rule.",
       "note": "If you take a mercenary unit through this card, this card must be one of the 3 cards in your hand.",
       "flavor": "At Susa the conquerors married the conquered, and the peoples of Asia marched under one king."
+    },
+    {
+      "id": "oblique-advance",
+      "name": "Oblique Advance",
+      "short": "Shift your Closed Order line sideways before battle",
+      "armies": [
+        "alexander"
+      ],
+      "limit": 1,
+      "text": "Play after deployment, before the first round. Each friendly Closed Order unit may move up to 3” directly left or right, without turning.",
+      "flavor": "Alexander edged his line ever to the right, off the ground the Persians had leveled for their chariots."
+    },
+    {
+      "id": "aristanders-eagle",
+      "name": "Aristander's Eagle",
+      "short": "Units near your Commander shed a Break Token",
+      "armies": [
+        "alexander"
+      ],
+      "limit": 1,
+      "text": "Play at the start of a round. Each friendly unit within 18” of your Commander removes 1 Break Token.",
+      "flavor": "The seer rode along the line in white, pointing to the eagle that flew above the king toward the enemy."
+    },
+    {
+      "id": "ipsus",
+      "name": "Ipsus",
+      "short": "Ongoing: an elephant screen keeps enemy horse away",
+      "armies": [
+        "alexander"
+      ],
+      "limit": 1,
+      "text": "Ongoing. Choose a friendly Elephant unit. Enemy Cavalry and Chariot units cannot end a move within 6” of it unless they Charge it. Discard this card if that unit is destroyed or Flees.",
+      "flavor": "Seleucus set his elephants across the field, and Demetrius's horsemen could not ride back to save the phalanx."
+    },
+    {
+      "id": "synaspismos",
+      "name": "Synaspismós",
+      "short": "Pike phalanxes lock shields to receive a charge",
+      "armies": [
+        "alexander"
+      ],
+      "limit": 1,
+      "text": "Play at the start of a round. Until the end of the round, units with the Makedonikḗ Aspís gain +1 Armor while they have a Hold Action Token, as a Shield does, but they cannot Charge or Run.",
+      "flavor": "Shoulder to shoulder, shield touching shield, the pikes waited."
     },
     {
       "id": "phocian-wall",

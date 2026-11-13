@@ -6,6 +6,11 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## 0.25.0 — 2026-11-13
+
+### Command cards
+- Armies of Alexander gain four cards (1 per deck): **Oblique Advance** (Closed Order units shift up to 3” sideways before the first round), **Aristander's Eagle** (units within 18” of your Commander remove 1 Break Token), **Ipsus** (Ongoing elephant screen against enemy Cavalry and Chariots) and **Synaspismós** (Makedonikḗ Aspís units gain the Hold Armor bonus for a round but can't Charge or Run).
+
 ## 0.24.0 — 2026-11-13
 
 ### Units
