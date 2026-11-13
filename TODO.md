@@ -38,6 +38,7 @@ Still to do:
 - Wedge Command card reserved for this list.
 - Drafted profiles (to add to the builder once the list is done):
   - **Pezhétairoi** — Warrior, Move 6, Training 6, 15 pts. 4 Ranks of 6 or 4 Ranks of 5. Light Armor, Makedonikḗ Aspís; Sárisa, Gear Xíphos. Phalanx. Lead Captain, Rear Captain, Musician (same costs as Hoplîtai). Sárisa 13 / Acc 5 / Str 5, Reach (2), Unwieldy (2). Xíphos 3 / 5 / 6, Parrying Blade.
+  - **Hypaspistaí** — Warrior, Move 6, Training 7, 16 pts. 4 Ranks of 5 or 3 Ranks of 5. Light Armor, Shield; Dóry, Gear Xíphos. No special rules (no Phalanx, no sarissa option). Lead Captain, Rear Captain, Musician. Dóry 10 / 5 / 6, Reach (1), Unwieldy (1). Xíphos 3 / 5 / 6, Parrying Blade.
   - **Makedonikḗ Aspís** (shield): Armor 1, Move 0, does not gain +1 Armor from a Hold Action Token (hung from neck and shoulder, both hands on the sarissa).
 
 ## Siege expansion (future)
