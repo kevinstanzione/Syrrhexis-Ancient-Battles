@@ -1,7 +1,7 @@
 // Syrrhēxis army data. Edit the values below; keep the first line as is.
 window.NHB_DATA = {
   "meta": {
-    "version": "0.29.1",
+    "version": "0.30.0",
     "synced": "2026-10-22",
     "sources": {
       "Hittite Empire Army": "1aqMPs2Pi5car6pUzcuWmHXArGss_RZdkgATe5OsbVrw",
@@ -9641,6 +9641,61 @@ window.NHB_DATA = {
       "limit": 1,
       "text": "Play at the start of a round. Each friendly Wrrt and Ssmtyw unit removes 1 Break Token. Until the end of the round, these units may attempt to Rally themselves even at Half Strength or Mass Casualties.",
       "flavor": "Piye walked into the stables of the fallen and wept that the horses had been left to hunger."
+    },
+    {
+      "id": "amun-my-father",
+      "name": "Amun, My Father",
+      "short": "Inspiring reaches every unit within 12”; Commander range doubled",
+      "armies": [
+        "egypt"
+      ],
+      "limit": 1,
+      "text": "Play at the start of a round. Until the end of the round, the Pr-ꜥꜣ Retinue's Inspiring gives +1 Accuracy to every friendly unit within 12” instead of one, and your Commander's range for granting Special Moves is doubled (12”, or 36” with a Standard Bearer).",
+      "flavor": "Alone among his enemies at Kadesh, Ramesses called on his father Amun, and charged."
+    },
+    {
+      "id": "aruna-road",
+      "name": "The Aruna Road",
+      "short": "Up to 2 non-Mercenary Warrior units gain Scout",
+      "armies": [
+        "egypt"
+      ],
+      "limit": 1,
+      "text": "Play during deployment, before Byes are counted. Up to 2 friendly Warrior, Light Warrior or Skirmishing Warrior units without the Mercenary rule gain the Scout special rule.",
+      "flavor": "Thutmose took the narrow road through the hills, and his army came down before Megiddo where no one expected it."
+    },
+    {
+      "id": "shoot-in-ranks",
+      "name": "Shoot in Ranks",
+      "short": "Volley ignores its -1 Accuracy for a round",
+      "armies": [
+        "egypt"
+      ],
+      "limit": 1,
+      "text": "Until the end of the round, friendly units using Volley ignore its -1 Accuracy.",
+      "flavor": "Company by company, the bowmen loosed as one."
+    },
+    {
+      "id": "trampling-the-nine-bows",
+      "name": "Trampling the Nine Bows",
+      "short": "Chariot charges add a Break Token to shaken enemies",
+      "armies": [
+        "egypt"
+      ],
+      "limit": 1,
+      "text": "Until the end of the round, when a friendly Chariot unit Charges an enemy unit that already has at least 1 Break Token, that enemy unit gains 1 additional Break Token.",
+      "flavor": "The Nine Bows, the enemies of Egypt, lie beneath the sandals of Pharaoh."
+    },
+    {
+      "id": "trumpets-of-the-divisions",
+      "name": "Trumpets of the Divisions",
+      "short": "Musicians Special Move 2”, even on Hold",
+      "armies": [
+        "egypt"
+      ],
+      "limit": 1,
+      "text": "Until the end of the round, friendly units with a Musician may make their Special Move even while they have a Hold Action Token, and may move up to 2” instead of 1”. Chariots and Elephants still only move directly forward or backwards.",
+      "flavor": "The trumpets of the divisions of Amun, Ra and Ptah sound across the field."
     }
   ]
 };
