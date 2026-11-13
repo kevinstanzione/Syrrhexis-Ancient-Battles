@@ -117,6 +117,8 @@ section.army { break-before: page; }
 section.army > h1 { margin-top: 0; font-size: 20pt; }
 .era-dates { font: italic 11pt 'EB Garamond'; color: var(--muted); margin: -3pt 0 6pt; text-align: left; }
 .era { columns: 2; column-gap: .26in; margin-bottom: 6pt; }
+img.art { display: block; width: 100%; margin: 2pt 0 8pt; }
+img.art-tall { margin-top: 0; }
 .profile { padding: 6pt 9pt 4pt; margin: 0 0 9pt; }
 .profile p.kv { font-size: 9.2pt; }
 .profile p.rule { font-size: 9pt; margin: 2pt 0 2pt; }

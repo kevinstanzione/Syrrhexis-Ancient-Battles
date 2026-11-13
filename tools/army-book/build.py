@@ -7,7 +7,7 @@ the sample profile in the rulebook.
 Run from the repo root:  python3 tools/army-book/build.py [army_id ...]
 (no ids = every army). Needs node and weasyprint; fonts come from tools/fonts.
 """
-import html, json, os, re, subprocess, sys, logging
+import html, json, os, re, subprocess, sys, logging, tempfile
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.abspath(os.path.join(HERE, '..', '..'))
@@ -293,13 +293,41 @@ def card(c):
 <p class="ctext">{card_text(c['text'])}</p>{note}<p class="cflavor">{esc(c.get('flavor', ''))}</p></div>'''
 
 
+# Pencil illustration for each army's opening page: art/illustrations/<file>.png
+ART = {'sumer': 'sumer_battle_wagon', 'hittite': 'hittite_lion_gate', 'persia': 'persia_volley', 'greek': 'greek_march',
+       'alexander': 'alexander_phalanx', 'rome': 'rome_testudo', 'aztec': 'aztec_chinampas'}
+_ART_DIR = os.path.join(ROOT, 'art', 'illustrations')
+_ART_CACHE = os.path.join(tempfile.gettempdir(), 'syrrhexis-art')
+
+
+def art(aid):
+    """(html, portrait) for an army's illustration, downsized to a JPEG so the PDF stays small."""
+    name = ART.get(aid)
+    src = name and os.path.join(_ART_DIR, name + '.png')
+    if not src or not os.path.exists(src):
+        return '', False
+    from PIL import Image
+    os.makedirs(_ART_CACHE, exist_ok=True)
+    out = os.path.join(_ART_CACHE, name + '.jpg')
+    im = Image.open(src).convert('RGB')
+    portrait = im.height > im.width
+    im.thumbnail((1400, 1400))
+    im.save(out, 'JPEG', quality=82)
+    cls = 'art art-tall' if portrait else 'art'
+    return f'<img class="{cls}" src="file://{out}" alt="">', portrait
+
+
 def intro(aid):
     p = os.path.join(HERE, 'intros', aid + '.md')
     if not os.path.exists(p):
         return '<p class="era"><i>Era introduction to be written.</i></p>'
     paras = [x.strip() for x in open(p).read().split('\n\n') if x.strip()]
     head, body = paras[0], paras[1:]
-    return f'<p class="era-dates">{esc(head)}</p><div class="era">' + ''.join(f'<p>{esc(x)}</p>' for x in body) + '</div>'
+    img, portrait = art(aid)
+    # A wide picture spans the page under the dates; a tall one sits at the top of the first text column.
+    wide, tall = ('', img) if portrait else (img, '')
+    return (f'<p class="era-dates">{esc(head)}</p>{wide}<div class="era">{tall}'
+            + ''.join(f'<p>{esc(x)}</p>' for x in body) + '</div>')
 
 
 TYPE_ORDER = ['Warrior', 'Light Warrior', 'Skirmishing Warrior', 'Cavalry', 'Light Cavalry', 'Skirmishing Cavalry',
