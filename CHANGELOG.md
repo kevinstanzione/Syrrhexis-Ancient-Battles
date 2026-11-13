@@ -8,7 +8,7 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 
 ## Rulebook 0.3.4 — 2026-11-13
 
-- Pencil spot illustrations with a vignette edge: Cretan archer (Shooting), cataphract (Charge Movement), Iberian warrior (Melee Hits), Aztec conch player (Musician), Persian standard bearer (Standard Bearer) and Roman centurion (Commander). No rules changes.
+- Pencil spot illustrations with a torn-paper edge, full column width: Cretan archer (Shooting), cataphract (Charge Movement), Iberian warrior (Melee Hits), Aztec conch player (Musician), Persian standard bearer (Standard Bearer) and Roman centurion (Commander). No rules changes.
 
 ## Army Book — 2026-11-13
 

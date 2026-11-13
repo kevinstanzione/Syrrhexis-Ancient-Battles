@@ -3,7 +3,7 @@
 The rulebook source is one HTML fragment per chapter in rulebook/src, read in file-name order.
 Each fragment starts with its <h1>; images point at ../../diagrams/*.svg.
 Pencil spot art is written as <img src="art:NAME">: the build takes art/illustrations/NAME.png,
-fades its edges into the page colour (vignette) and embeds a small JPEG.
+gives it a torn-paper edge and embeds a small JPEG.
 
     python3 tools/rulebook-pdf/build.py
 
@@ -16,7 +16,12 @@ import os
 import re
 import tempfile
 
+import sys
+
 import weasyprint
+
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), '..'))
+from torn_paper import torn  # noqa: E402
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.abspath(os.path.join(HERE, '..', '..'))
@@ -35,31 +40,23 @@ FACES = [('Cinzel', 'Cinzel', 400, 'normal'), ('Cinzel', 'Cinzel', 600, 'normal'
 
 ART_DIR = os.path.join(ROOT, 'art', 'illustrations')
 ART_CACHE = os.path.join(tempfile.gettempdir(), 'syrrhexis-rulebook-art')
-PAPER = (251, 248, 241)
 
 
-def vignette(name):
-    """art/illustrations/<name>.png with its edges faded into the page colour, as a file:// JPEG."""
-    from PIL import Image, ImageDraw, ImageFilter
+def spot_art(name):
+    """art/illustrations/<name>.png with the torn-paper edge (no torn corner), as a file:// JPEG."""
+    from PIL import Image
     im = Image.open(os.path.join(ART_DIR, name + '.png')).convert('RGB')
     im.thumbnail((1000, 1000))
-    W, H = im.size
-    k = W / 700.0
-    m = Image.new('L', (W, H), 0)
-    ImageDraw.Draw(m).rounded_rectangle([int(22 * k), int(22 * k), W - int(22 * k), H - int(22 * k)], radius=int(60 * k), fill=255)
-    m = m.filter(ImageFilter.GaussianBlur(18 * k))
-    page = Image.new('RGB', (W, H), PAPER)
-    page.paste(im, (0, 0), m)
     os.makedirs(ART_CACHE, exist_ok=True)
     out = os.path.join(ART_CACHE, name + '.jpg')
-    page.save(out, 'JPEG', quality=84)
+    torn(im, name, corners=False).save(out, 'JPEG', quality=84)
     return 'file://' + out
 
 
 def assemble():
     files = sorted(glob.glob(os.path.join(SRC, '*.html')))
     content = '\n'.join(open(f, encoding='utf-8').read() for f in files)
-    content = re.sub(r'src="art:([\w-]+)"', lambda m: f'src="{vignette(m.group(1))}"', content)
+    content = re.sub(r'src="art:([\w-]+)"', lambda m: f'src="{spot_art(m.group(1))}"', content)
     ids = re.findall(r'<h[1-6] id="([^"]+)"', content)
     dup = {i for i in ids if ids.count(i) > 1}
     assert not dup, ('duplicate heading ids', dup)
