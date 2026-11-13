@@ -42,6 +42,7 @@ Still to do:
   - Standards: none for Pezhétairoi, Hypaspistaí, Hetaîroi or light troops. Both retinues may take an Army Standard Bearer (the king's signal raised above his tent, Curtius). Thureophóroi may take a unit Standard Bearer (Hellenistic sēmeiophóros).
   - **Agēma Retinue** — Warrior, Move 5, Training 8, 15 pts. 1 Rank of 5. Light Armor, Shield; Dóry, Gear Xíphos. Disciplined, Leading from the Front. Required: Lead Captain (8) or Lord (17) (a Successor prince or one of the king's Friends; the king himself is the Commander). Required: Army Standard Bearer (30), Army Musician (60) or Commander (42). Dóry 10 / 6 / 6, Reach (1), Unwieldy (1). Xíphos 3 / 6 / 6, Parrying Blade.
   - **Leading from the Front** (both retinues): while this unit includes a Commander and has a Charge Action Token, +1 to Initiative rolls. Does not stack with itself. (Tactician stays reserved for Qin and the Carthage card.)
+  - **Hetaîroi** — Cavalry, Move 12, Training 7, 23 pts. 2 Ranks of 4 or 2 Ranks of 3. Medium Armor, no shield; Xystón, Gear Kopís. No special rules: pure shock cavalry, deliberately no Feign Charge (first cavalry without it). Lead Captain (10), Musician (8). Xystón 11 / 5 / 6, no Reach. Kopís 4 / 4 / 5, Cleaving Blade (3).
   - **Makedonikḗ Aspís** (shield): Armor 1, Move 0, does not gain +1 Armor from a Hold Action Token (hung from neck and shoulder, both hands on the sarissa).
 
 ## Siege expansion (future)
