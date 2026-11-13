@@ -38,7 +38,7 @@ Still to do:
 
 ## Dynastic Egypt
 - Built in 0.29.0 (9 units, New Kingdom c. 1550–1070 BC); 5 Command cards in 0.30.0 (Amun My Father, The Aruna Road, Shoot in Ranks, Snapping the Nine Bows, Trumpets of the Divisions).
-- Names checked 2026-11-13 (0.31.2): Snnw → Snnyw, Ḫrp → Ḥrp (Hoch no. 324; exact spelling in Hoch not yet verified), mace-axe → Ỉqḥw, Nsjwt → Nsỉwt (spelling of the javelin word still to verify). ꜥb confirmed as the technical term for the composite bow. Styw kept on purpose (constructed from stj "to shoot"; the Nubians are Stjw, with j). Still to log all of these in the Reconstructed and Constructed Names doc.
+- Names checked 2026-11-13 (0.31.2) and logged in the Reconstructed Names Reference doc: Snnw → Snnyw, Ḫrp → Ḥrp (AED: ḥrp "dagger; short sword", Semitic loan; note it is a short sword in the dictionary), mace-axe → Ỉqḥw (jqḥw "battle axe"), Nsjwt → Nsỉwt (Wb 2, 324.17 nswt, variant nsjwt). ꜥb confirmed as the technical term for the composite bow. Styw kept on purpose (constructed from stj "to shoot"; the Nubians are Stjw, with j). Still to check against the TLA: Mnfyt, Nḫtw-ꜥ, Nfrw, Pḥrrw, Bꜣgsw, Mỉnb, Pr-ꜥꜣ. The names doc has no Kush section yet beyond the old Kushite Archers entries.
 - King of Kings: the planned "Egyptians" are Late Period marines, which the New Kingdom list doesn't cover. Decide whether the Mnfyt stand in or the card gets its own borrowed profile.
 - Playtest pricing: Snnw (45), Pr-ꜥꜣ Retinue (55 × 3 chariots, discounted retinue characters), Šrdn (16).
 
