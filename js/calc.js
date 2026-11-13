@@ -235,11 +235,12 @@ window.NHB = (function () {
     return n;
   }
   // Mounts add a flat amount: 1 per horse, donkey or camel, 5 per elephant (not multiplied by Training).
+  // u.mountMorale overrides the 1 per horse (Horses of Kush: 2).
   function mountMorale(u, sel) {
-    const n = models(u, sel);
-    if (u.type === "Chariot") return n * u.crew.horses;
+    const n = models(u, sel), per = u.mountMorale || 1;
+    if (u.type === "Chariot") return n * u.crew.horses * per;
     if (u.type === "Elephant") return n * 5;
-    if (/Cavalry/.test(u.type)) return n;
+    if (/Cavalry/.test(u.type)) return n * per;
     return 0;
   }
   function morale(u, sel) {

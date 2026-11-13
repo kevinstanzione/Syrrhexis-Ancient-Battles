@@ -1,7 +1,7 @@
 // Syrrhēxis army data. Edit the values below; keep the first line as is.
 window.NHB_DATA = {
   "meta": {
-    "version": "0.27.0",
+    "version": "0.27.1",
     "synced": "2026-10-22",
     "sources": {
       "Hittite Empire Army": "1aqMPs2Pi5car6pUzcuWmHXArGss_RZdkgATe5OsbVrw",
@@ -6440,7 +6440,7 @@ window.NHB_DATA = {
     "Funda Media": "medium sling",
     "Funda Brevis": "short sling",
     "Pḏt": "long self bow",
-    "Wḏȝt": "knife",
+    "Bꜣgsw": "dagger",
     "Contus": "heavy lance",
     "Θanvar": "composite bow",
     "Karəta": "dagger",
@@ -7181,7 +7181,7 @@ window.NHB_DATA = {
           "Pḏt"
         ],
         "gear": [
-          "Wḏȝt"
+          "Bꜣgsw"
         ],
         "body": null,
         "shield": null,
@@ -7206,7 +7206,7 @@ window.NHB_DATA = {
             "4",
             "Direct Fire, Unwieldy (1)"
           ],
-          "Wḏȝt": [
+          "Bꜣgsw": [
             "1",
             "6",
             "5",

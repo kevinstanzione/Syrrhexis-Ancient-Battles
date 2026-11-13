@@ -57,7 +57,7 @@
         "name": "Šmsw Retinue",
         "type": "Light Warrior",
         "move": 6,
-        "training": 8,
+        "training": 7,
         "points": 15,
         "comps": [
           [
@@ -428,6 +428,10 @@
             "5",
             "1 Attack, cannot be used on Charge"
           ]
+        },
+        "mountMorale": 2,
+        "custom": {
+          "Horses of Kush": "Each horse in this unit adds 2 to Starting Army Morale instead of 1."
         }
       },
       {
@@ -483,6 +487,10 @@
             "5",
             ""
           ]
+        },
+        "mountMorale": 2,
+        "custom": {
+          "Horses of Kush": "Each horse in this unit adds 2 to Starting Army Morale instead of 1."
         }
       },
       {
@@ -520,7 +528,7 @@
           }
         ],
         "rules": [
-          "Scout",
+          "Ambush",
           "Surefooted (Stony Plain)"
         ],
         "weapons": {

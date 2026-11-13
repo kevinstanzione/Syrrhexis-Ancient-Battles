@@ -6,6 +6,14 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## 0.27.1 — 2026-11-13
+
+### Profiles
+- Kushite Archers' knife renamed **Bꜣgsw** (dagger); the old name, Wḏȝt, means the Eye of Horus.
+
+### Builder
+- Units can now count each mount for more than 1 Army Morale (for the upcoming Kush horses).
+
 ## 0.27.0 — 2026-11-13
 
 ### Weapons
