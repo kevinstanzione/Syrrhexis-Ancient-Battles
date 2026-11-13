@@ -1,14 +1,14 @@
 {
   "draft": true,
   "skipBook": true,
-  "note": "Starter list (Napatan period). Kushite Archers copied from the Supplemental Mercenaries (without the Mercenary rule) so they aren't lost when they leave the mercenary pool. Unit name is still English: give it a native name when this list is built.",
+  "note": "Kingdom of Kush (Napatan, 25th Dynasty) first draft, 2026-11-13. All stats and points are proposals for Kevin's review. Native names are Egyptian (Napatan court language; Meroitic is largely undeciphered) and are tentative until checked. Pḏtyw are the former Kushite Archers.",
   "army": {
     "id": "kush",
     "name": "Kingdom of Kush",
     "units": [
       {
-        "id": "kushite-archers",
-        "name": "Kushite Archers",
+        "id": "pdtyw",
+        "name": "Pḏtyw",
         "type": "Skirmishing Warrior",
         "move": 7,
         "training": 5,
@@ -21,7 +21,7 @@
           "Pḏt"
         ],
         "gear": [
-          "Wḏȝt"
+          "Bꜣgsw"
         ],
         "body": null,
         "shield": null,
@@ -44,7 +44,493 @@
             "4",
             "Direct Fire, Unwieldy (1)"
           ],
-          "Wḏȝt": [
+          "Bꜣgsw": [
+            "1",
+            "6",
+            "5",
+            ""
+          ]
+        }
+      },
+      {
+        "id": "smsw",
+        "name": "Šmsw Retinue",
+        "type": "Light Warrior",
+        "move": 6,
+        "training": 8,
+        "points": 15,
+        "comps": [
+          [
+            1,
+            5
+          ]
+        ],
+        "equip": [
+          "Pḏt"
+        ],
+        "gear": [
+          "Bꜣgsw"
+        ],
+        "body": null,
+        "shield": null,
+        "opts": [],
+        "chars": [
+          {
+            "req": true,
+            "one": [
+              [
+                "Lord",
+                17
+              ],
+              [
+                "Commander",
+                42
+              ],
+              [
+                "Army Musician",
+                60
+              ],
+              [
+                "Army Standard Bearer",
+                30
+              ]
+            ]
+          },
+          {
+            "one": [
+              [
+                "Bowmaster",
+                10
+              ]
+            ]
+          }
+        ],
+        "rules": [],
+        "weapons": {
+          "Pḏt": [
+            "28”",
+            "7",
+            "4",
+            "Direct Fire, Unwieldy (1)"
+          ],
+          "Bꜣgsw": [
+            "1",
+            "7",
+            "5",
+            ""
+          ]
+        }
+      },
+      {
+        "id": "ahawtyw",
+        "name": "ꜥḥꜣwtyw",
+        "type": "Light Warrior",
+        "move": 7,
+        "training": 6,
+        "points": 11,
+        "comps": [
+          [
+            3,
+            4
+          ],
+          [
+            2,
+            6
+          ]
+        ],
+        "equip": [
+          "Ḥḏ"
+        ],
+        "gear": [],
+        "body": null,
+        "shield": "Shield",
+        "opts": [
+          {
+            "label": "Throwsticks",
+            "kind": "add",
+            "choices": [
+              {
+                "name": "ꜥmꜥꜣt throwsticks",
+                "w": [
+                  "ꜥmꜥꜣt"
+                ],
+                "c": 1
+              }
+            ]
+          }
+        ],
+        "chars": [
+          {
+            "one": [
+              [
+                "Lead Captain",
+                5
+              ],
+              [
+                "Musician",
+                6
+              ]
+            ]
+          }
+        ],
+        "rules": [],
+        "weapons": {
+          "Ḥḏ": [
+            "3",
+            "5",
+            "5",
+            "Sunder (1)"
+          ],
+          "ꜥmꜥꜣt": [
+            "6”",
+            "5",
+            "4",
+            "Throwing Weapon"
+          ]
+        }
+      },
+      {
+        "id": "msa",
+        "name": "Mšꜥ",
+        "type": "Warrior",
+        "move": 6,
+        "training": 6,
+        "points": 12,
+        "comps": [
+          [
+            4,
+            4
+          ],
+          [
+            3,
+            5
+          ]
+        ],
+        "equip": [
+          "Nỉwy"
+        ],
+        "gear": [
+          "Bꜣgsw"
+        ],
+        "body": null,
+        "shield": "Shield",
+        "opts": [],
+        "chars": [
+          {
+            "one": [
+              [
+                "Lead Captain",
+                5
+              ],
+              [
+                "Standard Bearer",
+                8
+              ]
+            ]
+          }
+        ],
+        "rules": [],
+        "weapons": {
+          "Nỉwy": [
+            "8",
+            "5",
+            "5",
+            "Reach (1)"
+          ],
+          "Bꜣgsw": [
+            "1",
+            "6",
+            "5",
+            ""
+          ]
+        }
+      },
+      {
+        "id": "djamw",
+        "name": "Ḏꜣmw",
+        "type": "Warrior",
+        "move": 6,
+        "training": 4,
+        "points": 8,
+        "comps": [
+          [
+            4,
+            5
+          ],
+          [
+            3,
+            5
+          ]
+        ],
+        "equip": [
+          "Nỉwy"
+        ],
+        "gear": [
+          "Bꜣgsw"
+        ],
+        "body": null,
+        "shield": "Shield",
+        "opts": [],
+        "chars": [
+          {
+            "one": [
+              [
+                "Taskmaster",
+                5
+              ]
+            ]
+          },
+          {
+            "one": [
+              [
+                "Lead Captain",
+                3
+              ]
+            ]
+          }
+        ],
+        "rules": [
+          "Levy"
+        ],
+        "weapons": {
+          "Nỉwy": [
+            "8",
+            "4",
+            "5",
+            "Reach (1)"
+          ],
+          "Bꜣgsw": [
+            "1",
+            "5",
+            "5",
+            ""
+          ]
+        }
+      },
+      {
+        "id": "mswsw",
+        "name": "Mšwš",
+        "type": "Light Warrior",
+        "move": 7,
+        "training": 5,
+        "points": 11,
+        "comps": [
+          [
+            3,
+            4
+          ],
+          [
+            2,
+            6
+          ]
+        ],
+        "equip": [
+          "Nỉwy-Mšwš",
+          "Ḫpš"
+        ],
+        "gear": [],
+        "body": null,
+        "shield": null,
+        "opts": [],
+        "chars": [
+          {
+            "one": [
+              [
+                "Tribal Leader",
+                8
+              ],
+              [
+                "Lead Captain",
+                5
+              ]
+            ]
+          }
+        ],
+        "rules": [
+          "Mercenary"
+        ],
+        "weapons": {
+          "Nỉwy-Mšwš": [
+            "6 / 8”",
+            "5",
+            "6",
+            "Throwing Weapon"
+          ],
+          "Ḫpš": [
+            "2",
+            "6",
+            "5",
+            ""
+          ]
+        }
+      },
+      {
+        "id": "wrrt",
+        "name": "Wrrt",
+        "type": "Chariot",
+        "move": 11,
+        "training": 6,
+        "points": 45,
+        "comps": [
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "crew": {
+          "driver": 1,
+          "crew": 1,
+          "horses": 2
+        },
+        "equip": [
+          "Pḏt",
+          "Horses"
+        ],
+        "gear": [
+          "Bꜣgsw"
+        ],
+        "body": "Light Armor",
+        "shield": null,
+        "opts": [],
+        "chars": [
+          {
+            "one": [
+              [
+                "Standard Bearer",
+                15
+              ]
+            ]
+          }
+        ],
+        "rules": [
+          "Feign Charge"
+        ],
+        "weapons": {
+          "Pḏt": [
+            "24”",
+            "6",
+            "4",
+            "2 Attacks. Direct Fire"
+          ],
+          "Horses": [
+            "3",
+            "5",
+            "5",
+            "2 Attacks, can only use on Charge"
+          ],
+          "Bꜣgsw": [
+            "1",
+            "5",
+            "5",
+            "1 Attack, cannot be used on Charge"
+          ]
+        }
+      },
+      {
+        "id": "ssmtyw",
+        "name": "Ssmtyw",
+        "type": "Light Cavalry",
+        "move": 12,
+        "training": 5,
+        "points": 18,
+        "comps": [
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "equip": [
+          "Nỉwy-ssmt"
+        ],
+        "gear": [
+          "Bꜣgsw"
+        ],
+        "body": null,
+        "shield": "Shield",
+        "opts": [],
+        "chars": [
+          {
+            "one": [
+              [
+                "Lead Captain",
+                5
+              ]
+            ]
+          }
+        ],
+        "rules": [
+          "Feign Charge",
+          "Scout"
+        ],
+        "weapons": {
+          "Nỉwy-ssmt": [
+            "6 / 8”",
+            "5",
+            "6",
+            "Throwing Weapon"
+          ],
+          "Bꜣgsw": [
+            "1",
+            "6",
+            "5",
+            ""
+          ]
+        }
+      },
+      {
+        "id": "mdjayw",
+        "name": "Mḏꜣyw",
+        "type": "Skirmishing Warrior",
+        "move": 7,
+        "training": 5,
+        "points": 10,
+        "range": [
+          6,
+          12
+        ],
+        "equip": [
+          "ꜥmꜥꜣt"
+        ],
+        "gear": [
+          "Bꜣgsw"
+        ],
+        "body": null,
+        "shield": null,
+        "opts": [],
+        "chars": [
+          {
+            "one": [
+              [
+                "Ranger Captain",
+                6
+              ],
+              [
+                "Skirmish Captain",
+                8
+              ]
+            ]
+          }
+        ],
+        "rules": [
+          "Scout",
+          "Surefooted (Stony Plain)"
+        ],
+        "weapons": {
+          "ꜥmꜥꜣt": [
+            "6”",
+            "5",
+            "4",
+            "Throwing Weapon"
+          ],
+          "Bꜣgsw": [
             "1",
             "6",
             "5",
@@ -55,7 +541,13 @@
     ]
   },
   "labels": {
-    "Pḏt": "long self bow",
-    "Wḏȝt": "knife"
+    "Pḏt": "bow",
+    "Bꜣgsw": "dagger",
+    "Ḥḏ": "mace",
+    "ꜥmꜥꜣt": "throwstick",
+    "Nỉwy": "spear",
+    "Nỉwy-Mšwš": "javelins",
+    "Nỉwy-ssmt": "javelins",
+    "Ḫpš": "sword"
   }
 }
