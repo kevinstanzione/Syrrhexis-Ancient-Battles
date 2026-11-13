@@ -85,6 +85,10 @@
               [
                 "Lead Captain",
                 7
+              ],
+              [
+                "Bowmaster",
+                10
               ]
             ]
           },
@@ -106,14 +110,6 @@
               [
                 "Army Standard Bearer",
                 27
-              ]
-            ]
-          },
-          {
-            "one": [
-              [
-                "Bowmaster",
-                10
               ]
             ]
           }
