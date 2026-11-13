@@ -51,7 +51,7 @@ Still to do:
   - **Makedonikḗ Aspís** (shield): Armor 1, Move 0, does not gain +1 Armor from a Hold Action Token (hung from neck and shoulder, both hands on the sarissa).
 
 ## King of Kings rework (Persia, planned)
-- Pulls units from other army lists, not just the mercenary pool: 4 from Supplemental Mercenaries (Arabian Camel Riders, Greek Hoplites, Scythian Archers, Cretan Archers) + 4 from other lists (Indian elephants from the Mauryan list, replacing the Pīrū; Kushite archers from the Kush list; Egyptians; Assyrians). Borrowed units gain Mercenary. Still to confirm: still 2 units per card? Small per-model surcharge?
+- Pulls units from other army lists, not just the mercenary pool: 4 from Supplemental Mercenaries (Arabian Camel Riders, Greek Hoplites, Scythian Archers, Cretan Archers) + 4 from other lists (Indian elephants from the Mauryan list, replacing the Pīrū; Kushite archers from the Kush list; Egyptians; Assyrians). Borrowed units gain Mercenary. No surcharge for now. Still to confirm: still 2 units per card? Elephants come from the Mauryan (Indian) list, not the Successor list: no tower.
 - Kushite Archers leave the general mercenary pool once the Kush list exists. The full card waits on the Mauryan, Kush, Egypt and Assyria lists.
 
 ## Rules to decide
