@@ -48,6 +48,7 @@ Still to do:
   - **Rhombus**: the first turn this unit makes in each activation costs no Move Allowance. When it Charges, it may make two turns instead of one, and the first is free.
   - **Pródromoi** — Light Cavalry, Move 12, Training 6, 19 pts. 2 Ranks of 4 or 2 Ranks of 3. Light Armor, no shield; cavalry Sárisa, Gear Kopís. Scout, Feign Charge. Lead Captain (10). Cavalry Sárisa 12 / 5 / 6, Unwieldy (1), no Reach. Kopís 4 / 4 / 5, Cleaving Blade (3).
   - **Agriânes** — Skirmishing Warrior, Move 7, Training 6, 13 pts. 6–12 models. Shield (Thracian peltē), no body armor; Akóntion, Gear Encheirídion. Scout, Surefooted (Stony Plain). Ranger Captain (6) or Skirmish Captain (8). Akóntion 6 / 8” / 6 / 6, Throwing Weapon. Encheirídion 1 / 6 / 5.
+  - **Argyráspides** — Warrior, Move 6, Training 7, 19 pts. 4 Ranks of 5 or 3 Ranks of 5. Light Armor, Makedonikḗ Aspís (silver-plated); Sárisa, Gear Xíphos. Phalanx, Disciplined. Lead Captain, Rear Captain, Musician. Sárisa 13 / 6 / 5, Reach (2), Unwieldy (2). Xíphos 3 / 6 / 6, Parrying Blade.
   - **Makedonikḗ Aspís** (shield): Armor 1, Move 0, does not gain +1 Armor from a Hold Action Token (hung from neck and shoulder, both hands on the sarissa).
 
 ## King of Kings rework (Persia, planned)
