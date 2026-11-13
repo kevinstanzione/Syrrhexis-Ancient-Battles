@@ -362,7 +362,7 @@
           ]
         ],
         "equip": [
-          "Nỉwy-Mšwš",
+          "Nswt",
           "Ḫpš"
         ],
         "gear": [],
@@ -387,7 +387,7 @@
           "Mercenary"
         ],
         "weapons": {
-          "Nỉwy-Mšwš": [
+          "Nswt": [
             "6 / 8”",
             "5",
             "6",
@@ -489,7 +489,7 @@
           ]
         ],
         "equip": [
-          "Nỉwy-ssmt"
+          "Nswt"
         ],
         "gear": [
           "Bꜣgsw"
@@ -512,7 +512,7 @@
           "Scout"
         ],
         "weapons": {
-          "Nỉwy-ssmt": [
+          "Nswt": [
             "6 / 8”",
             "5",
             "6",
@@ -595,8 +595,7 @@
     "Ḥḏ": "mace",
     "ꜥmꜥꜣt": "throwstick",
     "Nỉwy": "spear",
-    "Nỉwy-Mšwš": "javelins",
-    "Nỉwy-ssmt": "javelins",
+    "Nswt": "javelins",
     "Ḫpš": "long sword"
   }
 }
