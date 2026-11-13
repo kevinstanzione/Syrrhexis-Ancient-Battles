@@ -50,6 +50,11 @@ Still to do:
 - **Mauryan Empire — Gajādhyakṣa** (Superintendent of Elephants, from the Arthaśāstra), Mauryan Retinue units only: this unit may Rally friendly Elephant units within 12” as if it were an Elephant unit; 18” if it includes a Commander. A Commander is not required.
 - **Hannibal's Forces — Mallet and Chisel** (on the Carthaginian elephant unit itself; Livy on Hasdrubal at the Metaurus): when this unit would become Furious, you may instead destroy it. You lose only half its Army Morale Contribution.
 
+- **Dynastic Egypt — Inspiring** (unit rule for Pharaoh's retinue, "divine king"): during the Combat Phase, this unit may remove its Hold token to give one friendly unit within 12” +1 Accuracy. Keep Aristander's Eagle (Alexander) a different effect.
+- **Hannibal's Forces — Backstabbers** (unit rule or Carthage Command card, undecided): after this unit charges an Open Order unit without a Hold token, or a Closed Order unit without a Hold token in its flank or rear, the defender gains a flat Break Token count — 1 for Closed Order and 2 for Open Order, or just 1 for both. Flat count (not per 5 models) because it stacks with Exposed Flanks.
+- **European Barbarians — Flanker** (needs a better name): +1 Accuracy while in combat alongside at least one other friendly unit. Always-on infantry rule for warbands.
+- **Neo-Assyrian Empire — Spearhead** (was "Vanguard"; that name is taken by a generic card): while this unit has a Charge token, friendly units that begin their activation within 12” and declare a Charge gain +1 Move (Warriors) or +2 Move (Cavalry, Chariots, Elephants). Unit rule for the royal chariot retinue.
+
 ## Siege expansion (future)
 - Core of the expansion: destructible terrain and fortifications (walls, gates, towers) that can be damaged and breached.
 - Plan: general-purpose siege weapons available to every army, plus a few army-specific ones.
