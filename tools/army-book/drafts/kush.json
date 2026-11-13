@@ -32,6 +32,10 @@
               [
                 "Bowmaster",
                 10
+              ],
+              [
+                "Ranger Captain",
+                6
               ]
             ]
           }
@@ -79,6 +83,15 @@
             "req": true,
             "one": [
               [
+                "Lead Captain",
+                7
+              ]
+            ]
+          },
+          {
+            "req": true,
+            "one": [
+              [
                 "Lord",
                 17
               ],
@@ -92,7 +105,7 @@
               ],
               [
                 "Army Standard Bearer",
-                30
+                27
               ]
             ]
           },
@@ -101,6 +114,10 @@
               [
                 "Bowmaster",
                 10
+              ],
+              [
+                "Volleymaster",
+                8
               ]
             ]
           }
@@ -164,11 +181,19 @@
             "one": [
               [
                 "Lead Captain",
-                5
+                6
               ],
               [
                 "Musician",
                 6
+              ]
+            ]
+          },
+          {
+            "one": [
+              [
+                "Standard Bearer",
+                10
               ]
             ]
           }
@@ -220,11 +245,23 @@
             "one": [
               [
                 "Lead Captain",
-                5
-              ],
+                6
+              ]
+            ]
+          },
+          {
+            "one": [
               [
                 "Standard Bearer",
-                8
+                10
+              ]
+            ]
+          },
+          {
+            "one": [
+              [
+                "Musician",
+                6
               ]
             ]
           }
@@ -276,7 +313,7 @@
             "one": [
               [
                 "Taskmaster",
-                5
+                4
               ]
             ]
           },
@@ -313,7 +350,7 @@
         "type": "Light Warrior",
         "move": 7,
         "training": 5,
-        "points": 11,
+        "points": 12,
         "comps": [
           [
             3,
@@ -360,7 +397,7 @@
             "2",
             "6",
             "5",
-            ""
+            "Thrusting Blade"
           ]
         }
       },
@@ -517,12 +554,16 @@
           {
             "one": [
               [
-                "Ranger Captain",
-                6
-              ],
-              [
                 "Skirmish Captain",
                 8
+              ]
+            ]
+          },
+          {
+            "one": [
+              [
+                "Houndmaster",
+                10
               ]
             ]
           }

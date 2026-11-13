@@ -55,7 +55,7 @@ window.NHB_RULES = {
     "Houndmaster": "When the unit's Charge makes contact, the defending player loses Army Morale equal to its base Training. Enemies cannot deploy within 12” of this unit.",
     "Lead Captain": "+Training in Army Morale. +1 attack in Combat or Shooting.",
     "Lord": "+3× Training in Army Morale. Grants Noble. If eliminated, the opponent gains its Training in Army Morale.",
-    "Musician": "+Training in Army Morale. With no Action Token and not Locked in Combat, at the end of its Movement Step the unit may Special Move: Closed Order 1” forward, back, left or right, or turn once; Open Order 1” toward or away from the enemy side. Combines with the Commander's move. If eliminated you lose its Training and the opponent gains that much.",
+    "Musician": "+Training in Army Morale. With no Action Token and not Locked in Combat, at the end of its Movement Step the unit may Special Move: Closed Order 1” forward, back, left or right, or turn once; Open Order 1” toward or away from the enemy side. Chariots and Elephants: only 1” forward or back. Combines with the Commander's move. If eliminated you lose its Training and the opponent gains that much.",
     "Skirmish Captain": "When an enemy declares a Charge against this unit, before measuring, it may take a Fear Test. If it passes, it falls back directly away from the charger up to its Move, may pass through allied units (not ending on or touching them, or within 1” of an enemy), and gains a Run token. If the charger can no longer reach it, the charger may charge the first enemy unit in its straight path with its full Charge Move; if there is none, it moves as far as it can and loses no Army Morale for a failed charge. On a failed Fear Test the charge resolves normally. Light Warriors with a Skirmish Captain deploy in Open Order.",
     "Ranger Captain": "Grants Surefooted.",
     "Rear Captain": "+Training in Army Morale. +1 to Break Tests and +1 to Rally itself.",
@@ -66,7 +66,7 @@ window.NHB_RULES = {
     "Volleymaster": "Grants Volley. +1 Shooting attack (not Combat).",
     "Army Standard Bearer": "Retinue. +4× Training in Army Morale. +1 Initiative. If eliminated, the opponent gains its Training in Army Morale. One per army.",
     "Army Musician": "Retinue. +2× Training in Army Morale. +1 Initiative. At the end of the Activation Phase you may swap all your Hold tokens for Charge tokens, or all Charge tokens for Hold tokens (not Chariots or Elephants). If eliminated, the opponent gains its Training in Army Morale. One per army.",
-    "Commander": "Retinue. +3× Training in Army Morale. +1 Initiative. At the end of an allied unit's Movement Step (no Action Token, not Locked in Combat) within 6” (18” with a Standard Bearer), it may Special Move as a Musician; if out of range it takes a Run token instead. If eliminated, the opponent gains its Training in Army Morale. One per army."
+    "Commander": "Retinue. +3× Training in Army Morale. +1 Initiative. At the end of an allied unit's Movement Step (no Action Token, not Locked in Combat) within 6” (18” with a Standard Bearer), it may Special Move as a Musician (Chariots and Elephants only 1” forward or back); if out of range it takes a Run token instead. If eliminated, the opponent gains its Training in Army Morale. One per army."
   },
   charShort: {
     "Birdmaster": "If the unit Scouts or Ambushes, see 2 Command cards your opponent did not pick.",
@@ -74,7 +74,7 @@ window.NHB_RULES = {
     "Houndmaster": "Its charges cost the enemy Army Morale equal to its Training. Enemies can't deploy within 12”.",
     "Lead Captain": "+Training Army Morale. +1 attack in Combat or Shooting.",
     "Lord": "+3× Training Army Morale. Grants Noble. The opponent gains its Training if it dies.",
-    "Musician": "+Training Army Morale. Free 1” shift or one turn at the end of its move.",
+    "Musician": "+Training Army Morale. Free 1” shift or one turn at the end of its move (Chariots and Elephants: forward or back only).",
     "Skirmish Captain": "When charged, may take a Fear Test to fall back through allied units; the charger may hit the unit behind instead.",
     "Ranger Captain": "Grants Surefooted.",
     "Rear Captain": "+Training Army Morale. +1 to Break Tests and to Rally itself.",
@@ -85,7 +85,7 @@ window.NHB_RULES = {
     "Volleymaster": "Grants Volley and +1 Shooting attack.",
     "Army Standard Bearer": "Retinue, one per army. +4× Training Army Morale and +1 Initiative. The opponent gains its Training if it dies.",
     "Army Musician": "Retinue, one per army. +2× Training Army Morale and +1 Initiative. Before Combat, swap all your Hold tokens for Charge tokens or the reverse (not Chariots or Elephants).",
-    "Commander": "Retinue, one per army. +3× Training Army Morale and +1 Initiative. Gives units within 6” a free 1” shift or turn."
+    "Commander": "Retinue, one per army. +3× Training Army Morale and +1 Initiative. Gives units within 6” a free 1” shift or turn (Chariots and Elephants: forward or back only)."
   },
   types: {
     "Closed Order": "Uses a tray in ranks. Has Collision and Exposed Flanks.",

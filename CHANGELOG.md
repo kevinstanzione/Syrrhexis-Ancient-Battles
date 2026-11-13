@@ -6,6 +6,15 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## Rulebook 0.3.5 — 2026-11-13
+
+- Musician and Commander: a Chariot or Elephant unit can only Special Move directly forward or backwards 1”, never turn or move sideways (Wheeled Vehicle and elephant turning can't be skipped).
+
+## 0.27.2 — 2026-11-13
+
+### Builder
+- Rules text for the Musician and Commander updated to match Rulebook 0.3.5.
+
 ## 0.27.1 — 2026-11-13
 
 ### Profiles
