@@ -6,6 +6,10 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## Rulebook 0.3.3 — 2026-11-12
+
+- Model Characteristics: a weapon’s abilities apply only to attacks made with it, unless the ability applies to a unit *equipped with* the weapon (such as Unwieldy (X)).
+
 ## 0.21.1 — 2026-11-12
 
 ### Command cards
