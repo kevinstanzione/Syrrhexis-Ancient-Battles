@@ -35,7 +35,6 @@ Still to do:
 ## Kingdom of Kush
 - Built in 0.28.0 (9 units, 5 Command cards). Playtest pricing, especially the Šmsw Retinue (15, Training 7), Wrrt (45) and the Horses of Kush Army Morale.
 - Names are Egyptian and some are constructed (Ssmtyw from ssmt "horse"); add them to the Reconstructed and Constructed Names doc. Mḏꜣyw (Medjay) is a slightly late term, kept on purpose.
-- Army opener art not made yet.
 
 ## Armies of Alexander
 - Built in 0.23.0 (13 units); 6 Command cards as of 0.25.0 (Émbolon, Lord of Asia, Oblique Advance, Aristander's Eagle, Ipsus, Synaspismós). Playtest pricing, especially Pezhétairoi (15), Argyráspides (19), Eléphantes (100) and Thureophóroi (12).
@@ -76,12 +75,12 @@ Still to do:
 - Pavise candidates: Neo-Assyrian archer and shield-bearer unit (Mixed Unit like the Sparabārā), Mauryan foot archers with tall ox-hide shields.
 
 ## Art spreads (future)
-- Pencil scene art: 7 army openers done (art/illustrations), plus card art for The Eclipse and Crumbled Ruins in the Army Book's generic cards. Army Book images get a torn-paper edge at build time.
+- Pencil scene art: 8 army openers done (art/illustrations), Kush portrait added 2026-11-13, plus card art for The Eclipse and Crumbled Ruins in the Army Book's generic cards. Army Book images get a torn-paper edge at build time.
 - Mercenary art for the Army Book (units that need showing exactly): Arabian Camel Riders, Đông Sơn Axemen, Lydian Houndsmen. Familiar-looking mercenaries (Cataphracts, maybe Galatians) go in the core rulebook as splash art instead.
 - Rulebook spot art (done, 0.3.4): cataphract (Charge Movement), Cretan archer (Shooting), Iberian (Melee Hits), centurion (Commander), Aztec conch player (Musician), Persian standard bearer (Standard Bearer). Square, no background, torn edge without a corner, full column width.
 - Next rulebook spot art, for the Special Rules chapter: Carduchian Tribesmen (tall Aġeġn bow; place by Unwieldy (X) or Surefooted) and Thracian Warriors (two-handed rhomphaia; place by Sunder (X)). Prompts not written yet.
 - More mercenary spot art ideas for Special Rules: Sea People Raiders by Ambush (leaping from beached ships, Medinet Habu look), Numidian Javelineers by Feign Retreat, Galatian Warriors by Frenzy. Balearic Slingers could go in Unit Types (Skirmishing Warriors).
-- Army opener art for the 7 remaining armies (Egypt, Assyria, Kush, Mauryan, Qin, Hannibal's Forces, European Barbarians): make at least 4 of them portrait rather than landscape, so the Army Book openers don't all look uniform (only Rome's testudo is portrait so far). Portrait openers sit at the top of the first text column.
+- Army opener art for the 6 remaining armies (Egypt, Assyria, Mauryan, Qin, Hannibal's Forces, European Barbarians): make at least 3 of them portrait rather than landscape, so the Army Book openers don't all look uniform (Rome's testudo and the Kush archers are portrait so far). Portrait openers sit at the top of the first text column.
 - Deployment section: a wide piece of the Persian army forming up with King of Kings contingents side by side (e.g. Greek hoplite, Arabian camel rider, Scythian horse archer, with a Persian officer directing). Ambitious: keep to 3 or 4 large figures. Landscape, spanning the full page width in the rulebook (not a square column spot).
 - Unit Types chapter (Warmachines section): Roman carroballista spot art, after Trajan's Column (mule cart with a bolt thrower and two crew).
 - Spears spread done: art/spears/ (21 images, build_spread.py, spears_spread.png/.pdf). Placement in the rulebook still to decide.

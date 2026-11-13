@@ -340,7 +340,7 @@ def card(c):
 
 
 # Pencil illustration for each army's opening page: art/illustrations/<file>.png
-ART = {'sumer': 'sumer_battle_wagon', 'hittite': 'hittite_lion_gate', 'persia': 'persia_volley', 'greek': 'greek_march',
+ART = {'sumer': 'sumer_battle_wagon', 'hittite': 'hittite_lion_gate', 'kush': 'kush_archers', 'persia': 'persia_volley', 'greek': 'greek_march',
        'alexander': 'alexander_phalanx', 'rome': 'rome_testudo', 'aztec': 'aztec_chinampas'}
 _ART_DIR = os.path.join(ROOT, 'art', 'illustrations')
 _ART_CACHE = os.path.join(tempfile.gettempdir(), 'syrrhexis-art')

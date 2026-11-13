@@ -6,6 +6,10 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## Army Book — 2026-11-13 (Kush art)
+
+- Kingdom of Kush opens with a portrait pencil illustration: Kushite archers with tall bows below Jebel Barkal, a chariot behind.
+
 ## 0.28.0 — 2026-11-13
 
 ### New army: Kingdom of Kush
