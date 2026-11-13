@@ -1,7 +1,7 @@
 // Syrrhēxis army data. Edit the values below; keep the first line as is.
 window.NHB_DATA = {
   "meta": {
-    "version": "0.31.2",
+    "version": "0.31.3",
     "synced": "2026-10-22",
     "sources": {
       "Hittite Empire Army": "1aqMPs2Pi5car6pUzcuWmHXArGss_RZdkgATe5OsbVrw",
@@ -2937,7 +2937,7 @@ window.NHB_DATA = {
         },
         {
           "id": "wrrt",
-          "name": "Wrrt",
+          "name": "Wrrywt",
           "type": "Chariot",
           "move": 11,
           "training": 6,
@@ -9657,7 +9657,7 @@ window.NHB_DATA = {
         "kush"
       ],
       "limit": 1,
-      "text": "Play at the start of a round. Each friendly Wrrt and Ssmtyw unit removes 1 Break Token. Until the end of the round, these units may attempt to Rally themselves even at Half Strength or Mass Casualties.",
+      "text": "Play at the start of a round. Each friendly Wrrywt and Ssmtyw unit removes 1 Break Token. Until the end of the round, these units may attempt to Rally themselves even at Half Strength or Mass Casualties.",
       "flavor": "Piye walked into the stables of the fallen and wept that the horses had been left to hunger."
     },
     {

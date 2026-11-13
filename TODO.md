@@ -33,8 +33,8 @@ Still to do:
 - Eren rule named Guru (Sumerian "shield", ePSD2 guru) on 2026-11-03. Sumer moved into the builder in 0.14.0 (2026-11-04); intro rewritten, waiting on Kevin's read. Renamed from Sumerian Kingdom in 0.18.0. Plan doc still needs syncing (Guru, Straddle Car, Feign Retreat, points, name). Šukur Length 8 confirmed.
 
 ## Kingdom of Kush
-- Built in 0.28.0 (9 units, 5 Command cards). Playtest pricing, especially the Šmsw Retinue (15, Training 7), Wrrt (45) and the Horses of Kush Army Morale.
-- Names are Egyptian and some are constructed (Ssmtyw from ssmt "horse"); add them to the Reconstructed and Constructed Names doc. Mḏꜣyw (Medjay) is a slightly late term, kept on purpose.
+- Built in 0.28.0 (9 units, 5 Command cards). Playtest pricing, especially the Šmsw Retinue (15, Training 7), Wrrywt (45) and the Horses of Kush Army Morale.
+- Names are Egyptian and some are constructed (Ssmtyw from ssmt "horse"); add them to the Reconstructed and Constructed Names doc. Mḏꜣyw (Medjay) is a slightly late term, kept on purpose. Kush names checked and logged in the Reconstructed Names Reference doc on 2026-11-13; Wrrt → Wrrywt in 0.31.3.
 
 ## Dynastic Egypt
 - Built in 0.29.0 (9 units, New Kingdom c. 1550–1070 BC); 5 Command cards in 0.30.0 (Amun My Father, The Aruna Road, Shoot in Ranks, Snapping the Nine Bows, Trumpets of the Divisions).
