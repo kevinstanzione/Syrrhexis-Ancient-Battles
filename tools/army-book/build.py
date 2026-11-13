@@ -312,6 +312,10 @@ def art(aid):
     return art_img(ART.get(aid))
 
 
+# Images that also get a torn-off corner; the rest just have the ragged edge.
+TORN_CORNER = {'card_the_eclipse', 'greek_march', 'merc_lydian_houndsmen'}
+
+
 def _edge(rng, n, amp, rough):
     v, out = 0.0, []
     for _ in range(n):
@@ -324,13 +328,14 @@ def _edge(rng, n, amp, rough):
 
 def _torn(img, name):
     """Give a picture a ragged torn-paper edge and a soft shadow, flattened onto the page colour.
-    Each image gets its own tear (seeded by its name); about half also lose a corner."""
+    Each image gets its own tear (seeded by its name); only the images in TORN_CORNER also lose a corner."""
     import random
     from PIL import Image, ImageDraw, ImageFilter
     rng = random.Random(name)
     W, H = img.size
     k = max(W, H) / 760.0                       # the mock-up was tuned at 760 px
-    corner = rng.random() < 0.5
+    rng.random()                                # keep each image's tear pattern unchanged
+    corner = name in TORN_CORNER
     amp, rough = (13 * k, 6 * k) if corner else (9 * k, 4 * k)
     m = Image.new('L', (W, H), 0)
     d = ImageDraw.Draw(m)

@@ -13,7 +13,7 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 ## Army Book — 2026-11-13
 
 - Each army now opens with a pencil illustration (art/illustrations): Sumerian battle wagon, Hittites at the Lion Gate, Persian Immortals' volley, Spartan column with an aulos player, Macedonian pike phalanx with towered elephants, Roman testudo, Aztec canoe in the chinampas.
-- Every illustration gets a torn-paper edge and soft shadow, each torn differently; about half also lose a corner. Card art for The Eclipse (before the Weather cards) and Crumbled Ruins (before the terrain cards) in Generic Command Cards.
+- Every illustration gets a torn-paper edge and soft shadow, each torn differently; only The Eclipse, the Spartan march and the Lydian Houndsmen also lose a corner. Card art for The Eclipse (before the Weather cards) and Crumbled Ruins (before the terrain cards) in Generic Command Cards.
 
 ## 0.25.0 — 2026-11-13
 
