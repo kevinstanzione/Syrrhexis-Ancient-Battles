@@ -597,5 +597,62 @@
     "Nỉwy": "spear",
     "Nsjwt": "javelins",
     "Zft": "long sword"
-  }
+  },
+  "commands": [
+    {
+      "id": "running-stele",
+      "name": "The Running Stele",
+      "short": "Infantry move faster for a round",
+      "armies": [
+        "kush"
+      ],
+      "limit": 1,
+      "text": "Play at the start of a round. Until the end of the round, friendly Warrior and Light Warrior units gain +1 Move, or +2 Move while they have a Run Action Token.",
+      "flavor": "The king's soldiers ran by night across the desert, from Memphis to the Faiyum and back again before the dawn."
+    },
+    {
+      "id": "purification-before-amun",
+      "name": "Purification Before Amun",
+      "short": "Pass Fear Tests and ignore Terrify for a round",
+      "armies": [
+        "kush"
+      ],
+      "limit": 1,
+      "text": "Play at the start of a round. Until the end of the round, friendly units automatically pass Fear Tests and gain no Break Tokens from Terrify, either from the Terrify special rule or from a Charge by a much larger unit.",
+      "flavor": "At Thebes the army washed in the river, put on clean linen, and bowed before Amun before marching north."
+    },
+    {
+      "id": "ta-seti",
+      "name": "Ta-Seti",
+      "short": "Aimed shots gain +1 Accuracy and +1 Strength",
+      "armies": [
+        "kush"
+      ],
+      "limit": 1,
+      "text": "Play at the start of a round. Until the end of the round, friendly units that use Aim gain an additional +1 Accuracy and +1 Strength with their Shooting attacks.",
+      "flavor": "In the Land of the Bow, a man was taught to put his arrow through an enemy's eye."
+    },
+    {
+      "id": "bow-of-the-kushite-king",
+      "name": "Bow of the Kushite King",
+      "short": "Pḏtyw shoot back at an enemy that shoots",
+      "armies": [
+        "kush"
+      ],
+      "limit": 1,
+      "text": "Play after an enemy unit resolves a Shooting attack against a friendly unit. Each friendly Pḏtyw unit within 12” of that friendly unit that is not Locked in Combat and has a line of fire to the attacker may immediately make a Shooting attack against it at -2 Accuracy. This does not change their Action Tokens.",
+      "flavor": "Tell your king: when his men draw a bow like this one as easily as I do, then let him march on Kush."
+    },
+    {
+      "id": "horses-of-piye",
+      "name": "The Horses of Piye",
+      "short": "Kushite horsemen and chariots steady themselves",
+      "armies": [
+        "kush"
+      ],
+      "limit": 1,
+      "text": "Play at the start of a round. Each friendly Wrrt and Ssmtyw unit removes 1 Break Token. Until the end of the round, these units may attempt to Rally themselves even at Half Strength or Mass Casualties.",
+      "flavor": "Piye walked into the stables of the fallen and wept that the horses had been left to hunger."
+    }
+  ]
 }
