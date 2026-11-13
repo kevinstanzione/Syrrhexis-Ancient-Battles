@@ -6,13 +6,22 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## 0.31.0 — 2026-11-13
+
+### Dynastic Egypt
+- **Nḫtw-ꜥ**: new weapon option, the two-handed **mace-axe** (3 / 4 / 6, Sunder (2)), which replaces the Shield. Free. Its Egyptian name is still to be chosen.
+- **Trampling the Nine Bows** reworked: until the end of the round, friendly Chariot units gain +1 Strength with all their attacks, Shooting and Melee, against enemy units with at least 1 Break Token or a Flee Action Token.
+
+### Kingdom of Kush
+- **Wrrt** gain **Aim**. Points 45 → 47.
+
 ## 0.30.0 — 2026-11-13
 
 ### Dynastic Egypt: Command cards (1 per deck)
 - **Amun, My Father**: for a round, Inspiring gives +1 Accuracy to every friendly unit within 12”, and your Commander's Special Move range is doubled.
 - **The Aruna Road**: up to 2 non-Mercenary Warrior, Light Warrior or Skirmishing Warrior units gain Scout.
 - **Shoot in Ranks**: for a round, friendly units using Volley ignore its -1 Accuracy.
-- **Trampling the Nine Bows**: for a round, Chariot charges against an enemy that already has a Break Token give it 1 more.
+- **Trampling the Nine Bows**: for a round, Chariot units gain +1 Strength against enemies with a Break Token or a Flee token (reworked in 0.31.0).
 - **Trumpets of the Divisions**: for a round, units with a Musician may Special Move up to 2”, even with a Hold token.
 
 ## 0.29.1 — 2026-11-13

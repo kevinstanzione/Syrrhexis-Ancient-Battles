@@ -1,7 +1,7 @@
 // Syrrhēxis army data. Edit the values below; keep the first line as is.
 window.NHB_DATA = {
   "meta": {
-    "version": "0.30.0",
+    "version": "0.31.0",
     "synced": "2026-10-22",
     "sources": {
       "Hittite Empire Army": "1aqMPs2Pi5car6pUzcuWmHXArGss_RZdkgATe5OsbVrw",
@@ -858,14 +858,24 @@ window.NHB_DATA = {
                   "w": [
                     "Ḫpš"
                   ],
-                  "c": 0
+                  "c": 0,
+                  "shield": "Shield"
                 },
                 {
                   "name": "Mỉnb axe",
                   "w": [
                     "Mỉnb"
                   ],
-                  "c": 0
+                  "c": 0,
+                  "shield": "Shield"
+                },
+                {
+                  "name": "Mace-axe (two-handed; replaces Shield)",
+                  "w": [
+                    "Mace-axe"
+                  ],
+                  "c": 0,
+                  "shield": null
                 }
               ]
             },
@@ -907,6 +917,12 @@ window.NHB_DATA = {
               "4",
               "5",
               "Cleaving Blade (4)"
+            ],
+            "Mace-axe": [
+              "3",
+              "4",
+              "6",
+              "Sunder (2)"
             ]
           }
         },
@@ -2925,7 +2941,7 @@ window.NHB_DATA = {
           "type": "Chariot",
           "move": 11,
           "training": 6,
-          "points": 45,
+          "points": 47,
           "comps": [
             [
               1,
@@ -2962,6 +2978,7 @@ window.NHB_DATA = {
             }
           ],
           "rules": [
+            "Aim",
             "Feign Charge"
           ],
           "weapons": {
@@ -9678,12 +9695,12 @@ window.NHB_DATA = {
     {
       "id": "trampling-the-nine-bows",
       "name": "Trampling the Nine Bows",
-      "short": "Chariot charges add a Break Token to shaken enemies",
+      "short": "Chariots +1 Strength against shaken or fleeing enemies",
       "armies": [
         "egypt"
       ],
       "limit": 1,
-      "text": "Until the end of the round, when a friendly Chariot unit Charges an enemy unit that already has at least 1 Break Token, that enemy unit gains 1 additional Break Token.",
+      "text": "Until the end of the round, friendly Chariot units gain +1 Strength with all their attacks, Shooting and Melee, against enemy units that have at least 1 Break Token or a Flee Action Token.",
       "flavor": "The Nine Bows, the enemies of Egypt, lie beneath the sandals of Pharaoh."
     },
     {
