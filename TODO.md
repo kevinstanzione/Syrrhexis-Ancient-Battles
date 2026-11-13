@@ -75,6 +75,7 @@ Still to do:
 - Mercenary art for the Army Book (units that need showing exactly): Arabian Camel Riders, Đông Sơn Axemen, Lydian Houndsmen. Familiar-looking mercenaries (Cataphracts, maybe Galatians) go in the core rulebook as splash art instead.
 - Rulebook spot art (done, 0.3.4): cataphract (Charge Movement), Cretan archer (Shooting), Iberian (Melee Hits), centurion (Commander), Aztec conch player (Musician), Persian standard bearer (Standard Bearer). Square, no background, torn edge without a corner, full column width.
 - Next rulebook spot art, for the Special Rules chapter: Carduchian Tribesmen (tall Aġeġn bow; place by Unwieldy (X) or Surefooted) and Thracian Warriors (two-handed rhomphaia; place by Sunder (X)). Prompts not written yet.
+- More mercenary spot art ideas for Special Rules: Sea People Raiders by Ambush (leaping from beached ships, Medinet Habu look), Numidian Javelineers by Feign Retreat, Galatian Warriors by Frenzy. Balearic Slingers could go in Unit Types (Skirmishing Warriors).
 - Unit Types chapter (Warmachines section): Roman carroballista spot art, after Trajan's Column (mule cart with a bolt thrower and two crew).
 - Spears spread done: art/spears/ (21 images, build_spread.py, spears_spread.png/.pdf). Placement in the rulebook still to decide.
 - Next spreads: chariots, hand weapons, shields, armor, standards, musical instruments.
