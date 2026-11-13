@@ -1,7 +1,7 @@
 // Syrrhēxis army data. Edit the values below; keep the first line as is.
 window.NHB_DATA = {
   "meta": {
-    "version": "0.31.1",
+    "version": "0.31.2",
     "synced": "2026-10-22",
     "sources": {
       "Hittite Empire Army": "1aqMPs2Pi5car6pUzcuWmHXArGss_RZdkgATe5OsbVrw",
@@ -870,9 +870,9 @@ window.NHB_DATA = {
                   "shield": "Shield"
                 },
                 {
-                  "name": "Mace-axe (two-handed; replaces Shield)",
+                  "name": "Ỉqḥw battle-axe (two-handed; replaces Shield)",
                   "w": [
-                    "Mace-axe"
+                    "Ỉqḥw"
                   ],
                   "c": 0,
                   "shield": null
@@ -918,7 +918,7 @@ window.NHB_DATA = {
               "5",
               "Cleaving Blade (4)"
             ],
-            "Mace-axe": [
+            "Ỉqḥw": [
               "3",
               "4",
               "6",
@@ -1058,9 +1058,9 @@ window.NHB_DATA = {
                   "c": 0
                 },
                 {
-                  "name": "Nsjwt javelins",
+                  "name": "Nsỉwt javelins",
                   "w": [
-                    "Nsjwt"
+                    "Nsỉwt"
                   ],
                   "c": 0
                 }
@@ -1107,7 +1107,7 @@ window.NHB_DATA = {
               "5",
               "Cleaving Blade (4)"
             ],
-            "Nsjwt": [
+            "Nsỉwt": [
               "6 / 8”",
               "4",
               "6",
@@ -1139,7 +1139,7 @@ window.NHB_DATA = {
             ]
           ],
           "equip": [
-            "Ḫrp"
+            "Ḥrp"
           ],
           "gear": [],
           "body": "Light Armor",
@@ -1164,7 +1164,7 @@ window.NHB_DATA = {
             "Mercenary"
           ],
           "weapons": {
-            "Ḫrp": [
+            "Ḥrp": [
               "4",
               "6",
               "6",
@@ -1239,7 +1239,7 @@ window.NHB_DATA = {
             12
           ],
           "equip": [
-            "Nsjwt"
+            "Nsỉwt"
           ],
           "gear": [
             "Bꜣgsw"
@@ -1268,7 +1268,7 @@ window.NHB_DATA = {
             "Chariot Runners": "+1 Accuracy in Melee against enemy units that are also Locked in Combat with a friendly Chariot unit."
           },
           "weapons": {
-            "Nsjwt": [
+            "Nsỉwt": [
               "6 / 8”",
               "5",
               "6",
@@ -1284,7 +1284,7 @@ window.NHB_DATA = {
         },
         {
           "id": "snnw",
-          "name": "Snnw",
+          "name": "Snnyw",
           "type": "Chariot",
           "move": 11,
           "training": 6,
@@ -1327,9 +1327,9 @@ window.NHB_DATA = {
                   "c": 0
                 },
                 {
-                  "name": "Nsjwt javelins",
+                  "name": "Nsỉwt javelins",
                   "w": [
-                    "Nsjwt",
+                    "Nsỉwt",
                     "Horses"
                   ],
                   "c": 0
@@ -1375,9 +1375,9 @@ window.NHB_DATA = {
               "3",
               "5",
               "5",
-              "2 Attacks, can only use on Charge. May be used in conjunction with Nsjwt"
+              "2 Attacks, can only use on Charge. May be used in conjunction with Nsỉwt"
             ],
-            "Nsjwt": [
+            "Nsỉwt": [
               "6 / 8”",
               "5",
               "6",
@@ -2656,7 +2656,7 @@ window.NHB_DATA = {
             ]
           ],
           "equip": [
-            "Nsjwt",
+            "Nsỉwt",
             "Zft"
           ],
           "gear": [],
@@ -2681,7 +2681,7 @@ window.NHB_DATA = {
             "Mercenary"
           ],
           "weapons": {
-            "Nsjwt": [
+            "Nsỉwt": [
               "6 / 8”",
               "5",
               "6",
@@ -2894,7 +2894,7 @@ window.NHB_DATA = {
             ]
           ],
           "equip": [
-            "Nsjwt"
+            "Nsỉwt"
           ],
           "gear": [
             "Bꜣgsw"
@@ -2917,7 +2917,7 @@ window.NHB_DATA = {
             "Scout"
           ],
           "weapons": {
-            "Nsjwt": [
+            "Nsỉwt": [
               "6 / 8”",
               "5",
               "6",
@@ -7779,12 +7779,13 @@ window.NHB_DATA = {
     "Ḥḏ": "mace",
     "ꜥmꜥꜣt": "throwstick",
     "Nỉwy": "spear",
-    "Nsjwt": "javelins",
+    "Nsỉwt": "javelins",
     "Zft": "long sword",
     "ꜥb": "composite bow",
     "Ḫpš": "khopesh, sickle sword",
     "Mỉnb": "battle axe",
-    "Ḫrp": "long sword"
+    "Ỉqḥw": "two-handed mace-axe",
+    "Ḥrp": "long sword"
   },
   "mercs": {
     "id": "mercs",

@@ -6,6 +6,14 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## 0.31.2 — 2026-11-13
+
+### Dynastic Egypt
+- Name fixes: **Snnw** → **Snnyw** (plural of *snny*, chariot warrior), **Ḫrp** → **Ḥrp** (Šrdn sword; the Semitic loan has ḥ), and the Nḫtw-ꜥ two-handed mace-axe is now the **Ỉqḥw** (Egyptian "battle-axe").
+
+### Dynastic Egypt and Kingdom of Kush
+- **Nsjwt** → **Nsỉwt** (javelins), so the reed-leaf is written ỉ throughout.
+
 ## 0.31.1 — 2026-11-13
 
 ### Dynastic Egypt
