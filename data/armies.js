@@ -1,7 +1,7 @@
 // Syrrhēxis army data. Edit the values below; keep the first line as is.
 window.NHB_DATA = {
   "meta": {
-    "version": "0.28.0",
+    "version": "0.28.1",
     "synced": "2026-10-22",
     "sources": {
       "Hittite Empire Army": "1aqMPs2Pi5car6pUzcuWmHXArGss_RZdkgATe5OsbVrw",
@@ -160,6 +160,102 @@ window.NHB_DATA = {
           }
         },
         {
+          "id": "aga-us",
+          "name": "Aga-ús Retinue",
+          "type": "Warrior",
+          "move": 5,
+          "training": 8,
+          "points": 16,
+          "comps": [
+            [
+              1,
+              5
+            ]
+          ],
+          "equip": [
+            "Ha-zi-in"
+          ],
+          "gear": [
+            "Gír"
+          ],
+          "body": "Gú-è",
+          "shield": null,
+          "opts": [
+            {
+              "label": "Loadout",
+              "kind": "swap",
+              "choices": [
+                {
+                  "name": "Ha-zi-in axe and Gú-è cape",
+                  "w": [
+                    "Ha-zi-in"
+                  ],
+                  "c": 0
+                },
+                {
+                  "name": "Heavy Shield (no attacks except characters; gains Shieldwall)",
+                  "w": [],
+                  "c": 0
+                }
+              ]
+            }
+          ],
+          "chars": [
+            {
+              "req": true,
+              "one": [
+                [
+                  "Lord",
+                  17
+                ],
+                [
+                  "Commander",
+                  42
+                ],
+                [
+                  "Army Musician",
+                  60
+                ],
+                [
+                  "Army Standard Bearer",
+                  30
+                ]
+              ]
+            },
+            {
+              "one": [
+                [
+                  "Standard Bearer",
+                  20
+                ]
+              ]
+            }
+          ],
+          "rules": [
+            "Guard"
+          ],
+          "armors": {
+            "Gú-è": {
+              "v": 1,
+              "text": "-1 Armor against Weapon Attacks with Strength 7 or greater"
+            }
+          },
+          "weapons": {
+            "Ha-zi-in": [
+              "4",
+              "5",
+              "5",
+              "Cleaving Blade (4)"
+            ],
+            "Gír": [
+              "1",
+              "8",
+              "5",
+              ""
+            ]
+          }
+        },
+        {
           "id": "gurus",
           "name": "Guruš",
           "type": "Warrior",
@@ -249,6 +345,174 @@ window.NHB_DATA = {
           }
         },
         {
+          "id": "lu-gespan",
+          "name": "Lú-ĝešpan",
+          "type": "Light Warrior",
+          "move": 7,
+          "training": 5,
+          "points": 10,
+          "comps": [
+            [
+              4,
+              4
+            ],
+            [
+              2,
+              6
+            ]
+          ],
+          "equip": [
+            "Ĝešpan"
+          ],
+          "gear": [
+            "Gír"
+          ],
+          "body": null,
+          "shield": null,
+          "opts": [
+            {
+              "label": "Weapon",
+              "kind": "swap",
+              "choices": [
+                {
+                  "name": "Ĝešpan bow",
+                  "w": [
+                    "Ĝešpan"
+                  ],
+                  "c": 0
+                },
+                {
+                  "name": "Qaštum composite bow",
+                  "w": [
+                    "Qaštum"
+                  ],
+                  "c": 1
+                }
+              ]
+            }
+          ],
+          "chars": [
+            {
+              "one": [
+                [
+                  "Lead Captain",
+                  5
+                ],
+                [
+                  "Volleymaster",
+                  8
+                ]
+              ]
+            }
+          ],
+          "rules": [],
+          "weapons": {
+            "Ĝešpan": [
+              "24”",
+              "5",
+              "4",
+              "Direct Fire"
+            ],
+            "Qaštum": [
+              "24”",
+              "5",
+              "4",
+              "Recurve Bow, Direct Fire"
+            ],
+            "Gír": [
+              "1",
+              "6",
+              "5",
+              ""
+            ]
+          }
+        },
+        {
+          "id": "martu",
+          "name": "Martu",
+          "type": "Light Warrior",
+          "move": 7,
+          "training": 5,
+          "points": 12,
+          "comps": [
+            [
+              3,
+              4
+            ],
+            [
+              2,
+              6
+            ]
+          ],
+          "equip": [
+            "Ilar",
+            "Pāšum"
+          ],
+          "gear": [],
+          "body": null,
+          "shield": null,
+          "opts": [
+            {
+              "label": "Weapon",
+              "kind": "swap",
+              "choices": [
+                {
+                  "name": "Ilar throwsticks",
+                  "w": [
+                    "Ilar"
+                  ],
+                  "c": 0
+                },
+                {
+                  "name": "Ĝešbu javelins",
+                  "w": [
+                    "Ĝešbu"
+                  ],
+                  "c": 1
+                }
+              ]
+            }
+          ],
+          "chars": [
+            {
+              "one": [
+                [
+                  "Tribal Leader",
+                  8
+                ],
+                [
+                  "Lead Captain",
+                  5
+                ]
+              ]
+            }
+          ],
+          "rules": [
+            "Mercenary",
+            "Ambush"
+          ],
+          "weapons": {
+            "Ilar": [
+              "6”",
+              "5",
+              "4",
+              "Throwing Weapon"
+            ],
+            "Pāšum": [
+              "3",
+              "3",
+              "5",
+              "Cleaving Blade (4)"
+            ],
+            "Ĝešbu": [
+              "6 / 8”",
+              "5",
+              "6",
+              "Throwing Weapon"
+            ]
+          }
+        },
+        {
           "id": "lu-gesbu",
           "name": "Lú-ĝešbu",
           "type": "Skirmishing Warrior",
@@ -333,89 +597,6 @@ window.NHB_DATA = {
               "5",
               "4",
               ""
-            ],
-            "Gír": [
-              "1",
-              "6",
-              "5",
-              ""
-            ]
-          }
-        },
-        {
-          "id": "lu-gespan",
-          "name": "Lú-ĝešpan",
-          "type": "Light Warrior",
-          "move": 7,
-          "training": 5,
-          "points": 10,
-          "comps": [
-            [
-              4,
-              4
-            ],
-            [
-              2,
-              6
-            ]
-          ],
-          "equip": [
-            "Ĝešpan"
-          ],
-          "gear": [
-            "Gír"
-          ],
-          "body": null,
-          "shield": null,
-          "opts": [
-            {
-              "label": "Weapon",
-              "kind": "swap",
-              "choices": [
-                {
-                  "name": "Ĝešpan bow",
-                  "w": [
-                    "Ĝešpan"
-                  ],
-                  "c": 0
-                },
-                {
-                  "name": "Qaštum composite bow",
-                  "w": [
-                    "Qaštum"
-                  ],
-                  "c": 1
-                }
-              ]
-            }
-          ],
-          "chars": [
-            {
-              "one": [
-                [
-                  "Lead Captain",
-                  5
-                ],
-                [
-                  "Volleymaster",
-                  8
-                ]
-              ]
-            }
-          ],
-          "rules": [],
-          "weapons": {
-            "Ĝešpan": [
-              "24”",
-              "5",
-              "4",
-              "Direct Fire"
-            ],
-            "Qaštum": [
-              "24”",
-              "5",
-              "4",
-              "Recurve Bow, Direct Fire"
             ],
             "Gír": [
               "1",
@@ -541,187 +722,6 @@ window.NHB_DATA = {
           },
           "custom": {
             "Straddle Car": "Each Kunga counts as 1 Unit Strength instead of 2, so each car is Unit Strength 5."
-          }
-        },
-        {
-          "id": "aga-us",
-          "name": "Aga-ús Retinue",
-          "type": "Warrior",
-          "move": 5,
-          "training": 8,
-          "points": 16,
-          "comps": [
-            [
-              1,
-              5
-            ]
-          ],
-          "equip": [
-            "Ha-zi-in"
-          ],
-          "gear": [
-            "Gír"
-          ],
-          "body": "Gú-è",
-          "shield": null,
-          "opts": [
-            {
-              "label": "Loadout",
-              "kind": "swap",
-              "choices": [
-                {
-                  "name": "Ha-zi-in axe and Gú-è cape",
-                  "w": [
-                    "Ha-zi-in"
-                  ],
-                  "c": 0
-                },
-                {
-                  "name": "Heavy Shield (no attacks except characters; gains Shieldwall)",
-                  "w": [],
-                  "c": 0
-                }
-              ]
-            }
-          ],
-          "chars": [
-            {
-              "req": true,
-              "one": [
-                [
-                  "Lord",
-                  17
-                ],
-                [
-                  "Commander",
-                  42
-                ],
-                [
-                  "Army Musician",
-                  60
-                ],
-                [
-                  "Army Standard Bearer",
-                  30
-                ]
-              ]
-            },
-            {
-              "one": [
-                [
-                  "Standard Bearer",
-                  20
-                ]
-              ]
-            }
-          ],
-          "rules": [
-            "Guard"
-          ],
-          "armors": {
-            "Gú-è": {
-              "v": 1,
-              "text": "-1 Armor against Weapon Attacks with Strength 7 or greater"
-            }
-          },
-          "weapons": {
-            "Ha-zi-in": [
-              "4",
-              "5",
-              "5",
-              "Cleaving Blade (4)"
-            ],
-            "Gír": [
-              "1",
-              "8",
-              "5",
-              ""
-            ]
-          }
-        },
-        {
-          "id": "martu",
-          "name": "Martu",
-          "type": "Light Warrior",
-          "move": 7,
-          "training": 5,
-          "points": 12,
-          "comps": [
-            [
-              3,
-              4
-            ],
-            [
-              2,
-              6
-            ]
-          ],
-          "equip": [
-            "Ilar",
-            "Pāšum"
-          ],
-          "gear": [],
-          "body": null,
-          "shield": null,
-          "opts": [
-            {
-              "label": "Weapon",
-              "kind": "swap",
-              "choices": [
-                {
-                  "name": "Ilar throwsticks",
-                  "w": [
-                    "Ilar"
-                  ],
-                  "c": 0
-                },
-                {
-                  "name": "Ĝešbu javelins",
-                  "w": [
-                    "Ĝešbu"
-                  ],
-                  "c": 1
-                }
-              ]
-            }
-          ],
-          "chars": [
-            {
-              "one": [
-                [
-                  "Tribal Leader",
-                  8
-                ],
-                [
-                  "Lead Captain",
-                  5
-                ]
-              ]
-            }
-          ],
-          "rules": [
-            "Mercenary",
-            "Ambush"
-          ],
-          "weapons": {
-            "Ilar": [
-              "6”",
-              "5",
-              "4",
-              "Throwing Weapon"
-            ],
-            "Pāšum": [
-              "3",
-              "3",
-              "5",
-              "Cleaving Blade (4)"
-            ],
-            "Ĝešbu": [
-              "6 / 8”",
-              "5",
-              "6",
-              "Throwing Weapon"
-            ]
           }
         }
       ]
@@ -1691,201 +1691,6 @@ window.NHB_DATA = {
       "name": "Kingdom of Kush",
       "units": [
         {
-          "id": "pdtyw",
-          "name": "Pḏtyw",
-          "type": "Skirmishing Warrior",
-          "move": 7,
-          "training": 5,
-          "points": 13,
-          "range": [
-            6,
-            12
-          ],
-          "equip": [
-            "Pḏt"
-          ],
-          "gear": [
-            "Bꜣgsw"
-          ],
-          "body": null,
-          "shield": null,
-          "opts": [],
-          "chars": [
-            {
-              "one": [
-                [
-                  "Bowmaster",
-                  10
-                ],
-                [
-                  "Ranger Captain",
-                  6
-                ]
-              ]
-            }
-          ],
-          "rules": [],
-          "weapons": {
-            "Pḏt": [
-              "28”",
-              "6",
-              "4",
-              "Direct Fire, Unwieldy (1)"
-            ],
-            "Bꜣgsw": [
-              "1",
-              "6",
-              "5",
-              ""
-            ]
-          }
-        },
-        {
-          "id": "smsw",
-          "name": "Šmsw Retinue",
-          "type": "Light Warrior",
-          "move": 6,
-          "training": 7,
-          "points": 15,
-          "comps": [
-            [
-              1,
-              5
-            ]
-          ],
-          "equip": [
-            "Pḏt"
-          ],
-          "gear": [
-            "Bꜣgsw"
-          ],
-          "body": null,
-          "shield": null,
-          "opts": [],
-          "chars": [
-            {
-              "req": true,
-              "one": [
-                [
-                  "Lead Captain",
-                  7
-                ],
-                [
-                  "Bowmaster",
-                  10
-                ]
-              ]
-            },
-            {
-              "req": true,
-              "one": [
-                [
-                  "Lord",
-                  17
-                ],
-                [
-                  "Commander",
-                  42
-                ],
-                [
-                  "Army Musician",
-                  60
-                ],
-                [
-                  "Army Standard Bearer",
-                  27
-                ]
-              ]
-            }
-          ],
-          "rules": [],
-          "weapons": {
-            "Pḏt": [
-              "28”",
-              "7",
-              "4",
-              "Direct Fire, Unwieldy (1)"
-            ],
-            "Bꜣgsw": [
-              "1",
-              "6",
-              "5",
-              ""
-            ]
-          }
-        },
-        {
-          "id": "ahawtyw",
-          "name": "ꜥḥꜣwtyw",
-          "type": "Light Warrior",
-          "move": 7,
-          "training": 6,
-          "points": 11,
-          "comps": [
-            [
-              3,
-              4
-            ],
-            [
-              2,
-              6
-            ]
-          ],
-          "equip": [
-            "Ḥḏ"
-          ],
-          "gear": [],
-          "body": null,
-          "shield": "Shield",
-          "opts": [
-            {
-              "label": "ꜥmꜥꜣt throwsticks",
-              "kind": "add",
-              "w": [
-                "ꜥmꜥꜣt"
-              ],
-              "c": 1
-            }
-          ],
-          "chars": [
-            {
-              "one": [
-                [
-                  "Lead Captain",
-                  6
-                ],
-                [
-                  "Musician",
-                  6
-                ]
-              ]
-            },
-            {
-              "one": [
-                [
-                  "Standard Bearer",
-                  10
-                ]
-              ]
-            }
-          ],
-          "rules": [],
-          "weapons": {
-            "Ḥḏ": [
-              "3",
-              "5",
-              "5",
-              "Sunder (1)"
-            ],
-            "ꜥmꜥꜣt": [
-              "6”",
-              "5",
-              "4",
-              "Throwing Weapon"
-            ]
-          }
-        },
-        {
           "id": "msa",
           "name": "Mšꜥ",
           "type": "Warrior",
@@ -2016,6 +1821,77 @@ window.NHB_DATA = {
           }
         },
         {
+          "id": "ahawtyw",
+          "name": "ꜥḥꜣwtyw",
+          "type": "Light Warrior",
+          "move": 7,
+          "training": 6,
+          "points": 11,
+          "comps": [
+            [
+              3,
+              4
+            ],
+            [
+              2,
+              6
+            ]
+          ],
+          "equip": [
+            "Ḥḏ"
+          ],
+          "gear": [],
+          "body": null,
+          "shield": "Shield",
+          "opts": [
+            {
+              "label": "ꜥmꜥꜣt throwsticks",
+              "kind": "add",
+              "w": [
+                "ꜥmꜥꜣt"
+              ],
+              "c": 1
+            }
+          ],
+          "chars": [
+            {
+              "one": [
+                [
+                  "Lead Captain",
+                  6
+                ],
+                [
+                  "Musician",
+                  6
+                ]
+              ]
+            },
+            {
+              "one": [
+                [
+                  "Standard Bearer",
+                  10
+                ]
+              ]
+            }
+          ],
+          "rules": [],
+          "weapons": {
+            "Ḥḏ": [
+              "3",
+              "5",
+              "5",
+              "Sunder (1)"
+            ],
+            "ꜥmꜥꜣt": [
+              "6”",
+              "5",
+              "4",
+              "Throwing Weapon"
+            ]
+          }
+        },
+        {
           "id": "mswsw",
           "name": "Mšwš",
           "type": "Light Warrior",
@@ -2070,6 +1946,246 @@ window.NHB_DATA = {
               "5",
               "Thrusting Blade"
             ]
+          }
+        },
+        {
+          "id": "pdtyw",
+          "name": "Pḏtyw",
+          "type": "Skirmishing Warrior",
+          "move": 7,
+          "training": 5,
+          "points": 13,
+          "range": [
+            6,
+            12
+          ],
+          "equip": [
+            "Pḏt"
+          ],
+          "gear": [
+            "Bꜣgsw"
+          ],
+          "body": null,
+          "shield": null,
+          "opts": [],
+          "chars": [
+            {
+              "one": [
+                [
+                  "Bowmaster",
+                  10
+                ],
+                [
+                  "Ranger Captain",
+                  6
+                ]
+              ]
+            }
+          ],
+          "rules": [],
+          "weapons": {
+            "Pḏt": [
+              "28”",
+              "6",
+              "4",
+              "Direct Fire, Unwieldy (1)"
+            ],
+            "Bꜣgsw": [
+              "1",
+              "6",
+              "5",
+              ""
+            ]
+          }
+        },
+        {
+          "id": "smsw",
+          "name": "Šmsw Retinue",
+          "type": "Light Warrior",
+          "move": 6,
+          "training": 7,
+          "points": 15,
+          "comps": [
+            [
+              1,
+              5
+            ]
+          ],
+          "equip": [
+            "Pḏt"
+          ],
+          "gear": [
+            "Bꜣgsw"
+          ],
+          "body": null,
+          "shield": null,
+          "opts": [],
+          "chars": [
+            {
+              "req": true,
+              "one": [
+                [
+                  "Lead Captain",
+                  7
+                ],
+                [
+                  "Bowmaster",
+                  10
+                ]
+              ]
+            },
+            {
+              "req": true,
+              "one": [
+                [
+                  "Lord",
+                  17
+                ],
+                [
+                  "Commander",
+                  42
+                ],
+                [
+                  "Army Musician",
+                  60
+                ],
+                [
+                  "Army Standard Bearer",
+                  27
+                ]
+              ]
+            }
+          ],
+          "rules": [],
+          "weapons": {
+            "Pḏt": [
+              "28”",
+              "7",
+              "4",
+              "Direct Fire, Unwieldy (1)"
+            ],
+            "Bꜣgsw": [
+              "1",
+              "6",
+              "5",
+              ""
+            ]
+          }
+        },
+        {
+          "id": "mdjayw",
+          "name": "Mḏꜣyw",
+          "type": "Skirmishing Warrior",
+          "move": 7,
+          "training": 5,
+          "points": 10,
+          "range": [
+            6,
+            12
+          ],
+          "equip": [
+            "ꜥmꜥꜣt"
+          ],
+          "gear": [
+            "Bꜣgsw"
+          ],
+          "body": null,
+          "shield": null,
+          "opts": [],
+          "chars": [
+            {
+              "one": [
+                [
+                  "Skirmish Captain",
+                  8
+                ]
+              ]
+            },
+            {
+              "one": [
+                [
+                  "Houndmaster",
+                  10
+                ]
+              ]
+            }
+          ],
+          "rules": [
+            "Ambush",
+            "Surefooted (Stony Plain, Sand)"
+          ],
+          "weapons": {
+            "ꜥmꜥꜣt": [
+              "6”",
+              "5",
+              "4",
+              "Throwing Weapon"
+            ],
+            "Bꜣgsw": [
+              "1",
+              "6",
+              "5",
+              ""
+            ]
+          }
+        },
+        {
+          "id": "ssmtyw",
+          "name": "Ssmtyw",
+          "type": "Light Cavalry",
+          "move": 12,
+          "training": 5,
+          "points": 18,
+          "comps": [
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              3
+            ]
+          ],
+          "equip": [
+            "Nsjwt"
+          ],
+          "gear": [
+            "Bꜣgsw"
+          ],
+          "body": null,
+          "shield": "Shield",
+          "opts": [],
+          "chars": [
+            {
+              "one": [
+                [
+                  "Lead Captain",
+                  5
+                ]
+              ]
+            }
+          ],
+          "rules": [
+            "Feign Charge",
+            "Scout"
+          ],
+          "weapons": {
+            "Nsjwt": [
+              "6 / 8”",
+              "5",
+              "6",
+              "Throwing Weapon"
+            ],
+            "Bꜣgsw": [
+              "1",
+              "6",
+              "5",
+              ""
+            ]
+          },
+          "mountMorale": 2,
+          "custom": {
+            "Horses of Kush": "Each horse in this unit adds 2 to Starting Army Morale instead of 1."
           }
         },
         {
@@ -2140,122 +2256,6 @@ window.NHB_DATA = {
           "mountMorale": 2,
           "custom": {
             "Horses of Kush": "Each horse in this unit adds 2 to Starting Army Morale instead of 1."
-          }
-        },
-        {
-          "id": "ssmtyw",
-          "name": "Ssmtyw",
-          "type": "Light Cavalry",
-          "move": 12,
-          "training": 5,
-          "points": 18,
-          "comps": [
-            [
-              2,
-              4
-            ],
-            [
-              2,
-              3
-            ]
-          ],
-          "equip": [
-            "Nsjwt"
-          ],
-          "gear": [
-            "Bꜣgsw"
-          ],
-          "body": null,
-          "shield": "Shield",
-          "opts": [],
-          "chars": [
-            {
-              "one": [
-                [
-                  "Lead Captain",
-                  5
-                ]
-              ]
-            }
-          ],
-          "rules": [
-            "Feign Charge",
-            "Scout"
-          ],
-          "weapons": {
-            "Nsjwt": [
-              "6 / 8”",
-              "5",
-              "6",
-              "Throwing Weapon"
-            ],
-            "Bꜣgsw": [
-              "1",
-              "6",
-              "5",
-              ""
-            ]
-          },
-          "mountMorale": 2,
-          "custom": {
-            "Horses of Kush": "Each horse in this unit adds 2 to Starting Army Morale instead of 1."
-          }
-        },
-        {
-          "id": "mdjayw",
-          "name": "Mḏꜣyw",
-          "type": "Skirmishing Warrior",
-          "move": 7,
-          "training": 5,
-          "points": 10,
-          "range": [
-            6,
-            12
-          ],
-          "equip": [
-            "ꜥmꜥꜣt"
-          ],
-          "gear": [
-            "Bꜣgsw"
-          ],
-          "body": null,
-          "shield": null,
-          "opts": [],
-          "chars": [
-            {
-              "one": [
-                [
-                  "Skirmish Captain",
-                  8
-                ]
-              ]
-            },
-            {
-              "one": [
-                [
-                  "Houndmaster",
-                  10
-                ]
-              ]
-            }
-          ],
-          "rules": [
-            "Ambush",
-            "Surefooted (Stony Plain, Sand)"
-          ],
-          "weapons": {
-            "ꜥmꜥꜣt": [
-              "6”",
-              "5",
-              "4",
-              "Throwing Weapon"
-            ],
-            "Bꜣgsw": [
-              "1",
-              "6",
-              "5",
-              ""
-            ]
           }
         }
       ]
@@ -3364,80 +3364,6 @@ window.NHB_DATA = {
           }
         },
         {
-          "id": "ratha-apaxsa",
-          "name": "Raθā-Dāça",
-          "type": "Chariot",
-          "move": 12,
-          "training": 7,
-          "points": 46,
-          "comps": [
-            [
-              1,
-              3
-            ],
-            [
-              1,
-              2
-            ]
-          ],
-          "crew": {
-            "driver": 1,
-            "crew": 0,
-            "horses": 2
-          },
-          "equip": [
-            "Dāça",
-            "Horses"
-          ],
-          "gear": [
-            "Akīnakah"
-          ],
-          "body": "Light Armor",
-          "shield": null,
-          "opts": [
-            {
-              "label": "Driver: Arštaya javelins",
-              "kind": "add",
-              "w": [
-                "Arštaya"
-              ],
-              "c": 5
-            }
-          ],
-          "chars": [],
-          "rules": [
-            "Run Them Down",
-            "Suicidal",
-            "Terrify All"
-          ],
-          "weapons": {
-            "Dāça": [
-              "12",
-              "9",
-              "6",
-              "2 Attacks, can only be used on Charge, Sunder (2). Before rolling to hit, each enemy unit in the Melee takes a Fear Test; against units that pass, this weapon has Accuracy 5. Destroy model after resolving Wounds."
-            ],
-            "Horses": [
-              "3",
-              "5",
-              "5",
-              "2 Attacks, can only use on Charge. May be used in conjunction with Dāça"
-            ],
-            "Arštaya": [
-              "6 / 8”",
-              "6",
-              "6",
-              "1 Attack Melee, 2 Attacks Shooting. Throwing Weapon"
-            ],
-            "Akīnakah": [
-              "1",
-              "6",
-              "5",
-              "1 Attack, cannot be used on Charge. Thrusting Blade"
-            ]
-          }
-        },
-        {
           "id": "ratha-retinue",
           "name": "Raθā Retinue",
           "type": "Chariot",
@@ -3528,6 +3454,80 @@ window.NHB_DATA = {
               "6",
               "5",
               "2 Attacks, cannot be used on Charge. Thrusting Blade"
+            ]
+          }
+        },
+        {
+          "id": "ratha-apaxsa",
+          "name": "Raθā-Dāça",
+          "type": "Chariot",
+          "move": 12,
+          "training": 7,
+          "points": 46,
+          "comps": [
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "crew": {
+            "driver": 1,
+            "crew": 0,
+            "horses": 2
+          },
+          "equip": [
+            "Dāça",
+            "Horses"
+          ],
+          "gear": [
+            "Akīnakah"
+          ],
+          "body": "Light Armor",
+          "shield": null,
+          "opts": [
+            {
+              "label": "Driver: Arštaya javelins",
+              "kind": "add",
+              "w": [
+                "Arštaya"
+              ],
+              "c": 5
+            }
+          ],
+          "chars": [],
+          "rules": [
+            "Run Them Down",
+            "Suicidal",
+            "Terrify All"
+          ],
+          "weapons": {
+            "Dāça": [
+              "12",
+              "9",
+              "6",
+              "2 Attacks, can only be used on Charge, Sunder (2). Before rolling to hit, each enemy unit in the Melee takes a Fear Test; against units that pass, this weapon has Accuracy 5. Destroy model after resolving Wounds."
+            ],
+            "Horses": [
+              "3",
+              "5",
+              "5",
+              "2 Attacks, can only use on Charge. May be used in conjunction with Dāça"
+            ],
+            "Arštaya": [
+              "6 / 8”",
+              "6",
+              "6",
+              "1 Attack Melee, 2 Attacks Shooting. Throwing Weapon"
+            ],
+            "Akīnakah": [
+              "1",
+              "6",
+              "5",
+              "1 Attack, cannot be used on Charge. Thrusting Blade"
             ]
           }
         },
@@ -3742,109 +3742,6 @@ window.NHB_DATA = {
           }
         },
         {
-          "id": "hieros-lochos",
-          "name": "Hieròs Lóchos",
-          "type": "Warrior",
-          "move": 6,
-          "training": 8,
-          "points": 21,
-          "comps": [
-            [
-              4,
-              5
-            ],
-            [
-              3,
-              6
-            ]
-          ],
-          "equip": [
-            "Dóry"
-          ],
-          "gear": [
-            "Xíphos"
-          ],
-          "body": "Light Armor",
-          "shield": "Heavy Shield",
-          "opts": [
-            {
-              "label": "Sidearm",
-              "kind": "swap",
-              "choices": [
-                {
-                  "name": "Xíphos sword",
-                  "gear": [
-                    "Xíphos"
-                  ],
-                  "c": 0
-                },
-                {
-                  "name": "Kopís sword",
-                  "gear": [
-                    "Kopís"
-                  ],
-                  "c": 0
-                }
-              ]
-            }
-          ],
-          "chars": [
-            {
-              "one": [
-                [
-                  "Lead Captain",
-                  8
-                ]
-              ],
-              "req": true
-            },
-            {
-              "one": [
-                [
-                  "Rear Captain",
-                  6
-                ]
-              ],
-              "req": true
-            },
-            {
-              "one": [
-                [
-                  "Musician",
-                  9
-                ]
-              ]
-            }
-          ],
-          "rules": [
-            "Phalanx",
-            "Disciplined"
-          ],
-          "custom": {
-            "Sacred Band": "While this unit is at Half Strength or Mass Casualties, it gains Frenzy and Suicidal."
-          },
-          "weapons": {
-            "Dóry": [
-              "10",
-              "6",
-              "6",
-              "Reach (1), Unwieldy (1)"
-            ],
-            "Kopís": [
-              "4",
-              "5",
-              "5",
-              "Cleaving Blade (3)"
-            ],
-            "Xíphos": [
-              "3",
-              "6",
-              "6",
-              "Parrying Blade"
-            ]
-          }
-        },
-        {
           "id": "hoplitai-retinue",
           "name": "Hoplîtai Retinue",
           "type": "Warrior",
@@ -3939,6 +3836,109 @@ window.NHB_DATA = {
               "7",
               "6",
               "Parrying Blade"
+            ],
+            "Xíphos": [
+              "3",
+              "6",
+              "6",
+              "Parrying Blade"
+            ]
+          }
+        },
+        {
+          "id": "hieros-lochos",
+          "name": "Hieròs Lóchos",
+          "type": "Warrior",
+          "move": 6,
+          "training": 8,
+          "points": 21,
+          "comps": [
+            [
+              4,
+              5
+            ],
+            [
+              3,
+              6
+            ]
+          ],
+          "equip": [
+            "Dóry"
+          ],
+          "gear": [
+            "Xíphos"
+          ],
+          "body": "Light Armor",
+          "shield": "Heavy Shield",
+          "opts": [
+            {
+              "label": "Sidearm",
+              "kind": "swap",
+              "choices": [
+                {
+                  "name": "Xíphos sword",
+                  "gear": [
+                    "Xíphos"
+                  ],
+                  "c": 0
+                },
+                {
+                  "name": "Kopís sword",
+                  "gear": [
+                    "Kopís"
+                  ],
+                  "c": 0
+                }
+              ]
+            }
+          ],
+          "chars": [
+            {
+              "one": [
+                [
+                  "Lead Captain",
+                  8
+                ]
+              ],
+              "req": true
+            },
+            {
+              "one": [
+                [
+                  "Rear Captain",
+                  6
+                ]
+              ],
+              "req": true
+            },
+            {
+              "one": [
+                [
+                  "Musician",
+                  9
+                ]
+              ]
+            }
+          ],
+          "rules": [
+            "Phalanx",
+            "Disciplined"
+          ],
+          "custom": {
+            "Sacred Band": "While this unit is at Half Strength or Mass Casualties, it gains Frenzy and Suicidal."
+          },
+          "weapons": {
+            "Dóry": [
+              "10",
+              "6",
+              "6",
+              "Reach (1), Unwieldy (1)"
+            ],
+            "Kopís": [
+              "4",
+              "5",
+              "5",
+              "Cleaving Blade (3)"
             ],
             "Xíphos": [
               "3",
@@ -4701,6 +4701,140 @@ window.NHB_DATA = {
           }
         },
         {
+          "id": "thureophoroi",
+          "name": "Thureophóroi",
+          "type": "Light Warrior",
+          "move": 7,
+          "training": 5,
+          "points": 12,
+          "comps": [
+            [
+              4,
+              4
+            ],
+            [
+              2,
+              5
+            ]
+          ],
+          "equip": [
+            "Lónchē",
+            "Akóntion"
+          ],
+          "gear": [
+            "Xíphos"
+          ],
+          "body": null,
+          "shield": "Shield",
+          "opts": [
+            {
+              "label": "Light Armor",
+              "kind": "add",
+              "body": "Light Armor",
+              "c": 1
+            }
+          ],
+          "chars": [
+            {
+              "one": [
+                [
+                  "Lead Captain",
+                  5
+                ]
+              ]
+            },
+            {
+              "one": [
+                [
+                  "Standard Bearer",
+                  8
+                ]
+              ]
+            }
+          ],
+          "rules": [],
+          "custom": {
+            "Panoplía": "This unit uses only its Lónchē while it has a Hold Action Token, only its Xíphos while it has a Charge Action Token, and only its Akóntion otherwise."
+          },
+          "weapons": {
+            "Lónchē": [
+              "8",
+              "5",
+              "6",
+              "Reach (1)"
+            ],
+            "Akóntion": [
+              "6 / 8”",
+              "5",
+              "6",
+              "Throwing Weapon"
+            ],
+            "Xíphos": [
+              "3",
+              "6",
+              "6",
+              "Parrying Blade"
+            ]
+          }
+        },
+        {
+          "id": "agrianes",
+          "name": "Agriânes",
+          "type": "Skirmishing Warrior",
+          "move": 7,
+          "training": 6,
+          "points": 13,
+          "range": [
+            6,
+            12
+          ],
+          "equip": [
+            "Akóntion"
+          ],
+          "gear": [
+            "Encheirídion"
+          ],
+          "body": null,
+          "shield": "Shield",
+          "opts": [],
+          "chars": [
+            {
+              "one": [
+                [
+                  "Ranger Captain",
+                  6
+                ],
+                [
+                  "Skirmish Captain",
+                  8
+                ],
+                [
+                  "Tribal Leader",
+                  8
+                ]
+              ]
+            }
+          ],
+          "rules": [
+            "Scout",
+            "Surefooted (Stony Plain)"
+          ],
+          "weapons": {
+            "Akóntion": [
+              "6 / 8”",
+              "6",
+              "6",
+              "Throwing Weapon"
+            ],
+            "Encheirídion": [
+              "1",
+              "6",
+              "5",
+              ""
+            ]
+          }
+        },
+        {
           "id": "hetairoi",
           "name": "Hetaîroi",
           "type": "Cavalry",
@@ -4954,15 +5088,15 @@ window.NHB_DATA = {
           }
         },
         {
-          "id": "agrianes",
-          "name": "Agriânes",
-          "type": "Skirmishing Warrior",
-          "move": 7,
-          "training": 6,
-          "points": 13,
+          "id": "tarantinoi",
+          "name": "Tarantînoi",
+          "type": "Skirmishing Cavalry",
+          "move": 14,
+          "training": 5,
+          "points": 19,
           "range": [
-            6,
-            12
+            5,
+            8
           ],
           "equip": [
             "Akóntion"
@@ -4977,23 +5111,14 @@ window.NHB_DATA = {
             {
               "one": [
                 [
-                  "Ranger Captain",
-                  6
-                ],
-                [
-                  "Skirmish Captain",
-                  8
-                ],
-                [
-                  "Tribal Leader",
-                  8
+                  "Lead Captain",
+                  10
                 ]
               ]
             }
           ],
           "rules": [
-            "Scout",
-            "Surefooted (Stony Plain)"
+            "Feign Retreat"
           ],
           "weapons": {
             "Akóntion": [
@@ -5007,83 +5132,6 @@ window.NHB_DATA = {
               "6",
               "5",
               ""
-            ]
-          }
-        },
-        {
-          "id": "thureophoroi",
-          "name": "Thureophóroi",
-          "type": "Light Warrior",
-          "move": 7,
-          "training": 5,
-          "points": 12,
-          "comps": [
-            [
-              4,
-              4
-            ],
-            [
-              2,
-              5
-            ]
-          ],
-          "equip": [
-            "Lónchē",
-            "Akóntion"
-          ],
-          "gear": [
-            "Xíphos"
-          ],
-          "body": null,
-          "shield": "Shield",
-          "opts": [
-            {
-              "label": "Light Armor",
-              "kind": "add",
-              "body": "Light Armor",
-              "c": 1
-            }
-          ],
-          "chars": [
-            {
-              "one": [
-                [
-                  "Lead Captain",
-                  5
-                ]
-              ]
-            },
-            {
-              "one": [
-                [
-                  "Standard Bearer",
-                  8
-                ]
-              ]
-            }
-          ],
-          "rules": [],
-          "custom": {
-            "Panoplía": "This unit uses only its Lónchē while it has a Hold Action Token, only its Xíphos while it has a Charge Action Token, and only its Akóntion otherwise."
-          },
-          "weapons": {
-            "Lónchē": [
-              "8",
-              "5",
-              "6",
-              "Reach (1)"
-            ],
-            "Akóntion": [
-              "6 / 8”",
-              "5",
-              "6",
-              "Throwing Weapon"
-            ],
-            "Xíphos": [
-              "3",
-              "6",
-              "6",
-              "Parrying Blade"
             ]
           }
         },
@@ -5230,54 +5278,6 @@ window.NHB_DATA = {
               ""
             ]
           }
-        },
-        {
-          "id": "tarantinoi",
-          "name": "Tarantînoi",
-          "type": "Skirmishing Cavalry",
-          "move": 14,
-          "training": 5,
-          "points": 19,
-          "range": [
-            5,
-            8
-          ],
-          "equip": [
-            "Akóntion"
-          ],
-          "gear": [
-            "Encheirídion"
-          ],
-          "body": null,
-          "shield": "Shield",
-          "opts": [],
-          "chars": [
-            {
-              "one": [
-                [
-                  "Lead Captain",
-                  10
-                ]
-              ]
-            }
-          ],
-          "rules": [
-            "Feign Retreat"
-          ],
-          "weapons": {
-            "Akóntion": [
-              "6 / 8”",
-              "6",
-              "6",
-              "Throwing Weapon"
-            ],
-            "Encheirídion": [
-              "1",
-              "6",
-              "5",
-              ""
-            ]
-          }
         }
       ]
     },
@@ -5374,6 +5374,91 @@ window.NHB_DATA = {
           }
         },
         {
+          "id": "legionarius-retinue",
+          "name": "Lēgiōnāriī Retinue",
+          "type": "Warrior",
+          "move": 5,
+          "training": 8,
+          "points": 19,
+          "comps": [
+            [
+              2,
+              3
+            ]
+          ],
+          "equip": [
+            "Pīlum"
+          ],
+          "gear": [
+            "Gladius",
+            "Pugiō"
+          ],
+          "body": "Medium Armor",
+          "shield": "Heavy Shield",
+          "opts": [],
+          "chars": [
+            {
+              "one": [
+                [
+                  "Lead Captain",
+                  8
+                ]
+              ],
+              "req": true
+            },
+            {
+              "one": [
+                [
+                  "Houndmaster",
+                  13
+                ]
+              ]
+            },
+            {
+              "one": [
+                [
+                  "Army Standard Bearer",
+                  30
+                ],
+                [
+                  "Army Musician",
+                  60
+                ],
+                [
+                  "Commander",
+                  42
+                ]
+              ],
+              "req": true
+            }
+          ],
+          "rules": [],
+          "custom": {
+            "Testūdō": "When this unit takes the Hold action, it may move half its move and keeps its Hold Action Token. If it does, Shooting attacks against it suffer -2 Accuracy until its next activation. On Hold it may also use its Pīlum in Melee: Length 6, -1 Strength, and loses Sunder (2).",
+            "Iacite Pīla": "When this unit takes the Charge action, it may first make a Shooting attack against the unit it intends to charge at -2 Accuracy."
+          },
+          "weapons": {
+            "Pīlum": [
+              "6”",
+              "6",
+              "6",
+              "Throwing Weapon, Sunder (2)"
+            ],
+            "Gladius": [
+              "4",
+              "6",
+              "6",
+              "Thrusting Blade"
+            ],
+            "Pugiō": [
+              "1",
+              "7",
+              "5",
+              ""
+            ]
+          }
+        },
+        {
           "id": "veteranus",
           "name": "Veterānī",
           "type": "Warrior",
@@ -5456,91 +5541,6 @@ window.NHB_DATA = {
             "Pugiō": [
               "1",
               "6",
-              "5",
-              ""
-            ]
-          }
-        },
-        {
-          "id": "legionarius-retinue",
-          "name": "Lēgiōnāriī Retinue",
-          "type": "Warrior",
-          "move": 5,
-          "training": 8,
-          "points": 19,
-          "comps": [
-            [
-              2,
-              3
-            ]
-          ],
-          "equip": [
-            "Pīlum"
-          ],
-          "gear": [
-            "Gladius",
-            "Pugiō"
-          ],
-          "body": "Medium Armor",
-          "shield": "Heavy Shield",
-          "opts": [],
-          "chars": [
-            {
-              "one": [
-                [
-                  "Lead Captain",
-                  8
-                ]
-              ],
-              "req": true
-            },
-            {
-              "one": [
-                [
-                  "Houndmaster",
-                  13
-                ]
-              ]
-            },
-            {
-              "one": [
-                [
-                  "Army Standard Bearer",
-                  30
-                ],
-                [
-                  "Army Musician",
-                  60
-                ],
-                [
-                  "Commander",
-                  42
-                ]
-              ],
-              "req": true
-            }
-          ],
-          "rules": [],
-          "custom": {
-            "Testūdō": "When this unit takes the Hold action, it may move half its move and keeps its Hold Action Token. If it does, Shooting attacks against it suffer -2 Accuracy until its next activation. On Hold it may also use its Pīlum in Melee: Length 6, -1 Strength, and loses Sunder (2).",
-            "Iacite Pīla": "When this unit takes the Charge action, it may first make a Shooting attack against the unit it intends to charge at -2 Accuracy."
-          },
-          "weapons": {
-            "Pīlum": [
-              "6”",
-              "6",
-              "6",
-              "Throwing Weapon, Sunder (2)"
-            ],
-            "Gladius": [
-              "4",
-              "6",
-              "6",
-              "Thrusting Blade"
-            ],
-            "Pugiō": [
-              "1",
-              "7",
               "5",
               ""
             ]
@@ -6240,104 +6240,6 @@ window.NHB_DATA = {
       "name": "Aztec Empire",
       "units": [
         {
-          "id": "yaonamicqui",
-          "name": "Yāōnāmicqueh",
-          "type": "Skirmishing Warrior",
-          "move": 7,
-          "training": 5,
-          "points": 9,
-          "range": [
-            15,
-            20
-          ],
-          "equip": [
-            "Mācuahuitl"
-          ],
-          "gear": [],
-          "body": null,
-          "shield": null,
-          "armors": {
-            "Chīmalli": {
-              "v": 1,
-              "vs6": 1,
-              "text": "-1 Armor against Weapon Attacks with Strength 6 or Greater"
-            },
-            "Ichcahuipilli": {
-              "v": 1,
-              "vs6": 1,
-              "text": "-1 Armor against Weapon Attacks with Strength 6 or Greater"
-            }
-          },
-          "opts": [
-            {
-              "label": "Tepoztōpīlli spear (replaces Mācuahuitl)",
-              "kind": "count",
-              "c": 1,
-              "w": [
-                "Tepoztōpīlli"
-              ],
-              "replaces": "Mācuahuitl",
-              "group": "weapon"
-            },
-            {
-              "label": "Quauholōlli club (replaces Mācuahuitl)",
-              "kind": "count",
-              "c": 0,
-              "w": [
-                "Quauholōlli"
-              ],
-              "replaces": "Mācuahuitl",
-              "group": "weapon"
-            },
-            {
-              "label": "Chīmalli shields (whole unit)",
-              "kind": "add",
-              "shield": "Chīmalli",
-              "c": 1
-            }
-          ],
-          "chars": [
-            {
-              "one": [
-                [
-                  "Lead Captain",
-                  5
-                ],
-                [
-                  "Ranger Captain",
-                  6
-                ]
-              ]
-            }
-          ],
-          "rules": [
-            "Mixed Unit"
-          ],
-          "weapons": {
-            "Mācuahuitl": [
-              "4",
-              "5",
-              "3",
-              "Melee Suppression, Cleaving Blade (3)"
-            ],
-            "Tepoztōpīlli": [
-              "8",
-              "5",
-              "4",
-              "Melee Suppression. -1 Strength against Armor 3 or Greater"
-            ],
-            "Quauholōlli": [
-              "3",
-              "3",
-              "4",
-              "Sunder (2)"
-            ]
-          },
-          "custom": {
-            "Matched Armor": "Every model in the unit must have the same armor."
-          }
-        },
-        {
           "id": "cuauhocelotl",
           "name": "Cuāuhocēlōmeh",
           "type": "Light Warrior",
@@ -6703,6 +6605,104 @@ window.NHB_DATA = {
             "Matched Armor": "Every model in the unit must have the same armor."
           },
           "shorn": true
+        },
+        {
+          "id": "yaonamicqui",
+          "name": "Yāōnāmicqueh",
+          "type": "Skirmishing Warrior",
+          "move": 7,
+          "training": 5,
+          "points": 9,
+          "range": [
+            15,
+            20
+          ],
+          "equip": [
+            "Mācuahuitl"
+          ],
+          "gear": [],
+          "body": null,
+          "shield": null,
+          "armors": {
+            "Chīmalli": {
+              "v": 1,
+              "vs6": 1,
+              "text": "-1 Armor against Weapon Attacks with Strength 6 or Greater"
+            },
+            "Ichcahuipilli": {
+              "v": 1,
+              "vs6": 1,
+              "text": "-1 Armor against Weapon Attacks with Strength 6 or Greater"
+            }
+          },
+          "opts": [
+            {
+              "label": "Tepoztōpīlli spear (replaces Mācuahuitl)",
+              "kind": "count",
+              "c": 1,
+              "w": [
+                "Tepoztōpīlli"
+              ],
+              "replaces": "Mācuahuitl",
+              "group": "weapon"
+            },
+            {
+              "label": "Quauholōlli club (replaces Mācuahuitl)",
+              "kind": "count",
+              "c": 0,
+              "w": [
+                "Quauholōlli"
+              ],
+              "replaces": "Mācuahuitl",
+              "group": "weapon"
+            },
+            {
+              "label": "Chīmalli shields (whole unit)",
+              "kind": "add",
+              "shield": "Chīmalli",
+              "c": 1
+            }
+          ],
+          "chars": [
+            {
+              "one": [
+                [
+                  "Lead Captain",
+                  5
+                ],
+                [
+                  "Ranger Captain",
+                  6
+                ]
+              ]
+            }
+          ],
+          "rules": [
+            "Mixed Unit"
+          ],
+          "weapons": {
+            "Mācuahuitl": [
+              "4",
+              "5",
+              "3",
+              "Melee Suppression, Cleaving Blade (3)"
+            ],
+            "Tepoztōpīlli": [
+              "8",
+              "5",
+              "4",
+              "Melee Suppression. -1 Strength against Armor 3 or Greater"
+            ],
+            "Quauholōlli": [
+              "3",
+              "3",
+              "4",
+              "Sunder (2)"
+            ]
+          },
+          "custom": {
+            "Matched Armor": "Every model in the unit must have the same armor."
+          }
         },
         {
           "id": "quimichtin",

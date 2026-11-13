@@ -392,7 +392,7 @@ TYPE_ORDER = ['Warrior', 'Light Warrior', 'Skirmishing Warrior', 'Cavalry', 'Lig
 
 
 # A Retinue whose name doesn't match its closest unit: unit id -> id of the unit it follows.
-RETINUE_AFTER = {'aga-us': 'sub-lugal'}
+RETINUE_AFTER = {'aga-us': 'sub-lugal', 'smsw': 'pdtyw'}
 
 
 def ordered(units):

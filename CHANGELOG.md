@@ -6,6 +6,11 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## 0.28.1 — 2026-11-13
+
+### Builder
+- Every army's unit list now follows the Army Book order: Warriors, Light Warriors, Skirmishing Warriors, Cavalry, Light Cavalry, Skirmishing Cavalry, Chariots, Elephants, War Machines, with each Retinue right after the unit it is most like (the Šmsw Retinue after the Pḏtyw).
+
 ## Army Book — 2026-11-13 (Kush art)
 
 - Kingdom of Kush opens with a portrait pencil illustration: Kushite archers with tall bows below Jebel Barkal, a chariot behind.
