@@ -273,8 +273,9 @@ window.NHB = (function () {
   // counts if some card in the deck allows it.
   function mercSlots(cards) {
     const slots = [];
-    (cards || []).forEach(c => { for (let k = 0; k < (c.mercs || 0); k++) slots.push({ card: c.id, name: c.name, units: c.mercUnits || null }); });
-    return slots;
+    (cards || []).forEach(c => { for (let k = 0; k < (c.mercs || 0); k++) slots.push({ card: c.id, name: c.name, units: c.mercUnits || null, dropMercenary: !!c.dropMercenary }); });
+    // Slots whose units lose the Mercenary rule (e.g. Lord of Asia) are filled first.
+    return slots.sort((a, b) => b.dropMercenary - a.dropMercenary);
   }
   function mercFit(slots, ids) {
     const owner = slots.map(() => -1);
@@ -315,6 +316,14 @@ window.NHB = (function () {
       if (!slots.length) armyWarn.push(`Mercenary units need a mercenary Command card in your deck (you have ${mercIds.length})`);
       else if (mercIds.length > slots.length) armyWarn.push(`Your Command deck allows ${slots.length} mercenary unit${slots.length > 1 ? "s" : ""} (you have ${mercIds.length})`);
       else if (!fit.ok) armyWarn.push(`No mercenary Command card in your deck has room for ${[...new Set(fit.unplaced.map(mercName))].join(", ")}`);
+      // Units placed in a slot from a card like Lord of Asia fight without the Mercenary rule.
+      const mercUnits = units.filter(x => x.sel.src === "mercs");
+      fit.owner.forEach((i, s) => {
+        if (i < 0 || !slots[s].dropMercenary) return;
+        const x = mercUnits[i];
+        x.rules = x.rules.filter(r => r !== "Mercenary");
+        x.viaCard = slots[s].name;
+      });
     }
     if (pts > limit) armyWarn.unshift(`Over the limit by ${pts - limit} points`);
     const under = Math.max(0, limit - pts);

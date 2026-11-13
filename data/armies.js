@@ -1,7 +1,7 @@
 // Syrrhēxis army data. Edit the values below; keep the first line as is.
 window.NHB_DATA = {
   "meta": {
-    "version": "0.22.0",
+    "version": "0.23.0",
     "synced": "2026-10-22",
     "sources": {
       "Hittite Empire Army": "1aqMPs2Pi5car6pUzcuWmHXArGss_RZdkgATe5OsbVrw",
@@ -1379,24 +1379,24 @@ window.NHB_DATA = {
             }
           ],
           "chars": [
-          {
-            "one": [
-              [
-                "Lead Captain",
-                5
-              ],
-              [
-                "Skirmish Captain",
-                8
-              ],
-              [
-                "Ranger Captain",
-                6
+            {
+              "one": [
+                [
+                  "Lead Captain",
+                  5
+                ],
+                [
+                  "Skirmish Captain",
+                  8
+                ],
+                [
+                  "Ranger Captain",
+                  6
+                ]
               ]
-            ]
-          }
-        ],
-        "rules": [
+            }
+          ],
+          "rules": [
             "Ambush"
           ],
           "weapons": {
@@ -2453,15 +2453,15 @@ window.NHB_DATA = {
           "training": 5,
           "points": 19,
           "comps": [
-          [
-            2,
-            4
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              3
+            ]
           ],
-          [
-            2,
-            3
-          ]
-        ],
           "equip": [
             "Kamanda"
           ],
@@ -2517,15 +2517,15 @@ window.NHB_DATA = {
           "training": 5,
           "points": 20,
           "comps": [
-          [
-            2,
-            4
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              3
+            ]
           ],
-          [
-            2,
-            3
-          ]
-        ],
           "equip": [
             "Θanu"
           ],
@@ -3753,6 +3753,889 @@ window.NHB_DATA = {
       ]
     },
     {
+      "id": "alexander",
+      "name": "Armies of Alexander",
+      "units": [
+        {
+          "id": "pezhetairoi",
+          "name": "Pezhétairoi",
+          "type": "Warrior",
+          "move": 6,
+          "training": 6,
+          "points": 15,
+          "comps": [
+            [
+              4,
+              6
+            ],
+            [
+              4,
+              5
+            ]
+          ],
+          "equip": [
+            "Sárisa"
+          ],
+          "gear": [
+            "Xíphos"
+          ],
+          "body": "Light Armor",
+          "shield": "Makedonikḗ Aspís",
+          "opts": [],
+          "chars": [
+            {
+              "one": [
+                [
+                  "Lead Captain",
+                  8
+                ]
+              ]
+            },
+            {
+              "one": [
+                [
+                  "Rear Captain",
+                  6
+                ]
+              ]
+            },
+            {
+              "one": [
+                [
+                  "Musician",
+                  8
+                ]
+              ]
+            }
+          ],
+          "rules": [
+            "Phalanx"
+          ],
+          "armors": {
+            "Makedonikḗ Aspís": {
+              "v": 1,
+              "text": "Hung from the neck and shoulder, leaving both hands for the sarissa. Does not gain +1 Armor from a Hold Action Token"
+            }
+          },
+          "weapons": {
+            "Sárisa": [
+              "13",
+              "5",
+              "5",
+              "Reach (2), Unwieldy (2)"
+            ],
+            "Xíphos": [
+              "3",
+              "5",
+              "6",
+              "Parrying Blade"
+            ]
+          }
+        },
+        {
+          "id": "hypaspistai",
+          "name": "Hypaspistaí",
+          "type": "Warrior",
+          "move": 6,
+          "training": 7,
+          "points": 17,
+          "comps": [
+            [
+              4,
+              5
+            ],
+            [
+              3,
+              5
+            ]
+          ],
+          "equip": [
+            "Dóry"
+          ],
+          "gear": [
+            "Xíphos"
+          ],
+          "body": "Light Armor",
+          "shield": "Shield",
+          "opts": [],
+          "chars": [
+            {
+              "one": [
+                [
+                  "Lead Captain",
+                  8
+                ]
+              ]
+            },
+            {
+              "one": [
+                [
+                  "Rear Captain",
+                  6
+                ]
+              ]
+            },
+            {
+              "one": [
+                [
+                  "Musician",
+                  8
+                ]
+              ]
+            }
+          ],
+          "rules": [
+            "Guard"
+          ],
+          "weapons": {
+            "Dóry": [
+              "10",
+              "5",
+              "6",
+              "Reach (1), Unwieldy (1)"
+            ],
+            "Xíphos": [
+              "3",
+              "5",
+              "6",
+              "Parrying Blade"
+            ]
+          }
+        },
+        {
+          "id": "agema-retinue",
+          "name": "Agēma Retinue",
+          "type": "Warrior",
+          "move": 5,
+          "training": 8,
+          "points": 15,
+          "comps": [
+            [
+              1,
+              5
+            ]
+          ],
+          "equip": [
+            "Dóry"
+          ],
+          "gear": [
+            "Xíphos"
+          ],
+          "body": "Light Armor",
+          "shield": "Shield",
+          "opts": [],
+          "chars": [
+            {
+              "one": [
+                [
+                  "Lead Captain",
+                  8
+                ],
+                [
+                  "Lord",
+                  17
+                ]
+              ],
+              "req": true
+            },
+            {
+              "one": [
+                [
+                  "Army Standard Bearer",
+                  30
+                ],
+                [
+                  "Army Musician",
+                  60
+                ],
+                [
+                  "Commander",
+                  42
+                ]
+              ],
+              "req": true
+            }
+          ],
+          "rules": [
+            "Disciplined"
+          ],
+          "custom": {
+            "Leading from the Front": "While this unit includes a Commander and has a Charge Action Token, +1 to Initiative rolls. Does not stack with itself."
+          },
+          "weapons": {
+            "Dóry": [
+              "10",
+              "6",
+              "6",
+              "Reach (1), Unwieldy (1)"
+            ],
+            "Xíphos": [
+              "3",
+              "6",
+              "6",
+              "Parrying Blade"
+            ]
+          }
+        },
+        {
+          "id": "argyraspides",
+          "name": "Argyráspides",
+          "type": "Warrior",
+          "move": 6,
+          "training": 7,
+          "points": 19,
+          "comps": [
+            [
+              4,
+              5
+            ],
+            [
+              3,
+              5
+            ]
+          ],
+          "equip": [
+            "Sárisa"
+          ],
+          "gear": [
+            "Xíphos"
+          ],
+          "body": "Light Armor",
+          "shield": "Makedonikḗ Aspís",
+          "opts": [],
+          "chars": [
+            {
+              "one": [
+                [
+                  "Lead Captain",
+                  8
+                ]
+              ]
+            },
+            {
+              "one": [
+                [
+                  "Rear Captain",
+                  6
+                ]
+              ]
+            },
+            {
+              "one": [
+                [
+                  "Musician",
+                  8
+                ]
+              ]
+            }
+          ],
+          "rules": [
+            "Phalanx",
+            "Disciplined"
+          ],
+          "armors": {
+            "Makedonikḗ Aspís": {
+              "v": 1,
+              "text": "Hung from the neck and shoulder, leaving both hands for the sarissa. Does not gain +1 Armor from a Hold Action Token"
+            }
+          },
+          "weapons": {
+            "Sárisa": [
+              "13",
+              "6",
+              "5",
+              "Reach (2), Unwieldy (2)"
+            ],
+            "Xíphos": [
+              "3",
+              "6",
+              "6",
+              "Parrying Blade"
+            ]
+          }
+        },
+        {
+          "id": "hetairoi",
+          "name": "Hetaîroi",
+          "type": "Cavalry",
+          "move": 12,
+          "training": 7,
+          "points": 23,
+          "comps": [
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              3
+            ]
+          ],
+          "equip": [
+            "Xystón"
+          ],
+          "gear": [
+            "Kopís"
+          ],
+          "body": "Medium Armor",
+          "shield": null,
+          "opts": [],
+          "chars": [
+            {
+              "one": [
+                [
+                  "Lead Captain",
+                  10
+                ]
+              ]
+            },
+            {
+              "one": [
+                [
+                  "Musician",
+                  8
+                ]
+              ]
+            }
+          ],
+          "rules": [],
+          "weapons": {
+            "Xystón": [
+              "11",
+              "5",
+              "6",
+              ""
+            ],
+            "Kopís": [
+              "4",
+              "4",
+              "5",
+              "Cleaving Blade (3)"
+            ]
+          }
+        },
+        {
+          "id": "basilike-ile-retinue",
+          "name": "Basilikḕ Ílē Retinue",
+          "type": "Cavalry",
+          "move": 10,
+          "training": 8,
+          "points": 22,
+          "comps": [
+            [
+              1,
+              4
+            ]
+          ],
+          "equip": [
+            "Xystón"
+          ],
+          "gear": [
+            "Kopís"
+          ],
+          "body": "Medium Armor",
+          "shield": null,
+          "opts": [],
+          "chars": [
+            {
+              "one": [
+                [
+                  "Lead Captain",
+                  12
+                ],
+                [
+                  "Lord",
+                  20
+                ]
+              ],
+              "req": true
+            },
+            {
+              "one": [
+                [
+                  "Army Standard Bearer",
+                  30
+                ],
+                [
+                  "Army Musician",
+                  60
+                ],
+                [
+                  "Commander",
+                  42
+                ]
+              ],
+              "req": true
+            }
+          ],
+          "rules": [],
+          "custom": {
+            "Leading from the Front": "While this unit includes a Commander and has a Charge Action Token, +1 to Initiative rolls. Does not stack with itself."
+          },
+          "weapons": {
+            "Xystón": [
+              "11",
+              "6",
+              "6",
+              ""
+            ],
+            "Kopís": [
+              "4",
+              "5",
+              "5",
+              "Cleaving Blade (3)"
+            ]
+          }
+        },
+        {
+          "id": "thessaloi-hippeis",
+          "name": "Thessaloì Hippeîs",
+          "type": "Cavalry",
+          "move": 12,
+          "training": 7,
+          "points": 23,
+          "comps": [
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              3
+            ]
+          ],
+          "equip": [
+            "Xystón"
+          ],
+          "gear": [
+            "Kopís"
+          ],
+          "body": "Medium Armor",
+          "shield": null,
+          "opts": [],
+          "chars": [
+            {
+              "one": [
+                [
+                  "Lead Captain",
+                  10
+                ]
+              ]
+            },
+            {
+              "one": [
+                [
+                  "Musician",
+                  8
+                ]
+              ]
+            }
+          ],
+          "rules": [
+            "Feign Charge"
+          ],
+          "custom": {
+            "Rhombus": "The first turn this unit makes in each activation costs no Move Allowance. When it Charges, it may make two turns instead of one, and the first is free."
+          },
+          "weapons": {
+            "Xystón": [
+              "11",
+              "5",
+              "6",
+              ""
+            ],
+            "Kopís": [
+              "4",
+              "4",
+              "5",
+              "Cleaving Blade (3)"
+            ]
+          }
+        },
+        {
+          "id": "prodromoi",
+          "name": "Pródromoi",
+          "type": "Light Cavalry",
+          "move": 12,
+          "training": 6,
+          "points": 19,
+          "comps": [
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              3
+            ]
+          ],
+          "equip": [
+            "Sárisa"
+          ],
+          "gear": [
+            "Kopís"
+          ],
+          "body": "Light Armor",
+          "shield": null,
+          "opts": [],
+          "chars": [
+            {
+              "one": [
+                [
+                  "Lead Captain",
+                  10
+                ]
+              ]
+            }
+          ],
+          "rules": [
+            "Scout",
+            "Feign Charge"
+          ],
+          "weapons": {
+            "Sárisa": [
+              "12",
+              "5",
+              "6",
+              "Unwieldy (1)"
+            ],
+            "Kopís": [
+              "4",
+              "4",
+              "5",
+              "Cleaving Blade (3)"
+            ]
+          }
+        },
+        {
+          "id": "agrianes",
+          "name": "Agriânes",
+          "type": "Skirmishing Warrior",
+          "move": 7,
+          "training": 6,
+          "points": 13,
+          "range": [
+            6,
+            12
+          ],
+          "equip": [
+            "Akóntion"
+          ],
+          "gear": [
+            "Encheirídion"
+          ],
+          "body": null,
+          "shield": "Shield",
+          "opts": [],
+          "chars": [
+            {
+              "one": [
+                [
+                  "Ranger Captain",
+                  6
+                ],
+                [
+                  "Skirmish Captain",
+                  8
+                ],
+                [
+                  "Tribal Leader",
+                  8
+                ]
+              ]
+            }
+          ],
+          "rules": [
+            "Scout",
+            "Surefooted (Stony Plain)"
+          ],
+          "weapons": {
+            "Akóntion": [
+              "6 / 8”",
+              "6",
+              "6",
+              "Throwing Weapon"
+            ],
+            "Encheirídion": [
+              "1",
+              "6",
+              "5",
+              ""
+            ]
+          }
+        },
+        {
+          "id": "thureophoroi",
+          "name": "Thureophóroi",
+          "type": "Light Warrior",
+          "move": 7,
+          "training": 5,
+          "points": 12,
+          "comps": [
+            [
+              4,
+              4
+            ],
+            [
+              2,
+              5
+            ]
+          ],
+          "equip": [
+            "Lónchē",
+            "Akóntion"
+          ],
+          "gear": [
+            "Xíphos"
+          ],
+          "body": null,
+          "shield": "Shield",
+          "opts": [
+            {
+              "label": "Light Armor",
+              "kind": "add",
+              "body": "Light Armor",
+              "c": 1
+            }
+          ],
+          "chars": [
+            {
+              "one": [
+                [
+                  "Lead Captain",
+                  5
+                ]
+              ]
+            },
+            {
+              "one": [
+                [
+                  "Standard Bearer",
+                  8
+                ]
+              ]
+            }
+          ],
+          "rules": [],
+          "custom": {
+            "Panoplía": "This unit uses only its Lónchē while it has a Hold Action Token, only its Xíphos while it has a Charge Action Token, and only its Akóntion otherwise."
+          },
+          "weapons": {
+            "Lónchē": [
+              "8",
+              "5",
+              "6",
+              "Reach (1)"
+            ],
+            "Xíphos": [
+              "3",
+              "6",
+              "6",
+              "Parrying Blade"
+            ],
+            "Akóntion": [
+              "6 / 8”",
+              "5",
+              "6",
+              "Throwing Weapon"
+            ]
+          }
+        },
+        {
+          "id": "elephantes",
+          "name": "Eléphantes",
+          "type": "Elephant",
+          "move": 8,
+          "training": 6,
+          "points": 100,
+          "comps": [
+            [
+              1,
+              2
+            ]
+          ],
+          "crew": {
+            "mahout": 1,
+            "crew": 2
+          },
+          "equip": [
+            "Tóxon",
+            "Elephant"
+          ],
+          "gear": [],
+          "body": null,
+          "shield": null,
+          "opts": [
+            {
+              "label": "1 Additional Crewman",
+              "kind": "add",
+              "crewPlus": 1,
+              "c": 12
+            },
+            {
+              "label": "Crew weapon",
+              "kind": "swap",
+              "choices": [
+                {
+                  "name": "Tóxon bow",
+                  "w": [
+                    "Tóxon",
+                    "Elephant"
+                  ],
+                  "c": 0
+                },
+                {
+                  "name": "Dóry spear",
+                  "w": [
+                    "Dóry",
+                    "Elephant"
+                  ],
+                  "c": 5
+                },
+                {
+                  "name": "Akóntion javelins",
+                  "w": [
+                    "Akóntion",
+                    "Elephant"
+                  ],
+                  "c": 8
+                }
+              ]
+            }
+          ],
+          "chars": [],
+          "rules": [
+            "Terrify Non-Elephant"
+          ],
+          "custom": {
+            "Pýrgos": "The crew's Shooting attacks are not blocked by Closed Order units, friendly or enemy."
+          },
+          "weapons": {
+            "Tóxon": [
+              "24”",
+              "6",
+              "4",
+              "1 attack per Crewman, plus 1. Direct Fire"
+            ],
+            "Akóntion": [
+              "4 / 8”",
+              "6",
+              "6",
+              "1 attack per Crewman, plus 1 if Shooting. Throwing Weapon"
+            ],
+            "Dóry": [
+              "5",
+              "6",
+              "6",
+              "1 attack per Crewman"
+            ],
+            "Elephant": [
+              "10",
+              "5",
+              "8",
+              "1 attack. 2 extra attacks on Charge"
+            ]
+          }
+        },
+        {
+          "id": "oxybeleis",
+          "name": "Oxybeleîs",
+          "type": "Light Warmachine",
+          "move": 5,
+          "training": 6,
+          "points": 11,
+          "engine": 28,
+          "engineUS": 3,
+          "range": [
+            3,
+            6
+          ],
+          "equip": [
+            "Oxybelḗs"
+          ],
+          "gear": [
+            "Encheirídion"
+          ],
+          "body": "Light Armor",
+          "shield": null,
+          "opts": [],
+          "chars": [
+            {
+              "one": [
+                [
+                  "Lead Captain",
+                  6
+                ]
+              ]
+            }
+          ],
+          "rules": [],
+          "weapons": {
+            "Oxybelḗs": [
+              "40”",
+              "6",
+              "7",
+              "1 Attack. Direct Fire, Piercing Shot (1), Massive Suppression (5), Cumbersome"
+            ],
+            "Encheirídion": [
+              "1",
+              "6",
+              "5",
+              ""
+            ]
+          }
+        },
+        {
+          "id": "tarantinoi",
+          "name": "Tarantînoi",
+          "type": "Skirmishing Cavalry",
+          "move": 14,
+          "training": 5,
+          "points": 19,
+          "range": [
+            5,
+            8
+          ],
+          "equip": [
+            "Akóntion"
+          ],
+          "gear": [
+            "Encheirídion"
+          ],
+          "body": null,
+          "shield": "Shield",
+          "opts": [],
+          "chars": [
+            {
+              "one": [
+                [
+                  "Lead Captain",
+                  10
+                ]
+              ]
+            }
+          ],
+          "rules": [
+            "Feign Retreat"
+          ],
+          "weapons": {
+            "Akóntion": [
+              "6 / 8”",
+              "6",
+              "6",
+              "Throwing Weapon"
+            ],
+            "Encheirídion": [
+              "1",
+              "6",
+              "5",
+              ""
+            ]
+          }
+        }
+      ]
+    },
+    {
       "id": "rome",
       "name": "Imperial Rome",
       "units": [
@@ -4161,41 +5044,41 @@ window.NHB_DATA = {
             }
           ],
           "chars": [
-          {
-            "one": [
-              [
-                "Lead Captain",
-                5
+            {
+              "one": [
+                [
+                  "Lead Captain",
+                  5
+                ]
+              ],
+              "req": true
+            },
+            {
+              "one": [
+                [
+                  "Standard Bearer",
+                  8
+                ]
               ]
-            ],
-            "req": true
-          },
-          {
-            "one": [
-              [
-                "Standard Bearer",
-                8
+            },
+            {
+              "one": [
+                [
+                  "Houndmaster",
+                  10
+                ]
               ]
-            ]
-          },
-          {
-            "one": [
-              [
-                "Houndmaster",
-                10
+            },
+            {
+              "one": [
+                [
+                  "Ranger Captain",
+                  5
+                ]
               ]
-            ]
-          },
-          {
-            "one": [
-              [
-                "Ranger Captain",
-                5
-              ]
-            ]
-          }
-        ],
-        "rules": [],
+            }
+          ],
+          "rules": [],
           "weapons": {
             "Hasta": [
               "8",
@@ -4541,32 +5424,32 @@ window.NHB_DATA = {
             }
           ],
           "chars": [
-          {
-            "one": [
-              [
-                "Birdmaster",
-                10
+            {
+              "one": [
+                [
+                  "Birdmaster",
+                  10
+                ]
               ]
-            ]
-          },
-          {
-            "one": [
-              [
-                "Ranger Captain",
-                8
+            },
+            {
+              "one": [
+                [
+                  "Ranger Captain",
+                  8
+                ]
               ]
-            ]
-          },
-          {
-            "one": [
-              [
-                "Standard Bearer",
-                12
+            },
+            {
+              "one": [
+                [
+                  "Standard Bearer",
+                  12
+                ]
               ]
-            ]
-          }
-        ],
-        "rules": [
+            }
+          ],
+          "rules": [
             "Scout",
             "Ambush"
           ],
@@ -5493,7 +6376,12 @@ window.NHB_DATA = {
     "Culter": "knife",
     "Qaštā": "composite bow",
     "Rumḥā": "javelins",
-    "Sakkīnā": "knife"
+    "Sakkīnā": "knife",
+    "Sárisa": "pike",
+    "Xystón": "cavalry lance",
+    "Lónchē": "spear",
+    "Oxybelḗs": "bolt thrower",
+    "Makedonikḗ Aspís": "Macedonian shield"
   },
   "mercs": {
     "id": "mercs",
@@ -7226,6 +8114,36 @@ window.NHB_DATA = {
       "limit": 1,
       "text": "Ongoing. Phalanx units you control subtract 1 from Suppression. Discard this card when a Phalanx unit you control fails a Break test or is destroyed. Covers every unit with the Phalanx rule, even while it is negated.",
       "flavor": "Let their arrows hide the sun; we will fight in the shade."
+    },
+    {
+      "id": "embolon",
+      "name": "Émbolon",
+      "short": "Charging cavalry count double Unit Strength",
+      "armies": [
+        "alexander"
+      ],
+      "limit": 1,
+      "text": "Until the end of the round, friendly Closed Order Cavalry and Chariot units that Charge count double their Unit Strength for Terrify and for Bumping.",
+      "flavor": "The Companions drove into the gap point first, like the head of a spear."
+    },
+    {
+      "id": "lord-of-asia",
+      "name": "Lord of Asia",
+      "short": "2 mercenaries who fight as Macedonians",
+      "armies": [
+        "alexander"
+      ],
+      "limit": 1,
+      "mercs": 2,
+      "mercUnits": [
+        "greek-hoplites",
+        "scythian-archers",
+        "cataphract"
+      ],
+      "dropMercenary": true,
+      "text": "Your army may include 2 units from the Supplemental Mercenaries list, chosen from Greek Hoplites, Scythian Archers (the Dahae horse archers) and Cataphracts. Units taken through this card do not have the Mercenary rule.",
+      "note": "If you take a mercenary unit through this card, this card must be one of the 3 cards in your hand.",
+      "flavor": "At Susa the conquerors married the conquered, and the peoples of Asia marched under one king."
     },
     {
       "id": "phocian-wall",
