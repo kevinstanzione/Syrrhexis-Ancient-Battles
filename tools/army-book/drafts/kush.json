@@ -363,7 +363,7 @@
         ],
         "equip": [
           "Nsjwt",
-          "Ḫpš"
+          "Sft"
         ],
         "gear": [],
         "body": null,
@@ -393,7 +393,7 @@
             "6",
             "Throwing Weapon"
           ],
-          "Ḫpš": [
+          "Sft": [
             "5",
             "5",
             "5",
@@ -596,6 +596,6 @@
     "ꜥmꜥꜣt": "throwstick",
     "Nỉwy": "spear",
     "Nsjwt": "javelins",
-    "Ḫpš": "long sword"
+    "Sft": "long sword"
   }
 }
