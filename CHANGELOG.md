@@ -10,6 +10,11 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 
 - Pencil spot illustrations with a torn-paper edge, full column width: Cretan archer (Shooting), cataphract (Charge Movement), Iberian warrior (Melee Hits), Aztec conch player (Musician), Persian standard bearer (Standard Bearer) and Roman centurion (Commander). No rules changes.
 
+## 0.25.1 — 2026-11-13
+
+### Profiles
+- Weapon tables now follow the profile order everywhere: default equipment first, then option weapons in the order they appear, then gear. Fixed on 14 units, including the Sea People Raiders (Phásganon first), Hoplîtai, Hippeîs, Auxilia, Kardakā and the chariots and elephants. The Army Book build now warns if a profile is out of order.
+
 ## Army Book — 2026-11-13
 
 - Each army now opens with a pencil illustration (art/illustrations): Sumerian battle wagon, Hittites at the Lion Gate, Persian Immortals' volley, Spartan column with an aulos player, Macedonian pike phalanx with towered elephants, Roman testudo, Aztec canoe in the chinampas.

@@ -1,7 +1,7 @@
 // Syrrhēxis army data. Edit the values below; keep the first line as is.
 window.NHB_DATA = {
   "meta": {
-    "version": "0.25.0",
+    "version": "0.25.1",
     "synced": "2026-10-22",
     "sources": {
       "Hittite Empire Army": "1aqMPs2Pi5car6pUzcuWmHXArGss_RZdkgATe5OsbVrw",
@@ -710,17 +710,17 @@ window.NHB_DATA = {
               "4",
               "Throwing Weapon"
             ],
-            "Ĝešbu": [
-              "6 / 8”",
-              "5",
-              "6",
-              "Throwing Weapon"
-            ],
             "Pāšum": [
               "3",
               "3",
               "5",
               "Cleaving Blade (4)"
+            ],
+            "Ĝešbu": [
+              "6 / 8”",
+              "5",
+              "6",
+              "Throwing Weapon"
             ]
           }
         }
@@ -1900,17 +1900,17 @@ window.NHB_DATA = {
               "5",
               "Reach (1)"
             ],
-            "Akīnakah": [
-              "2",
-              "5",
-              "5",
-              "Thrusting Blade"
-            ],
             "Arštaya": [
               "6 / 8”",
               "5",
               "5",
               "Throwing Weapon"
+            ],
+            "Akīnakah": [
+              "2",
+              "5",
+              "5",
+              "Thrusting Blade"
             ],
             "Akīnakah Kamna": [
               "1",
@@ -2327,17 +2327,17 @@ window.NHB_DATA = {
               "6",
               ""
             ],
-            "Akīnakah": [
-              "2",
-              "6",
-              "5",
-              "Thrusting Blade"
-            ],
             "Θanu": [
               "24”",
               "6",
               "4",
               "Recurve Bow, Direct Fire"
+            ],
+            "Akīnakah": [
+              "2",
+              "6",
+              "5",
+              "Thrusting Blade"
             ]
           }
         },
@@ -2769,17 +2769,17 @@ window.NHB_DATA = {
               "4",
               "2 Attacks. Recurve Bow, Direct Fire"
             ],
-            "Arštaya": [
-              "6 / 8”",
-              "6",
-              "6",
-              "1 Attack Melee, 2 Attacks Shooting. Throwing Weapon"
-            ],
             "Horses": [
               "3",
               "5",
               "5",
               "2 Attacks, can only use on Charge. May be used in conjunction with Arštaya"
+            ],
+            "Arštaya": [
+              "6 / 8”",
+              "6",
+              "6",
+              "1 Attack Melee, 2 Attacks Shooting. Throwing Weapon"
             ],
             "Akīnakah Kamna": [
               "1",
@@ -2937,17 +2937,17 @@ window.NHB_DATA = {
               "6",
               "2 Attacks Melee, 3 Attacks Shooting. Throwing Weapon"
             ],
-            "Aršti": [
-              "7",
-              "6",
-              "6",
-              "3 Attacks"
-            ],
             "Horses": [
               "3",
               "5",
               "5",
               "4 Attacks, can only use on Charge. May be used in conjunction with Arštaya or Aršti"
+            ],
+            "Aršti": [
+              "7",
+              "6",
+              "6",
+              "3 Attacks"
             ],
             "Akīnakah": [
               "1",
@@ -3031,11 +3031,11 @@ window.NHB_DATA = {
               "4",
               "1 attack per Crewman, plus 1. Recurve Bow, Direct Fire"
             ],
-            "Arštaya": [
-              "4 / 8”",
-              "6",
-              "6",
-              "1 attack per Crewman, plus 1 if Shooting. Throwing Weapon"
+            "Elephant": [
+              "10",
+              "5",
+              "8",
+              "1 attack. 2 extra attacks on Charge"
             ],
             "Aršti": [
               "5",
@@ -3043,11 +3043,11 @@ window.NHB_DATA = {
               "6",
               "1 attack per Crewman"
             ],
-            "Elephant": [
-              "10",
-              "5",
-              "8",
-              "1 attack. 2 extra attacks on Charge"
+            "Arštaya": [
+              "4 / 8”",
+              "6",
+              "6",
+              "1 attack per Crewman, plus 1 if Shooting. Throwing Weapon"
             ]
           }
         }
@@ -3147,12 +3147,6 @@ window.NHB_DATA = {
               "6",
               "Reach (1), Unwieldy (1)"
             ],
-            "Xíphos": [
-              "3",
-              "5",
-              "6",
-              "Parrying Blade"
-            ],
             "Kopís": [
               "4",
               "4",
@@ -3162,6 +3156,12 @@ window.NHB_DATA = {
             "Lakōnikón Xíphos": [
               "2",
               "6",
+              "6",
+              "Parrying Blade"
+            ],
+            "Xíphos": [
+              "3",
+              "5",
               "6",
               "Parrying Blade"
             ]
@@ -3354,12 +3354,6 @@ window.NHB_DATA = {
               "6",
               "Reach (1), Unwieldy (1)"
             ],
-            "Xíphos": [
-              "3",
-              "6",
-              "6",
-              "Parrying Blade"
-            ],
             "Kopís": [
               "4",
               "5",
@@ -3369,6 +3363,12 @@ window.NHB_DATA = {
             "Lakōnikón Xíphos": [
               "2",
               "7",
+              "6",
+              "Parrying Blade"
+            ],
+            "Xíphos": [
+              "3",
+              "6",
               "6",
               "Parrying Blade"
             ]
@@ -3714,17 +3714,17 @@ window.NHB_DATA = {
               "6",
               ""
             ],
-            "Xíphos": [
-              "3",
-              "5",
-              "6",
-              "Parrying Blade"
-            ],
             "Kopís": [
               "4",
               "4",
               "5",
               "Cleaving Blade (3)"
+            ],
+            "Xíphos": [
+              "3",
+              "5",
+              "6",
+              "Parrying Blade"
             ]
           }
         },
@@ -3808,17 +3808,17 @@ window.NHB_DATA = {
               "6",
               ""
             ],
-            "Xíphos": [
-              "3",
-              "6",
-              "6",
-              "Parrying Blade"
-            ],
             "Kopís": [
               "4",
               "5",
               "5",
               "Cleaving Blade (3)"
+            ],
+            "Xíphos": [
+              "3",
+              "6",
+              "6",
+              "Parrying Blade"
             ]
           }
         }
@@ -4499,17 +4499,17 @@ window.NHB_DATA = {
               "6",
               "Reach (1)"
             ],
-            "Xíphos": [
-              "3",
-              "6",
-              "6",
-              "Parrying Blade"
-            ],
             "Akóntion": [
               "6 / 8”",
               "5",
               "6",
               "Throwing Weapon"
+            ],
+            "Xíphos": [
+              "3",
+              "6",
+              "6",
+              "Parrying Blade"
             ]
           }
         },
@@ -4589,11 +4589,11 @@ window.NHB_DATA = {
               "4",
               "1 attack per Crewman, plus 1. Direct Fire"
             ],
-            "Akóntion": [
-              "4 / 8”",
-              "6",
-              "6",
-              "1 attack per Crewman, plus 1 if Shooting. Throwing Weapon"
+            "Elephant": [
+              "10",
+              "5",
+              "8",
+              "1 attack. 2 extra attacks on Charge"
             ],
             "Dóry": [
               "5",
@@ -4601,11 +4601,11 @@ window.NHB_DATA = {
               "6",
               "1 attack per Crewman"
             ],
-            "Elephant": [
-              "10",
-              "5",
-              "8",
-              "1 attack. 2 extra attacks on Charge"
+            "Akóntion": [
+              "4 / 8”",
+              "6",
+              "6",
+              "1 attack per Crewman, plus 1 if Shooting. Throwing Weapon"
             ]
           }
         },
@@ -5164,17 +5164,17 @@ window.NHB_DATA = {
               "5",
               "Throwing Weapon"
             ],
-            "Clāva": [
-              "3",
-              "3",
-              "4",
-              "Sunder (2)"
-            ],
             "Spatha": [
               "5",
               "5",
               "5",
               ""
+            ],
+            "Clāva": [
+              "3",
+              "3",
+              "4",
+              "Sunder (2)"
             ]
           }
         },
@@ -6808,17 +6808,17 @@ window.NHB_DATA = {
           "Mercenary"
         ],
         "weapons": {
-          "Énchos": [
-            "8",
-            "5",
-            "5",
-            ""
-          ],
           "Phásganon": [
             "5",
             "5",
             "6",
             "Parrying Blade"
+          ],
+          "Énchos": [
+            "8",
+            "5",
+            "5",
+            ""
           ]
         }
       },

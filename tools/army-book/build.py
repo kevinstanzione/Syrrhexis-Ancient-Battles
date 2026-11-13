@@ -39,6 +39,32 @@ for _f in (sorted(os.listdir(_DRAFTS)) if os.path.isdir(_DRAFTS) else []):
         D['commands'].extend(_d.get('commands', []))
 LABELS = D.get('labels', {})
 
+
+def weapon_order(u):
+    """Profile weapon order: default equipment, then option weapons in order of appearance, then gear."""
+    default = set(u.get('equip') or []) | set(u.get('gear') or [])
+    out, W = [], u.get('weapons') or {}
+    def add(k, skip_default=False):
+        if k in W and k not in out and not (skip_default and k in default):
+            out.append(k)
+    for k in u.get('equip') or []:
+        add(k)
+    for op in u.get('opts') or []:
+        for k in (op.get('w') or []) + (op.get('gear') or []):
+            add(k, True)
+        for c in op.get('choices') or []:
+            for k in (c.get('w') or []) + (c.get('gear') or []):
+                add(k, True)
+    for k in (u.get('gear') or []) + list(W):
+        add(k)
+    return out
+
+
+for _a in D['armies'] + [D['mercs']]:
+    for _u in _a['units']:
+        if list(_u.get('weapons') or {}) != weapon_order(_u):
+            print(f"warning: {_u['name']}: weapons should be listed as {', '.join(weapon_order(_u))}", file=sys.stderr)
+
 NOUN = {'Chariot': ('Chariot', 'Chariots'), 'Elephant': ('Elephant', 'Elephants')}
 
 
