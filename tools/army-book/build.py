@@ -300,9 +300,17 @@ _ART_DIR = os.path.join(ROOT, 'art', 'illustrations')
 _ART_CACHE = os.path.join(tempfile.gettempdir(), 'syrrhexis-art')
 
 
+# Card illustrations in the Generic Command Cards section, placed before the given card: card id -> image
+CARD_ART = {'downpour': 'card_the_eclipse', 'crumbled-ruins': 'card_crumbled_ruins'}
+
+
 def art(aid):
-    """(html, portrait) for an army's illustration, downsized to a JPEG so the PDF stays small."""
-    name = ART.get(aid)
+    """(html, portrait) for an army's illustration."""
+    return art_img(ART.get(aid))
+
+
+def art_img(name):
+    """(html, portrait) for art/illustrations/<name>.png, downsized to a JPEG so the PDF stays small."""
     src = name and os.path.join(_ART_DIR, name + '.png')
     if not src or not os.path.exists(src):
         return '', False
@@ -406,7 +414,8 @@ def build(ids):
         generic = [c for c in D['commands'] if not c.get('armies')]
         parts.append('<section class="army"><h1 id="generic-cards">Generic Command Cards</h1>'
                      '<p class="era">Any army may include these cards in its Command deck.</p><div class="cards">'
-                     + ''.join(card(c) for c in generic) + '</div></section>')
+                     + ''.join((f'</div>{art_img(CARD_ART[c["id"]])[0]}<div class="cards">' if c['id'] in CARD_ART else '')
+                               + card(c) for c in generic) + '</div></section>')
         parts.append('<section class="army"><h1 id="mercenaries">Supplemental Mercenaries</h1>'
                      '<p class="era">Supplemental Mercenaries is not an army list and cannot be chosen as your army. '
                      'Its units can only be added to an army through Command Cards.</p><h2>Unit Profiles</h2>'

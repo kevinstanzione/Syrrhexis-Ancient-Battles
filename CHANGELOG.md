@@ -6,10 +6,6 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
-## Rulebook 0.3.4 — 2026-11-13
-
-- Pencil illustrations for The Eclipse (Commands chapter) and Crumbled Ruins (Terrain chapter). No rules changes.
-
 ## Army Book — 2026-11-13
 
 - Each army now opens with a pencil illustration (art/illustrations): Sumerian battle wagon, Hittites at the Lion Gate, Persian Immortals' volley, Spartan column with an aulos player, Macedonian pike phalanx with towered elephants, Roman testudo, Aztec canoe in the chinampas.
