@@ -52,6 +52,7 @@ Still to do:
 
 ## King of Kings rework (Persia, planned)
 - Pulls units from other army lists, not just the mercenary pool: 4 from Supplemental Mercenaries (Arabian Camel Riders, Greek Hoplites, Scythian Archers, Cretan Archers) + 4 from other lists (Indian elephants from the Mauryan list, replacing the Pīrū; Kushite archers from the Kush list; Egyptians; Assyrians). Borrowed units gain Mercenary. No surcharge for now. Still to confirm: still 2 units per card? Elephants come from the Mauryan (Indian) list, not the Successor list: no tower.
+- Starter lists saved in tools/army-book/drafts (not in the builder or Army Book yet): mauryan.json holds the Pīrū (Old Persian names to rename to Sanskrit), kush.json holds the Kushite Archers (English name to replace). Both copies drop the Mercenary rule. The live Persian Pīrū and mercenary Kushite Archers stay until the King of Kings rework goes live.
 - Kushite Archers leave the general mercenary pool once the Kush list exists. The full card waits on the Mauryan, Kush, Egypt and Assyria lists.
 
 ## Rules to decide

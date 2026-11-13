@@ -24,10 +24,13 @@ def load_data():
 
 D = load_data()
 # Playtest armies not yet in the list builder: drafts/<id>.json = {"draft": true, "army": {...}, "labels": {...}}
+# Add "skipBook": true for starter lists that should be kept but not printed yet.
 _DRAFTS = os.path.join(HERE, 'drafts')
 for _f in (sorted(os.listdir(_DRAFTS)) if os.path.isdir(_DRAFTS) else []):
     if _f.endswith('.json'):
         _d = json.load(open(os.path.join(HERE, 'drafts', _f), encoding='utf8'))
+        if _d.get('skipBook'):   # starter lists kept for later, not printed yet
+            continue
         _d['army']['draft'] = True
         D['armies'].append(_d['army'])
         D.setdefault('labels', {}).update(_d.get('labels', {}))

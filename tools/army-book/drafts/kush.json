@@ -1,0 +1,61 @@
+{
+  "draft": true,
+  "skipBook": true,
+  "note": "Starter list (Napatan period). Kushite Archers copied from the Supplemental Mercenaries (without the Mercenary rule) so they aren't lost when they leave the mercenary pool. Unit name is still English: give it a native name when this list is built.",
+  "army": {
+    "id": "kush",
+    "name": "Kingdom of Kush",
+    "units": [
+      {
+        "id": "kushite-archers",
+        "name": "Kushite Archers",
+        "type": "Skirmishing Warrior",
+        "move": 7,
+        "training": 5,
+        "points": 13,
+        "range": [
+          6,
+          12
+        ],
+        "equip": [
+          "Pḏt"
+        ],
+        "gear": [
+          "Wḏȝt"
+        ],
+        "body": null,
+        "shield": null,
+        "opts": [],
+        "chars": [
+          {
+            "one": [
+              [
+                "Bowmaster",
+                10
+              ]
+            ]
+          }
+        ],
+        "rules": [],
+        "weapons": {
+          "Pḏt": [
+            "28”",
+            "6",
+            "4",
+            "Direct Fire, Unwieldy (1)"
+          ],
+          "Wḏȝt": [
+            "1",
+            "6",
+            "5",
+            ""
+          ]
+        }
+      }
+    ]
+  },
+  "labels": {
+    "Pḏt": "long self bow",
+    "Wḏȝt": "knife"
+  }
+}

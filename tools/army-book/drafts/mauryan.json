@@ -1,0 +1,109 @@
+{
+  "draft": true,
+  "skipBook": true,
+  "note": "Starter list. Pīrū copied from the Achaemenid Persia list (without the Mercenary rule) so it isn't lost when King of Kings is reworked. Names and weapons are still Old Persian: rename to Sanskrit when this list is built.",
+  "army": {
+    "id": "mauryan",
+    "name": "Mauryan Empire",
+    "units": [
+      {
+        "id": "piru",
+        "name": "Pīrū",
+        "type": "Elephant",
+        "move": 8,
+        "training": 6,
+        "points": 90,
+        "comps": [
+          [
+            1,
+            2
+          ]
+        ],
+        "crew": {
+          "mahout": 1,
+          "crew": 1
+        },
+        "equip": [
+          "Θanu",
+          "Elephant"
+        ],
+        "gear": [],
+        "body": null,
+        "shield": null,
+        "opts": [
+          {
+            "label": "1 Additional Crewman",
+            "kind": "add",
+            "crewPlus": 1,
+            "c": 12
+          },
+          {
+            "label": "Crew weapon",
+            "kind": "swap",
+            "choices": [
+              {
+                "name": "Θanu bow",
+                "w": [
+                  "Θanu",
+                  "Elephant"
+                ],
+                "c": 0
+              },
+              {
+                "name": "Aršti spear",
+                "w": [
+                  "Aršti",
+                  "Elephant"
+                ],
+                "c": 5
+              },
+              {
+                "name": "Arštaya javelins",
+                "w": [
+                  "Arštaya",
+                  "Elephant"
+                ],
+                "c": 8
+              }
+            ]
+          }
+        ],
+        "chars": [],
+        "rules": [
+          "Terrify Non-Elephant"
+        ],
+        "weapons": {
+          "Θanu": [
+            "24”",
+            "7",
+            "4",
+            "1 attack per Crewman, plus 1. Recurve Bow, Direct Fire"
+          ],
+          "Arštaya": [
+            "4 / 8”",
+            "6",
+            "6",
+            "1 attack per Crewman, plus 1 if Shooting. Throwing Weapon"
+          ],
+          "Aršti": [
+            "5",
+            "6",
+            "6",
+            "1 attack per Crewman"
+          ],
+          "Elephant": [
+            "10",
+            "5",
+            "8",
+            "1 attack. 2 extra attacks on Charge"
+          ]
+        }
+      }
+    ]
+  },
+  "labels": {
+    "Θanu": "composite bow",
+    "Arštaya": "javelins",
+    "Aršti": "short spear"
+  }
+}
