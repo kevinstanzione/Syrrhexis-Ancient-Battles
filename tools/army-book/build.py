@@ -302,6 +302,9 @@ _ART_CACHE = os.path.join(tempfile.gettempdir(), 'syrrhexis-art')
 
 # Card illustrations in the Generic Command Cards section, placed before the given card: card id -> image
 CARD_ART = {'downpour': 'card_the_eclipse', 'crumbled-ruins': 'card_crumbled_ruins'}
+# Mercenary illustrations, placed just before the unit's profile: unit id -> image
+MERC_ART = {'dong-son-axemen': 'merc_dong_son_axemen', 'nabatean-skirmishers': 'merc_arabian_camel_riders',
+            'lydian-houndsmen': 'merc_lydian_houndsmen'}
 
 
 def art(aid):
@@ -469,7 +472,7 @@ def build(ids):
         parts.append('<section class="army"><h1 id="mercenaries">Supplemental Mercenaries</h1>'
                      '<p class="era">Supplemental Mercenaries is not an army list and cannot be chosen as your army. '
                      'Its units can only be added to an army through Command Cards.</p><h2>Unit Profiles</h2>'
-                     + ''.join(profile(u) for u in D['mercs']['units']) + '</section>')
+                     + ''.join(art_img(MERC_ART.get(u['id']))[0] + profile(u) for u in D['mercs']['units']) + '</section>')
     parts.append(glossary())
     quickref = open(os.path.join(HERE, 'quickref.html')).read()
     quickref += open(os.path.join(HERE, 'howto.html')).read()
