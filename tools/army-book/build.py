@@ -347,7 +347,7 @@ _ART_CACHE = os.path.join(tempfile.gettempdir(), 'syrrhexis-art')
 
 
 # Card illustrations in the Generic Command Cards section, placed before the given card: card id -> image
-CARD_ART = {'the-eclipse': 'card_the_eclipse', 'crumbled-ruins': 'card_crumbled_ruins'}
+CARD_ART = {'downpour': 'card_the_eclipse', 'crumbled-ruins': 'card_crumbled_ruins'}
 # Mercenary illustrations, placed just before the unit's profile: unit id -> image
 MERC_ART = {'dong-son-axemen': 'merc_dong_son_axemen', 'nabatean-skirmishers': 'merc_arabian_camel_riders',
             'lydian-houndsmen': 'merc_lydian_houndsmen'}

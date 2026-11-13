@@ -10,6 +10,11 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 
 - Pencil spot illustrations with a torn-paper edge, full column width: Cretan archer (Shooting), cataphract (Charge Movement), Iberian warrior (Melee Hits), Aztec conch player (Musician), Persian standard bearer (Standard Bearer) and Roman centurion (Commander). No rules changes.
 
+## 0.26.0 — 2026-11-13
+
+### Command cards
+- **The Eclipse** is now a **Weather** card: played in the End of the Round Phase of a round you had the Initiative, it flips Initiative bonuses into penalties for the next round. New: at the start of that round, before Initiative is rolled, every Retinue unit on the battlefield (both armies) takes a Fear Test; a unit that fails can't use its Retinue Special Characters' abilities until the end of the round.
+
 ## 0.25.1 — 2026-11-13
 
 ### Profiles

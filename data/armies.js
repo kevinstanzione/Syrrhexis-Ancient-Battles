@@ -1,7 +1,7 @@
 // Syrrhēxis army data. Edit the values below; keep the first line as is.
 window.NHB_DATA = {
   "meta": {
-    "version": "0.25.1",
+    "version": "0.26.0",
     "synced": "2026-10-22",
     "sources": {
       "Hittite Empire Army": "1aqMPs2Pi5car6pUzcuWmHXArGss_RZdkgATe5OsbVrw",
@@ -7841,9 +7841,9 @@ window.NHB_DATA = {
     {
       "id": "the-eclipse",
       "name": "The Eclipse",
-      "short": "Flip all Initiative bonuses into penalties",
+      "short": "Weather: Initiative bonuses become penalties, Retinues may falter",
       "limit": 1,
-      "text": "Play at the end of the Orders Phase. This round, every bonus to Initiative, including bonuses from cards played after this one, becomes a penalty of the same size. Penalties are unaffected. Any Favorable Omens card in play ends.",
+      "text": "Weather. Play during the End of the Round Phase of a round in which you had the Initiative. During the next round, every bonus to Initiative, including bonuses from cards played later, becomes a penalty of the same size; penalties are unaffected. Any Favorable Omens card in play ends. At the start of the next round, before Initiative is rolled, every Retinue unit on the battlefield, friendly and enemy, takes a Fear Test. A unit that fails cannot use the abilities of its Retinue Special Characters until the end of the round.",
       "flavor": "The sun went dark at midday, and both armies lowered their weapons in fear."
     },
     {
