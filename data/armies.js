@@ -1,7 +1,7 @@
 // Syrrhēxis army data. Edit the values below; keep the first line as is.
 window.NHB_DATA = {
   "meta": {
-    "version": "0.21.1",
+    "version": "0.22.0",
     "synced": "2026-10-22",
     "sources": {
       "Hittite Empire Army": "1aqMPs2Pi5car6pUzcuWmHXArGss_RZdkgATe5OsbVrw",
@@ -5914,6 +5914,68 @@ window.NHB_DATA = {
             "Sunder (2)"
           ],
           "Sīca": [
+            "1",
+            "6",
+            "5",
+            ""
+          ]
+        }
+      },
+      {
+        "id": "cretan-archers",
+        "name": "Cretan Archers",
+        "type": "Light Warrior",
+        "move": 7,
+        "training": 6,
+        "points": 13,
+        "comps": [
+          [
+            4,
+            4
+          ],
+          [
+            2,
+            5
+          ]
+        ],
+        "equip": [
+          "Tóxon"
+        ],
+        "gear": [
+          "Encheirídion"
+        ],
+        "body": null,
+        "shield": "Buckler",
+        "opts": [],
+        "chars": [
+          {
+            "one": [
+              [
+                "Volleymaster",
+                8
+              ]
+            ]
+          },
+          {
+            "one": [
+              [
+                "Bowmaster",
+                10
+              ]
+            ]
+          }
+        ],
+        "rules": [
+          "Mercenary"
+        ],
+        "weapons": {
+          "Tóxon": [
+            "24”",
+            "6",
+            "4",
+            "Direct Fire"
+          ],
+          "Encheirídion": [
             "1",
             "6",
             "5",

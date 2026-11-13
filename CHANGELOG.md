@@ -6,6 +6,11 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## 0.22.0 — 2026-11-12
+
+### Units
+- **Cretan Archers** (Supplemental Mercenaries): Light Warrior, Move 7, Training 6, 13 pts. 4 Ranks of 4 or 2 Ranks of 5. Buckler; Tóxon (24”, Accuracy 6, Strength 4, Direct Fire) and Encheirídion. Mercenary. The first unit that may take both a Volleymaster and a Bowmaster (Volley and Aim still can't be used in the same round).
+
 ## Rulebook 0.3.3 — 2026-11-12
 
 - Model Characteristics: a weapon’s abilities apply only to attacks made with it, unless the ability applies to a unit *equipped with* the weapon (such as Unwieldy (X)).
