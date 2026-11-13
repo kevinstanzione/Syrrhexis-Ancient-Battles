@@ -36,6 +36,12 @@ Still to do:
 - Built in 0.28.0 (9 units, 5 Command cards). Playtest pricing, especially the Šmsw Retinue (15, Training 7), Wrrt (45) and the Horses of Kush Army Morale.
 - Names are Egyptian and some are constructed (Ssmtyw from ssmt "horse"); add them to the Reconstructed and Constructed Names doc. Mḏꜣyw (Medjay) is a slightly late term, kept on purpose.
 
+## Dynastic Egypt
+- Built in 0.29.0 (9 units, New Kingdom c. 1550–1070 BC). No Command cards yet: design ~2 unique cards next.
+- Names to check and log in the Reconstructed and Constructed Names doc: ꜥb (composite bow; treated as the technical term for it, from the root for "horn"), Ḫrp (Sherden long sword; thought to be a Semitic loan like Hebrew ḥereb, unconfirmed), Styw (archers; partly constructed from stj "to shoot", and close to the Egyptian word for Nubians), Pr-ꜥꜣ (Pharaoh).
+- King of Kings: the planned "Egyptians" are Late Period marines, which the New Kingdom list doesn't cover. Decide whether the Mnfyt stand in or the card gets its own borrowed profile.
+- Playtest pricing: Snnw (45), Pr-ꜥꜣ Retinue (55 × 3 chariots, discounted retinue characters), Šrdn (16).
+
 ## Armies of Alexander
 - Built in 0.23.0 (13 units); 6 Command cards as of 0.25.0 (Émbolon, Lord of Asia, Oblique Advance, Aristander's Eagle, Ipsus, Synaspismós). Playtest pricing, especially Pezhétairoi (15), Argyráspides (19), Eléphantes (100) and Thureophóroi (12).
 - Idea for later: Ptolemaic African forest elephants (smaller, Elephant Strength 7, cheaper). Conflicts with the no-negative-cost rule, so it would need its own profile.
@@ -53,7 +59,6 @@ Still to do:
 - **Mauryan Empire — Gajādhyakṣa** (Superintendent of Elephants, from the Arthaśāstra), Mauryan Retinue units only: this unit may Rally friendly Elephant units within 12” as if it were an Elephant unit; 18” if it includes a Commander. A Commander is not required.
 - **Hannibal's Forces — Mallet and Chisel** (on the Carthaginian elephant unit itself; Livy on Hasdrubal at the Metaurus): when this unit would become Furious, you may instead destroy it. You lose only half its Army Morale Contribution.
 
-- **Dynastic Egypt — Inspiring** (unit rule for Pharaoh's retinue, "divine king"): during the Combat Phase, this unit may remove its Hold token to give one friendly unit within 12” +1 Accuracy. Keep Aristander's Eagle (Alexander) a different effect.
 - **Hannibal's Forces — Backstabbers** (unit rule or Carthage Command card, undecided): after this unit charges an Open Order unit without a Hold token, or a Closed Order unit without a Hold token in its flank or rear, the defender gains a flat Break Token count — 1 for Closed Order and 2 for Open Order, or just 1 for both. Flat count (not per 5 models) because it stacks with Exposed Flanks.
 - **European Barbarians — Flanker** (needs a better name): +1 Accuracy while in combat alongside at least one other friendly unit. Always-on infantry rule for warbands.
 - **Neo-Assyrian Empire — Spearhead** (was "Vanguard"; that name is taken by a generic card): while this unit has a Charge token, friendly units that begin their activation within 12” and declare a Charge gain +1 Move (Warriors) or +2 Move (Cavalry, Chariots, Elephants). Unit rule for the royal chariot retinue.

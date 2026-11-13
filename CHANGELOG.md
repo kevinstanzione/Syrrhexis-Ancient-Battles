@@ -6,6 +6,19 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## 0.29.0 — 2026-11-13
+
+### New army: Dynastic Egypt
+- The New Kingdom (c. 1550–1070 BC), with 9 units: **Snnw** (chariots), **Pr-ꜥꜣ Retinue** (Pharaoh's chariots), **Mnfyt** (spearmen), **Nḫtw-ꜥ** (shock troops), **Styw** (formed archers), **Pḥrrw** (chariot runners), **Nfrw** (recruits, Levy), **Šrdn** (Sherden, Mercenary) and **Nꜥrn** (Ne'arin, Mercenary).
+- **Ḫpš** (khopesh): Sunder (1) against units with a Shield.
+- **Styw** fight only in Closed Order; they can upgrade the Pḏt self bow to the **ꜥb** composite bow (Recurve Bow, no Unwieldy).
+- **Pr-ꜥꜣ Retinue**: 3 chariots, must take one of Lord, Commander, Army Standard Bearer or Army Musician (discounted), and has **Inspiring**: during the Combat Phase, may remove its Hold token to give one friendly unit within 12” +1 Accuracy.
+- **Pḥrrw**: Surefooted (Sand) and **Chariot Runners** (+1 Accuracy in Melee against enemies also fighting a friendly Chariot unit).
+- Command cards to follow.
+
+### Builder
+- Fixed: the builder page (`index.html`) was emptied by mistake in 0.27.1, so the live site showed a blank page. It is restored.
+
 ## 0.28.1 — 2026-11-13
 
 ### Builder

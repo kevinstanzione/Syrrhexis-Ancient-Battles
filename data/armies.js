@@ -1,7 +1,7 @@
 // Syrrhēxis army data. Edit the values below; keep the first line as is.
 window.NHB_DATA = {
   "meta": {
-    "version": "0.28.1",
+    "version": "0.29.0",
     "synced": "2026-10-22",
     "sources": {
       "Hittite Empire Army": "1aqMPs2Pi5car6pUzcuWmHXArGss_RZdkgATe5OsbVrw",
@@ -722,6 +722,733 @@ window.NHB_DATA = {
           },
           "custom": {
             "Straddle Car": "Each Kunga counts as 1 Unit Strength instead of 2, so each car is Unit Strength 5."
+          }
+        }
+      ]
+    },
+    {
+      "id": "egypt",
+      "name": "Dynastic Egypt",
+      "units": [
+        {
+          "id": "mnfyt",
+          "name": "Mnfyt",
+          "type": "Warrior",
+          "move": 6,
+          "training": 5,
+          "points": 11,
+          "comps": [
+            [
+              4,
+              5
+            ],
+            [
+              3,
+              5
+            ]
+          ],
+          "equip": [
+            "Nỉwy"
+          ],
+          "gear": [
+            "Bꜣgsw"
+          ],
+          "body": null,
+          "shield": "Shield",
+          "opts": [
+            {
+              "label": "Weapon",
+              "kind": "swap",
+              "choices": [
+                {
+                  "name": "Nỉwy spear",
+                  "w": [
+                    "Nỉwy"
+                  ],
+                  "c": 0
+                },
+                {
+                  "name": "Ḫpš khopesh",
+                  "w": [
+                    "Ḫpš"
+                  ],
+                  "c": 0
+                }
+              ]
+            }
+          ],
+          "chars": [
+            {
+              "one": [
+                [
+                  "Lead Captain",
+                  5
+                ]
+              ]
+            },
+            {
+              "one": [
+                [
+                  "Standard Bearer",
+                  8
+                ]
+              ]
+            },
+            {
+              "one": [
+                [
+                  "Musician",
+                  5
+                ]
+              ]
+            }
+          ],
+          "rules": [],
+          "weapons": {
+            "Nỉwy": [
+              "8",
+              "5",
+              "5",
+              "Reach (1)"
+            ],
+            "Ḫpš": [
+              "3",
+              "5",
+              "5",
+              "Sunder (1) against units with a Shield"
+            ],
+            "Bꜣgsw": [
+              "1",
+              "6",
+              "5",
+              ""
+            ]
+          }
+        },
+        {
+          "id": "nhtw-a",
+          "name": "Nḫtw-ꜥ",
+          "type": "Warrior",
+          "move": 6,
+          "training": 6,
+          "points": 14,
+          "comps": [
+            [
+              3,
+              5
+            ],
+            [
+              2,
+              5
+            ]
+          ],
+          "equip": [
+            "Ḫpš"
+          ],
+          "gear": [],
+          "body": null,
+          "shield": "Shield",
+          "opts": [
+            {
+              "label": "Weapon",
+              "kind": "swap",
+              "choices": [
+                {
+                  "name": "Ḫpš khopesh",
+                  "w": [
+                    "Ḫpš"
+                  ],
+                  "c": 0
+                },
+                {
+                  "name": "Mỉnb axe",
+                  "w": [
+                    "Mỉnb"
+                  ],
+                  "c": 0
+                }
+              ]
+            },
+            {
+              "label": "Light Armor",
+              "kind": "add",
+              "body": "Light Armor",
+              "c": 2
+            }
+          ],
+          "chars": [
+            {
+              "one": [
+                [
+                  "Lead Captain",
+                  6
+                ]
+              ]
+            },
+            {
+              "one": [
+                [
+                  "Standard Bearer",
+                  10
+                ]
+              ]
+            }
+          ],
+          "rules": [],
+          "weapons": {
+            "Ḫpš": [
+              "3",
+              "6",
+              "5",
+              "Sunder (1) against units with a Shield"
+            ],
+            "Mỉnb": [
+              "3",
+              "4",
+              "5",
+              "Cleaving Blade (4)"
+            ]
+          }
+        },
+        {
+          "id": "styw",
+          "name": "Styw",
+          "type": "Warrior",
+          "move": 6,
+          "training": 5,
+          "points": 9,
+          "comps": [
+            [
+              4,
+              4
+            ],
+            [
+              3,
+              4
+            ]
+          ],
+          "equip": [
+            "Pḏt"
+          ],
+          "gear": [
+            "Bꜣgsw"
+          ],
+          "body": null,
+          "shield": null,
+          "opts": [
+            {
+              "label": "Bow",
+              "kind": "swap",
+              "choices": [
+                {
+                  "name": "Pḏt self bow",
+                  "w": [
+                    "Pḏt"
+                  ],
+                  "c": 0
+                },
+                {
+                  "name": "ꜥb composite bow",
+                  "w": [
+                    "ꜥb"
+                  ],
+                  "c": 1
+                }
+              ]
+            }
+          ],
+          "chars": [
+            {
+              "one": [
+                [
+                  "Lead Captain",
+                  4
+                ]
+              ]
+            },
+            {
+              "one": [
+                [
+                  "Volleymaster",
+                  8
+                ]
+              ]
+            }
+          ],
+          "rules": [],
+          "weapons": {
+            "Pḏt": [
+              "24”",
+              "5",
+              "4",
+              "Direct Fire, Unwieldy (1)"
+            ],
+            "ꜥb": [
+              "24”",
+              "5",
+              "4",
+              "Recurve Bow, Direct Fire"
+            ],
+            "Bꜣgsw": [
+              "1",
+              "6",
+              "5",
+              ""
+            ]
+          }
+        },
+        {
+          "id": "nfrw",
+          "name": "Nfrw",
+          "type": "Warrior",
+          "move": 6,
+          "training": 4,
+          "points": 7,
+          "comps": [
+            [
+              4,
+              5
+            ],
+            [
+              3,
+              5
+            ]
+          ],
+          "equip": [
+            "Nỉwy"
+          ],
+          "gear": [
+            "Bꜣgsw"
+          ],
+          "body": null,
+          "shield": null,
+          "opts": [
+            {
+              "label": "Weapon",
+              "kind": "swap",
+              "choices": [
+                {
+                  "name": "Nỉwy spear",
+                  "w": [
+                    "Nỉwy"
+                  ],
+                  "c": 0
+                },
+                {
+                  "name": "Mỉnb axe",
+                  "w": [
+                    "Mỉnb"
+                  ],
+                  "c": 0
+                },
+                {
+                  "name": "Nsjwt javelins",
+                  "w": [
+                    "Nsjwt"
+                  ],
+                  "c": 0
+                }
+              ]
+            },
+            {
+              "label": "Shields",
+              "kind": "add",
+              "shield": "Shield",
+              "c": 1
+            }
+          ],
+          "chars": [
+            {
+              "one": [
+                [
+                  "Taskmaster",
+                  4
+                ]
+              ]
+            },
+            {
+              "one": [
+                [
+                  "Lead Captain",
+                  3
+                ]
+              ]
+            }
+          ],
+          "rules": [
+            "Levy"
+          ],
+          "weapons": {
+            "Nỉwy": [
+              "8",
+              "4",
+              "5",
+              "Reach (1)"
+            ],
+            "Mỉnb": [
+              "3",
+              "3",
+              "5",
+              "Cleaving Blade (4)"
+            ],
+            "Nsjwt": [
+              "6 / 8”",
+              "4",
+              "6",
+              "Throwing Weapon"
+            ],
+            "Bꜣgsw": [
+              "1",
+              "5",
+              "5",
+              ""
+            ]
+          }
+        },
+        {
+          "id": "srdn",
+          "name": "Šrdn",
+          "type": "Warrior",
+          "move": 6,
+          "training": 6,
+          "points": 16,
+          "comps": [
+            [
+              3,
+              5
+            ],
+            [
+              2,
+              5
+            ]
+          ],
+          "equip": [
+            "Ḫrp"
+          ],
+          "gear": [],
+          "body": "Light Armor",
+          "shield": "Shield",
+          "opts": [],
+          "chars": [
+            {
+              "one": [
+                [
+                  "Tribal Leader",
+                  8
+                ],
+                [
+                  "Lead Captain",
+                  6
+                ]
+              ]
+            }
+          ],
+          "rules": [
+            "Guard",
+            "Mercenary"
+          ],
+          "weapons": {
+            "Ḫrp": [
+              "4",
+              "6",
+              "6",
+              "Thrusting Blade"
+            ]
+          }
+        },
+        {
+          "id": "narn",
+          "name": "Nꜥrn",
+          "type": "Warrior",
+          "move": 6,
+          "training": 6,
+          "points": 14,
+          "comps": [
+            [
+              3,
+              5
+            ],
+            [
+              2,
+              6
+            ]
+          ],
+          "equip": [
+            "Nỉwy"
+          ],
+          "gear": [
+            "Ḫpš"
+          ],
+          "body": null,
+          "shield": "Shield",
+          "opts": [],
+          "chars": [
+            {
+              "one": [
+                [
+                  "Lead Captain",
+                  6
+                ]
+              ]
+            }
+          ],
+          "rules": [
+            "Ambush",
+            "Mercenary"
+          ],
+          "weapons": {
+            "Nỉwy": [
+              "8",
+              "6",
+              "5",
+              "Reach (1)"
+            ],
+            "Ḫpš": [
+              "3",
+              "6",
+              "5",
+              "Sunder (1) against units with a Shield"
+            ]
+          }
+        },
+        {
+          "id": "phrrw",
+          "name": "Pḥrrw",
+          "type": "Skirmishing Warrior",
+          "move": 8,
+          "training": 5,
+          "points": 11,
+          "range": [
+            6,
+            12
+          ],
+          "equip": [
+            "Nsjwt"
+          ],
+          "gear": [
+            "Bꜣgsw"
+          ],
+          "body": null,
+          "shield": "Shield",
+          "opts": [],
+          "chars": [
+            {
+              "one": [
+                [
+                  "Lead Captain",
+                  5
+                ],
+                [
+                  "Skirmish Captain",
+                  8
+                ]
+              ]
+            }
+          ],
+          "rules": [
+            "Surefooted (Sand)"
+          ],
+          "custom": {
+            "Chariot Runners": "+1 Accuracy in Melee against enemy units that are also Locked in Combat with a friendly Chariot unit."
+          },
+          "weapons": {
+            "Nsjwt": [
+              "6 / 8”",
+              "5",
+              "6",
+              "Throwing Weapon"
+            ],
+            "Bꜣgsw": [
+              "1",
+              "6",
+              "5",
+              ""
+            ]
+          }
+        },
+        {
+          "id": "snnw",
+          "name": "Snnw",
+          "type": "Chariot",
+          "move": 11,
+          "training": 6,
+          "points": 45,
+          "comps": [
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "crew": {
+            "driver": 1,
+            "crew": 1,
+            "horses": 2
+          },
+          "equip": [
+            "ꜥb",
+            "Horses"
+          ],
+          "gear": [
+            "Bꜣgsw"
+          ],
+          "body": null,
+          "shield": null,
+          "opts": [
+            {
+              "label": "Crew weapon",
+              "kind": "swap",
+              "choices": [
+                {
+                  "name": "ꜥb composite bow",
+                  "w": [
+                    "ꜥb",
+                    "Horses"
+                  ],
+                  "c": 0
+                },
+                {
+                  "name": "Nsjwt javelins",
+                  "w": [
+                    "Nsjwt",
+                    "Horses"
+                  ],
+                  "c": 0
+                }
+              ]
+            },
+            {
+              "label": "Light Armor (crew)",
+              "kind": "add",
+              "body": "Light Armor",
+              "c": 5
+            }
+          ],
+          "chars": [
+            {
+              "one": [
+                [
+                  "Standard Bearer",
+                  15
+                ]
+              ]
+            },
+            {
+              "one": [
+                [
+                  "Musician",
+                  12
+                ]
+              ]
+            }
+          ],
+          "rules": [
+            "Feign Charge"
+          ],
+          "weapons": {
+            "ꜥb": [
+              "24”",
+              "6",
+              "4",
+              "2 Attacks. Recurve Bow, Direct Fire"
+            ],
+            "Horses": [
+              "3",
+              "5",
+              "5",
+              "2 Attacks, can only use on Charge. May be used in conjunction with Nsjwt"
+            ],
+            "Nsjwt": [
+              "6 / 8”",
+              "5",
+              "6",
+              "1 Attack Melee, 2 Attacks Shooting. Throwing Weapon"
+            ],
+            "Bꜣgsw": [
+              "1",
+              "5",
+              "5",
+              "1 Attack, cannot be used on Charge"
+            ]
+          }
+        },
+        {
+          "id": "pr-aa-retinue",
+          "name": "Pr-ꜥꜣ Retinue",
+          "type": "Chariot",
+          "move": 10,
+          "training": 8,
+          "points": 55,
+          "comps": [
+            [
+              1,
+              3
+            ]
+          ],
+          "crew": {
+            "driver": 1,
+            "crew": 1,
+            "horses": 2
+          },
+          "equip": [
+            "ꜥb",
+            "Horses"
+          ],
+          "gear": [
+            "Ḫpš"
+          ],
+          "body": "Light Armor",
+          "shield": null,
+          "opts": [],
+          "chars": [
+            {
+              "req": true,
+              "one": [
+                [
+                  "Lord",
+                  15
+                ],
+                [
+                  "Commander",
+                  32
+                ],
+                [
+                  "Army Standard Bearer",
+                  20
+                ],
+                [
+                  "Army Musician",
+                  45
+                ]
+              ]
+            }
+          ],
+          "rules": [],
+          "custom": {
+            "Inspiring": "During the Combat Phase, this unit may remove its Hold Action Token to give one friendly unit within 12” +1 Accuracy until the end of the phase."
+          },
+          "weapons": {
+            "ꜥb": [
+              "24”",
+              "7",
+              "4",
+              "2 Attacks. Recurve Bow, Direct Fire"
+            ],
+            "Horses": [
+              "3",
+              "5",
+              "5",
+              "2 Attacks, can only use on Charge"
+            ],
+            "Ḫpš": [
+              "2",
+              "6",
+              "5",
+              "1 Attack, cannot be used on Charge. Sunder (1) against units with a Shield"
+            ]
           }
         }
       ]
@@ -7032,7 +7759,11 @@ window.NHB_DATA = {
     "ꜥmꜥꜣt": "throwstick",
     "Nỉwy": "spear",
     "Nsjwt": "javelins",
-    "Zft": "long sword"
+    "Zft": "long sword",
+    "ꜥb": "composite bow",
+    "Ḫpš": "khopesh, sickle sword",
+    "Mỉnb": "battle axe",
+    "Ḫrp": "long sword"
   },
   "mercs": {
     "id": "mercs",
