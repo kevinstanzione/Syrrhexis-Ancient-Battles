@@ -32,9 +32,10 @@ Still to do:
 - Command cards (draft): The God's Steward, Shields of Lagash, Battle Net of Ningirsu, Muriq-Tidnim.
 - Eren rule named Guru (Sumerian "shield", ePSD2 guru) on 2026-11-03. Sumer moved into the builder in 0.14.0 (2026-11-04); intro rewritten, waiting on Kevin's read. Renamed from Sumerian Kingdom in 0.18.0. Plan doc still needs syncing (Guru, Straddle Car, Feign Retreat, points, name). Šukur Length 8 confirmed.
 
-## Armies of Alexander (paused)
-- Draft unit list: Pezhétairoi (sarissa with Reach (2)), Hypaspistaí, Agēma Retinue (foot), Argyráspides, Hetaîroi, Basilikḕ Ílē Retinue (mounted), Thessaloì Hippeîs, Pródromoi, Agriânes, Krêtes Toxótai, Thureophóroi, Eléphantes, Oxybeleîs. Extras: scythed chariots, Katáphraktoi, Tarantînoi.
-- Add a Dahae / Scythian horse archer unit (hippotoxótai) with Feign Retreat and Parthian Shot.
+## Armies of Alexander
+- Unit list decided (14): Pezhétairoi (sarissa with Reach (2)), Hypaspistaí, Agēma Retinue (foot), Argyráspides, Hetaîroi, Basilikḕ Ílē Retinue (mounted), Thessaloì Hippeîs, Pródromoi, Agriânes, Krêtes Toxótai, Thureophóroi, Eléphantes, Oxybeleîs, Tarantînoi (Feign Retreat).
+- Command card "Lord of Asia" (Kýrios tês Asías): take 2 units from Greek Hoplites, Scythian Archers (as Dahae) and Cataphracts WITHOUT the Mercenary rule. Taking one forces the card into the hand, like mercenary cards.
+- Wedge Command card reserved for this list.
 
 ## Siege expansion (future)
 - Core of the expansion: destructible terrain and fortifications (walls, gates, towers) that can be damaged and breached.
