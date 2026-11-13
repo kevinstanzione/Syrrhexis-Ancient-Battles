@@ -13,7 +13,7 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 ## 0.26.0 — 2026-11-13
 
 ### Command cards
-- **The Eclipse** is now a **Weather** card: played in the End of the Round Phase of a round you had the Initiative, it flips Initiative bonuses into penalties for the next round. New: at the start of that round, before Initiative is rolled, every Retinue unit on the battlefield (both armies) takes a Fear Test; a unit that fails can't use its Retinue Special Characters' abilities until the end of the round.
+- **The Eclipse** is now a **Weather** card: played in the End of the Round Phase of a round you had the Initiative, it flips Initiative bonuses into penalties for the next round. New: at the start of that round, before Initiative is rolled, every Retinue unit on the battlefield (both armies) takes a Fear Test; a unit that fails can't use its Retinue Special Characters' abilities until the end of the round, though their Initiative penalty still applies.
 
 ## 0.25.1 — 2026-11-13
 

@@ -73,7 +73,8 @@ Still to do:
 ## Art spreads (future)
 - Pencil scene art: 7 army openers done (art/illustrations), plus card art for The Eclipse and Crumbled Ruins in the Army Book's generic cards. Army Book images get a torn-paper edge at build time.
 - Mercenary art for the Army Book (units that need showing exactly): Arabian Camel Riders, Đông Sơn Axemen, Lydian Houndsmen. Familiar-looking mercenaries (Cataphracts, maybe Galatians) go in the core rulebook as splash art instead.
-- Rulebook splash art: square, no-background spot pieces (art/illustrations/splash_*.png, so far the cataphract; Cretan archer next) get the vignette edge (C) fading into the page, not the torn edge. Placement still to plan.
+- Rulebook spot art (done, 0.3.4): cataphract (Charge Movement), Cretan archer (Shooting), Iberian (Melee Hits), centurion (Commander), Aztec conch player (Musician), Persian standard bearer (Standard Bearer). Square, no background, torn edge without a corner, full column width.
+- Next rulebook spot art, for the Special Rules chapter: Carduchian Tribesmen (tall Aġeġn bow; place by Unwieldy (X) or Surefooted) and Thracian Warriors (two-handed rhomphaia; place by Sunder (X)). Prompts not written yet.
 - Spears spread done: art/spears/ (21 images, build_spread.py, spears_spread.png/.pdf). Placement in the rulebook still to decide.
 - Next spreads: chariots, hand weapons, shields, armor, standards, musical instruments.
 - Chariots (empty, strict side profile facing right, pole and yoke but no horses, harness or crew): Anše.Kur.Ra Ḫatti, Anše.Kur.Ra Mittanni, Raθā, Raθā-Dāça, Raθā Retinue (royal), Egyptian, Assyrian (light), Assyrian royal (heavy 4-horse with parasol), Sumerian battle wagon, Sumerian straddle car, Celtic, Qin, Mauryan. Prompts were drafted in chat on 2026-10-28; same style prompt as the spears.

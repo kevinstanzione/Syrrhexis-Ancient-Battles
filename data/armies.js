@@ -7843,7 +7843,7 @@ window.NHB_DATA = {
       "name": "The Eclipse",
       "short": "Weather: Initiative bonuses become penalties, Retinues may falter",
       "limit": 1,
-      "text": "Weather. Play during the End of the Round Phase of a round in which you had the Initiative. During the next round, every bonus to Initiative, including bonuses from cards played later, becomes a penalty of the same size; penalties are unaffected. Any Favorable Omens card in play ends. At the start of the next round, before Initiative is rolled, every Retinue unit on the battlefield, friendly and enemy, takes a Fear Test. A unit that fails cannot use the abilities of its Retinue Special Characters until the end of the round.",
+      "text": "Weather. Play during the End of the Round Phase of a round in which you had the Initiative. During the next round, every bonus to Initiative, including bonuses from cards played later, becomes a penalty of the same size; penalties are unaffected. Any Favorable Omens card in play ends. At the start of the next round, before Initiative is rolled, every Retinue unit on the battlefield, friendly and enemy, takes a Fear Test. A unit that fails cannot use the abilities of its Retinue Special Characters until the end of the round (their Initiative penalty still applies).",
       "flavor": "The sun went dark at midday, and both armies lowered their weapons in fear."
     },
     {
