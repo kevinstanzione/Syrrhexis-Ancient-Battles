@@ -110,3 +110,7 @@ figure.tall img { width: 88%; }
 .profile td.pstats { width: 2.4in; }
 .profile td.pstats table { margin: 0; }
 .seq { break-inside: avoid; }
+
+/* pencil illustrations */
+figure.art img { width: 100%; }
+figure.art figcaption { font: italic 9pt 'EB Garamond'; color: #6b5d48; margin-top: 2pt; }
