@@ -1,7 +1,7 @@
 // Syrrhēxis army data. Edit the values below; keep the first line as is.
 window.NHB_DATA = {
   "meta": {
-    "version": "0.31.0",
+    "version": "0.31.1",
     "synced": "2026-10-22",
     "sources": {
       "Hittite Empire Army": "1aqMPs2Pi5car6pUzcuWmHXArGss_RZdkgATe5OsbVrw",
@@ -9694,14 +9694,14 @@ window.NHB_DATA = {
     },
     {
       "id": "trampling-the-nine-bows",
-      "name": "Trampling the Nine Bows",
+      "name": "Snapping the Nine Bows",
       "short": "Chariots +1 Strength against shaken or fleeing enemies",
       "armies": [
         "egypt"
       ],
       "limit": 1,
       "text": "Until the end of the round, friendly Chariot units gain +1 Strength with all their attacks, Shooting and Melee, against enemy units that have at least 1 Break Token or a Flee Action Token.",
-      "flavor": "The Nine Bows, the enemies of Egypt, lie beneath the sandals of Pharaoh."
+      "flavor": "Pharaoh breaks the bows of the Nine Bows, the enemies of Egypt."
     },
     {
       "id": "trumpets-of-the-divisions",

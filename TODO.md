@@ -37,7 +37,7 @@ Still to do:
 - Names are Egyptian and some are constructed (Ssmtyw from ssmt "horse"); add them to the Reconstructed and Constructed Names doc. Mḏꜣyw (Medjay) is a slightly late term, kept on purpose.
 
 ## Dynastic Egypt
-- Built in 0.29.0 (9 units, New Kingdom c. 1550–1070 BC); 5 Command cards in 0.30.0 (Amun My Father, The Aruna Road, Shoot in Ranks, Trampling the Nine Bows, Trumpets of the Divisions).
+- Built in 0.29.0 (9 units, New Kingdom c. 1550–1070 BC); 5 Command cards in 0.30.0 (Amun My Father, The Aruna Road, Shoot in Ranks, Snapping the Nine Bows, Trumpets of the Divisions).
 - Names to check and log in the Reconstructed and Constructed Names doc: ꜥb (composite bow; treated as the technical term for it, from the root for "horn"), Ḫrp (Sherden long sword; thought to be a Semitic loan like Hebrew ḥereb, unconfirmed), Styw (archers; partly constructed from stj "to shoot", and close to the Egyptian word for Nubians), Pr-ꜥꜣ (Pharaoh). Nḫtw-ꜥ two-handed mace-axe still has the English placeholder name "Mace-axe" (0.31.0): needs an Egyptian name.
 - King of Kings: the planned "Egyptians" are Late Period marines, which the New Kingdom list doesn't cover. Decide whether the Mnfyt stand in or the card gets its own borrowed profile.
 - Playtest pricing: Snnw (45), Pr-ꜥꜣ Retinue (55 × 3 chariots, discounted retinue characters), Šrdn (16).
