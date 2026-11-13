@@ -55,6 +55,7 @@ Still to do:
   - **Eléphantes** — Elephant, Move 8, Training 6, 100 pts per elephant. 1 Rank of 2. 1 mahout + 2 crewmen (tower); +1 crewman for 12. Crew weapon swap: Tóxon (free), Akóntion (+8), Dóry (+5). Terrify Non-Elephant, Pýrgos. No characters. Elephant 10 / 5 / 8, 1 attack, 2 extra on Charge. Tóxon 24” / 6 / 4, 1 attack per Crewman plus 1, Direct Fire. Akóntion 4 / 8” / 6 / 6, 1 attack per Crewman plus 1 if Shooting, Throwing Weapon. Dóry 5 / 6 / 6, 1 attack per Crewman.
   - **Pýrgos**: the crew's Shooting attacks are not blocked by Closed Order units, friendly or enemy.
   - Idea for later (not now): Ptolemaic African forest elephants option, smaller (Elephant Strength 7), roughly 8 pts cheaper. Note: conflicts with the no-negative-cost rule, so it would need to be its own profile or a 0-pt swap.
+  - **Oxybeleîs** — Light Warmachine, war engine 28 pts + 11 pts per Engineer. Engineers Move 5, Training 6, 3–6 models, Light Armor, Gear Encheirídion. Lead Captain (6). Oxybelḗs 40” / 6 / 7, 1 Attack, Direct Fire, Piercing Shot (1), Massive Suppression (5), Cumbersome. Encheirídion 1 / 6 / 5.
   - **Makedonikḗ Aspís** (shield): Armor 1, Move 0, does not gain +1 Armor from a Hold Action Token (hung from neck and shoulder, both hands on the sarissa).
 
 ## King of Kings rework (Persia, planned)
