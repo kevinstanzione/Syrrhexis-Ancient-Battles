@@ -1,7 +1,7 @@
 // Syrrhēxis army data. Edit the values below; keep the first line as is.
 window.NHB_DATA = {
   "meta": {
-    "version": "0.23.1",
+    "version": "0.24.0",
     "synced": "2026-10-22",
     "sources": {
       "Hittite Empire Army": "1aqMPs2Pi5car6pUzcuWmHXArGss_RZdkgATe5OsbVrw",
@@ -2453,6 +2453,65 @@ window.NHB_DATA = {
             "Akīnakah": [
               "2",
               "7",
+              "5",
+              "Thrusting Blade"
+            ]
+          }
+        },
+        {
+          "id": "baxtriya",
+          "name": "Bāxtriya",
+          "type": "Cavalry",
+          "move": 10,
+          "training": 6,
+          "points": 22,
+          "comps": [
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              3
+            ]
+          ],
+          "equip": [
+            "Aršti"
+          ],
+          "gear": [
+            "Akīnakah"
+          ],
+          "body": "Medium Armor",
+          "shield": null,
+          "barding": "Barding",
+          "opts": [],
+          "chars": [
+            {
+              "one": [
+                [
+                  "Lead Captain",
+                  10
+                ],
+                [
+                  "Tribal Leader",
+                  14
+                ]
+              ]
+            }
+          ],
+          "rules": [
+            "Levy"
+          ],
+          "weapons": {
+            "Aršti": [
+              "8",
+              "5",
+              "6",
+              ""
+            ],
+            "Akīnakah": [
+              "2",
+              "5",
               "5",
               "Thrusting Blade"
             ]

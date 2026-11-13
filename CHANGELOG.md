@@ -6,6 +6,11 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## 0.24.0 — 2026-11-13
+
+### Units
+- **Bāxtriya** (Achaemenid Persia): new Bactrian heavy cavalry. Cavalry, Move 10, Training 6, 22 pts. 2 Ranks of 4 or 2 Ranks of 3. Medium Armor and Barding as standard; Aršti (8, Accuracy 5, Strength 6) and Akīnakah. Levy, no Feign Charge. Lead Captain (10) or Tribal Leader (14).
+
 ## 0.23.1 — 2026-11-13
 
 ### Units
