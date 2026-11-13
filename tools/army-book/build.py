@@ -284,6 +284,24 @@ def profile(u):
 CARD_KW = re.compile(r'\b(Obstacles?|Walls?|Flammable|Weather)\b')
 
 
+def card_group(c):
+    """Generic card order: 0 army list (mercenary) cards, 1 terrain and Obstacles, 2 Weather, 3 everything else."""
+    t, short = c.get('text', ''), c.get('short', '')
+    if c.get('mercs'):
+        return 0
+    if t.startswith('Obstacle') or short.startswith(('Obstacle:', 'Terrain:')):
+        return 1
+    if t.startswith('Weather'):
+        return 2
+    return 3
+
+
+def card_order(c):
+    """Group first, then alphabetical, ignoring a leading "The"."""
+    name = c['name'][4:] if c['name'].startswith('The ') else c['name']
+    return (card_group(c), name.lower())
+
+
 def card_text(t):
     return CARD_KW.sub(r'<b>\1</b>', esc(t))
 
@@ -303,7 +321,7 @@ _ART_CACHE = os.path.join(tempfile.gettempdir(), 'syrrhexis-art')
 
 
 # Card illustrations in the Generic Command Cards section, placed before the given card: card id -> image
-CARD_ART = {'downpour': 'card_the_eclipse', 'crumbled-ruins': 'card_crumbled_ruins'}
+CARD_ART = {'the-eclipse': 'card_the_eclipse', 'crumbled-ruins': 'card_crumbled_ruins'}
 # Mercenary illustrations, placed just before the unit's profile: unit id -> image
 MERC_ART = {'dong-son-axemen': 'merc_dong_son_axemen', 'nabatean-skirmishers': 'merc_arabian_camel_riders',
             'lydian-houndsmen': 'merc_lydian_houndsmen'}
@@ -416,7 +434,7 @@ def build(ids):
     armies = sorted((a for a in D['armies'] if not ids or a['id'] in ids), key=lambda a: start_year(a['id']))
     parts = [army_section(a) for a in armies]
     if not ids:
-        generic = [c for c in D['commands'] if not c.get('armies')]
+        generic = sorted((c for c in D['commands'] if not c.get('armies')), key=card_order)
         parts.append('<section class="army"><h1 id="generic-cards">Generic Command Cards</h1>'
                      '<p class="era">Any army may include these cards in its Command deck.</p><div class="cards">'
                      + ''.join((f'</div>{art_img(CARD_ART[c["id"]])[0]}<div class="cards">' if c['id'] in CARD_ART else '')
