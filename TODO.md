@@ -43,7 +43,15 @@ Still to do:
   - **Agēma Retinue** — Warrior, Move 5, Training 8, 15 pts. 1 Rank of 5. Light Armor, Shield; Dóry, Gear Xíphos. Disciplined, Leading from the Front. Required: Lead Captain (8) or Lord (17) (a Successor prince or one of the king's Friends; the king himself is the Commander). Required: Army Standard Bearer (30), Army Musician (60) or Commander (42). Dóry 10 / 6 / 6, Reach (1), Unwieldy (1). Xíphos 3 / 6 / 6, Parrying Blade.
   - **Leading from the Front** (both retinues): while this unit includes a Commander and has a Charge Action Token, +1 to Initiative rolls. Does not stack with itself. (Tactician stays reserved for Qin and the Carthage card.)
   - **Hetaîroi** — Cavalry, Move 12, Training 7, 23 pts. 2 Ranks of 4 or 2 Ranks of 3. Medium Armor, no shield; Xystón, Gear Kopís. No special rules: pure shock cavalry, deliberately no Feign Charge (first cavalry without it). Lead Captain (10), Musician (8). Xystón 11 / 5 / 6, no Reach. Kopís 4 / 4 / 5, Cleaving Blade (3).
+  - **Basilikḕ Ílē Retinue** — Cavalry, Move 10 (cavalry retinues are Move 10), Training 8, 22 pts. 1 Rank of 4. Medium Armor, no shield; Xystón, Gear Kopís. Leading from the Front (NOT Disciplined; no Feign Charge). Required: Lead Captain (12) or Lord (20). Required: Army Standard Bearer (30), Army Musician (60) or Commander (42). Xystón 11 / 6 / 6. Kopís 4 / 5 / 5, Cleaving Blade (3).
+  - **Thessaloì Hippeîs** — Cavalry, Move 12, Training 7, 23 pts. 2 Ranks of 4 or 2 Ranks of 3. Medium Armor, no shield; Xystón, Gear Kopís (same stats as Hetaîroi). Feign Charge, Rhombus. Lead Captain (10), Musician (8).
+  - **Rhombus**: the first turn this unit makes in each activation costs no Move Allowance. When it Charges, it may make two turns instead of one, and the first is free.
+  - **Pródromoi** — Light Cavalry, Move 12, Training 6, 19 pts. 2 Ranks of 4 or 2 Ranks of 3. Light Armor, no shield; cavalry Sárisa, Gear Kopís. Scout, Feign Charge. Lead Captain (10). Cavalry Sárisa 12 / 5 / 6, Unwieldy (1), no Reach. Kopís 4 / 4 / 5, Cleaving Blade (3).
+  - **Agriânes** — Skirmishing Warrior, Move 7, Training 6, 13 pts. 6–12 models. Shield (Thracian peltē), no body armor; Akóntion, Gear Encheirídion. Scout, Surefooted (Stony Plain). Ranger Captain (6) or Skirmish Captain (8). Akóntion 6 / 8” / 6 / 6, Throwing Weapon. Encheirídion 1 / 6 / 5.
   - **Makedonikḗ Aspís** (shield): Armor 1, Move 0, does not gain +1 Armor from a Hold Action Token (hung from neck and shoulder, both hands on the sarissa).
+
+## Rules to decide
+- Unwieldy (X) for Open Order units (leaning yes): keep -X Move and add -X Accuracy with the Unwieldy weapon. Raised by the Pródromoi riding 8-wide in Open Order. If adopted, give the Carduchian Aġeġn bow +1 base Accuracy so they stay where they are.
 
 ## Siege expansion (future)
 - Core of the expansion: destructible terrain and fortifications (walls, gates, towers) that can be damaged and breached.
