@@ -1,7 +1,7 @@
 // Syrrhēxis army data. Edit the values below; keep the first line as is.
 window.NHB_DATA = {
   "meta": {
-    "version": "0.29.0",
+    "version": "0.29.1",
     "synced": "2026-10-22",
     "sources": {
       "Hittite Empire Army": "1aqMPs2Pi5car6pUzcuWmHXArGss_RZdkgATe5OsbVrw",
@@ -1350,7 +1350,7 @@ window.NHB_DATA = {
           ],
           "weapons": {
             "ꜥb": [
-              "24”",
+              "20”",
               "6",
               "4",
               "2 Attacks. Recurve Bow, Direct Fire"
@@ -1373,6 +1373,9 @@ window.NHB_DATA = {
               "5",
               "1 Attack, cannot be used on Charge"
             ]
+          },
+          "custom": {
+            "Shooting Platform": "Shooting attacks against targets within half of the weapon's printed range ignore the On the Move penalty."
           }
         },
         {
@@ -1428,11 +1431,12 @@ window.NHB_DATA = {
           ],
           "rules": [],
           "custom": {
+            "Shooting Platform": "Shooting attacks against targets within half of the weapon's printed range ignore the On the Move penalty.",
             "Inspiring": "During the Combat Phase, this unit may remove its Hold Action Token to give one friendly unit within 12” +1 Accuracy until the end of the phase."
           },
           "weapons": {
             "ꜥb": [
-              "24”",
+              "20”",
               "7",
               "4",
               "2 Attacks. Recurve Bow, Direct Fire"
