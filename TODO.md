@@ -33,7 +33,7 @@ Still to do:
 - Eren rule named Guru (Sumerian "shield", ePSD2 guru) on 2026-11-03. Sumer moved into the builder in 0.14.0 (2026-11-04); intro rewritten, waiting on Kevin's read. Renamed from Sumerian Kingdom in 0.18.0. Plan doc still needs syncing (Guru, Straddle Car, Feign Retreat, points, name). Šukur Length 8 confirmed.
 
 ## Armies of Alexander
-- Unit list decided (14): Pezhétairoi (sarissa with Reach (2)), Hypaspistaí, Agēma Retinue (foot), Argyráspides, Hetaîroi, Basilikḕ Ílē Retinue (mounted), Thessaloì Hippeîs, Pródromoi, Agriânes, Krêtes Toxótai, Thureophóroi, Eléphantes, Oxybeleîs, Tarantînoi (Feign Retreat).
+- Unit list decided (13; Krêtes Toxótai moved to Supplemental Mercenaries as Cretan Archers): Pezhétairoi (sarissa with Reach (2)), Hypaspistaí, Agēma Retinue (foot), Argyráspides, Hetaîroi, Basilikḕ Ílē Retinue (mounted), Thessaloì Hippeîs, Pródromoi, Agriânes, Thureophóroi, Eléphantes, Oxybeleîs, Tarantînoi (Feign Retreat).
 - Command card "Lord of Asia" (Kýrios tês Asías): take 2 units from Greek Hoplites, Scythian Archers (as Dahae) and Cataphracts WITHOUT the Mercenary rule. Taking one forces the card into the hand, like mercenary cards.
 - Wedge Command card reserved for this list.
 - Drafted profiles (to add to the builder once the list is done):
@@ -49,6 +49,10 @@ Still to do:
   - **Pródromoi** — Light Cavalry, Move 12, Training 6, 19 pts. 2 Ranks of 4 or 2 Ranks of 3. Light Armor, no shield; cavalry Sárisa, Gear Kopís. Scout, Feign Charge. Lead Captain (10). Cavalry Sárisa 12 / 5 / 6, Unwieldy (1), no Reach. Kopís 4 / 4 / 5, Cleaving Blade (3).
   - **Agriânes** — Skirmishing Warrior, Move 7, Training 6, 13 pts. 6–12 models. Shield (Thracian peltē), no body armor; Akóntion, Gear Encheirídion. Scout, Surefooted (Stony Plain). Ranger Captain (6) or Skirmish Captain (8). Akóntion 6 / 8” / 6 / 6, Throwing Weapon. Encheirídion 1 / 6 / 5.
   - **Makedonikḗ Aspís** (shield): Armor 1, Move 0, does not gain +1 Armor from a Hold Action Token (hung from neck and shoulder, both hands on the sarissa).
+
+## King of Kings rework (Persia, planned)
+- Pulls units from other army lists, not just the mercenary pool: 4 from Supplemental Mercenaries (Arabian Camel Riders, Greek Hoplites, Scythian Archers, Cretan Archers) + 4 from other lists (Indian elephants from the Mauryan list, replacing the Pīrū; Kushite archers from the Kush list; Egyptians; Assyrians). Borrowed units gain Mercenary. Still to confirm: still 2 units per card? Small per-model surcharge?
+- Kushite Archers leave the general mercenary pool once the Kush list exists. The full card waits on the Mauryan, Kush, Egypt and Assyria lists.
 
 ## Rules to decide
 - Unwieldy (X) for Open Order units (leaning yes): keep -X Move and add -X Accuracy with the Unwieldy weapon. Raised by the Pródromoi riding 8-wide in Open Order. If adopted, give the Carduchian Aġeġn bow +1 base Accuracy so they stay where they are.
