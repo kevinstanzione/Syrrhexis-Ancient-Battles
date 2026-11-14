@@ -6,6 +6,11 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## 0.31.4 — 2026-11-13
+
+### Dynastic Egypt
+- Name fix: **Mnfyt** → **Mnfꜣt** (spearmen), the dictionary spelling of *mnfꜣ.t*, "infantry".
+
 ## 0.31.3 — 2026-11-13
 
 ### Kingdom of Kush
