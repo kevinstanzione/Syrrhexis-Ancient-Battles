@@ -4309,7 +4309,7 @@ window.NHB_DATA = {
               "12",
               "9",
               "6",
-              "2 Attacks, can only be used on Charge, Sunder (2). Before rolling to hit, each enemy unit in the Melee takes a Fear Test; against units that pass, this weapon has Accuracy 5. Destroy model after resolving Wounds."
+              "2 Attacks, can only be used on Charge. Sunder (2). Before rolling to hit, each enemy unit in the Melee takes a Fear Test; against units that pass, this weapon has Accuracy 5. Destroy model after resolving Wounds."
             ],
             "Horses": [
               "3",

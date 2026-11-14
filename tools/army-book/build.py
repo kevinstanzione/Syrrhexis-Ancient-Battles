@@ -256,7 +256,14 @@ def ability(text, u, extra_keywords=()):
         parts = [x.strip() for x in sent.split(',')]
         if all(KW.fullmatch(x) for x in parts):
             kws += parts
-        elif ATTACK.match(sent):
+            continue
+        # Keywords tacked onto the end of a sentence ("2 Attacks, ..., Sunder (2)") belong in the keyword group.
+        tail = []
+        while len(parts) > 1 and KW.fullmatch(parts[-1]):
+            tail.insert(0, parts.pop())
+        kws += tail
+        sent = ', '.join(parts)
+        if ATTACK.match(sent):
             attacks.append(sent)
         else:
             other.append(sent)
