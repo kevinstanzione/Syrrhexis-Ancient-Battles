@@ -11,6 +11,9 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 ### Unit descriptions
 - Reworded: Eren (shieldbearers and spearmen), Šub-lugal (studded cape spearmen), Guruš (simple levy warriors), Pḥrrw (chariot support), Snnyw and Wrrywt (chariot archers), Ḏꜣmw (levy recruits), Ssmtyw (javelin-armed horsemen), Sparabārā (shieldbearers and archers), Kardakā (armored levy infantry), Takabārā (light levy infantry), Hoplîtai Retinue (the general’s hoplites), Sphendonêtai (expert slingers), Thureophóroi (medium infantry with spears and javelins), Oxybeleîs (light bolt-thrower), Lēgiōnāriī Retinue (the legate’s personal legionaries), Explōrātōrēs (long-range scouts), Nam.Ra (resettled captive levy).
 
+### Names
+- Ichcahuipilli is now spelled Ichcahuīpīlli (both i's in huīpīlli are long).
+
 ### Army Book layout
 - A unit's pronunciation and description stay together: beside the name when the whole line fits (measured from the actual fonts), otherwise both on their own line between the name and the unit type. Long names such as Šukur.Tur Kaška no longer wrap.
 - That line is now a warm brown, distinct from the gray unit type (builder too).
@@ -20,6 +23,7 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **Army Lists** chapter now lists the armies in the same order as the Army Book (oldest first). Armies not yet in the Army Book are slotted in by period.
 - **Update History** trimmed to version numbers and dates. Detailed change notes in the rulebook start at 1.0; the pre-1.0 notes stay in this changelog and the git history.
 - **Commander diagram** redrawn: numbered units with a key instead of labels on the range lines, the 6” and 18” labels sit on their lines, and units no longer straddle a boundary. The caption now includes the Chariot and Elephant forward/backwards-only Special Move.
+- Ichcahuipilli spelled Ichcahuīpīlli in Gear and Equipment.
 - No rules changes.
 
 ## 0.32.0 — 2026-11-13

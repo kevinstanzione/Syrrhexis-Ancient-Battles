@@ -7097,7 +7097,7 @@ window.NHB_DATA = {
           "gear": [
             "Tecpatl"
           ],
-          "body": "Ichcahuipilli",
+          "body": "Ichcahuīpīlli",
           "shield": null,
           "armors": {
             "Chīmalli": {
@@ -7105,7 +7105,7 @@ window.NHB_DATA = {
               "vs6": 1,
               "text": "-1 Armor against Weapon Attacks with Strength 6 or Greater"
             },
-            "Ichcahuipilli": {
+            "Ichcahuīpīlli": {
               "v": 1,
               "vs6": 1,
               "text": "-1 Armor against Weapon Attacks with Strength 6 or Greater"
@@ -7233,7 +7233,7 @@ window.NHB_DATA = {
           "gear": [
             "Tecpatl"
           ],
-          "body": "Ichcahuipilli",
+          "body": "Ichcahuīpīlli",
           "shield": "Chīmalli",
           "armors": {
             "Chīmalli": {
@@ -7241,7 +7241,7 @@ window.NHB_DATA = {
               "vs6": 1,
               "text": "-1 Armor against Weapon Attacks with Strength 6 or Greater"
             },
-            "Ichcahuipilli": {
+            "Ichcahuīpīlli": {
               "v": 1,
               "vs6": 1,
               "text": "-1 Armor against Weapon Attacks with Strength 6 or Greater"
@@ -7324,7 +7324,7 @@ window.NHB_DATA = {
           "gear": [
             "Tecpatl"
           ],
-          "body": "Ichcahuipilli",
+          "body": "Ichcahuīpīlli",
           "shield": null,
           "armors": {
             "Chīmalli": {
@@ -7332,7 +7332,7 @@ window.NHB_DATA = {
               "vs6": 1,
               "text": "-1 Armor against Weapon Attacks with Strength 6 or Greater"
             },
-            "Ichcahuipilli": {
+            "Ichcahuīpīlli": {
               "v": 1,
               "vs6": 1,
               "text": "-1 Armor against Weapon Attacks with Strength 6 or Greater"
@@ -7438,7 +7438,7 @@ window.NHB_DATA = {
             ]
           },
           "custom": {
-            "Shorn Ones": "A model with both Ichcahuipilli and Chīmalli loses only 1 Armor, not 2, against Weapon Attacks with Strength 6 or Greater.",
+            "Shorn Ones": "A model with both Ichcahuīpīlli and Chīmalli loses only 1 Armor, not 2, against Weapon Attacks with Strength 6 or Greater.",
             "Matched Armor": "Every model in the unit must have the same armor."
           },
           "shorn": true
@@ -7467,7 +7467,7 @@ window.NHB_DATA = {
               "vs6": 1,
               "text": "-1 Armor against Weapon Attacks with Strength 6 or Greater"
             },
-            "Ichcahuipilli": {
+            "Ichcahuīpīlli": {
               "v": 1,
               "vs6": 1,
               "text": "-1 Armor against Weapon Attacks with Strength 6 or Greater"
@@ -7566,7 +7566,7 @@ window.NHB_DATA = {
               "vs6": 1,
               "text": "-1 Armor against Weapon Attacks with Strength 6 or Greater"
             },
-            "Ichcahuipilli": {
+            "Ichcahuīpīlli": {
               "v": 1,
               "vs6": 1,
               "text": "-1 Armor against Weapon Attacks with Strength 6 or Greater"
@@ -7636,7 +7636,7 @@ window.NHB_DATA = {
               "vs6": 1,
               "text": "-1 Armor against Weapon Attacks with Strength 6 or Greater"
             },
-            "Ichcahuipilli": {
+            "Ichcahuīpīlli": {
               "v": 1,
               "vs6": 1,
               "text": "-1 Armor against Weapon Attacks with Strength 6 or Greater"
@@ -7718,7 +7718,7 @@ window.NHB_DATA = {
               "vs6": 1,
               "text": "-1 Armor against Weapon Attacks with Strength 6 or Greater"
             },
-            "Ichcahuipilli": {
+            "Ichcahuīpīlli": {
               "v": 1,
               "vs6": 1,
               "text": "-1 Armor against Weapon Attacks with Strength 6 or Greater"
@@ -7838,7 +7838,7 @@ window.NHB_DATA = {
     "Tecpatl": "flint dagger",
     "Tēmātlatl": "sling",
     "Tlahhuītōlli": "bow",
-    "Ichcahuipilli": "quilted cotton armor",
+    "Ichcahuīpīlli": "quilted cotton armor",
     "Chīmalli": "round shield",
     "Phásganon": "bronze slashing sword",
     "Énchos": "spear",
@@ -8050,7 +8050,7 @@ window.NHB_DATA = {
     "Tecpatl": "TEK-pahtl",
     "Tēmātlatl": "teh-MAH-tlahtl",
     "Tlahhuītōlli": "tlah-wee-TOHL-lee",
-    "Ichcahuipilli": "eech-kah-wee-PEEL-lee",
+    "Ichcahuīpīlli": "eech-kah-wee-PEEL-lee",
     "Chīmalli": "chee-MAHL-lee",
     "Aġeġn": "ah-GHEGHN",
     "Nizak": "nee-ZAHK",
