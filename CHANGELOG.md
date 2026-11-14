@@ -6,6 +6,11 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## 0.32.2 and Rulebook 0.3.7 — 2026-11-14
+
+- **Testūdō** and Marshes: the Marsh restriction now lives in the Roman Testūdō rule ("Testūdō cannot be used while the unit is within a Marsh") instead of the Terrain chapter's list of negated abilities, which keeps only general special rules.
+- **Major Terrain Types** reordered from simplest to most complex: Sand, Stony Plain, Marsh. Surefooted (X) lists the types in the same order.
+
 ## 0.32.1 — 2026-11-13
 
 ### Unit descriptions

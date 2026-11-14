@@ -1,7 +1,7 @@
 // Syrrhēxis army data. Edit the values below; keep the first line as is.
 window.NHB_DATA = {
   "meta": {
-    "version": "0.32.1",
+    "version": "0.32.2",
     "synced": "2026-10-22",
     "sources": {
       "Hittite Empire Army": "1aqMPs2Pi5car6pUzcuWmHXArGss_RZdkgATe5OsbVrw",
@@ -6173,7 +6173,7 @@ window.NHB_DATA = {
           ],
           "rules": [],
           "custom": {
-            "Testūdō": "When this unit takes the Hold action, it may move half its move and keeps its Hold Action Token. If it does, Shooting attacks against it suffer -2 Accuracy until its next activation. On Hold it may also use its Pīlum in Melee: Length 6, -1 Strength, and loses Sunder (2).",
+            "Testūdō": "When this unit takes the Hold action, it may move half its move and keeps its Hold Action Token. If it does, Shooting attacks against it suffer -2 Accuracy until its next activation. On Hold it may also use its Pīlum in Melee: Length 6, -1 Strength, and loses Sunder (2). Testūdō cannot be used while the unit is within a Marsh.",
             "Iacite Pīla": "When this unit takes the Charge action, it may first make a Shooting attack against the unit it intends to charge at -2 Accuracy."
           },
           "weapons": {
@@ -6259,7 +6259,7 @@ window.NHB_DATA = {
           ],
           "rules": [],
           "custom": {
-            "Testūdō": "When this unit takes the Hold action, it may move half its move and keeps its Hold Action Token. If it does, Shooting attacks against it suffer -2 Accuracy until its next activation. On Hold it may also use its Pīlum in Melee: Length 6, -1 Strength, and loses Sunder (2).",
+            "Testūdō": "When this unit takes the Hold action, it may move half its move and keeps its Hold Action Token. If it does, Shooting attacks against it suffer -2 Accuracy until its next activation. On Hold it may also use its Pīlum in Melee: Length 6, -1 Strength, and loses Sunder (2). Testūdō cannot be used while the unit is within a Marsh.",
             "Iacite Pīla": "When this unit takes the Charge action, it may first make a Shooting attack against the unit it intends to charge at -2 Accuracy."
           },
           "weapons": {
@@ -6348,7 +6348,7 @@ window.NHB_DATA = {
           ],
           "rules": [],
           "custom": {
-            "Testūdō": "When this unit takes the Hold action, it may move half its move and keeps its Hold Action Token. If it does, Shooting attacks against it suffer -2 Accuracy until its next activation. On Hold it may also use its Pīlum in Melee: Length 6, -1 Strength, and loses Sunder (2).",
+            "Testūdō": "When this unit takes the Hold action, it may move half its move and keeps its Hold Action Token. If it does, Shooting attacks against it suffer -2 Accuracy until its next activation. On Hold it may also use its Pīlum in Melee: Length 6, -1 Strength, and loses Sunder (2). Testūdō cannot be used while the unit is within a Marsh.",
             "Iacite Pīla": "When this unit takes the Charge action, it may first make a Shooting attack against the unit it intends to charge at -2 Accuracy."
           },
           "weapons": {
@@ -6426,7 +6426,7 @@ window.NHB_DATA = {
           ],
           "rules": [],
           "custom": {
-            "Testūdō": "When this unit takes the Hold action, it may move half its move and keeps its Hold Action Token. If it does, Shooting attacks against it suffer -2 Accuracy until its next activation. On Hold it may also use its Pīlum in Melee: Length 6, -1 Strength, and loses Sunder (2).",
+            "Testūdō": "When this unit takes the Hold action, it may move half its move and keeps its Hold Action Token. If it does, Shooting attacks against it suffer -2 Accuracy until its next activation. On Hold it may also use its Pīlum in Melee: Length 6, -1 Strength, and loses Sunder (2). Testūdō cannot be used while the unit is within a Marsh.",
             "Iacite Pīla": "When this unit takes the Charge action, it may first make a Shooting attack against the unit it intends to charge at -2 Accuracy.",
             "Fidēlitās": "While this unit has its Commander, it gains Disciplined. Once per game, its controlling player may have the unit suffer 1 Damage with no save and remove the Commander to recover 1 used Command Card. They also lose the Army Morale the Commander added, as if it had been eliminated."
           },
