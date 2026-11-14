@@ -29,7 +29,7 @@ SRC = os.path.join(ROOT, 'rulebook', 'src')
 OUT = os.path.join(ROOT, 'rulebook', 'Syrrhexis_Rulebook.pdf')
 FONT_DIR = os.environ.get('SYRRHEXIS_FONTS', os.path.join(ROOT, 'tools', 'fonts'))
 TITLE = 'Syrrhēxis: Ancient Battles'
-COVER_VERSION = 'Core Rules · Version 0.3.5 · November 2026'
+COVER_VERSION = 'Core Rules · Version 0.3.6 · November 2026'
 TOC_SKIP = {'Update History'}
 
 FACES = [('Cinzel', 'Cinzel', 400, 'normal'), ('Cinzel', 'Cinzel', 600, 'normal'), ('Cinzel', 'Cinzel', 700, 'normal'),

@@ -6,6 +6,13 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## Rulebook 0.3.6 — 2026-11-13
+
+- **Army Lists** chapter now lists the armies in the same order as the Army Book (oldest first). Armies not yet in the Army Book are slotted in by period.
+- **Update History** trimmed to version numbers and dates. Detailed change notes in the rulebook start at 1.0; the pre-1.0 notes stay in this changelog and the git history.
+- **Commander diagram** redrawn: numbered units with a key instead of labels on the range lines, the 6” and 18” labels sit on their lines, and units no longer straddle a boundary. The caption now includes the Chariot and Elephant forward/backwards-only Special Move.
+- No rules changes.
+
 ## 0.32.0 — 2026-11-13
 
 ### Names and pronunciation (all armies)
