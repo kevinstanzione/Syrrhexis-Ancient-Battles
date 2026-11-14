@@ -172,7 +172,7 @@
     const isOpen = openCards.has(sel.uid);
     const head = `<div class="card-head">
         <button class="expander" data-act="expand" data-uid="${sel.uid}" aria-expanded="${isOpen}" aria-label="${isOpen ? "Collapse" : "Expand"} ${esc(u.name)}">${isOpen ? "−" : "+"}</button>
-        <div class="card-title"><h3>${esc(u.name)}</h3><div class="type">${sel.src === "mercs" ? "Mercenary · " : ""}${esc(u.type)} · ${esc(sizeText(x))} · ${u.engine ? `${u.engine} + ${u.points}/Engineer` : `${u.points}/model`}</div></div>
+        <div class="card-title"><h3>${esc(u.name)}</h3>${unitSub(u) ? `<div class="usay">${unitSub(u)}</div>` : ""}<div class="type">${sel.src === "mercs" ? "Mercenary · " : ""}${esc(u.type)} · ${esc(sizeText(x))} · ${u.engine ? `${u.engine} + ${u.points}/Engineer` : `${u.points}/model`}</div></div>
         <div class="card-pts">${x.pts} pts</div></div>`;
     if (!isOpen) {
       return `<article class="card ${x.warn.length ? "bad" : ""}">${head}<div class="chips">${chips}</div></article>`;
@@ -196,7 +196,7 @@
       const tbd = u.points == null;
       const size = u.range ? `${u.range[0]}–${u.range[1]}${/Warmachine/.test(u.type) ? " Engineers" : ""}` : u.comps.map(c => c[0] * c[1]).join(" or ");
       return `<button class="pick" data-act="addunit" data-u="${u.id}" ${tbd ? "disabled" : ""}>
-        <span><span class="nm">${esc(u.name)}</span><br><span class="sub">${esc(u.type)} · ${size}</span></span>
+        <span><span class="nm">${esc(u.name)}</span><br>${unitSub(u) ? `<span class="usay">${unitSub(u)}</span><br>` : ""}<span class="sub">${esc(u.type)} · ${size}</span></span>
         ${tbd ? `<span class="tbd">TBD</span>` : u.engine ? `<span class="num eng">${u.engine}<br><span class="per">+${u.points}/Engineer</span></span>` : `<span class="num">${u.points}</span>`}</button>`;
     }).join("");
     const slots = mercSlots(), taken = mercIds(), mercN = taken.length, mercOk = slots.length;
@@ -205,7 +205,7 @@
       const size = u.range ? `${u.range[0]}–${u.range[1]}` : u.comps.map(c => c[0] * c[1]).join(" or ");
       const full = !NHB.mercFit(slots, taken.concat(u.id)).ok;
       return `<button class="pick" data-act="addunit" data-src="mercs" data-u="${u.id}" ${full ? "disabled" : ""}>
-        <span><span class="nm">${esc(u.name)}</span><br><span class="sub">${esc(u.type)} · ${size}</span></span>
+        <span><span class="nm">${esc(u.name)}</span><br>${unitSub(u) ? `<span class="usay">${unitSub(u)}</span><br>` : ""}<span class="sub">${esc(u.type)} · ${size}</span></span>
         <span class="num">${u.points}</span></button>`;
     }).join("")}</div>` : "";
     const names = deckNames();
@@ -323,7 +323,13 @@
 
   // Plain-English description shown under native weapon and armor names.
   const LABELS = (window.NHB_DATA && window.NHB_DATA.labels) || {};
-  const desc = n => LABELS[n] ? `<span class="wdesc">${esc(LABELS[n])}</span>` : "";
+  // Pronunciation respellings for native unit, weapon and armor names ("X Retinue" uses X's).
+  const SAY = (window.NHB_DATA && window.NHB_DATA.say) || {};
+  const sayOf = n => SAY[n] || SAY[n.replace(/ Retinue$/, "")] || "";
+  const pron = n => sayOf(n) ? `<span class="say">${esc(sayOf(n))}</span>` : "";
+  const desc = n => (sayOf(n) || LABELS[n]) ? `<span class="wdesc">${[pron(n), LABELS[n] ? esc(LABELS[n]) : ""].filter(Boolean).join(" · ")}</span>` : "";
+  // Under a unit's name: pronunciation · description.
+  const unitSub = u => (sayOf(u.name) || u.desc) ? [pron(u.name), u.desc ? esc(u.desc) : ""].filter(Boolean).join(" · ") : "";
 
   function weaponRows(x, showAll) {
     const carried = x.lo.weapons.concat(x.lo.gear);

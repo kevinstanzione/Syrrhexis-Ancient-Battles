@@ -38,6 +38,19 @@ for _f in (sorted(os.listdir(_DRAFTS)) if os.path.isdir(_DRAFTS) else []):
         D.setdefault('labels', {}).update(_d.get('labels', {}))
         D['commands'].extend(_d.get('commands', []))
 LABELS = D.get('labels', {})
+SAY = D.get('say', {})                            # pronunciation respellings: name -> 'NEKH-too AH'
+
+
+def say_of(n):
+    return SAY.get(n) or SAY.get(n[:-8] if n.endswith(' Retinue') else n) or ''
+
+
+def subline(n):
+    """Small gray line under a weapon or armor name: pronunciation · plain-English description."""
+    parts = [f'<span class="say">{esc(say_of(n))}</span>' if say_of(n) else '',
+             esc(LABELS[n]).replace('-', '\u2011') if LABELS.get(n) else '']
+    parts = [p for p in parts if p]
+    return f'<div class="wsub">{" · ".join(parts)}</div>' if parts else ''
 
 
 def weapon_order(u):
@@ -258,7 +271,7 @@ def ability(text, u, extra_keywords=()):
 
 def weapon_table(u):
     rows = ''.join(
-        f"<tr><td><b>{ital(n, u)}</b></td><td>{esc(v[0])}</td><td>{esc(v[1])}</td><td>{esc(v[2])}</td><td>{ability(v[3], u)}</td></tr>"
+        f"<tr><td><b>{ital(n, u)}</b>{subline(n)}</td><td>{esc(v[0])}</td><td>{esc(v[1])}</td><td>{esc(v[2])}</td><td>{ability(v[3], u)}</td></tr>"
         for n, v in u['weapons'].items())
     return ('<table class="wtab"><tr><th>Weapon</th><th>Length/Range</th><th>Accuracy</th><th>Strength</th>'
             f'<th>Ability</th></tr>{rows}</table>')
@@ -279,9 +292,20 @@ def armor_table(u):
     for n, v in a.items():
         mv = v.get('move', 0)
         abil = ability(v.get('text', ''), u, v.get('grants') or [])
-        rows.append(f"<tr><td><b>{ital(n, u)}</b></td><td>+{v.get('v', 0)}</td><td>{mv if mv else '0'}</td><td>{abil}</td></tr>")
+        rows.append(f"<tr><td><b>{ital(n, u)}</b>{subline(n)}</td><td>+{v.get('v', 0)}</td><td>{mv if mv else '0'}</td><td>{abil}</td></tr>")
     return ('<table class="atab"><tr><th>Armor</th><th>Modifier</th><th>Move</th><th>Ability</th></tr>'
             + ''.join(rows) + '</table>')
+
+
+def unit_sub(u):
+    """Beside the unit's name: pronunciation · description, small and gray."""
+    say, desc = say_of(u['name']), u.get('desc', '')
+    if not (say or desc):
+        return ''
+    # Too long to share the name's line: the description drops to its own line instead of wrapping mid-phrase.
+    if say and desc and len(u['name']) + len(say) + len(desc) > 58:
+        return f'<span class="say-unit">{esc(say)}</span><span class="say-unit desc-line">{esc(desc)}</span>'
+    return f'<span class="say-unit">{" · ".join(esc(x) for x in (say, desc) if x)}</span>'
 
 
 def profile(u):
@@ -298,7 +322,7 @@ def profile(u):
     custom = ''.join(f'<p class="rule"><b>{esc(n)}.</b> {esc(t)}</p>' for n, t in (u.get('custom') or {}).items())
     custom += ''.join(f'<p class="rule"><b>{esc(n)}.</b> {esc(RULES["model"][n])}</p>' for n in u.get('rules', []) if n in PROFILE_RULES)
     return f'''<section class="profile">
-<table class="phead"><tr><td class="pname"><p>{title(u['name'])}</p><p>{esc(u['type'])}</p></td>
+<table class="phead"><tr><td class="pname"><p>{title(u['name'])}{unit_sub(u)}</p><p>{esc(u['type'])}</p></td>
 {stats}</tr></table>
 {kv('Composition:', composition(u))}
 {kv('Equipment:', equipment(u))}

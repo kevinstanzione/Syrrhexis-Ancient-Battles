@@ -6,6 +6,14 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## 0.32.0 — 2026-11-13
+
+### Names and pronunciation (all armies)
+- Every native unit name now has a pronunciation guide and a short description, e.g. **Nḫtw-ꜥ** — *NEKH-too AH · elite close-combat infantry*. Units known by an English name say so (the Immortals, the Sacred Band, the Companions, the Silver Shields, the Praetorian Guard, Eagle and Jaguar warriors, the Shorn Ones, the Foot Companions).
+- Every native weapon and armor name has a pronunciation guide next to its plain-English description.
+- **Builder:** shown under the unit name on its card and in the unit list, and under weapon names.
+- **Army Book:** small gray italic beside the unit name, and under each name in the weapon and armor tables. *How to Read a Profile* explains the respelling and the Egyptian, Hittite and Latin conventions.
+
 ## 0.31.5 — 2026-11-13
 
 ### Dynastic Egypt

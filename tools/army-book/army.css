@@ -176,3 +176,10 @@ table.wmhead > tbody > tr > td, table.wmhead > tr > td { background: none !impor
 table.wmhead td.g1 { width: 27%; } table.wmhead td.gap { width: 1.2%; } table.wmhead td.g2 { width: 71.8%; }
 .glab { font: 700 7.5pt 'Source Sans 3'; text-transform: uppercase; letter-spacing: .08em; color: var(--red); text-align: center; border-bottom: .8pt solid var(--red); margin-bottom: 2pt; padding-bottom: 1pt; white-space: nowrap; }
 table.wmhead table.stats { width: 100%; margin: 0; }
+
+/* Pronunciation and description beside unit names and under weapon and armor names */
+.profile td.pname span.say-unit { font: italic 400 9pt 'EB Garamond'; color: #6b6259; margin-left: 7pt; letter-spacing: .3pt; }
+.profile table.wtab .wsub, .profile table.atab .wsub { font: italic 400 6.5pt 'Source Sans 3'; color: #6b6259; line-height: 1.2; margin-top: 1pt; }
+.profile .say { white-space: nowrap; }
+.profile td.pname span.say-unit { white-space: nowrap; }
+.profile td.pname span.say-unit.desc-line { display: block; margin: 1pt 0 0; white-space: normal; }
