@@ -7812,7 +7812,7 @@ window.NHB_DATA = {
     "Kamanda": "lasso",
     "Sagaris": "battle-axe",
     "Dāça": "scythe blades",
-    "Spara": "wicker shield",
+    "Spara": "large wicker shield",
     "Dóry": "long spear",
     "Xíphos": "short sword",
     "Kopís": "curved chopping sword",

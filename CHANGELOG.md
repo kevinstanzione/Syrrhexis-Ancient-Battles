@@ -15,6 +15,7 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - Ichcahuipilli is now spelled Ichcahuīpīlli (both i's in huīpīlli are long).
 - War machine weapons (Oxybelḗs, Scorpiō Bolt, Carroballista Bolt) are described by their projectile instead of the machine: "heavy bolt" for the Oxybelḗs, "iron-headed bolt" for the Roman engines.
 - The Greek Sphendónē is described as a "lead-bullet sling".
+- The Spara is described as a "large wicker shield".
 - Raθā-Dāça: the Dāça ability now reads "2 Attacks, can only be used on Charge. Sunder (2)." The Army Book also moves any keyword tacked onto the end of an attack sentence into the keyword group.
 
 ### Army Book layout
