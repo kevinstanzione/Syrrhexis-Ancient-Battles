@@ -10,6 +10,7 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 
 ### Dynastic Egypt
 - Name fix: **Mnfyt** → **Mnfꜣt** (spearmen), the dictionary spelling of *mnfꜣ.t*, "infantry".
+- The Ḫpš is now described simply as a khopesh.
 
 ## 0.31.3 — 2026-11-13
 

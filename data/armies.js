@@ -7782,7 +7782,7 @@ window.NHB_DATA = {
     "Nsỉwt": "javelins",
     "Zft": "long sword",
     "ꜥb": "composite bow",
-    "Ḫpš": "khopesh, sickle sword",
+    "Ḫpš": "khopesh",
     "Mỉnb": "battle axe",
     "Ỉqḥw": "two-handed mace-axe",
     "Ḥrp": "long sword"
