@@ -121,8 +121,9 @@ img.art { display: block; width: 100%; margin: 2pt 0 8pt; }
 img.art-tall { margin-top: 0; }
 .profile { padding: 6pt 9pt 4pt; margin: 0 0 9pt; }
 .profile p.kv { font-size: 9.2pt; }
-.profile p.rule { font-size: 9pt; margin: 2pt 0 2pt; }
-.profile p.rule b { color: var(--red); }
+.profile div.rule { margin: 3pt 0 3pt; break-inside: avoid; }
+.profile div.rule p.rname { font-size: 9.2pt; font-weight: 600; color: var(--red); margin: 0; }
+.profile div.rule p.rtext { font-size: 9pt; margin: 0 0 0 70pt; text-align: left; }
 .profile table.wtab, .profile table.atab { margin: 4pt 0 3pt; }
 .profile table.wtab td:nth-child(n+2):nth-child(-n+4), .profile table.wtab th:nth-child(n+2):nth-child(-n+4) { text-align: center; }
 .profile table.wtab td:first-child, .profile table.atab td:first-child { width: 1.25in; }

@@ -19,6 +19,7 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 ### Army Book layout
 - A unit's pronunciation and description stay together: beside the name when the whole line fits (measured from the actual fonts), otherwise both on their own line between the name and the unit type. Long names such as Šukur.Tur Kaška no longer wrap.
 - That line is now a warm brown, distinct from the gray unit type (builder too).
+- Unit rules (e.g. Syrízousa Molybdís, Runners) print the rule name on its own line with the rule text indented beneath it, instead of running into the text after a period.
 
 ## Rulebook 0.3.6 — 2026-11-13
 

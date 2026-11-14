@@ -332,8 +332,10 @@ def profile(u):
     else:
         stats = f'''<td class="pstats"><table class="stats"><tr><th>Move</th><th>Training</th><th>Points</th></tr>
 <tr><td>{u['move']}</td><td>{u['training']}</td><td>{u['points']}</td></tr></table></td>'''
-    custom = ''.join(f'<p class="rule"><b>{esc(n)}.</b> {esc(t)}</p>' for n, t in (u.get('custom') or {}).items())
-    custom += ''.join(f'<p class="rule"><b>{esc(n)}.</b> {esc(RULES["model"][n])}</p>' for n in u.get('rules', []) if n in PROFILE_RULES)
+    # Unit rules: the name on its own line, the rule text beneath it, indented to the values column.
+    rule = lambda n, t: f'<div class="rule"><p class="rname">{esc(n)}</p><p class="rtext">{esc(t)}</p></div>'
+    custom = ''.join(rule(n, t) for n, t in (u.get('custom') or {}).items())
+    custom += ''.join(rule(n, RULES["model"][n]) for n in u.get('rules', []) if n in PROFILE_RULES)
     return f'''<section class="profile">
 <table class="phead"><tr><td class="pname"><p>{title(u['name'])}{unit_sub(u)}</p><p>{esc(u['type'])}</p></td>
 {stats}</tr></table>
