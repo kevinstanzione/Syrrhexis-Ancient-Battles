@@ -297,15 +297,28 @@ def armor_table(u):
             + ''.join(rows) + '</table>')
 
 
+_FONTS = os.path.join(ROOT, 'tools', 'fonts')
+
+
+def _text_w(s, font, pt, spacing=0.0):
+    """Width of s in points, measured from the book's own font files."""
+    from PIL import ImageFont
+    f = ImageFont.truetype(os.path.join(_FONTS, font), 1000)
+    return f.getlength(s) * pt / 1000 + spacing * len(s)
+
+
 def unit_sub(u):
-    """Beside the unit's name: pronunciation · description, small and gray."""
+    """Pronunciation · description, small and gray: beside the unit's name when the whole line fits,
+    otherwise together on their own line between the name and the unit type (never split apart)."""
     say, desc = say_of(u['name']), u.get('desc', '')
     if not (say or desc):
         return ''
-    # Too long to share the name's line: the description drops to its own line instead of wrapping mid-phrase.
-    if say and desc and len(u['name']) + len(say) + len(desc) > 58:
-        return f'<span class="say-unit">{esc(say)}</span><span class="say-unit desc-line">{esc(desc)}</span>'
-    return f'<span class="say-unit">{" · ".join(esc(x) for x in (say, desc) if x)}</span>'
+    sub = ' · '.join(x for x in (say, desc) if x)
+    avail = (6.75 - (3.4 if u.get('engine') else 2.4)) * 72 - 12       # name column, less a safety margin
+    name_w = _text_w(u['name'], 'Cinzel-700.ttf', 13)
+    sub_w = 7 + _text_w(sub, 'EBGaramond-Italic-400.ttf', 9, 0.3)
+    cls = 'say-unit' if name_w + sub_w <= avail else 'say-unit desc-line'
+    return f'<span class="{cls}">{esc(sub)}</span>'
 
 
 def profile(u):

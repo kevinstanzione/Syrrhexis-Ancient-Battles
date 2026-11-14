@@ -6,6 +6,15 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## 0.32.1 — 2026-11-13
+
+### Unit descriptions
+- Reworded: Eren (shieldbearers and spearmen), Šub-lugal (studded cape spearmen), Guruš (simple levy warriors), Pḥrrw (chariot support), Snnyw and Wrrywt (chariot archers), Ḏꜣmw (levy recruits), Ssmtyw (javelin-armed horsemen), Sparabārā (shieldbearers and archers), Kardakā (armored levy infantry), Takabārā (light levy infantry), Hoplîtai Retinue (the general’s hoplites), Sphendonêtai (expert slingers), Thureophóroi (medium infantry with spears and javelins), Oxybeleîs (light bolt-thrower), Lēgiōnāriī Retinue (the legate’s personal legionaries), Explōrātōrēs (long-range scouts), Nam.Ra (resettled captive levy).
+
+### Army Book layout
+- A unit's pronunciation and description stay together: beside the name when the whole line fits (measured from the actual fonts), otherwise both on their own line between the name and the unit type. Long names such as Šukur.Tur Kaška no longer wrap.
+- That line is now a warm brown, distinct from the gray unit type (builder too).
+
 ## Rulebook 0.3.6 — 2026-11-13
 
 - **Army Lists** chapter now lists the armies in the same order as the Army Book (oldest first). Armies not yet in the Army Book are slotted in by period.

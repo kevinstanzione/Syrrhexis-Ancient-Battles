@@ -178,7 +178,7 @@ table.wmhead td.g1 { width: 27%; } table.wmhead td.gap { width: 1.2%; } table.wm
 table.wmhead table.stats { width: 100%; margin: 0; }
 
 /* Pronunciation and description beside unit names and under weapon and armor names */
-.profile td.pname span.say-unit { font: italic 400 9pt 'EB Garamond'; color: #6b6259; margin-left: 7pt; letter-spacing: .3pt; }
+.profile td.pname span.say-unit { font: italic 400 9pt 'EB Garamond'; color: #8a6a45; margin-left: 7pt; letter-spacing: .3pt; }
 .profile table.wtab .wsub, .profile table.atab .wsub { font: italic 400 6.5pt 'Source Sans 3'; color: #6b6259; line-height: 1.2; margin-top: 1pt; }
 .profile .say { white-space: nowrap; }
 .profile td.pname span.say-unit { white-space: nowrap; }
