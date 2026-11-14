@@ -14,6 +14,7 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 ### Names
 - Ichcahuipilli is now spelled Ichcahuīpīlli (both i's in huīpīlli are long).
 - War machine weapons (Oxybelḗs, Scorpiō Bolt, Carroballista Bolt) are described by their projectile instead of the machine: "heavy bolt" for the Oxybelḗs, "iron-headed bolt" for the Roman engines.
+- The Greek Sphendónē is described as a "lead-bullet sling".
 
 ### Army Book layout
 - A unit's pronunciation and description stay together: beside the name when the whole line fits (measured from the actual fonts), otherwise both on their own line between the name and the unit type. Long names such as Šukur.Tur Kaška no longer wrap.

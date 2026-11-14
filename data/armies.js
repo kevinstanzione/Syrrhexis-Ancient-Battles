@@ -7820,7 +7820,7 @@ window.NHB_DATA = {
     "Akóntion": "javelins",
     "Encheirídion": "dagger",
     "Tóxon": "bow",
-    "Sphendónē": "sling",
+    "Sphendónē": "lead-bullet sling",
     "Pīlum": "heavy javelin",
     "Lancea": "light javelins",
     "Hasta": "thrusting spear",
