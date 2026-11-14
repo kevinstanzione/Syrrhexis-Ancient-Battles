@@ -9,7 +9,7 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 ## 0.31.5 — 2026-11-13
 
 ### Dynastic Egypt
-- The Nḫtw-ꜥ's **Ỉqḥw** is described as a mace-axe everywhere (the Options line said battle-axe), and the **Mỉnb** as an axe (the weapon table said battle axe). Its option now reads as its own sentence: replace Ḫpš khopesh and Shield with Ỉqḥw mace-axe.
+- The Nḫtw-ꜥ's **Ỉqḥw** is described as a mace-axe everywhere (the Options line said battle-axe), and the **Mỉnb** as an axe (the weapon table said battle axe). The Ỉqḥw option now reads as its own sentence: replace Ḫpš khopesh and Shield with Ỉqḥw mace-axe.
 
 ### Builder
 - A swap choice that also gives up another item says so in the dropdown, e.g. "Ỉqḥw mace-axe (replaces Shield)".
