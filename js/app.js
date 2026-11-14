@@ -136,7 +136,7 @@
       if (o.kind === "swap") {
         return `<div class="field"><label class="label" for="sw-${sel.uid}-${oi}">${esc(o.label)}</label>
           <select id="sw-${sel.uid}-${oi}" data-act="swap" data-i="${idx}" data-o="${oi}">${o.choices.map((c, ci) =>
-            `<option value="${ci}" ${ci === ((sel.swaps || {})[oi] || 0) ? "selected" : ""}>${esc(c.name)}${c.c ? ` (+${c.c}/model)` : ""}</option>`).join("")}</select></div>`;
+            `<option value="${ci}" ${ci === ((sel.swaps || {})[oi] || 0) ? "selected" : ""}>${esc(c.name)}${c.also ? ` (replaces ${esc(c.also)})` : ""}${c.c ? ` (+${c.c}/model)` : ""}</option>`).join("")}</select></div>`;
       }
       if (o.kind === "count") {
         const n = NHB.models(u, sel), k = Math.min(n, (sel.counts || {})[oi] || 0);

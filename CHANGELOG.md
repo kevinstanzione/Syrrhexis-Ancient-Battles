@@ -6,6 +6,14 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## 0.31.5 — 2026-11-13
+
+### Dynastic Egypt
+- The Nḫtw-ꜥ's **Ỉqḥw** is described as a mace-axe everywhere (the Options line said battle-axe), and the **Mỉnb** as an axe (the weapon table said battle axe). Its option now reads as its own sentence: replace Ḫpš khopesh and Shield with Ỉqḥw mace-axe.
+
+### Builder
+- A swap choice that also gives up another item says so in the dropdown, e.g. "Ỉqḥw mace-axe (replaces Shield)".
+
 ## 0.31.4 — 2026-11-13
 
 ### Dynastic Egypt

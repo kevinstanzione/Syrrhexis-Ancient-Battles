@@ -185,11 +185,16 @@ def options(u):
         k = o['kind']
         if k == 'swap':
             ch = o['choices']
-            alts = [f"{ital(c['name'], u)} {per_model(c['c'], u)}" for c in ch[1:]]
+            alts = [f"{ital(c['name'], u)} {per_model(c['c'], u)}" for c in ch[1:] if not c.get('also')]
+            # A choice with "also" replaces more than the default (e.g. a two-handed weapon that also replaces
+            # the Shield), so it gets its own sentence: "Replace X and Shield with Y (free)".
+            extra = [f"Replace {ital(ch[0]['name'], u)} and {esc(c['also'])} with {ital(c['name'], u)} {per_model(c['c'], u)}"
+                     for c in ch[1:] if c.get('also')]
             if ch[0]['name'].lower().startswith('no '):
                 out.append(f"{ital(o['label'], u)}: may take {join_or(alts)}")
-            else:
+            elif alts:
                 out.append(f"{ital(o['label'], u)}: replace {ital(ch[0]['name'], u)} with {join_or(alts)}")
+            out += extra
         elif k == 'count':
             out.append(f"Any model may take {ital(o['label'], u)} {per_model(o['c'], u)}")
         elif k == 'add':

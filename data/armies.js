@@ -1,7 +1,7 @@
 // Syrrhēxis army data. Edit the values below; keep the first line as is.
 window.NHB_DATA = {
   "meta": {
-    "version": "0.31.4",
+    "version": "0.31.5",
     "synced": "2026-10-22",
     "sources": {
       "Hittite Empire Army": "1aqMPs2Pi5car6pUzcuWmHXArGss_RZdkgATe5OsbVrw",
@@ -870,7 +870,8 @@ window.NHB_DATA = {
                   "shield": "Shield"
                 },
                 {
-                  "name": "Ỉqḥw battle-axe (two-handed; replaces Shield)",
+                  "name": "Ỉqḥw mace-axe",
+                "also": "Shield",
                   "w": [
                     "Ỉqḥw"
                   ],
@@ -7783,7 +7784,7 @@ window.NHB_DATA = {
     "Zft": "long sword",
     "ꜥb": "composite bow",
     "Ḫpš": "khopesh",
-    "Mỉnb": "battle axe",
+    "Mỉnb": "axe",
     "Ỉqḥw": "two-handed mace-axe",
     "Ḥrp": "long sword"
   },
