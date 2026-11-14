@@ -339,8 +339,10 @@ def profile(u):
     else:
         stats = f'''<td class="pstats"><table class="stats"><tr><th>Move</th><th>Training</th><th>Points</th></tr>
 <tr><td>{u['move']}</td><td>{u['training']}</td><td>{u['points']}</td></tr></table></td>'''
-    # Unit rules: the name on its own line, the rule text beneath it, indented to the values column.
-    rule = lambda n, t: f'<div class="rule"><p class="rname">{esc(n)}</p><p class="rtext">{esc(t)}</p></div>'
+    # Unit rules: laid out like the Composition/Equipment rows, the name in the label column and the text beside it.
+    # Names wider than the label column get a small gap before the text instead.
+    long = lambda n: ' long' if _text_w(n, 'EBGaramond-600.ttf', 9.2) > 65 else ''
+    rule = lambda n, t: f'<p class="rule"><span class="rname{long(n)}">{esc(n)}</span>{esc(t)}</p>'
     custom = ''.join(rule(n, t) for n, t in (u.get('custom') or {}).items())
     custom += ''.join(rule(n, RULES["model"][n]) for n in u.get('rules', []) if n in PROFILE_RULES)
     return f'''<section class="profile">
