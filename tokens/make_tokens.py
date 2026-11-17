@@ -6,7 +6,7 @@ print still reads at a glance. The edge is slightly uneven like hand-pinched cla
 stamped into the face like a seal, and shallow cracks run in from the edge, stopping short of the lettering.
 
 Suggested colours (filament or paint): Accuracy ochre #C49A5E, Strength terracotta #A4502F,
-Training dark umber #5E4632, with a dark wash (or a light slip on the umber) in the stamped letters.
+Training dark umber #5E4632. Letters: dark wash on the ochre, light bone slip #E8DCC0 on the terracotta and umber.
 """
 import math, os, random
 from manifold3d import CrossSection, Manifold, FillRule

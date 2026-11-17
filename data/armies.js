@@ -8625,7 +8625,7 @@ window.NHB_DATA = {
         "weapons": {
           "Aġeġn": [
             "28”",
-            "6",
+            "5",
             "5",
             "Direct Fire, Unwieldy (1), Sunder (1)"
           ],

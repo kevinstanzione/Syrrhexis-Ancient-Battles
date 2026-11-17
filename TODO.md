@@ -52,7 +52,7 @@ Done 2026-11-05: First Blood row, Strength table order, matching Armor Save tabl
 - Done 0.28.0: Kushite Archers left the general mercenary pool and became the Kush Pḏtyw; King of Kings still offers them (merc copy marked cardOnly). The full card waits on the Mauryan, Egypt and Assyria lists.
 
 ## Playtest watch (Unwieldy)
-- 0.33.0: Open Order Unwieldy now also gives -X Accuracy when the unit moved or turned that activation. Carduchians compensated (+1); Kush Pḏtyw and Šmsw Retinue and the Pródromoi were not. Watch whether the Kush archers need +1 too.
+- 0.33.0: Open Order Unwieldy now also gives -X Accuracy when the unit moved or turned that activation. No compensation for anyone (Carduchian bow stays Accuracy 5). Watch the Kush Pḏtyw and Šmsw Retinue, the Pródromoi and the Carduchians.
 
 ## Future army notes
 - **Mauryan Empire — Gajādhyakṣa** (Superintendent of Elephants, from the Arthaśāstra), Mauryan Retinue units only: this unit may Rally friendly Elephant units within 12” as if it were an Elephant unit; 18” if it includes a Commander. A Commander is not required.
