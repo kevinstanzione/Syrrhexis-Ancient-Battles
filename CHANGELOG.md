@@ -25,10 +25,18 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - New **Corner Marker** STL (trays/), a 90° L for About Face.
 - New **Penalty tokens** (tokens/): cracked clay tablets with stamped lettering (dark wash on ochre, light slip on terracotta and umber); Accuracy (round, ochre), Strength (square, terracotta) and Training (hexagon, umber), in -1 and -2.
 
-## Rulebook 0.3.7 — 2026-11-17
+## Rulebook 0.3.8 — 2026-11-17
 
 - Unwieldy (X): Open Order units that moved or turned also take -X Accuracy with the Unwieldy weapon.
 - Firing Angle: the Turn Template can be used to check the 45° edge of a Closed Order unit's firing arc.
+
+## 0.32.2 and Rulebook 0.3.7 — 2026-11-14
+
+- **Testūdō** and Marshes: the Marsh restriction now lives in the Roman Testūdō rule ("Testūdō cannot be used while the unit is within a Marsh") instead of the Terrain chapter's list of negated abilities, which keeps only general special rules.
+- **Major Terrain Types** reordered from simplest to most complex: Sand, Stony Plain, Marsh. Surefooted (X) lists the types in the same order.
+- **Stony Plain** now also negates Momentum. **Marsh** now also negates Evasion and Momentum.
+- **Surefooted**: within terrain it is Surefooted in, a unit keeps Evasion, Feign Charge and Feign Retreat even if that terrain would negate them.
+- **Quimichtin** (Aztec) gain Surefooted as a base rule; 9 → 10 points per model.
 
 ## 0.32.1 — 2026-11-13
 

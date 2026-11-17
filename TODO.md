@@ -54,6 +54,9 @@ Done 2026-11-05: First Blood row, Strength table order, matching Armor Save tabl
 ## Playtest watch (Unwieldy)
 - 0.33.0: Open Order Unwieldy now also gives -X Accuracy when the unit moved or turned that activation. No compensation for anyone (Carduchian bow stays Accuracy 5). Watch the Kush Pḏtyw and Šmsw Retinue, the Pródromoi and the Carduchians.
 
+## Maybe
+- Maybe: a fourth Major Terrain type, **Woodland** (open woods). Sketch: Difficult Terrain; Light Cover for units within; line of fire up to ~6” into it but not through; Closed Order units lose Collision and Phalanx; Chariots and Warmachines can't enter; Elephants gain Break Tokens as in a Marsh; Ambush units may deploy in it. Would give Surefooted (Woodland) a skirmisher identity.
+
 ## Future army notes
 - **Mauryan Empire — Gajādhyakṣa** (Superintendent of Elephants, from the Arthaśāstra), Mauryan Retinue units only: this unit may Rally friendly Elephant units within 12” as if it were an Elephant unit; 18” if it includes a Commander. A Commander is not required.
 - **Hannibal's Forces — Mallet and Chisel** (on the Carthaginian elephant unit itself; Livy on Hasdrubal at the Metaurus): when this unit would become Furious, you may instead destroy it. You lose only half its Army Morale Contribution.
