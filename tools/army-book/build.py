@@ -203,10 +203,13 @@ def options(u):
             # the Shield), so it gets its own sentence: "Replace X and Shield with Y (free)".
             extra = [f"Replace {ital(ch[0]['name'], u)} and {esc(c['also'])} with {ital(c['name'], u)} {per_model(c['c'], u)}"
                      for c in ch[1:] if c.get('also')]
+            # The generic "Weapon" label is dropped ("Replace X with Y"); specific labels stay ("Sidearm: replace ...").
+            lead = '' if o['label'] == 'Weapon' else f"{ital(o['label'], u)}: "
+            cap = (lambda t: t[0].upper() + t[1:]) if not lead else (lambda t: t)
             if ch[0]['name'].lower().startswith('no '):
-                out.append(f"{ital(o['label'], u)}: may take {join_or(alts)}")
+                out.append(lead + cap(f"may take {join_or(alts)}"))
             elif alts:
-                out.append(f"{ital(o['label'], u)}: replace {ital(ch[0]['name'], u)} with {join_or(alts)}")
+                out.append(lead + cap(f"replace {ital(ch[0]['name'], u)} with {join_or(alts)}"))
             out += extra
         elif k == 'count':
             out.append(f"Any model may take {ital(o['label'], u)} {per_model(o['c'], u)}")

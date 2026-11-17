@@ -6,6 +6,29 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## 0.33.0 — 2026-11-17
+
+### Rules
+- **Unwieldy (X)** in Open Order: besides -X Move, the unit now suffers -X Accuracy on attacks with the Unwieldy weapon (armor gives no Accuracy penalty). Affects the Carduchian Tribesmen, Kush Pḏtyw and Šmsw Retinue, and the Pródromoi.
+- Carduchian Tribesmen: Aġeġn bow Accuracy 5 → 6, so they stay where they were.
+
+### Command cards
+- **King of Kings** can now take Mnfꜣt (Egyptian spearmen) from the Dynastic Egypt list. Units borrowed from other army lists always gain the Mercenary rule (the builder now enforces this for every card except Lord of Asia).
+
+### Builder
+- Units taken through Lord of Asia no longer show "Mercenary ·" on their card in the editor.
+
+### Army Book
+- Options drop the generic "Weapon:" label ("Replace X with Y"); specific labels such as "Sidearm:" stay.
+
+### Printables
+- New **Corner Marker** STL (trays/), a 90° L for About Face.
+- New **Penalty tokens** (tokens/): Accuracy (round), Strength (square) and Training (hexagon), in -1 and -2.
+
+## Rulebook 0.3.7 — 2026-11-17
+
+- Unwieldy (X): Open Order units also take -X Accuracy with the Unwieldy weapon.
+
 ## 0.32.1 — 2026-11-13
 
 ### Unit descriptions

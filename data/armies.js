@@ -1,7 +1,7 @@
 // Syrrhēxis army data. Edit the values below; keep the first line as is.
 window.NHB_DATA = {
   "meta": {
-    "version": "0.32.1",
+    "version": "0.33.0",
     "synced": "2026-10-22",
     "sources": {
       "Hittite Empire Army": "1aqMPs2Pi5car6pUzcuWmHXArGss_RZdkgATe5OsbVrw",
@@ -8625,7 +8625,7 @@ window.NHB_DATA = {
         "weapons": {
           "Aġeġn": [
             "28”",
-            "5",
+            "6",
             "5",
             "Direct Fire, Unwieldy (1), Sunder (1)"
           ],
@@ -8815,6 +8815,105 @@ window.NHB_DATA = {
             "6",
             "4",
             "Direct Fire, Unwieldy (1)"
+          ],
+          "Bꜣgsw": [
+            "1",
+            "6",
+            "5",
+            ""
+          ]
+        },
+        "cardOnly": true
+      },
+      {
+        "id": "egyptian-spearmen",
+        "name": "Mnfꜣt",
+        "type": "Warrior",
+        "desc": "Egyptian spearmen",
+        "move": 6,
+        "training": 5,
+        "points": 11,
+        "comps": [
+          [
+            4,
+            5
+          ],
+          [
+            3,
+            5
+          ]
+        ],
+        "equip": [
+          "Nỉwy"
+        ],
+        "gear": [
+          "Bꜣgsw"
+        ],
+        "body": null,
+        "shield": "Shield",
+        "opts": [
+          {
+            "label": "Weapon",
+            "kind": "swap",
+            "choices": [
+              {
+                "name": "Nỉwy spear",
+                "w": [
+                  "Nỉwy"
+                ],
+                "c": 0
+              },
+              {
+                "name": "Ḫpš khopesh",
+                "w": [
+                  "Ḫpš"
+                ],
+                "c": 0
+              }
+            ]
+          }
+        ],
+        "chars": [
+          {
+            "one": [
+              [
+                "Lead Captain",
+                5
+              ]
+            ]
+          },
+          {
+            "one": [
+              [
+                "Standard Bearer",
+                8
+              ]
+            ]
+          },
+          {
+            "one": [
+              [
+                "Musician",
+                5
+              ]
+            ]
+          }
+        ],
+        "rules": [
+          "Mercenary"
+        ],
+        "weapons": {
+          "Nỉwy": [
+            "8",
+            "5",
+            "5",
+            "Reach (1)"
+          ],
+          "Ḫpš": [
+            "3",
+            "5",
+            "5",
+            "Sunder (1) against units with a Shield"
           ],
           "Bꜣgsw": [
             "1",
@@ -9586,9 +9685,10 @@ window.NHB_DATA = {
         "nabatean-skirmishers",
         "greek-hoplites",
         "scythian-archers",
-        "kushite-archers"
+        "kushite-archers",
+        "egyptian-spearmen"
       ],
-      "text": "Your army may include 2 units chosen from Arabian Camel Riders, Greek Hoplites and Scythian Archers from the Supplemental Mercenaries list, and Pḏtyw (Kushite archers) from the Kingdom of Kush list. Units taken this way have the Mercenary rule.",
+      "text": "Your army may include 2 units chosen from Arabian Camel Riders, Greek Hoplites and Scythian Archers from the Supplemental Mercenaries list, Pḏtyw (Kushite archers) from the Kingdom of Kush list and Mnfꜣt (Egyptian spearmen) from the Dynastic Egypt list. Units taken this way have the Mercenary rule.",
       "note": "If you take a mercenary unit through this card, this card must be one of the 3 cards in your hand.",
       "flavor": "Conquered kings send their warriors to serve the throne."
     },

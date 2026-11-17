@@ -172,7 +172,7 @@
     const isOpen = openCards.has(sel.uid);
     const head = `<div class="card-head">
         <button class="expander" data-act="expand" data-uid="${sel.uid}" aria-expanded="${isOpen}" aria-label="${isOpen ? "Collapse" : "Expand"} ${esc(u.name)}">${isOpen ? "−" : "+"}</button>
-        <div class="card-title"><h3>${esc(u.name)}</h3>${unitSub(u) ? `<div class="usay">${unitSub(u)}</div>` : ""}<div class="type">${sel.src === "mercs" ? "Mercenary · " : ""}${esc(u.type)} · ${esc(sizeText(x))} · ${u.engine ? `${u.engine} + ${u.points}/Engineer` : `${u.points}/model`}</div></div>
+        <div class="card-title"><h3>${esc(u.name)}</h3>${unitSub(u) ? `<div class="usay">${unitSub(u)}</div>` : ""}<div class="type">${x.rules.includes("Mercenary") ? "Mercenary · " : ""}${esc(u.type)} · ${esc(sizeText(x))} · ${u.engine ? `${u.engine} + ${u.points}/Engineer` : `${u.points}/model`}</div></div>
         <div class="card-pts">${x.pts} pts</div></div>`;
     if (!isOpen) {
       return `<article class="card ${x.warn.length ? "bad" : ""}">${head}<div class="chips">${chips}</div></article>`;

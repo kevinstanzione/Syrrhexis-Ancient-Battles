@@ -8,11 +8,10 @@
 
 ### Rulebook corrections (Kevin's read-through, 2026-11-04)
 Done 2026-11-05: First Blood row, Strength table order, matching Armor Save tables; Walls diagram, Who Attacks Collision labels, Break Tokens visual, Scout and Ambush label; Aim and the Shooting Modifiers rework, "see X" links, Evasion flavour, Unwieldy styling, Activation Phase bold, End of the Round placement, Cohesion note, Stony Plain Strength 6, and the diagram fixes (Battlefield, Turning, Charge Arcs, Path and Bumping, Charge Fails, both Pile In, Firing Angle).
-Still to do:
 
 ## Tokens and templates
-- Design Strength, Accuracy and Training (leadership) Penalty tokens (noted 2026-11-11). Splitting a Unit copies the parent's tokens onto every new unit, so a set needs enough of each.
-- Corner Marker: a small 90° template that marks a tray's footprint for About Face (added 2026-11-11). Make an STL to go with the Turn Template.
+- Penalty tokens: first draft in tokens/ (2026-11-17; round Accuracy, square Strength, hexagon Training, -1 and -2). Restyle as cracked clay tablets in earthen colors to set them apart from the metal-coin Action tokens. Splitting a Unit copies the parent's tokens onto every new unit, so a set needs enough of each.
+- Corner Marker STL done 2026-11-17 (trays/make_corner_marker.py).
 
 ## Terrain bases (3D print)
 - Generator done: terrain/make_bases.py writes exact-size plates to terrain/stl (Monument 2x2", Watchtower 3x3", wall 8x1/2" or two 4" halves, Rolling Wagons 40x60mm, Flaming Pigs 25mm round). Large terrain and Major Terrain use felt, so no bases.
@@ -38,22 +37,22 @@ Still to do:
 
 ## Dynastic Egypt
 - Built in 0.29.0 (9 units, New Kingdom c. 1550–1070 BC); 5 Command cards in 0.30.0 (Amun My Father, The Aruna Road, Shoot in Ranks, Snapping the Nine Bows, Trumpets of the Divisions).
-- Names checked 2026-11-13 (0.31.2) and logged in the Reconstructed Names Reference doc: Snnw → Snnyw, Ḫrp → Ḥrp (AED: ḥrp "dagger; short sword", Semitic loan; note it is a short sword in the dictionary), mace-axe → Ỉqḥw (jqḥw "battle axe"), Nsjwt → Nsỉwt (Wb 2, 324.17 nswt, variant nsjwt). ꜥb confirmed as the technical term for the composite bow. Styw kept on purpose (constructed from stj "to shoot"; the Nubians are Stjw, with j). Still to check against the TLA: Mnfyt, Nḫtw-ꜥ, Nfrw, Pḥrrw, Bꜣgsw, Mỉnb, Pr-ꜥꜣ. The names doc has no Kush section yet beyond the old Kushite Archers entries.
-- King of Kings: the planned "Egyptians" are Late Period marines, which the New Kingdom list doesn't cover. Decide whether the Mnfꜣt stand in or the card gets its own borrowed profile.
+- Names checked 2026-11-13 (0.31.2) and logged in the Reconstructed Names Reference doc: Snnw → Snnyw, Ḫrp → Ḥrp (AED: ḥrp "dagger; short sword", Semitic loan; note it is a short sword in the dictionary), mace-axe → Ỉqḥw (jqḥw "battle axe"), Nsjwt → Nsỉwt (Wb 2, 324.17 nswt, variant nsjwt). ꜥb confirmed as the technical term for the composite bow. Styw kept on purpose (constructed from stj "to shoot"; the Nubians are Stjw, with j). Checked 2026-11-17 against the TLA word list (aed-tei dictionary.xml): mnfꜣ.t "infantry" (Wb 2, 80.1-5), nḫt-ꜥ "strong one" (FCD 138), nfr.w "recruits" (Wb 2, 258.1-3), pḥrr "runner" (Wb 1, 541.14-18), bꜣgs.w "dagger" (Wb 1, 432.4-5), mjnb "axe" (Wb 2, 44.7-8), pr-ꜥꜣ "palace; pharaoh" (Wb 1, 516.2-12). All fine; add them to the names doc. The names doc has no Kush section yet beyond the old Kushite Archers entries.
+- King of Kings: Mnfꜣt stand in for the Egyptians (added 0.33.0).
 - Playtest pricing: Snnw (45), Pr-ꜥꜣ Retinue (55 × 3 chariots, discounted retinue characters), Šrdn (16).
 
 ## Armies of Alexander
 - Built in 0.23.0 (13 units); 6 Command cards as of 0.25.0 (Émbolon, Lord of Asia, Oblique Advance, Aristander's Eagle, Ipsus, Synaspismós). Playtest pricing, especially Pezhétairoi (15), Argyráspides (19), Eléphantes (100) and Thureophóroi (12).
 - Idea for later: Ptolemaic African forest elephants (smaller, Elephant Strength 7, cheaper). Conflicts with the no-negative-cost rule, so it would need its own profile.
-- Builder: units taken through Lord of Asia still show "Mercenary ·" on their card in the editor (the printed list drops the rule correctly).
 
 ## King of Kings rework (Persia, planned)
 - Pulls units from other army lists, not just the mercenary pool: 4 from Supplemental Mercenaries (Arabian Camel Riders, Greek Hoplites, Scythian Archers, Cretan Archers) + 4 from other lists (Indian elephants from the Mauryan list, replacing the Pīrū; Kushite archers from the Kush list; Egyptians; Assyrians). Borrowed units gain Mercenary. No surcharge for now. Still to confirm: still 2 units per card? Elephants come from the Mauryan (Indian) list, not the Successor list: no tower.
 - Starter list saved in tools/army-book/drafts/mauryan.json (not in the builder or Army Book yet): holds the Pīrū (Old Persian names to rename to Sanskrit) without the Mercenary rule. The live Persian Pīrū stays until the King of Kings rework goes live.
+- Done 0.33.0: Mnfꜣt added as the card-only Egyptian unit; the builder gives Mercenary to any unit taken through a card other than Lord of Asia. Still waiting on the Mauryan and Assyria lists (and Cretan Archers to be added).
 - Done 0.28.0: Kushite Archers left the general mercenary pool and became the Kush Pḏtyw; King of Kings still offers them (merc copy marked cardOnly). The full card waits on the Mauryan, Egypt and Assyria lists.
 
-## Rules to decide
-- Unwieldy (X) for Open Order units (leaning yes): keep -X Move and add -X Accuracy with the Unwieldy weapon. Raised by the Pródromoi riding 8-wide in Open Order. If adopted, give the Carduchian Aġeġn bow +1 base Accuracy so they stay where they are.
+## Playtest watch (Unwieldy)
+- 0.33.0: Open Order Unwieldy now also gives -X Accuracy. Carduchians compensated (+1); Kush Pḏtyw and Šmsw Retinue and the Pródromoi were not. Watch whether the Kush archers need +1 too.
 
 ## Future army notes
 - **Mauryan Empire — Gajādhyakṣa** (Superintendent of Elephants, from the Arthaśāstra), Mauryan Retinue units only: this unit may Rally friendly Elephant units within 12” as if it were an Elephant unit; 18” if it includes a Commander. A Commander is not required.
@@ -93,4 +92,5 @@ Still to do:
 - Chariots (empty, strict side profile facing right, pole and yoke but no horses, harness or crew): Anše.Kur.Ra Ḫatti, Anše.Kur.Ra Mittanni, Raθā, Raθā-Dāça, Raθā Retinue (royal), Egyptian, Assyrian (light), Assyrian royal (heavy 4-horse with parasol), Sumerian battle wagon, Sumerian straddle car, Celtic, Qin, Mauryan. Prompts were drafted in chat on 2026-10-28; same style prompt as the spears.
 - Style for all spreads: black and white ink, fine pen linework with cross-hatching, plain white background, no text; one item per image; avoid the words "butt" and "shaft" (ChatGPT's filter flags them), use "ferrule"/"end spike" and "pole".
 
+## Notes
 - Hittite unit names: Giš.Ban Ḫatti and Šukur.Tur Ḫatti are constructed ("bows/javelins of Hatti", after the way chariotry is written as "horses"); the others are attested terms or real peoples.

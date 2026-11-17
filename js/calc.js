@@ -318,11 +318,13 @@ window.NHB = (function () {
       if (!slots.length) armyWarn.push(`Mercenary units need a mercenary Command card in your deck (you have ${mercIds.length})`);
       else if (mercIds.length > slots.length) armyWarn.push(`Your Command deck allows ${slots.length} mercenary unit${slots.length > 1 ? "s" : ""} (you have ${mercIds.length})`);
       else if (!fit.ok) armyWarn.push(`No mercenary Command card in your deck has room for ${[...new Set(fit.unplaced.map(mercName))].join(", ")}`);
-      // Units placed in a slot from a card like Lord of Asia fight without the Mercenary rule.
+      // Units placed in a slot from a card like Lord of Asia fight without the Mercenary rule; every other
+      // card (e.g. King of Kings, which borrows units from other army lists) always gives them Mercenary.
       const mercUnits = units.filter(x => x.sel.src === "mercs");
       fit.owner.forEach((i, s) => {
-        if (i < 0 || !slots[s].dropMercenary) return;
+        if (i < 0) return;
         const x = mercUnits[i];
+        if (!slots[s].dropMercenary) { if (!x.rules.includes("Mercenary")) x.rules = x.rules.concat("Mercenary"); return; }
         x.rules = x.rules.filter(r => r !== "Mercenary");
         x.viaCard = slots[s].name;
       });
@@ -335,4 +337,4 @@ window.NHB = (function () {
   const charMorale = (name, t) => CHAR_MORALE[name] ? CHAR_MORALE[name](t) : 0;
   return { mercSlots, mercFit, charMorale, armorDef, models, ranksFiles, loadout, armor, health, unitStrength, points, morale, armyMorale, moveValue, activeRules, chosenChars, warnings, summarize, saveFor, isOpen, CLOSED_ONLY, RETINUE };
 })();
-if (typeof module !== "undefined") module.exports = NHB;
+if (typeof module !== "undefined") module.exports = window.NHB;

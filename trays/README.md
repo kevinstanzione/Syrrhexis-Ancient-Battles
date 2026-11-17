@@ -33,3 +33,7 @@ To regenerate after army changes: `pip install trimesh manifold3d`, then `python
 ## Turn Template
 
 [Turn_Template_135deg_3.5in.stl](stl/Turn_Template_135deg_3.5in.stl): two 3.5" arms meeting at 135°, 2.5 mm thick, with inch ticks along the inner edges. Put its corner at a front corner of a tray with the front edge against one arm; after a full 45° turn backwards, the tray's flank is flush with the other arm. Built by `python trays/make_turn_template.py`.
+
+## Corner Marker
+
+[Corner_Marker_90deg.stl](stl/Corner_Marker_90deg.stl): a small 90° L, 30 mm inner edges, 8 mm wide, 2.5 mm thick. For About Face, set its inside corner against one corner of the tray, turn the tray 180°, and set it back down with the opposite corner in the marker. Built by `python trays/make_corner_marker.py`.
