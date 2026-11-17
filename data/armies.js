@@ -7549,7 +7549,7 @@ window.NHB_DATA = {
           "desc": "spies and scouts",
           "move": 7,
           "training": 7,
-          "points": 9,
+          "points": 10,
           "range": [
             4,
             8
@@ -7591,6 +7591,7 @@ window.NHB_DATA = {
           "chars": [],
           "rules": [
             "Scout",
+            "Surefooted",
             "Mixed Unit"
           ],
           "custom": {

@@ -10,6 +10,9 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 
 - **Testūdō** and Marshes: the Marsh restriction now lives in the Roman Testūdō rule ("Testūdō cannot be used while the unit is within a Marsh") instead of the Terrain chapter's list of negated abilities, which keeps only general special rules.
 - **Major Terrain Types** reordered from simplest to most complex: Sand, Stony Plain, Marsh. Surefooted (X) lists the types in the same order.
+- **Stony Plain** now also negates Momentum. **Marsh** now also negates Evasion and Momentum.
+- **Surefooted**: within terrain it is Surefooted in, a unit keeps Evasion, Feign Charge and Feign Retreat even if that terrain would negate them.
+- **Quimichtin** (Aztec) gain Surefooted as a base rule; 9 → 10 points per model.
 
 ## 0.32.1 — 2026-11-13
 

@@ -54,6 +54,7 @@ Still to do:
 
 ## Rules to decide
 - Unwieldy (X) for Open Order units (leaning yes): keep -X Move and add -X Accuracy with the Unwieldy weapon. Raised by the Pródromoi riding 8-wide in Open Order. If adopted, give the Carduchian Aġeġn bow +1 base Accuracy so they stay where they are.
+- Maybe: a fourth Major Terrain type, **Woodland** (open woods). Sketch: Difficult Terrain; Light Cover for units within; line of fire up to ~6” into it but not through; Closed Order units lose Collision and Phalanx; Chariots and Warmachines can't enter; Elephants gain Break Tokens as in a Marsh; Ambush units may deploy in it. Would give Surefooted (Woodland) a skirmisher identity.
 
 ## Future army notes
 - **Mauryan Empire — Gajādhyakṣa** (Superintendent of Elephants, from the Arthaśāstra), Mauryan Retinue units only: this unit may Rally friendly Elephant units within 12” as if it were an Elephant unit; 18” if it includes a Commander. A Commander is not required.
