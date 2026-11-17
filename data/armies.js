@@ -8558,7 +8558,7 @@ window.NHB_DATA = {
         "type": "Skirmishing Warrior",
         "move": 7,
         "training": 4,
-        "points": 13,
+        "points": 12,
         "range": [
           8,
           14

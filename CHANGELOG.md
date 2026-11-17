@@ -9,7 +9,8 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 ## 0.33.0 — 2026-11-17
 
 ### Rules
-- **Unwieldy (X)** in Open Order: besides -X Move, a unit that moved or turned during its activation also suffers -X Accuracy with the Unwieldy weapon, on top of On the Move (armor gives no Accuracy penalty). Affects the Carduchian Tribesmen, Kush Pḏtyw and Šmsw Retinue, and the Pródromoi; no points or Accuracy changes to compensate, since the penalty only applies after moving.
+- **Unwieldy (X)** in Open Order: besides -X Move, a unit that moved or turned during its activation also suffers -X Accuracy with the Unwieldy weapon, on top of On the Move (armor gives no Accuracy penalty). Affects the Carduchian Tribesmen, Kush Pḏtyw and Šmsw Retinue, and the Pródromoi; no Accuracy changes to compensate, since the penalty only applies after moving.
+- Carduchian Tribesmen: 13 → 12 points.
 
 ### Command cards
 - **King of Kings** can now take Mnfꜣt (Egyptian spearmen) from the Dynastic Egypt list. Units borrowed from other army lists always gain the Mercenary rule (the builder now enforces this for every card except Lord of Asia).
