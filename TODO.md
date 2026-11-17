@@ -10,7 +10,7 @@
 Done 2026-11-05: First Blood row, Strength table order, matching Armor Save tables; Walls diagram, Who Attacks Collision labels, Break Tokens visual, Scout and Ambush label; Aim and the Shooting Modifiers rework, "see X" links, Evasion flavour, Unwieldy styling, Activation Phase bold, End of the Round placement, Cohesion note, Stony Plain Strength 6, and the diagram fixes (Battlefield, Turning, Charge Arcs, Path and Bumping, Charge Fails, both Pile In, Firing Angle).
 
 ## Tokens and templates
-- Penalty tokens: first draft in tokens/ (2026-11-17; round Accuracy, square Strength, hexagon Training, -1 and -2). Restyle as cracked clay tablets in earthen colors to set them apart from the metal-coin Action tokens. Splitting a Unit copies the parent's tokens onto every new unit, so a set needs enough of each.
+- Penalty tokens done 2026-11-17 (tokens/): cracked clay tablets, stamped lettering, earthen colours (ochre, terracotta, umber), distinct shapes. Action tokens are to look like metal coins. Splitting a Unit copies the parent's tokens onto every new unit, so a set needs enough of each.
 - Corner Marker STL done 2026-11-17 (trays/make_corner_marker.py).
 
 ## Terrain bases (3D print)
@@ -52,7 +52,7 @@ Done 2026-11-05: First Blood row, Strength table order, matching Armor Save tabl
 - Done 0.28.0: Kushite Archers left the general mercenary pool and became the Kush Pḏtyw; King of Kings still offers them (merc copy marked cardOnly). The full card waits on the Mauryan, Egypt and Assyria lists.
 
 ## Playtest watch (Unwieldy)
-- 0.33.0: Open Order Unwieldy now also gives -X Accuracy. Carduchians compensated (+1); Kush Pḏtyw and Šmsw Retinue and the Pródromoi were not. Watch whether the Kush archers need +1 too.
+- 0.33.0: Open Order Unwieldy now also gives -X Accuracy when the unit moved or turned that activation. Carduchians compensated (+1); Kush Pḏtyw and Šmsw Retinue and the Pródromoi were not. Watch whether the Kush archers need +1 too.
 
 ## Future army notes
 - **Mauryan Empire — Gajādhyakṣa** (Superintendent of Elephants, from the Arthaśāstra), Mauryan Retinue units only: this unit may Rally friendly Elephant units within 12” as if it were an Elephant unit; 18” if it includes a Commander. A Commander is not required.

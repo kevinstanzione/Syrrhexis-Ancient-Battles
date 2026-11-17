@@ -9,7 +9,7 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 ## 0.33.0 — 2026-11-17
 
 ### Rules
-- **Unwieldy (X)** in Open Order: besides -X Move, the unit now suffers -X Accuracy on attacks with the Unwieldy weapon (armor gives no Accuracy penalty). Affects the Carduchian Tribesmen, Kush Pḏtyw and Šmsw Retinue, and the Pródromoi.
+- **Unwieldy (X)** in Open Order: besides -X Move, a unit that moved or turned during its activation also suffers -X Accuracy with the Unwieldy weapon, on top of On the Move (armor gives no Accuracy penalty). Affects the Carduchian Tribesmen, Kush Pḏtyw and Šmsw Retinue, and the Pródromoi.
 - Carduchian Tribesmen: Aġeġn bow Accuracy 5 → 6, so they stay where they were.
 
 ### Command cards
@@ -23,11 +23,12 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 
 ### Printables
 - New **Corner Marker** STL (trays/), a 90° L for About Face.
-- New **Penalty tokens** (tokens/): Accuracy (round), Strength (square) and Training (hexagon), in -1 and -2.
+- New **Penalty tokens** (tokens/): cracked clay tablets with stamped lettering; Accuracy (round, ochre), Strength (square, terracotta) and Training (hexagon, umber), in -1 and -2.
 
 ## Rulebook 0.3.7 — 2026-11-17
 
-- Unwieldy (X): Open Order units also take -X Accuracy with the Unwieldy weapon.
+- Unwieldy (X): Open Order units that moved or turned also take -X Accuracy with the Unwieldy weapon.
+- Firing Angle: the Turn Template can be used to check the 45° edge of a Closed Order unit's firing arc.
 
 ## 0.32.1 — 2026-11-13
 

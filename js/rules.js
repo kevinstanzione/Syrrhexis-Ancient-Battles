@@ -42,7 +42,7 @@ window.NHB_RULES = {
     "Sunder (X)": "Enemies roll Armor Saves at a -X penalty against attacks with this weapon.",
     "Throwing Weapon": "In Closed Order, only the front two ranks throw. Ignores the On the Move penalty. While Locked in Combat with a Hold token, may shoot units it is fighting at -3 Accuracy, without Aim or Volley.",
     "Thrusting Blade": "Enemies roll Armor Saves at -1 while the unit has no Flee, Charge, or Run token.",
-    "Unwieldy (X)": "Closed Order: each turn costs an additional X” of Move Allowance, including the Alignment turn before a Charge. Open Order: -X Move instead, and -X Accuracy with an Unwieldy weapon."
+    "Unwieldy (X)": "Closed Order: each turn costs an additional X” of Move Allowance, including the Alignment turn before a Charge. Open Order: -X Move instead, and -X Accuracy with an Unwieldy weapon if the unit moved or turned this activation."
   },
   weaponPatterns: [
     [/Cleaving Blade/, "Cleaving Blade (X)"], [/Cumbersome/, "Cumbersome"], [/Direct Fire/, "Direct Fire"], [/Massive Suppression/, "Massive Suppression (X)"],
