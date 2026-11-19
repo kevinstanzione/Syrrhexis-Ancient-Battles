@@ -1,7 +1,7 @@
 // Syrrhēxis army data. Edit the values below; keep the first line as is.
 window.NHB_DATA = {
   "meta": {
-    "version": "0.33.0",
+    "version": "0.33.1",
     "synced": "2026-10-22",
     "sources": {
       "Hittite Empire Army": "1aqMPs2Pi5car6pUzcuWmHXArGss_RZdkgATe5OsbVrw",
@@ -1813,8 +1813,8 @@ window.NHB_DATA = {
           "armors": {
             "Túg.ŠirʾAm": {
               "v": 1,
-              "melee": 1,
-              "text": "+1 Armor in Melee Combat",
+              "shoot": 1,
+              "text": "+1 Armor against Shooting attacks",
               "move": -1
             }
           },
@@ -1948,8 +1948,8 @@ window.NHB_DATA = {
           "armors": {
             "Túg.ŠirʾAm": {
               "v": 1,
-              "melee": 1,
-              "text": "+1 Armor in Melee Combat",
+              "shoot": 1,
+              "text": "+1 Armor against Shooting attacks",
               "move": -1
             }
           },
@@ -2360,8 +2360,8 @@ window.NHB_DATA = {
           "armors": {
             "Túg.ŠirʾAm": {
               "v": 1,
-              "melee": 1,
-              "text": "+1 Armor in Melee Combat"
+              "shoot": 1,
+              "text": "+1 Armor against Shooting attacks"
             }
           },
           "weapons": {
@@ -2436,8 +2436,8 @@ window.NHB_DATA = {
           "armors": {
             "Túg.ŠirʾAm": {
               "v": 1,
-              "melee": 1,
-              "text": "+1 Armor in Melee Combat"
+              "shoot": 1,
+              "text": "+1 Armor against Shooting attacks"
             }
           },
           "weapons": {

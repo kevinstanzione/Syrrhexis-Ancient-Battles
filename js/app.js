@@ -385,6 +385,7 @@
   function armorLines(a) {
     const out = [];
     if (a.melee !== a.value) out.push(`In melee: ${a.melee} (${NHB.saveFor(a.melee)})`);
+    if (a.shoot != null && a.shoot !== a.value) out.push(`Against shooting: ${a.shoot} (${NHB.saveFor(a.shoot)})`);
     if (a.hold) out.push(`With Hold token: +${a.hold}`);
     if (a.runflee) out.push(`With Run/Flee token: ${a.runflee}`);
     if (a.mixedNote) out.push(a.mixedNote);

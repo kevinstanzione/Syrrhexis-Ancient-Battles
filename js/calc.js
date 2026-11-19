@@ -106,15 +106,15 @@ window.NHB = (function () {
 
   function armorCalc(u, body, shield, barding) {
     if (u.type === "Elephant") {
-      return { value: 3, save: saveFor(3), melee: 3, hold: 0, runflee: 0, notes: ["Great Toughness: 3 Armor, ignores mahout and crew armor"] };
+      return { value: 3, save: saveFor(3), melee: 3, shoot: 3, hold: 0, runflee: 0, notes: ["Great Toughness: 3 Armor, ignores mahout and crew armor"] };
     }
     const parts = [armorDef(u, body), armorDef(u, shield), armorDef(u, barding)].filter(Boolean);
     const mod = TYPE_ARMOR[u.type] || 0;
-    let value = mod, melee = 0, hold = 0, runflee = 0;
+    let value = mod, melee = 0, shoot = 0, hold = 0, runflee = 0;
     const notes = [];
     let vs6 = 0;
     parts.forEach(p => {
-      value += p.v || 0; melee += p.melee || 0; hold += p.hold || 0; runflee += p.runflee || 0;
+      value += p.v || 0; melee += p.melee || 0; shoot += p.shoot || 0; hold += p.hold || 0; runflee += p.runflee || 0;
       if (p.vsStr) notes.push(p.vsStr);
       vs6 += p.vs6 || 0;
     });
@@ -122,7 +122,7 @@ window.NHB = (function () {
     if (vs6) notes.unshift(`Against Strength 6+ weapons: Armor ${Math.max(0, value - vs6)} (${saveFor(value - vs6)})`);
     if (u.type === "Chariot") notes.push("Protected Platform: +1, uses crew armor");
     else if (mod) notes.push("Toughness: +1 (Cavalry)");
-    return { value, save: saveFor(value), melee: value + melee, hold, runflee, notes, parts };
+    return { value, save: saveFor(value), melee: value + melee, shoot: value + shoot, hold, runflee, notes, parts };
   }
 
   function armor(u, sel, lo) {
