@@ -36,7 +36,7 @@ window.NHB_RULES = {
     "Massive Suppression (X)": "Each Hit causes X Army Morale loss from Suppression instead of 1.",
     "Melee Suppression": "Each Hit with this weapon in Melee costs the defending player 1 Army Morale from Suppression, just as a Shooting Hit does. Effects that increase, reduce or negate Suppression also apply.",
     "Parrying Blade": "+1 Armor in Melee while the unit has a Hold Action Token.",
-    "Pavise": "On Hold, the unit may plant its Pavise: Shooting from its front arc treats it as one cover level better, and units charging its front gain no Charge Strength bonus. Picked up when the unit moves (except an Alignment turn).",
+    "Pavise": "On Hold, the unit may plant its Pavise: Shooting from its front arc treats it as one cover level better, and units charging its front gain no Charge Strength bonus. Picked up when the unit moves (except an Alignment turn). Attacks from its front arc always use the 1st Rank's Armor.",
     "Piercing Shot (X)": "Against Closed Order, each Hit causes X additional Hits on the same unit. The extra Hits do not cause Suppression.",
     "Reach (X)": "Models up to X ranks behind the front rank of a Closed Order unit also attack in Melee.",
     "Recurve Bow": "This weapon's Direct Fire applies to targets within half of the printed range, instead of a quarter.",

@@ -9,7 +9,11 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 ## 0.33.1 and Rulebook 0.3.9 — 2026-11-18
 
 ### Rules
+- **Pavise**: attacks against the unit from its front arc always use the 1st Rank's Armor, planted or not (moved here from the Spara so every pavise works the same way).
 - New special rule **Shield Bearer**: if any model in a unit, or any crewman of a Chariot, carries a Shield, every model and crewman counts as carrying it. Covers Mixed Unit Armor Saves and Protected Platform, for units where one man carries the shield for his partner or crew.
+
+### Achaemenid Persia
+- **Spara** is now +2 Armor (was +1): strong against arrows, still -1 Armor against Strength 6+ and -1 while Running or Fleeing. The front-arc clause moved into the Pavise rule. **Sparabārā** 13 → 14 pts per model.
 
 ### Hittite Empire
 - **Anše.Kur.Ra Ḫatti**: the third crewman is now a shield-bearer, as on the Kadesh reliefs. The chariot keeps its Shield whatever crew weapon it takes (the Giš.Ban bow and Šukur spear no longer drop it) and gains Shield Bearer. No points changes yet.

@@ -3058,7 +3058,7 @@ window.NHB_DATA = {
           "desc": "shieldbearers and archers",
           "move": 6,
           "training": 6,
-          "points": 13,
+          "points": 14,
           "comps": [
             [
               4,
@@ -3138,10 +3138,10 @@ window.NHB_DATA = {
           ],
           "armors": {
             "Spara": {
-              "v": 1,
+              "v": 2,
               "move": -1,
               "vsStr": "−1 Armor against attacks of Strength 6+",
-              "text": "-1 Armor against Weapon Attacks with Strength 6 or Greater. Attacks against this unit from its front arc use the 1st Rank's Armor. -1 Armor while the unit has a Run or Flee Action Token",
+              "text": "-1 Armor against Weapon Attacks with Strength 6 or Greater. -1 Armor while the unit has a Run or Flee Action Token",
               "grants": [
                 "Pavise"
               ],
