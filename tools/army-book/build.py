@@ -188,6 +188,14 @@ def equipment(u):
             rows.append(('All Ranks', join_and(tail)))
         return lines(rows)
     items = [named(w) for w in u['equip'] if w != 'Horses']
+    if u.get('shieldBearer') and u.get('shield') and u.get('crew'):
+        # Chariots whose shield is carried by its own crewman (Shield Bearer): say who carries what.
+        n = u['shieldBearer']; rest = u['crew']['crew'] - n
+        man = lambda k: f"{k} Crewman" if k == 1 else f"{k} Crewmen"
+        shield = named(u['shield']) if u['shield'] in LABELS else esc(u['shield'])
+        extra = [named(x) if x in LABELS else esc(x) for x in (u.get('body'), u.get('barding')) if x]
+        weapons = esc(u['equipShort']) if u.get('equipShort') else join_and(items)
+        return join_and([f"{man(rest)} equipped with {weapons}", f"{man(n)} equipped with {shield}"] + extra)
     items += [named(x) if x in LABELS else esc(x) for x in (u.get('body'), u.get('shield'), u.get('barding')) if x]
     return join_and(items)
 

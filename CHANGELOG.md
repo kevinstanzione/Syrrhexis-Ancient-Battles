@@ -13,6 +13,10 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 
 ### Hittite Empire
 - **Anše.Kur.Ra Ḫatti**: the third crewman is now a shield-bearer, as on the Kadesh reliefs. The chariot keeps its Shield whatever crew weapon it takes (the Giš.Ban bow and Šukur spear no longer drop it) and gains Shield Bearer. No points changes yet.
+- **Anše.Kur.Ra Ḫatti**: Runners now make bonus attacks equal to the number of models in the unit (was a flat 2). Šukur.Tur javelins make 1 Attack in Melee and 2 Attacks Shooting (was 2); the Šukur spear makes 1 Attack (was 2). Equipment now reads "1 Crewman equipped with javelins and 1 Crewman equipped with Shield".
+
+### Army Book
+- Units with a single shield-bearing crewman (data field `shieldBearer`) list who carries what in their Equipment line; `equipShort` gives a short weapon name for that line.
 - **Túg.ŠirʾAm** (long scale coat) now gives +1 Armor against Shooting attacks instead of +1 Armor in Melee Combat, since these coats were made mainly to stop arrows. Affects the Mešedi, Mešedi Retinue, Anše.Kur.Ra Mittanni and the Anše.Kur.Ra Ḫatti crew option. No points changes.
 
 ### Builder

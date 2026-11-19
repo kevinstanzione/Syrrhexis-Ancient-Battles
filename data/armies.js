@@ -2300,6 +2300,8 @@ window.NHB_DATA = {
           "gear": [],
           "body": null,
           "shield": "Shield",
+          "shieldBearer": 1,
+          "equipShort": "javelins",
           "opts": [
             {
               "label": "Crew weapon",
@@ -2353,7 +2355,7 @@ window.NHB_DATA = {
             "Shield Bearer"
           ],
           "custom": {
-            "Runners": "At the end of the Activation Phase, before Combat, if this unit does not have a Run, Charge, or Flee token and is not locked in combat, it gets bonus attacks. Select an enemy unit within 6” to target with 2 bonus attacks, at Accuracy 5 and Strength 5. These attacks cannot be modified."
+            "Runners": "At the end of the Activation Phase, before Combat, if this unit does not have a Run, Charge, or Flee token and is not locked in combat, it gets bonus attacks. Select an enemy unit within 6” to target with bonus attacks equal to the number of models in this unit, at Accuracy 5 and Strength 5. These attacks cannot be modified."
           },
           "armors": {
             "Túg.ŠirʾAm": {
@@ -2367,7 +2369,7 @@ window.NHB_DATA = {
               "5 / 8”",
               "5",
               "6",
-              "2 Attacks. Throwing Weapon"
+              "1 Attack Melee, 2 Attacks Shooting. Throwing Weapon"
             ],
             "Horses": [
               "3",
@@ -2385,7 +2387,7 @@ window.NHB_DATA = {
               "8",
               "5",
               "6",
-              "2 Attacks"
+              "1 Attack"
             ]
           }
         },
