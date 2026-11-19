@@ -24,8 +24,8 @@
       { unitId: "levy-infantry", comp: 0, swaps: {}, adds: {}, chars: { 1: "Lead Captain" } },
       { unitId: "hattian-archers", comp: 0, swaps: {}, adds: {}, chars: { 0: "Volleymaster" } },
       { unitId: "hattian-peltasts", count: 10, swaps: {}, adds: {}, chars: { 0: "Lead Captain" } },
-      { unitId: "hattian-chariots", comp: 0, swaps: {}, adds: {}, chars: { 0: "Lord" } },
-      { unitId: "hattian-chariots", comp: 1, swaps: { 0: 1 }, adds: {}, chars: {} },
+      { unitId: "hattian-chariots", comp: 0, swaps: { 0: 1 }, adds: {}, chars: { 0: "Lord" } },
+      { unitId: "hattian-chariots", comp: 1, swaps: {}, adds: {}, chars: {} },
       { unitId: "allied-chariots", comp: 0, swaps: {}, adds: {}, chars: {} },
       { unitId: "allied-archers", comp: 0, swaps: {}, adds: {}, chars: {} },
       { unitId: "allied-peltasts", count: 7, swaps: {}, adds: {}, chars: {} }

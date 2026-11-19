@@ -2277,7 +2277,7 @@ window.NHB_DATA = {
           "desc": "three-man Hittite chariots with a shield-bearer",
           "move": 10,
           "training": 6,
-          "points": 72,
+          "points": 67,
           "comps": [
             [
               1,
@@ -2294,35 +2294,19 @@ window.NHB_DATA = {
             "horses": 2
           },
           "equip": [
-            "Šukur.Tur",
+            "Šukur",
             "Horses"
           ],
           "gear": [],
           "body": null,
           "shield": "Shield",
           "shieldBearer": 1,
-          "equipShort": "javelins",
+          "equipShort": "spear",
           "opts": [
             {
               "label": "Crew weapon",
               "kind": "swap",
               "choices": [
-                {
-                  "name": "Šukur.Tur javelins",
-                  "w": [
-                    "Šukur.Tur",
-                    "Horses"
-                  ],
-                  "c": 0
-                },
-                {
-                  "name": "Giš.Ban bow",
-                  "w": [
-                    "Giš.Ban",
-                    "Horses"
-                  ],
-                  "c": 0
-                },
                 {
                   "name": "Šukur spear",
                   "w": [
@@ -2330,6 +2314,22 @@ window.NHB_DATA = {
                     "Horses"
                   ],
                   "c": 0
+                },
+                {
+                  "name": "Šukur.Tur javelins",
+                  "w": [
+                    "Šukur.Tur",
+                    "Horses"
+                  ],
+                  "c": 5
+                },
+                {
+                  "name": "Giš.Ban bow",
+                  "w": [
+                    "Giš.Ban",
+                    "Horses"
+                  ],
+                  "c": 8
                 }
               ]
             },
@@ -2365,6 +2365,12 @@ window.NHB_DATA = {
             }
           },
           "weapons": {
+            "Šukur": [
+              "8",
+              "5",
+              "6",
+              "1 Attack"
+            ],
             "Šukur.Tur": [
               "5 / 8”",
               "5",
@@ -2382,12 +2388,6 @@ window.NHB_DATA = {
               "5",
               "4",
               "2 Attacks. Direct Fire"
-            ],
-            "Šukur": [
-              "8",
-              "5",
-              "6",
-              "1 Attack"
             ]
           }
         },
