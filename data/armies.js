@@ -1,7 +1,7 @@
 // Syrrhēxis army data. Edit the values below; keep the first line as is.
 window.NHB_DATA = {
   "meta": {
-    "version": "0.34.1",
+    "version": "0.34.2",
     "synced": "2026-10-22",
     "sources": {
       "Hittite Empire Army": "1aqMPs2Pi5car6pUzcuWmHXArGss_RZdkgATe5OsbVrw",
@@ -6329,11 +6329,11 @@ window.NHB_DATA = {
           "desc": "royal guard infantry",
           "move": 5,
           "training": 8,
-          "points": 15,
+          "points": 17,
           "comps": [
             [
-              1,
-              5
+              2,
+              4
             ]
           ],
           "equip": [
