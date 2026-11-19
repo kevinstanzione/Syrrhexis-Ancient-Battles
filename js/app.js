@@ -246,7 +246,7 @@
   function rulesUsed(sum) {
     const model = new Set(), weapon = new Set(), chars = new Set(), types = new Set();
     sum.units.forEach(x => {
-      x.rules.forEach(r => { if (/^Terrify/.test(r)) model.add("Terrify X"); else if (/^Surefooted \(/.test(r)) model.add("Surefooted (X)"); else if (R.model[r]) model.add(r); });
+      x.rules.forEach(r => { if (/^Terrify/.test(r)) model.add("Terrify X"); else if (/^Surefooted \(/.test(r)) model.add("Surefooted (X)"); else if (/^Unwieldy \(/.test(r)) weapon.add("Unwieldy (X)"); else if (R.model[r]) model.add(r); });
       x.lo.weapons.concat(x.lo.gear).forEach(w => {
         const st = x.u.weapons[w]; if (!st) return;
         R.weaponPatterns.forEach(([re, name]) => { if (re.test(st[3])) weapon.add(name); });
@@ -407,7 +407,7 @@
     if (x.lo.body) bits.push(x.lo.body);
     if (x.lo.shield) bits.push(x.lo.shield);
     if (x.lo.barding) bits.push(x.lo.barding);
-    if (x.lo.crewPlus) bits.push(x.u.type === "Elephant" ? `+${x.lo.crewPlus} crewman per Elephant` : `+${x.lo.crewPlus} rider per Camel`);
+    if (x.lo.crewPlus) bits.push(x.u.type === "Elephant" ? `+${x.lo.crewPlus} crewman per Elephant` : x.u.type === "Chariot" ? `+${x.lo.crewPlus} crewman per Chariot` : `+${x.lo.crewPlus} rider per Camel`);
     (x.lo.mixed || []).forEach(m => bits.push(`${m.n} × ${m.label.replace(/ \(replaces[^)]*\)/, "")}`));
     return bits.join(" · ") || "No equipment";
   }

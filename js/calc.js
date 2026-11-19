@@ -173,7 +173,7 @@ window.NHB = (function () {
   function health(u, sel, lo) {
     const n = models(u, sel);
     let hp;
-    if (u.type === "Chariot") { const c = u.crew; hp = n * (c.driver + c.crew + c.horses); }
+    if (u.type === "Chariot") { const c = u.crew, extra = (lo || loadout(u, sel)).crewPlus || 0; hp = n * (c.driver + c.crew + extra + c.horses); } // extra: optional crewman (e.g. a shield-bearer)
     else if (u.type === "Elephant") hp = 6 * n;
     else if (/Warmachine/.test(u.type)) hp = n;
     else hp = n;
@@ -203,7 +203,7 @@ window.NHB = (function () {
     const n = models(u, sel);
     const levy = activeRules(u, sel).includes("Levy");
     const rf = ranksFiles(u, sel);
-    if (u.type === "Chariot") { const c = u.crew; return n * (c.driver + c.crew + (c.horseUS == null ? 2 : c.horseUS) * c.horses); } // horseUS: Straddle Car
+    if (u.type === "Chariot") { const c = u.crew; return n * (c.driver + c.crew + (lo.crewPlus || 0) + (c.horseUS == null ? 2 : c.horseUS) * c.horses); } // horseUS: Straddle Car
     if (u.type === "Elephant") { const c = u.crew; return n * (c.mahout + c.crew + lo.crewPlus + 12); }
     if (/Warmachine/.test(u.type)) return n + (u.engineUS || 3);
     const per = /Cavalry/.test(u.type) ? 3 : 1;
@@ -229,7 +229,7 @@ window.NHB = (function () {
   // Army Morale counts the men at their Training: drivers, mahouts and crewmen for Chariots and Elephants. Mounts are added separately (mountMorale).
   function moraleModels(u, sel) {
     const n = models(u, sel);
-    if (u.type === "Chariot") return n * (u.crew.driver + u.crew.crew);
+    if (u.type === "Chariot") return n * (u.crew.driver + u.crew.crew + (loadout(u, sel).crewPlus || 0));
     if (u.type === "Elephant") return n * (u.crew.mahout + u.crew.crew + loadout(u, sel).crewPlus);
     if (/Cavalry/.test(u.type)) return n * (1 + (loadout(u, sel).crewPlus || 0)); // Camel Riders: extra riders count
     return n;

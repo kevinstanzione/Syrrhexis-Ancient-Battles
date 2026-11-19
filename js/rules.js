@@ -22,6 +22,7 @@ window.NHB_RULES = {
     "Scout": "Deployed after units without Scout or Ambush and after all Byes. Optional. Deploy outside your Deployment Zone, not within 12” of an enemy unit. The First Player chooses who deploys Scouts first.",
     "Shield Bearer": "If any model or Chariot crewman in this unit carries a Shield, every model and crewman counts as carrying it (for Mixed Unit saves and Protected Platform).",
     "Shieldwall": "While this unit has a Hold Action Token, attacks against it suffer -1 Accuracy.",
+    "Spearhead": "While this unit has a Charge token, friendly units that begin their activation within 12” and declare a Charge gain +1 Move (+2 for Cavalry, Chariots and Elephants).",
     "Suicidal": "Not removed due to Damage until the end of the Combat Phase, even if the Unit Health Table would remove it.",
     "Surefooted": "Ignores Difficult Terrain penalties. In a Stony Plain, is exempt from the Move cap, like Open Order Warriors. In a Marsh, Move Allowance is still limited to Move but it gains no Break Tokens for moving there. Keeps Evasion, Feign Charge and Feign Retreat in terrain it is Surefooted in.",
     "Tactician": "+1 to Initiative rolls while the unit has a Hold token. Does not stack.",

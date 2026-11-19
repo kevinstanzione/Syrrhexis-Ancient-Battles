@@ -46,9 +46,15 @@ Done 2026-11-05: First Blood row, Strength table order, matching Armor Save tabl
 - Built in 0.23.0 (13 units); 6 Command cards as of 0.25.0 (Émbolon, Lord of Asia, Oblique Advance, Aristander's Eagle, Ipsus, Synaspismós). Playtest pricing, especially Pezhétairoi (15), Argyráspides (19), Eléphantes (100) and Thureophóroi (12).
 - Idea for later: Ptolemaic African forest elephants (smaller, Elephant Strength 7, cheaper). Conflicts with the no-negative-cost rule, so it would need its own profile.
 
+## Neo-Assyrian Empire (added 0.34.0)
+- Names: units, weapons, armor and Command cards still use English working names. Replace with Akkadian names (Kevin's plan: next session) and add pronunciations and plain-English labels.
+- Points to watch: the Royal Spearmen (17) and Royal Spearmen Retinue (16) must take a Lead Captain, so check whole-unit costs; long scale coat on chariot crews priced at +3 per Chariot (set with the Túg.ŠirʾAm repricing below).
+- Army opener art still needed (see Art spreads).
+
 ## King of Kings rework (Persia, planned)
 - Pulls units from other army lists, not just the mercenary pool: 4 from Supplemental Mercenaries (Arabian Camel Riders, Greek Hoplites, Scythian Archers, Cretan Archers) + 4 from other lists (Indian elephants from the Mauryan list, replacing the Pīrū; Kushite archers from the Kush list; Egyptians; Assyrians). Borrowed units gain Mercenary. No surcharge for now. Still to confirm: still 2 units per card? Elephants come from the Mauryan (Indian) list, not the Successor list: no tower.
 - Starter list saved in tools/army-book/drafts/mauryan.json (not in the builder or Army Book yet): holds the Pīrū (Old Persian names to rename to Sanskrit) without the Mercenary rule. The live Persian Pīrū stays until the King of Kings rework goes live.
+- Done 0.34.0: the Assyrian Provincial Levy added as the card-only Assyrian unit (merc copy, cardOnly). Only the Mauryan elephants (replacing the Pīrū) and the Cretan Archers are still to add to the card.
 - Done 0.33.0: Mnfꜣt added as the card-only Egyptian unit; the builder gives Mercenary to any unit taken through a card other than Lord of Asia. Still waiting on the Mauryan and Assyria lists (and Cretan Archers to be added).
 - Done 0.28.0: Kushite Archers left the general mercenary pool and became the Kush Pḏtyw; King of Kings still offers them (merc copy marked cardOnly). The full card waits on the Mauryan, Egypt and Assyria lists.
 
@@ -66,7 +72,6 @@ Done 2026-11-05: First Blood row, Strength table order, matching Armor Save tabl
 - **European Barbarians — Flanker** (needs a better name): +1 Accuracy while in combat alongside at least one other friendly unit. Always-on infantry rule for warbands.
 - **Qin China — two Army Musicians** (idea, 2026-11-18; drums to advance, gongs to halt, per Sunzi): a Qin retinue rule letting the army take up to 2 Army Musicians. Still to work out how two would interact, since an Army Musician swaps every unit's Hold/Charge tokens at once. One option: with two, each affects only units within 18” of it, so one can drum an advance while the other gongs a halt.
 - **Armies of Alexander — two Commanders** (idea, 2026-11-18; Alexander on the right, Parmenion on the left): a rule on Alexander's retinue units letting the army take up to 2 Commanders.
-- **Neo-Assyrian Empire — Spearhead** (was "Vanguard"; that name is taken by a generic card): while this unit has a Charge token, friendly units that begin their activation within 12” and declare a Charge gain +1 Move (Warriors) or +2 Move (Cavalry, Chariots, Elephants). Unit rule for the royal chariot retinue.
 
 ## Siege expansion (future)
 - Core of the expansion: destructible terrain and fortifications (walls, gates, towers) that can be damaged and breached.
@@ -81,8 +86,7 @@ Done 2026-11-05: First Blood row, Strength table order, matching Armor Save tabl
 ## Army ideas
 - Hannibal's Forces: Iberian / Celtiberian cavalry with Feign Retreat (no Parthian Shot). Tarantînoi in the Alexander list also get Feign Retreat.
 - Shieldwall candidates: Sumerian heavy phalanx (instead of Phalanx), a Germanic-style spear warband for European Barbarians, Libyan heavy infantry for Hannibal's Forces.
-- Neo-Assyrian chariots: a lighter regular chariot (2 horses, 2–3 crew) and a separate heavy royal retinue chariot (4 horses, 4 crew plus parasol), like the Persian split. Other armies' retinue chariots, if any, use the same vehicle as their regular chariots.
-- Pavise candidates: Neo-Assyrian archer and shield-bearer unit (Mixed Unit like the Sparabārā), Mauryan foot archers with tall ox-hide shields.
+- Pavise candidates: Mauryan foot archers with tall ox-hide shields.
 
 ## Art spreads (future)
 - Pencil scene art: 8 army openers done (art/illustrations), Kush portrait added 2026-11-13, plus card art for The Eclipse and Crumbled Ruins in the Army Book's generic cards. Army Book images get a torn-paper edge at build time.

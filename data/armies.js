@@ -1,7 +1,7 @@
 // Syrrhēxis army data. Edit the values below; keep the first line as is.
 window.NHB_DATA = {
   "meta": {
-    "version": "0.33.1",
+    "version": "0.34.0",
     "synced": "2026-10-22",
     "sources": {
       "Hittite Empire Army": "1aqMPs2Pi5car6pUzcuWmHXArGss_RZdkgATe5OsbVrw",
@@ -2458,6 +2458,968 @@ window.NHB_DATA = {
               "5",
               "5",
               "1 Attack, cannot be used on Charge"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "assyria",
+      "name": "Neo-Assyrian Empire",
+      "units": [
+        {
+          "id": "assyrian-spearmen",
+          "name": "Assyrian Spearmen",
+          "type": "Warrior",
+          "desc": "standing-army spearmen",
+          "move": 6,
+          "training": 6,
+          "points": 14,
+          "comps": [
+            [
+              4,
+              4
+            ],
+            [
+              3,
+              5
+            ]
+          ],
+          "equip": [
+            "Spear"
+          ],
+          "gear": [
+            "Sword"
+          ],
+          "body": "Light Armor",
+          "shield": "Shield",
+          "opts": [
+            {
+              "label": "Sidearm",
+              "kind": "swap",
+              "choices": [
+                {
+                  "name": "Sword",
+                  "gear": [
+                    "Sword"
+                  ],
+                  "c": 0
+                },
+                {
+                  "name": "Mace",
+                  "gear": [
+                    "Mace"
+                  ],
+                  "c": 1
+                }
+              ]
+            }
+          ],
+          "chars": [
+            {
+              "one": [
+                [
+                  "Lead Captain",
+                  6
+                ]
+              ]
+            },
+            {
+              "one": [
+                [
+                  "Rear Captain",
+                  6
+                ]
+              ]
+            }
+          ],
+          "rules": [],
+          "weapons": {
+            "Spear": [
+              "8",
+              "5",
+              "6",
+              "Reach (1)"
+            ],
+            "Sword": [
+              "3",
+              "5",
+              "5",
+              ""
+            ],
+            "Mace": [
+              "3",
+              "4",
+              "4",
+              "Sunder (2)"
+            ]
+          }
+        },
+        {
+          "id": "assyrian-pavise-teams",
+          "name": "Archer-Pavise Teams",
+          "type": "Warrior",
+          "desc": "archers behind tall shields",
+          "move": 6,
+          "training": 6,
+          "points": 15,
+          "comps": [
+            [
+              3,
+              5
+            ],
+            [
+              2,
+              5
+            ]
+          ],
+          "equip": [
+            "Spear",
+            "Bow"
+          ],
+          "gear": [
+            "Dagger"
+          ],
+          "body": "Light Armor",
+          "shield": null,
+          "mixed": {
+            "front": {
+              "label": "1st Rank",
+              "w": [
+                "Spear"
+              ],
+              "shield": "Tall Pavise"
+            },
+            "rest": {
+              "label": "Archer ranks",
+              "w": [
+                "Bow"
+              ],
+              "shield": null
+            }
+          },
+          "opts": [
+            {
+              "label": "Long Scale Coat (replaces Light Armor)",
+              "kind": "add",
+              "body": "Long Scale Coat",
+              "c": 1
+            }
+          ],
+          "chars": [
+            {
+              "one": [
+                [
+                  "Lead Captain",
+                  5
+                ],
+                [
+                  "Rear Captain",
+                  5
+                ]
+              ],
+              "note": "1st Rank"
+            },
+            {
+              "one": [
+                [
+                  "Volleymaster",
+                  8
+                ],
+                [
+                  "Bowmaster",
+                  10
+                ]
+              ],
+              "note": "Archer ranks"
+            }
+          ],
+          "rules": [
+            "Mixed Unit",
+            "Unwieldy (1)"
+          ],
+          "armors": {
+            "Tall Pavise": {
+              "v": 2,
+              "move": -1,
+              "runflee": -1,
+              "text": "Unwieldy (1). -1 Armor while the unit has a Run or Flee Action Token",
+              "grants": [
+                "Pavise"
+              ]
+            },
+            "Long Scale Coat": {
+              "v": 1,
+              "shoot": 1,
+              "move": -1,
+              "text": "+1 Armor against Shooting attacks"
+            }
+          },
+          "weapons": {
+            "Spear": [
+              "8",
+              "5",
+              "6",
+              "Reach (1)"
+            ],
+            "Bow": [
+              "24”",
+              "5",
+              "4",
+              "Recurve Bow, Direct Fire"
+            ],
+            "Dagger": [
+              "1",
+              "6",
+              "5",
+              ""
+            ]
+          },
+          "frontArcArmor": true
+        },
+        {
+          "id": "assyrian-royal-spearmen",
+          "name": "Royal Spearmen",
+          "type": "Warrior",
+          "desc": "the king's standing guard regiment",
+          "move": 6,
+          "training": 7,
+          "points": 17,
+          "comps": [
+            [
+              3,
+              5
+            ],
+            [
+              2,
+              4
+            ]
+          ],
+          "equip": [
+            "Spear"
+          ],
+          "gear": [
+            "Sword"
+          ],
+          "body": "Light Armor",
+          "shield": "Shield",
+          "opts": [
+            {
+              "label": "Sidearm",
+              "kind": "swap",
+              "choices": [
+                {
+                  "name": "Sword",
+                  "gear": [
+                    "Sword"
+                  ],
+                  "c": 0
+                },
+                {
+                  "name": "Mace",
+                  "gear": [
+                    "Mace"
+                  ],
+                  "c": 1
+                }
+              ]
+            },
+            {
+              "label": "Long Scale Coat (replaces Light Armor)",
+              "kind": "add",
+              "body": "Long Scale Coat",
+              "c": 1
+            }
+          ],
+          "chars": [
+            {
+              "req": true,
+              "one": [
+                [
+                  "Lead Captain",
+                  8
+                ]
+              ]
+            },
+            {
+              "one": [
+                [
+                  "Lord",
+                  17
+                ],
+                [
+                  "Rear Captain",
+                  7
+                ]
+              ]
+            }
+          ],
+          "rules": [
+            "Guard"
+          ],
+          "armors": {
+            "Long Scale Coat": {
+              "v": 1,
+              "shoot": 1,
+              "move": -1,
+              "text": "+1 Armor against Shooting attacks"
+            }
+          },
+          "weapons": {
+            "Spear": [
+              "8",
+              "6",
+              "6",
+              "Reach (1), Melee Suppression"
+            ],
+            "Sword": [
+              "3",
+              "6",
+              "5",
+              "Melee Suppression"
+            ],
+            "Mace": [
+              "3",
+              "5",
+              "4",
+              "Sunder (2), Melee Suppression"
+            ]
+          }
+        },
+        {
+          "id": "assyrian-royal-retinue",
+          "name": "Royal Spearmen Retinue",
+          "type": "Warrior",
+          "desc": "the king's own bodyguard",
+          "move": 5,
+          "training": 8,
+          "points": 16,
+          "comps": [
+            [
+              1,
+              4
+            ]
+          ],
+          "equip": [
+            "Spear"
+          ],
+          "gear": [
+            "Sword"
+          ],
+          "body": "Light Armor",
+          "shield": "Shield",
+          "opts": [
+            {
+              "label": "Sidearm",
+              "kind": "swap",
+              "choices": [
+                {
+                  "name": "Sword",
+                  "gear": [
+                    "Sword"
+                  ],
+                  "c": 0
+                },
+                {
+                  "name": "Mace",
+                  "gear": [
+                    "Mace"
+                  ],
+                  "c": 0
+                }
+              ]
+            },
+            {
+              "label": "Long Scale Coat (replaces Light Armor)",
+              "kind": "add",
+              "body": "Long Scale Coat",
+              "c": 1
+            }
+          ],
+          "chars": [
+            {
+              "req": true,
+              "one": [
+                [
+                  "Lead Captain",
+                  8
+                ]
+              ]
+            },
+            {
+              "req": true,
+              "one": [
+                [
+                  "Commander",
+                  42
+                ],
+                [
+                  "Lord",
+                  20
+                ]
+              ]
+            }
+          ],
+          "rules": [
+            "Disciplined"
+          ],
+          "armors": {
+            "Long Scale Coat": {
+              "v": 1,
+              "shoot": 1,
+              "move": -1,
+              "text": "+1 Armor against Shooting attacks"
+            }
+          },
+          "weapons": {
+            "Spear": [
+              "8",
+              "6",
+              "6",
+              "Reach (1), Melee Suppression"
+            ],
+            "Sword": [
+              "3",
+              "6",
+              "5",
+              "Melee Suppression"
+            ],
+            "Mace": [
+              "3",
+              "5",
+              "4",
+              "Sunder (2), Melee Suppression"
+            ]
+          }
+        },
+        {
+          "id": "assyrian-levy",
+          "name": "Provincial Levy",
+          "type": "Warrior",
+          "desc": "provincial muster",
+          "move": 6,
+          "training": 4,
+          "points": 8,
+          "comps": [
+            [
+              4,
+              6
+            ],
+            [
+              3,
+              5
+            ]
+          ],
+          "equip": [
+            "Spear"
+          ],
+          "gear": [
+            "Dagger"
+          ],
+          "body": null,
+          "shield": null,
+          "opts": [
+            {
+              "label": "Weapon",
+              "kind": "swap",
+              "choices": [
+                {
+                  "name": "Spear",
+                  "w": [
+                    "Spear"
+                  ],
+                  "c": 0
+                },
+                {
+                  "name": "Studded Club",
+                  "w": [
+                    "Studded Club"
+                  ],
+                  "c": 0
+                }
+              ]
+            },
+            {
+              "label": "Shield",
+              "kind": "add",
+              "shield": "Shield",
+              "c": 1
+            }
+          ],
+          "chars": [
+            {
+              "req": true,
+              "one": [
+                [
+                  "Lead Captain",
+                  3
+                ],
+                [
+                  "Taskmaster",
+                  4
+                ]
+              ]
+            }
+          ],
+          "rules": [
+            "Levy"
+          ],
+          "weapons": {
+            "Spear": [
+              "8",
+              "4",
+              "6",
+              "Reach (1)"
+            ],
+            "Studded Club": [
+              "3",
+              "4",
+              "4",
+              "Sunder (1)"
+            ],
+            "Dagger": [
+              "1",
+              "5",
+              "5",
+              ""
+            ]
+          }
+        },
+        {
+          "id": "assyrian-auxiliary-archers",
+          "name": "Auxiliary Archers",
+          "type": "Light Warrior",
+          "desc": "Aramean tribal bowmen",
+          "move": 7,
+          "training": 5,
+          "points": 10,
+          "comps": [
+            [
+              4,
+              4
+            ],
+            [
+              2,
+              5
+            ]
+          ],
+          "equip": [
+            "Self Bow"
+          ],
+          "gear": [
+            "Dagger"
+          ],
+          "body": null,
+          "shield": null,
+          "opts": [],
+          "chars": [
+            {
+              "one": [
+                [
+                  "Volleymaster",
+                  8
+                ],
+                [
+                  "Lead Captain",
+                  5
+                ],
+                [
+                  "Tribal Leader",
+                  8
+                ]
+              ]
+            },
+            {
+              "one": [
+                [
+                  "Ranger Captain",
+                  5
+                ]
+              ]
+            }
+          ],
+          "rules": [
+            "Levy"
+          ],
+          "weapons": {
+            "Self Bow": [
+              "24”",
+              "5",
+              "4",
+              "Direct Fire"
+            ],
+            "Dagger": [
+              "1",
+              "5",
+              "5",
+              ""
+            ]
+          }
+        },
+        {
+          "id": "assyrian-slingers",
+          "name": "Slingers",
+          "type": "Skirmishing Warrior",
+          "desc": "armoured slingers",
+          "move": 7,
+          "training": 5,
+          "points": 11,
+          "range": [
+            6,
+            12
+          ],
+          "equip": [
+            "Sling"
+          ],
+          "gear": [
+            "Dagger"
+          ],
+          "body": "Light Armor",
+          "shield": null,
+          "opts": [],
+          "chars": [
+            {
+              "one": [
+                [
+                  "Skirmish Captain",
+                  8
+                ],
+                [
+                  "Lead Captain",
+                  5
+                ]
+              ]
+            },
+            {
+              "one": [
+                [
+                  "Ranger Captain",
+                  5
+                ]
+              ]
+            }
+          ],
+          "rules": [],
+          "weapons": {
+            "Sling": [
+              "28”",
+              "5",
+              "4",
+              ""
+            ],
+            "Dagger": [
+              "1",
+              "6",
+              "5",
+              ""
+            ]
+          }
+        },
+        {
+          "id": "assyrian-paired-cavalry",
+          "name": "Paired Cavalry",
+          "type": "Cavalry",
+          "desc": "horse archers riding in pairs",
+          "move": 10,
+          "training": 6,
+          "points": 19,
+          "comps": [
+            [
+              1,
+              6
+            ],
+            [
+              2,
+              4
+            ]
+          ],
+          "equip": [
+            "Bow"
+          ],
+          "gear": [
+            "Sword"
+          ],
+          "body": null,
+          "shield": "Shield",
+          "opts": [
+            {
+              "label": "Pairs",
+              "kind": "swap",
+              "choices": [
+                {
+                  "name": "Archer and shield-bearer pairs",
+                  "w": [
+                    "Bow"
+                  ],
+                  "c": 0
+                },
+                {
+                  "name": "Archers and lancers",
+                  "w": [
+                    "Bow",
+                    "Lance"
+                  ],
+                  "shield": null,
+                  "c": 1
+                },
+                {
+                  "name": "Archers and lancers with Light Armor and Barding",
+                  "w": [
+                    "Bow",
+                    "Lance"
+                  ],
+                  "shield": null,
+                  "body": "Light Armor",
+                  "barding": "Barding",
+                  "c": 4
+                }
+              ]
+            }
+          ],
+          "chars": [
+            {
+              "one": [
+                [
+                  "Bowmaster",
+                  10
+                ]
+              ]
+            }
+          ],
+          "rules": [
+            "Mixed Unit",
+            "Shield Bearer"
+          ],
+          "custom": {
+            "Paired Riders": "The unit rides in pairs, side by side along each rank: an archer with the Bow and Sword beside a partner. In the default pairs the partner is a shield-bearer who holds both horses' reins; shield-bearers carry a Shield and no weapons, and make no attacks. If the unit takes lancers, each partner instead carries the Lance and no Shield. The unit always has an even number of models, half archers and half partners."
+          },
+          "weapons": {
+            "Bow": [
+              "24”",
+              "5",
+              "4",
+              "Recurve Bow, Direct Fire"
+            ],
+            "Lance": [
+              "7",
+              "5",
+              "6",
+              ""
+            ],
+            "Sword": [
+              "3",
+              "5",
+              "5",
+              ""
+            ]
+          }
+        },
+        {
+          "id": "assyrian-chariots",
+          "name": "Chariots",
+          "type": "Chariot",
+          "desc": "two-horse chariots with archers",
+          "move": 10,
+          "training": 6,
+          "points": 47,
+          "comps": [
+            [
+              1,
+              4
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "crew": {
+            "driver": 1,
+            "crew": 1,
+            "horses": 2
+          },
+          "equip": [
+            "Bow",
+            "Horses"
+          ],
+          "gear": [
+            "Chariot Sword"
+          ],
+          "body": "Light Armor",
+          "shield": null,
+          "opts": [
+            {
+              "label": "Shield-bearer (third crewman with a Shield)",
+              "kind": "add",
+              "shield": "Shield",
+              "crewPlus": 1,
+              "c": 6
+            },
+            {
+              "label": "Long Scale Coat (crew, replaces Light Armor)",
+              "kind": "add",
+              "body": "Long Scale Coat",
+              "c": 3
+            }
+          ],
+          "chars": [
+            {
+              "one": [
+                [
+                  "Standard Bearer",
+                  15
+                ]
+              ]
+            }
+          ],
+          "rules": [
+            "Shield Bearer"
+          ],
+          "armors": {
+            "Long Scale Coat": {
+              "v": 1,
+              "shoot": 1,
+              "text": "+1 Armor against Shooting attacks"
+            }
+          },
+          "weapons": {
+            "Bow": [
+              "24”",
+              "5",
+              "4",
+              "2 Attacks. Recurve Bow, Direct Fire"
+            ],
+            "Horses": [
+              "3",
+              "5",
+              "5",
+              "2 Attacks, can only use on Charge"
+            ],
+            "Chariot Sword": [
+              "2",
+              "5",
+              "5",
+              "1 Attack, cannot be used on Charge"
+            ]
+          }
+        },
+        {
+          "id": "assyrian-royal-chariot",
+          "name": "Royal Chariot Retinue",
+          "type": "Chariot",
+          "desc": "the king's four-horse chariot",
+          "move": 10,
+          "training": 8,
+          "points": 90,
+          "comps": [
+            [
+              1,
+              2
+            ]
+          ],
+          "crew": {
+            "driver": 1,
+            "crew": 3,
+            "horses": 4
+          },
+          "equip": [
+            "Bow",
+            "Horses"
+          ],
+          "gear": [
+            "Chariot Sword"
+          ],
+          "body": "Light Armor",
+          "shield": "Shield",
+          "shieldBearer": 2,
+          "equipShort": "bow",
+          "opts": [
+            {
+              "label": "Crew weapon",
+              "kind": "swap",
+              "choices": [
+                {
+                  "name": "Bow",
+                  "w": [
+                    "Bow",
+                    "Horses"
+                  ],
+                  "c": 0
+                },
+                {
+                  "name": "Spear",
+                  "w": [
+                    "Spear",
+                    "Horses"
+                  ],
+                  "c": 0
+                }
+              ]
+            },
+            {
+              "label": "Long Scale Coat (crew, replaces Light Armor)",
+              "kind": "add",
+              "body": "Long Scale Coat",
+              "c": 3
+            }
+          ],
+          "chars": [
+            {
+              "req": true,
+              "one": [
+                [
+                  "Commander",
+                  32
+                ],
+                [
+                  "Army Standard Bearer",
+                  30
+                ]
+              ]
+            },
+            {
+              "one": [
+                [
+                  "Lord",
+                  15
+                ]
+              ]
+            }
+          ],
+          "rules": [
+            "Shield Bearer",
+            "Spearhead"
+          ],
+          "armors": {
+            "Long Scale Coat": {
+              "v": 1,
+              "shoot": 1,
+              "text": "+1 Armor against Shooting attacks"
+            }
+          },
+          "weapons": {
+            "Bow": [
+              "24”",
+              "5",
+              "4",
+              "2 Attacks. Recurve Bow, Direct Fire"
+            ],
+            "Spear": [
+              "7",
+              "6",
+              "6",
+              "1 Attack"
+            ],
+            "Chariot Sword": [
+              "2",
+              "6",
+              "5",
+              "2 Attacks, cannot be used on Charge. May be used in conjunction with the Spear"
+            ],
+            "Horses": [
+              "3",
+              "5",
+              "5",
+              "4 Attacks, can only use on Charge. May be used in conjunction with the Spear"
             ]
           }
         }
@@ -9227,6 +10189,101 @@ window.NHB_DATA = {
             "1 Attack per Rider, plus 1"
           ]
         }
+      },
+      {
+        "id": "assyrian-levy-merc",
+        "name": "Provincial Levy",
+        "type": "Warrior",
+        "desc": "Assyrian levy",
+        "move": 6,
+        "training": 4,
+        "points": 8,
+        "comps": [
+          [
+            4,
+            6
+          ],
+          [
+            3,
+            5
+          ]
+        ],
+        "equip": [
+          "Spear"
+        ],
+        "gear": [
+          "Dagger"
+        ],
+        "body": null,
+        "shield": null,
+        "opts": [
+          {
+            "label": "Weapon",
+            "kind": "swap",
+            "choices": [
+              {
+                "name": "Spear",
+                "w": [
+                  "Spear"
+                ],
+                "c": 0
+              },
+              {
+                "name": "Studded Club",
+                "w": [
+                  "Studded Club"
+                ],
+                "c": 0
+              }
+            ]
+          },
+          {
+            "label": "Shield",
+            "kind": "add",
+            "shield": "Shield",
+            "c": 1
+          }
+        ],
+        "chars": [
+          {
+            "req": true,
+            "one": [
+              [
+                "Lead Captain",
+                3
+              ],
+              [
+                "Taskmaster",
+                4
+              ]
+            ]
+          }
+        ],
+        "rules": [
+          "Levy",
+          "Mercenary"
+        ],
+        "weapons": {
+          "Spear": [
+            "8",
+            "4",
+            "6",
+            "Reach (1)"
+          ],
+          "Studded Club": [
+            "3",
+            "4",
+            "4",
+            "Sunder (1)"
+          ],
+          "Dagger": [
+            "1",
+            "5",
+            "5",
+            ""
+          ]
+        },
+        "cardOnly": true
       }
     ]
   },
@@ -9687,9 +10744,10 @@ window.NHB_DATA = {
         "greek-hoplites",
         "scythian-archers",
         "kushite-archers",
-        "egyptian-spearmen"
+        "egyptian-spearmen",
+        "assyrian-levy-merc"
       ],
-      "text": "Your army may include 2 units chosen from Arabian Camel Riders, Greek Hoplites and Scythian Archers from the Supplemental Mercenaries list, Pḏtyw (Kushite archers) from the Kingdom of Kush list and Mnfꜣt (Egyptian spearmen) from the Dynastic Egypt list. Units taken this way have the Mercenary rule.",
+      "text": "Your army may include 2 units chosen from Arabian Camel Riders, Greek Hoplites and Scythian Archers from the Supplemental Mercenaries list, Pḏtyw (Kushite archers) from the Kingdom of Kush list Mnfꜣt (Egyptian spearmen) from the Dynastic Egypt list and the Provincial Levy (Assyrian levy) from the Neo-Assyrian Empire list. Units taken this way have the Mercenary rule.",
       "note": "If you take a mercenary unit through this card, this card must be one of the 3 cards in your hand.",
       "flavor": "Conquered kings send their warriors to serve the throne."
     },
@@ -10093,6 +11151,68 @@ window.NHB_DATA = {
       "limit": 1,
       "text": "Until the end of the round, friendly units with a Musician may make their Special Move even while they have a Hold Action Token, and may move up to 2” instead of 1”. Chariots and Elephants still only move directly forward or backwards.",
       "flavor": "The trumpets of the divisions of Amun, Ra and Ptah sound across the field."
+    },
+    {
+      "id": "melammu-of-assur",
+      "name": "Melammu of Aššur",
+      "short": "Your melee weapons gain Melee Suppression for a round",
+      "armies": [
+        "assyria"
+      ],
+      "limit": 1,
+      "text": "Play at the start of a round. Until the end of the round, the melee weapons of every friendly unit without the Mercenary rule gain Melee Suppression. Units whose weapons already have it cause 1 additional Army Morale loss from each Melee Hit.",
+      "flavor": "The terrible radiance of Aššur went before the king, and his enemies fled before it."
+    },
+    {
+      "id": "treaties-of-esarhaddon",
+      "name": "Treaties of Esarhaddon",
+      "short": "2 mercenaries: Arabs, Scythians or Greeks",
+      "armies": [
+        "assyria"
+      ],
+      "limit": 1,
+      "mercs": 2,
+      "mercUnits": [
+        "nabatean-skirmishers",
+        "scythian-archers",
+        "greek-hoplites"
+      ],
+      "text": "Your army may include 2 units from the Supplemental Mercenaries list, chosen from Arabian Camel Riders, Scythian Archers and Greek Hoplites.",
+      "note": "If you take a mercenary unit through this card, this card must be one of the 3 cards in your hand.",
+      "flavor": "Sworn by oath before the gods: Scythian kings, Arab chiefs and Greek adventurers fight under the banner of Aššur."
+    },
+    {
+      "id": "sweeping-flood",
+      "name": "Sweeping Flood",
+      "short": "Spearhead reaches 24” and adds +1 Strength on the Charge",
+      "armies": [
+        "assyria"
+      ],
+      "limit": 1,
+      "text": "Play at the start of a round. Until the end of the round, your Royal Chariot Retinue's Spearhead affects units within 24” instead of 12”, and units that gain its bonus Move also gain +1 Strength on the Charge.",
+      "flavor": "Like the Deluge I swept over them, and heaped their corpses like grain."
+    },
+    {
+      "id": "archers-of-assur",
+      "name": "Archers of Aššur",
+      "short": "+1 Accuracy shooting around a planted Pavise",
+      "armies": [
+        "assyria"
+      ],
+      "limit": 1,
+      "text": "Until the end of the round, friendly units with a planted Pavise, and any friendly units within 6” of them, gain +1 Accuracy with their Shooting attacks.",
+      "flavor": "Behind a wall of reed shields, the bowmen of the king loosed their arrows like rain."
+    },
+    {
+      "id": "words-of-the-rab-shaqe",
+      "name": "The Words of the Rab-šāqê",
+      "short": "An enemy unit near your Commander gains 3 Break Tokens",
+      "armies": [
+        "assyria"
+      ],
+      "limit": 1,
+      "text": "Play at the start of a round. Choose an enemy unit within 12” of your Commander's unit. It gains 3 Break Tokens.",
+      "flavor": "Do not let your king deceive you, for he will not be able to deliver you out of my hand."
     }
   ]
 };

@@ -6,26 +6,38 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
-## 0.33.1 and Rulebook 0.3.9 — 2026-11-18
+## 0.34.0 and Rulebook 0.3.9 — 2026-11-18
+
+### Neo-Assyrian Empire (new army)
+- New army list covering Neo-Assyria and Neo-Babylon (c. 900–539 BC), with 10 units: Assyrian Spearmen, Archer-Pavise Teams, Royal Spearmen, Royal Spearmen Retinue, Provincial Levy, Auxiliary Archers, Slingers, Paired Cavalry, Chariots and the Royal Chariot Retinue. Names are English working names for now; Akkadian names to follow.
+- 5 Command cards: Melammu of Aššur, Treaties of Esarhaddon (2 mercenaries from Arabian Camel Riders, Scythian Archers and Greek Hoplites), Sweeping Flood, Archers of Aššur and The Words of the Rab-šāqê.
+- No Musicians anywhere in the list, and Standard Bearers only on chariots.
 
 ### Rules
-- **Pavise**: attacks against the unit from its front arc always use the 1st Rank's Armor, planted or not (moved here from the Spara so every pavise works the same way).
 - New special rule **Shield Bearer**: if any model in a unit, or any crewman of a Chariot, carries a Shield, every model and crewman counts as carrying it. Covers Mixed Unit Armor Saves and Protected Platform, for units where one man carries the shield for his partner or crew.
+- New special rule **Spearhead**: while this unit has a Charge Action Token, friendly units that begin their activation within 12” and declare a Charge gain +1 Move (+2 for Cavalry, Chariots and Elephants).
+- **Pavise**: attacks against the unit from its front arc always use the 1st Rank's Armor, planted or not (moved here from the Spara so every pavise works the same way).
 
 ### Achaemenid Persia
-- **Spara** is now +2 Armor (was +1): strong against arrows, still -1 Armor against Strength 6+ and -1 while Running or Fleeing. The front-arc clause moved into the Pavise rule. **Sparabārā** 13 → 14 pts per model.
+- **Spara** is now +2 Armor (was +1): strong against arrows, still -1 Armor against Strength 6+ and -1 while Running or Fleeing. **Sparabārā** 13 → 14 pts per model.
+- **King of Kings** may now also take the Provincial Levy (Assyrian levy) from the Neo-Assyrian Empire list.
 
 ### Hittite Empire
-- **Anše.Kur.Ra Ḫatti**: the third crewman is now a shield-bearer, as on the Kadesh reliefs. The chariot keeps its Shield whatever crew weapon it takes (the Giš.Ban bow and Šukur spear no longer drop it) and gains Shield Bearer. No points changes yet.
-- **Anše.Kur.Ra Ḫatti**: Runners now make bonus attacks equal to the number of Chariot models in the unit (was a flat 2). Šukur.Tur javelins make 1 Attack in Melee and 2 Attacks Shooting (was 2); the Šukur spear makes 1 Attack (was 2). The spear is now the default crew weapon at **67 pts** (was 72 with javelins); Šukur.Tur javelins cost +5 pts per Chariot (72 total, as before) and the Giš.Ban bow +8 (75), since the bow now keeps the Shield. Equipment now reads "1 Crewman equipped with spear and 1 Crewman equipped with Shield".
-- Builder example list: the 2-chariot unit now uses the default spear, keeping the list under 2000.
-
-### Army Book
-- Units with a single shield-bearing crewman (data field `shieldBearer`) list who carries what in their Equipment line; `equipShort` gives a short weapon name for that line.
 - **Túg.ŠirʾAm** (long scale coat) now gives +1 Armor against Shooting attacks instead of +1 Armor in Melee Combat, since these coats were made mainly to stop arrows. Affects the Mešedi, Mešedi Retinue, Anše.Kur.Ra Mittanni and the Anše.Kur.Ra Ḫatti crew option. No points changes.
+- **Anše.Kur.Ra Ḫatti**: the third crewman is now a shield-bearer, as on the Kadesh reliefs, so the chariot keeps its Shield whatever crew weapon it takes, and gains Shield Bearer. Equipment reads "1 Crewman equipped with spear and 1 Crewman equipped with Shield".
+- **Anše.Kur.Ra Ḫatti**: Runners make bonus attacks equal to the number of Chariot models in the unit (was a flat 2). Šukur.Tur javelins make 1 Attack in Melee and 2 Attacks Shooting (was 2); the Šukur spear makes 1 Attack (was 2).
+- **Anše.Kur.Ra Ḫatti** points: the Šukur spear is now the default crew weapon at **67 pts** (was 72 with javelins); Šukur.Tur javelins cost +5 pts per Chariot (72, as before) and the Giš.Ban bow +8 (75), since the bow now keeps the Shield.
 
 ### Builder
-- Armor bonuses against Shooting now show on unit cards ("Against shooting: X").
+- Armor bonuses against Shooting show on unit cards ("Against shooting: X").
+- Chariots can take an optional extra crewman (`crewPlus`), who counts for Unit Health, Unit Strength and Army Morale.
+- Unwieldy (X) on a unit's own rules now shows its rules text on the list sheet.
+- Example list: the 2-chariot Hittite unit now uses the default spear, keeping the list under 2000.
+
+### Army Book
+- Neo-Assyrian Empire section with era introduction, profiles and Command cards.
+- Chariots whose shield is carried by one crewman (data field `shieldBearer`) say who carries what in their Equipment line, with shared crew armor listed separately; `equipShort` gives a short weapon name for that line.
+- Mixed Units list their per-rank shields (such as a pavise) in the armor table.
 
 ## 0.33.0 — 2026-11-17
 

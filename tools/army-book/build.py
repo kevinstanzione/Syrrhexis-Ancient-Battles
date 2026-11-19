@@ -195,7 +195,8 @@ def equipment(u):
         shield = named(u['shield']) if u['shield'] in LABELS else esc(u['shield'])
         extra = [named(x) if x in LABELS else esc(x) for x in (u.get('body'), u.get('barding')) if x]
         weapons = esc(u['equipShort']) if u.get('equipShort') else join_and(items)
-        return join_and([f"{man(rest)} equipped with {weapons}", f"{man(n)} equipped with {shield}"] + extra)
+        line = join_and([f"{man(rest)} equipped with {weapons}", f"{man(n)} equipped with {shield}"])
+        return line + (f". All crew: {join_and(extra)}" if extra else '')
     items += [named(x) if x in LABELS else esc(x) for x in (u.get('body'), u.get('shield'), u.get('barding')) if x]
     return join_and(items)
 
@@ -300,6 +301,8 @@ def armor_table(u):
     if not a:
         return ''
     can = {u.get('body'), u.get('shield'), u.get('barding')}
+    for part in (u.get('mixed') or {}).values():   # Mixed Units: per-rank shields (e.g. a pavise)
+        can.add(part.get('shield'))
     for o in u.get('opts', []):
         can |= {o.get('body'), o.get('shield')}
         for c in o.get('choices', []):
