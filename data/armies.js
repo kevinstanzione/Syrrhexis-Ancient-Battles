@@ -2329,7 +2329,7 @@ window.NHB_DATA = {
                     "Šukur",
                     "Horses"
                   ],
-                  "c": 1
+                  "c": 0
                 }
               ]
             },
@@ -2355,7 +2355,7 @@ window.NHB_DATA = {
             "Shield Bearer"
           ],
           "custom": {
-            "Runners": "At the end of the Activation Phase, before Combat, if this unit does not have a Run, Charge, or Flee token and is not locked in combat, it gets bonus attacks. Select an enemy unit within 6” to target with bonus attacks equal to the number of models in this unit, at Accuracy 5 and Strength 5. These attacks cannot be modified."
+            "Runners": "At the end of the Activation Phase, before Combat, if this unit does not have a Run, Charge, or Flee token and is not locked in combat, it gets bonus attacks. Select an enemy unit within 6” to target with bonus attacks equal to the number of Chariot models in this unit, at Accuracy 5 and Strength 5. These attacks cannot be modified."
           },
           "armors": {
             "Túg.ŠirʾAm": {
