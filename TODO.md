@@ -64,6 +64,8 @@ Done 2026-11-05: First Blood row, Strength table order, matching Armor Save tabl
 
 - **Hannibal's Forces — Backstabbers** (unit rule or Carthage Command card, undecided): after this unit charges an Open Order unit without a Hold token, or a Closed Order unit without a Hold token in its flank or rear, the defender gains a flat Break Token count — 1 for Closed Order and 2 for Open Order, or just 1 for both. Flat count (not per 5 models) because it stacks with Exposed Flanks.
 - **European Barbarians — Flanker** (needs a better name): +1 Accuracy while in combat alongside at least one other friendly unit. Always-on infantry rule for warbands.
+- **Qin China — two Army Musicians** (idea, 2026-11-18; drums to advance, gongs to halt, per Sunzi): a Qin retinue rule letting the army take up to 2 Army Musicians. Still to work out how two would interact, since an Army Musician swaps every unit's Hold/Charge tokens at once. One option: with two, each affects only units within 18” of it, so one can drum an advance while the other gongs a halt.
+- **Armies of Alexander — two Commanders** (idea, 2026-11-18; Alexander on the right, Parmenion on the left): a rule on Alexander's retinue units letting the army take up to 2 Commanders.
 - **Neo-Assyrian Empire — Spearhead** (was "Vanguard"; that name is taken by a generic card): while this unit has a Charge token, friendly units that begin their activation within 12” and declare a Charge gain +1 Move (Warriors) or +2 Move (Cavalry, Chariots, Elephants). Unit rule for the royal chariot retinue.
 
 ## Siege expansion (future)
