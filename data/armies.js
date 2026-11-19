@@ -2274,7 +2274,7 @@ window.NHB_DATA = {
           "id": "hattian-chariots",
           "name": "Anše.Kur.Ra Ḫatti",
           "type": "Chariot",
-          "desc": "three-man Hittite chariots",
+          "desc": "three-man Hittite chariots with a shield-bearer",
           "move": 10,
           "training": 6,
           "points": 72,
@@ -2306,13 +2306,12 @@ window.NHB_DATA = {
               "kind": "swap",
               "choices": [
                 {
-                  "name": "Šukur.Tur javelins and Shield",
+                  "name": "Šukur.Tur javelins",
                   "w": [
                     "Šukur.Tur",
                     "Horses"
                   ],
-                  "c": 0,
-                  "shield": "Shield"
+                  "c": 0
                 },
                 {
                   "name": "Giš.Ban bow",
@@ -2320,8 +2319,7 @@ window.NHB_DATA = {
                     "Giš.Ban",
                     "Horses"
                   ],
-                  "c": 0,
-                  "shield": null
+                  "c": 0
                 },
                 {
                   "name": "Šukur spear",
@@ -2329,8 +2327,7 @@ window.NHB_DATA = {
                     "Šukur",
                     "Horses"
                   ],
-                  "c": 1,
-                  "shield": null
+                  "c": 1
                 }
               ]
             },
@@ -2352,7 +2349,8 @@ window.NHB_DATA = {
             }
           ],
           "rules": [
-            "Feign Charge"
+            "Feign Charge",
+            "Shield Bearer"
           ],
           "custom": {
             "Runners": "At the end of the Activation Phase, before Combat, if this unit does not have a Run, Charge, or Flee token and is not locked in combat, it gets bonus attacks. Select an enemy unit within 6” to target with 2 bonus attacks, at Accuracy 5 and Strength 5. These attacks cannot be modified."

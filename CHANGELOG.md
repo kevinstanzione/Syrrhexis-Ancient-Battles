@@ -6,9 +6,13 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
-## 0.33.1 — 2026-11-18
+## 0.33.1 and Rulebook 0.3.9 — 2026-11-18
+
+### Rules
+- New special rule **Shield Bearer**: if any model in a unit, or any crewman of a Chariot, carries a Shield, every model and crewman counts as carrying it. Covers Mixed Unit Armor Saves and Protected Platform, for units where one man carries the shield for his partner or crew.
 
 ### Hittite Empire
+- **Anše.Kur.Ra Ḫatti**: the third crewman is now a shield-bearer, as on the Kadesh reliefs. The chariot keeps its Shield whatever crew weapon it takes (the Giš.Ban bow and Šukur spear no longer drop it) and gains Shield Bearer. No points changes yet.
 - **Túg.ŠirʾAm** (long scale coat) now gives +1 Armor against Shooting attacks instead of +1 Armor in Melee Combat, since these coats were made mainly to stop arrows. Affects the Mešedi, Mešedi Retinue, Anše.Kur.Ra Mittanni and the Anše.Kur.Ra Ḫatti crew option. No points changes.
 
 ### Builder
