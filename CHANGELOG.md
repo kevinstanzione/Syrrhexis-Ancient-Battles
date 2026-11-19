@@ -6,6 +6,11 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## 0.34.1 — 2026-11-18
+
+### Hittite Empire
+- Repriced for the long scale coat (Túg.ŠirʾAm) now protecting against Shooting instead of Melee: **Mešedi** 16 → 15, **Mešedi Retinue** 15 → 14 (melee infantry lose more than they gain), **Anše.Kur.Ra Mittanni** 47 → 49 (chariot archers gain). The Anše.Kur.Ra Ḫatti crew option stays +6, and the Assyrian long scale coat options stay +1 per model (infantry) and +3 per Chariot.
+
 ## 0.34.0 and Rulebook 0.3.9 — 2026-11-18
 
 ### Neo-Assyrian Empire (new army)

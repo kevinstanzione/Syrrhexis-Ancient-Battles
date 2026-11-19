@@ -22,7 +22,6 @@ Done 2026-11-05: First Blood row, Strength table order, matching Armor Save tabl
 
 ## Playtest watch
 - Breaking (changed 2026-11-03): passing removes 1 Break Token, or all if the unit was not Locked in Combat and took no Damage. Watch how often units break, especially at Mass Casualties (2 tokens every Activation Phase).
-- Túg.ŠirʾAm prices (changed 0.33.1 to +1 Armor against Shooting instead of Melee, no points changes): may need repricing. Likely worth less to the Mešedi and Mešedi Retinue (melee infantry), more to the Anše.Kur.Ra Mittanni and the Anše.Kur.Ra Ḫatti crew option (+6). Set the Assyrian long-coat upgrade price at the same time.
 
 ## Sumerian City-States
 - Review changes made 2026-11-03 in the army book draft (tools/army-book/drafts/sumer.json): Eren 2x5, Rear Captain, Šukur Accuracy 6; Šub-lugal characters; Lú-daluš Ranger Captain; Gír removed from Lú-ĝešbu, Eren, Šub-lugal, both vehicles and Martu; Aga-ús Retinue (Army Standard Bearer, Ha-zi-in 4/5/5); Martu Ilar base with Ĝešbu upgrade; new card The God's Steward.
@@ -48,7 +47,7 @@ Done 2026-11-05: First Blood row, Strength table order, matching Armor Save tabl
 
 ## Neo-Assyrian Empire (added 0.34.0)
 - Names: units, weapons, armor and Command cards still use English working names. Replace with Akkadian names (Kevin's plan: next session) and add pronunciations and plain-English labels.
-- Points to watch: the Royal Spearmen (17) and Royal Spearmen Retinue (16) must take a Lead Captain, so check whole-unit costs; long scale coat on chariot crews priced at +3 per Chariot (set with the Túg.ŠirʾAm repricing below).
+- Points to watch: the Royal Spearmen (17) and Royal Spearmen Retinue (16) must take a Lead Captain, so check whole-unit costs.
 - Army opener art still needed (see Art spreads).
 
 ## King of Kings rework (Persia, planned)
