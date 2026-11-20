@@ -50,12 +50,16 @@ Done 2026-11-05: First Blood row, Strength table order, matching Armor Save tabl
 - Points to watch: the Royal Spearmen (17) and Royal Spearmen Retinue (16) must take a Lead Captain, so check whole-unit costs.
 - Army opener art still needed (see Art spreads).
 
-## King of Kings rework (Persia, planned)
-- Pulls units from other army lists, not just the mercenary pool: 4 from Supplemental Mercenaries (Arabian Camel Riders, Greek Hoplites, Scythian Archers, Cretan Archers) + 4 from other lists (Indian elephants from the Mauryan list, replacing the Pīrū; Kushite archers from the Kush list; Egyptians; Assyrians). Borrowed units gain Mercenary. No surcharge for now. Still to confirm: still 2 units per card? Elephants come from the Mauryan (Indian) list, not the Successor list: no tower.
-- Starter list saved in tools/army-book/drafts/mauryan.json (not in the builder or Army Book yet): holds the Pīrū (Old Persian names to rename to Sanskrit) without the Mercenary rule. The live Persian Pīrū stays until the King of Kings rework goes live.
-- Done 0.34.0: the Assyrian Provincial Levy added as the card-only Assyrian unit (merc copy, cardOnly). Only the Mauryan elephants (replacing the Pīrū) and the Cretan Archers are still to add to the card.
-- Done 0.33.0: Mnfꜣt added as the card-only Egyptian unit; the builder gives Mercenary to any unit taken through a card other than Lord of Asia. Still waiting on the Mauryan and Assyria lists (and Cretan Archers to be added).
-- Done 0.28.0: Kushite Archers left the general mercenary pool and became the Kush Pḏtyw; King of Kings still offers them (merc copy marked cardOnly). The full card waits on the Mauryan, Egypt and Assyria lists.
+## Mauryan Empire (added 0.35.0)
+- Playtest pricing: Maula Retinue (15 × 10 models), Ratha (70), Hastin (95), Rājahastin Retinue (120 with paired characters).
+- Army opener art still needed.
+
+## King of Kings rework (Persia)
+- Done 0.35.0: rework complete. 2 units from 8 options: Arabian Camel Riders, Greek Hoplites, Scythian Archers, Cretan Archers (Supplemental Mercenaries) and Pḏtyw, Mnfꜣt, Provincial Levy, Hastin (borrowed lists). Units taken this way gain Mercenary.
+- Done 0.35.0: the Mauryan Hastin replace the Pīrū (merc copy hastin-merc, cardOnly); the Pīrū are gone from the Persian list and the Mauryan starter draft is deleted.
+- Done 0.34.0: the Assyrian Provincial Levy added as the card-only Assyrian unit (merc copy, cardOnly).
+- Done 0.33.0: Mnfꜣt added as the card-only Egyptian unit; the builder gives Mercenary to any unit taken through a card other than Lord of Asia.
+- Done 0.28.0: Kushite Archers left the general mercenary pool and became the Kush Pḏtyw; King of Kings still offers them (merc copy marked cardOnly).
 
 ## Playtest watch (Unwieldy)
 - 0.33.0: Open Order Unwieldy now also gives -X Accuracy when the unit moved or turned that activation. No compensation for anyone (Carduchian bow stays Accuracy 5). Watch the Kush Pḏtyw and Šmsw Retinue, the Pródromoi and the Carduchians.
@@ -64,7 +68,6 @@ Done 2026-11-05: First Blood row, Strength table order, matching Armor Save tabl
 - Maybe: a fourth Major Terrain type, **Woodland** (open woods). Sketch: Difficult Terrain; Light Cover for units within; line of fire up to ~6” into it but not through; Closed Order units lose Collision and Phalanx; Chariots and Warmachines can't enter; Elephants gain Break Tokens as in a Marsh; Ambush units may deploy in it. Would give Surefooted (Woodland) a skirmisher identity.
 
 ## Future army notes
-- **Mauryan Empire — Gajādhyakṣa** (Superintendent of Elephants, from the Arthaśāstra), Mauryan Retinue units only: this unit may Rally friendly Elephant units within 12” as if it were an Elephant unit; 18” if it includes a Commander. A Commander is not required.
 - **Hannibal's Forces — Mallet and Chisel** (on the Carthaginian elephant unit itself; Livy on Hasdrubal at the Metaurus): when this unit would become Furious, you may instead destroy it. You lose only half its Army Morale Contribution.
 
 - **Hannibal's Forces — Backstabbers** (unit rule or Carthage Command card, undecided): after this unit charges an Open Order unit without a Hold token, or a Closed Order unit without a Hold token in its flank or rear, the defender gains a flat Break Token count — 1 for Closed Order and 2 for Open Order, or just 1 for both. Flat count (not per 5 models) because it stacks with Exposed Flanks.
@@ -85,7 +88,6 @@ Done 2026-11-05: First Blood row, Strength table order, matching Armor Save tabl
 ## Army ideas
 - Hannibal's Forces: Iberian / Celtiberian cavalry with Feign Retreat (no Parthian Shot). Tarantînoi in the Alexander list also get Feign Retreat.
 - Shieldwall candidates: Sumerian heavy phalanx (instead of Phalanx), a Germanic-style spear warband for European Barbarians, Libyan heavy infantry for Hannibal's Forces.
-- Pavise candidates: Mauryan foot archers with tall ox-hide shields.
 
 ## Art spreads (future)
 - Pencil scene art: 8 army openers done (art/illustrations), Kush portrait added 2026-11-13, plus card art for The Eclipse and Crumbled Ruins in the Army Book's generic cards. Army Book images get a torn-paper edge at build time.

@@ -140,7 +140,7 @@ def composition(u):
     if c:
         bits = []
         if c.get('driver'):
-            bits.append(f"{c['driver']} Driver")
+            bits.append(f"{c['driver']} Driver" if c['driver'] == 1 else f"{c['driver']} Drivers")
         if c.get('mahout'):
             bits.append(f"{c['mahout']} Mahout")
         if c.get('crew'):
@@ -187,7 +187,8 @@ def equipment(u):
         if tail:
             rows.append(('All Ranks', join_and(tail)))
         return lines(rows)
-    items = [named(w) for w in u['equip'] if w != 'Horses']
+    drv = u.get('driverEquip') or []   # weapons carried by the Drivers rather than the Crewmen
+    items = [named(w) for w in u['equip'] if w != 'Horses' and w not in drv]
     if u.get('shieldBearer') and u.get('shield') and u.get('crew'):
         # Chariots whose shield is carried by its own crewman (Shield Bearer): say who carries what.
         n = u['shieldBearer']; rest = u['crew']['crew'] - n
@@ -196,6 +197,8 @@ def equipment(u):
         extra = [named(x) if x in LABELS else esc(x) for x in (u.get('body'), u.get('barding')) if x]
         weapons = esc(u['equipShort']) if u.get('equipShort') else join_and(items)
         line = join_and([f"{man(rest)} equipped with {weapons}", f"{man(n)} equipped with {shield}"])
+        if drv:
+            line += f". {u['crew']['driver']} {'Driver' if u['crew']['driver'] == 1 else 'Drivers'} equipped with {join_and([named(w) for w in drv])}"
         return line + (f". All crew: {join_and(extra)}" if extra else '')
     items += [named(x) if x in LABELS else esc(x) for x in (u.get('body'), u.get('shield'), u.get('barding')) if x]
     return join_and(items)
@@ -231,7 +234,7 @@ def options(u):
 
 
 def char_group(g):
-    names = [f"{esc(n.strip())} {pts(c)}" for n, c in g['one']]
+    names = [f"{esc(o[0].strip())} {pts(o[1])}" for o in g['one']]
     return ('Must take ' if g.get('req') else '') + join_or(names)
 
 
@@ -459,7 +462,8 @@ TYPE_ORDER = ['Warrior', 'Light Warrior', 'Skirmishing Warrior', 'Cavalry', 'Lig
 
 
 # A Retinue whose name doesn't match its closest unit: unit id -> id of the unit it follows.
-RETINUE_AFTER = {'aga-us': 'sub-lugal', 'smsw': 'pdtyw', 'pr-aa-retinue': 'snnw'}
+RETINUE_AFTER = {'aga-us': 'sub-lugal', 'smsw': 'pdtyw', 'pr-aa-retinue': 'snnw', 'maula-retinue': 'carmin',
+                 'rajahastin-retinue': 'hastin'}
 
 
 def ordered(units):

@@ -45,7 +45,9 @@ window.NHB = (function () {
       const name = sel.chars && sel.chars[i];
       if (!name) return;
       const hit = g.one.find(o => o[0] === name);
-      if (hit) out.push({ name: hit[0], cost: hit[1], note: g.note || "" });
+      // A paired option (e.g. "Lord and Army Standard Bearer") lists its characters and their costs as a third element.
+      if (hit && hit[2]) hit[2].forEach(([n, c]) => out.push({ name: n, cost: c, note: g.note || "" }));
+      else if (hit) out.push({ name: hit[0], cost: hit[1], note: g.note || "" });
     });
     return out;
   }
@@ -110,11 +112,11 @@ window.NHB = (function () {
     }
     const parts = [armorDef(u, body), armorDef(u, shield), armorDef(u, barding)].filter(Boolean);
     const mod = TYPE_ARMOR[u.type] || 0;
-    let value = mod, melee = 0, shoot = 0, hold = 0, runflee = 0;
+    let value = mod, melee = 0, shoot = 0, hold = 0, holdShoot = 0, runflee = 0;
     const notes = [];
     let vs6 = 0;
     parts.forEach(p => {
-      value += p.v || 0; melee += p.melee || 0; shoot += p.shoot || 0; hold += p.hold || 0; runflee += p.runflee || 0;
+      value += p.v || 0; melee += p.melee || 0; shoot += p.shoot || 0; hold += p.hold || 0; holdShoot += p.holdShoot || 0; runflee += p.runflee || 0;
       if (p.vsStr) notes.push(p.vsStr);
       vs6 += p.vs6 || 0;
     });
@@ -122,7 +124,7 @@ window.NHB = (function () {
     if (vs6) notes.unshift(`Against Strength 6+ weapons: Armor ${Math.max(0, value - vs6)} (${saveFor(value - vs6)})`);
     if (u.type === "Chariot") notes.push("Protected Platform: +1, uses crew armor");
     else if (mod) notes.push("Toughness: +1 (Cavalry)");
-    return { value, save: saveFor(value), melee: value + melee, shoot: value + shoot, hold, runflee, notes, parts };
+    return { value, save: saveFor(value), melee: value + melee, shoot: value + shoot, hold, holdShoot, runflee, notes, parts };
   }
 
   function armor(u, sel, lo) {
@@ -334,7 +336,7 @@ window.NHB = (function () {
     return { units, pts, limit, under, bid: Math.min(25, under), morale: armyMorale(morale), armyWarn };
   }
 
-  const charMorale = (name, t) => CHAR_MORALE[name] ? CHAR_MORALE[name](t) : 0;
+  const charMorale = (name, t, parts) => parts ? parts.reduce((s, [n]) => s + charMorale(n, t), 0) : CHAR_MORALE[name] ? CHAR_MORALE[name](t) : 0;
   return { mercSlots, mercFit, charMorale, armorDef, models, ranksFiles, loadout, armor, health, unitStrength, points, morale, armyMorale, moveValue, activeRules, chosenChars, warnings, summarize, saveFor, isOpen, CLOSED_ONLY, RETINUE };
 })();
 if (typeof module !== "undefined") module.exports = window.NHB;

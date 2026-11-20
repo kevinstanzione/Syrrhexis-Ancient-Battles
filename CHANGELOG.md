@@ -6,6 +6,24 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## 0.35.0 — 2026-11-19
+
+### Mauryan Empire (new army)
+- New army list for the Mauryan Empire (c. 322–185 BC), also standing in for the Nanda kingdom before it. Names in Sanskrit. 9 units: Dhanvin (longbow archers, Braced Bow), Carmin (javelinmen with the Carman hide shield), Maula Retinue (a large 2×5 retinue, Training 7), Śreṇībala (guild militia, Guild Bonds), Āṭavika (forest tribesmen, Fickle), Aśvāroha (javelin horsemen, Kāmboja Horses), Ratha (six-man heavy chariots), Hastin (war elephants) and the Rājahastin Retinue (the king's elephant).
+- Both retinues have **Hastyadhyakṣa**: they may Rally friendly Elephant units, within 18” while they include a Commander.
+- 4 Command cards: Viṣa, Kūṭayuddha, Vyūha and Caturaṅga.
+
+### Achaemenid Persia
+- The **Pīrū** are removed. **King of Kings** may now take the Mauryan Hastin instead (with the Mercenary rule), and All of Mankind counts them.
+- **King of Kings** may also take **Cretan Archers** from the Supplemental Mercenaries. It stays at 2 units from its 8 options, completing the planned rework.
+
+### Aztec Empire
+- **Chīmalli**: +1 Armor against Shooting attacks while the unit has a Hold Action Token. Points unchanged.
+
+### Builder and Army Book
+- A character choice can now be a pair (the Rājahastin Retinue takes Lord and Army Standard Bearer, or Commander and Standard Bearer). Chariots can have more than one Driver, and Drivers can carry their own weapon.
+- Weapon tables put in the standard order (default, options, gear) for the Assyrian Spearmen, Royal Spearmen, Royal Spearmen Retinue, Royal Chariot Retinue and Anše.Kur.Ra Ḫatti. No stats changed.
+
 ## 0.34.2 — 2026-11-19
 
 ### Armies of Alexander

@@ -1,7 +1,7 @@
 // Syrrhēxis army data. Edit the values below; keep the first line as is.
 window.NHB_DATA = {
   "meta": {
-    "version": "0.34.2",
+    "version": "0.35.0",
     "synced": "2026-10-22",
     "sources": {
       "Hittite Empire Army": "1aqMPs2Pi5car6pUzcuWmHXArGss_RZdkgATe5OsbVrw",
@@ -2371,17 +2371,17 @@ window.NHB_DATA = {
               "6",
               "1 Attack"
             ],
-            "Šukur.Tur": [
-              "5 / 8”",
-              "5",
-              "6",
-              "1 Attack Melee, 2 Attacks Shooting. Throwing Weapon"
-            ],
             "Horses": [
               "3",
               "5",
               "5",
               "2 Attacks, can only use on Charge. May be used in conjunction with Šukur.Tur or Šukur"
+            ],
+            "Šukur.Tur": [
+              "5 / 8”",
+              "5",
+              "6",
+              "1 Attack Melee, 2 Attacks Shooting. Throwing Weapon"
             ],
             "Giš.Ban": [
               "24”",
@@ -2541,17 +2541,17 @@ window.NHB_DATA = {
               "6",
               "Reach (1)"
             ],
-            "Sword": [
-              "3",
-              "5",
-              "5",
-              ""
-            ],
             "Mace": [
               "3",
               "4",
               "4",
               "Sunder (2)"
+            ],
+            "Sword": [
+              "3",
+              "5",
+              "5",
+              ""
             ]
           }
         },
@@ -2772,17 +2772,17 @@ window.NHB_DATA = {
               "6",
               "Reach (1), Melee Suppression"
             ],
-            "Sword": [
-              "3",
-              "6",
-              "5",
-              "Melee Suppression"
-            ],
             "Mace": [
               "3",
               "5",
               "4",
               "Sunder (2), Melee Suppression"
+            ],
+            "Sword": [
+              "3",
+              "6",
+              "5",
+              "Melee Suppression"
             ]
           }
         },
@@ -2878,17 +2878,17 @@ window.NHB_DATA = {
               "6",
               "Reach (1), Melee Suppression"
             ],
-            "Sword": [
-              "3",
-              "6",
-              "5",
-              "Melee Suppression"
-            ],
             "Mace": [
               "3",
               "5",
               "4",
               "Sunder (2), Melee Suppression"
+            ],
+            "Sword": [
+              "3",
+              "6",
+              "5",
+              "Melee Suppression"
             ]
           }
         },
@@ -3403,6 +3403,12 @@ window.NHB_DATA = {
               "4",
               "2 Attacks. Recurve Bow, Direct Fire"
             ],
+            "Horses": [
+              "3",
+              "5",
+              "5",
+              "4 Attacks, can only use on Charge. May be used in conjunction with the Spear"
+            ],
             "Spear": [
               "7",
               "6",
@@ -3414,12 +3420,6 @@ window.NHB_DATA = {
               "6",
               "5",
               "2 Attacks, cannot be used on Charge. May be used in conjunction with the Spear"
-            ],
-            "Horses": [
-              "3",
-              "5",
-              "5",
-              "4 Attacks, can only use on Charge. May be used in conjunction with the Spear"
             ]
           }
         }
@@ -5292,101 +5292,6 @@ window.NHB_DATA = {
               "1 Attack, cannot be used on Charge. Thrusting Blade"
             ]
           }
-        },
-        {
-          "id": "piru",
-          "name": "Pīrū",
-          "type": "Elephant",
-          "desc": "Indian war elephants",
-          "move": 8,
-          "training": 6,
-          "points": 95,
-          "comps": [
-            [
-              1,
-              2
-            ]
-          ],
-          "crew": {
-            "mahout": 1,
-            "crew": 1
-          },
-          "equip": [
-            "Θanu",
-            "Elephant"
-          ],
-          "gear": [],
-          "body": null,
-          "shield": null,
-          "opts": [
-            {
-              "label": "1 Additional Crewman",
-              "kind": "add",
-              "crewPlus": 1,
-              "c": 12
-            },
-            {
-              "label": "Crew weapon",
-              "kind": "swap",
-              "choices": [
-                {
-                  "name": "Θanu bow",
-                  "w": [
-                    "Θanu",
-                    "Elephant"
-                  ],
-                  "c": 0
-                },
-                {
-                  "name": "Aršti spear",
-                  "w": [
-                    "Aršti",
-                    "Elephant"
-                  ],
-                  "c": 5
-                },
-                {
-                  "name": "Arštaya javelins",
-                  "w": [
-                    "Arštaya",
-                    "Elephant"
-                  ],
-                  "c": 8
-                }
-              ]
-            }
-          ],
-          "chars": [],
-          "rules": [
-            "Terrify Non-Elephant",
-            "Mercenary"
-          ],
-          "weapons": {
-            "Θanu": [
-              "24”",
-              "7",
-              "4",
-              "1 attack per Crewman, plus 1. Recurve Bow, Direct Fire"
-            ],
-            "Elephant": [
-              "10",
-              "5",
-              "8",
-              "1 attack. 2 extra attacks on Charge. Sunder (1)"
-            ],
-            "Aršti": [
-              "5",
-              "6",
-              "6",
-              "1 attack per Crewman"
-            ],
-            "Arštaya": [
-              "4 / 8”",
-              "6",
-              "6",
-              "1 attack per Crewman, plus 1 if Shooting. Throwing Weapon"
-            ]
-          }
         }
       ]
     },
@@ -7067,6 +6972,845 @@ window.NHB_DATA = {
       ]
     },
     {
+      "id": "mauryan",
+      "name": "Mauryan Empire",
+      "units": [
+        {
+          "id": "dhanvin",
+          "name": "Dhanvin",
+          "type": "Warrior",
+          "desc": "longbow archers",
+          "move": 6,
+          "training": 5,
+          "points": 12,
+          "comps": [
+            [
+              4,
+              4
+            ],
+            [
+              3,
+              5
+            ]
+          ],
+          "equip": [
+            "Dhanus"
+          ],
+          "gear": [
+            "Khaḍga"
+          ],
+          "body": null,
+          "shield": null,
+          "opts": [],
+          "chars": [
+            {
+              "one": [
+                [
+                  "Lead Captain",
+                  5
+                ]
+              ]
+            },
+            {
+              "one": [
+                [
+                  "Bowmaster",
+                  10
+                ]
+              ]
+            },
+            {
+              "one": [
+                [
+                  "Musician",
+                  6
+                ]
+              ]
+            }
+          ],
+          "rules": [],
+          "custom": {
+            "Braced Bow": "While this unit has a Hold Action Token, its Dhanus gains +1 Strength. This does not apply while the unit is in a Marsh."
+          },
+          "weapons": {
+            "Dhanus": [
+              "28”",
+              "5",
+              "4",
+              "Direct Fire, Unwieldy (1)"
+            ],
+            "Khaḍga": [
+              "6",
+              "4",
+              "5",
+              "Cleaving Blade (3)"
+            ]
+          }
+        },
+        {
+          "id": "carmin",
+          "name": "Carmin",
+          "type": "Warrior",
+          "desc": "shield-bearing javelinmen",
+          "move": 6,
+          "training": 5,
+          "points": 12,
+          "comps": [
+            [
+              4,
+              5
+            ],
+            [
+              3,
+              5
+            ]
+          ],
+          "equip": [
+            "Tomara"
+          ],
+          "gear": [
+            "Asi"
+          ],
+          "body": null,
+          "shield": "Carman",
+          "opts": [
+            {
+              "label": "Weapon",
+              "kind": "swap",
+              "choices": [
+                {
+                  "name": "Tomara javelins",
+                  "w": [
+                    "Tomara"
+                  ],
+                  "c": 0
+                },
+                {
+                  "name": "Kunta spear",
+                  "w": [
+                    "Kunta"
+                  ],
+                  "c": 0
+                }
+              ]
+            }
+          ],
+          "chars": [
+            {
+              "one": [
+                [
+                  "Lead Captain",
+                  5
+                ]
+              ]
+            },
+            {
+              "one": [
+                [
+                  "Rear Captain",
+                  5
+                ]
+              ]
+            },
+            {
+              "one": [
+                [
+                  "Musician",
+                  6
+                ]
+              ]
+            },
+            {
+              "one": [
+                [
+                  "Standard Bearer",
+                  8
+                ]
+              ]
+            }
+          ],
+          "rules": [],
+          "armors": {
+            "Carman": {
+              "v": 1,
+              "shoot": 1,
+              "hold": 1,
+              "text": "+1 Armor against Shooting attacks. +1 Armor while the unit has a Hold Action Token"
+            }
+          },
+          "weapons": {
+            "Tomara": [
+              "6 / 8”",
+              "5",
+              "6",
+              "Throwing Weapon"
+            ],
+            "Kunta": [
+              "8",
+              "5",
+              "6",
+              "Reach (1)"
+            ],
+            "Asi": [
+              "4",
+              "5",
+              "5",
+              ""
+            ]
+          }
+        },
+        {
+          "id": "maula-retinue",
+          "name": "Maula Retinue",
+          "type": "Warrior",
+          "desc": "hereditary royal troops",
+          "move": 5,
+          "training": 7,
+          "points": 15,
+          "comps": [
+            [
+              2,
+              5
+            ]
+          ],
+          "equip": [
+            "Khaḍga"
+          ],
+          "gear": [],
+          "body": "Light Armor",
+          "shield": null,
+          "opts": [
+            {
+              "label": "Weapon",
+              "kind": "swap",
+              "choices": [
+                {
+                  "name": "Khaḍga two-handed sword",
+                  "w": [
+                    "Khaḍga"
+                  ],
+                  "c": 0
+                },
+                {
+                  "name": "Kunta spear and Carman hide shield",
+                  "w": [
+                    "Kunta"
+                  ],
+                  "shield": "Carman",
+                  "c": 1
+                }
+              ]
+            }
+          ],
+          "chars": [
+            {
+              "req": true,
+              "one": [
+                [
+                  "Lead Captain",
+                  7
+                ],
+                [
+                  "Lord",
+                  17
+                ]
+              ]
+            },
+            {
+              "req": true,
+              "one": [
+                [
+                  "Commander",
+                  42
+                ],
+                [
+                  "Army Musician",
+                  60
+                ]
+              ]
+            }
+          ],
+          "rules": [],
+          "custom": {
+            "Hastyadhyakṣa": "This unit may Rally friendly Elephant units as if it were an Elephant unit. While it includes a Commander, it may Rally them within 18” instead of 12”."
+          },
+          "armors": {
+            "Carman": {
+              "v": 1,
+              "shoot": 1,
+              "hold": 1,
+              "text": "+1 Armor against Shooting attacks. +1 Armor while the unit has a Hold Action Token"
+            }
+          },
+          "weapons": {
+            "Khaḍga": [
+              "6",
+              "5",
+              "5",
+              "Cleaving Blade (3)"
+            ],
+            "Kunta": [
+              "8",
+              "6",
+              "6",
+              "Reach (1)"
+            ]
+          }
+        },
+        {
+          "id": "sreni",
+          "name": "Śreṇībala",
+          "type": "Light Warrior",
+          "desc": "guild militia",
+          "move": 7,
+          "training": 5,
+          "points": 9,
+          "comps": [
+            [
+              4,
+              4
+            ],
+            [
+              2,
+              6
+            ]
+          ],
+          "equip": [
+            "Śakti"
+          ],
+          "gear": [
+            "Asi"
+          ],
+          "body": null,
+          "shield": "Shield",
+          "opts": [
+            {
+              "label": "Weapon",
+              "kind": "swap",
+              "choices": [
+                {
+                  "name": "Śakti spear",
+                  "w": [
+                    "Śakti"
+                  ],
+                  "c": 0
+                },
+                {
+                  "name": "Paraśu axe",
+                  "w": [
+                    "Paraśu"
+                  ],
+                  "c": 0
+                }
+              ]
+            }
+          ],
+          "chars": [
+            {
+              "one": [
+                [
+                  "Lead Captain",
+                  4
+                ]
+              ]
+            },
+            {
+              "one": [
+                [
+                  "Musician",
+                  6
+                ]
+              ]
+            }
+          ],
+          "rules": [],
+          "custom": {
+            "Guild Bonds": "+1 to Break Tests while within 6” of another friendly Śreṇībala unit."
+          },
+          "weapons": {
+            "Śakti": [
+              "7",
+              "5",
+              "5",
+              ""
+            ],
+            "Paraśu": [
+              "3",
+              "4",
+              "5",
+              "Cleaving Blade (4)"
+            ],
+            "Asi": [
+              "4",
+              "5",
+              "5",
+              ""
+            ]
+          }
+        },
+        {
+          "id": "atavika",
+          "name": "Āṭavika",
+          "type": "Skirmishing Warrior",
+          "desc": "forest tribesmen",
+          "move": 7,
+          "training": 4,
+          "points": 9,
+          "range": [
+            6,
+            12
+          ],
+          "equip": [
+            "Cāpa"
+          ],
+          "gear": [
+            "Kṣurikā"
+          ],
+          "body": null,
+          "shield": null,
+          "opts": [
+            {
+              "label": "Weapon",
+              "kind": "swap",
+              "choices": [
+                {
+                  "name": "Cāpa bow",
+                  "w": [
+                    "Cāpa"
+                  ],
+                  "c": 0
+                },
+                {
+                  "name": "Prāsa darts",
+                  "w": [
+                    "Prāsa"
+                  ],
+                  "c": 0
+                }
+              ]
+            }
+          ],
+          "chars": [
+            {
+              "one": [
+                [
+                  "Ranger Captain",
+                  5
+                ],
+                [
+                  "Tribal Leader",
+                  8
+                ]
+              ]
+            }
+          ],
+          "rules": [
+            "Levy",
+            "Ambush",
+            "Surefooted (Marsh)"
+          ],
+          "custom": {
+            "Fickle": "This unit cannot Rally itself unless it includes a Ranger Captain or Tribal Leader. Other units cannot Rally it unless the Rallying unit includes a Ranger Captain or Tribal Leader."
+          },
+          "weapons": {
+            "Cāpa": [
+              "24”",
+              "4",
+              "4",
+              "Direct Fire"
+            ],
+            "Prāsa": [
+              "8”",
+              "5",
+              "5",
+              "Throwing Weapon"
+            ],
+            "Kṣurikā": [
+              "1",
+              "5",
+              "5",
+              ""
+            ]
+          }
+        },
+        {
+          "id": "asvaroha",
+          "name": "Aśvāroha",
+          "type": "Light Cavalry",
+          "desc": "javelin horsemen",
+          "move": 12,
+          "training": 5,
+          "points": 17,
+          "comps": [
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              3
+            ]
+          ],
+          "equip": [
+            "Tomara"
+          ],
+          "gear": [
+            "Asi"
+          ],
+          "body": null,
+          "shield": "Shield",
+          "opts": [],
+          "chars": [
+            {
+              "one": [
+                [
+                  "Lead Captain",
+                  8
+                ]
+              ]
+            }
+          ],
+          "rules": [
+            "Feign Charge"
+          ],
+          "custom": {
+            "Kāmboja Horses": "+2 Move while this unit Runs or makes a Feign Charge, including the Feign Charge’s move away."
+          },
+          "weapons": {
+            "Tomara": [
+              "6 / 8”",
+              "5",
+              "6",
+              "Throwing Weapon"
+            ],
+            "Asi": [
+              "4",
+              "5",
+              "5",
+              ""
+            ]
+          }
+        },
+        {
+          "id": "ratha",
+          "name": "Ratha",
+          "type": "Chariot",
+          "desc": "heavy chariots",
+          "move": 8,
+          "training": 5,
+          "points": 70,
+          "comps": [
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "crew": {
+            "driver": 2,
+            "crew": 4,
+            "horses": 4
+          },
+          "equip": [
+            "Dhanus",
+            "Prāsa",
+            "Horses"
+          ],
+          "gear": [
+            "Kṣurikā"
+          ],
+          "body": null,
+          "shield": "Carman",
+          "shieldBearer": 2,
+          "opts": [],
+          "chars": [
+            {
+              "one": [
+                [
+                  "Standard Bearer",
+                  15
+                ]
+              ]
+            }
+          ],
+          "rules": [
+            "Shield Bearer"
+          ],
+          "custom": {
+            "Kāmboja Horses": "+2 Move while this unit Runs or makes a Feign Charge, including the Feign Charge’s move away."
+          },
+          "armors": {
+            "Carman": {
+              "v": 1,
+              "shoot": 1,
+              "hold": 1,
+              "text": "+1 Armor against Shooting attacks. +1 Armor while the unit has a Hold Action Token"
+            }
+          },
+          "weapons": {
+            "Dhanus": [
+              "28”",
+              "5",
+              "4",
+              "2 Attacks. Direct Fire"
+            ],
+            "Prāsa": [
+              "8”",
+              "5",
+              "5",
+              "3 Attacks, can only be used with a Hold Action Token. Throwing Weapon"
+            ],
+            "Horses": [
+              "3",
+              "5",
+              "5",
+              "4 Attacks, can only use on Charge"
+            ],
+            "Kṣurikā": [
+              "1",
+              "6",
+              "5",
+              "1 Attack, cannot be used on Charge"
+            ]
+          },
+          "driverEquip": [
+            "Prāsa"
+          ]
+        },
+        {
+          "id": "hastin",
+          "name": "Hastin",
+          "type": "Elephant",
+          "desc": "war elephants",
+          "move": 8,
+          "training": 6,
+          "points": 95,
+          "comps": [
+            [
+              1,
+              2
+            ]
+          ],
+          "crew": {
+            "mahout": 1,
+            "crew": 1
+          },
+          "equip": [
+            "Cāpa",
+            "Elephant"
+          ],
+          "gear": [],
+          "body": null,
+          "shield": null,
+          "opts": [
+            {
+              "label": "1 Additional Crewman",
+              "kind": "add",
+              "crewPlus": 1,
+              "c": 12
+            },
+            {
+              "label": "Crew weapon",
+              "kind": "swap",
+              "choices": [
+                {
+                  "name": "Cāpa bow",
+                  "w": [
+                    "Cāpa",
+                    "Elephant"
+                  ],
+                  "c": 0
+                },
+                {
+                  "name": "Kunta spear",
+                  "w": [
+                    "Kunta",
+                    "Elephant"
+                  ],
+                  "c": 5
+                },
+                {
+                  "name": "Tomara javelins",
+                  "w": [
+                    "Tomara",
+                    "Elephant"
+                  ],
+                  "c": 8
+                }
+              ]
+            }
+          ],
+          "chars": [
+            {
+              "one": [
+                [
+                  "Musician",
+                  10
+                ]
+              ]
+            }
+          ],
+          "rules": [
+            "Terrify Non-Elephant"
+          ],
+          "weapons": {
+            "Cāpa": [
+              "24”",
+              "6",
+              "4",
+              "1 attack per Crewman, plus 1. Direct Fire"
+            ],
+            "Elephant": [
+              "10",
+              "5",
+              "8",
+              "1 attack. 2 extra attacks on Charge. Sunder (1)"
+            ],
+            "Kunta": [
+              "5",
+              "6",
+              "6",
+              "1 attack per Crewman"
+            ],
+            "Tomara": [
+              "4 / 8”",
+              "6",
+              "6",
+              "1 attack per Crewman, plus 1 if Shooting. Throwing Weapon"
+            ]
+          }
+        },
+        {
+          "id": "rajahastin-retinue",
+          "name": "Rājahastin Retinue",
+          "type": "Elephant",
+          "desc": "the king’s elephant",
+          "move": 7,
+          "training": 8,
+          "points": 120,
+          "comps": [
+            [
+              1,
+              1
+            ]
+          ],
+          "crew": {
+            "mahout": 1,
+            "crew": 2
+          },
+          "equip": [
+            "Cāpa",
+            "Elephant"
+          ],
+          "gear": [],
+          "body": null,
+          "shield": null,
+          "opts": [
+            {
+              "label": "Crew weapon",
+              "kind": "swap",
+              "choices": [
+                {
+                  "name": "Cāpa bow",
+                  "w": [
+                    "Cāpa",
+                    "Elephant"
+                  ],
+                  "c": 0
+                },
+                {
+                  "name": "Kunta spear",
+                  "w": [
+                    "Kunta",
+                    "Elephant"
+                  ],
+                  "c": 5
+                },
+                {
+                  "name": "Tomara javelins",
+                  "w": [
+                    "Tomara",
+                    "Elephant"
+                  ],
+                  "c": 8
+                }
+              ]
+            }
+          ],
+          "chars": [
+            {
+              "req": true,
+              "one": [
+                [
+                  "Lord and Army Standard Bearer",
+                  44,
+                  [
+                    [
+                      "Lord",
+                      17
+                    ],
+                    [
+                      "Army Standard Bearer",
+                      27
+                    ]
+                  ]
+                ],
+                [
+                  "Commander and Standard Bearer",
+                  40,
+                  [
+                    [
+                      "Commander",
+                      32
+                    ],
+                    [
+                      "Standard Bearer",
+                      8
+                    ]
+                  ]
+                ]
+              ]
+            }
+          ],
+          "rules": [
+            "Terrify Non-Elephant"
+          ],
+          "custom": {
+            "Hastyadhyakṣa": "This unit may Rally friendly Elephant units as if it were an Elephant unit. While it includes a Commander, it may Rally them within 18” instead of 12”."
+          },
+          "weapons": {
+            "Cāpa": [
+              "24”",
+              "7",
+              "4",
+              "1 attack per Crewman, plus 1. Direct Fire"
+            ],
+            "Elephant": [
+              "10",
+              "5",
+              "8",
+              "1 attack. 2 extra attacks on Charge. Sunder (1)"
+            ],
+            "Kunta": [
+              "5",
+              "7",
+              "6",
+              "1 attack per Crewman"
+            ],
+            "Tomara": [
+              "4 / 8”",
+              "7",
+              "6",
+              "1 attack per Crewman, plus 1 if Shooting. Throwing Weapon"
+            ]
+          }
+        }
+      ]
+    },
+    {
       "id": "rome",
       "name": "Imperial Rome",
       "units": [
@@ -8065,7 +8809,8 @@ window.NHB_DATA = {
             "Chīmalli": {
               "v": 1,
               "vs6": 1,
-              "text": "-1 Armor against Weapon Attacks with Strength 6 or Greater"
+              "text": "-1 Armor against Weapon Attacks with Strength 6 or Greater. +1 Armor against Shooting attacks while the unit has a Hold Action Token",
+              "holdShoot": 1
             },
             "Ichcahuīpīlli": {
               "v": 1,
@@ -8201,7 +8946,8 @@ window.NHB_DATA = {
             "Chīmalli": {
               "v": 1,
               "vs6": 1,
-              "text": "-1 Armor against Weapon Attacks with Strength 6 or Greater"
+              "text": "-1 Armor against Weapon Attacks with Strength 6 or Greater. +1 Armor against Shooting attacks while the unit has a Hold Action Token",
+              "holdShoot": 1
             },
             "Ichcahuīpīlli": {
               "v": 1,
@@ -8292,7 +9038,8 @@ window.NHB_DATA = {
             "Chīmalli": {
               "v": 1,
               "vs6": 1,
-              "text": "-1 Armor against Weapon Attacks with Strength 6 or Greater"
+              "text": "-1 Armor against Weapon Attacks with Strength 6 or Greater. +1 Armor against Shooting attacks while the unit has a Hold Action Token",
+              "holdShoot": 1
             },
             "Ichcahuīpīlli": {
               "v": 1,
@@ -8427,7 +9174,8 @@ window.NHB_DATA = {
             "Chīmalli": {
               "v": 1,
               "vs6": 1,
-              "text": "-1 Armor against Weapon Attacks with Strength 6 or Greater"
+              "text": "-1 Armor against Weapon Attacks with Strength 6 or Greater. +1 Armor against Shooting attacks while the unit has a Hold Action Token",
+              "holdShoot": 1
             },
             "Ichcahuīpīlli": {
               "v": 1,
@@ -8526,7 +9274,8 @@ window.NHB_DATA = {
             "Chīmalli": {
               "v": 1,
               "vs6": 1,
-              "text": "-1 Armor against Weapon Attacks with Strength 6 or Greater"
+              "text": "-1 Armor against Weapon Attacks with Strength 6 or Greater. +1 Armor against Shooting attacks while the unit has a Hold Action Token",
+              "holdShoot": 1
             },
             "Ichcahuīpīlli": {
               "v": 1,
@@ -8597,7 +9346,8 @@ window.NHB_DATA = {
             "Chīmalli": {
               "v": 1,
               "vs6": 1,
-              "text": "-1 Armor against Weapon Attacks with Strength 6 or Greater"
+              "text": "-1 Armor against Weapon Attacks with Strength 6 or Greater. +1 Armor against Shooting attacks while the unit has a Hold Action Token",
+              "holdShoot": 1
             },
             "Ichcahuīpīlli": {
               "v": 1,
@@ -8679,7 +9429,8 @@ window.NHB_DATA = {
             "Chīmalli": {
               "v": 1,
               "vs6": 1,
-              "text": "-1 Armor against Weapon Attacks with Strength 6 or Greater"
+              "text": "-1 Armor against Weapon Attacks with Strength 6 or Greater. +1 Armor against Shooting attacks while the unit has a Hold Action Token",
+              "holdShoot": 1
             },
             "Ichcahuīpīlli": {
               "v": 1,
@@ -8841,7 +9592,18 @@ window.NHB_DATA = {
     "Ḫpš": "khopesh",
     "Mỉnb": "axe",
     "Ỉqḥw": "two-handed mace-axe",
-    "Ḥrp": "long sword"
+    "Ḥrp": "long sword",
+    "Dhanus": "longbow",
+    "Khaḍga": "two-handed sword",
+    "Carman": "hide shield",
+    "Tomara": "javelins",
+    "Kunta": "spear",
+    "Asi": "sword",
+    "Śakti": "short spear",
+    "Paraśu": "axe",
+    "Cāpa": "bow",
+    "Prāsa": "darts",
+    "Kṣurikā": "knife"
   },
   "say": {
     "Eren": "EH-ren",
@@ -9025,7 +9787,27 @@ window.NHB_DATA = {
     "Rumḥā": "ROOM-khah",
     "Sakkīnā": "sak-KEE-nah",
     "Θanvar": "THAN-var",
-    "Karəta": "KAR-eh-tah"
+    "Karəta": "KAR-eh-tah",
+    "Dhanvin": "DHUN-vin",
+    "Carmin": "CHUR-min",
+    "Maula": "MOW-luh",
+    "Śreṇībala": "SHRAY-nee-buh-luh",
+    "Āṭavika": "AH-tuh-vi-kuh",
+    "Aśvāroha": "ush-VAH-ro-huh",
+    "Ratha": "RUH-tuh",
+    "Hastin": "HUS-tin",
+    "Rājahastin": "RAH-juh-hus-tin",
+    "Dhanus": "DHUH-noos",
+    "Khaḍga": "KHUD-guh",
+    "Carman": "CHUR-mun",
+    "Tomara": "TOH-muh-ruh",
+    "Kunta": "KOON-tuh",
+    "Asi": "UH-see",
+    "Śakti": "SHUK-tee",
+    "Paraśu": "PUH-ruh-shoo",
+    "Cāpa": "CHAH-puh",
+    "Prāsa": "PRAH-suh",
+    "Kṣurikā": "KSHOO-ri-kah"
   },
   "mercs": {
     "id": "mercs",
@@ -10284,6 +11066,111 @@ window.NHB_DATA = {
           ]
         },
         "cardOnly": true
+      },
+      {
+        "id": "hastin-merc",
+        "name": "Hastin",
+        "type": "Elephant",
+        "desc": "Indian war elephants",
+        "move": 8,
+        "training": 6,
+        "points": 95,
+        "comps": [
+          [
+            1,
+            2
+          ]
+        ],
+        "crew": {
+          "mahout": 1,
+          "crew": 1
+        },
+        "equip": [
+          "Cāpa",
+          "Elephant"
+        ],
+        "gear": [],
+        "body": null,
+        "shield": null,
+        "opts": [
+          {
+            "label": "1 Additional Crewman",
+            "kind": "add",
+            "crewPlus": 1,
+            "c": 12
+          },
+          {
+            "label": "Crew weapon",
+            "kind": "swap",
+            "choices": [
+              {
+                "name": "Cāpa bow",
+                "w": [
+                  "Cāpa",
+                  "Elephant"
+                ],
+                "c": 0
+              },
+              {
+                "name": "Kunta spear",
+                "w": [
+                  "Kunta",
+                  "Elephant"
+                ],
+                "c": 5
+              },
+              {
+                "name": "Tomara javelins",
+                "w": [
+                  "Tomara",
+                  "Elephant"
+                ],
+                "c": 8
+              }
+            ]
+          }
+        ],
+        "chars": [
+          {
+            "one": [
+              [
+                "Musician",
+                10
+              ]
+            ]
+          }
+        ],
+        "rules": [
+          "Terrify Non-Elephant",
+          "Mercenary"
+        ],
+        "weapons": {
+          "Cāpa": [
+            "24”",
+            "6",
+            "4",
+            "1 attack per Crewman, plus 1. Direct Fire"
+          ],
+          "Elephant": [
+            "10",
+            "5",
+            "8",
+            "1 attack. 2 extra attacks on Charge. Sunder (1)"
+          ],
+          "Kunta": [
+            "5",
+            "6",
+            "6",
+            "1 attack per Crewman"
+          ],
+          "Tomara": [
+            "4 / 8”",
+            "6",
+            "6",
+            "1 attack per Crewman, plus 1 if Shooting. Throwing Weapon"
+          ]
+        },
+        "cardOnly": true
       }
     ]
   },
@@ -10705,7 +11592,7 @@ window.NHB_DATA = {
         "persia"
       ],
       "limit": 1,
-      "text": "This round, add +1 to your Initiative roll for each unit with the Mercenary rule you have on the battlefield, including Pīrū.",
+      "text": "This round, add +1 to your Initiative roll for each unit with the Mercenary rule you have on the battlefield, including Hastin taken through King of Kings.",
       "flavor": "Every nation under heaven marches beneath the Great King's banner."
     },
     {
@@ -10743,11 +11630,13 @@ window.NHB_DATA = {
         "nabatean-skirmishers",
         "greek-hoplites",
         "scythian-archers",
+        "cretan-archers",
         "kushite-archers",
         "egyptian-spearmen",
-        "assyrian-levy-merc"
+        "assyrian-levy-merc",
+        "hastin-merc"
       ],
-      "text": "Your army may include 2 units chosen from Arabian Camel Riders, Greek Hoplites and Scythian Archers from the Supplemental Mercenaries list, Pḏtyw (Kushite archers) from the Kingdom of Kush list Mnfꜣt (Egyptian spearmen) from the Dynastic Egypt list and the Provincial Levy (Assyrian levy) from the Neo-Assyrian Empire list. Units taken this way have the Mercenary rule.",
+      "text": "Your army may include 2 units chosen from Arabian Camel Riders, Greek Hoplites, Scythian Archers and Cretan Archers from the Supplemental Mercenaries list, Pḏtyw (Kushite archers) from the Kingdom of Kush list, Mnfꜣt (Egyptian spearmen) from the Dynastic Egypt list, the Provincial Levy (Assyrian levy) from the Neo-Assyrian Empire list and Hastin (Indian war elephants) from the Mauryan Empire list. Units taken this way have the Mercenary rule.",
       "note": "If you take a mercenary unit through this card, this card must be one of the 3 cards in your hand.",
       "flavor": "Conquered kings send their warriors to serve the throne."
     },
@@ -11213,6 +12102,50 @@ window.NHB_DATA = {
       "limit": 1,
       "text": "Play at the start of a round. Choose an enemy unit within 12” of your Commander's unit. It gains 3 Break Tokens.",
       "flavor": "Do not let your king deceive you, for he will not be able to deliver you out of my hand."
+    },
+    {
+      "id": "visa",
+      "name": "Viṣa",
+      "short": "Āṭavika poison their weapons",
+      "armies": [
+        "mauryan"
+      ],
+      "limit": 1,
+      "text": "Choose up to 2 friendly Āṭavika units. Until the end of the round, they attack at -1 Strength, and each Hit that causes damage gives the target 1 Break Token.",
+      "flavor": "At Harmatelia even a scratch from an Indian blade killed, and the wounded died in agony."
+    },
+    {
+      "id": "kutayuddha",
+      "name": "Kūṭayuddha",
+      "short": "Spies reveal a card from the enemy's hand",
+      "armies": [
+        "mauryan"
+      ],
+      "limit": 1,
+      "text": "Your opponent reveals 1 card at random from their Command hand that they have not played.",
+      "flavor": "The king's spies went everywhere in disguise, as monks, merchants and beggars."
+    },
+    {
+      "id": "vyuha",
+      "name": "Vyūha",
+      "short": "Swap two units of the same type after deployment",
+      "armies": [
+        "mauryan"
+      ],
+      "limit": 1,
+      "text": "Play after deployment, before the first round. Swap the positions of two friendly units of the same unit type. Light Warriors count as either Warriors or Skirmishing Warriors, and Light Cavalry count as either Cavalry or Skirmishing Cavalry. Closed Order units keep their facing.",
+      "flavor": "The staff, the snake, the circle and the scattered line: each array had its place."
+    },
+    {
+      "id": "caturanga",
+      "name": "Caturaṅga",
+      "short": "+2 Initiative with all four arms on the field",
+      "armies": [
+        "mauryan"
+      ],
+      "limit": 1,
+      "text": "This round, add +2 to your Initiative roll if you have on the battlefield at least one Warrior, Light Warrior or Skirmishing Warrior unit, one Cavalry, Light Cavalry or Skirmishing Cavalry unit, one Chariot unit and one Elephant unit.",
+      "flavor": "Foot, horse, chariot and elephant: the four limbs of the royal army."
     }
   ]
 };

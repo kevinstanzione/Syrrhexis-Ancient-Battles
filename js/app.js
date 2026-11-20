@@ -157,8 +157,9 @@
           ${g.one.map(o => `<option value="${esc(o[0])}" ${o[0] === cur ? "selected" : ""}>${esc(o[0])} (+${o[1]})</option>`).join("")}
         </select>
         <ul class="charlist">${g.one.map(o => {
-          const mor = NHB.charMorale(o[0], u.training);
-          return `<li class="${o[0] === cur ? "on" : ""}"><b>${esc(o[0])}</b> <span class="num">${o[1]} pts · +${mor} morale</span><br>${esc(R.charShort[o[0]] || "")}</li>`;
+          const mor = NHB.charMorale(o[0], u.training, o[2]);
+          const short = o[2] ? o[2].map(([n]) => `${n}: ${R.charShort[n] || ""}`).join(" ") : (R.charShort[o[0]] || "");
+          return `<li class="${o[0] === cur ? "on" : ""}"><b>${esc(o[0])}</b> <span class="num">${o[1]} pts · +${mor} morale</span><br>${esc(short)}</li>`;
         }).join("")}</ul></div>`;
     }).join("");
     const a = x.armor;
@@ -387,6 +388,7 @@
     if (a.melee !== a.value) out.push(`In melee: ${a.melee} (${NHB.saveFor(a.melee)})`);
     if (a.shoot != null && a.shoot !== a.value) out.push(`Against shooting: ${a.shoot} (${NHB.saveFor(a.shoot)})`);
     if (a.hold) out.push(`With Hold token: +${a.hold}`);
+    if (a.holdShoot) out.push(`With Hold token, against shooting: +${a.holdShoot}`);
     if (a.runflee) out.push(`With Run/Flee token: ${a.runflee}`);
     if (a.mixedNote) out.push(a.mixedNote);
     (a.notes || []).forEach(n => out.push(n));
