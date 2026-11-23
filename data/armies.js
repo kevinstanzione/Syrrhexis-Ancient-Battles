@@ -1,7 +1,7 @@
 // Syrrhēxis army data. Edit the values below; keep the first line as is.
 window.NHB_DATA = {
   "meta": {
-    "version": "0.40.4",
+    "version": "0.40.5",
     "synced": "2026-10-22",
     "sources": {
       "Hittite Empire Army": "1aqMPs2Pi5car6pUzcuWmHXArGss_RZdkgATe5OsbVrw",
@@ -11813,8 +11813,8 @@ window.NHB_DATA = {
         "name": "Greek Hoplites",
         "type": "Warrior",
         "move": 6,
-        "training": 5,
-        "points": 15,
+        "training": 6,
+        "points": 16,
         "comps": [
           [
             4,
@@ -11831,16 +11831,35 @@ window.NHB_DATA = {
         "gear": [
           "Xíphos"
         ],
-        "body": "Light Armor",
+        "body": null,
         "shield": "Heavy Shield",
-        "opts": [],
+        "opts": [
+          {
+            "label": "Light Armor",
+            "kind": "add",
+            "body": "Light Armor",
+            "c": 1
+          }
+        ],
         "chars": [
           {
             "one": [
               [
                 "Lead Captain",
                 5
-              ],
+              ]
+            ]
+          },
+          {
+            "one": [
+              [
+                "Rear Captain",
+                5
+              ]
+            ]
+          },
+          {
+            "one": [
               [
                 "Musician",
                 5
@@ -11865,6 +11884,9 @@ window.NHB_DATA = {
             "6",
             "Parrying Blade"
           ]
+        },
+        "custom": {
+          "The Ten Thousand": "This unit does not automatically fail Break Tests during Mass Panic."
         }
       },
       {
