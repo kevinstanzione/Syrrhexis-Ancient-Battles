@@ -8,7 +8,7 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 
 ## Army Book — 2026-11-23 (new army art)
 
-- Four more armies open with a portrait pencil illustration: Neo-Assyrian archers behind a wicker pavise, Mauryan Dhanvin with bamboo longbows braced on the ground in the monsoon, Hannibal's Forces spearmen in the woods, and European Barbarians charging through the rain with a chariot behind. The first Assyrian version (with a fortress in the background) is kept as art/illustrations/assyria_pavise_alt.png.
+- Five more armies open with a portrait pencil illustration: an Egyptian chariot with Pḥrrw runners alongside, Neo-Assyrian archers behind a wicker pavise, Mauryan Dhanvin with bamboo longbows braced on the ground in the monsoon, Hannibal's Forces spearmen in the woods, and European Barbarians charging through the rain with a chariot behind. The first Assyrian version (with a fortress in the background) is kept as art/illustrations/assyria_pavise_alt.png.
 
 ## 0.40.5 — 2026-11-23
 
