@@ -6,6 +6,11 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## 0.40.2 — 2026-11-22
+
+### Surefooted (Woodland)
+- Added to Āṭavika (Mauryan Empire), Agriânes (Armies of Alexander), Šukur.Tur Kaška (Hittite Empire), Yāōnāmicqueh, Yāōminqueh and Yāōmotlatqueh (Aztec Empire), and Centeni and Jungōz (European Barbarians). Units that already had Surefooted (X) add Woodland to it. Points unchanged.
+
 ## 0.40.1 and Rulebook 0.3.11 — 2026-11-22
 
 ### Rules

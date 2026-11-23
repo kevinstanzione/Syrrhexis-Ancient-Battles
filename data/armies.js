@@ -1,7 +1,7 @@
 // Syrrhēxis army data. Edit the values below; keep the first line as is.
 window.NHB_DATA = {
   "meta": {
-    "version": "0.40.1",
+    "version": "0.40.2",
     "synced": "2026-10-22",
     "sources": {
       "Hittite Empire Army": "1aqMPs2Pi5car6pUzcuWmHXArGss_RZdkgATe5OsbVrw",
@@ -2247,6 +2247,7 @@ window.NHB_DATA = {
           ],
           "rules": [
             "Ambush",
+            "Surefooted (Woodland)",
             "Mercenary"
           ],
           "weapons": {
@@ -6594,7 +6595,7 @@ window.NHB_DATA = {
           ],
           "rules": [
             "Scout",
-            "Surefooted (Stony Plain)"
+            "Surefooted (Stony Plain, Woodland)"
           ],
           "weapons": {
             "Akóntion": [
@@ -7502,7 +7503,7 @@ window.NHB_DATA = {
           "rules": [
             "Levy",
             "Ambush",
-            "Surefooted (Marsh)"
+            "Surefooted (Marsh, Woodland)"
           ],
           "custom": {
             "Fickle": "This unit cannot Rally itself unless it includes a Ranger Captain or Tribal Leader. Other units cannot Rally it unless the Rallying unit includes a Ranger Captain or Tribal Leader."
@@ -9251,7 +9252,9 @@ window.NHB_DATA = {
               ]
             }
           ],
-          "rules": [],
+          "rules": [
+            "Surefooted (Woodland)"
+          ],
           "custom": {
             "Tribe": "Germanic.",
             "Furor": "Starts the battle with a face-up Furor token, giving +1 Strength with melee weapons. If the unit Charges, it keeps the bonus for that round's Combat, then flips the token at the end of the Combat Phase: -1 Training for the rest of the battle. If it is Charged while the token is face-up, remove the token, with no bonus and no penalty. A unit that falls back from a Charge with its Skirmish Captain keeps its token.",
@@ -9529,7 +9532,8 @@ window.NHB_DATA = {
             }
           ],
           "rules": [
-            "Levy"
+            "Levy",
+            "Surefooted (Woodland)"
           ],
           "custom": {
             "Tribe": "Germanic.",
@@ -11120,7 +11124,8 @@ window.NHB_DATA = {
             }
           ],
           "rules": [
-            "Mixed Unit"
+            "Mixed Unit",
+            "Surefooted (Woodland)"
           ],
           "weapons": {
             "Mācuahuitl": [
@@ -11281,7 +11286,8 @@ window.NHB_DATA = {
             }
           ],
           "rules": [
-            "Mixed Unit"
+            "Mixed Unit",
+            "Surefooted (Woodland)"
           ],
           "weapons": {
             "Tēmātlatl": [
@@ -11364,7 +11370,8 @@ window.NHB_DATA = {
           ],
           "rules": [
             "Ambush",
-            "Mixed Unit"
+            "Mixed Unit",
+            "Surefooted (Woodland)"
           ],
           "weapons": {
             "Atlatl": [
