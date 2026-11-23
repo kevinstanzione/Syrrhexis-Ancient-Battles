@@ -6,6 +6,11 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## 0.39.1 — 2026-11-22
+
+### Classical Greece and Armies of Alexander
+- The **Akóntion** is thrown with the ankylē (throwing thong): range 8” → 10” for Peltastaí, Psiloí, Thureophóroi, Agriânes and Tarantînoi. Elephant crews keep 4 / 8”. Points unchanged.
+
 ## 0.39.0 — 2026-11-22
 
 ### European Barbarians (new army)

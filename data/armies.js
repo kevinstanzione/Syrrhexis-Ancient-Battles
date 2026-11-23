@@ -1,7 +1,7 @@
 // Syrrhēxis army data. Edit the values below; keep the first line as is.
 window.NHB_DATA = {
   "meta": {
-    "version": "0.39.0",
+    "version": "0.39.1",
     "synced": "2026-10-22",
     "sources": {
       "Hittite Empire Army": "1aqMPs2Pi5car6pUzcuWmHXArGss_RZdkgATe5OsbVrw",
@@ -5763,7 +5763,7 @@ window.NHB_DATA = {
           ],
           "weapons": {
             "Akóntion": [
-              "6 / 8”",
+              "6 / 10”",
               "5",
               "6",
               "Throwing Weapon"
@@ -5962,7 +5962,7 @@ window.NHB_DATA = {
           },
           "weapons": {
             "Akóntion": [
-              "6 / 8”",
+              "6 / 10”",
               "5",
               "5",
               "Throwing Weapon"
@@ -6540,7 +6540,7 @@ window.NHB_DATA = {
               "Reach (1)"
             ],
             "Akóntion": [
-              "6 / 8”",
+              "6 / 10”",
               "5",
               "6",
               "Throwing Weapon"
@@ -6598,7 +6598,7 @@ window.NHB_DATA = {
           ],
           "weapons": {
             "Akóntion": [
-              "6 / 8”",
+              "6 / 10”",
               "6",
               "6",
               "Throwing Weapon"
@@ -6905,7 +6905,7 @@ window.NHB_DATA = {
           ],
           "weapons": {
             "Akóntion": [
-              "6 / 8”",
+              "6 / 10”",
               "6",
               "6",
               "Throwing Weapon"
