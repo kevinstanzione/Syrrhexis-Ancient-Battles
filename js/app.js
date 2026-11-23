@@ -146,7 +146,7 @@
       const off = lo.disabled[oi];
       const on = !off && (sel.adds || {})[oi];
       return `<label class="check ${off ? "off" : ""}"><input type="checkbox" id="ad-${sel.uid}-${oi}" data-act="add" data-i="${idx}" data-o="${oi}" ${on ? "checked" : ""} ${off ? "disabled" : ""}>
-        ${esc(o.label)} <span class="num">+${o.c}/model</span>${off ? ` <span class="label">not with ${esc(o.unlessWeapon)}</span>` : ""}</label>`;
+        ${esc(o.label)} <span class="num">+${o.c}/model</span>${off ? ` <span class="label">${o.ifWeapon ? `only with ${esc(o.ifWeapon)}` : `not with ${esc(o.unlessWeapon)}`}</span>` : ""}</label>`;
     }).join("");
     // Mḥšbm (Hannibal's Forces): the Commander may take the Mercenary rule away from one unit of the army list.
     const pm = !sel.src && army().paymasters;

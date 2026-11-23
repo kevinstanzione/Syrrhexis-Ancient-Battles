@@ -6,6 +6,19 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## 0.39.0 — 2026-11-22
+
+### European Barbarians (new army)
+- Celtic and Germanic peoples, c. 225 BC–AD 9, with Gaulish, Proto-Germanic and Latin names. 12 units: **Korioi** (Gallic warband), **Ambaktoi Retinue** (Gallic noble retainers), **Harjōz** (Germanic warband), **Gasinþōz Retinue** (sworn companions), **Agrestēs** (tribal levy), **Centeni** (Germanic foot runners), **Gaisatoi** (the Gaesatae), **Gaisarioi** (Gallic skirmishers), **Pritanī** (British warriors), **Jungōz** (Germanic youths), **Eporedoi** (Gallic cavalry), **Marhōz** (Germanic cavalry).
+- Every unit is Celtic or Germanic (Agrestēs are neither), and every Celtic and Germanic unit has **Furor**: +1 melee Strength until its first Charge, then -1 Training for the rest of the battle; removed with no effect if the unit is Charged first. Unit rules include Cuneus, Sworn Companions, Horse Runners, Naked Fury and Right Wheel.
+- Command cards: **Essedon** (Celtic army only), **Teutoburg** (Germanic army only), **Barditus**, **Druidic Curse**, **Wagon Laager** and **Wall of Shields** (limit 2).
+
+### Generic Command cards
+- **Single Combat** (limit 2) replaces Challenge of Champions: the challenged player may refuse, at a cost of twice their unit's Training in Army Morale; the winner gains +1 Accuracy and the loser a Break Token.
+
+### Builder
+- An add-on option can require a weapon (`ifWeapon`), e.g. Agrestēs may only add Matara javelins while they keep the Fustis.
+
 ## 0.38.1 — 2026-11-22
 
 ### Neo-Assyrian Empire

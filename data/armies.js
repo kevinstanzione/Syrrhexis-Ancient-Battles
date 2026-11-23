@@ -1,7 +1,7 @@
 // Syrrhēxis army data. Edit the values below; keep the first line as is.
 window.NHB_DATA = {
   "meta": {
-    "version": "0.38.1",
+    "version": "0.39.0",
     "synced": "2026-10-22",
     "sources": {
       "Hittite Empire Army": "1aqMPs2Pi5car6pUzcuWmHXArGss_RZdkgATe5OsbVrw",
@@ -8747,6 +8747,964 @@ window.NHB_DATA = {
       ]
     },
     {
+      "id": "barbarians",
+      "name": "European Barbarians",
+      "units": [
+        {
+          "id": "korioi",
+          "name": "Korioi",
+          "type": "Warrior",
+          "desc": "Gallic warband",
+          "move": 6,
+          "training": 5,
+          "points": 11,
+          "comps": [
+            [
+              4,
+              6
+            ],
+            [
+              3,
+              6
+            ]
+          ],
+          "equip": [
+            "Gaison"
+          ],
+          "gear": [],
+          "body": null,
+          "shield": "Heavy Shield",
+          "opts": [
+            {
+              "label": "Weapon",
+              "kind": "swap",
+              "choices": [
+                {
+                  "name": "Gaison spear",
+                  "w": [
+                    "Gaison"
+                  ],
+                  "c": 0
+                },
+                {
+                  "name": "Kladios long sword",
+                  "w": [
+                    "Kladios"
+                  ],
+                  "c": 1
+                }
+              ]
+            },
+            {
+              "label": "Matara javelins",
+              "kind": "add",
+              "w": [
+                "Matara"
+              ],
+              "c": 1
+            }
+          ],
+          "chars": [
+            {
+              "one": [
+                [
+                  "Tribal Leader",
+                  7
+                ]
+              ]
+            },
+            {
+              "one": [
+                [
+                  "Musician",
+                  5
+                ]
+              ]
+            },
+            {
+              "one": [
+                [
+                  "Standard Bearer",
+                  8
+                ]
+              ]
+            }
+          ],
+          "rules": [
+            "Frenzy"
+          ],
+          "custom": {
+            "Tribe": "Celtic.",
+            "Furor": "Starts the battle with a face-up Furor token, giving +1 Strength with melee weapons. If the unit Charges, it keeps the bonus for that round's Combat, then flips the token at the end of the Combat Phase: -1 Training for the rest of the battle. If it is Charged while the token is face-up, remove the token, with no bonus and no penalty. A unit that falls back from a Charge with its Skirmish Captain keeps its token."
+          },
+          "weapons": {
+            "Gaison": [
+              "8",
+              "5",
+              "6",
+              ""
+            ],
+            "Kladios": [
+              "5",
+              "5",
+              "5",
+              "Cleaving Blade (2)"
+            ],
+            "Matara": [
+              "6 / 8”",
+              "5",
+              "6",
+              "Throwing Weapon"
+            ]
+          }
+        },
+        {
+          "id": "ambaktoi-retinue",
+          "name": "Ambaktoi Retinue",
+          "type": "Warrior",
+          "desc": "Gallic noble retainers",
+          "move": 5,
+          "training": 7,
+          "points": 17,
+          "comps": [
+            [
+              1,
+              6
+            ]
+          ],
+          "equip": [
+            "Kladios"
+          ],
+          "gear": [],
+          "body": "Medium Armor",
+          "shield": "Heavy Shield",
+          "opts": [
+            {
+              "label": "Weapon",
+              "kind": "swap",
+              "choices": [
+                {
+                  "name": "Kladios long sword",
+                  "w": [
+                    "Kladios"
+                  ],
+                  "c": 0
+                },
+                {
+                  "name": "Gaison spear",
+                  "w": [
+                    "Gaison"
+                  ],
+                  "c": 0
+                }
+              ]
+            },
+            {
+              "label": "Matara javelins",
+              "kind": "add",
+              "w": [
+                "Matara"
+              ],
+              "c": 1
+            }
+          ],
+          "chars": [
+            {
+              "req": true,
+              "one": [
+                [
+                  "Lord",
+                  17
+                ],
+                [
+                  "Commander",
+                  42
+                ],
+                [
+                  "Army Musician",
+                  60
+                ],
+                [
+                  "Army Standard Bearer",
+                  27
+                ]
+              ]
+            }
+          ],
+          "rules": [],
+          "custom": {
+            "Tribe": "Celtic.",
+            "Furor": "Starts the battle with a face-up Furor token, giving +1 Strength with melee weapons. If the unit Charges, it keeps the bonus for that round's Combat, then flips the token at the end of the Combat Phase: -1 Training for the rest of the battle. If it is Charged while the token is face-up, remove the token, with no bonus and no penalty. A unit that falls back from a Charge with its Skirmish Captain keeps its token."
+          },
+          "weapons": {
+            "Kladios": [
+              "5",
+              "6",
+              "5",
+              "Cleaving Blade (2)"
+            ],
+            "Gaison": [
+              "8",
+              "6",
+              "6",
+              ""
+            ],
+            "Matara": [
+              "6 / 8”",
+              "5",
+              "6",
+              "Throwing Weapon"
+            ]
+          }
+        },
+        {
+          "id": "harjoz",
+          "name": "Harjōz",
+          "type": "Warrior",
+          "desc": "Germanic warband",
+          "move": 7,
+          "training": 5,
+          "points": 10,
+          "comps": [
+            [
+              5,
+              4
+            ],
+            [
+              4,
+              4
+            ]
+          ],
+          "equip": [
+            "Framea"
+          ],
+          "gear": [],
+          "body": null,
+          "shield": "Shield",
+          "opts": [
+            {
+              "label": "Light Armor",
+              "kind": "add",
+              "body": "Light Armor",
+              "c": 1
+            }
+          ],
+          "chars": [
+            {
+              "one": [
+                [
+                  "Tribal Leader",
+                  7
+                ]
+              ]
+            },
+            {
+              "one": [
+                [
+                  "Musician",
+                  5
+                ]
+              ]
+            },
+            {
+              "one": [
+                [
+                  "Standard Bearer",
+                  8
+                ]
+              ]
+            }
+          ],
+          "rules": [],
+          "custom": {
+            "Tribe": "Germanic.",
+            "Furor": "Starts the battle with a face-up Furor token, giving +1 Strength with melee weapons. If the unit Charges, it keeps the bonus for that round's Combat, then flips the token at the end of the Combat Phase: -1 Training for the rest of the battle. If it is Charged while the token is face-up, remove the token, with no bonus and no penalty. A unit that falls back from a Charge with its Skirmish Captain keeps its token.",
+            "Cuneus": "When this unit Charges while its Furor token is face-up, its Collision Hits are resolved at +1 Strength."
+          },
+          "weapons": {
+            "Framea": [
+              "8 / 6”",
+              "5",
+              "6",
+              "Throwing Weapon"
+            ]
+          }
+        },
+        {
+          "id": "gasinthoz-retinue",
+          "name": "Gasinþōz Retinue",
+          "type": "Warrior",
+          "desc": "a chieftain's sworn companions",
+          "move": 6,
+          "training": 7,
+          "points": 17,
+          "comps": [
+            [
+              1,
+              5
+            ]
+          ],
+          "equip": [
+            "Framea"
+          ],
+          "gear": [
+            "Kladios"
+          ],
+          "body": "Light Armor",
+          "shield": "Shield",
+          "opts": [
+            {
+              "label": "Medium Armor",
+              "kind": "add",
+              "body": "Medium Armor",
+              "c": 2
+            }
+          ],
+          "chars": [
+            {
+              "req": true,
+              "one": [
+                [
+                  "Lord",
+                  17
+                ],
+                [
+                  "Commander",
+                  42
+                ],
+                [
+                  "Army Musician",
+                  60
+                ],
+                [
+                  "Army Standard Bearer",
+                  27
+                ]
+              ]
+            }
+          ],
+          "rules": [
+            "Disciplined",
+            "Frenzy"
+          ],
+          "custom": {
+            "Tribe": "Germanic.",
+            "Furor": "Starts the battle with a face-up Furor token, giving +1 Strength with melee weapons. If the unit Charges, it keeps the bonus for that round's Combat, then flips the token at the end of the Combat Phase: -1 Training for the rest of the battle. If it is Charged while the token is face-up, remove the token, with no bonus and no penalty. A unit that falls back from a Charge with its Skirmish Captain keeps its token.",
+            "Sworn Companions": "If this unit is destroyed or leaves the battlefield while it has a Flee token, you lose additional Army Morale equal to its full Contribution."
+          },
+          "weapons": {
+            "Framea": [
+              "8 / 6”",
+              "6",
+              "6",
+              "Throwing Weapon"
+            ],
+            "Kladios": [
+              "5",
+              "6",
+              "5",
+              "Cleaving Blade (2)"
+            ]
+          }
+        },
+        {
+          "id": "agrestes",
+          "name": "Agrestēs",
+          "type": "Warrior",
+          "desc": "tribal levy",
+          "move": 6,
+          "training": 4,
+          "points": 6,
+          "comps": [
+            [
+              4,
+              6
+            ],
+            [
+              3,
+              6
+            ]
+          ],
+          "equip": [
+            "Fustis"
+          ],
+          "gear": [],
+          "body": null,
+          "shield": "Shield",
+          "opts": [
+            {
+              "label": "Weapon",
+              "kind": "swap",
+              "choices": [
+                {
+                  "name": "Fustis club",
+                  "w": [
+                    "Fustis"
+                  ],
+                  "c": 0
+                },
+                {
+                  "name": "Gaison spear",
+                  "w": [
+                    "Gaison"
+                  ],
+                  "c": 1
+                },
+                {
+                  "name": "Framea throwing spear",
+                  "w": [
+                    "Framea"
+                  ],
+                  "c": 2
+                }
+              ]
+            },
+            {
+              "label": "Matara javelins",
+              "kind": "add",
+              "w": [
+                "Matara"
+              ],
+              "c": 1,
+              "ifWeapon": "Fustis"
+            }
+          ],
+          "chars": [
+            {
+              "one": [
+                [
+                  "Tribal Leader",
+                  6
+                ]
+              ]
+            }
+          ],
+          "rules": [
+            "Levy"
+          ],
+          "custom": {
+            "Tribe": "None (counts as neither Celtic nor Germanic)."
+          },
+          "weapons": {
+            "Fustis": [
+              "4",
+              "4",
+              "4",
+              "Sunder (1)"
+            ],
+            "Gaison": [
+              "8",
+              "4",
+              "6",
+              ""
+            ],
+            "Framea": [
+              "8 / 6”",
+              "4",
+              "6",
+              "Throwing Weapon"
+            ],
+            "Matara": [
+              "6 / 8”",
+              "4",
+              "6",
+              "Throwing Weapon"
+            ]
+          }
+        },
+        {
+          "id": "centeni",
+          "name": "Centeni",
+          "type": "Light Warrior",
+          "desc": "Germanic foot runners",
+          "move": 7,
+          "training": 6,
+          "points": 12,
+          "comps": [
+            [
+              2,
+              6
+            ],
+            [
+              2,
+              5
+            ]
+          ],
+          "equip": [
+            "Framea"
+          ],
+          "gear": [],
+          "body": null,
+          "shield": "Shield",
+          "opts": [],
+          "chars": [
+            {
+              "one": [
+                [
+                  "Tribal Leader",
+                  8
+                ],
+                [
+                  "Skirmish Captain",
+                  8
+                ]
+              ]
+            }
+          ],
+          "rules": [],
+          "custom": {
+            "Tribe": "Germanic.",
+            "Furor": "Starts the battle with a face-up Furor token, giving +1 Strength with melee weapons. If the unit Charges, it keeps the bonus for that round's Combat, then flips the token at the end of the Combat Phase: -1 Training for the rest of the battle. If it is Charged while the token is face-up, remove the token, with no bonus and no penalty. A unit that falls back from a Charge with its Skirmish Captain keeps its token.",
+            "Horse Runners": "If this unit starts its activation within 2” of a friendly Germanic Cavalry, Light Cavalry or Skirmishing Cavalry unit, it gains +2 Move. It gains +1 Accuracy in Melee against enemy units that are also Locked in Combat with a friendly Germanic Cavalry, Light Cavalry or Skirmishing Cavalry unit."
+          },
+          "weapons": {
+            "Framea": [
+              "8 / 6”",
+              "5",
+              "6",
+              "Throwing Weapon"
+            ]
+          }
+        },
+        {
+          "id": "gaisatoi",
+          "name": "Gaisatoi",
+          "type": "Light Warrior",
+          "desc": "the Gaesatae",
+          "move": 7,
+          "training": 6,
+          "points": 15,
+          "comps": [
+            [
+              3,
+              5
+            ],
+            [
+              2,
+              5
+            ]
+          ],
+          "equip": [
+            "Kladios",
+            "Matara"
+          ],
+          "gear": [],
+          "body": null,
+          "shield": "Shield",
+          "opts": [],
+          "chars": [
+            {
+              "one": [
+                [
+                  "Tribal Leader",
+                  8
+                ]
+              ]
+            },
+            {
+              "one": [
+                [
+                  "Musician",
+                  6
+                ]
+              ]
+            }
+          ],
+          "rules": [
+            "Frenzy",
+            "Terrify Warriors"
+          ],
+          "custom": {
+            "Tribe": "Celtic.",
+            "Furor": "Starts the battle with a face-up Furor token, giving +1 Strength with melee weapons. If the unit Charges, it keeps the bonus for that round's Combat, then flips the token at the end of the Combat Phase: -1 Training for the rest of the battle. If it is Charged while the token is face-up, remove the token, with no bonus and no penalty. A unit that falls back from a Charge with its Skirmish Captain keeps its token.",
+            "Naked Fury": "This unit cannot take the Hold action."
+          },
+          "weapons": {
+            "Kladios": [
+              "5",
+              "5",
+              "5",
+              "Cleaving Blade (2)"
+            ],
+            "Matara": [
+              "6 / 8”",
+              "5",
+              "6",
+              "Throwing Weapon"
+            ]
+          }
+        },
+        {
+          "id": "gaisarioi",
+          "name": "Gaisarioi",
+          "type": "Skirmishing Warrior",
+          "desc": "Gallic skirmishers",
+          "move": 7,
+          "training": 5,
+          "points": 10,
+          "range": [
+            6,
+            12
+          ],
+          "equip": [
+            "Matara"
+          ],
+          "gear": [
+            "Kladiolos"
+          ],
+          "body": null,
+          "shield": "Shield",
+          "opts": [
+            {
+              "label": "Weapon",
+              "kind": "swap",
+              "choices": [
+                {
+                  "name": "Matara javelins",
+                  "w": [
+                    "Matara"
+                  ],
+                  "c": 0
+                },
+                {
+                  "name": "Taballa sling",
+                  "w": [
+                    "Taballa"
+                  ],
+                  "c": 0
+                }
+              ]
+            }
+          ],
+          "chars": [
+            {
+              "one": [
+                [
+                  "Tribal Leader",
+                  7
+                ],
+                [
+                  "Skirmish Captain",
+                  8
+                ]
+              ]
+            }
+          ],
+          "rules": [],
+          "custom": {
+            "Tribe": "Celtic.",
+            "Furor": "Starts the battle with a face-up Furor token, giving +1 Strength with melee weapons. If the unit Charges, it keeps the bonus for that round's Combat, then flips the token at the end of the Combat Phase: -1 Training for the rest of the battle. If it is Charged while the token is face-up, remove the token, with no bonus and no penalty. A unit that falls back from a Charge with its Skirmish Captain keeps its token."
+          },
+          "weapons": {
+            "Matara": [
+              "6 / 8”",
+              "5",
+              "6",
+              "Throwing Weapon"
+            ],
+            "Taballa": [
+              "28”",
+              "5",
+              "4",
+              ""
+            ],
+            "Kladiolos": [
+              "1",
+              "6",
+              "5",
+              ""
+            ]
+          }
+        },
+        {
+          "id": "pritani",
+          "name": "Pritanī",
+          "type": "Skirmishing Warrior",
+          "desc": "British warriors",
+          "move": 7,
+          "training": 5,
+          "points": 11,
+          "range": [
+            12,
+            20
+          ],
+          "equip": [
+            "Kladios",
+            "Matara"
+          ],
+          "gear": [],
+          "body": null,
+          "shield": "Buckler",
+          "opts": [],
+          "chars": [
+            {
+              "one": [
+                [
+                  "Tribal Leader",
+                  7
+                ],
+                [
+                  "Skirmish Captain",
+                  8
+                ]
+              ]
+            },
+            {
+              "one": [
+                [
+                  "Musician",
+                  5
+                ]
+              ]
+            }
+          ],
+          "rules": [],
+          "custom": {
+            "Tribe": "Celtic.",
+            "Furor": "Starts the battle with a face-up Furor token, giving +1 Strength with melee weapons. If the unit Charges, it keeps the bonus for that round's Combat, then flips the token at the end of the Combat Phase: -1 Training for the rest of the battle. If it is Charged while the token is face-up, remove the token, with no bonus and no penalty. A unit that falls back from a Charge with its Skirmish Captain keeps its token."
+          },
+          "weapons": {
+            "Kladios": [
+              "5",
+              "5",
+              "5",
+              "Cleaving Blade (2)"
+            ],
+            "Matara": [
+              "6 / 8”",
+              "5",
+              "6",
+              "Throwing Weapon"
+            ]
+          }
+        },
+        {
+          "id": "jungoz",
+          "name": "Jungōz",
+          "type": "Skirmishing Warrior",
+          "desc": "Germanic youths",
+          "move": 7,
+          "training": 4,
+          "points": 9,
+          "range": [
+            6,
+            12
+          ],
+          "equip": [
+            "Framea"
+          ],
+          "gear": [],
+          "body": null,
+          "shield": "Shield",
+          "opts": [
+            {
+              "label": "Gaizaz javelins",
+              "kind": "add",
+              "w": [
+                "Gaizaz"
+              ],
+              "c": 1
+            }
+          ],
+          "chars": [
+            {
+              "one": [
+                [
+                  "Tribal Leader",
+                  6
+                ],
+                [
+                  "Skirmish Captain",
+                  8
+                ]
+              ]
+            },
+            {
+              "one": [
+                [
+                  "Houndmaster",
+                  10
+                ]
+              ]
+            }
+          ],
+          "rules": [
+            "Levy"
+          ],
+          "custom": {
+            "Tribe": "Germanic.",
+            "Furor": "Starts the battle with a face-up Furor token, giving +1 Strength with melee weapons. If the unit Charges, it keeps the bonus for that round's Combat, then flips the token at the end of the Combat Phase: -1 Training for the rest of the battle. If it is Charged while the token is face-up, remove the token, with no bonus and no penalty. A unit that falls back from a Charge with its Skirmish Captain keeps its token."
+          },
+          "weapons": {
+            "Framea": [
+              "8 / 6”",
+              "5",
+              "6",
+              "Throwing Weapon"
+            ],
+            "Gaizaz": [
+              "6 / 8”",
+              "5",
+              "6",
+              "Throwing Weapon"
+            ]
+          }
+        },
+        {
+          "id": "eporedoi",
+          "name": "Eporedoi",
+          "type": "Cavalry",
+          "desc": "Gallic cavalry",
+          "move": 12,
+          "training": 6,
+          "points": 22,
+          "comps": [
+            [
+              2,
+              4
+            ],
+            [
+              1,
+              6
+            ]
+          ],
+          "equip": [
+            "Gaison"
+          ],
+          "gear": [
+            "Kladios"
+          ],
+          "body": "Light Armor",
+          "shield": "Shield",
+          "opts": [
+            {
+              "label": "Medium Armor",
+              "kind": "add",
+              "body": "Medium Armor",
+              "c": 2
+            },
+            {
+              "label": "Matara javelins",
+              "kind": "add",
+              "w": [
+                "Matara"
+              ],
+              "c": 1
+            }
+          ],
+          "chars": [
+            {
+              "one": [
+                [
+                  "Lead Captain",
+                  10
+                ]
+              ]
+            },
+            {
+              "one": [
+                [
+                  "Musician",
+                  8
+                ],
+                [
+                  "Lord",
+                  16
+                ]
+              ]
+            }
+          ],
+          "rules": [],
+          "custom": {
+            "Tribe": "Celtic.",
+            "Furor": "Starts the battle with a face-up Furor token, giving +1 Strength with melee weapons. If the unit Charges, it keeps the bonus for that round's Combat, then flips the token at the end of the Combat Phase: -1 Training for the rest of the battle. If it is Charged while the token is face-up, remove the token, with no bonus and no penalty. A unit that falls back from a Charge with its Skirmish Captain keeps its token."
+          },
+          "weapons": {
+            "Gaison": [
+              "8",
+              "5",
+              "6",
+              ""
+            ],
+            "Matara": [
+              "6 / 8”",
+              "5",
+              "6",
+              "Throwing Weapon"
+            ],
+            "Kladios": [
+              "5",
+              "5",
+              "5",
+              "Cleaving Blade (2)"
+            ]
+          }
+        },
+        {
+          "id": "marhoz",
+          "name": "Marhōz",
+          "type": "Light Cavalry",
+          "desc": "Germanic cavalry",
+          "move": 11,
+          "training": 6,
+          "points": 19,
+          "comps": [
+            [
+              2,
+              4
+            ],
+            [
+              1,
+              6
+            ]
+          ],
+          "equip": [
+            "Framea"
+          ],
+          "gear": [],
+          "body": null,
+          "shield": "Shield",
+          "opts": [],
+          "chars": [
+            {
+              "one": [
+                [
+                  "Tribal Leader",
+                  14
+                ],
+                [
+                  "Lead Captain",
+                  10
+                ]
+              ]
+            },
+            {
+              "one": [
+                [
+                  "Standard Bearer",
+                  10
+                ]
+              ]
+            }
+          ],
+          "rules": [],
+          "custom": {
+            "Tribe": "Germanic.",
+            "Furor": "Starts the battle with a face-up Furor token, giving +1 Strength with melee weapons. If the unit Charges, it keeps the bonus for that round's Combat, then flips the token at the end of the Combat Phase: -1 Training for the rest of the battle. If it is Charged while the token is face-up, remove the token, with no bonus and no penalty. A unit that falls back from a Charge with its Skirmish Captain keeps its token.",
+            "Right Wheel": "The first turn this unit makes in each move costs no Move Allowance, as long as it turns to the right."
+          },
+          "weapons": {
+            "Framea": [
+              "8 / 6”",
+              "5",
+              "6",
+              "Throwing Weapon"
+            ]
+          }
+        }
+      ]
+    },
+    {
       "id": "rome",
       "name": "Imperial Rome",
       "units": [
@@ -10560,7 +11518,15 @@ window.NHB_DATA = {
     "Qaštu Itu'ayītu": "bow",
     "Aspu": "sling",
     "Sariam": "scale coat",
-    "Kabābu": "pavise"
+    "Kabābu": "pavise",
+    "Gaison": "spear",
+    "Kladios": "long sword",
+    "Matara": "javelins",
+    "Kladiolos": "dagger",
+    "Taballa": "sling",
+    "Framea": "throwing spear",
+    "Gaizaz": "javelins",
+    "Fustis": "club"
   },
   "say": {
     "Eren": "EH-ren",
@@ -10807,7 +11773,27 @@ window.NHB_DATA = {
     "Qaštu Itu'ayītu": "KASH-too ih-too-ah-YEE-too",
     "Aspu": "AS-poo",
     "Sariam": "SAH-ree-am",
-    "Kabābu": "kah-BAH-boo"
+    "Kabābu": "kah-BAH-boo",
+    "Korioi": "KOR-ee-oy",
+    "Ambaktoi Retinue": "am-BAK-toy",
+    "Harjōz": "HAR-yohz",
+    "Gasinþōz Retinue": "gah-SIN-thohz",
+    "Agrestēs": "ah-GRES-tays",
+    "Centeni": "ken-TAY-nee",
+    "Gaisatoi": "gai-SAH-toy",
+    "Gaisarioi": "gai-SAR-ee-oy",
+    "Pritanī": "PRIT-ah-nee",
+    "Jungōz": "YOONG-ohz",
+    "Eporedoi": "ep-oh-RED-oy",
+    "Marhōz": "MAR-khohz",
+    "Gaison": "GAI-son",
+    "Kladios": "KLAD-ee-os",
+    "Matara": "MAT-ah-rah",
+    "Kladiolos": "klad-ee-OH-los",
+    "Taballa": "tah-BAL-lah",
+    "Framea": "FRAH-meh-ah",
+    "Gaizaz": "GAI-zaz",
+    "Fustis": "FOOS-tis"
   },
   "mercs": {
     "id": "mercs",
@@ -12321,12 +13307,12 @@ window.NHB_DATA = {
       "flavor": "Step back together. Shields up. Not one man turns his back."
     },
     {
-      "id": "challenge-of-champions",
-      "name": "Challenge of Champions",
-      "short": "Two champions duel; the loser’s army loses heart",
-      "limit": 1,
-      "text": "Play at the start of a round. Choose a friendly unit with a Special Character and an enemy unit with a Special Character within 12” of it. Each player rolls 1d6 and adds the Training value of their chosen unit, rerolling ties. The loser’s army loses Army Morale equal to 10% of its Starting Army Morale, rounded up, and the loser’s unit gains a Break Token.",
-      "flavor": "Let the two best men decide what ten thousand cannot."
+      "id": "single-combat",
+      "name": "Single Combat",
+      "short": "A champion's challenge: accept the duel or lose Army Morale",
+      "limit": 2,
+      "text": "Play at the start of the Combat Phase. Choose a friendly unit that is Locked in Combat and includes a Special Character, and an enemy unit with a Special Character that it is Locked in Combat with. The opponent may accept or refuse the challenge. If accepted, each player rolls 1d6 and adds their chosen unit's Training: the winner's unit gains +1 Accuracy in this Combat and the loser's unit gains a Break Token. On a tie, nothing happens. If refused, the opponent loses Army Morale equal to twice their unit's Training.",
+      "flavor": "A champion steps out of the line and calls for the best of the enemy."
     },
     {
       "id": "war-hymn",
@@ -13235,6 +14221,72 @@ window.NHB_DATA = {
       "short": "Burning oxen break up the enemy line",
       "text": "Flammable. Before deployment, place 3 ox markers (25 × 50mm) in your deployment zone. Once per game, at the start of any Activation Phase, set their horns alight: each ox moves up to 12” in a straight line in a direction you choose, until it touches a unit or impassable terrain. If it touches an enemy unit, that unit takes a Fear Test; if it fails, it loses its Hold Action Token, gains a Break Token, and cannot declare a Charge this round. If an ox touches a Flammable Obstacle, the Obstacle burns as with Fire Brands. The ox is then removed. An ox that touches a friendly unit, or travels 12”, is removed without effect. Oxen are not units: they cannot be targeted or charged, do not generate or lose Army Morale, and take no Order Tokens.",
       "flavor": "Torches tied to the horns of two thousand oxen lit up the hillside, and the Roman guard left the pass to chase them."
+    },
+    {
+      "id": "essedon",
+      "name": "Essedon",
+      "short": "British chariots drop a warband close and loose javelins",
+      "armies": [
+        "barbarians"
+      ],
+      "limit": 1,
+      "text": "Celtic army only: cannot be played if your army includes any Germanic unit. Play in the Reserves Phase, when a Celtic Warrior, Light Warrior or Skirmishing Warrior unit is deployed from Reserve. Instead of making its standard move, place the unit wholly within 9” of the board edge it arrives from and within your own half of the battlefield. Then select an enemy unit within 6” of it: that unit takes bonus attacks equal to half the number of models in the arriving unit, rounded up, at Accuracy 5 and Strength 5. These attacks cannot be modified. The arriving unit cannot Charge this round.",
+      "flavor": "The chariots sweep along the line, loose their spears, and leave the warriors at the enemy's throat."
+    },
+    {
+      "id": "teutoburg",
+      "name": "Teutoburg",
+      "short": "A Germanic unit ambushes from a new patch of forest",
+      "armies": [
+        "barbarians"
+      ],
+      "limit": 1,
+      "text": "Germanic army only: cannot be played if your army includes any Celtic unit. Play during deployment, before Byes are counted. Place a 6” × 6” patch of Dense Brush (Obstacle, Flammable; impassable, blocks lines of fire) outside every deployment zone. One Germanic Warrior, Light Warrior or Skirmishing Warrior unit gains Ambush, and must be deployed touching that Dense Brush.",
+      "flavor": "In the rain and the trees, three legions marched into a trap."
+    },
+    {
+      "id": "barditus",
+      "name": "Barditus",
+      "short": "War chant: 4+ boosts charges, 1–3 weakens Break Tests",
+      "armies": [
+        "barbarians"
+      ],
+      "limit": 1,
+      "text": "Play at the start of the Activation Phase. Requires a Germanic unit with a Musician or Army Musician on the battlefield. Roll 1d6. On a 4+, friendly units gain +1 Strength on melee attacks made on a Charge this round. On a 1–3, friendly units suffer -1 to Break Tests this round.",
+      "flavor": "They roar into the hollow of their shields, and read the battle's fate in the echo."
+    },
+    {
+      "id": "druidic-curse",
+      "name": "Druidic Curse",
+      "short": "Enemies test one by one until one fails and cannot Charge",
+      "armies": [
+        "barbarians"
+      ],
+      "limit": 1,
+      "text": "Play at the start of the Activation Phase. Pick a friendly Celtic unit. One at a time, pick an enemy unit within 12” of it that has not yet been picked; it takes a Fear Test at -2. The first unit to fail cannot Charge this round, and the card ends. If every unit passes, the card has no effect.",
+      "flavor": "On the shore of Mona the druids raised their hands to heaven, and the legions stood frozen."
+    },
+    {
+      "id": "wagon-laager",
+      "name": "Wagon Laager",
+      "short": "Obstacle: wagon fort steadies nearby units",
+      "armies": [
+        "barbarians"
+      ],
+      "limit": 1,
+      "text": "Obstacle, Flammable. Play during deployment, before Byes are counted. Place an 8” × 3” wagon fort wholly within your deployment zone. It is impassable and blocks all lines of fire that pass over it. Friendly units within 12” of it gain +1 to Break Tests and Fear Tests. If the wagon fort is destroyed, your army loses 10% of its Starting Army Morale, rounded up.",
+      "flavor": "From the wagons, the women of the tribe cried out to their men to stand."
+    },
+    {
+      "id": "wall-of-shields",
+      "name": "Wall of Shields",
+      "short": "Warriors gain Shieldwall for a round",
+      "armies": [
+        "barbarians"
+      ],
+      "limit": 2,
+      "text": "Play at the start of the Activation Phase. Until the end of the round, all friendly Warrior units, and Light Warrior units in Closed Order, gain Shieldwall.",
+      "flavor": "Shield locked against shield, the whole host stood as one wall."
     }
   ]
 };

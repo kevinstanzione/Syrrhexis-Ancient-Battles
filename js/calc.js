@@ -72,6 +72,7 @@ window.NHB = (function () {
     opts.forEach((o, i) => {
       if (o.kind !== "add") return;
       if (o.unlessWeapon && weapons.includes(o.unlessWeapon)) { disabled[i] = true; return; }
+      if (o.ifWeapon && !weapons.includes(o.ifWeapon)) { disabled[i] = true; return; }
       if (!(sel.adds && sel.adds[i])) return;
       if (o.w) o.w.forEach(w => { if (!weapons.includes(w)) weapons.push(w); });
       if (o.shield) shield = o.shield;

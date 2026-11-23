@@ -226,7 +226,9 @@ def options(u):
         elif k == 'count':
             out.append(f"Any model may take {ital(o['label'], u)} {per_model(o['c'], u)}")
         elif k == 'add':
-            if o.get('unlessWeapon'):
+            if o.get('ifWeapon'):
+                out.append(f"If the unit keeps its {ital(o['ifWeapon'], u)}, it may take {ital(o['label'], u)} {per_model(o['c'], u)}")
+            elif o.get('unlessWeapon'):
                 out.append(f"If the unit does not carry {ital(o['unlessWeapon'], u)}, it may take {ital(o['label'], u)} {per_model(o['c'], u)}")
             else:
                 out.append(f"{ital(o['label'], u)} {per_model(o['c'], u)}")

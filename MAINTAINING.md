@@ -51,6 +51,7 @@ Buy a domain from any registrar, then in **Settings → Pages → Custom domain*
   "equip": ["Šukur"], "gear": ["Gír"],
   "body": null, "shield": null,      // armor names, e.g. "Light Armor", "Shield"
   "opts": [ ... ],                   // weapon swaps ("swap"), unit-wide upgrades ("add"),
+                                     // an "add" can carry "unlessWeapon" or "ifWeapon" to block or require a weapon,
                                      // per-model options for Mixed Units ("count")
   "chars": [ {"one": [["Lead Captain", 3], ["Standard Bearer", 8]]} ],
                                      // add "req": true for "must take"
