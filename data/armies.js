@@ -1,7 +1,7 @@
 // Syrrhēxis army data. Edit the values below; keep the first line as is.
 window.NHB_DATA = {
   "meta": {
-    "version": "0.36.0",
+    "version": "0.37.0",
     "synced": "2026-10-22",
     "sources": {
       "Hittite Empire Army": "1aqMPs2Pi5car6pUzcuWmHXArGss_RZdkgATe5OsbVrw",
@@ -6078,6 +6078,9 @@ window.NHB_DATA = {
     {
       "id": "alexander",
       "name": "Armies of Alexander",
+      "retinueMax": {
+        "Commander": 2
+      },
       "units": [
         {
           "id": "pezhetairoi",
@@ -6286,7 +6289,8 @@ window.NHB_DATA = {
             "Disciplined"
           ],
           "custom": {
-            "Leading from the Front": "While this unit includes a Commander and has a Charge Action Token, +1 to Initiative rolls. Does not stack with itself."
+            "Leading from the Front": "While this unit includes a Commander and has a Charge Action Token, +1 to Initiative rolls. Does not stack with itself.",
+            "Two Wings": "Your army may include 2 Commanders: one in the Agēma Retinue and one in the Basilikḕ Ílē Retinue. Only one of them adds +1 to your Initiative rolls."
           },
           "weapons": {
             "Dóry": [
@@ -6635,7 +6639,8 @@ window.NHB_DATA = {
           ],
           "rules": [],
           "custom": {
-            "Leading from the Front": "While this unit includes a Commander and has a Charge Action Token, +1 to Initiative rolls. Does not stack with itself."
+            "Leading from the Front": "While this unit includes a Commander and has a Charge Action Token, +1 to Initiative rolls. Does not stack with itself.",
+            "Two Wings": "Your army may include 2 Commanders: one in the Agēma Retinue and one in the Basilikḕ Ílē Retinue. Only one of them adds +1 to your Initiative rolls."
           },
           "weapons": {
             "Xystón": [
@@ -10966,7 +10971,7 @@ window.NHB_DATA = {
         "type": "Light Warrior",
         "move": 7,
         "training": 4,
-        "points": 13,
+        "points": 14,
         "comps": [
           [
             4,
@@ -11033,6 +11038,9 @@ window.NHB_DATA = {
           "Surefooted (Marsh, Sand)",
           "Mercenary"
         ],
+        "custom": {
+          "Backstabbers": "When this unit Charges an enemy unit that has no Hold Action Token, and the target is in Open Order or is charged in its flank or rear, the target gains 1 Break Token on contact. This is in addition to Exposed Flanks."
+        },
         "weapons": {
           "Phásganon": [
             "5",
@@ -12762,12 +12770,12 @@ window.NHB_DATA = {
     {
       "id": "aristanders-eagle",
       "name": "Aristander's Eagle",
-      "short": "Units near your Commander shed a Break Token",
+      "short": "Units near your Commanders shed a Break Token",
       "armies": [
         "alexander"
       ],
       "limit": 1,
-      "text": "Play at the start of a round. Each friendly unit within 18” of your Commander removes 1 Break Token.",
+      "text": "Play at the start of a round. Each friendly unit within 18” of one of your Commanders removes 1 Break Token.",
       "flavor": "The seer rode along the line in white, pointing to the eagle that flew above the king toward the enemy."
     },
     {

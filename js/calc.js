@@ -334,7 +334,9 @@ window.NHB = (function () {
     });
     const retCount = {};
     units.forEach(x => x.chars.forEach(c => { if (RETINUE.includes(c.name)) retCount[c.name] = (retCount[c.name] || 0) + 1; }));
-    const armyWarn = Object.keys(retCount).filter(k => retCount[k] > 1).map(k => `Only one ${k} allowed per army (you have ${retCount[k]})`);
+    // retinueMax: an army rule may allow more than one (Armies of Alexander, Two Wings: 2 Commanders).
+    const maxOf = k => (army.retinueMax && army.retinueMax[k]) || 1;
+    const armyWarn = Object.keys(retCount).filter(k => retCount[k] > maxOf(k)).map(k => maxOf(k) > 1 ? `Only ${maxOf(k)} ${k}s allowed in this army (you have ${retCount[k]})` : `Only one ${k} allowed per army (you have ${retCount[k]})`);
     let slots = opts.mercSlots || [];
     // Mḥšbm: the Commander may instead take the Mercenary rule away from one unit of the army's own list.
     const pm = army.paymasters;

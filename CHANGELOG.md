@@ -6,6 +6,18 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## 0.37.0 — 2026-11-22
+
+### Armies of Alexander
+- **Two Wings** (Agēma Retinue and Basilikḕ Ílē Retinue): the army may take 2 Commanders, one in each retinue (Alexander with the Companions, Parmenion with the infantry). Only one of them adds +1 to Initiative rolls.
+- **Aristander's Eagle** now works around one of your Commanders.
+
+### Supplemental Mercenaries
+- **Sea People Raiders** gain **Backstabbers**: when they Charge an enemy without a Hold token that is in Open Order or is charged in its flank or rear, it gains 1 Break Token on contact (on top of Exposed Flanks). 13 → 14 pts.
+
+### Builder
+- An army rule can allow more than one of a Retinue character (the one-per-army warning follows it).
+
 ## 0.36.0 and Rulebook 0.3.10 — 2026-11-22
 
 ### Hannibal’s Forces (new army)

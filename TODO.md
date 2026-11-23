@@ -75,12 +75,9 @@ Done 2026-11-05: First Blood row, Strength table order, matching Armor Save tabl
 - Maybe: a fourth Major Terrain type, **Woodland** (open woods). Sketch: Difficult Terrain; Light Cover for units within; line of fire up to ~6” into it but not through; Closed Order units lose Collision and Phalanx; Chariots and Warmachines can't enter; Elephants gain Break Tokens as in a Marsh; Ambush units may deploy in it. Would give Surefooted (Woodland) a skirmisher identity.
 
 ## Future army notes
-- **Hannibal's Forces — Mallet and Chisel** (on the Carthaginian elephant unit itself; Livy on Hasdrubal at the Metaurus): when this unit would become Furious, you may instead destroy it. You lose only half its Army Morale Contribution.
-
-- **Hannibal's Forces — Backstabbers** (unit rule or Carthage Command card, undecided): after this unit charges an Open Order unit without a Hold token, or a Closed Order unit without a Hold token in its flank or rear, the defender gains a flat Break Token count — 1 for Closed Order and 2 for Open Order, or just 1 for both. Flat count (not per 5 models) because it stacks with Exposed Flanks.
+- Done 0.37.0: **Backstabbers** went to the Sea People Raiders (1 Break Token, 14 pts) instead of Hannibal's Forces.
 - **European Barbarians — Flanker** (needs a better name): +1 Accuracy while in combat alongside at least one other friendly unit. Always-on infantry rule for warbands.
 - **Qin China — two Army Musicians** (idea, 2026-11-18; drums to advance, gongs to halt, per Sunzi): a Qin retinue rule letting the army take up to 2 Army Musicians. Still to work out how two would interact, since an Army Musician swaps every unit's Hold/Charge tokens at once. One option: with two, each affects only units within 18” of it, so one can drum an advance while the other gongs a halt.
-- **Armies of Alexander — two Commanders** (idea, 2026-11-18; Alexander on the right, Parmenion on the left): a rule on Alexander's retinue units letting the army take up to 2 Commanders.
 
 ## Siege expansion (future)
 - Core of the expansion: destructible terrain and fortifications (walls, gates, towers) that can be damaged and breached.
@@ -93,8 +90,7 @@ Done 2026-11-05: First Blood row, Strength table order, matching Armor Save tabl
 - Roman plutei: wheeled mantlets screening siege engines and crews (Pavise-style protection for war engines).
 
 ## Army ideas
-- Hannibal's Forces: Iberian / Celtiberian cavalry with Feign Retreat (no Parthian Shot). Tarantînoi in the Alexander list also get Feign Retreat.
-- Shieldwall candidates: Sumerian heavy phalanx (instead of Phalanx), a Germanic-style spear warband for European Barbarians, Libyan heavy infantry for Hannibal's Forces.
+- Shieldwall candidates: Sumerian heavy phalanx (instead of Phalanx), a Germanic-style spear warband for European Barbarians.
 
 ## Art spreads (future)
 - Pencil scene art: 8 army openers done (art/illustrations), Kush portrait added 2026-11-13, plus card art for The Eclipse and Crumbled Ruins in the Army Book's generic cards. Army Book images get a torn-paper edge at build time.
