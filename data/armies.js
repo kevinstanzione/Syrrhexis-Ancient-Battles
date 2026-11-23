@@ -1,7 +1,7 @@
 // Syrrhēxis army data. Edit the values below; keep the first line as is.
 window.NHB_DATA = {
   "meta": {
-    "version": "0.39.1",
+    "version": "0.40.0",
     "synced": "2026-10-22",
     "sources": {
       "Hittite Empire Army": "1aqMPs2Pi5car6pUzcuWmHXArGss_RZdkgATe5OsbVrw",
@@ -4122,7 +4122,7 @@ window.NHB_DATA = {
             ]
           ],
           "equip": [
-            "Aršti",
+            "Dargāršti",
             "Θanu"
           ],
           "gear": [
@@ -4134,7 +4134,7 @@ window.NHB_DATA = {
             "front": {
               "label": "1st Rank",
               "w": [
-                "Aršti"
+                "Dargāršti"
               ],
               "shield": "Spara"
             },
@@ -4201,7 +4201,7 @@ window.NHB_DATA = {
             }
           },
           "weapons": {
-            "Aršti": [
+            "Dargāršti": [
               "8",
               "5",
               "6",
@@ -4241,7 +4241,7 @@ window.NHB_DATA = {
             ]
           ],
           "equip": [
-            "Aršti"
+            "Dargāršti"
           ],
           "gear": [
             "Akīnakah Kamna"
@@ -4254,16 +4254,16 @@ window.NHB_DATA = {
               "kind": "swap",
               "choices": [
                 {
-                  "name": "Aršti spear",
+                  "name": "Dargāršti spear",
                   "w": [
-                    "Aršti"
+                    "Dargāršti"
                   ],
                   "c": 0
                 },
                 {
-                  "name": "Arštaya javelins",
+                  "name": "Aršti throwing spear",
                   "w": [
-                    "Arštaya"
+                    "Aršti"
                   ],
                   "c": 0
                 },
@@ -4309,14 +4309,14 @@ window.NHB_DATA = {
             "Levy"
           ],
           "weapons": {
-            "Aršti": [
+            "Dargāršti": [
               "8",
               "5",
               "5",
               "Reach (1)"
             ],
-            "Arštaya": [
-              "6 / 8”",
+            "Aršti": [
+              "7 / 6”",
               "5",
               "5",
               "Throwing Weapon"
@@ -4374,16 +4374,16 @@ window.NHB_DATA = {
                   "c": 0
                 },
                 {
-                  "name": "Aršti spear",
+                  "name": "Dargāršti spear",
                   "w": [
-                    "Aršti"
+                    "Dargāršti"
                   ],
                   "c": 1
                 },
                 {
-                  "name": "Arštaya javelins",
+                  "name": "Aršti throwing spear",
                   "w": [
-                    "Arštaya"
+                    "Aršti"
                   ],
                   "c": 0
                 }
@@ -4427,14 +4427,14 @@ window.NHB_DATA = {
               "4",
               "Recurve Bow, Direct Fire"
             ],
-            "Aršti": [
+            "Dargāršti": [
               "8",
               "6",
               "6",
               "Reach (1)"
             ],
-            "Arštaya": [
-              "6 / 8”",
+            "Aršti": [
+              "7 / 6”",
               "6",
               "6",
               "Throwing Weapon"
@@ -4469,10 +4469,10 @@ window.NHB_DATA = {
           "shield": "Shield",
           "opts": [
             {
-              "label": "Aršti spear",
+              "label": "Dargāršti spear",
               "kind": "add",
               "w": [
-                "Aršti"
+                "Dargāršti"
               ],
               "c": 1
             }
@@ -4509,7 +4509,7 @@ window.NHB_DATA = {
             "Disciplined"
           ],
           "weapons": {
-            "Aršti": [
+            "Dargāršti": [
               "8",
               "6",
               "6",
@@ -4542,7 +4542,7 @@ window.NHB_DATA = {
             ]
           ],
           "equip": [
-            "Aršti"
+            "Dargāršti"
           ],
           "gear": [
             "Akīnakah Kamna"
@@ -4555,16 +4555,16 @@ window.NHB_DATA = {
               "kind": "swap",
               "choices": [
                 {
-                  "name": "Aršti spear",
+                  "name": "Dargāršti spear",
                   "w": [
-                    "Aršti"
+                    "Dargāršti"
                   ],
                   "c": 0
                 },
                 {
-                  "name": "Arštaya javelins",
+                  "name": "Aršti throwing spear",
                   "w": [
-                    "Arštaya"
+                    "Aršti"
                   ],
                   "c": 0
                 },
@@ -4613,14 +4613,14 @@ window.NHB_DATA = {
             "Levy"
           ],
           "weapons": {
-            "Aršti": [
+            "Dargāršti": [
               "8",
               "5",
               "6",
               "Reach (1)"
             ],
-            "Arštaya": [
-              "6 / 8”",
+            "Aršti": [
+              "7 / 6”",
               "5",
               "6",
               "Throwing Weapon"
@@ -4658,7 +4658,7 @@ window.NHB_DATA = {
             ]
           ],
           "equip": [
-            "Arštaya"
+            "Aršti"
           ],
           "gear": [
             "Akīnakah"
@@ -4671,16 +4671,16 @@ window.NHB_DATA = {
               "kind": "swap",
               "choices": [
                 {
-                  "name": "Arštaya javelins",
+                  "name": "Aršti throwing spear",
                   "w": [
-                    "Arštaya"
+                    "Aršti"
                   ],
                   "c": 0
                 },
                 {
-                  "name": "Aršti spear",
+                  "name": "Dargāršti spear",
                   "w": [
-                    "Aršti"
+                    "Dargāršti"
                   ],
                   "c": 0
                 },
@@ -4734,13 +4734,13 @@ window.NHB_DATA = {
             "Feign Charge"
           ],
           "weapons": {
-            "Arštaya": [
-              "6 / 8”",
+            "Aršti": [
+              "7 / 6”",
               "6",
               "6",
               "Throwing Weapon"
             ],
-            "Aršti": [
+            "Dargāršti": [
               "8",
               "6",
               "6",
@@ -4775,7 +4775,7 @@ window.NHB_DATA = {
             ]
           ],
           "equip": [
-            "Arštaya"
+            "Aršti"
           ],
           "gear": [
             "Akīnakah"
@@ -4788,16 +4788,16 @@ window.NHB_DATA = {
               "kind": "swap",
               "choices": [
                 {
-                  "name": "Arštaya javelins",
+                  "name": "Aršti throwing spear",
                   "w": [
-                    "Arštaya"
+                    "Aršti"
                   ],
                   "c": 0
                 },
                 {
-                  "name": "Aršti spear",
+                  "name": "Dargāršti spear",
                   "w": [
-                    "Aršti"
+                    "Dargāršti"
                   ],
                   "c": 0
                 }
@@ -4858,13 +4858,13 @@ window.NHB_DATA = {
             "Feign Charge"
           ],
           "weapons": {
-            "Arštaya": [
-              "6 / 8”",
+            "Aršti": [
+              "7 / 6”",
               "6",
               "6",
               "Throwing Weapon"
             ],
-            "Aršti": [
+            "Dargāršti": [
               "8",
               "6",
               "6",
@@ -4897,7 +4897,7 @@ window.NHB_DATA = {
             ]
           ],
           "equip": [
-            "Aršti"
+            "Dargāršti"
           ],
           "gear": [
             "Akīnakah"
@@ -4924,7 +4924,7 @@ window.NHB_DATA = {
             "Levy"
           ],
           "weapons": {
-            "Aršti": [
+            "Dargāršti": [
               "8",
               "5",
               "6",
@@ -5049,9 +5049,9 @@ window.NHB_DATA = {
                   "c": 1
                 },
                 {
-                  "name": "Arštaya javelins",
+                  "name": "Aršti throwing spear",
                   "w": [
-                    "Arštaya"
+                    "Aršti"
                   ],
                   "c": 0
                 }
@@ -5103,8 +5103,8 @@ window.NHB_DATA = {
               "5",
               "Cleaving Blade (4)"
             ],
-            "Arštaya": [
-              "6 / 8”",
+            "Aršti": [
+              "7 / 6”",
               "6",
               "6",
               "Throwing Weapon"
@@ -5163,9 +5163,9 @@ window.NHB_DATA = {
                   "c": 0
                 },
                 {
-                  "name": "Arštaya javelins",
+                  "name": "Aršti throwing spear",
                   "w": [
-                    "Arštaya",
+                    "Aršti",
                     "Horses"
                   ],
                   "c": 0
@@ -5197,10 +5197,10 @@ window.NHB_DATA = {
               "3",
               "5",
               "5",
-              "2 Attacks, can only use on Charge. May be used in conjunction with Arštaya"
+              "2 Attacks, can only use on Charge. May be used in conjunction with Aršti"
             ],
-            "Arštaya": [
-              "6 / 8”",
+            "Aršti": [
+              "6 / 6”",
               "6",
               "6",
               "1 Attack Melee, 2 Attacks Shooting. Throwing Weapon"
@@ -5233,7 +5233,7 @@ window.NHB_DATA = {
             "horses": 4
           },
           "equip": [
-            "Arštaya",
+            "Aršti",
             "Horses"
           ],
           "gear": [
@@ -5247,17 +5247,17 @@ window.NHB_DATA = {
               "kind": "swap",
               "choices": [
                 {
-                  "name": "Arštaya javelins",
+                  "name": "Aršti throwing spear",
                   "w": [
-                    "Arštaya",
+                    "Aršti",
                     "Horses"
                   ],
                   "c": 0
                 },
                 {
-                  "name": "Aršti spear",
+                  "name": "Dargāršti spear",
                   "w": [
-                    "Aršti",
+                    "Dargāršti",
                     "Horses"
                   ],
                   "c": 0
@@ -5282,8 +5282,8 @@ window.NHB_DATA = {
           ],
           "rules": [],
           "weapons": {
-            "Arštaya": [
-              "6 / 8”",
+            "Aršti": [
+              "6 / 6”",
               "6",
               "6",
               "2 Attacks Melee, 3 Attacks Shooting. Throwing Weapon"
@@ -5292,9 +5292,9 @@ window.NHB_DATA = {
               "3",
               "5",
               "5",
-              "4 Attacks, can only use on Charge. May be used in conjunction with Arštaya or Aršti"
+              "4 Attacks, can only use on Charge. May be used in conjunction with Aršti or Dargāršti"
             ],
-            "Aršti": [
+            "Dargāršti": [
               "7",
               "6",
               "6",
@@ -5342,10 +5342,10 @@ window.NHB_DATA = {
           "shield": null,
           "opts": [
             {
-              "label": "Driver: Arštaya javelins",
+              "label": "Driver: Aršti throwing spear",
               "kind": "add",
               "w": [
-                "Arštaya"
+                "Aršti"
               ],
               "c": 5
             }
@@ -5369,8 +5369,8 @@ window.NHB_DATA = {
               "5",
               "2 Attacks, can only use on Charge. May be used in conjunction with Dāça"
             ],
-            "Arštaya": [
-              "6 / 8”",
+            "Aršti": [
+              "6 / 6”",
               "6",
               "6",
               "1 Attack Melee, 2 Attacks Shooting. Throwing Weapon"
@@ -11411,7 +11411,7 @@ window.NHB_DATA = {
     "Giš.Ban": "bow",
     "Kuš.Daluš": "sling",
     "Túg.ŠirʾAm": "long scale coat",
-    "Aršti": "short spear",
+    "Aršti": "throwing spear",
     "Arštaya": "javelins",
     "Θanu": "composite bow",
     "Akīnakah": "short sword",
@@ -11526,7 +11526,8 @@ window.NHB_DATA = {
     "Taballa": "sling",
     "Framea": "throwing spear",
     "Gaizaz": "javelins",
-    "Fustis": "club"
+    "Fustis": "club",
+    "Dargāršti": "spear"
   },
   "say": {
     "Eren": "EH-ren",
@@ -11793,7 +11794,8 @@ window.NHB_DATA = {
     "Taballa": "tah-BAL-lah",
     "Framea": "FRAH-meh-ah",
     "Gaizaz": "GAI-zaz",
-    "Fustis": "FOOS-tis"
+    "Fustis": "FOOS-tis",
+    "Dargāršti": "dar-GAR-shtee"
   },
   "mercs": {
     "id": "mercs",

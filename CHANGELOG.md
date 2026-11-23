@@ -6,6 +6,13 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## 0.40.0 — 2026-11-22
+
+### Achaemenid Persia
+- Persian javelins are now the sturdy dual-use throwing spear the sources call **aršti** (the Greek palton): Length 7 / Range 6” (was 6 / 8”) for every Persian unit that carries them. Chariots keep Length 6, also at Range 6”. The weapon is renamed from Arštaya to **Aršti** (throwing spear).
+- The thrusting spear formerly called Aršti is now **Dargāršti** (constructed: Old Persian *darga-* “long” + *aršti*, after the Avestan “long spear”).
+- The Scythian Archers mercenaries keep their Arštaya javelins (6 / 8”).
+
 ## 0.39.1 — 2026-11-22
 
 ### Classical Greece and Armies of Alexander
