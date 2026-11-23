@@ -6,6 +6,11 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## 0.40.4 and Rulebook 0.3.12 — 2026-11-23
+
+### Army Book and rulebook
+- Sidearm swaps are written "Replace X with Y" without the "Sidearm:" label, like other weapon swaps (Army Book and the rulebook's sample Hoplîtai profile).
+
 ## 0.40.3 — 2026-11-23
 
 ### Dynastic Egypt
