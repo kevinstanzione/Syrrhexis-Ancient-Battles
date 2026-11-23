@@ -6,6 +6,12 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## 0.40.1 and Rulebook 0.3.11 — 2026-11-22
+
+### Rules
+- New Major Terrain type: **Woodland**. Difficult Terrain; the Move cap of a Stony Plain (Open Order Warriors exempt); Light Cover for units within, and a line of fire cannot cross more than 6” of it; no Volley from within; Chariots and Elephants gain 2 Break Tokens when they move in it; Warmachines cannot enter or be deployed in it; negates Feign Charge, Feign Retreat, Phalanx, Shieldwall, Pavise, Reach, Collision and Momentum (Evasion still works).
+- **Surefooted** now covers Woodland (moves as Skirmishing Warriors there), and **Surefooted (X)** can list Woodland.
+
 ## 0.40.0 — 2026-11-22
 
 ### Achaemenid Persia

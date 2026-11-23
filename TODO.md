@@ -73,7 +73,6 @@ Done 2026-11-05: First Blood row, Strength table order, matching Armor Save tabl
 - 0.33.0: Open Order Unwieldy now also gives -X Accuracy when the unit moved or turned that activation. No compensation for anyone (Carduchian bow stays Accuracy 5). Watch the Kush Pḏtyw and Šmsw Retinue, the Pródromoi and the Carduchians.
 
 ## Maybe
-- Maybe: a fourth Major Terrain type, **Woodland** (open woods). Sketch: Difficult Terrain; Light Cover for units within; line of fire up to ~6” into it but not through; Closed Order units lose Collision and Phalanx; Chariots and Warmachines can't enter; Elephants gain Break Tokens as in a Marsh; Ambush units may deploy in it. Would give Surefooted (Woodland) a skirmisher identity.
 
 ## Future army notes
 - Done 0.37.0: **Backstabbers** went to the Sea People Raiders (1 Break Token, 14 pts) instead of Hannibal's Forces.
