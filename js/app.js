@@ -55,7 +55,7 @@
   // Faction cards list the armies that may take them; cards without "armies" are open to every army.
   const cardsFor = () => COMMANDS.filter(c => !c.armies || c.armies.includes(army().id));
   const deck = () => (state.commands || []).map(id => cardsFor().find(c => c.id === id)).filter(Boolean);
-  const mercSlots = () => NHB.mercSlots(deck(), MERCS);
+  const mercSlots = () => NHB.mercSlots(deck(), MERCS, NHB.armySlots(army(), state.units));
   const copiesOf = id => deck().filter(c => c.id === id).length;
   const limitOf = c => c.limit || 1;
   // "Name, Name ×2" for the sheet and copied text, in deck order.
@@ -148,6 +148,11 @@
       return `<label class="check ${off ? "off" : ""}"><input type="checkbox" id="ad-${sel.uid}-${oi}" data-act="add" data-i="${idx}" data-o="${oi}" ${on ? "checked" : ""} ${off ? "disabled" : ""}>
         ${esc(o.label)} <span class="num">+${o.c}/model</span>${off ? ` <span class="label">not with ${esc(o.unlessWeapon)}</span>` : ""}</label>`;
     }).join("");
+    // Mḥšbm (Hannibal's Forces): the Commander may take the Mercenary rule away from one unit of the army list.
+    const pm = !sel.src && army().paymasters;
+    const loyal = pm && (u.rules || []).includes("Mercenary")
+      ? `<label class="check"><input type="checkbox" id="loyal-${sel.uid}" data-act="loyal" data-i="${idx}" ${sel.loyal ? "checked" : ""}>
+        Loses the Mercenary rule <span class="label">${esc(pm.name)}: uses your ${esc(pm.drop)}</span></label>` : "";
     const chars = (u.chars || []).map((g, gi) => {
       const cur = (sel.chars || {})[gi] || "";
       const label = (g.req ? "Must take" : "Character") + (g.note ? ` · ${g.note}` : "");
@@ -179,7 +184,7 @@
       return `<article class="card ${x.warn.length ? "bad" : ""}">${head}<div class="chips">${chips}</div></article>`;
     }
     return `<article class="card open ${x.warn.length ? "bad" : ""}">${head}
-      <div class="opts">${comp}${opts}${chars}</div>
+      <div class="opts">${comp}${opts}${loyal}${chars}</div>
       <div class="profile">${profileHtml(x, true)}</div>
       <div class="chips">${chips}</div>
       <div class="card-foot"><button class="btn" data-act="dup" data-i="${idx}">Duplicate</button><button class="btn danger" data-act="remove" data-i="${idx}">Remove</button></div>
@@ -611,6 +616,7 @@
     if (act === "comp") edit(() => { sel.comp = +el.value; });
     if (act === "swap") edit(() => { sel.swaps = sel.swaps || {}; sel.swaps[el.dataset.o] = +el.value; });
     if (act === "add") edit(() => { sel.adds = sel.adds || {}; sel.adds[el.dataset.o] = el.checked; });
+    if (act === "loyal") edit(() => { sel.loyal = el.checked; });
     if (act === "char") edit(() => { sel.chars = sel.chars || {}; sel.chars[el.dataset.g] = el.value || null; });
   });
 

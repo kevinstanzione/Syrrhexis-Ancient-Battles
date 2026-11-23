@@ -14,7 +14,7 @@ Done 2026-11-05: First Blood row, Strength table order, matching Armor Save tabl
 - Corner Marker STL done 2026-11-17 (trays/make_corner_marker.py).
 
 ## Terrain bases (3D print)
-- Generator done: terrain/make_bases.py writes exact-size plates to terrain/stl (Monument 2x2", Watchtower 3x3", wall 8x1/2" or two 4" halves, Rolling Wagons 40x60mm, Flaming Pigs 25mm round). Large terrain and Major Terrain use felt, so no bases.
+- Generator done: terrain/make_bases.py writes exact-size plates to terrain/stl (Monument 2x2", Watchtower 3x3", wall 8x1/2" or two 4" halves, Rolling Wagons 40x60mm, Flaming Pigs 20x20mm, ʾLpm oxen 25x50mm). Large terrain and Major Terrain use felt, so no bases.
 - Monument model: first Meshy image done (stele on stepped plinth with altar). Scale so the plinth fits inside 50.8 mm.
 - Meshy models done 2026-11-03: Monument, Muriq-Tidnim wall section, timber Watchtower. Walls are chunky and untextured on the back: mirror the textured front onto the back and thin to about 12 mm deep. Scale each wall section to 4" long. Watchtower footing is rectangular: fit the long side to about 74 mm.
 - All terrain models done 2026-11-04 (Phocian Wall, Field Wall, Rolling Wagons, Flaming Pig added). Printing in resin; the slicer adds rafts. Left: mirror wall backs.
@@ -53,6 +53,13 @@ Done 2026-11-05: First Blood row, Strength table order, matching Armor Save tabl
 ## Mauryan Empire (added 0.35.0)
 - Playtest pricing: Maula Retinue (15 × 10 models), Ratha (70), Hastin (95), Rājahastin Retinue (120 with paired characters).
 - Army opener art still needed.
+
+## Hannibal’s Forces (added 0.36.0)
+- Names: log the Punic names in the Reconstructed and Constructed Names doc. Attested: Mḥnt (coin legend "the camp"), Mḥšbm ("the paymasters", coin legend), Ksp ("silver"), Ndr ("vow"), ʾlp ("ox"), Rb ("general"), Qrtḥdšt. ʿm Qrtḥdšt appears only in a restored line of KAI 303. Constructed from Hebrew/Aramaic cognates: Lbym, Qdšt, Pršm, Rmḥ, Ḥrb, Mʾklt, Kdn, Plm (low confidence: Aramaic pīlā, Akkadian pīru). Saunion is Greek (the Samnites' name may come from it).
+- Playtest pricing: Mḥnt Qdšt Retinue (22 × 8), Pršm hRb Retinue (22 × 4), Plm (75), Ligurēs (13, Heavy Shield with no Move penalty), Equitēs Gallī (24).
+- Watch: Mḥšbm with two retinues gives 2 extra mercenary units, plus 3 from Ksp Qrtḥdšt. Brq has no cap.
+- Army opener art still needed.
+- Done 2026-11-22: Phalanx Shield/Length 6 negation removed (rulebook 0.3.10); terrain and Half Strength / under 6 models negation kept. Still to do: an Initiative token.
 
 ## King of Kings rework (Persia)
 - Done 0.35.0: rework complete. 2 units from 8 options: Arabian Camel Riders, Greek Hoplites, Scythian Archers, Cretan Archers (Supplemental Mercenaries) and Pḏtyw, Mnfꜣt, Provincial Levy, Hastin (borrowed lists). Units taken this way gain Mercenary.

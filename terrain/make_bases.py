@@ -22,7 +22,8 @@ BASES = [
     ("Wall_8x0.5in", "Field Wall / Phocian Wall / Muriq-Tidnim", 8 * IN, 0.5 * IN, "rect", 1, "full 8” length; needs a 205 mm print bed"),
     ("Wall_4x0.5in_half", "Field Wall / Phocian Wall / Muriq-Tidnim", 4 * IN, 0.5 * IN, "rect", 2, "print 2 and butt them together for a shorter bed"),
     ("Wagon_40x60mm", "Rolling Wagons", 40, 60, "rect", 3, "one per wagon marker"),
-    ("Pig_25mm", "Flaming Pigs", 25, 25, "round", 2, "one per pig marker"),
+    ("Pig_20x20mm", "Flaming Pigs", 20, 20, "rect", 4, "one per pig marker"),
+    ("Ox_25x50mm", "ʾLpm (Hannibal's Forces)", 25, 50, "rect", 3, "one per ox marker; a cavalry base also works"),
 ]
 
 

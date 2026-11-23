@@ -55,6 +55,7 @@ window.NHB = (function () {
   function loadout(u, sel) {
     let weapons = u.equip.slice();
     let shield = u.shield, body = u.body, barding = u.barding || null, crewPlus = 0, perModel = u.points || 0, gearOverride = null;
+    const dropRules = [];   // special rules a choice takes away (e.g. Lbym lose Phalanx with the Roman kit)
     const opts = u.opts || [];
     opts.forEach((o, i) => {
       if (o.kind !== "swap") return;
@@ -64,6 +65,7 @@ window.NHB = (function () {
       if ("body" in ch) body = ch.body;
       if ("barding" in ch) barding = ch.barding;
       if (ch.gear) gearOverride = ch.gear;
+      if (ch.dropRules) dropRules.push(...ch.dropRules);
       perModel += ch.c || 0;
     });
     const disabled = {};
@@ -98,7 +100,7 @@ window.NHB = (function () {
       if (used >= n) weapons = weapons.filter(w => w !== o.replaces);
     });
     const gear = (gearOverride || u.gear || []).filter(g => !weapons.includes(g));
-    return { weapons, gear, shield, body, barding, crewPlus, perModel, disabled, countCost, mixed, groupUse };
+    return { weapons, gear, shield, body, barding, crewPlus, perModel, disabled, countCost, mixed, groupUse, dropRules };
   }
 
   function armorDef(u, name) {
@@ -155,7 +157,7 @@ window.NHB = (function () {
     let m = u.move;
     const shield = u.mixed ? (u.mixed.front.shield || u.mixed.rest.shield) : lo.shield;
     if (lo.body) m += (armorDef(u, lo.body).move || 0);
-    if (shield) m += (armorDef(u, shield).move || 0);
+    if (shield && !u.ignoreShieldMove) m += (armorDef(u, shield).move || 0);   // ignoreShieldMove: Ligurēs (Hill-Bred)
     if (lo.barding) m += (armorDef(u, lo.barding).move || 0);
     // Unwieldy (X): Open Order units lose X Move (Closed Order pay it when turning instead).
     if (isOpen(u)) {
@@ -190,7 +192,8 @@ window.NHB = (function () {
 
   function activeRules(u, sel) {
     const chars = chosenChars(u, sel).map(c => c.name);
-    let rules = (u.rules || []).slice();
+    const drop = loadout(u, sel).dropRules || [];
+    let rules = (u.rules || []).filter(r => !drop.includes(r));
     chars.forEach(c => (CHAR_GRANTS[c] || []).forEach(r => { if (!rules.includes(r)) rules.push(r); }));
     if (chars.includes("Taskmaster") || chars.includes("Tribal Leader")) rules = rules.filter(r => r !== "Levy");
     // Unit-type abilities: units that fight on trays (Closed Order, including Light units deployed that way)
@@ -206,7 +209,7 @@ window.NHB = (function () {
     const levy = activeRules(u, sel).includes("Levy");
     const rf = ranksFiles(u, sel);
     if (u.type === "Chariot") { const c = u.crew; return n * (c.driver + c.crew + (lo.crewPlus || 0) + (c.horseUS == null ? 2 : c.horseUS) * c.horses); } // horseUS: Straddle Car
-    if (u.type === "Elephant") { const c = u.crew; return n * (c.mahout + c.crew + lo.crewPlus + 12); }
+    if (u.type === "Elephant") { const c = u.crew; return n * (c.mahout + c.crew + lo.crewPlus + (u.elephantUS == null ? 12 : u.elephantUS)); } // elephantUS: Plm (Smaller Breed)
     if (/Warmachine/.test(u.type)) return n + (u.engineUS || 3);
     const per = /Cavalry/.test(u.type) ? 3 : 1;
     const riders = /Cavalry/.test(u.type) ? n * (lo.crewPlus || 0) : 0; // Camel Riders: +1 per extra rider
@@ -275,12 +278,30 @@ window.NHB = (function () {
   // mercFit matches the chosen mercenary units to those slots (a small bipartite matching), so a unit only
   // counts if some card in the deck allows it.
   // pool (optional): the mercenary list; units marked cardOnly (e.g. Pḏtyw for King of Kings) are left out of open slots.
-  function mercSlots(cards, pool) {
+  // extra (optional): slots from an army's own rule (see armySlots).
+  function mercSlots(cards, pool, extra) {
     const slots = [], open = pool && pool.units.some(u => u.cardOnly) ? pool.units.filter(u => !u.cardOnly).map(u => u.id) : null;
     (cards || []).forEach(c => { for (let k = 0; k < (c.mercs || 0); k++) slots.push({ card: c.id, name: c.name, units: c.mercUnits || open, dropMercenary: !!c.dropMercenary }); });
+    (extra || []).forEach(s => slots.push(s));
     // Slots whose units lose the Mercenary rule (e.g. Lord of Asia) are filled first.
     return slots.sort((a, b) => b.dropMercenary - a.dropMercenary);
   }
+  // Army rules that give mercenary slots through Retinue characters (Hannibal's Forces, Mḥšbm):
+  // army.paymasters = { name, pool: [unit ids], drop: character whose unit loses Mercenary, keep: character whose unit keeps it }.
+  function armySlots(army, list) {
+    const pm = army && army.paymasters;
+    if (!pm) return [];
+    const slots = [];
+    (list || []).filter(s => !s.src).forEach(sel => {
+      const u = army.units.find(x => x.id === sel.unitId); if (!u) return;
+      chosenChars(u, sel).forEach(c => {
+        if (c.name === pm.drop) slots.push({ card: "paymasters", name: `${pm.name} (${c.name})`, units: pm.pool, dropMercenary: true, loyalSlot: true });
+        if (c.name === pm.keep) slots.push({ card: "paymasters", name: `${pm.name} (${c.name})`, units: pm.pool, dropMercenary: false });
+      });
+    });
+    return slots;
+  }
+
   function mercFit(slots, ids) {
     const owner = slots.map(() => -1);
     const can = (s, id) => !slots[s].units || slots[s].units.includes(id);
@@ -314,10 +335,24 @@ window.NHB = (function () {
     const retCount = {};
     units.forEach(x => x.chars.forEach(c => { if (RETINUE.includes(c.name)) retCount[c.name] = (retCount[c.name] || 0) + 1; }));
     const armyWarn = Object.keys(retCount).filter(k => retCount[k] > 1).map(k => `Only one ${k} allowed per army (you have ${retCount[k]})`);
-    const mercIds = list.filter(s => s.src === "mercs").map(s => s.unitId), slots = opts.mercSlots || [];
+    let slots = opts.mercSlots || [];
+    // Mḥšbm: the Commander may instead take the Mercenary rule away from one unit of the army's own list.
+    const pm = army.paymasters;
+    const loyal = pm ? units.filter(x => !x.sel.src && x.sel.loyal && (x.u.rules || []).includes("Mercenary")) : [];
+    if (loyal.length) {
+      const hasDrop = units.some(x => !x.sel.src && x.chars.some(c => c.name === pm.drop));
+      if (!hasDrop) armyWarn.push(`${pm.name}: only a ${pm.drop} can take the Mercenary rule away from a unit`);
+      else if (loyal.length > 1) armyWarn.push(`${pm.name}: only 1 unit can lose the Mercenary rule (you have ${loyal.length})`);
+      else {
+        loyal[0].rules = loyal[0].rules.filter(r => r !== "Mercenary");
+        loyal[0].viaCard = `${pm.name} (${pm.drop})`;
+        slots = slots.map(s => s.loyalSlot ? Object.assign({}, s, { dropMercenary: false }) : s);
+      }
+    }
+    const mercIds = list.filter(s => s.src === "mercs").map(s => s.unitId);
     if (mercIds.length) {
       const fit = mercFit(slots, mercIds), mercName = id => ((pools.mercs || { units: [] }).units.find(x => x.id === id) || { name: id }).name;
-      if (!slots.length) armyWarn.push(`Mercenary units need a mercenary Command card in your deck (you have ${mercIds.length})`);
+      if (!slots.length) armyWarn.push(`Mercenary units need a mercenary Command card in your deck${pm ? ` or ${pm.name} from a ${pm.drop} or ${pm.keep}` : ""} (you have ${mercIds.length})`);
       else if (mercIds.length > slots.length) armyWarn.push(`Your Command deck allows ${slots.length} mercenary unit${slots.length > 1 ? "s" : ""} (you have ${mercIds.length})`);
       else if (!fit.ok) armyWarn.push(`No mercenary Command card in your deck has room for ${[...new Set(fit.unplaced.map(mercName))].join(", ")}`);
       // Units placed in a slot from a card like Lord of Asia fight without the Mercenary rule; every other
@@ -337,6 +372,6 @@ window.NHB = (function () {
   }
 
   const charMorale = (name, t, parts) => parts ? parts.reduce((s, [n]) => s + charMorale(n, t), 0) : CHAR_MORALE[name] ? CHAR_MORALE[name](t) : 0;
-  return { mercSlots, mercFit, charMorale, armorDef, models, ranksFiles, loadout, armor, health, unitStrength, points, morale, armyMorale, moveValue, activeRules, chosenChars, warnings, summarize, saveFor, isOpen, CLOSED_ONLY, RETINUE };
+  return { mercSlots, armySlots, mercFit, charMorale, armorDef, models, ranksFiles, loadout, armor, health, unitStrength, points, morale, armyMorale, moveValue, activeRules, chosenChars, warnings, summarize, saveFor, isOpen, CLOSED_ONLY, RETINUE };
 })();
 if (typeof module !== "undefined") module.exports = window.NHB;

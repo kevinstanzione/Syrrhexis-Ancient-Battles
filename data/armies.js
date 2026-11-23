@@ -1,7 +1,7 @@
 // Syrrhēxis army data. Edit the values below; keep the first line as is.
 window.NHB_DATA = {
   "meta": {
-    "version": "0.35.0",
+    "version": "0.36.0",
     "synced": "2026-10-22",
     "sources": {
       "Hittite Empire Army": "1aqMPs2Pi5car6pUzcuWmHXArGss_RZdkgATe5OsbVrw",
@@ -7811,6 +7811,847 @@ window.NHB_DATA = {
       ]
     },
     {
+      "id": "carthage",
+      "name": "Hannibal’s Forces",
+      "paymasters": {
+        "name": "Mḥšbm",
+        "pool": [
+          "balearic-slingers",
+          "iberian-shock-troops",
+          "galatian-warriors",
+          "numidian-javelineers",
+          "greek-hoplites"
+        ],
+        "drop": "Commander",
+        "keep": "Army Standard Bearer"
+      },
+      "units": [
+        {
+          "id": "lbym",
+          "name": "Lbym",
+          "type": "Warrior",
+          "desc": "Libyan spearmen",
+          "move": 6,
+          "training": 6,
+          "points": 14,
+          "comps": [
+            [
+              4,
+              5
+            ],
+            [
+              3,
+              5
+            ]
+          ],
+          "equip": [
+            "Rmḥ"
+          ],
+          "gear": [
+            "Mʾklt"
+          ],
+          "body": null,
+          "shield": "Heavy Shield",
+          "opts": [
+            {
+              "label": "Weapon",
+              "kind": "swap",
+              "choices": [
+                {
+                  "name": "Rmḥ spear",
+                  "w": [
+                    "Rmḥ"
+                  ],
+                  "c": 0
+                },
+                {
+                  "name": "Pīlum, Gladius Hispāniēnsis sword and Light Armor",
+                  "w": [
+                    "Pīlum",
+                    "Gladius Hispāniēnsis"
+                  ],
+                  "body": "Light Armor",
+                  "dropRules": [
+                    "Phalanx"
+                  ],
+                  "c": 1
+                }
+              ]
+            }
+          ],
+          "chars": [
+            {
+              "one": [
+                [
+                  "Lead Captain",
+                  6
+                ]
+              ]
+            },
+            {
+              "one": [
+                [
+                  "Musician",
+                  6
+                ]
+              ]
+            }
+          ],
+          "rules": [
+            "Phalanx"
+          ],
+          "custom": {
+            "Spoils of Trasimene": "A unit that replaces its Rmḥ with the Pīlum, Gladius Hispāniēnsis and Light Armor loses Phalanx."
+          },
+          "weapons": {
+            "Rmḥ": [
+              "10",
+              "5",
+              "6",
+              "Reach (1), Unwieldy (1)"
+            ],
+            "Pīlum": [
+              "6”",
+              "5",
+              "6",
+              "Throwing Weapon, Sunder (2)"
+            ],
+            "Gladius Hispāniēnsis": [
+              "4",
+              "5",
+              "6",
+              "Thrusting Blade"
+            ],
+            "Mʾklt": [
+              "1",
+              "6",
+              "5",
+              ""
+            ]
+          }
+        },
+        {
+          "id": "am-qrthdst",
+          "name": "ʿm Qrtḥdšt",
+          "type": "Warrior",
+          "desc": "citizen militia",
+          "move": 6,
+          "training": 5,
+          "points": 12,
+          "comps": [
+            [
+              4,
+              6
+            ],
+            [
+              3,
+              5
+            ]
+          ],
+          "equip": [
+            "Rmḥ"
+          ],
+          "gear": [],
+          "body": "Light Armor",
+          "shield": "Heavy Shield",
+          "opts": [
+            {
+              "label": "Medium Armor",
+              "kind": "add",
+              "body": "Medium Armor",
+              "c": 2
+            }
+          ],
+          "chars": [
+            {
+              "one": [
+                [
+                  "Lead Captain",
+                  5
+                ]
+              ]
+            },
+            {
+              "one": [
+                [
+                  "Rear Captain",
+                  5
+                ]
+              ]
+            }
+          ],
+          "rules": [
+            "Phalanx",
+            "Levy"
+          ],
+          "weapons": {
+            "Rmḥ": [
+              "10",
+              "4",
+              "6",
+              "Reach (1), Unwieldy (1)"
+            ]
+          }
+        },
+        {
+          "id": "mhnt-qdst-retinue",
+          "name": "Mḥnt Qdšt Retinue",
+          "type": "Warrior",
+          "desc": "the Sacred Band",
+          "move": 5,
+          "training": 8,
+          "points": 22,
+          "comps": [
+            [
+              2,
+              4
+            ]
+          ],
+          "equip": [
+            "Rmḥ"
+          ],
+          "gear": [
+            "Ḥrb"
+          ],
+          "body": "Medium Armor",
+          "shield": "Heavy Shield",
+          "opts": [],
+          "chars": [
+            {
+              "req": true,
+              "one": [
+                [
+                  "Lead Captain",
+                  8
+                ]
+              ]
+            },
+            {
+              "req": true,
+              "one": [
+                [
+                  "Commander",
+                  42
+                ],
+                [
+                  "Army Standard Bearer",
+                  30
+                ]
+              ]
+            }
+          ],
+          "rules": [
+            "Phalanx",
+            "Disciplined",
+            "Noble"
+          ],
+          "custom": {
+            "Crimisus": "While this unit is in Difficult Terrain, it suffers -1 Move and -1 Armor, and it cannot take the Hold action.",
+            "Mḥšbm": "While this unit includes your Army Standard Bearer, your army may include 1 unit from the Supplemental Mercenaries list, chosen from Balearic Slingers, Iberian Shock Troops, Galatian Warriors, Numidian Javelineers and Greek Hoplites; it keeps the Mercenary rule. While it includes your Commander, your army may include 1 unit from the same list, and either that unit or 1 unit from this army list loses the Mercenary rule."
+          },
+          "weapons": {
+            "Rmḥ": [
+              "10",
+              "6",
+              "6",
+              "Reach (1), Unwieldy (1)"
+            ],
+            "Ḥrb": [
+              "3",
+              "6",
+              "6",
+              ""
+            ]
+          }
+        },
+        {
+          "id": "campani",
+          "name": "Campānī",
+          "type": "Warrior",
+          "desc": "Campanian mercenary infantry",
+          "move": 6,
+          "training": 6,
+          "points": 16,
+          "comps": [
+            [
+              4,
+              4
+            ],
+            [
+              3,
+              5
+            ]
+          ],
+          "equip": [
+            "Saunion"
+          ],
+          "gear": [
+            "Ensis"
+          ],
+          "body": "Light Armor",
+          "shield": "Heavy Shield",
+          "opts": [],
+          "chars": [
+            {
+              "one": [
+                [
+                  "Lead Captain",
+                  6
+                ]
+              ]
+            },
+            {
+              "one": [
+                [
+                  "Musician",
+                  6
+                ]
+              ]
+            }
+          ],
+          "rules": [
+            "Mercenary"
+          ],
+          "custom": {
+            "Sons of Mars": "+1 to Break Tests. This unit cannot be Rallied by units with the Noble special rule."
+          },
+          "weapons": {
+            "Saunion": [
+              "6”",
+              "5",
+              "6",
+              "Throwing Weapon, Sunder (1)"
+            ],
+            "Ensis": [
+              "4",
+              "5",
+              "5",
+              ""
+            ]
+          }
+        },
+        {
+          "id": "caetrati",
+          "name": "Caetrātī",
+          "type": "Light Warrior",
+          "desc": "Iberian light infantry",
+          "move": 7,
+          "training": 5,
+          "points": 13,
+          "comps": [
+            [
+              4,
+              4
+            ],
+            [
+              2,
+              5
+            ]
+          ],
+          "equip": [
+            "Soliferreum"
+          ],
+          "gear": [
+            "Machaera Hispāna"
+          ],
+          "body": null,
+          "shield": "Buckler",
+          "opts": [],
+          "chars": [
+            {
+              "one": [
+                [
+                  "Lead Captain",
+                  5
+                ],
+                [
+                  "Tribal Leader",
+                  8
+                ],
+                [
+                  "Skirmish Captain",
+                  8
+                ]
+              ]
+            }
+          ],
+          "rules": [
+            "Mercenary",
+            "Surefooted (Stony Plain)"
+          ],
+          "custom": {
+            "Concursatio": "After this unit makes a Shooting attack with its Soliferreum, it may move up to 2” directly away from the target. It cannot do so while Locked in Combat."
+          },
+          "weapons": {
+            "Soliferreum": [
+              "6 / 8”",
+              "5",
+              "6",
+              "Throwing Weapon, Sunder (1)"
+            ],
+            "Machaera Hispāna": [
+              "4",
+              "4",
+              "5",
+              "Cleaving Blade (3)"
+            ]
+          }
+        },
+        {
+          "id": "ligures",
+          "name": "Ligurēs",
+          "type": "Light Warrior",
+          "desc": "Ligurian hill tribesmen",
+          "move": 7,
+          "training": 5,
+          "points": 13,
+          "comps": [
+            [
+              4,
+              4
+            ],
+            [
+              2,
+              5
+            ]
+          ],
+          "equip": [
+            "Iaculum"
+          ],
+          "gear": [
+            "Ensis"
+          ],
+          "body": null,
+          "shield": "Heavy Shield",
+          "ignoreShieldMove": true,
+          "opts": [],
+          "chars": [
+            {
+              "one": [
+                [
+                  "Lead Captain",
+                  5
+                ],
+                [
+                  "Tribal Leader",
+                  8
+                ]
+              ]
+            }
+          ],
+          "rules": [
+            "Mercenary",
+            "Surefooted (Stony Plain)"
+          ],
+          "custom": {
+            "Hill-Bred": "This unit ignores the Move penalty of its Heavy Shield."
+          },
+          "weapons": {
+            "Iaculum": [
+              "6 / 8”",
+              "5",
+              "6",
+              "Throwing Weapon"
+            ],
+            "Ensis": [
+              "4",
+              "5",
+              "5",
+              ""
+            ]
+          }
+        },
+        {
+          "id": "equites-galli",
+          "name": "Equitēs Gallī",
+          "type": "Cavalry",
+          "desc": "Gallic noble cavalry",
+          "move": 12,
+          "training": 6,
+          "points": 24,
+          "comps": [
+            [
+              2,
+              4
+            ],
+            [
+              1,
+              6
+            ]
+          ],
+          "equip": [
+            "Hasta"
+          ],
+          "gear": [
+            "Gladius Gallicus"
+          ],
+          "body": "Medium Armor",
+          "shield": "Shield",
+          "opts": [],
+          "chars": [
+            {
+              "one": [
+                [
+                  "Tribal Leader",
+                  14
+                ]
+              ]
+            }
+          ],
+          "rules": [
+            "Mercenary"
+          ],
+          "custom": {
+            "Hammer of Cannae": "While this unit has a Charge Action Token, it gains +1 Strength with its melee weapons against an enemy unit that was already Locked in Combat when this unit declared its Charge."
+          },
+          "weapons": {
+            "Hasta": [
+              "8",
+              "5",
+              "6",
+              ""
+            ],
+            "Gladius Gallicus": [
+              "5",
+              "5",
+              "5",
+              "Cleaving Blade (3)"
+            ]
+          }
+        },
+        {
+          "id": "prsm-hrb-retinue",
+          "name": "Pršm hRb Retinue",
+          "type": "Cavalry",
+          "desc": "the general’s mounted staff",
+          "move": 10,
+          "training": 8,
+          "points": 22,
+          "comps": [
+            [
+              1,
+              4
+            ]
+          ],
+          "equip": [
+            "Rmḥ"
+          ],
+          "gear": [
+            "Ḥrb"
+          ],
+          "body": "Light Armor",
+          "shield": "Shield",
+          "opts": [
+            {
+              "label": "Weapon",
+              "kind": "swap",
+              "choices": [
+                {
+                  "name": "Ḥrb sword",
+                  "w": [
+                    "Rmḥ"
+                  ],
+                  "gear": [
+                    "Ḥrb"
+                  ],
+                  "c": 0
+                },
+                {
+                  "name": "Machaera Hispāna sword and Soliferreum javelins",
+                  "w": [
+                    "Rmḥ",
+                    "Soliferreum"
+                  ],
+                  "gear": [
+                    "Machaera Hispāna"
+                  ],
+                  "c": 1
+                },
+                {
+                  "name": "Gladius Gallicus sword and Medium Armor",
+                  "w": [
+                    "Rmḥ"
+                  ],
+                  "gear": [
+                    "Gladius Gallicus"
+                  ],
+                  "body": "Medium Armor",
+                  "c": 2
+                }
+              ]
+            }
+          ],
+          "chars": [
+            {
+              "req": true,
+              "one": [
+                [
+                  "Lead Captain",
+                  12
+                ]
+              ]
+            },
+            {
+              "req": true,
+              "one": [
+                [
+                  "Commander",
+                  42
+                ],
+                [
+                  "Army Standard Bearer",
+                  30
+                ]
+              ]
+            }
+          ],
+          "rules": [
+            "Noble"
+          ],
+          "custom": {
+            "Mḥšbm": "While this unit includes your Army Standard Bearer, your army may include 1 unit from the Supplemental Mercenaries list, chosen from Balearic Slingers, Iberian Shock Troops, Galatian Warriors, Numidian Javelineers and Greek Hoplites; it keeps the Mercenary rule. While it includes your Commander, your army may include 1 unit from the same list, and either that unit or 1 unit from this army list loses the Mercenary rule."
+          },
+          "weapons": {
+            "Rmḥ": [
+              "10",
+              "6",
+              "6",
+              ""
+            ],
+            "Soliferreum": [
+              "6 / 8”",
+              "6",
+              "6",
+              "Throwing Weapon, Sunder (1)"
+            ],
+            "Machaera Hispāna": [
+              "4",
+              "5",
+              "5",
+              "Cleaving Blade (3)"
+            ],
+            "Gladius Gallicus": [
+              "5",
+              "6",
+              "5",
+              "Cleaving Blade (3)"
+            ],
+            "Ḥrb": [
+              "3",
+              "6",
+              "6",
+              ""
+            ]
+          }
+        },
+        {
+          "id": "equites-campani",
+          "name": "Equitēs Campānī",
+          "type": "Cavalry",
+          "desc": "Campanian mercenary cavalry",
+          "move": 12,
+          "training": 6,
+          "points": 22,
+          "comps": [
+            [
+              2,
+              4
+            ],
+            [
+              1,
+              6
+            ]
+          ],
+          "equip": [
+            "Iaculum"
+          ],
+          "gear": [
+            "Ensis"
+          ],
+          "body": "Light Armor",
+          "shield": "Shield",
+          "opts": [
+            {
+              "label": "Hasta spear",
+              "kind": "add",
+              "w": [
+                "Hasta"
+              ],
+              "c": 1
+            }
+          ],
+          "chars": [
+            {
+              "one": [
+                [
+                  "Lead Captain",
+                  10
+                ]
+              ]
+            }
+          ],
+          "rules": [
+            "Mercenary"
+          ],
+          "custom": {
+            "Sons of Mars": "+1 to Break Tests. This unit cannot be Rallied by units with the Noble special rule.",
+            "Javelins then Steel": "When this unit takes the Charge action, it may first make a Shooting attack with its Iaculum against the unit it intends to charge, at -1 Accuracy."
+          },
+          "weapons": {
+            "Iaculum": [
+              "6 / 8”",
+              "5",
+              "6",
+              "Throwing Weapon"
+            ],
+            "Hasta": [
+              "8",
+              "5",
+              "6",
+              ""
+            ],
+            "Ensis": [
+              "4",
+              "5",
+              "5",
+              ""
+            ]
+          }
+        },
+        {
+          "id": "equites-hispani",
+          "name": "Equitēs Hispānī",
+          "type": "Light Cavalry",
+          "desc": "Iberian light horse",
+          "move": 12,
+          "training": 6,
+          "points": 19,
+          "comps": [
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              3
+            ]
+          ],
+          "equip": [
+            "Soliferreum"
+          ],
+          "gear": [
+            "Machaera Hispāna"
+          ],
+          "body": null,
+          "shield": "Shield",
+          "opts": [
+            {
+              "label": "Light Armor",
+              "kind": "add",
+              "body": "Light Armor",
+              "c": 2
+            }
+          ],
+          "chars": [
+            {
+              "one": [
+                [
+                  "Lead Captain",
+                  10
+                ],
+                [
+                  "Tribal Leader",
+                  14
+                ]
+              ]
+            }
+          ],
+          "rules": [
+            "Mercenary",
+            "Feign Charge",
+            "Surefooted (Stony Plain)"
+          ],
+          "weapons": {
+            "Soliferreum": [
+              "6 / 8”",
+              "5",
+              "6",
+              "Throwing Weapon, Sunder (1)"
+            ],
+            "Machaera Hispāna": [
+              "4",
+              "4",
+              "5",
+              "Cleaving Blade (3)"
+            ]
+          }
+        },
+        {
+          "id": "plm",
+          "name": "Plm",
+          "type": "Elephant",
+          "desc": "African forest elephants",
+          "move": 8,
+          "training": 6,
+          "points": 75,
+          "comps": [
+            [
+              1,
+              2
+            ],
+            [
+              1,
+              3
+            ]
+          ],
+          "crew": {
+            "mahout": 1,
+            "crew": 0
+          },
+          "elephantUS": 9,
+          "equip": [
+            "Elephant"
+          ],
+          "gear": [],
+          "body": null,
+          "shield": null,
+          "opts": [
+            {
+              "label": "1 Javelin Crewman with Kdn javelins",
+              "kind": "add",
+              "crewPlus": 1,
+              "w": [
+                "Kdn"
+              ],
+              "c": 12
+            }
+          ],
+          "chars": [],
+          "rules": [
+            "Terrify Non-Elephant"
+          ],
+          "custom": {
+            "Smaller Breed": "Each Elephant counts as 9 Unit Strength instead of 12.",
+            "Mallet and Chisel": "When this unit reaches Half Strength and would gain Run Them Down and Suicidal, you may instead remove the whole unit. It counts as destroyed."
+          },
+          "weapons": {
+            "Elephant": [
+              "9",
+              "5",
+              "7",
+              "1 attack. 2 extra attacks on Charge. Sunder (1)"
+            ],
+            "Kdn": [
+              "4 / 8”",
+              "6",
+              "6",
+              "1 attack per Crewman, plus 1 if Shooting. Throwing Weapon"
+            ]
+          }
+        }
+      ]
+    },
+    {
       "id": "rome",
       "name": "Imperial Rome",
       "units": [
@@ -9556,7 +10397,7 @@ window.NHB_DATA = {
     "Chīmalli": "round shield",
     "Phásganon": "bronze slashing sword",
     "Énchos": "spear",
-    "Falcāta": "curved chopping sword",
+    "Machaera Hispāna": "falcata",
     "Rhomphaía": "two-handed curved blade",
     "Sīca": "curved dagger",
     "Aġeġn": "longbow",
@@ -9573,7 +10414,7 @@ window.NHB_DATA = {
     "Contus": "heavy lance",
     "Θanvar": "composite bow",
     "Karəta": "dagger",
-    "Iacula": "light javelins",
+    "Iaculum Numidicum": "javelins",
     "Culter": "knife",
     "Qaštā": "composite bow",
     "Rumḥā": "javelins",
@@ -9603,7 +10444,17 @@ window.NHB_DATA = {
     "Paraśu": "axe",
     "Cāpa": "bow",
     "Prāsa": "darts",
-    "Kṣurikā": "knife"
+    "Kṣurikā": "knife",
+    "Rmḥ": "spear",
+    "Mʾklt": "dagger",
+    "Gladius Hispāniēnsis": "Spanish sword",
+    "Ḥrb": "sword",
+    "Saunion": "heavy javelin",
+    "Ensis": "sword",
+    "Soliferreum": "all-iron javelin",
+    "Iaculum": "javelins",
+    "Gladius Gallicus": "long sword",
+    "Kdn": "javelins"
   },
   "say": {
     "Eren": "EH-ren",
@@ -9754,13 +10605,13 @@ window.NHB_DATA = {
     "Arcus": "AR-koos",
     "Scorpiō Bolt": "SKOR-pee-oh",
     "Carroballista Bolt": "kar-ro-bal-LIS-tah",
-    "Falcāta": "fal-KAH-tah",
+    "Machaera Hispāna": "MAH-khai-rah his-PAH-nah",
     "Sīca": "SEE-kah",
     "Funda Longa": "FOON-dah LON-gah",
     "Funda Media": "FOON-dah MEH-dee-ah",
     "Funda Brevis": "FOON-dah BREH-wis",
     "Contus": "KON-toos",
-    "Iacula": "YAH-koo-lah",
+    "Iaculum Numidicum": "YAH-koo-loom noo-MID-ih-koom",
     "Culter": "KOOL-ter",
     "Cuāuhocēlōmeh": "kwow-oh-seh-LOH-meh",
     "Cuāchicqueh": "kwah-CHEEK-keh",
@@ -9807,7 +10658,28 @@ window.NHB_DATA = {
     "Paraśu": "PUH-ruh-shoo",
     "Cāpa": "CHAH-puh",
     "Prāsa": "PRAH-suh",
-    "Kṣurikā": "KSHOO-ri-kah"
+    "Kṣurikā": "KSHOO-ri-kah",
+    "Lbym": "loo-BEEM",
+    "ʿm Qrtḥdšt": "AHM kart-HAH-dasht",
+    "Mḥnt Qdšt": "mah-HAH-nat keh-DOH-shat",
+    "Campānī": "kam-PAH-nee",
+    "Caetrātī": "kye-TRAH-tee",
+    "Ligurēs": "LIG-oo-rays",
+    "Equitēs Gallī": "EH-kwih-tays GAL-lee",
+    "Pršm hRb": "par-SHEEM hah-RAB",
+    "Equitēs Campānī": "EH-kwih-tays kam-PAH-nee",
+    "Equitēs Hispānī": "EH-kwih-tays his-PAH-nee",
+    "Plm": "pee-LEEM",
+    "Rmḥ": "ROH-makh",
+    "Mʾklt": "mah-ah-KEH-let",
+    "Gladius Hispāniēnsis": "GLAH-dee-oos his-pah-nee-EN-sis",
+    "Ḥrb": "KHEH-reb",
+    "Saunion": "SOW-nee-on",
+    "Ensis": "EN-sis",
+    "Soliferreum": "so-lih-FER-reh-oom",
+    "Iaculum": "YAH-koo-loom",
+    "Gladius Gallicus": "GLAH-dee-oos GAL-lih-koos",
+    "Kdn": "kee-DOHN"
   },
   "mercs": {
     "id": "mercs",
@@ -9890,7 +10762,7 @@ window.NHB_DATA = {
           ]
         ],
         "equip": [
-          "Falcāta"
+          "Machaera Hispāna"
         ],
         "gear": [
           "Pugiō"
@@ -9924,7 +10796,7 @@ window.NHB_DATA = {
           "Mercenary"
         ],
         "weapons": {
-          "Falcāta": [
+          "Machaera Hispāna": [
             "4",
             "4",
             "5",
@@ -10837,7 +11709,7 @@ window.NHB_DATA = {
           8
         ],
         "equip": [
-          "Iacula"
+          "Iaculum Numidicum"
         ],
         "gear": [
           "Culter"
@@ -10872,7 +11744,7 @@ window.NHB_DATA = {
           "Mercenary"
         ],
         "weapons": {
-          "Iacula": [
+          "Iaculum Numidicum": [
             "6 / 8”",
             "7",
             "6",
@@ -11282,7 +12154,7 @@ window.NHB_DATA = {
       "name": "Flaming Pigs",
       "short": "Burning pigs panic the enemy, above all Elephants",
       "limit": 1,
-      "text": "Flammable. Before deployment, place 2 pig markers in your deployment zone. Once per game, at the start of any Activation Phase, set them alight: each pig moves up to 12” toward the closest enemy unit it has a line of fire to, until it touches a unit or impassable terrain. If it touches an enemy unit, that unit takes a Fear Test and gains 2 Break Tokens if it fails; Elephant units automatically fail. If it touches a Flammable Obstacle, the Obstacle burns as with Fire Brands. The pig is then removed. A pig that touches a friendly unit, or travels 12”, is removed without effect. Pigs are not units: they cannot be targeted or charged, do not generate or lose Army Morale, and take no Order Tokens.",
+      "text": "Flammable. Before deployment, place 4 pig markers (20 × 20mm) in your deployment zone. Once per game, at the start of any Activation Phase, set them alight: each pig moves up to 12” toward the closest enemy unit it has a line of fire to, until it touches a unit or impassable terrain. If it touches an enemy unit, that unit takes a Fear Test and gains 1 Break Token if it fails. Elephant units automatically fail and gain 2 Break Tokens. If it touches a Flammable Obstacle, the Obstacle burns as with Fire Brands. The pig is then removed. A pig that touches a friendly unit, or travels 12”, is removed without effect. Pigs are not units: they cannot be targeted or charged, do not generate or lose Army Morale, and take no Order Tokens.",
       "flavor": "The squealing, burning swine sent the war elephants trampling back through their own lines."
     },
     {
@@ -12146,6 +13018,92 @@ window.NHB_DATA = {
       "limit": 1,
       "text": "This round, add +2 to your Initiative roll if you have on the battlefield at least one Warrior, Light Warrior or Skirmishing Warrior unit, one Cavalry, Light Cavalry or Skirmishing Cavalry unit, one Chariot unit and one Elephant unit.",
       "flavor": "Foot, horse, chariot and elephant: the four limbs of the royal army."
+    },
+    {
+      "armies": [
+        "carthage"
+      ],
+      "limit": 1,
+      "id": "ksp-qrthdst",
+      "name": "Ksp Qrtḥdšt",
+      "short": "3 mercenaries from the Carthage pool",
+      "mercs": 3,
+      "mercUnits": [
+        "balearic-slingers",
+        "iberian-shock-troops",
+        "galatian-warriors",
+        "numidian-javelineers",
+        "greek-hoplites"
+      ],
+      "text": "Your army may include 3 units from the Supplemental Mercenaries list, chosen from Balearic Slingers, Iberian Shock Troops, Galatian Warriors, Numidian Javelineers and Greek Hoplites. Units taken this way have the Mercenary rule.",
+      "note": "If you take a mercenary unit through this card, this card must be one of the 3 cards in your hand.",
+      "flavor": "Carthage seldom spent its own citizens. Its silver bought the wars instead, and other nations bled for it."
+    },
+    {
+      "armies": [
+        "carthage"
+      ],
+      "limit": 1,
+      "id": "brq",
+      "name": "Brq",
+      "short": "+1 Initiative per friendly unit with a Hold token",
+      "text": "Play before the Initiative roll. This round, add +1 to your Initiative roll for each friendly unit with a Hold Action Token.",
+      "flavor": "Lightning, the Barcids called themselves, and Hannibal struck before his enemies knew the storm had come."
+    },
+    {
+      "armies": [
+        "carthage"
+      ],
+      "limit": 1,
+      "id": "ndr",
+      "name": "Ndr",
+      "short": "Mercenaries hold through Mass Panic for a round",
+      "text": "Play at the start of a round. Until the end of the round, friendly units with the Mercenary rule do not automatically fail Break Tests during Mass Panic, and any friendly unit may Rally them.",
+      "flavor": "Before the Ticinus, Hannibal swore to give his soldiers land, citizenship and silver, and sealed the vow with a sacrifice."
+    },
+    {
+      "armies": [
+        "carthage"
+      ],
+      "limit": 1,
+      "id": "magos-ambush",
+      "name": "Mago’s Ambush",
+      "short": "Obstacle: Dense Brush, and a light unit ambushes from it",
+      "text": "Obstacle, Flammable. Before deployment, place a 6” × 6” patch of Dense Brush in the neutral zone, outside every deployment zone. It is impassable and blocks all lines of fire that pass over it. One friendly Light Warrior, Skirmishing Warrior, Light Cavalry or Skirmishing Cavalry unit gains Ambush, and may be deployed within 3” of the Dense Brush instead of within 12” of an enemy unit.",
+      "flavor": "At the Trebia, Mago's men lay in the overgrown streambed until the Romans had marched past them."
+    },
+    {
+      "armies": [
+        "carthage"
+      ],
+      "limit": 1,
+      "id": "the-crescent",
+      "name": "The Crescent",
+      "short": "Enemies Locked on two faces lose Hold and gain a Break Token",
+      "text": "Play at the start of the Combat Phase. Each enemy unit Locked in Combat on two or more of its faces loses its Hold Action Token and gains a Break Token.",
+      "flavor": "At Cannae the center bowed back, the wings closed in, and the Roman army found itself surrounded."
+    },
+    {
+      "armies": [
+        "carthage"
+      ],
+      "limit": 1,
+      "id": "trasimene-fog",
+      "name": "Trasimene Fog",
+      "short": "Weather: nothing targets or Charges beyond 12”",
+      "text": "Weather. Play during the End of the Round Phase of a round in which you had the Initiative. During the next round, units cannot target or declare a Charge against units more than 12” away, and the ranges of enemy Special Character abilities, such as a Commander's, are halved.",
+      "flavor": "Mist rose from the lake, and the Roman column marched blind into the hills where Hannibal waited."
+    },
+    {
+      "armies": [
+        "carthage"
+      ],
+      "limit": 1,
+      "id": "alpm",
+      "name": "ʾLpm",
+      "short": "Burning oxen break up the enemy line",
+      "text": "Flammable. Before deployment, place 3 ox markers (25 × 50mm) in your deployment zone. Once per game, at the start of any Activation Phase, set their horns alight: each ox moves up to 12” in a straight line in a direction you choose, until it touches a unit or impassable terrain. If it touches an enemy unit, that unit takes a Fear Test; if it fails, it loses its Hold Action Token, gains a Break Token, and cannot declare a Charge this round. If an ox touches a Flammable Obstacle, the Obstacle burns as with Fire Brands. The ox is then removed. An ox that touches a friendly unit, or travels 12”, is removed without effect. Oxen are not units: they cannot be targeted or charged, do not generate or lose Army Morale, and take no Order Tokens.",
+      "flavor": "Torches tied to the horns of two thousand oxen lit up the hillside, and the Roman guard left the pass to chase them."
     }
   ]
 };

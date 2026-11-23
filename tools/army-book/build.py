@@ -463,7 +463,7 @@ TYPE_ORDER = ['Warrior', 'Light Warrior', 'Skirmishing Warrior', 'Cavalry', 'Lig
 
 # A Retinue whose name doesn't match its closest unit: unit id -> id of the unit it follows.
 RETINUE_AFTER = {'aga-us': 'sub-lugal', 'smsw': 'pdtyw', 'pr-aa-retinue': 'snnw', 'maula-retinue': 'carmin',
-                 'rajahastin-retinue': 'hastin'}
+                 'rajahastin-retinue': 'hastin', 'mhnt-qdst-retinue': 'am-qrthdst', 'prsm-hrb-retinue': 'equites-galli'}
 
 
 def ordered(units):
@@ -538,7 +538,7 @@ def build(ids):
                                + card(c) for c in generic) + '</div></section>')
         parts.append('<section class="army"><h1 id="mercenaries">Supplemental Mercenaries</h1>'
                      '<p class="era">Supplemental Mercenaries is not an army list and cannot be chosen as your army. '
-                     'Its units can only be added to an army through Command Cards.</p><h2>Unit Profiles</h2>'
+                     'Its units can only be added to an army through Command Cards or an army list’s own special rules.</p><h2>Unit Profiles</h2>'
                      + ''.join(art_img(MERC_ART.get(u['id']))[0] + profile(u) for u in D['mercs']['units'] if not u.get('cardOnly')) + '</section>')
     parts.append(glossary())
     quickref = open(os.path.join(HERE, 'quickref.html')).read()

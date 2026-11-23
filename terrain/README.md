@@ -11,7 +11,8 @@ Regenerate with `python3 terrain/make_bases.py` (needs `trimesh`).
 | [Wall_8x0.5in.stl](stl/Wall_8x0.5in.stl) | Field Wall / Phocian Wall / Muriq-Tidnim | 203.2 x 12.7 x 3.0 | 1 | full 8” length; needs a 205 mm print bed |
 | [Wall_4x0.5in_half.stl](stl/Wall_4x0.5in_half.stl) | Field Wall / Phocian Wall / Muriq-Tidnim | 101.6 x 12.7 x 3.0 | 2 | print 2 and butt them together for a shorter bed |
 | [Wagon_40x60mm.stl](stl/Wagon_40x60mm.stl) | Rolling Wagons | 40.0 x 60.0 x 3.0 | 3 | one per wagon marker |
-| [Pig_25mm.stl](stl/Pig_25mm.stl) | Flaming Pigs | 25.0 x 25.0 x 3.0 | 2 | one per pig marker |
+| [Pig_20x20mm.stl](stl/Pig_20x20mm.stl) | Flaming Pigs | 20.0 x 20.0 x 3.0 | 4 | one per pig marker |
+| [Ox_25x50mm.stl](stl/Ox_25x50mm.stl) | ʾLpm (Hannibal's Forces) | 25.0 x 50.0 x 3.0 | 3 | one per ox marker; a cavalry base also works |
 
 Tips:
 - Print flat, chamfer up. No supports needed.

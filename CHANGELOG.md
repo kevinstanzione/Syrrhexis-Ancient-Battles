@@ -6,6 +6,25 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## 0.36.0 and Rulebook 0.3.10 — 2026-11-22
+
+### Hannibal’s Forces (new army)
+- New army list for Carthage (c. 480–146 BC), from the Sicilian wars to Hannibal and Zama. Carthaginian units have Punic names (some reconstructed from close Semitic relatives); the hired contingents have Latin names. 11 units: Lbym (Libyan spearmen; the Roman-style kit, +1 pt per model, trades Phalanx and the Rmḥ for Light Armor, Gladius Hispāniēnsis and captured Pīlum), ʿm Qrtḥdšt (citizen militia, Levy), Mḥnt Qdšt Retinue (the Sacred Band: 2×4, Medium Armor, Noble, Disciplined, the Crimisus terrain penalty), Campānī (Campanian infantry, Sons of Mars), Caetrātī (Iberian light infantry with the Buckler, Concursatio), Ligurēs (Hill-Bred: no Move penalty from their Heavy Shield), Equitēs Gallī (Hammer of Cannae), Pršm hRb Retinue (the general’s mounted staff, Noble, Punic, Iberian or Celtic kit), Equitēs Campānī (Javelins then Steel), Equitēs Hispānī (Iberian light horse) and Plm (African forest elephants: Unit Strength 9 per Elephant, 1×2 or 1×3, Mallet and Chisel).
+- Army rule **Mḥšbm** (on both retinues): an Army Standard Bearer brings 1 unit from a Carthage mercenary pool (Balearic Slingers, Iberian Shock Troops, Galatian Warriors, Numidian Javelineers, Greek Hoplites) that keeps the Mercenary rule; a Commander brings 1 more, and either it or 1 Mercenary unit from the army list loses the Mercenary rule. Musicians are rare, and the army has no Standard Bearers and no Army Musician.
+- 7 Command cards: Ksp Qrtḥdšt (3 mercenaries from the pool), Brq (+1 Initiative per unit with a Hold token), Ndr (Mercenaries hold through Mass Panic for a round), Mago’s Ambush, The Crescent, Trasimene Fog (Weather) and ʾLpm (burning oxen).
+
+### Supplemental Mercenaries
+- Iberian Shock Troops: the Falcāta is renamed **Machaera Hispāna** (“falcata” is a 19th-century term). Numidian Javelineers: the Iacula are renamed **Iaculum Numidicum**. No stats changed.
+
+### Generic Command cards
+- **Flaming Pigs**: 4 pig markers (20 × 20mm, was 2). A unit that fails its Fear Test gains 1 Break Token (was 2); Elephants still fail automatically and gain 2.
+
+### Builder, Army Book and rulebook
+- Builder: army rules can give mercenary slots through Retinue characters, and a unit from the army list can be marked to lose the Mercenary rule. An option can take a special rule away (Lbym lose Phalanx), a unit can ignore its shield’s Move penalty, and Elephants can have their own Unit Strength.
+- Rulebook 0.3.10: Supplemental Mercenaries can join an army through Command Cards or an army list’s own special rules.
+- Rulebook 0.3.10: **Phalanx** is no longer negated for having neither a Shield nor a Length 6+ weapon (no unit could lose either mid-game). Terrain and Half Strength / under 6 models still negate it.
+- Terrain bases: Pig_20x20mm (4) replaces Pig_25mm; new Ox_25x50mm (3) for ʾLpm.
+
 ## 0.35.0 — 2026-11-19
 
 ### Mauryan Empire (new army)
