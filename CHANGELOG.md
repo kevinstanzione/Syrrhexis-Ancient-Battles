@@ -12,6 +12,9 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **Kallāpū** are now Light Warriors (were Skirmishing Warriors): 3 Ranks of 4 or 2 Ranks of 4, so they can march in close order and split up to shoot. Their Aspu sling gains "Can only Shoot in Open Order". Points unchanged.
 - Spelling: "armoured" is now "armored" (Kallāpū description and the Assyrian Army Book intro).
 
+### Carthage and Supplemental Mercenaries
+- Celtic long swords now have **Cleaving Blade (2)** (was 3): the Gladius Gallicus (Equitēs Gallī, Pršm hRb Retinue) and the Galatian Warriors' Máchaira. Cleaving Blade (3) stays the mark of curved swords; points unchanged.
+
 ## 0.38.0 — 2026-11-22
 
 ### Neo-Assyrian Empire

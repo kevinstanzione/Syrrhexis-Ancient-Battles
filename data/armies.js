@@ -8410,7 +8410,7 @@ window.NHB_DATA = {
               "5",
               "5",
               "5",
-              "Cleaving Blade (3)"
+              "Cleaving Blade (2)"
             ]
           }
         },
@@ -8529,7 +8529,7 @@ window.NHB_DATA = {
               "5",
               "6",
               "5",
-              "Cleaving Blade (3)"
+              "Cleaving Blade (2)"
             ],
             "Ḥrb": [
               "3",
@@ -11004,7 +11004,7 @@ window.NHB_DATA = {
             "5",
             "5",
             "5",
-            "Cleaving Blade (3)"
+            "Cleaving Blade (2)"
           ],
           "Gaîsos": [
             "6 / 8”",
