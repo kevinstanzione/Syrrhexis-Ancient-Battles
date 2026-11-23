@@ -463,7 +463,8 @@ TYPE_ORDER = ['Warrior', 'Light Warrior', 'Skirmishing Warrior', 'Cavalry', 'Lig
 
 # A Retinue whose name doesn't match its closest unit: unit id -> id of the unit it follows.
 RETINUE_AFTER = {'aga-us': 'sub-lugal', 'smsw': 'pdtyw', 'pr-aa-retinue': 'snnw', 'maula-retinue': 'carmin',
-                 'rajahastin-retinue': 'hastin', 'mhnt-qdst-retinue': 'am-qrthdst', 'prsm-hrb-retinue': 'equites-galli'}
+                 'rajahastin-retinue': 'hastin', 'mhnt-qdst-retinue': 'am-qrthdst', 'prsm-hrb-retinue': 'equites-galli',
+                 'assyrian-royal-retinue': 'assyrian-royal-spearmen', 'assyrian-royal-chariot': 'assyrian-chariots'}
 
 
 def ordered(units):

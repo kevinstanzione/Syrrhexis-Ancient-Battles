@@ -6,6 +6,14 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## 0.38.0 — 2026-11-22
+
+### Neo-Assyrian Empire
+- Akkadian names replace the English working names. Units: Qurādū (was Assyrian Spearmen), Ṣāb Qašti (Archer-Pavise Teams), Kiṣir Šarrūti (Royal Spearmen), Ša Šēpē Retinue (Royal Spearmen Retinue), Ṣāb Šarri (Provincial Levy), Itu'ayū (Auxiliary Archers), Kallāpū (Slingers), Ša Pētḫalli (Paired Cavalry), Narkabāti (Chariots), Mugerri Šarri Retinue (Royal Chariot Retinue). Weapons and armor: Asmarû (spear), Ariktu (cavalry and chariot lance), Namṣaru (sword), Patru (dagger), Kakku (mace), Ḫuṭāru (club), Qaštu (composite bow), Qaštu Itu'ayītu (Itu'ean bow), Aspu (sling), Sariam (scale coat), Kabābu (pavise). Paired Riders is now Tappû. Command cards: Treaties of Esarhaddon is now Adê, Sweeping Flood is now Abūbu. Pronunciations and descriptions added.
+- New unit: **Gurrāyū** (crested-helmet auxiliary spearmen): Light Warriors, Move 7, Training 5, 12 pts, Light Armor and Shield, Asmarû and Patru. **Enforcers**: friendly Ṣāb Šarri and Itu'ayū within 6” gain +1 to Break Tests.
+- **Narkabāti** may replace the Qaštu with an Ariktu (free), like the royal chariot.
+- King of Kings now names the borrowed Assyrian levy Ṣāb Šarri.
+
 ## 0.37.0 — 2026-11-22
 
 ### Armies of Alexander

@@ -46,7 +46,8 @@ Done 2026-11-05: First Blood row, Strength table order, matching Armor Save tabl
 - Idea for later: Ptolemaic African forest elephants (smaller, Elephant Strength 7, cheaper). Conflicts with the no-negative-cost rule, so it would need its own profile.
 
 ## Neo-Assyrian Empire (added 0.34.0)
-- Names: units, weapons, armor and Command cards still use English working names. Replace with Akkadian names (Kevin's plan: next session) and add pronunciations and plain-English labels.
+- Names done 0.38.0 (Akkadian; checked against Dezső, The Assyrian Army, and the CAD where possible). Log in the names doc. Attested: Qurādu, kiṣir šarrūti, ša šēpē, ṣāb šarri, Itu'ayu, kallāpu ('light troops'), ša pētḫalli, narkabtu, mugerru, asmarû, ariktu, namṣaru, patru, qaštu, aspu (sling, Landsberger 1957), siriam/sariam, kabābu, adê, abūbu. Constructed or loose: Ṣāb Qašti (phrase), Mugerri Šarri (phrase), Qaštu Itu'ayītu, Kakku (generic 'weapon'), Ḫuṭāru ('staff'), Tappû (not checked in a dictionary).
+- Playtest: Gurrāyū (12, Enforcers) added 0.38.0.
 - Points to watch: the Royal Spearmen (17) and Royal Spearmen Retinue (16) must take a Lead Captain, so check whole-unit costs.
 - Army opener art still needed (see Art spreads).
 

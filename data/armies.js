@@ -1,7 +1,7 @@
 // Syrrhēxis army data. Edit the values below; keep the first line as is.
 window.NHB_DATA = {
   "meta": {
-    "version": "0.37.0",
+    "version": "0.38.0",
     "synced": "2026-10-22",
     "sources": {
       "Hittite Empire Army": "1aqMPs2Pi5car6pUzcuWmHXArGss_RZdkgATe5OsbVrw",
@@ -2469,7 +2469,7 @@ window.NHB_DATA = {
       "units": [
         {
           "id": "assyrian-spearmen",
-          "name": "Assyrian Spearmen",
+          "name": "Qurādū",
           "type": "Warrior",
           "desc": "standing-army spearmen",
           "move": 6,
@@ -2486,10 +2486,10 @@ window.NHB_DATA = {
             ]
           ],
           "equip": [
-            "Spear"
+            "Asmarû"
           ],
           "gear": [
-            "Sword"
+            "Namṣaru"
           ],
           "body": "Light Armor",
           "shield": "Shield",
@@ -2499,16 +2499,16 @@ window.NHB_DATA = {
               "kind": "swap",
               "choices": [
                 {
-                  "name": "Sword",
+                  "name": "Namṣaru sword",
                   "gear": [
-                    "Sword"
+                    "Namṣaru"
                   ],
                   "c": 0
                 },
                 {
-                  "name": "Mace",
+                  "name": "Kakku mace",
                   "gear": [
-                    "Mace"
+                    "Kakku"
                   ],
                   "c": 1
                 }
@@ -2535,19 +2535,19 @@ window.NHB_DATA = {
           ],
           "rules": [],
           "weapons": {
-            "Spear": [
+            "Asmarû": [
               "8",
               "5",
               "6",
               "Reach (1)"
             ],
-            "Mace": [
+            "Kakku": [
               "3",
               "4",
               "4",
               "Sunder (2)"
             ],
-            "Sword": [
+            "Namṣaru": [
               "3",
               "5",
               "5",
@@ -2557,7 +2557,7 @@ window.NHB_DATA = {
         },
         {
           "id": "assyrian-pavise-teams",
-          "name": "Archer-Pavise Teams",
+          "name": "Ṣāb Qašti",
           "type": "Warrior",
           "desc": "archers behind tall shields",
           "move": 6,
@@ -2574,11 +2574,11 @@ window.NHB_DATA = {
             ]
           ],
           "equip": [
-            "Spear",
-            "Bow"
+            "Asmarû",
+            "Qaštu"
           ],
           "gear": [
-            "Dagger"
+            "Patru"
           ],
           "body": "Light Armor",
           "shield": null,
@@ -2586,23 +2586,23 @@ window.NHB_DATA = {
             "front": {
               "label": "1st Rank",
               "w": [
-                "Spear"
+                "Asmarû"
               ],
-              "shield": "Tall Pavise"
+              "shield": "Kabābu"
             },
             "rest": {
               "label": "Archer ranks",
               "w": [
-                "Bow"
+                "Qaštu"
               ],
               "shield": null
             }
           },
           "opts": [
             {
-              "label": "Long Scale Coat (replaces Light Armor)",
+              "label": "Sariam scale coat (replaces Light Armor)",
               "kind": "add",
-              "body": "Long Scale Coat",
+              "body": "Sariam",
               "c": 1
             }
           ],
@@ -2639,7 +2639,7 @@ window.NHB_DATA = {
             "Unwieldy (1)"
           ],
           "armors": {
-            "Tall Pavise": {
+            "Kabābu": {
               "v": 2,
               "move": -1,
               "runflee": -1,
@@ -2648,7 +2648,7 @@ window.NHB_DATA = {
                 "Pavise"
               ]
             },
-            "Long Scale Coat": {
+            "Sariam": {
               "v": 1,
               "shoot": 1,
               "move": -1,
@@ -2656,19 +2656,19 @@ window.NHB_DATA = {
             }
           },
           "weapons": {
-            "Spear": [
+            "Asmarû": [
               "8",
               "5",
               "6",
               "Reach (1)"
             ],
-            "Bow": [
+            "Qaštu": [
               "24”",
               "5",
               "4",
               "Recurve Bow, Direct Fire"
             ],
-            "Dagger": [
+            "Patru": [
               "1",
               "6",
               "5",
@@ -2679,7 +2679,7 @@ window.NHB_DATA = {
         },
         {
           "id": "assyrian-royal-spearmen",
-          "name": "Royal Spearmen",
+          "name": "Kiṣir Šarrūti",
           "type": "Warrior",
           "desc": "the king's standing guard regiment",
           "move": 6,
@@ -2696,10 +2696,10 @@ window.NHB_DATA = {
             ]
           ],
           "equip": [
-            "Spear"
+            "Asmarû"
           ],
           "gear": [
-            "Sword"
+            "Namṣaru"
           ],
           "body": "Light Armor",
           "shield": "Shield",
@@ -2709,25 +2709,25 @@ window.NHB_DATA = {
               "kind": "swap",
               "choices": [
                 {
-                  "name": "Sword",
+                  "name": "Namṣaru sword",
                   "gear": [
-                    "Sword"
+                    "Namṣaru"
                   ],
                   "c": 0
                 },
                 {
-                  "name": "Mace",
+                  "name": "Kakku mace",
                   "gear": [
-                    "Mace"
+                    "Kakku"
                   ],
                   "c": 1
                 }
               ]
             },
             {
-              "label": "Long Scale Coat (replaces Light Armor)",
+              "label": "Sariam scale coat (replaces Light Armor)",
               "kind": "add",
-              "body": "Long Scale Coat",
+              "body": "Sariam",
               "c": 1
             }
           ],
@@ -2758,7 +2758,7 @@ window.NHB_DATA = {
             "Guard"
           ],
           "armors": {
-            "Long Scale Coat": {
+            "Sariam": {
               "v": 1,
               "shoot": 1,
               "move": -1,
@@ -2766,19 +2766,19 @@ window.NHB_DATA = {
             }
           },
           "weapons": {
-            "Spear": [
+            "Asmarû": [
               "8",
               "6",
               "6",
               "Reach (1), Melee Suppression"
             ],
-            "Mace": [
+            "Kakku": [
               "3",
               "5",
               "4",
               "Sunder (2), Melee Suppression"
             ],
-            "Sword": [
+            "Namṣaru": [
               "3",
               "6",
               "5",
@@ -2788,7 +2788,7 @@ window.NHB_DATA = {
         },
         {
           "id": "assyrian-royal-retinue",
-          "name": "Royal Spearmen Retinue",
+          "name": "Ša Šēpē Retinue",
           "type": "Warrior",
           "desc": "the king's own bodyguard",
           "move": 5,
@@ -2801,10 +2801,10 @@ window.NHB_DATA = {
             ]
           ],
           "equip": [
-            "Spear"
+            "Asmarû"
           ],
           "gear": [
-            "Sword"
+            "Namṣaru"
           ],
           "body": "Light Armor",
           "shield": "Shield",
@@ -2814,25 +2814,25 @@ window.NHB_DATA = {
               "kind": "swap",
               "choices": [
                 {
-                  "name": "Sword",
+                  "name": "Namṣaru sword",
                   "gear": [
-                    "Sword"
+                    "Namṣaru"
                   ],
                   "c": 0
                 },
                 {
-                  "name": "Mace",
+                  "name": "Kakku mace",
                   "gear": [
-                    "Mace"
+                    "Kakku"
                   ],
                   "c": 0
                 }
               ]
             },
             {
-              "label": "Long Scale Coat (replaces Light Armor)",
+              "label": "Sariam scale coat (replaces Light Armor)",
               "kind": "add",
-              "body": "Long Scale Coat",
+              "body": "Sariam",
               "c": 1
             }
           ],
@@ -2864,7 +2864,7 @@ window.NHB_DATA = {
             "Disciplined"
           ],
           "armors": {
-            "Long Scale Coat": {
+            "Sariam": {
               "v": 1,
               "shoot": 1,
               "move": -1,
@@ -2872,19 +2872,19 @@ window.NHB_DATA = {
             }
           },
           "weapons": {
-            "Spear": [
+            "Asmarû": [
               "8",
               "6",
               "6",
               "Reach (1), Melee Suppression"
             ],
-            "Mace": [
+            "Kakku": [
               "3",
               "5",
               "4",
               "Sunder (2), Melee Suppression"
             ],
-            "Sword": [
+            "Namṣaru": [
               "3",
               "6",
               "5",
@@ -2894,7 +2894,7 @@ window.NHB_DATA = {
         },
         {
           "id": "assyrian-levy",
-          "name": "Provincial Levy",
+          "name": "Ṣāb Šarri",
           "type": "Warrior",
           "desc": "provincial muster",
           "move": 6,
@@ -2911,10 +2911,10 @@ window.NHB_DATA = {
             ]
           ],
           "equip": [
-            "Spear"
+            "Asmarû"
           ],
           "gear": [
-            "Dagger"
+            "Patru"
           ],
           "body": null,
           "shield": null,
@@ -2924,16 +2924,16 @@ window.NHB_DATA = {
               "kind": "swap",
               "choices": [
                 {
-                  "name": "Spear",
+                  "name": "Asmarû spear",
                   "w": [
-                    "Spear"
+                    "Asmarû"
                   ],
                   "c": 0
                 },
                 {
-                  "name": "Studded Club",
+                  "name": "Ḫuṭāru club",
                   "w": [
-                    "Studded Club"
+                    "Ḫuṭāru"
                   ],
                   "c": 0
                 }
@@ -2965,19 +2965,19 @@ window.NHB_DATA = {
             "Levy"
           ],
           "weapons": {
-            "Spear": [
+            "Asmarû": [
               "8",
               "4",
               "6",
               "Reach (1)"
             ],
-            "Studded Club": [
+            "Ḫuṭāru": [
               "3",
               "4",
               "4",
               "Sunder (1)"
             ],
-            "Dagger": [
+            "Patru": [
               "1",
               "5",
               "5",
@@ -2987,7 +2987,7 @@ window.NHB_DATA = {
         },
         {
           "id": "assyrian-auxiliary-archers",
-          "name": "Auxiliary Archers",
+          "name": "Itu'ayū",
           "type": "Light Warrior",
           "desc": "Aramean tribal bowmen",
           "move": 7,
@@ -3004,10 +3004,10 @@ window.NHB_DATA = {
             ]
           ],
           "equip": [
-            "Self Bow"
+            "Qaštu Itu'ayītu"
           ],
           "gear": [
-            "Dagger"
+            "Patru"
           ],
           "body": null,
           "shield": null,
@@ -3042,13 +3042,13 @@ window.NHB_DATA = {
             "Levy"
           ],
           "weapons": {
-            "Self Bow": [
+            "Qaštu Itu'ayītu": [
               "24”",
               "5",
               "4",
               "Direct Fire"
             ],
-            "Dagger": [
+            "Patru": [
               "1",
               "5",
               "5",
@@ -3057,8 +3057,64 @@ window.NHB_DATA = {
           }
         },
         {
+          "id": "assyrian-gurreans",
+          "name": "Gurrāyū",
+          "type": "Light Warrior",
+          "desc": "crested-helmet auxiliary spearmen",
+          "move": 7,
+          "training": 5,
+          "points": 12,
+          "comps": [
+            [
+              4,
+              4
+            ],
+            [
+              2,
+              5
+            ]
+          ],
+          "equip": [
+            "Asmarû"
+          ],
+          "gear": [
+            "Patru"
+          ],
+          "body": "Light Armor",
+          "shield": "Shield",
+          "opts": [],
+          "chars": [
+            {
+              "one": [
+                [
+                  "Lead Captain",
+                  5
+                ]
+              ]
+            }
+          ],
+          "rules": [],
+          "custom": {
+            "Enforcers": "Friendly Ṣāb Šarri and Itu'ayū units within 6” of this unit gain +1 to Break Tests."
+          },
+          "weapons": {
+            "Asmarû": [
+              "8",
+              "5",
+              "6",
+              "Reach (1)"
+            ],
+            "Patru": [
+              "1",
+              "6",
+              "5",
+              ""
+            ]
+          }
+        },
+        {
           "id": "assyrian-slingers",
-          "name": "Slingers",
+          "name": "Kallāpū",
           "type": "Skirmishing Warrior",
           "desc": "armoured slingers",
           "move": 7,
@@ -3069,10 +3125,10 @@ window.NHB_DATA = {
             12
           ],
           "equip": [
-            "Sling"
+            "Aspu"
           ],
           "gear": [
-            "Dagger"
+            "Patru"
           ],
           "body": "Light Armor",
           "shield": null,
@@ -3101,13 +3157,13 @@ window.NHB_DATA = {
           ],
           "rules": [],
           "weapons": {
-            "Sling": [
+            "Aspu": [
               "28”",
               "5",
               "4",
               ""
             ],
-            "Dagger": [
+            "Patru": [
               "1",
               "6",
               "5",
@@ -3117,7 +3173,7 @@ window.NHB_DATA = {
         },
         {
           "id": "assyrian-paired-cavalry",
-          "name": "Paired Cavalry",
+          "name": "Ša Pētḫalli",
           "type": "Cavalry",
           "desc": "horse archers riding in pairs",
           "move": 10,
@@ -3134,10 +3190,10 @@ window.NHB_DATA = {
             ]
           ],
           "equip": [
-            "Bow"
+            "Qaštu"
           ],
           "gear": [
-            "Sword"
+            "Namṣaru"
           ],
           "body": null,
           "shield": "Shield",
@@ -3149,15 +3205,15 @@ window.NHB_DATA = {
                 {
                   "name": "Archer and shield-bearer pairs",
                   "w": [
-                    "Bow"
+                    "Qaštu"
                   ],
                   "c": 0
                 },
                 {
                   "name": "Archers and lancers",
                   "w": [
-                    "Bow",
-                    "Lance"
+                    "Qaštu",
+                    "Ariktu"
                   ],
                   "shield": null,
                   "c": 1
@@ -3165,8 +3221,8 @@ window.NHB_DATA = {
                 {
                   "name": "Archers and lancers with Light Armor and Barding",
                   "w": [
-                    "Bow",
-                    "Lance"
+                    "Qaštu",
+                    "Ariktu"
                   ],
                   "shield": null,
                   "body": "Light Armor",
@@ -3191,22 +3247,22 @@ window.NHB_DATA = {
             "Shield Bearer"
           ],
           "custom": {
-            "Paired Riders": "The unit rides in pairs, side by side along each rank: an archer with the Bow and Sword beside a partner. In the default pairs the partner is a shield-bearer who holds both horses' reins; shield-bearers carry a Shield and no weapons, and make no attacks. If the unit takes lancers, each partner instead carries the Lance and no Shield. The unit always has an even number of models, half archers and half partners."
+            "Tappû": "The unit rides in pairs, side by side along each rank: an archer with the Qaštu and Namṣaru beside a partner. In the default pairs the partner is a shield-bearer who holds both horses' reins; shield-bearers carry a Shield and no weapons, and make no attacks. If the unit takes lancers, each partner instead carries the Ariktu and no Shield. The unit always has an even number of models, half archers and half partners."
           },
           "weapons": {
-            "Bow": [
+            "Qaštu": [
               "24”",
               "5",
               "4",
               "Recurve Bow, Direct Fire"
             ],
-            "Lance": [
+            "Ariktu": [
               "7",
               "5",
               "6",
               ""
             ],
-            "Sword": [
+            "Namṣaru": [
               "3",
               "5",
               "5",
@@ -3216,7 +3272,7 @@ window.NHB_DATA = {
         },
         {
           "id": "assyrian-chariots",
-          "name": "Chariots",
+          "name": "Narkabāti",
           "type": "Chariot",
           "desc": "two-horse chariots with archers",
           "move": 10,
@@ -3238,15 +3294,37 @@ window.NHB_DATA = {
             "horses": 2
           },
           "equip": [
-            "Bow",
+            "Qaštu",
             "Horses"
           ],
           "gear": [
-            "Chariot Sword"
+            "Namṣaru"
           ],
           "body": "Light Armor",
           "shield": null,
           "opts": [
+            {
+              "label": "Crew weapon",
+              "kind": "swap",
+              "choices": [
+                {
+                  "name": "Qaštu bow",
+                  "w": [
+                    "Qaštu",
+                    "Horses"
+                  ],
+                  "c": 0
+                },
+                {
+                  "name": "Ariktu lance",
+                  "w": [
+                    "Ariktu",
+                    "Horses"
+                  ],
+                  "c": 0
+                }
+              ]
+            },
             {
               "label": "Shield-bearer (third crewman with a Shield)",
               "kind": "add",
@@ -3255,9 +3333,9 @@ window.NHB_DATA = {
               "c": 6
             },
             {
-              "label": "Long Scale Coat (crew, replaces Light Armor)",
+              "label": "Sariam scale coat (crew, replaces Light Armor)",
               "kind": "add",
-              "body": "Long Scale Coat",
+              "body": "Sariam",
               "c": 3
             }
           ],
@@ -3275,14 +3353,14 @@ window.NHB_DATA = {
             "Shield Bearer"
           ],
           "armors": {
-            "Long Scale Coat": {
+            "Sariam": {
               "v": 1,
               "shoot": 1,
               "text": "+1 Armor against Shooting attacks"
             }
           },
           "weapons": {
-            "Bow": [
+            "Qaštu": [
               "24”",
               "5",
               "4",
@@ -3292,19 +3370,25 @@ window.NHB_DATA = {
               "3",
               "5",
               "5",
-              "2 Attacks, can only use on Charge"
+              "2 Attacks, can only use on Charge. May be used in conjunction with the Ariktu"
             ],
-            "Chariot Sword": [
+            "Ariktu": [
+              "7",
+              "5",
+              "6",
+              "1 Attack"
+            ],
+            "Namṣaru": [
               "2",
               "5",
               "5",
-              "1 Attack, cannot be used on Charge"
+              "1 Attack, cannot be used on Charge. May be used in conjunction with the Ariktu"
             ]
           }
         },
         {
           "id": "assyrian-royal-chariot",
-          "name": "Royal Chariot Retinue",
+          "name": "Mugerri Šarri Retinue",
           "type": "Chariot",
           "desc": "the king's four-horse chariot",
           "move": 10,
@@ -3322,11 +3406,11 @@ window.NHB_DATA = {
             "horses": 4
           },
           "equip": [
-            "Bow",
+            "Qaštu",
             "Horses"
           ],
           "gear": [
-            "Chariot Sword"
+            "Namṣaru"
           ],
           "body": "Light Armor",
           "shield": "Shield",
@@ -3338,17 +3422,17 @@ window.NHB_DATA = {
               "kind": "swap",
               "choices": [
                 {
-                  "name": "Bow",
+                  "name": "Qaštu bow",
                   "w": [
-                    "Bow",
+                    "Qaštu",
                     "Horses"
                   ],
                   "c": 0
                 },
                 {
-                  "name": "Spear",
+                  "name": "Ariktu lance",
                   "w": [
-                    "Spear",
+                    "Ariktu",
                     "Horses"
                   ],
                   "c": 0
@@ -3356,9 +3440,9 @@ window.NHB_DATA = {
               ]
             },
             {
-              "label": "Long Scale Coat (crew, replaces Light Armor)",
+              "label": "Sariam scale coat (crew, replaces Light Armor)",
               "kind": "add",
-              "body": "Long Scale Coat",
+              "body": "Sariam",
               "c": 3
             }
           ],
@@ -3390,14 +3474,14 @@ window.NHB_DATA = {
             "Spearhead"
           ],
           "armors": {
-            "Long Scale Coat": {
+            "Sariam": {
               "v": 1,
               "shoot": 1,
               "text": "+1 Armor against Shooting attacks"
             }
           },
           "weapons": {
-            "Bow": [
+            "Qaštu": [
               "24”",
               "5",
               "4",
@@ -3407,19 +3491,19 @@ window.NHB_DATA = {
               "3",
               "5",
               "5",
-              "4 Attacks, can only use on Charge. May be used in conjunction with the Spear"
+              "4 Attacks, can only use on Charge. May be used in conjunction with the Ariktu"
             ],
-            "Spear": [
+            "Ariktu": [
               "7",
               "6",
               "6",
               "1 Attack"
             ],
-            "Chariot Sword": [
+            "Namṣaru": [
               "2",
               "6",
               "5",
-              "2 Attacks, cannot be used on Charge. May be used in conjunction with the Spear"
+              "2 Attacks, cannot be used on Charge. May be used in conjunction with the Ariktu"
             ]
           }
         }
@@ -10459,7 +10543,18 @@ window.NHB_DATA = {
     "Soliferreum": "all-iron javelin",
     "Iaculum": "javelins",
     "Gladius Gallicus": "long sword",
-    "Kdn": "javelins"
+    "Kdn": "javelins",
+    "Asmarû": "spear",
+    "Ariktu": "lance",
+    "Kakku": "mace",
+    "Namṣaru": "sword",
+    "Patru": "dagger",
+    "Ḫuṭāru": "studded club",
+    "Qaštu": "composite bow",
+    "Qaštu Itu'ayītu": "bow",
+    "Aspu": "sling",
+    "Sariam": "scale coat",
+    "Kabābu": "pavise"
   },
   "say": {
     "Eren": "EH-ren",
@@ -10684,7 +10779,29 @@ window.NHB_DATA = {
     "Soliferreum": "so-lih-FER-reh-oom",
     "Iaculum": "YAH-koo-loom",
     "Gladius Gallicus": "GLAH-dee-oos GAL-lih-koos",
-    "Kdn": "kee-DOHN"
+    "Kdn": "kee-DOHN",
+    "Qurādū": "koo-RAH-doo",
+    "Ṣāb Qašti": "TSAHB KASH-tee",
+    "Kiṣir Šarrūti": "KIH-tsir shar-ROO-tee",
+    "Ša Šēpē": "shah SHAY-pay",
+    "Ṣāb Šarri": "TSAHB SHAR-ree",
+    "Itu'ayū": "ih-too-AH-yoo",
+    "Gurrāyū": "goor-RAH-yoo",
+    "Kallāpū": "kal-LAH-poo",
+    "Ša Pētḫalli": "shah payt-KHAL-lee",
+    "Narkabāti": "nar-kah-BAH-tee",
+    "Mugerri Šarri": "moo-GER-ree SHAR-ree",
+    "Asmarû": "as-mah-ROO",
+    "Ariktu": "ah-RIK-too",
+    "Kakku": "KAK-koo",
+    "Namṣaru": "nam-TSAH-roo",
+    "Patru": "PAT-roo",
+    "Ḫuṭāru": "khoo-TAH-roo",
+    "Qaštu": "KASH-too",
+    "Qaštu Itu'ayītu": "KASH-too ih-too-ah-YEE-too",
+    "Aspu": "AS-poo",
+    "Sariam": "SAH-ree-am",
+    "Kabābu": "kah-BAH-boo"
   },
   "mercs": {
     "id": "mercs",
@@ -11854,7 +11971,7 @@ window.NHB_DATA = {
       },
       {
         "id": "assyrian-levy-merc",
-        "name": "Provincial Levy",
+        "name": "Ṣāb Šarri",
         "type": "Warrior",
         "desc": "Assyrian levy",
         "move": 6,
@@ -11871,10 +11988,10 @@ window.NHB_DATA = {
           ]
         ],
         "equip": [
-          "Spear"
+          "Asmarû"
         ],
         "gear": [
-          "Dagger"
+          "Patru"
         ],
         "body": null,
         "shield": null,
@@ -11884,16 +12001,16 @@ window.NHB_DATA = {
             "kind": "swap",
             "choices": [
               {
-                "name": "Spear",
+                "name": "Asmarû spear",
                 "w": [
-                  "Spear"
+                  "Asmarû"
                 ],
                 "c": 0
               },
               {
-                "name": "Studded Club",
+                "name": "Ḫuṭāru club",
                 "w": [
-                  "Studded Club"
+                  "Ḫuṭāru"
                 ],
                 "c": 0
               }
@@ -11926,19 +12043,19 @@ window.NHB_DATA = {
           "Mercenary"
         ],
         "weapons": {
-          "Spear": [
+          "Asmarû": [
             "8",
             "4",
             "6",
             "Reach (1)"
           ],
-          "Studded Club": [
+          "Ḫuṭāru": [
             "3",
             "4",
             "4",
             "Sunder (1)"
           ],
-          "Dagger": [
+          "Patru": [
             "1",
             "5",
             "5",
@@ -12516,7 +12633,7 @@ window.NHB_DATA = {
         "assyrian-levy-merc",
         "hastin-merc"
       ],
-      "text": "Your army may include 2 units chosen from Arabian Camel Riders, Greek Hoplites, Scythian Archers and Cretan Archers from the Supplemental Mercenaries list, Pḏtyw (Kushite archers) from the Kingdom of Kush list, Mnfꜣt (Egyptian spearmen) from the Dynastic Egypt list, the Provincial Levy (Assyrian levy) from the Neo-Assyrian Empire list and Hastin (Indian war elephants) from the Mauryan Empire list. Units taken this way have the Mercenary rule.",
+      "text": "Your army may include 2 units chosen from Arabian Camel Riders, Greek Hoplites, Scythian Archers and Cretan Archers from the Supplemental Mercenaries list, Pḏtyw (Kushite archers) from the Kingdom of Kush list, Mnfꜣt (Egyptian spearmen) from the Dynastic Egypt list, Ṣāb Šarri (Assyrian levy) from the Neo-Assyrian Empire list and Hastin (Indian war elephants) from the Mauryan Empire list. Units taken this way have the Mercenary rule.",
       "note": "If you take a mercenary unit through this card, this card must be one of the 3 cards in your hand.",
       "flavor": "Conquered kings send their warriors to serve the throne."
     },
@@ -12934,7 +13051,7 @@ window.NHB_DATA = {
     },
     {
       "id": "treaties-of-esarhaddon",
-      "name": "Treaties of Esarhaddon",
+      "name": "Adê",
       "short": "2 mercenaries: Arabs, Scythians or Greeks",
       "armies": [
         "assyria"
@@ -12952,13 +13069,13 @@ window.NHB_DATA = {
     },
     {
       "id": "sweeping-flood",
-      "name": "Sweeping Flood",
+      "name": "Abūbu",
       "short": "Spearhead reaches 24” and adds +1 Strength on the Charge",
       "armies": [
         "assyria"
       ],
       "limit": 1,
-      "text": "Play at the start of a round. Until the end of the round, your Royal Chariot Retinue's Spearhead affects units within 24” instead of 12”, and units that gain its bonus Move also gain +1 Strength on the Charge.",
+      "text": "Play at the start of a round. Until the end of the round, your Mugerri Šarri Retinue's Spearhead affects units within 24” instead of 12”, and units that gain its bonus Move also gain +1 Strength on the Charge.",
       "flavor": "Like the Deluge I swept over them, and heaped their corpses like grain."
     },
     {
