@@ -9,7 +9,7 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 ## 0.38.1 — 2026-11-22
 
 ### Neo-Assyrian Empire
-- **Kallāpū** are now Light Warriors (were Skirmishing Warriors): 2 Ranks of 6 or 2 Ranks of 5, so they can march in close order and split up to shoot. Their Aspu sling gains "Can only Shoot in Open Order". Points unchanged.
+- **Kallāpū** are now Light Warriors (were Skirmishing Warriors): 3 Ranks of 4 or 2 Ranks of 4, so they can march in close order and split up to shoot. Their Aspu sling gains "Can only Shoot in Open Order". Points unchanged.
 - Spelling: "armoured" is now "armored" (Kallāpū description and the Assyrian Army Book intro).
 
 ## 0.38.0 — 2026-11-22

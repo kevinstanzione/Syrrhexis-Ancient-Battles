@@ -3122,12 +3122,12 @@ window.NHB_DATA = {
           "points": 11,
           "comps": [
             [
-              2,
-              6
+              3,
+              4
             ],
             [
               2,
-              5
+              4
             ]
           ],
           "equip": [
