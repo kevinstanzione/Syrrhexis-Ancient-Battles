@@ -9,7 +9,10 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 ## 0.40.3 — 2026-11-23
 
 ### Dynastic Egypt
-- **Ỉqḥw** (Nḫtw-ꜥ two-handed mace-axe): Length 3 → 5, so the two-handed weapon outreaches one-handed axes and maces.
+- **Ỉqḥw** (Nḫtw-ꜥ two-handed mace-axe): Length 3 → 5, so the two-handed weapon strikes before one-handed axes and maces. The swap to the Ỉqḥw now costs +1 pt per model (was free).
+
+### Armies of Alexander
+- **Tarantînoi**: 19 → 20 pts per model, for the longer Akóntion range.
 
 ## 0.40.2 — 2026-11-22
 

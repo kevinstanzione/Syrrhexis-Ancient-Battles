@@ -887,7 +887,7 @@ window.NHB_DATA = {
                   "w": [
                     "Ỉqḥw"
                   ],
-                  "c": 0,
+                  "c": 1,
                   "shield": null
                 }
               ]
@@ -6877,7 +6877,7 @@ window.NHB_DATA = {
           "desc": "javelin horsemen",
           "move": 14,
           "training": 5,
-          "points": 19,
+          "points": 20,
           "range": [
             5,
             8
