@@ -1,7 +1,7 @@
 // Syrrhēxis army data. Edit the values below; keep the first line as is.
 window.NHB_DATA = {
   "meta": {
-    "version": "0.40.2",
+    "version": "0.40.3",
     "synced": "2026-10-22",
     "sources": {
       "Hittite Empire Army": "1aqMPs2Pi5car6pUzcuWmHXArGss_RZdkgATe5OsbVrw",
@@ -932,7 +932,7 @@ window.NHB_DATA = {
               "Cleaving Blade (4)"
             ],
             "Ỉqḥw": [
-              "3",
+              "5",
               "4",
               "6",
               "Sunder (2)"

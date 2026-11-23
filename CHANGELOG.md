@@ -6,6 +6,11 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## 0.40.3 — 2026-11-23
+
+### Dynastic Egypt
+- **Ỉqḥw** (Nḫtw-ꜥ two-handed mace-axe): Length 3 → 5, so the two-handed weapon outreaches one-handed axes and maces.
+
 ## 0.40.2 — 2026-11-22
 
 ### Surefooted (Woodland)
