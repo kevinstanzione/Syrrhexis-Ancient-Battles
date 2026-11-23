@@ -1,7 +1,7 @@
 // Syrrhēxis army data. Edit the values below; keep the first line as is.
 window.NHB_DATA = {
   "meta": {
-    "version": "0.38.0",
+    "version": "0.38.1",
     "synced": "2026-10-22",
     "sources": {
       "Hittite Empire Army": "1aqMPs2Pi5car6pUzcuWmHXArGss_RZdkgATe5OsbVrw",
@@ -3115,14 +3115,20 @@ window.NHB_DATA = {
         {
           "id": "assyrian-slingers",
           "name": "Kallāpū",
-          "type": "Skirmishing Warrior",
-          "desc": "armoured slingers",
+          "type": "Light Warrior",
+          "desc": "armored slingers",
           "move": 7,
           "training": 5,
           "points": 11,
-          "range": [
-            6,
-            12
+          "comps": [
+            [
+              2,
+              6
+            ],
+            [
+              2,
+              5
+            ]
           ],
           "equip": [
             "Aspu"
@@ -3161,7 +3167,7 @@ window.NHB_DATA = {
               "28”",
               "5",
               "4",
-              ""
+              "Can only Shoot in Open Order"
             ],
             "Patru": [
               "1",

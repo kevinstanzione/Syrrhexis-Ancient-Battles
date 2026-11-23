@@ -153,7 +153,7 @@ def composition(u):
 
 
 def natives(u):
-    """Native-language names on this unit (weapons, armour, shields): always set in italics."""
+    """Native-language names on this unit (weapons, armor, shields): always set in italics."""
     ns = set(LABELS) | set(u.get('weapons', {})) | set(u.get('armors') or {})
     return sorted((n for n in ns if n not in ENGLISH), key=len, reverse=True)
 
@@ -262,7 +262,7 @@ ATTACK = re.compile(r'^(\d+ (extra )?attacks?\b|can only (be )?use|cannot be use
 
 
 def ability(text, u, extra_keywords=()):
-    """Weapon/armour ability in a fixed order: attack-related text, then keywords (bold), then other rules.
+    """Weapon/armor ability in a fixed order: attack-related text, then keywords (bold), then other rules.
     The builder's 'Note: increased accuracy' style remarks are dropped."""
     attacks, kws, other = [], list(extra_keywords), []
     for sent in re.split(r'\.\s+', (text or '').strip().rstrip('.')):
