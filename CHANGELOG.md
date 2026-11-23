@@ -9,7 +9,7 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 ## 0.40.2 — 2026-11-22
 
 ### Surefooted (Woodland)
-- Added to Āṭavika (Mauryan Empire), Agriânes (Armies of Alexander), Šukur.Tur Kaška (Hittite Empire), Yāōnāmicqueh, Yāōminqueh and Yāōmotlatqueh (Aztec Empire), and Centeni and Jungōz (European Barbarians). Units that already had Surefooted (X) add Woodland to it. Points unchanged.
+- Added to Āṭavika (Mauryan Empire), Agriânes (Armies of Alexander), Šukur.Tur Kaška (Hittite Empire), Yāōnāmicqueh, Yāōminqueh and Yāōmotlatqueh (Aztec Empire), Centeni and Jungōz (European Barbarians), Ligurēs (Hannibal's Forces), and the Thracian Warriors and Đông Sơn Axemen mercenaries. Units that already had Surefooted (X) add Woodland to it. Points unchanged.
 
 ## 0.40.1 and Rulebook 0.3.11 — 2026-11-22
 

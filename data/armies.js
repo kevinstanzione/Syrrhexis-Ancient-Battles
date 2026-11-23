@@ -8337,7 +8337,7 @@ window.NHB_DATA = {
           ],
           "rules": [
             "Mercenary",
-            "Surefooted (Stony Plain)"
+            "Surefooted (Stony Plain, Woodland)"
           ],
           "custom": {
             "Hill-Bred": "This unit ignores the Move penalty of its Heavy Shield."
@@ -12215,7 +12215,7 @@ window.NHB_DATA = {
           }
         ],
         "rules": [
-          "Surefooted (Stony Plain)",
+          "Surefooted (Stony Plain, Woodland)",
           "Mercenary"
         ],
         "weapons": {
@@ -12442,7 +12442,7 @@ window.NHB_DATA = {
           }
         ],
         "rules": [
-          "Surefooted (Marsh)",
+          "Surefooted (Marsh, Woodland)",
           "Mercenary"
         ],
         "weapons": {
