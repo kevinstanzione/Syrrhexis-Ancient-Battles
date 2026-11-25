@@ -604,7 +604,7 @@ window.NHB_DATA = {
               "28”",
               "5",
               "4",
-              ""
+              "Wide Attack"
             ],
             "Gír": [
               "1",
@@ -2261,7 +2261,7 @@ window.NHB_DATA = {
               "24”",
               "5",
               "4",
-              "No movement penalty"
+              "Wide Attack. No movement penalty"
             ],
             "Gír": [
               "1",
@@ -3170,7 +3170,7 @@ window.NHB_DATA = {
               "28”",
               "5",
               "4",
-              "Can only Shoot in Open Order"
+              "Wide Attack"
             ],
             "Patru": [
               "1",
@@ -4632,7 +4632,7 @@ window.NHB_DATA = {
               "28”",
               "5",
               "4",
-              "Can only Shoot in Open Order"
+              "Wide Attack"
             ],
             "Akīnakah Kamna": [
               "1",
@@ -5893,7 +5893,7 @@ window.NHB_DATA = {
               "28”",
               "6",
               "4",
-              ""
+              "Wide Attack"
             ],
             "Encheirídion": [
               "1",
@@ -5974,7 +5974,7 @@ window.NHB_DATA = {
               "28”",
               "5",
               "4",
-              ""
+              "Wide Attack"
             ]
           }
         },
@@ -9411,7 +9411,7 @@ window.NHB_DATA = {
               "28”",
               "5",
               "4",
-              ""
+              "Wide Attack"
             ],
             "Kladiolos": [
               "1",
@@ -11296,7 +11296,7 @@ window.NHB_DATA = {
               "24”",
               "5",
               "3",
-              "On hit, increase the amount of Morale lost to Suppression from 1 to 2"
+              "Wide Attack. On hit, increase the amount of Morale lost to Suppression from 1 to 2"
             ],
             "Tlahhuītōlli": [
               "20”",
@@ -12412,7 +12412,7 @@ window.NHB_DATA = {
             "28”",
             "5",
             "4",
-            "Can only Shoot in Open Order"
+            "Wide Attack"
           ]
         }
       },
@@ -12526,19 +12526,19 @@ window.NHB_DATA = {
             "30”",
             "5",
             "4",
-            ""
+            "Wide Attack"
           ],
           "Funda Media": [
             "24”",
             "6",
             "4",
-            ""
+            "Wide Attack"
           ],
           "Funda Brevis": [
             "18”",
             "6",
             "5",
-            ""
+            "Wide Attack"
           ]
         }
       },

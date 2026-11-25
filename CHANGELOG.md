@@ -6,7 +6,10 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
-## 0.40.6 — 2026-11-24
+## 0.40.6 and Rulebook 0.3.13 — 2026-11-24
+
+### Rules
+- New weapon keyword **Wide Attack**: the weapon cannot make Shooting attacks while the unit is in Closed Order. Every sling now has it, replacing the old "Can only Shoot in Open Order" text on the Aspu, Fradaxšanā and Parsatik.
 
 ### Slinger review
 - **Kuš.Daluš** (Šukur.Tur Kaška, Hittite Empire): range 28” → 24”, and the weapon now has no movement penalty, like the Kaška javelins, to suit hill raiders who fire on the move.

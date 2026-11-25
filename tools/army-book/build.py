@@ -258,7 +258,7 @@ def special_rules(u):
 
 
 KEYWORDS = ['Cleaving Blade', 'Cumbersome', 'Direct Fire', 'Massive Suppression', 'Melee Suppression', 'Parrying Blade',
-            'Pavise', 'Piercing Shot', 'Reach', 'Recurve Bow', 'Sunder', 'Throwing Weapon', 'Thrusting Blade', 'Unwieldy']
+            'Pavise', 'Piercing Shot', 'Reach', 'Recurve Bow', 'Sunder', 'Throwing Weapon', 'Thrusting Blade', 'Unwieldy', 'Wide Attack']
 KW = re.compile(r'\b(' + '|'.join(KEYWORDS) + r')(?: \(\d+\))?')
 ATTACK = re.compile(r'^(\d+ (extra )?attacks?\b|can only (be )?use|cannot be used on charge|only while)', re.I)
 
