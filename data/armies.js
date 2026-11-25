@@ -1,8 +1,8 @@
 // Syrrhēxis army data. Edit the values below; keep the first line as is.
 window.NHB_DATA = {
   "meta": {
-    "version": "0.40.5",
-    "synced": "2026-10-22",
+    "version": "0.40.6",
+    "synced": "2026-11-24",
     "sources": {
       "Hittite Empire Army": "1aqMPs2Pi5car6pUzcuWmHXArGss_RZdkgATe5OsbVrw",
       "Achaemenid Persia Army": "1hdxpY5jUEu8OthLoyHbMcwjkEKV4eRC4tXijL7JVfDo",
@@ -2258,10 +2258,10 @@ window.NHB_DATA = {
               "Throwing Weapon"
             ],
             "Kuš.Daluš": [
-              "28”",
+              "24”",
               "5",
               "4",
-              ""
+              "No movement penalty"
             ],
             "Gír": [
               "1",
@@ -3162,7 +3162,9 @@ window.NHB_DATA = {
               ]
             }
           ],
-          "rules": [],
+          "rules": [
+            "Volley"
+          ],
           "weapons": {
             "Aspu": [
               "28”",
@@ -11291,13 +11293,13 @@ window.NHB_DATA = {
           ],
           "weapons": {
             "Tēmātlatl": [
-              "28”",
+              "24”",
               "5",
-              "4",
+              "3",
               "On hit, increase the amount of Morale lost to Suppression from 1 to 2"
             ],
             "Tlahhuītōlli": [
-              "24”",
+              "20”",
               "5",
               "4",
               "Direct Fire"

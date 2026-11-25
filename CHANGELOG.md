@@ -6,6 +6,14 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## 0.40.6 — 2026-11-24
+
+### Slinger review
+- **Kuš.Daluš** (Šukur.Tur Kaška, Hittite Empire): range 28” → 24”, and the weapon now has no movement penalty, like the Kaška javelins, to suit hill raiders who fire on the move.
+- **Kallāpū** (Neo-Assyrian Empire) gain **Volley** as a base rule, making them the army's barrage unit. Their Aspu still only shoots in Open Order, so they must leave their tray before using it. Points unchanged.
+- **Tēmātlatl** (Yāōminqueh, Aztec Empire): range 28” → 24”, Strength 4 → 3, keeping 2 Suppression per hit. **Tlahhuītōlli** bow: range 24” → 20”. Aztec missile fire is meant to rattle, not kill.
+- No changes to the Sumerian Lú-daluš, Takabārā, Greek Sphendónē, Gaisarioi Taballa, Carduchian Parsatik or Balearic slings.
+
 ## Army Book — 2026-11-23 (new army art)
 
 - Five more armies open with a portrait pencil illustration: an Egyptian chariot with Pḥrrw runners alongside, Neo-Assyrian archers behind a wicker pavise, Mauryan Dhanvin with bamboo longbows braced on the ground in the monsoon, Hannibal's Forces spearmen in the woods, and European Barbarians charging through the rain with a chariot behind. The first Assyrian version (with a fortress in the background) is kept as art/illustrations/assyria_pavise_alt.png.
