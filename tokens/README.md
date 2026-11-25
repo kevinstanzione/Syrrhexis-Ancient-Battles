@@ -13,3 +13,11 @@ Each tablet is 3 mm thick with a slightly uneven, hand-pressed edge. The label (
 How many to print: a unit carries at most -2 Accuracy and -2 Strength (Mass Casualties), and splitting a unit copies its tokens onto every new unit, so print generously, roughly one -1 and one -2 of each per unit in a large army. Training penalties come from the Army Morale table (-1 at Unease and Panic, -2 at Mass Panic).
 
 To regenerate: `pip install trimesh manifold3d matplotlib shapely`, then `python tokens/make_tokens.py`. The lettering uses Cinzel Bold from `tools/fonts`; the cracks are seeded, so each token comes out the same every build.
+
+## Initiative token
+
+One [Initiative token](stl/Initiative_Token.stl) marks the player who won the most recent Initiative roll. Pass it to the winner each round: the next round's Start of the Round, Reserves and Orders Phases go by that roll, and so does playing a Weather card. In a 2v2 game, use it for the player first in Initiative order.
+
+It is a struck medallion, 36 mm across and 3.4 mm thick, so it never gets mixed up with the Action coins or the clay Penalty tablets: a beaded rim, a raised eight-pointed sun-star and INITIATIVE in relief along the bottom, 3 mm letters ([preview](initiative_token_preview.png)). Print it in brass or gold filament, or paint it bronze and pick out the relief with a dark wash.
+
+To regenerate: `python tokens/make_initiative_token.py` (same packages as above).

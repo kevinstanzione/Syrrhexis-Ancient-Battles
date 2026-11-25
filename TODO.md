@@ -12,6 +12,9 @@ Done 2026-11-05: First Blood row, Strength table order, matching Armor Save tabl
 ## Tokens and templates
 - Penalty tokens done 2026-11-17 (tokens/): cracked clay tablets, stamped lettering, earthen colours (ochre, terracotta, umber), distinct shapes. Action tokens are fine as they are. Splitting a Unit copies the parent's tokens onto every new unit, so a set needs enough of each.
 - Corner Marker STL done 2026-11-17 (trays/make_corner_marker.py).
+- Initiative token done 2026-11-24 (tokens/make_initiative_token.py): 36 mm brass-style medallion with a sun-star.
+- Token keeper tray (STL): a small tray holding 3–4 tokens or dice to track a unit's wounds and tokens.
+- Snap-together trays: try a version of the movement trays with a friction bump (or similar) so the token keeper clips onto a unit's tray, maybe at the back right corner, and comes off again.
 
 ## Terrain bases (3D print)
 - Generator done: terrain/make_bases.py writes exact-size plates to terrain/stl (Monument 2x2", Watchtower 3x3", wall 8x1/2" or two 4" halves, Rolling Wagons 40x60mm, Flaming Pigs 20x20mm, ʾLpm oxen 25x50mm). Large terrain and Major Terrain use felt, so no bases.
@@ -57,7 +60,7 @@ Done 2026-11-05: First Blood row, Strength table order, matching Armor Save tabl
 - Names: logged in the names doc. Attested: Mḥnt (coin legend "the camp"), Mḥšbm ("the paymasters", coin legend), Ksp ("silver"), Ndr ("vow"), ʾlp ("ox"), Rb ("general"), Qrtḥdšt. ʿm Qrtḥdšt appears only in a restored line of KAI 303. Constructed from Hebrew/Aramaic cognates: Lbym, Qdšt, Pršm, Rmḥ, Ḥrb, Mʾklt, Kdn, Plm (low confidence: Aramaic pīlā, Akkadian pīru). Saunion is Greek (the Samnites' name may come from it).
 - Playtest pricing: Mḥnt Qdšt Retinue (22 × 8), Pršm hRb Retinue (22 × 4), Plm (75), Ligurēs (13, Heavy Shield with no Move penalty), Equitēs Gallī (24).
 - Watch: Mḥšbm with two retinues gives 2 extra mercenary units, plus 3 from Ksp Qrtḥdšt. Brq has no cap.
-- Done 2026-11-22: Phalanx Shield/Length 6 negation removed (rulebook 0.3.10); terrain and Half Strength / under 6 models negation kept. Still to do: an Initiative token.
+- Done 2026-11-22: Phalanx Shield/Length 6 negation removed (rulebook 0.3.10); terrain and Half Strength / under 6 models negation kept.
 
 ## King of Kings rework (Persia)
 - Done 0.35.0: rework complete. 2 units from 8 options: Arabian Camel Riders, Greek Hoplites, Scythian Archers, Cretan Archers (Supplemental Mercenaries) and Pḏtyw, Mnfꜣt, Provincial Levy, Hastin (borrowed lists). Units taken this way gain Mercenary.
