@@ -69,6 +69,17 @@ Done 2026-11-05: First Blood row, Strength table order, matching Armor Save tabl
 ## Playtest watch (Unwieldy)
 - 0.33.0: Open Order Unwieldy now also gives -X Accuracy when the unit moved or turned that activation. No compensation for anyone (Carduchian bow stays Accuracy 5). Watch the Kush Pḏtyw and Šmsw Retinue, the Pródromoi and the Carduchians.
 
+## Weapon-ability Command cards (drafted 2026-11-24, names and flavor still to do)
+Generic, Limit 2 each. Each targets 2 friendly units within 3” of each other that use the keyword weapon; proximity is checked only when the card is played. Two units of the same profile are a valid pair. A weapon's ability only works while it is the selected weapon (existing rule). Shooting cards are played in the Activation Phase, Melee cards at the start of the Combat Phase; effects last until the end of the round.
+
+- **Cleaving Blade** (Combat Phase): while a chosen unit has a Charge token, its Cleaving Blade attacks gain +1 Accuracy against enemies with Armor 1 or less.
+- **Parrying Blade** (Combat Phase): while a chosen unit has a Hold token, place a die on this card for each successful Armor Save it makes in Melee, up to 1 per model in its front rank (track each unit separately). Saves made before the unit strikes add that many attacks to its Parrying Blade strike, at its own Length. Saves made after it strike once more at the end of the Melee, alongside Collision. These attacks use the Parrying Blade's profile.
+- **Thrusting Blade** (Combat Phase): while a chosen unit has a Charge token, its Thrusting Blade gains +2 Length.
+- **Direct Fire** (Activation Phase): Shooting attacks with the chosen units' Direct Fire weapons gain +1 Accuracy against units that include a Lord, Commander, Army Standard Bearer, Army Musician, Standard Bearer or Musician.
+- **Wide Attack** (Activation Phase): Shooting attacks with the chosen units' Wide Attack weapons gain Sunder (2) against targets at Close Range.
+- **Reach** (Combat Phase): while a chosen unit has a Hold token, it gains +1 Armor against Melee attacks, but only its front rank attacks with its Reach weapon; its other full ranks add Collision Hits as normal.
+- **Throwing Weapon** (Activation Phase): if a chosen unit takes the Hold action, it may use Volley with its Throwing Weapon (Volley's -1 Accuracy and -1 Strength still apply), and each Hit from its Throwing Weapon Shooting attacks causes +1 Suppression.
+
 ## Maybe
 
 ## Future army notes
