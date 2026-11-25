@@ -3120,7 +3120,7 @@ window.NHB_DATA = {
           "desc": "armored slingers",
           "move": 7,
           "training": 5,
-          "points": 11,
+          "points": 12,
           "comps": [
             [
               3,
@@ -11232,7 +11232,7 @@ window.NHB_DATA = {
           "desc": "archers and slingers",
           "move": 7,
           "training": 5,
-          "points": 10,
+          "points": 9,
           "range": [
             10,
             15

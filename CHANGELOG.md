@@ -13,8 +13,8 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 
 ### Slinger review
 - **Kuš.Daluš** (Šukur.Tur Kaška, Hittite Empire): range 28” → 24”, and the weapon now has no movement penalty, like the Kaška javelins, to suit hill raiders who fire on the move.
-- **Kallāpū** (Neo-Assyrian Empire) gain **Volley** as a base rule, making them the army's barrage unit. Their Aspu still only shoots in Open Order, so they must leave their tray before using it. Points unchanged.
-- **Tēmātlatl** (Yāōminqueh, Aztec Empire): range 28” → 24”, Strength 4 → 3, keeping 2 Suppression per hit. **Tlahhuītōlli** bow: range 24” → 20”. Aztec missile fire is meant to rattle, not kill.
+- **Kallāpū** (Neo-Assyrian Empire) gain **Volley** as a base rule, making them the army's barrage unit: 11 → 12 pts per model. Their Aspu still only shoots in Open Order, so they must leave their tray before using it.
+- **Tēmātlatl** (Yāōminqueh, Aztec Empire): range 28” → 24”, Strength 4 → 3, keeping 2 Suppression per hit. **Tlahhuītōlli** bow: range 24” → 20”. Aztec missile fire is meant to rattle, not kill. Yāōminqueh 10 → 9 pts per model.
 - No changes to the Sumerian Lú-daluš, Takabārā, Greek Sphendónē, Gaisarioi Taballa, Carduchian Parsatik or Balearic slings.
 
 ## Army Book — 2026-11-23 (new army art)
