@@ -33,11 +33,11 @@ Done 2026-11-05: First Blood row, Strength table order, matching Armor Save tabl
 
 ## Kingdom of Kush
 - Built in 0.28.0 (9 units, 5 Command cards). Playtest pricing, especially the Šmsw Retinue (15, Training 7), Wrrywt (45) and the Horses of Kush Army Morale.
-- Names are Egyptian and some are constructed (Ssmtyw from ssmt "horse"); add them to the Reconstructed and Constructed Names doc. Mḏꜣyw (Medjay) is a slightly late term, kept on purpose. Kush names checked and logged in the Reconstructed Names Reference doc on 2026-11-13; Wrrt → Wrrywt in 0.31.3.
+- Names are Egyptian and some are constructed (Ssmtyw from ssmt "horse"); logged in the names doc. Mḏꜣyw (Medjay) is a slightly late term, kept on purpose. Kush names checked and logged in the Reconstructed Names Reference doc on 2026-11-13; Wrrt → Wrrywt in 0.31.3.
 
 ## Dynastic Egypt
 - Built in 0.29.0 (9 units, New Kingdom c. 1550–1070 BC); 5 Command cards in 0.30.0 (Amun My Father, The Aruna Road, Shoot in Ranks, Snapping the Nine Bows, Trumpets of the Divisions).
-- Names checked 2026-11-13 (0.31.2) and logged in the Reconstructed Names Reference doc: Snnw → Snnyw, Ḫrp → Ḥrp (AED: ḥrp "dagger; short sword", Semitic loan; note it is a short sword in the dictionary), mace-axe → Ỉqḥw (jqḥw "battle axe"), Nsjwt → Nsỉwt (Wb 2, 324.17 nswt, variant nsjwt). ꜥb confirmed as the technical term for the composite bow. Styw kept on purpose (constructed from stj "to shoot"; the Nubians are Stjw, with j). Checked 2026-11-17 against the TLA word list (aed-tei dictionary.xml): mnfꜣ.t "infantry" (Wb 2, 80.1-5), nḫt-ꜥ "strong one" (FCD 138), nfr.w "recruits" (Wb 2, 258.1-3), pḥrr "runner" (Wb 1, 541.14-18), bꜣgs.w "dagger" (Wb 1, 432.4-5), mjnb "axe" (Wb 2, 44.7-8), pr-ꜥꜣ "palace; pharaoh" (Wb 1, 516.2-12). All fine; add them to the names doc. The names doc has no Kush section yet beyond the old Kushite Archers entries.
+- Names checked 2026-11-13 (0.31.2) and logged in the Reconstructed Names Reference doc: Snnw → Snnyw, Ḫrp → Ḥrp (AED: ḥrp "dagger; short sword", Semitic loan; note it is a short sword in the dictionary), mace-axe → Ỉqḥw (jqḥw "battle axe"), Nsjwt → Nsỉwt (Wb 2, 324.17 nswt, variant nsjwt). ꜥb confirmed as the technical term for the composite bow. Styw kept on purpose (constructed from stj "to shoot"; the Nubians are Stjw, with j). Checked 2026-11-17 against the TLA word list (aed-tei dictionary.xml): mnfꜣ.t "infantry" (Wb 2, 80.1-5), nḫt-ꜥ "strong one" (FCD 138), nfr.w "recruits" (Wb 2, 258.1-3), pḥrr "runner" (Wb 1, 541.14-18), bꜣgs.w "dagger" (Wb 1, 432.4-5), mjnb "axe" (Wb 2, 44.7-8), pr-ꜥꜣ "palace; pharaoh" (Wb 1, 516.2-12). All fine; logged in the names doc (Kush has its own Napatan section).
 - King of Kings: Mnfꜣt stand in for the Egyptians (added 0.33.0).
 - Playtest pricing: Snnw (45), Pr-ꜥꜣ Retinue (55 × 3 chariots, discounted retinue characters), Šrdn (16).
 
@@ -46,20 +46,17 @@ Done 2026-11-05: First Blood row, Strength table order, matching Armor Save tabl
 - Idea for later: Ptolemaic African forest elephants (smaller, Elephant Strength 7, cheaper). Conflicts with the no-negative-cost rule, so it would need its own profile.
 
 ## Neo-Assyrian Empire (added 0.34.0)
-- Names done 0.38.0 (Akkadian; checked against Dezső, The Assyrian Army, and the CAD where possible). Log in the names doc. Attested: Qurādu, kiṣir šarrūti, ša šēpē, ṣāb šarri, Itu'ayu, kallāpu ('light troops'), ša pētḫalli, narkabtu, mugerru, asmarû, ariktu, namṣaru, patru, qaštu, aspu (sling, Landsberger 1957), siriam/sariam, kabābu, adê, abūbu. Constructed or loose: Ṣāb Qašti (phrase), Mugerri Šarri (phrase), Qaštu Itu'ayītu, Kakku (generic 'weapon'), Ḫuṭāru ('staff'), Tappû (not checked in a dictionary).
+- Names done 0.38.0 (Akkadian; checked against Dezső, The Assyrian Army, and the CAD where possible). Logged in the names doc. Attested: Qurādu, kiṣir šarrūti, ša šēpē, ṣāb šarri, Itu'ayu, kallāpu ('light troops'), ša pētḫalli, narkabtu, mugerru, asmarû, ariktu, namṣaru, patru, qaštu, aspu (sling, Landsberger 1957), siriam/sariam, kabābu, adê, abūbu. Constructed or loose: Ṣāb Qašti (phrase), Mugerri Šarri (phrase), Qaštu Itu'ayītu, Kakku (generic 'weapon'), Ḫuṭāru ('staff'), Tappû (not checked in a dictionary).
 - Playtest: Gurrāyū (12, Enforcers) added 0.38.0.
 - Points to watch: the Royal Spearmen (17) and Royal Spearmen Retinue (16) must take a Lead Captain, so check whole-unit costs.
-- Army opener art still needed (see Art spreads).
 
 ## Mauryan Empire (added 0.35.0)
 - Playtest pricing: Maula Retinue (15 × 10 models), Ratha (70), Hastin (95), Rājahastin Retinue (120 with paired characters).
-- Army opener art still needed.
 
 ## Hannibal’s Forces (added 0.36.0)
-- Names: log the Punic names in the Reconstructed and Constructed Names doc. Attested: Mḥnt (coin legend "the camp"), Mḥšbm ("the paymasters", coin legend), Ksp ("silver"), Ndr ("vow"), ʾlp ("ox"), Rb ("general"), Qrtḥdšt. ʿm Qrtḥdšt appears only in a restored line of KAI 303. Constructed from Hebrew/Aramaic cognates: Lbym, Qdšt, Pršm, Rmḥ, Ḥrb, Mʾklt, Kdn, Plm (low confidence: Aramaic pīlā, Akkadian pīru). Saunion is Greek (the Samnites' name may come from it).
+- Names: logged in the names doc. Attested: Mḥnt (coin legend "the camp"), Mḥšbm ("the paymasters", coin legend), Ksp ("silver"), Ndr ("vow"), ʾlp ("ox"), Rb ("general"), Qrtḥdšt. ʿm Qrtḥdšt appears only in a restored line of KAI 303. Constructed from Hebrew/Aramaic cognates: Lbym, Qdšt, Pršm, Rmḥ, Ḥrb, Mʾklt, Kdn, Plm (low confidence: Aramaic pīlā, Akkadian pīru). Saunion is Greek (the Samnites' name may come from it).
 - Playtest pricing: Mḥnt Qdšt Retinue (22 × 8), Pršm hRb Retinue (22 × 4), Plm (75), Ligurēs (13, Heavy Shield with no Move penalty), Equitēs Gallī (24).
 - Watch: Mḥšbm with two retinues gives 2 extra mercenary units, plus 3 from Ksp Qrtḥdšt. Brq has no cap.
-- Army opener art still needed.
 - Done 2026-11-22: Phalanx Shield/Length 6 negation removed (rulebook 0.3.10); terrain and Half Strength / under 6 models negation kept. Still to do: an Initiative token.
 
 ## King of Kings rework (Persia)
@@ -76,7 +73,6 @@ Done 2026-11-05: First Blood row, Strength table order, matching Armor Save tabl
 
 ## Future army notes
 - Done 0.37.0: **Backstabbers** went to the Sea People Raiders (1 Break Token, 14 pts) instead of Hannibal's Forces.
-- **European Barbarians — Flanker** (needs a better name): +1 Accuracy while in combat alongside at least one other friendly unit. Always-on infantry rule for warbands.
 - **Qin China — two Army Musicians** (idea, 2026-11-18; drums to advance, gongs to halt, per Sunzi): a Qin retinue rule letting the army take up to 2 Army Musicians. Still to work out how two would interact, since an Army Musician swaps every unit's Hold/Charge tokens at once. One option: with two, each affects only units within 18” of it, so one can drum an advance while the other gongs a halt.
 
 ## Siege expansion (future)
@@ -98,7 +94,7 @@ Done 2026-11-05: First Blood row, Strength table order, matching Armor Save tabl
 - Rulebook spot art (done, 0.3.4): cataphract (Charge Movement), Cretan archer (Shooting), Iberian (Melee Hits), centurion (Commander), Aztec conch player (Musician), Persian standard bearer (Standard Bearer). Square, no background, torn edge without a corner, full column width.
 - Next rulebook spot art, for the Special Rules chapter: Carduchian Tribesmen (tall Aġeġn bow; place by Unwieldy (X) or Surefooted) and Thracian Warriors (two-handed rhomphaia; place by Sunder (X)). Prompts not written yet.
 - More mercenary spot art ideas for Special Rules: Sea People Raiders by Ambush (leaping from beached ships, Medinet Habu look), Numidian Javelineers by Feign Retreat, Galatian Warriors by Frenzy. Balearic Slingers could go in Unit Types (Skirmishing Warriors).
-- Army opener art for the 6 remaining armies (Egypt, Assyria, Mauryan, Qin, Hannibal's Forces, European Barbarians): make at least 3 of them portrait rather than landscape, so the Army Book openers don't all look uniform (Rome's testudo and the Kush archers are portrait so far). Portrait openers sit at the top of the first text column.
+- Army openers done for every built army (Egypt, Assyria, Mauryan, Hannibal's Forces and European Barbarians added 2026-11-23). Qin China still needs one once its list is built; portrait openers sit at the top of the first text column.
 - Deployment section: a wide piece of the Persian army forming up with King of Kings contingents side by side (e.g. Greek hoplite, Arabian camel rider, Scythian horse archer, with a Persian officer directing). Ambitious: keep to 3 or 4 large figures. Landscape, spanning the full page width in the rulebook (not a square column spot).
 - Unit Types chapter (Warmachines section): Roman carroballista spot art, after Trajan's Column (mule cart with a bolt thrower and two crew).
 - Spears spread done: art/spears/ (21 images, build_spread.py, spears_spread.png/.pdf). Placement in the rulebook still to decide.
