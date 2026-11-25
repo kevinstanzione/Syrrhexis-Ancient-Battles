@@ -10,7 +10,7 @@
 Done 2026-11-05: First Blood row, Strength table order, matching Armor Save tables; Walls diagram, Who Attacks Collision labels, Break Tokens visual, Scout and Ambush label; Aim and the Shooting Modifiers rework, "see X" links, Evasion flavour, Unwieldy styling, Activation Phase bold, End of the Round placement, Cohesion note, Stony Plain Strength 6, and the diagram fixes (Battlefield, Turning, Charge Arcs, Path and Bumping, Charge Fails, both Pile In, Firing Angle).
 
 ## Tokens and templates
-- Penalty tokens done 2026-11-17 (tokens/): cracked clay tablets, stamped lettering, earthen colours (ochre, terracotta, umber), distinct shapes. Action tokens are to look like metal coins. Splitting a Unit copies the parent's tokens onto every new unit, so a set needs enough of each.
+- Penalty tokens done 2026-11-17 (tokens/): cracked clay tablets, stamped lettering, earthen colours (ochre, terracotta, umber), distinct shapes. Action tokens are fine as they are. Splitting a Unit copies the parent's tokens onto every new unit, so a set needs enough of each.
 - Corner Marker STL done 2026-11-17 (trays/make_corner_marker.py).
 
 ## Terrain bases (3D print)
@@ -69,7 +69,7 @@ Done 2026-11-05: First Blood row, Strength table order, matching Armor Save tabl
 ## Playtest watch (Unwieldy)
 - 0.33.0: Open Order Unwieldy now also gives -X Accuracy when the unit moved or turned that activation. No compensation for anyone (Carduchian bow stays Accuracy 5). Watch the Kush Pḏtyw and Šmsw Retinue, the Pródromoi and the Carduchians.
 
-## Weapon-ability Command cards (drafted 2026-11-24, names and flavor still to do)
+## Weapon-ability Command cards (built in 0.41.0 with working names: Cut Them Down, Riposte, Close the Distance, Mark the Officers, Bruising Stones, Set the Spears, Storm of Javelins; final names and flavor still to review)
 Generic, Limit 2 each. Each targets 2 friendly units within 3” of each other that use the keyword weapon; proximity is checked only when the card is played. Two units of the same profile are a valid pair. A weapon's ability only works while it is the selected weapon (existing rule). Shooting cards are played in the Activation Phase, Melee cards at the start of the Combat Phase; effects last until the end of the round.
 
 - **Cleaving Blade** (Combat Phase): while a chosen unit has a Charge token, its Cleaving Blade attacks gain +1 Accuracy against enemies with Armor 1 or less.
@@ -78,6 +78,7 @@ Generic, Limit 2 each. Each targets 2 friendly units within 3” of each other t
 - **Direct Fire** (Activation Phase): Shooting attacks with the chosen units' Direct Fire weapons gain +1 Accuracy against units that include a Lord, Commander, Army Standard Bearer, Army Musician, Standard Bearer or Musician.
 - **Wide Attack** (Activation Phase): Shooting attacks with the chosen units' Wide Attack weapons gain Sunder (2) against targets at Close Range.
 - **Reach** (Combat Phase): while a chosen unit has a Hold token, it gains +1 Armor against Melee attacks, but only its front rank attacks with its Reach weapon; its other full ranks add Collision Hits as normal.
+- Open: add Tactician to Mark the Officers' targets once Qin units carry it.
 - **Throwing Weapon** (Activation Phase): if a chosen unit takes the Hold action, it may use Volley with its Throwing Weapon (Volley's -1 Accuracy and -1 Strength still apply), and each Hit from its Throwing Weapon Shooting attacks causes +1 Suppression.
 
 ## Maybe

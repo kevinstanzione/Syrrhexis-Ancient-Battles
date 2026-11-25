@@ -1,7 +1,7 @@
 // Syrrhēxis army data. Edit the values below; keep the first line as is.
 window.NHB_DATA = {
   "meta": {
-    "version": "0.40.6",
+    "version": "0.41.0",
     "synced": "2026-11-24",
     "sources": {
       "Hittite Empire Army": "1aqMPs2Pi5car6pUzcuWmHXArGss_RZdkgATe5OsbVrw",
@@ -13562,6 +13562,62 @@ window.NHB_DATA = {
       "limit": 1,
       "text": "Ongoing. Requires your Army Musician's unit to be on the battlefield and not Fleeing. Enemy Commander and Musician Special Moves cannot be made by units within 12” of your Army Musician's unit. Discard this card when your Army Musician's unit becomes Locked in Combat.",
       "flavor": "No order can be heard over the roar of the horns."
+    },
+    {
+      "id": "cut-them-down",
+      "name": "Cut Them Down",
+      "short": "2 Cleaving Blade units: +1 Accuracy on a Charge vs Armor 1 or less",
+      "limit": 2,
+      "text": "Play at the start of the Combat Phase. Choose 2 friendly units within 3” of each other that use a Cleaving Blade weapon. Until the end of the round, while a chosen unit has a Charge Action Token, its Cleaving Blade attacks gain +1 Accuracy against enemy units with Armor 1 or less.",
+      "flavor": "Against bare skin and wicker, a heavy blade does not need finesse."
+    },
+    {
+      "id": "riposte",
+      "name": "Riposte",
+      "short": "2 Parrying Blade units strike back for each save on Hold",
+      "limit": 2,
+      "text": "Play at the start of the Combat Phase. Choose 2 friendly units within 3” of each other that use a Parrying Blade weapon. Until the end of the round, while a chosen unit has a Hold Action Token, place a die on this card for each successful Armor Save it makes in Melee, up to 1 per model in its front rank (track each unit separately). Saves made before the unit strikes add that many attacks to its Parrying Blade strike, at its own Length. Saves made after it strike once more at the end of the Melee, alongside Collision Hits. These attacks use the Parrying Blade's profile.",
+      "flavor": "Turn the blow, then answer it."
+    },
+    {
+      "id": "close-the-distance",
+      "name": "Close the Distance",
+      "short": "2 Thrusting Blade units: +2 Length on a Charge",
+      "limit": 2,
+      "text": "Play at the start of the Combat Phase. Choose 2 friendly units within 3” of each other that use a Thrusting Blade weapon. Until the end of the round, while a chosen unit has a Charge Action Token, its Thrusting Blade weapon gains +2 Length.",
+      "flavor": "Get inside the spear points, and the short sword does the rest."
+    },
+    {
+      "id": "mark-the-officers",
+      "name": "Mark the Officers",
+      "short": "2 Direct Fire units: +1 Accuracy vs units with leaders",
+      "limit": 2,
+      "text": "Play during the Activation Phase. Choose 2 friendly units within 3” of each other that use a Direct Fire weapon. Until the end of the round, their Shooting attacks with Direct Fire weapons gain +1 Accuracy against enemy units that include a Lord, Commander, Army Standard Bearer, Army Musician, Standard Bearer or Musician.",
+      "flavor": "Aim for the crest and the standard. The rest will follow."
+    },
+    {
+      "id": "bruising-stones",
+      "name": "Bruising Stones",
+      "short": "2 Wide Attack units: Sunder (2) at Close Range",
+      "limit": 2,
+      "text": "Play during the Activation Phase. Choose 2 friendly units within 3” of each other that use a Wide Attack weapon. Until the end of the round, their Shooting attacks with Wide Attack weapons gain Sunder (2) against targets at Close Range.",
+      "flavor": "A sling stone does not need to pierce bronze to break the bone beneath it."
+    },
+    {
+      "id": "set-the-spears",
+      "name": "Set the Spears",
+      "short": "2 Reach units on Hold: +1 Armor in Melee, rear ranks push",
+      "limit": 2,
+      "text": "Play at the start of the Combat Phase. Choose 2 friendly units within 3” of each other that use a Reach weapon. Until the end of the round, while a chosen unit has a Hold Action Token, it gains +1 Armor against Melee attacks, but only its front rank attacks with its Reach weapon; its other full ranks add Collision Hits as normal.",
+      "flavor": "Points low, feet set, shoulders to the backs of the men in front."
+    },
+    {
+      "id": "storm-of-javelins",
+      "name": "Storm of Javelins",
+      "short": "2 Throwing Weapon units on Hold: Volley and +1 Suppression",
+      "limit": 2,
+      "text": "Play during the Activation Phase. Choose 2 friendly units within 3” of each other that use a Throwing Weapon. Until the end of the round, if a chosen unit takes the Hold action, it may use Volley with its Throwing Weapon, and each Hit from its Throwing Weapon Shooting attacks causes +1 Suppression.",
+      "flavor": "Not one throw but a hundred, all at once, from men who have waited for the order."
     },
     {
       "id": "change-of-orders",

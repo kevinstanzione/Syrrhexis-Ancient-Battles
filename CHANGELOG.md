@@ -6,6 +6,18 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## 0.41.0 — 2026-11-24
+
+### Generic Command cards
+Seven new weapon-ability cards, Limit 2 each. Each affects 2 friendly units within 3” of each other (checked when played) that use a weapon with the named rule; two units of the same profile count. Names are working names.
+- **Cut Them Down** (Cleaving Blade): +1 Accuracy on a Charge against enemies with Armor 1 or less.
+- **Riposte** (Parrying Blade): on Hold, each successful Armor Save, up to 1 per front-rank model, becomes an extra attack.
+- **Close the Distance** (Thrusting Blade): +2 Length on a Charge.
+- **Mark the Officers** (Direct Fire): +1 Accuracy against units with a Lord, Commander, Army Standard Bearer, Army Musician, Standard Bearer or Musician.
+- **Bruising Stones** (Wide Attack): Sunder (2) at Close Range.
+- **Set the Spears** (Reach): on Hold, +1 Armor in Melee, but only the front rank uses the Reach weapon and the other ranks push (Collision).
+- **Storm of Javelins** (Throwing Weapon): on Hold, Volley with the Throwing Weapon and +1 Suppression per Hit.
+
 ## 0.40.6 and Rulebook 0.3.13 — 2026-11-24
 
 ### Rules
