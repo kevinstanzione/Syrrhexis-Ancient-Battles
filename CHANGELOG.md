@@ -6,6 +6,20 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## 0.46.2 — 2026-11-27
+
+Repricing after Momentum became a charge bonus only (0.46.1). A move-and-throw volley lost about one wound die; throws with a Hold token are unchanged. Units whose main job is moving and throwing javelins come down a little; units where the javelin is a free swap, shock cavalry, and cheap javelin options stay as they are.
+
+- Tarantînoi 20 → 19 pts.
+- Numidian Javelineers 21 → 20 pts.
+- Aśvāroha 17 → 16 pts.
+- Ssmtyw 18 → 17 pts.
+- Equitēs Hispānī 19 → 18 pts.
+- Marhōz 19 → 18 pts.
+- Gigir 50 → 48 pts.
+- Gigir-tur 33 → 32 pts.
+- Raθā-Dāça: driver's Aršti throwing spear +5 → +4 pts.
+
 ## 0.46.1 and Rulebook 0.3.20 — 2026-11-27
 
 Fixes from a full read-through of the rulebook.

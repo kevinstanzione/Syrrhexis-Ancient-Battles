@@ -1,7 +1,7 @@
 // Syrrhēxis army data. Edit the values below; keep the first line as is.
 window.NHB_DATA = {
   "meta": {
-    "version": "0.46.1",
+    "version": "0.46.2",
     "synced": "2026-11-27",
     "sources": {
       "Hittite Empire Army": "1aqMPs2Pi5car6pUzcuWmHXArGss_RZdkgATe5OsbVrw",
@@ -627,7 +627,7 @@ window.NHB_DATA = {
           "desc": "four-wheeled battle wagons",
           "move": 8,
           "training": 5,
-          "points": 50,
+          "points": 48,
           "comps": [
             [
               1,
@@ -693,7 +693,7 @@ window.NHB_DATA = {
           "desc": "light two-wheeled straddle cars",
           "move": 11,
           "training": 4,
-          "points": 33,
+          "points": 32,
           "comps": [
             [
               1,
@@ -4062,7 +4062,7 @@ window.NHB_DATA = {
           "desc": "javelin-armed horsemen",
           "move": 12,
           "training": 5,
-          "points": 18,
+          "points": 17,
           "comps": [
             [
               2,
@@ -5433,7 +5433,7 @@ window.NHB_DATA = {
               "w": [
                 "Aršti"
               ],
-              "c": 5
+              "c": 4
             }
           ],
           "chars": [],
@@ -6962,7 +6962,7 @@ window.NHB_DATA = {
           "desc": "javelin horsemen",
           "move": 14,
           "training": 5,
-          "points": 20,
+          "points": 19,
           "range": [
             5,
             8
@@ -8408,7 +8408,7 @@ window.NHB_DATA = {
           "desc": "javelin horsemen",
           "move": 12,
           "training": 5,
-          "points": 17,
+          "points": 16,
           "comps": [
             [
               2,
@@ -9493,7 +9493,7 @@ window.NHB_DATA = {
           "desc": "Iberian light horse",
           "move": 12,
           "training": 6,
-          "points": 19,
+          "points": 18,
           "comps": [
             [
               2,
@@ -10523,7 +10523,7 @@ window.NHB_DATA = {
           "desc": "Germanic cavalry",
           "move": 11,
           "training": 6,
-          "points": 19,
+          "points": 18,
           "comps": [
             [
               2,
@@ -13784,7 +13784,7 @@ window.NHB_DATA = {
         "type": "Skirmishing Cavalry",
         "move": 14,
         "training": 5,
-        "points": 21,
+        "points": 20,
         "range": [
           5,
           8
