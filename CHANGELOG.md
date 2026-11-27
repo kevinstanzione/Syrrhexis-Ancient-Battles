@@ -6,6 +6,17 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## 0.42.0 — 2026-11-27
+
+### Weapon rules
+- New keywords: **Braced Shot** (-1 additional Accuracy if the unit moved or turned this activation; crossbows) and **Hooking** (Cavalry, Light Cavalry, Skirmishing Cavalry and Chariot units roll Armor Saves at -1 against the weapon; dagger-axes). Rulebook 0.3.15.
+
+### Supplemental Mercenaries
+- Đông Sơn Axemen are now a Mixed Unit: up to half the models (rounded down) may replace their Rìu Xéo with any combination of Qua (dagger-axe, 7 / 4 / 5, Hooking; free) and Nỏ (crossbow, 20” / 5 / 5, Direct Fire, Sunder (1), Braced Shot; +2 pts per model).
+
+### Builder
+- Swap options can share a capped pool (e.g. half the unit); the builder warns when it's exceeded.
+
 ## 0.41.2 — 2026-11-27
 
 ### Mauryan Empire

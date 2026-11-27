@@ -84,7 +84,7 @@ window.NHB = (function () {
     // Mixed Units: some models take an option. Cost is per model taking it; the unit's
     // armor uses the most common save, so a shield counts only if most models carry it.
     const n = models(u, sel);
-    let countCost = 0; const mixed = []; const groupUse = {};
+    let countCost = 0; const mixed = []; const groupUse = {}; const groupCap = {};
     opts.forEach((o, i) => {
       if (o.kind !== "count") return;
       const k = Math.max(0, Math.min(n, (sel.counts && sel.counts[i]) || 0));
@@ -92,6 +92,7 @@ window.NHB = (function () {
       countCost += k * (o.c || 0);
       mixed.push({ label: o.label, n: k });
       if (o.group) groupUse[o.group] = (groupUse[o.group] || 0) + k;
+      if (o.group && o.groupCap) groupCap[o.group] = Math.floor(n * o.groupCap);
       if (o.w) o.w.forEach(w => { if (!weapons.includes(w)) weapons.push(w); });
       if (o.shield && k * 2 > n) shield = o.shield;
     });
@@ -101,7 +102,7 @@ window.NHB = (function () {
       if (used >= n) weapons = weapons.filter(w => w !== o.replaces);
     });
     const gear = (gearOverride || u.gear || []).filter(g => !weapons.includes(g));
-    return { weapons, gear, shield, body, barding, crewPlus, perModel, disabled, countCost, mixed, groupUse, dropRules };
+    return { weapons, gear, shield, body, barding, crewPlus, perModel, disabled, countCost, mixed, groupUse, groupCap, dropRules };
   }
 
   function armorDef(u, name) {
@@ -271,7 +272,7 @@ window.NHB = (function () {
       if (g.req && !(sel.chars && sel.chars[i])) w.push(`Must take ${g.one.map(o => o[0]).join(" or ")}`);
     });
     const lo = loadout(u, sel), n = models(u, sel);
-    Object.entries(lo.groupUse || {}).forEach(([g, k]) => { if (k > n) w.push(`Only ${n} models can swap weapons (${k} chosen)`); });
+    Object.entries(lo.groupUse || {}).forEach(([g, k]) => { const cap = (lo.groupCap || {})[g] ?? n; if (k > cap) w.push(cap < n ? `Only ${cap} models (half the unit) can swap weapons (${k} chosen)` : `Only ${n} models can swap weapons (${k} chosen)`); });
     return w;
   }
 

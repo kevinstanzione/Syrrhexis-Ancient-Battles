@@ -223,6 +223,12 @@ def options(u):
             elif alts:
                 out.append(lead + cap(f"replace {ital(ch[0]['name'], u)} with {join_or(alts)}"))
             out += extra
+        elif k == 'count' and o.get('groupCap'):
+            grp = [x for x in u['opts'] if x.get('kind') == 'count' and x.get('group') == o.get('group')]
+            if o is grp[0]:
+                parts = [f"{ital(x['w'][0], u)} {per_model(x['c'], u)}" for x in grp]
+                combo = ' and '.join(parts) if len(parts) < 3 else ', '.join(parts[:-1]) + ' and ' + parts[-1]
+                out.append(f"Up to half the models (rounded down) may replace their {ital(o['replaces'], u)} with any combination of {combo}")
         elif k == 'count':
             out.append(f"Any model may take {ital(o['label'], u)} {per_model(o['c'], u)}")
         elif k == 'add':

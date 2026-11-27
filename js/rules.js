@@ -31,9 +31,11 @@ window.NHB_RULES = {
     "Volley": "If the unit takes the Hold action, it may use Volley: its Shooting attacks this round have their range increased by half, at -1 Accuracy and -1 Strength. Friendly units do not prevent it from shooting, and Cover against its attacks is one step lighter (Heavy → Cover → Light → none). Cannot be used in the same round as Aim."
   },
   weapon: {
+    "Braced Shot": "-1 additional Accuracy if the unit moved or turned this activation.",
     "Cleaving Blade (X)": "+2 Strength unless the target's Armor Value is X or greater. Always +2 Strength against Elephants.",
     "Cumbersome": "Against a unit whose Evasion applies, this weapon suffers an additional -1 Accuracy. This stacks with Evasion and with any effects that increase it.",
     "Direct Fire": "+1 Strength against targets within a quarter of the printed range.",
+    "Hooking": "Cavalry, Light Cavalry, Skirmishing Cavalry and Chariot units roll Armor Saves at -1 against attacks with this weapon.",
     "Massive Suppression (X)": "Each Hit causes X Army Morale loss from Suppression instead of 1.",
     "Melee Suppression": "Each Hit with this weapon in Melee costs the defending player 1 Army Morale from Suppression, just as a Shooting Hit does. Effects that increase, reduce or negate Suppression also apply.",
     "Parrying Blade": "+1 Armor in Melee while the unit has a Hold Action Token.",
@@ -48,8 +50,8 @@ window.NHB_RULES = {
     "Wide Attack": "Needs room to swing: cannot make Shooting attacks while the unit is in Closed Order."
   },
   weaponPatterns: [
-    [/Cleaving Blade/, "Cleaving Blade (X)"], [/Cumbersome/, "Cumbersome"], [/Direct Fire/, "Direct Fire"], [/Massive Suppression/, "Massive Suppression (X)"],
-    [/Melee Suppression/, "Melee Suppression"], [/Parrying Blade/, "Parrying Blade"], [/Pavise/, "Pavise"], [/Piercing Shot/, "Piercing Shot (X)"], [/Reach \(/, "Reach (X)"],
+    [/Braced Shot/, "Braced Shot"], [/Cleaving Blade/, "Cleaving Blade (X)"], [/Cumbersome/, "Cumbersome"], [/Direct Fire/, "Direct Fire"], [/Massive Suppression/, "Massive Suppression (X)"],
+    [/Hooking/, "Hooking"], [/Melee Suppression/, "Melee Suppression"], [/Parrying Blade/, "Parrying Blade"], [/Pavise/, "Pavise"], [/Piercing Shot/, "Piercing Shot (X)"], [/Reach \(/, "Reach (X)"],
     [/Recurve Bow/, "Recurve Bow"], [/Sunder \(/, "Sunder (X)"], [/Throwing Weapon/, "Throwing Weapon"], [/Thrusting Blade/, "Thrusting Blade"], [/Unwieldy/, "Unwieldy (X)"], [/Wide Attack/, "Wide Attack"]
   ],
   chars: {

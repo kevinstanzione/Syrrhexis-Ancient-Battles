@@ -1,7 +1,7 @@
 // Syrrhēxis army data. Edit the values below; keep the first line as is.
 window.NHB_DATA = {
   "meta": {
-    "version": "0.41.2",
+    "version": "0.42.0",
     "synced": "2026-11-24",
     "sources": {
       "Hittite Empire Army": "1aqMPs2Pi5car6pUzcuWmHXArGss_RZdkgATe5OsbVrw",
@@ -11530,7 +11530,9 @@ window.NHB_DATA = {
     "Framea": "throwing spear",
     "Gaizaz": "javelins",
     "Fustis": "club",
-    "Dargāršti": "spear"
+    "Dargāršti": "spear",
+    "Qua": "dagger-axe",
+    "Nỏ": "crossbow"
   },
   "say": {
     "Eren": "EH-ren",
@@ -11798,7 +11800,9 @@ window.NHB_DATA = {
     "Framea": "FRAH-meh-ah",
     "Gaizaz": "GAI-zaz",
     "Fustis": "FOOS-tis",
-    "Dargāršti": "dar-GAR-shtee"
+    "Dargāršti": "dar-GAR-shtee",
+    "Qua": "KWAH",
+    "Nỏ": "NAW"
   },
   "mercs": {
     "id": "mercs",
@@ -12435,6 +12439,28 @@ window.NHB_DATA = {
             "kind": "add",
             "body": "Light Armor",
             "c": 1
+          },
+          {
+            "label": "Qua dagger-axe (replaces Rìu Xéo)",
+            "kind": "count",
+            "c": 0,
+            "w": [
+              "Qua"
+            ],
+            "replaces": "Rìu Xéo",
+            "group": "riu",
+            "groupCap": 0.5
+          },
+          {
+            "label": "Nỏ crossbow (replaces Rìu Xéo)",
+            "kind": "count",
+            "c": 2,
+            "w": [
+              "Nỏ"
+            ],
+            "replaces": "Rìu Xéo",
+            "group": "riu",
+            "groupCap": 0.5
           }
         ],
         "chars": [
@@ -12460,6 +12486,7 @@ window.NHB_DATA = {
           }
         ],
         "rules": [
+          "Mixed Unit",
           "Surefooted (Marsh, Woodland)",
           "Mercenary"
         ],
@@ -12475,6 +12502,18 @@ window.NHB_DATA = {
             "6",
             "5",
             ""
+          ],
+          "Qua": [
+            "7",
+            "4",
+            "5",
+            "Hooking"
+          ],
+          "Nỏ": [
+            "20”",
+            "5",
+            "5",
+            "Direct Fire, Sunder (1), Braced Shot"
           ]
         }
       },
