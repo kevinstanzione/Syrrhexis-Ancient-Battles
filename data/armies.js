@@ -1,8 +1,8 @@
 // Syrrhēxis army data. Edit the values below; keep the first line as is.
 window.NHB_DATA = {
   "meta": {
-    "version": "0.44.1",
-    "synced": "2026-11-24",
+    "version": "0.45.0",
+    "synced": "2026-11-27",
     "sources": {
       "Hittite Empire Army": "1aqMPs2Pi5car6pUzcuWmHXArGss_RZdkgATe5OsbVrw",
       "Achaemenid Persia Army": "1hdxpY5jUEu8OthLoyHbMcwjkEKV4eRC4tXijL7JVfDo",
@@ -189,15 +189,21 @@ window.NHB_DATA = {
               "kind": "swap",
               "choices": [
                 {
-                  "name": "Ha-zi-in axe and Gú-è cape",
+                  "name": "Ha-zi-in axe, Gír dagger and Gú-è cape",
                   "w": [
                     "Ha-zi-in"
                   ],
                   "c": 0
                 },
                 {
-                  "name": "Heavy Shield (no attacks except characters; gains Shieldwall)",
+                  "name": "Heavy Shield and no weapons (gains Shieldwall)",
                   "w": [],
+                  "gear": [],
+                  "body": null,
+                  "shield": "Heavy Shield",
+                  "addRules": [
+                    "Shieldwall"
+                  ],
                   "c": 0
                 }
               ]
@@ -209,7 +215,7 @@ window.NHB_DATA = {
               "one": [
                 [
                   "Lord",
-                  17
+                  20
                 ],
                 [
                   "Commander",
@@ -229,7 +235,7 @@ window.NHB_DATA = {
               "one": [
                 [
                   "Standard Bearer",
-                  20
+                  16
                 ]
               ]
             }
@@ -265,7 +271,7 @@ window.NHB_DATA = {
           "desc": "simple levy warriors",
           "move": 6,
           "training": 4,
-          "points": 8,
+          "points": 7,
           "comps": [
             [
               4,
@@ -1504,7 +1510,7 @@ window.NHB_DATA = {
           "desc": "resettled captive levy",
           "move": 6,
           "training": 4,
-          "points": 9,
+          "points": 8,
           "comps": [
             [
               4,
@@ -1606,7 +1612,7 @@ window.NHB_DATA = {
           "desc": "Hittite line infantry",
           "move": 6,
           "training": 5,
-          "points": 12,
+          "points": 11,
           "comps": [
             [
               4,
@@ -1672,7 +1678,7 @@ window.NHB_DATA = {
               "one": [
                 [
                   "Lead Captain",
-                  3
+                  5
                 ],
                 [
                   "Standard Bearer",
@@ -1720,7 +1726,7 @@ window.NHB_DATA = {
           "name": "Mešedi",
           "type": "Warrior",
           "desc": "royal bodyguard",
-          "move": 5,
+          "move": 6,
           "training": 6,
           "points": 15,
           "comps": [
@@ -1793,7 +1799,7 @@ window.NHB_DATA = {
                 ],
                 [
                   "Standard Bearer",
-                  14
+                  10
                 ]
               ]
             },
@@ -1937,7 +1943,7 @@ window.NHB_DATA = {
               "one": [
                 [
                   "Standard Bearer",
-                  20
+                  14
                 ]
               ]
             }
@@ -2278,7 +2284,7 @@ window.NHB_DATA = {
           "desc": "three-man Hittite chariots with a shield-bearer",
           "move": 10,
           "training": 6,
-          "points": 67,
+          "points": 55,
           "comps": [
             [
               1,
@@ -2322,7 +2328,7 @@ window.NHB_DATA = {
                     "Šukur.Tur",
                     "Horses"
                   ],
-                  "c": 5
+                  "c": 3
                 },
                 {
                   "name": "Giš.Ban bow",
@@ -2330,7 +2336,7 @@ window.NHB_DATA = {
                     "Giš.Ban",
                     "Horses"
                   ],
-                  "c": 8
+                  "c": 5
                 }
               ]
             },
@@ -2399,7 +2405,7 @@ window.NHB_DATA = {
           "desc": "Mitanni chariot archers",
           "move": 11,
           "training": 5,
-          "points": 49,
+          "points": 46,
           "comps": [
             [
               1,
@@ -2460,6 +2466,9 @@ window.NHB_DATA = {
               "5",
               "1 Attack, cannot be used on Charge"
             ]
+          },
+          "custom": {
+            "Kikkuli's Horses": "This unit ignores Wheeled Vehicle and turns like a Cavalry unit. Commander and Musician Special Moves still only move it directly forward or backwards."
           }
         }
       ]
@@ -2563,7 +2572,7 @@ window.NHB_DATA = {
           "desc": "archers behind tall shields",
           "move": 6,
           "training": 6,
-          "points": 15,
+          "points": 13,
           "comps": [
             [
               3,
@@ -2991,7 +3000,7 @@ window.NHB_DATA = {
           "desc": "Aramean tribal bowmen",
           "move": 7,
           "training": 5,
-          "points": 10,
+          "points": 9,
           "comps": [
             [
               4,
@@ -3062,7 +3071,7 @@ window.NHB_DATA = {
           "desc": "crested-helmet auxiliary spearmen",
           "move": 7,
           "training": 5,
-          "points": 12,
+          "points": 13,
           "comps": [
             [
               4,
@@ -3185,7 +3194,7 @@ window.NHB_DATA = {
           "desc": "horse archers riding in pairs",
           "move": 10,
           "training": 6,
-          "points": 19,
+          "points": 15,
           "comps": [
             [
               1,
@@ -3223,7 +3232,7 @@ window.NHB_DATA = {
                     "Ariktu"
                   ],
                   "shield": null,
-                  "c": 1
+                  "c": 2
                 },
                 {
                   "name": "Archers and lancers with Light Armor and Barding",
@@ -3234,7 +3243,7 @@ window.NHB_DATA = {
                   "shield": null,
                   "body": "Light Armor",
                   "barding": "Barding",
-                  "c": 4
+                  "c": 5
                 }
               ]
             }
@@ -3281,10 +3290,10 @@ window.NHB_DATA = {
           "id": "assyrian-chariots",
           "name": "Narkabāti",
           "type": "Chariot",
-          "desc": "two-horse chariots with archers",
+          "desc": "three-man chariots with an archer and a shield-bearer",
           "move": 10,
           "training": 6,
-          "points": 47,
+          "points": 49,
           "comps": [
             [
               1,
@@ -3297,7 +3306,7 @@ window.NHB_DATA = {
           ],
           "crew": {
             "driver": 1,
-            "crew": 1,
+            "crew": 2,
             "horses": 2
           },
           "equip": [
@@ -3308,7 +3317,8 @@ window.NHB_DATA = {
             "Namṣaru"
           ],
           "body": "Light Armor",
-          "shield": null,
+          "shield": "Shield",
+          "shieldBearer": 1,
           "opts": [
             {
               "label": "Crew weapon",
@@ -3331,13 +3341,6 @@ window.NHB_DATA = {
                   "c": 0
                 }
               ]
-            },
-            {
-              "label": "Shield-bearer (third crewman with a Shield)",
-              "kind": "add",
-              "shield": "Shield",
-              "crewPlus": 1,
-              "c": 6
             },
             {
               "label": "Sariam scale coat (crew, replaces Light Armor)",
@@ -3463,7 +3466,7 @@ window.NHB_DATA = {
                 ],
                 [
                   "Army Standard Bearer",
-                  30
+                  20
                 ]
               ]
             },
@@ -3998,7 +4001,7 @@ window.NHB_DATA = {
               "one": [
                 [
                   "Lead Captain",
-                  5
+                  8
                 ]
               ]
             }
@@ -4153,7 +4156,7 @@ window.NHB_DATA = {
               "one": [
                 [
                   "Lead Captain",
-                  5
+                  6
                 ]
               ]
             },
@@ -4161,7 +4164,7 @@ window.NHB_DATA = {
               "one": [
                 [
                   "Musician",
-                  5
+                  6
                 ]
               ]
             },
@@ -4177,7 +4180,7 @@ window.NHB_DATA = {
               "one": [
                 [
                   "Standard Bearer",
-                  8
+                  10
                 ]
               ]
             }
@@ -4285,11 +4288,11 @@ window.NHB_DATA = {
               "one": [
                 [
                   "Lead Captain",
-                  2
+                  3
                 ],
                 [
                   "Taskmaster",
-                  6
+                  4
                 ]
               ]
             },
@@ -4408,7 +4411,7 @@ window.NHB_DATA = {
               "one": [
                 [
                   "Musician",
-                  9
+                  8
                 ]
               ]
             }
@@ -4714,11 +4717,11 @@ window.NHB_DATA = {
               "one": [
                 [
                   "Lead Captain",
-                  12
+                  10
                 ],
                 [
                   "Standard Bearer",
-                  8
+                  12
                 ],
                 [
                   "Lord",
@@ -5121,7 +5124,7 @@ window.NHB_DATA = {
           "desc": "chariots",
           "move": 10,
           "training": 6,
-          "points": 47,
+          "points": 49,
           "comps": [
             [
               1,
@@ -6201,7 +6204,7 @@ window.NHB_DATA = {
               "one": [
                 [
                   "Lead Captain",
-                  8
+                  6
                 ]
               ]
             },
@@ -6253,7 +6256,7 @@ window.NHB_DATA = {
           "desc": "elite guard infantry",
           "move": 6,
           "training": 7,
-          "points": 17,
+          "points": 16,
           "comps": [
             [
               4,
@@ -6349,7 +6352,7 @@ window.NHB_DATA = {
                 ],
                 [
                   "Lord",
-                  17
+                  20
                 ]
               ],
               "req": true
@@ -6615,7 +6618,7 @@ window.NHB_DATA = {
           "desc": "the Companions, Macedonian heavy cavalry",
           "move": 12,
           "training": 7,
-          "points": 23,
+          "points": 21,
           "comps": [
             [
               2,
@@ -7077,7 +7080,7 @@ window.NHB_DATA = {
           "desc": "armored dagger-axe infantry",
           "move": 6,
           "training": 6,
-          "points": 13,
+          "points": 12,
           "comps": [
             [
               4,
@@ -7235,7 +7238,7 @@ window.NHB_DATA = {
             "Disciplined"
           ],
           "custom": {
-            "Drums and Gongs": "Your army may include up to 2 Army Musicians, each in a different Rang Trung Retinue or Ka Ləngs Retinue. If it includes two, each affects only friendly units within 18” of it."
+            "Drums and Gongs": "Your army may include up to 2 Army Musicians, each in a different Rang Trung Retinue or Ka Ləngs Retinue. If it includes two, each affects only friendly units within 18” of it, and only one of them adds +1 to your Initiative rolls."
           },
           "weapons": {
             "Do": [
@@ -7320,7 +7323,7 @@ window.NHB_DATA = {
           "desc": "crossbowmen",
           "move": 6,
           "training": 5,
-          "points": 12,
+          "points": 13,
           "comps": [
             [
               4,
@@ -7525,7 +7528,7 @@ window.NHB_DATA = {
           "desc": "crossbow cavalry",
           "move": 12,
           "training": 6,
-          "points": 19,
+          "points": 18,
           "comps": [
             [
               2,
@@ -7813,7 +7816,7 @@ window.NHB_DATA = {
             "Tactician"
           ],
           "custom": {
-            "Drums and Gongs": "Your army may include up to 2 Army Musicians, each in a different Rang Trung Retinue or Ka Ləngs Retinue. If it includes two, each affects only friendly units within 18” of it."
+            "Drums and Gongs": "Your army may include up to 2 Army Musicians, each in a different Rang Trung Retinue or Ka Ləngs Retinue. If it includes two, each affects only friendly units within 18” of it, and only one of them adds +1 to your Initiative rolls."
           },
           "weapons": {
             "Kwəng": [
@@ -8143,7 +8146,7 @@ window.NHB_DATA = {
           "desc": "guild militia",
           "move": 7,
           "training": 5,
-          "points": 9,
+          "points": 10,
           "comps": [
             [
               4,
@@ -8489,7 +8492,7 @@ window.NHB_DATA = {
               "label": "1 Additional Crewman",
               "kind": "add",
               "crewPlus": 1,
-              "c": 12
+              "c": 10
             },
             {
               "label": "Crew weapon",
@@ -8625,15 +8628,15 @@ window.NHB_DATA = {
               "one": [
                 [
                   "Lord and Army Standard Bearer",
-                  44,
+                  35,
                   [
                     [
                       "Lord",
-                      17
+                      15
                     ],
                     [
                       "Army Standard Bearer",
-                      27
+                      20
                     ]
                   ]
                 ],
@@ -8950,7 +8953,7 @@ window.NHB_DATA = {
           "desc": "Campanian mercenary infantry",
           "move": 6,
           "training": 6,
-          "points": 16,
+          "points": 13,
           "comps": [
             [
               4,
@@ -9619,7 +9622,7 @@ window.NHB_DATA = {
           ],
           "custom": {
             "Tribe": "Celtic.",
-            "Furor": "Starts the battle with a face-up Furor token, giving +1 Strength with melee weapons. If the unit Charges, it keeps the bonus for that round's Combat, then flips the token at the end of the Combat Phase: -1 Training for the rest of the battle. If it is Charged while the token is face-up, remove the token, with no bonus and no penalty. A unit that falls back from a Charge with its Skirmish Captain keeps its token."
+            "Furor": "Starts the battle with a face-up Furor token, giving +1 Strength with melee weapons. If the unit Charges, it keeps the bonus for that round's Combat, then flips the token at the end of the Combat Phase: -1 Training for the rest of the battle. If it is Charged while the token is face-up, remove the token, with no bonus and no penalty. A unit that falls back from a Charge with its Skirmish Captain keeps its token, and a Feign Charge or Feign Retreat does not remove it."
           },
           "weapons": {
             "Gaison": [
@@ -9718,7 +9721,7 @@ window.NHB_DATA = {
           "rules": [],
           "custom": {
             "Tribe": "Celtic.",
-            "Furor": "Starts the battle with a face-up Furor token, giving +1 Strength with melee weapons. If the unit Charges, it keeps the bonus for that round's Combat, then flips the token at the end of the Combat Phase: -1 Training for the rest of the battle. If it is Charged while the token is face-up, remove the token, with no bonus and no penalty. A unit that falls back from a Charge with its Skirmish Captain keeps its token."
+            "Furor": "Starts the battle with a face-up Furor token, giving +1 Strength with melee weapons. If the unit Charges, it keeps the bonus for that round's Combat, then flips the token at the end of the Combat Phase: -1 Training for the rest of the battle. If it is Charged while the token is face-up, remove the token, with no bonus and no penalty. A unit that falls back from a Charge with its Skirmish Captain keeps its token, and a Feign Charge or Feign Retreat does not remove it."
           },
           "weapons": {
             "Kladios": [
@@ -9802,7 +9805,7 @@ window.NHB_DATA = {
           "rules": [],
           "custom": {
             "Tribe": "Germanic.",
-            "Furor": "Starts the battle with a face-up Furor token, giving +1 Strength with melee weapons. If the unit Charges, it keeps the bonus for that round's Combat, then flips the token at the end of the Combat Phase: -1 Training for the rest of the battle. If it is Charged while the token is face-up, remove the token, with no bonus and no penalty. A unit that falls back from a Charge with its Skirmish Captain keeps its token.",
+            "Furor": "Starts the battle with a face-up Furor token, giving +1 Strength with melee weapons. If the unit Charges, it keeps the bonus for that round's Combat, then flips the token at the end of the Combat Phase: -1 Training for the rest of the battle. If it is Charged while the token is face-up, remove the token, with no bonus and no penalty. A unit that falls back from a Charge with its Skirmish Captain keeps its token, and a Feign Charge or Feign Retreat does not remove it.",
             "Cuneus": "When this unit Charges while its Furor token is face-up, its Collision Hits are resolved at +1 Strength."
           },
           "weapons": {
@@ -9873,7 +9876,7 @@ window.NHB_DATA = {
           ],
           "custom": {
             "Tribe": "Germanic.",
-            "Furor": "Starts the battle with a face-up Furor token, giving +1 Strength with melee weapons. If the unit Charges, it keeps the bonus for that round's Combat, then flips the token at the end of the Combat Phase: -1 Training for the rest of the battle. If it is Charged while the token is face-up, remove the token, with no bonus and no penalty. A unit that falls back from a Charge with its Skirmish Captain keeps its token.",
+            "Furor": "Starts the battle with a face-up Furor token, giving +1 Strength with melee weapons. If the unit Charges, it keeps the bonus for that round's Combat, then flips the token at the end of the Combat Phase: -1 Training for the rest of the battle. If it is Charged while the token is face-up, remove the token, with no bonus and no penalty. A unit that falls back from a Charge with its Skirmish Captain keeps its token, and a Feign Charge or Feign Retreat does not remove it.",
             "Sworn Companions": "If this unit is destroyed or leaves the battlefield while it has a Flee token, you lose additional Army Morale equal to its full Contribution."
           },
           "weapons": {
@@ -10040,7 +10043,7 @@ window.NHB_DATA = {
           ],
           "custom": {
             "Tribe": "Germanic.",
-            "Furor": "Starts the battle with a face-up Furor token, giving +1 Strength with melee weapons. If the unit Charges, it keeps the bonus for that round's Combat, then flips the token at the end of the Combat Phase: -1 Training for the rest of the battle. If it is Charged while the token is face-up, remove the token, with no bonus and no penalty. A unit that falls back from a Charge with its Skirmish Captain keeps its token.",
+            "Furor": "Starts the battle with a face-up Furor token, giving +1 Strength with melee weapons. If the unit Charges, it keeps the bonus for that round's Combat, then flips the token at the end of the Combat Phase: -1 Training for the rest of the battle. If it is Charged while the token is face-up, remove the token, with no bonus and no penalty. A unit that falls back from a Charge with its Skirmish Captain keeps its token, and a Feign Charge or Feign Retreat does not remove it.",
             "Horse Runners": "If this unit starts its activation within 2” of a friendly Germanic Cavalry, Light Cavalry or Skirmishing Cavalry unit, it gains +2 Move. It gains +1 Accuracy in Melee against enemy units that are also Locked in Combat with a friendly Germanic Cavalry, Light Cavalry or Skirmishing Cavalry unit."
           },
           "weapons": {
@@ -10102,7 +10105,7 @@ window.NHB_DATA = {
           ],
           "custom": {
             "Tribe": "Celtic.",
-            "Furor": "Starts the battle with a face-up Furor token, giving +1 Strength with melee weapons. If the unit Charges, it keeps the bonus for that round's Combat, then flips the token at the end of the Combat Phase: -1 Training for the rest of the battle. If it is Charged while the token is face-up, remove the token, with no bonus and no penalty. A unit that falls back from a Charge with its Skirmish Captain keeps its token.",
+            "Furor": "Starts the battle with a face-up Furor token, giving +1 Strength with melee weapons. If the unit Charges, it keeps the bonus for that round's Combat, then flips the token at the end of the Combat Phase: -1 Training for the rest of the battle. If it is Charged while the token is face-up, remove the token, with no bonus and no penalty. A unit that falls back from a Charge with its Skirmish Captain keeps its token, and a Feign Charge or Feign Retreat does not remove it.",
             "Naked Fury": "This unit cannot take the Hold action."
           },
           "weapons": {
@@ -10179,7 +10182,7 @@ window.NHB_DATA = {
           "rules": [],
           "custom": {
             "Tribe": "Celtic.",
-            "Furor": "Starts the battle with a face-up Furor token, giving +1 Strength with melee weapons. If the unit Charges, it keeps the bonus for that round's Combat, then flips the token at the end of the Combat Phase: -1 Training for the rest of the battle. If it is Charged while the token is face-up, remove the token, with no bonus and no penalty. A unit that falls back from a Charge with its Skirmish Captain keeps its token."
+            "Furor": "Starts the battle with a face-up Furor token, giving +1 Strength with melee weapons. If the unit Charges, it keeps the bonus for that round's Combat, then flips the token at the end of the Combat Phase: -1 Training for the rest of the battle. If it is Charged while the token is face-up, remove the token, with no bonus and no penalty. A unit that falls back from a Charge with its Skirmish Captain keeps its token, and a Feign Charge or Feign Retreat does not remove it."
           },
           "weapons": {
             "Matara": [
@@ -10247,7 +10250,7 @@ window.NHB_DATA = {
           "rules": [],
           "custom": {
             "Tribe": "Celtic.",
-            "Furor": "Starts the battle with a face-up Furor token, giving +1 Strength with melee weapons. If the unit Charges, it keeps the bonus for that round's Combat, then flips the token at the end of the Combat Phase: -1 Training for the rest of the battle. If it is Charged while the token is face-up, remove the token, with no bonus and no penalty. A unit that falls back from a Charge with its Skirmish Captain keeps its token."
+            "Furor": "Starts the battle with a face-up Furor token, giving +1 Strength with melee weapons. If the unit Charges, it keeps the bonus for that round's Combat, then flips the token at the end of the Combat Phase: -1 Training for the rest of the battle. If it is Charged while the token is face-up, remove the token, with no bonus and no penalty. A unit that falls back from a Charge with its Skirmish Captain keeps its token, and a Feign Charge or Feign Retreat does not remove it."
           },
           "weapons": {
             "Kladios": [
@@ -10320,7 +10323,7 @@ window.NHB_DATA = {
           ],
           "custom": {
             "Tribe": "Germanic.",
-            "Furor": "Starts the battle with a face-up Furor token, giving +1 Strength with melee weapons. If the unit Charges, it keeps the bonus for that round's Combat, then flips the token at the end of the Combat Phase: -1 Training for the rest of the battle. If it is Charged while the token is face-up, remove the token, with no bonus and no penalty. A unit that falls back from a Charge with its Skirmish Captain keeps its token."
+            "Furor": "Starts the battle with a face-up Furor token, giving +1 Strength with melee weapons. If the unit Charges, it keeps the bonus for that round's Combat, then flips the token at the end of the Combat Phase: -1 Training for the rest of the battle. If it is Charged while the token is face-up, remove the token, with no bonus and no penalty. A unit that falls back from a Charge with its Skirmish Captain keeps its token, and a Feign Charge or Feign Retreat does not remove it."
           },
           "weapons": {
             "Framea": [
@@ -10404,7 +10407,7 @@ window.NHB_DATA = {
           "rules": [],
           "custom": {
             "Tribe": "Celtic.",
-            "Furor": "Starts the battle with a face-up Furor token, giving +1 Strength with melee weapons. If the unit Charges, it keeps the bonus for that round's Combat, then flips the token at the end of the Combat Phase: -1 Training for the rest of the battle. If it is Charged while the token is face-up, remove the token, with no bonus and no penalty. A unit that falls back from a Charge with its Skirmish Captain keeps its token."
+            "Furor": "Starts the battle with a face-up Furor token, giving +1 Strength with melee weapons. If the unit Charges, it keeps the bonus for that round's Combat, then flips the token at the end of the Combat Phase: -1 Training for the rest of the battle. If it is Charged while the token is face-up, remove the token, with no bonus and no penalty. A unit that falls back from a Charge with its Skirmish Captain keeps its token, and a Feign Charge or Feign Retreat does not remove it."
           },
           "weapons": {
             "Gaison": [
@@ -10477,7 +10480,7 @@ window.NHB_DATA = {
           "rules": [],
           "custom": {
             "Tribe": "Germanic.",
-            "Furor": "Starts the battle with a face-up Furor token, giving +1 Strength with melee weapons. If the unit Charges, it keeps the bonus for that round's Combat, then flips the token at the end of the Combat Phase: -1 Training for the rest of the battle. If it is Charged while the token is face-up, remove the token, with no bonus and no penalty. A unit that falls back from a Charge with its Skirmish Captain keeps its token.",
+            "Furor": "Starts the battle with a face-up Furor token, giving +1 Strength with melee weapons. If the unit Charges, it keeps the bonus for that round's Combat, then flips the token at the end of the Combat Phase: -1 Training for the rest of the battle. If it is Charged while the token is face-up, remove the token, with no bonus and no penalty. A unit that falls back from a Charge with its Skirmish Captain keeps its token, and a Feign Charge or Feign Retreat does not remove it.",
             "Right Wheel": "The first turn this unit makes in each move costs no Move Allowance, as long as it turns to the right."
           },
           "weapons": {
@@ -10673,7 +10676,7 @@ window.NHB_DATA = {
           "desc": "veteran legionaries",
           "move": 6,
           "training": 7,
-          "points": 21,
+          "points": 22,
           "comps": [
             [
               4,
@@ -11173,7 +11176,7 @@ window.NHB_DATA = {
           "desc": "the prefect’s cavalry",
           "move": 10,
           "training": 7,
-          "points": 20,
+          "points": 22,
           "comps": [
             [
               1,
@@ -11186,7 +11189,7 @@ window.NHB_DATA = {
           "gear": [
             "Spatha"
           ],
-          "body": "Light Armor",
+          "body": "Medium Armor",
           "shield": "Shield",
           "opts": [],
           "chars": [
@@ -11395,7 +11398,7 @@ window.NHB_DATA = {
           "move": 6,
           "training": 6,
           "points": 12,
-          "engine": 47,
+          "engine": 30,
           "engineUS": 3,
           "range": [
             2,
@@ -12919,7 +12922,7 @@ window.NHB_DATA = {
         "type": "Light Warrior",
         "move": 7,
         "training": 4,
-        "points": 14,
+        "points": 13,
         "comps": [
           [
             4,
@@ -13960,7 +13963,7 @@ window.NHB_DATA = {
             "label": "1 Additional Crewman",
             "kind": "add",
             "crewPlus": 1,
-            "c": 12
+            "c": 10
           },
           {
             "label": "Crew weapon",
@@ -14902,7 +14905,7 @@ window.NHB_DATA = {
         "qin"
       ],
       "limit": 1,
-      "text": "Terrain. Before deployment, place a road 4” wide and 24” long, with one short end flush against your board edge, running straight toward the opposite board edge. A unit with at least half of its tray (or, for an Open Order unit, at least half of its models) on the road for its whole move gains +2” Move, and ignores Difficult Terrain and Major Terrain penalties while on it. Any unit may use the road.",
+      "text": "Terrain. Before deployment, place a road 4” wide and 24” long, with one short end flush against your board edge, running straight toward the opposite board edge. A unit with at least half of its tray (or, for an Open Order unit, at least half of its models) on the road for its whole move gains +2” Move, and ignores Difficult Terrain while on it, along with the effects of the Major Terrain and any terrain that follows the rules for a Major Terrain type (such as Flooded Field). Any unit may use the road.",
       "flavor": "The First Emperor's roads ran straight through hills and valleys, and every axle in the empire was cut to the same width."
     },
     {
@@ -14957,7 +14960,7 @@ window.NHB_DATA = {
         "kush"
       ],
       "limit": 1,
-      "text": "Play after an enemy unit resolves a Shooting attack against a friendly unit. Each friendly Pḏtyw unit within 12” of that friendly unit that is not Locked in Combat and has a line of fire to the attacker may immediately make a Shooting attack against it at -2 Accuracy. This does not change their Action Tokens.",
+      "text": "Play after an enemy unit resolves a Shooting attack against a friendly unit. Up to 2 friendly Pḏtyw units within 12” of that friendly unit that are not Locked in Combat and have a line of fire to the attacker may each immediately make a Shooting attack against it at -2 Accuracy. This does not change their Action Tokens.",
       "flavor": "Tell your king: when his men draw a bow like this one as easily as I do, then let him march on Kush."
     },
     {
@@ -15133,6 +15136,17 @@ window.NHB_DATA = {
       "flavor": "Foot, horse, chariot and elephant: the four limbs of the royal army."
     },
     {
+      "id": "breaking-the-ranks",
+      "name": "Breaking the Ranks",
+      "short": "A charging elephant breaks the enemy's formation",
+      "armies": [
+        "mauryan"
+      ],
+      "limit": 1,
+      "text": "Play when a friendly Elephant unit's Charge makes contact with an enemy Closed Order unit. Until the end of the round, that unit loses Phalanx, Shieldwall and Pavise, its weapons lose Reach, and it makes no Collision Hits.",
+      "flavor": "At the Hydaspes the elephants drove into the phalanx, and wherever they turned, the ranks came apart."
+    },
+    {
       "armies": [
         "carthage"
       ],
@@ -15160,7 +15174,7 @@ window.NHB_DATA = {
       "id": "brq",
       "name": "Barcid Lightning",
       "short": "+1 Initiative per friendly unit with a Hold token",
-      "text": "Play before the Initiative roll. This round, add +1 to your Initiative roll for each friendly unit with a Hold Action Token.",
+      "text": "Play before the Initiative roll. This round, add +1 to your Initiative roll for each friendly unit with a Hold Action Token, up to +3.",
       "flavor": "Lightning, the Barcids called themselves, and Hannibal struck before his enemies knew the storm had come."
     },
     {
@@ -15204,7 +15218,7 @@ window.NHB_DATA = {
       "id": "trasimene-fog",
       "name": "Trasimene Fog",
       "short": "Weather: nothing targets or Charges beyond 12”",
-      "text": "Weather. Play during the End of the Round Phase of a round in which you had the Initiative. During the next round, units cannot target or declare a Charge against units more than 12” away, and the ranges of enemy Special Character abilities, such as a Commander's, are halved.",
+      "text": "Weather. Play during the End of the Round Phase of a round in which you had the Initiative. During the next round, units cannot target or declare a Charge against units more than 12” away, and the ranges of all Special Character abilities, such as a Commander's, are halved.",
       "flavor": "Mist rose from the lake, and the Roman column marched blind into the hills where Hannibal waited."
     },
     {

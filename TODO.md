@@ -50,7 +50,7 @@ Done 2026-11-05: First Blood row, Strength table order, matching Armor Save tabl
 
 ## Neo-Assyrian Empire (added 0.34.0)
 - Names done 0.38.0 (Akkadian; checked against Dezső, The Assyrian Army, and the CAD where possible). Logged in the names doc. Attested: Qurādu, kiṣir šarrūti, ša šēpē, ṣāb šarri, Itu'ayu, kallāpu ('light troops'), ša pētḫalli, narkabtu, mugerru, asmarû, ariktu, namṣaru, patru, qaštu, aspu (sling, Landsberger 1957), siriam/sariam, kabābu, adê, abūbu. Constructed or loose: Ṣāb Qašti (phrase), Mugerri Šarri (phrase), Qaštu Itu'ayītu, Kakku (generic 'weapon'), Ḫuṭāru ('staff'), Tappû (not checked in a dictionary).
-- Playtest: Gurrāyū (12, Enforcers) added 0.38.0.
+- Playtest: Gurrāyū (13, Enforcers) added 0.38.0.
 - Points to watch: the Royal Spearmen (17) and Royal Spearmen Retinue (16) must take a Lead Captain, so check whole-unit costs.
 
 ## Mauryan Empire (added 0.35.0)
@@ -59,7 +59,7 @@ Done 2026-11-05: First Blood row, Strength table order, matching Armor Save tabl
 ## Hannibal’s Forces (added 0.36.0)
 - Names: logged in the names doc. Attested: Mḥnt (coin legend "the camp"), Mḥšbm ("the paymasters", coin legend), Ksp ("silver"), Ndr ("vow"), ʾlp ("ox"), Rb ("general"), Qrtḥdšt. ʿm Qrtḥdšt appears only in a restored line of KAI 303. Constructed from Hebrew/Aramaic cognates: Lbym, Qdšt, Pršm, Rmḥ, Ḥrb, Mʾklt, Kdn, Plm (low confidence: Aramaic pīlā, Akkadian pīru). Saunion is Greek (the Samnites' name may come from it).
 - Playtest pricing: Mḥnt Qdšt Retinue (22 × 8), Pršm hRb Retinue (22 × 4), Plm (75), Ligurēs (13, Heavy Shield with no Move penalty), Equitēs Gallī (24).
-- Watch: Mḥšbm with two retinues gives 2 extra mercenary units, plus 3 from Carthaginian Silver. Barcid Lightning has no cap.
+- Watch: Mḥšbm with two retinues gives 2 extra mercenary units, plus 3 from Carthaginian Silver. Barcid Lightning capped at +3 (0.45.0).
 - Done 2026-11-22: Phalanx Shield/Length 6 negation removed (rulebook 0.3.10); terrain and Half Strength / under 6 models negation kept.
 
 ## King of Kings rework (Persia)

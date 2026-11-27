@@ -6,6 +6,84 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## 0.45.0 and Rulebook 0.3.19 — 2026-11-27
+
+Fixes and repricing from a full review of every army list.
+
+### Builder
+- Fixed: the Aga-ús Retinue's Heavy Shield loadout now gives the Heavy Shield and Shieldwall, and removes the Gú-è cape and Gír dagger. Before, it only removed the axe. Relabeled "Heavy Shield and no weapons (gains Shieldwall)".
+- An option can now add a special rule (`addRules`), as well as remove one.
+
+### Rulings
+- **Furor**: a Feign Charge or Feign Retreat does not remove the Furor token.
+- **Drums and Gongs**: with two Army Musicians, only one of them adds +1 to Initiative.
+
+### Sumerian City-States
+- Guruš 8 → 7 pts.
+- Aga-ús Retinue: Lord 17 → 20, Standard Bearer 20 → 16.
+
+### Hittite Empire
+- Anše.Kur.Ra Ḫatti 67 → 55 pts; Šukur.Tur javelins +5 → +3, Giš.Ban bow +8 → +5.
+- Anše.Kur.Ra Mittanni gain **Kikkuli's Horses** (ignore Wheeled Vehicle and turn like Cavalry; Commander and Musician Special Moves still forward or backwards only). 49 → 46 pts.
+- Karaš Ḫatti 12 → 11 pts; Lead Captain 3 → 5.
+- Nam.Ra 9 → 8 pts.
+- Mešedi Move 5 → 6 (retinues are 1 slower than their base unit); Standard Bearer 14 → 10.
+- Mešedi Retinue: Standard Bearer 20 → 14.
+
+### Neo-Assyrian Empire
+- Narkabāti: the shield-bearer is now standard (three crew with a Shield, Shield Bearer), making them the armored chariot archers. 47 → 49 pts, and the +6 shield-bearer option is gone.
+- Ša Pētḫalli 19 → 15 pts; lancers +1 → +2, lancers with Light Armor and Barding +4 → +5.
+- Ṣāb Qašti 15 → 13 pts.
+- Itu'ayū 10 → 9 pts.
+- Gurrāyū 12 → 13 pts.
+- Mugerri Šarri Retinue: Army Standard Bearer 30 → 20, the same chariot discount as its Commander.
+
+### Kingdom of Kush
+- Ssmtyw: Lead Captain 5 → 8.
+- **Bow of the Kushite King**: up to 2 Pḏtyw units may return fire (was every Pḏtyw unit in range).
+
+### Achaemenid Persia
+- Raθā 47 → 49 pts.
+- Sparabārā: Lead Captain 5 → 6, Musician 5 → 6, Standard Bearer 8 → 10.
+- Kardakā: Lead Captain 2 → 3, Taskmaster 6 → 4.
+- Anušiyā: Musician 9 → 8.
+- Asabārā: Lead Captain 12 → 10, Standard Bearer 8 → 12.
+
+### Armies of Alexander
+- Hetaîroi 23 → 21 pts.
+- Hypaspistaí 17 → 16 pts.
+- Pezhétairoi: Lead Captain 8 → 6.
+- Agēma Retinue: Lord 17 → 20.
+
+### Qin China
+- Kwat Trang 12 → 13 pts.
+- Krap Tsut 13 → 12 pts.
+- Gajs Srə 19 → 18 pts.
+- **The Straight Road** also cancels terrain that follows the rules for a Major Terrain type, such as a Flooded Field (same wording as Prepared Ground).
+
+### Mauryan Empire
+- New Command card **Breaking the Ranks**: when a friendly Elephant unit's Charge makes contact with an enemy Closed Order unit, that unit loses Phalanx, Shieldwall, Pavise and Reach and makes no Collision Hits until the end of the round.
+- Śreṇībala 9 → 10 pts.
+- Hastin: extra crewman 12 → 10 pts (also the King of Kings copy).
+- Rājahastin Retinue: Lord and Army Standard Bearer pair 44 → 35 (15 + 20, the elephant discount).
+
+### Hannibal's Forces
+- Campānī 16 → 13 pts.
+- **Barcid Lightning**: capped at +3.
+- **Trasimene Fog**: halves the ranges of all Special Character abilities, both armies' (was the enemy's only), since Weather affects both armies alike.
+
+### Imperial Rome
+- Veterānī 21 → 22 pts.
+- Cohors Equitāta Retinue: Medium Armor (was Light), matching the troopers it leads. 20 → 22 pts.
+- Carroballista: war engine 47 → 30 pts.
+
+### Supplemental Mercenaries
+- Sea People Raiders 14 → 13 pts.
+
+### Rulebook 0.3.19
+- Placing Terrain: a feature may not overlap or touch another feature that is not ground terrain, so features can stand on Crumbled Ruins and the like.
+- Removing Models: Special Characters are never removed; keep the figure that represents each one on the tray.
+
 ## 0.44.1 — 2026-11-27
 
 ### Compositions (units have at most 2 composition options)

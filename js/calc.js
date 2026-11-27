@@ -56,6 +56,7 @@ window.NHB = (function () {
     let weapons = u.equip.slice();
     let shield = u.shield, body = u.body, barding = u.barding || null, crewPlus = 0, perModel = u.points || 0, gearOverride = null;
     const dropRules = [];   // special rules a choice takes away (e.g. Lbym lose Phalanx with the Roman kit)
+    const addRules = [];    // special rules a choice grants (e.g. the Aga-ús Retinue's Heavy Shield gains Shieldwall)
     const opts = u.opts || [];
     opts.forEach((o, i) => {
       if (o.kind !== "swap") return;
@@ -66,6 +67,7 @@ window.NHB = (function () {
       if ("barding" in ch) barding = ch.barding;
       if (ch.gear) gearOverride = ch.gear;
       if (ch.dropRules) dropRules.push(...ch.dropRules);
+      if (ch.addRules) addRules.push(...ch.addRules);
       perModel += ch.c || 0;
     });
     const disabled = {};
@@ -102,7 +104,7 @@ window.NHB = (function () {
       if (used >= n) weapons = weapons.filter(w => w !== o.replaces);
     });
     const gear = (gearOverride || u.gear || []).filter(g => !weapons.includes(g));
-    return { weapons, gear, shield, body, barding, crewPlus, perModel, disabled, countCost, mixed, groupUse, groupCap, dropRules };
+    return { weapons, gear, shield, body, barding, crewPlus, perModel, disabled, countCost, mixed, groupUse, groupCap, dropRules, addRules };
   }
 
   function armorDef(u, name) {
@@ -194,8 +196,10 @@ window.NHB = (function () {
 
   function activeRules(u, sel) {
     const chars = chosenChars(u, sel).map(c => c.name);
-    const drop = loadout(u, sel).dropRules || [];
+    const lo = loadout(u, sel);
+    const drop = lo.dropRules || [];
     let rules = (u.rules || []).filter(r => !drop.includes(r));
+    (lo.addRules || []).forEach(r => { if (!rules.includes(r)) rules.push(r); });
     chars.forEach(c => (CHAR_GRANTS[c] || []).forEach(r => { if (!rules.includes(r)) rules.push(r); }));
     if (chars.includes("Taskmaster") || chars.includes("Tribal Leader")) rules = rules.filter(r => r !== "Levy");
     // Unit-type abilities: units that fight on trays (Closed Order, including Light units deployed that way)
