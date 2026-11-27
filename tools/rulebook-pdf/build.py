@@ -60,9 +60,10 @@ def assemble():
     ids = re.findall(r'<h[1-6] id="([^"]+)"', content)
     dup = {i for i in ids if ids.count(i) > 1}
     assert not dup, ('duplicate heading ids', dup)
-    broken = sorted(set(re.findall(r'href="#([^"]+)"', content)) - set(ids))
+    targets = set(re.findall(r'\sid="([^"]+)"', content))   # a link may point at any element, e.g. a bold paragraph lead
+    broken = sorted(set(re.findall(r'href="#([^"]+)"', content)) - targets)
     if broken:
-        print('warning: cross-references to missing headings:', broken)
+        print('warning: cross-references to missing ids:', broken)
     toc = [(int(l), i, t) for l, i, t in re.findall(r'<h([12]) id="([^"]+)"[^>]*>([^<]+)</h\1>', content)]
     toc_html = ''.join(f'<li class="t{l}"><a href="#{i}">{t}</a></li>' for l, i, t in toc if H.unescape(t) not in TOC_SKIP)
     fonts = '<style>' + ''.join(

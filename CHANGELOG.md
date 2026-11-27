@@ -6,6 +6,14 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## 0.45.1 — 2026-11-27
+
+### Kingdom of Kush
+- **Mšꜥ** are now archer-spearmen, setting them apart from the Egyptian Mnfꜣt: every model carries the Pḏt long self bow (24” / Accuracy 4 / Strength 4, Direct Fire, Unwieldy (1)) as well as the spear, in place of the Bꜣgsw dagger. Herodotus describes the Kushites in Xerxes' army with long palm-wood bows, spears and clubs. 12 → 15 pts per model.
+
+### Tools
+- Rulebook build: cross-references may point at any element with an id, such as the First Blood paragraph, not only headings. This clears the old "missing heading" warning; no change to the PDF.
+
 ## 0.45.0 and Rulebook 0.3.19 — 2026-11-27
 
 Fixes and repricing from a full review of every army list.
