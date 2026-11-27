@@ -1,7 +1,7 @@
 // Syrrhēxis army data. Edit the values below; keep the first line as is.
 window.NHB_DATA = {
   "meta": {
-    "version": "0.42.2",
+    "version": "0.43.0",
     "synced": "2026-11-24",
     "sources": {
       "Hittite Empire Army": "1aqMPs2Pi5car6pUzcuWmHXArGss_RZdkgATe5OsbVrw",
@@ -7064,6 +7064,809 @@ window.NHB_DATA = {
       ]
     },
     {
+      "id": "qin",
+      "name": "Qin China",
+      "retinueMax": {
+        "Army Musician": 2
+      },
+      "units": [
+        {
+          "id": "krap-tsut",
+          "name": "Krap Tsut",
+          "type": "Warrior",
+          "desc": "armored dagger-axe infantry",
+          "move": 6,
+          "training": 6,
+          "points": 13,
+          "comps": [
+            [
+              4,
+              5
+            ],
+            [
+              3,
+              5
+            ]
+          ],
+          "equip": [
+            "Kʷaj"
+          ],
+          "gear": [],
+          "body": "Light Armor",
+          "shield": null,
+          "opts": [
+            {
+              "label": "Weapon",
+              "kind": "swap",
+              "choices": [
+                {
+                  "name": "Kʷaj dagger-axe",
+                  "w": [
+                    "Kʷaj"
+                  ],
+                  "c": 0
+                },
+                {
+                  "name": "Krak halberd",
+                  "w": [
+                    "Krak"
+                  ],
+                  "c": 1
+                }
+              ]
+            }
+          ],
+          "chars": [
+            {
+              "one": [
+                [
+                  "Lead Captain",
+                  5
+                ],
+                [
+                  "Rear Captain",
+                  5
+                ]
+              ]
+            },
+            {
+              "one": [
+                [
+                  "Musician",
+                  6
+                ]
+              ]
+            },
+            {
+              "one": [
+                [
+                  "Standard Bearer",
+                  10
+                ]
+              ]
+            }
+          ],
+          "rules": [],
+          "weapons": {
+            "Kʷaj": [
+              "7",
+              "5",
+              "5",
+              "Reach (1), Hooking"
+            ],
+            "Krak": [
+              "8",
+              "4",
+              "6",
+              "Reach (1), Hooking"
+            ]
+          }
+        },
+        {
+          "id": "rang-trung-retinue",
+          "name": "Raŋ Truŋ Retinue",
+          "type": "Warrior",
+          "desc": "palace guard",
+          "move": 5,
+          "training": 8,
+          "points": 17,
+          "comps": [
+            [
+              1,
+              5
+            ]
+          ],
+          "equip": [
+            "Do"
+          ],
+          "gear": [
+            "Skrams"
+          ],
+          "body": "Medium Armor",
+          "shield": null,
+          "opts": [
+            {
+              "label": "Weapon",
+              "kind": "swap",
+              "choices": [
+                {
+                  "name": "Do pole weapon",
+                  "w": [
+                    "Do"
+                  ],
+                  "c": 0
+                },
+                {
+                  "name": "Krak halberd",
+                  "w": [
+                    "Krak"
+                  ],
+                  "c": 0
+                }
+              ]
+            }
+          ],
+          "chars": [
+            {
+              "req": true,
+              "one": [
+                [
+                  "Lead Captain",
+                  8
+                ]
+              ]
+            },
+            {
+              "req": true,
+              "one": [
+                [
+                  "Commander",
+                  42
+                ],
+                [
+                  "Army Musician",
+                  60
+                ],
+                [
+                  "Army Standard Bearer",
+                  30
+                ]
+              ]
+            }
+          ],
+          "rules": [
+            "Tactician",
+            "Disciplined"
+          ],
+          "custom": {
+            "Drums and Gongs": "Your army may include up to 2 Army Musicians, each in a different Raŋ Truŋ Retinue or Kaʔ Ləŋs Retinue. If it includes two, each affects only friendly units within 18” of it."
+          },
+          "weapons": {
+            "Do": [
+              "6",
+              "5",
+              "5",
+              "Sunder (2)"
+            ],
+            "Krak": [
+              "8",
+              "5",
+              "6",
+              "Reach (1), Hooking"
+            ],
+            "Skrams": [
+              "4",
+              "6",
+              "5",
+              "Thrusting Blade"
+            ]
+          }
+        },
+        {
+          "id": "geng-da",
+          "name": "Geŋ Da",
+          "type": "Warrior",
+          "desc": "convict laborers",
+          "move": 6,
+          "training": 4,
+          "points": 7,
+          "comps": [
+            [
+              4,
+              6
+            ],
+            [
+              3,
+              6
+            ]
+          ],
+          "equip": [
+            "Kʷaj"
+          ],
+          "gear": [],
+          "body": null,
+          "shield": null,
+          "opts": [],
+          "chars": [
+            {
+              "req": true,
+              "one": [
+                [
+                  "Taskmaster",
+                  4
+                ]
+              ]
+            },
+            {
+              "one": [
+                [
+                  "Lead Captain",
+                  3
+                ]
+              ]
+            }
+          ],
+          "rules": [
+            "Levy"
+          ],
+          "custom": {
+            "Pardon": "The first time this unit wins a Melee in which it is your only unit, it is Pardoned: place a Pardon token beside it. A Pardoned unit no longer suffers Damage from its Taskmaster."
+          },
+          "weapons": {
+            "Kʷaj": [
+              "7",
+              "4",
+              "5",
+              "Reach (1), Hooking"
+            ]
+          }
+        },
+        {
+          "id": "kwat-trang",
+          "name": "Kʷat Traŋ",
+          "type": "Warrior",
+          "desc": "crossbowmen",
+          "move": 6,
+          "training": 5,
+          "points": 12,
+          "comps": [
+            [
+              4,
+              5
+            ],
+            [
+              3,
+              5
+            ]
+          ],
+          "equip": [
+            "Naʔ"
+          ],
+          "gear": [],
+          "body": null,
+          "shield": null,
+          "opts": [
+            {
+              "label": "Light Armor",
+              "kind": "add",
+              "body": "Light Armor",
+              "c": 1
+            }
+          ],
+          "chars": [
+            {
+              "one": [
+                [
+                  "Lead Captain",
+                  4
+                ]
+              ]
+            },
+            {
+              "one": [
+                [
+                  "Bowmaster",
+                  10
+                ]
+              ]
+            },
+            {
+              "one": [
+                [
+                  "Musician",
+                  5
+                ]
+              ]
+            },
+            {
+              "one": [
+                [
+                  "Standard Bearer",
+                  8
+                ]
+              ]
+            }
+          ],
+          "rules": [],
+          "weapons": {
+            "Naʔ": [
+              "28”",
+              "5",
+              "5",
+              "Direct Fire, Sunder (1), Braced Shot"
+            ]
+          }
+        },
+        {
+          "id": "dzen-phong",
+          "name": "Dzen Pʰoŋ",
+          "type": "Skirmishing Warrior",
+          "desc": "vanguard archers",
+          "move": 7,
+          "training": 5,
+          "points": 10,
+          "range": [
+            8,
+            15
+          ],
+          "equip": [
+            "Kʷəŋ"
+          ],
+          "gear": [],
+          "body": null,
+          "shield": null,
+          "opts": [
+            {
+              "label": "Weapon",
+              "kind": "swap",
+              "choices": [
+                {
+                  "name": "Kʷəŋ bow",
+                  "w": [
+                    "Kʷəŋ"
+                  ],
+                  "c": 0
+                },
+                {
+                  "name": "Naʔ crossbow",
+                  "w": [
+                    "Naʔ"
+                  ],
+                  "c": 1
+                }
+              ]
+            }
+          ],
+          "chars": [
+            {
+              "req": true,
+              "one": [
+                [
+                  "Skirmish Captain",
+                  8
+                ]
+              ]
+            },
+            {
+              "one": [
+                [
+                  "Volleymaster",
+                  8
+                ]
+              ]
+            }
+          ],
+          "rules": [],
+          "weapons": {
+            "Kʷəŋ": [
+              "24”",
+              "5",
+              "4",
+              "Direct Fire"
+            ],
+            "Naʔ": [
+              "28”",
+              "5",
+              "5",
+              "Direct Fire, Sunder (1), Braced Shot"
+            ]
+          }
+        },
+        {
+          "id": "brak-qhraq-lej",
+          "name": "Brak Qʰraʔ Ləj",
+          "type": "Skirmishing Warrior",
+          "desc": "Ba tiger hunters",
+          "move": 7,
+          "training": 5,
+          "points": 13,
+          "range": [
+            8,
+            15
+          ],
+          "equip": [
+            "Truk Naʔ"
+          ],
+          "gear": [
+            "Mu"
+          ],
+          "body": null,
+          "shield": "Shield",
+          "opts": [],
+          "chars": [
+            {
+              "one": [
+                [
+                  "Skirmish Captain",
+                  8
+                ]
+              ]
+            },
+            {
+              "one": [
+                [
+                  "Bowmaster",
+                  10
+                ]
+              ]
+            }
+          ],
+          "rules": [
+            "Ambush",
+            "Surefooted (Woodland)"
+          ],
+          "weapons": {
+            "Truk Naʔ": [
+              "20”",
+              "5",
+              "5",
+              "Direct Fire, Sunder (1), Braced Shot"
+            ],
+            "Mu": [
+              "8",
+              "5",
+              "5",
+              "Reach (1)"
+            ]
+          }
+        },
+        {
+          "id": "gajs-sreq",
+          "name": "Gajs Srəʔ",
+          "type": "Light Cavalry",
+          "desc": "crossbow cavalry",
+          "move": 12,
+          "training": 6,
+          "points": 19,
+          "comps": [
+            [
+              2,
+              4
+            ],
+            [
+              2,
+              3
+            ]
+          ],
+          "equip": [
+            "Naʔ"
+          ],
+          "gear": [
+            "Skrams"
+          ],
+          "body": "Light Armor",
+          "shield": null,
+          "opts": [
+            {
+              "label": "Weapon",
+              "kind": "swap",
+              "choices": [
+                {
+                  "name": "Naʔ crossbow",
+                  "w": [
+                    "Naʔ"
+                  ],
+                  "c": 0
+                },
+                {
+                  "name": "Kʷəŋ bow",
+                  "w": [
+                    "Kʷəŋ"
+                  ],
+                  "c": 0
+                }
+              ]
+            }
+          ],
+          "chars": [
+            {
+              "one": [
+                [
+                  "Lead Captain",
+                  10
+                ]
+              ]
+            },
+            {
+              "one": [
+                [
+                  "Bowmaster",
+                  10
+                ]
+              ]
+            },
+            {
+              "one": [
+                [
+                  "Musician",
+                  8
+                ]
+              ]
+            },
+            {
+              "one": [
+                [
+                  "Standard Bearer",
+                  10
+                ]
+              ]
+            }
+          ],
+          "rules": [],
+          "weapons": {
+            "Naʔ": [
+              "20”",
+              "5",
+              "5",
+              "Direct Fire, Sunder (1), Braced Shot"
+            ],
+            "Kʷəŋ": [
+              "20”",
+              "5",
+              "4",
+              "Direct Fire"
+            ],
+            "Skrams": [
+              "4",
+              "5",
+              "5",
+              "Thrusting Blade"
+            ]
+          }
+        },
+        {
+          "id": "lengs",
+          "name": "Ləŋs",
+          "type": "Chariot",
+          "desc": "four-horse war chariots",
+          "move": 10,
+          "training": 6,
+          "points": 60,
+          "comps": [
+            [
+              1,
+              3
+            ],
+            [
+              1,
+              2
+            ]
+          ],
+          "crew": {
+            "driver": 1,
+            "crew": 2,
+            "horses": 4
+          },
+          "equip": [
+            "Kʷəŋ",
+            "Krak",
+            "Horses"
+          ],
+          "gear": [
+            "Skrams"
+          ],
+          "body": "Qʰəjʔ",
+          "shield": null,
+          "armors": {
+            "Qʰəjʔ": {
+              "v": 1,
+              "shoot": 1,
+              "text": "+1 Armor against Shooting attacks"
+            }
+          },
+          "opts": [
+            {
+              "label": "Crew weapon",
+              "kind": "swap",
+              "choices": [
+                {
+                  "name": "Kʷəŋ bow",
+                  "w": [
+                    "Kʷəŋ"
+                  ],
+                  "c": 0
+                },
+                {
+                  "name": "Naʔ crossbow",
+                  "w": [
+                    "Naʔ"
+                  ],
+                  "c": 0
+                }
+              ]
+            }
+          ],
+          "chars": [
+            {
+              "one": [
+                [
+                  "Standard Bearer",
+                  15
+                ]
+              ]
+            },
+            {
+              "one": [
+                [
+                  "Musician",
+                  12
+                ]
+              ]
+            }
+          ],
+          "rules": [],
+          "weapons": {
+            "Kʷəŋ": [
+              "20”",
+              "5",
+              "4",
+              "1 Attack, plus 1 if the unit has a Hold Token. Direct Fire"
+            ],
+            "Krak": [
+              "7",
+              "5",
+              "6",
+              "1 Attack. Hooking"
+            ],
+            "Horses": [
+              "3",
+              "5",
+              "5",
+              "4 Attacks, can only use on Charge. May be used in conjunction with the Krak"
+            ],
+            "Naʔ": [
+              "20”",
+              "5",
+              "5",
+              "1 Attack, plus 1 if the unit has a Hold Token. Direct Fire, Sunder (1), Braced Shot"
+            ],
+            "Skrams": [
+              "2",
+              "5",
+              "5",
+              "1 Attack, cannot be used on Charge. Thrusting Blade"
+            ]
+          }
+        },
+        {
+          "id": "kaq-lengs-retinue",
+          "name": "Kaʔ Ləŋs Retinue",
+          "type": "Chariot",
+          "desc": "command drum chariot",
+          "move": 9,
+          "training": 8,
+          "points": 78,
+          "comps": [
+            [
+              1,
+              1
+            ]
+          ],
+          "crew": {
+            "driver": 1,
+            "crew": 2,
+            "horses": 4
+          },
+          "equip": [
+            "Kʷəŋ",
+            "Krak",
+            "Horses"
+          ],
+          "gear": [
+            "Skrams"
+          ],
+          "body": "Qʰəjʔ",
+          "shield": null,
+          "armors": {
+            "Qʰəjʔ": {
+              "v": 1,
+              "shoot": 1,
+              "text": "+1 Armor against Shooting attacks"
+            }
+          },
+          "opts": [
+            {
+              "label": "Crew weapon",
+              "kind": "swap",
+              "choices": [
+                {
+                  "name": "Kʷəŋ bow",
+                  "w": [
+                    "Kʷəŋ"
+                  ],
+                  "c": 0
+                },
+                {
+                  "name": "Naʔ crossbow",
+                  "w": [
+                    "Naʔ"
+                  ],
+                  "c": 0
+                }
+              ]
+            }
+          ],
+          "chars": [
+            {
+              "req": true,
+              "one": [
+                [
+                  "Commander",
+                  42
+                ],
+                [
+                  "Army Musician",
+                  60
+                ],
+                [
+                  "Army Standard Bearer",
+                  30
+                ]
+              ]
+            }
+          ],
+          "rules": [
+            "Tactician"
+          ],
+          "custom": {
+            "Drums and Gongs": "Your army may include up to 2 Army Musicians, each in a different Raŋ Truŋ Retinue or Kaʔ Ləŋs Retinue. If it includes two, each affects only friendly units within 18” of it."
+          },
+          "weapons": {
+            "Kʷəŋ": [
+              "20”",
+              "6",
+              "4",
+              "1 Attack, plus 1 if the unit has a Hold Token. Direct Fire"
+            ],
+            "Krak": [
+              "7",
+              "6",
+              "6",
+              "1 Attack. Hooking"
+            ],
+            "Horses": [
+              "3",
+              "5",
+              "5",
+              "4 Attacks, can only use on Charge. May be used in conjunction with the Krak"
+            ],
+            "Naʔ": [
+              "20”",
+              "6",
+              "5",
+              "1 Attack, plus 1 if the unit has a Hold Token. Direct Fire, Sunder (1), Braced Shot"
+            ],
+            "Skrams": [
+              "2",
+              "6",
+              "5",
+              "1 Attack, cannot be used on Charge. Thrusting Blade"
+            ]
+          }
+        }
+      ]
+    },
+    {
       "id": "mauryan",
       "name": "Mauryan Empire",
       "units": [
@@ -11532,7 +12335,16 @@ window.NHB_DATA = {
     "Fustis": "club",
     "Dargāršti": "spear",
     "Qua": "dagger-axe",
-    "Nỏ": "crossbow"
+    "Nỏ": "crossbow",
+    "Kʷaj": "dagger-axe",
+    "Krak": "halberd",
+    "Do": "blunt pole weapon",
+    "Skrams": "bronze long sword",
+    "Naʔ": "crossbow",
+    "Kʷəŋ": "bow",
+    "Truk Naʔ": "bamboo crossbow",
+    "Mu": "spear",
+    "Qʰəjʔ": "long lamellar coat"
   },
   "say": {
     "Eren": "EH-ren",
@@ -11802,7 +12614,27 @@ window.NHB_DATA = {
     "Fustis": "FOOS-tis",
     "Dargāršti": "dar-GAR-shtee",
     "Qua": "KWAH",
-    "Nỏ": "NAW"
+    "Nỏ": "NAW",
+    "Krap Tsut": "KRAHP TSOOT",
+    "Raŋ Truŋ Retinue": "RAHNG TROONG",
+    "Raŋ Truŋ": "RAHNG TROONG",
+    "Geŋ Da": "GENG DAH",
+    "Kʷat Traŋ": "KWAHT TRAHNG",
+    "Dzen Pʰoŋ": "DZEN PHONG",
+    "Brak Qʰraʔ Ləj": "BRAHK KHRAH LUHY",
+    "Gajs Srəʔ": "GAYS SRUH",
+    "Ləŋs": "LUHNGS",
+    "Kaʔ Ləŋs Retinue": "KAH LUHNGS",
+    "Kaʔ Ləŋs": "KAH LUHNGS",
+    "Kʷaj": "KWAI",
+    "Krak": "KRAHK",
+    "Do": "DOH",
+    "Skrams": "SKRAHMS",
+    "Naʔ": "NAH",
+    "Kʷəŋ": "KWUHNG",
+    "Truk Naʔ": "TROOK NAH",
+    "Mu": "MOO",
+    "Qʰəjʔ": "KHUHY"
   },
   "mercs": {
     "id": "mercs",
@@ -12497,12 +13329,6 @@ window.NHB_DATA = {
             "5",
             "Cleaving Blade (4)"
           ],
-          "Dao Găm": [
-            "1",
-            "6",
-            "5",
-            ""
-          ],
           "Qua": [
             "7",
             "4",
@@ -12514,6 +13340,12 @@ window.NHB_DATA = {
             "5",
             "5",
             "Direct Fire, Sunder (1), Braced Shot"
+          ],
+          "Dao Găm": [
+            "1",
+            "6",
+            "5",
+            ""
           ]
         }
       },
@@ -13625,7 +14457,7 @@ window.NHB_DATA = {
       "name": "Mark the Officers",
       "short": "2 Direct Fire units: +1 Accuracy vs units with leaders",
       "limit": 2,
-      "text": "Play during the Activation Phase. Choose 2 friendly units within 3” of each other that use a Direct Fire weapon. Until the end of the round, their Shooting attacks with Direct Fire weapons gain +1 Accuracy against enemy units that include a Lord, Commander, Army Standard Bearer, Army Musician, Standard Bearer or Musician.",
+      "text": "Play during the Activation Phase. Choose 2 friendly units within 3” of each other that use a Direct Fire weapon. Until the end of the round, their Shooting attacks with Direct Fire weapons gain +1 Accuracy against enemy units that include a Lord, Commander, Army Standard Bearer, Army Musician, Standard Bearer or Musician, or that have the Tactician special rule.",
       "flavor": "Aim for the crest and the standard. The rest will follow."
     },
     {
@@ -14030,6 +14862,72 @@ window.NHB_DATA = {
       "limit": 1,
       "text": "Play at the start of a round. Until the end of the round, units with the Makedonikḗ Aspís gain +1 Armor while they have a Hold Action Token, as a Shield does, but they cannot Charge or Run.",
       "flavor": "Shoulder to shoulder, shield touching shield, the pikes waited."
+    },
+    {
+      "id": "ten-thousand-crossbows",
+      "name": "Ten Thousand Crossbows",
+      "short": "Crossbows ignore Braced Shot and gain +1 Sunder",
+      "armies": [
+        "qin"
+      ],
+      "limit": 1,
+      "text": "Play at the start of the Activation Phase. Until the end of the round, friendly units ignore Braced Shot, and the Sunder value of their Braced Shot weapons is increased by 1.",
+      "flavor": "When the drums beat, the front rank loosed, knelt and spanned again while the next rank shot over them."
+    },
+    {
+      "id": "groups-of-five",
+      "name": "Groups of Five",
+      "short": "Ongoing: +1 to Break Tests near other units, until one flees",
+      "armies": [
+        "qin"
+      ],
+      "limit": 1,
+      "text": "Ongoing. Friendly non-Mercenary units gain +1 to Break Tests while within 6” of another friendly non-Mercenary unit. Discard this card when a friendly unit gains a Flee Action Token.",
+      "flavor": "Under the laws of Lord Shang, five men answered for one another. If one ran, all were punished."
+    },
+    {
+      "id": "ranks-of-merit",
+      "name": "Ranks of Merit",
+      "short": "Units in Melees you win remove a Break Token",
+      "armies": [
+        "qin"
+      ],
+      "limit": 1,
+      "text": "Play at the start of the Combat Phase. Each friendly unit in a Melee you win this phase removes 1 Break Token.",
+      "flavor": "In Qin, rank was not born but earned, one grade for every victory."
+    },
+    {
+      "id": "heads-for-rank",
+      "name": "Heads for Rank",
+      "short": "Melees you win drain extra Army Morale",
+      "armies": [
+        "qin"
+      ],
+      "limit": 1,
+      "text": "Play at the start of the Combat Phase. For each Melee you win this phase, the opponent loses additional Army Morale equal to the highest base Training among your units in that Melee.",
+      "flavor": "A Qin soldier was paid by the head, and his enemies knew it."
+    },
+    {
+      "id": "changping",
+      "name": "Changping",
+      "short": "Encircled enemies test at -1 and cannot be Rallied",
+      "armies": [
+        "qin"
+      ],
+      "limit": 1,
+      "text": "Play at the start of the Combat Phase. Until the end of the phase, enemy units in base contact with 2 or more friendly units take Break Tests at -1 and cannot be Rallied.",
+      "flavor": "Bai Qi let the army of Zhao advance, then closed the road behind it. It starved for forty-six days before it surrendered."
+    },
+    {
+      "id": "the-straight-road",
+      "name": "The Straight Road",
+      "short": "Terrain: a road that speeds movement and ignores rough ground",
+      "armies": [
+        "qin"
+      ],
+      "limit": 1,
+      "text": "Terrain. Before deployment, place a road 4” wide and 24” long, with one short end flush against your board edge, running straight toward the opposite board edge. A unit with at least half of its tray (or, for an Open Order unit, at least half of its models) on the road for its whole move gains +2” Move, and ignores Difficult Terrain and Major Terrain penalties while on it. Any unit may use the road.",
+      "flavor": "The First Emperor's roads ran straight through hills and valleys, and every axle in the empire was cut to the same width."
     },
     {
       "id": "phocian-wall",

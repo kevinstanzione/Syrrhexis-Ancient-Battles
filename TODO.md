@@ -81,7 +81,7 @@ Generic, Limit 2 each. Each targets 2 friendly units within 3” of each other t
 - **Direct Fire** (Activation Phase): Shooting attacks with the chosen units' Direct Fire weapons gain +1 Accuracy against units that include a Lord, Commander, Army Standard Bearer, Army Musician, Standard Bearer or Musician.
 - **Wide Attack** (Activation Phase): Shooting attacks with the chosen units' Wide Attack weapons gain Sunder (2) against targets at Close Range.
 - **Reach** (Combat Phase): while a chosen unit has a Hold token, it gains +1 Armor against Melee attacks, but only its front rank attacks with its Reach weapon; its other full ranks add Collision Hits as normal.
-- Open: add Tactician to Mark the Officers' targets once Qin units carry it.
+- Done (0.43.0): Mark the Officers also targets units with the Tactician special rule.
 - **Throwing Weapon** (Activation Phase): if a chosen unit takes the Hold action, it may use Volley with its Throwing Weapon (Volley's -1 Accuracy and -1 Strength still apply), and each Hit from its Throwing Weapon Shooting attacks causes +1 Suppression.
 
 ## Maybe

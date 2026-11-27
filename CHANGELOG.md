@@ -6,6 +6,15 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## 0.43.0 — 2026-11-27
+
+### New army: Qin China (late Warring States Qin, c. 300–206 BC)
+- 9 units: **Krap Tsut** (armored dagger-axe infantry), **Raŋ Truŋ Retinue** (palace guard), **Geŋ Da** (convict laborers), **Kʷat Traŋ** (crossbowmen), **Dzen Pʰoŋ** (vanguard archers), **Brak Qʰraʔ Ləj** (Ba tiger hunters), **Gajs Srəʔ** (crossbow cavalry), **Ləŋs** (four-horse war chariots) and **Kaʔ Ləŋs Retinue** (command drum chariot). Old Chinese names (Baxter–Sagart), with pronunciations and descriptions.
+- New unit rules: **Pardon** (Geŋ Da stop taking Taskmaster Damage after winning a Melee alone) and **Drums and Gongs** (up to 2 Army Musicians, one per Qin retinue, each affecting units within 18”).
+- 6 Command cards: Ten Thousand Crossbows, Groups of Five, Ranks of Merit, Heads for Rank, Changping and The Straight Road.
+- Mark the Officers now also targets units with the Tactician special rule.
+- Rulebook 0.3.17: the Straight Road is listed as ground terrain.
+
 ## 0.42.2 — 2026-11-27
 
 ### Command cards
