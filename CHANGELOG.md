@@ -6,6 +6,19 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## 0.42.2 — 2026-11-27
+
+### Command cards
+Renamed for readability (no rules changes):
+- Ksp Qrtḥdšt is now **Carthaginian Silver**.
+- Ndr is now **Paid in Full**.
+- Adê is now **Treaties of Esarhaddon**.
+- Abūbu is now **Sweeping Flood**.
+- Viṣa is now **Forest Poison**.
+- Kūṭayuddha is now **Spies of Kautilya**.
+- Vyūha is now **Battle Array**.
+- Caturaṅga is now **The Four Arms**.
+
 ## 0.42.1 — 2026-11-27
 
 ### Hannibal's Forces

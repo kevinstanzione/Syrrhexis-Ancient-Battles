@@ -1,7 +1,7 @@
 // Syrrhēxis army data. Edit the values below; keep the first line as is.
 window.NHB_DATA = {
   "meta": {
-    "version": "0.42.1",
+    "version": "0.42.2",
     "synced": "2026-11-24",
     "sources": {
       "Hittite Empire Army": "1aqMPs2Pi5car6pUzcuWmHXArGss_RZdkgATe5OsbVrw",
@@ -14165,7 +14165,7 @@ window.NHB_DATA = {
     },
     {
       "id": "treaties-of-esarhaddon",
-      "name": "Adê",
+      "name": "Treaties of Esarhaddon",
       "short": "2 mercenaries: Arabs, Scythians or Greeks",
       "armies": [
         "assyria"
@@ -14183,7 +14183,7 @@ window.NHB_DATA = {
     },
     {
       "id": "sweeping-flood",
-      "name": "Abūbu",
+      "name": "Sweeping Flood",
       "short": "Spearhead reaches 24” and adds +1 Strength on the Charge",
       "armies": [
         "assyria"
@@ -14216,7 +14216,7 @@ window.NHB_DATA = {
     },
     {
       "id": "visa",
-      "name": "Viṣa",
+      "name": "Forest Poison",
       "short": "Āṭavika poison their weapons",
       "armies": [
         "mauryan"
@@ -14227,7 +14227,7 @@ window.NHB_DATA = {
     },
     {
       "id": "kutayuddha",
-      "name": "Kūṭayuddha",
+      "name": "Spies of Kautilya",
       "short": "Spies reveal a card from the enemy's hand",
       "armies": [
         "mauryan"
@@ -14238,7 +14238,7 @@ window.NHB_DATA = {
     },
     {
       "id": "vyuha",
-      "name": "Vyūha",
+      "name": "Battle Array",
       "short": "Swap two units of the same type after deployment",
       "armies": [
         "mauryan"
@@ -14249,7 +14249,7 @@ window.NHB_DATA = {
     },
     {
       "id": "caturanga",
-      "name": "Caturaṅga",
+      "name": "The Four Arms",
       "short": "+2 Initiative with all four arms on the field",
       "armies": [
         "mauryan"
@@ -14264,7 +14264,7 @@ window.NHB_DATA = {
       ],
       "limit": 1,
       "id": "ksp-qrthdst",
-      "name": "Ksp Qrtḥdšt",
+      "name": "Carthaginian Silver",
       "short": "3 mercenaries from the Carthage pool",
       "mercs": 3,
       "mercUnits": [
@@ -14295,7 +14295,7 @@ window.NHB_DATA = {
       ],
       "limit": 1,
       "id": "ndr",
-      "name": "Ndr",
+      "name": "Paid in Full",
       "short": "Mercenaries hold through Mass Panic for a round",
       "text": "Play at the start of a round. Until the end of the round, friendly units with the Mercenary rule do not automatically fail Break Tests during Mass Panic, and any friendly unit may Rally them.",
       "flavor": "Before the Ticinus, Hannibal swore to give his soldiers land, citizenship and silver, and sealed the vow with a sacrifice."
