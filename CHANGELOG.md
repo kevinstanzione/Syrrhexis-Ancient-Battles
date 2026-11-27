@@ -6,6 +6,11 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## Rulebook 0.3.18 — 2026-11-27
+
+### Collision
+- Clarified: a unit with no melee weapon gets a Collision Hit for every full rank, front rank included; a Mixed Unit's rank counts as contributing if any of its models attacks.
+
 ## 0.43.1 — 2026-11-27
 
 ### Qin China
