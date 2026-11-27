@@ -504,7 +504,7 @@ def army_section(a):
 
 
 # Rules that belong to a single unit: printed in full on its profile as well as in the Rules Reference.
-PROFILE_RULES = {'Camel Riders'}
+PROFILE_RULES = set()   # model rules printed on the profile; unit-specific rules now live in each unit's own rules
 
 
 def load_rules():

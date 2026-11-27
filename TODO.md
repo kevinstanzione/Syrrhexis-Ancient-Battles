@@ -4,6 +4,9 @@
 - Collision: stays a Strength 5 strike, and a rank missing any models gives no Collision hits (decided 2026-11-03). Ideas not taken for now: count half-full ranks; Strength equal to the rank's width.
 - Fleeing from Melee (shelved 2026-11-03, not rejected): Parting Blows (each enemy in contact makes a free front-rank strike at +1 Strength before the Flee move, no Collision, no strike back), or a pursuit move for the winner.
   - Watch in playtesting: Collision applies every round, so deep blocks may grind down Open Order units.
+- Ranged Momentum (removed 2026-11-27, shelved): Cavalry and Chariots no longer get +1 Strength on Throwing Weapon shots with no Action Token. Maybe bring it back as a generic Command card instead.
+- Missions chapter (after the first playtest, early December): game length and how to decide the winner. Ideas so far: 6 rounds; the winner is the side with the higher percentage of its Starting Army Morale left (not the absolute number); an anti-stall center-control rule (from round 3, whoever has more Unit Strength wholly within 12” of the center makes the opponent lose 5% of Starting Army Morale).
+- Open rulings from the 2026-11-27 rulebook review: whether On the Move applies to an Open Order unit that only turns; one term and definition for eliminated / destroyed / Eradicated / removed from play. Optional: move Pavise out of the weapon rules, and cut duplicated tables.
 
 
 ### Rulebook corrections (Kevin's read-through, 2026-11-04)

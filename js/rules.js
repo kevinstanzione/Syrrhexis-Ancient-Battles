@@ -3,8 +3,7 @@ window.NHB_RULES = {
   model: {
     "Aim": "If the unit takes the Hold action, it may use Aim: +1 to its Shooting attacks this round, and Cover against them is one step lower (Heavy → Cover → Light → none). Cannot be used in the same round as Volley.",
     "Ambush": "Deployed after all other units, including Scouts, and after all Byes. Optional. Deploy anywhere outside your Deployment Zone, within 12” of an enemy unit and more than 1” from every enemy unit. The First Player chooses who deploys Ambushers first.",
-    "Camel Riders": "Each additional Rider on a Camel counts as a model for Army Morale, adding its Training, and adds 1 to Unit Strength.",
-    "Collision": "While in Closed Order, gains bonus Melee Hits equal to its ranks not contributing attacks (e.g. 4 ranks: +3; with Reach (1): +2). They are a Strength 5 strike at Length 0, after every weapon, using the unit's Melee Strength modifiers (Charge, Momentum and so on) but no weapon rules; never reduced by First Blood. Lost while engaged on a flank or rear side.",
+    "Collision": "While in Closed Order, gains bonus Melee Hits equal to its ranks not contributing attacks (e.g. 4 ranks: +3; with Reach (1): +2). They are a Strength 5 strike at Length 0, after every weapon, using the unit's Melee Strength modifiers (Charge, Momentum and so on) but no weapon rules; never reduced by First Blood. A unit with no melee weapon gets a Collision Hit for every full rank, front rank included. Lost while engaged on a flank or rear side.",
     "Disciplined": "Cannot be Bumped or Pushed, so a Charge whose path it blocks fails. Automatically passes the Fear Test to resist being goaded, though it may still choose to be goaded. Open Order units only gain this while every model is within 1” of at least 3 others in the unit.",
     "Evasion": "While this unit is in Open Order and has a Run Action Token, Shooting attacks against it suffer -1 Accuracy. All Skirmishing and Light Warriors and Cavalry have Evasion.",
     "Exposed Flanks": "While in Closed Order: charged in a flank, gain 1 Break Token; charged in the rear, gain 2 (on top of Terrify). Also loses its Charge Action Token and its Collision bonus while engaged on a flank or rear side.",
@@ -60,8 +59,8 @@ window.NHB_RULES = {
     "Houndmaster": "When the unit's Charge makes contact, the defending player loses Army Morale equal to its base Training. Enemies cannot deploy within 12” of this unit.",
     "Lead Captain": "+Training in Army Morale. +1 attack in Combat or Shooting.",
     "Lord": "+3× Training in Army Morale. Grants Noble. If eliminated, the opponent gains its Training in Army Morale.",
-    "Musician": "+Training in Army Morale. With no Action Token and not Locked in Combat, at the end of its Movement Step the unit may Special Move: Closed Order 1” forward, back, left or right, or turn once; Open Order 1” toward or away from the enemy side. Chariots and Elephants: only 1” forward or back. Combines with the Commander's move. If eliminated you lose its Training and the opponent gains that much.",
-    "Skirmish Captain": "When an enemy declares a Charge against this unit, before measuring, it may take a Fear Test. If it passes, it falls back directly away from the charger up to its Move, may pass through allied units (not ending on or touching them, or within 1” of an enemy), and gains a Run token. If the charger can no longer reach it, the charger may charge the first enemy unit in its straight path with its full Charge Move; if there is none, it moves as far as it can and loses no Army Morale for a failed charge. On a failed Fear Test the charge resolves normally. Light Warriors with a Skirmish Captain deploy in Open Order.",
+    "Musician": "+Training in Army Morale. With no Action Token and not Locked in Combat, at the end of its Movement Step the unit may Special Move: Closed Order 1” forward, back, left or right, or turn once; Open Order 1” toward or away from the enemy side. Chariots and Elephants: only 1” forward or back. Combines with the Commander's move. If eliminated, the opponent gains its Training in Army Morale.",
+    "Skirmish Captain": "When an enemy declares a Charge against this unit, before measuring, it may take a Fear Test. If it passes, it falls back directly away from the charger up to its Move, may pass through friendly units (not ending on or touching them, or within 1” of an enemy), and gains a Run token. If the charger can no longer reach it, the charger may charge the first enemy unit in its straight path with its full Charge Move; if there is none, it moves as far as it can and loses no Army Morale for a failed charge. On a failed Fear Test the charge resolves normally. Light Warriors with a Skirmish Captain deploy in Open Order.",
     "Ranger Captain": "Grants Surefooted.",
     "Rear Captain": "+Training in Army Morale. +1 to Break Tests and +1 to Rally itself.",
     "Shaman": "Grants Frenzy.",
@@ -71,7 +70,7 @@ window.NHB_RULES = {
     "Volleymaster": "Grants Volley. +1 Shooting attack (not Combat).",
     "Army Standard Bearer": "Retinue. +4× Training in Army Morale. +1 Initiative. If eliminated, the opponent gains its Training in Army Morale. One per army.",
     "Army Musician": "Retinue. +2× Training in Army Morale. +1 Initiative. At the end of the Activation Phase you may swap all your Hold tokens for Charge tokens, or all Charge tokens for Hold tokens (not Chariots or Elephants). If eliminated, the opponent gains its Training in Army Morale. One per army.",
-    "Commander": "Retinue. +3× Training in Army Morale. +1 Initiative. At the end of an allied unit's Movement Step (no Action Token, not Locked in Combat) within 6” (18” with a Standard Bearer), it may Special Move as a Musician (Chariots and Elephants only 1” forward or back); if out of range it takes a Run token instead. If eliminated, the opponent gains its Training in Army Morale. One per army."
+    "Commander": "Retinue. +3× Training in Army Morale. +1 Initiative. At the end of a friendly unit's Movement Step (no Action Token, not Locked in Combat) within 6” (18” with a Standard Bearer), it may Special Move as a Musician (Chariots and Elephants only 1” forward or back); if out of range it takes a Run token instead. If eliminated, the opponent gains its Training in Army Morale. One per army."
   },
   charShort: {
     "Birdmaster": "If the unit Scouts or Ambushes, see 2 Command cards your opponent did not pick.",
@@ -80,7 +79,7 @@ window.NHB_RULES = {
     "Lead Captain": "+Training Army Morale. +1 attack in Combat or Shooting.",
     "Lord": "+3× Training Army Morale. Grants Noble. The opponent gains its Training if it dies.",
     "Musician": "+Training Army Morale. Free 1” shift or one turn at the end of its move (Chariots and Elephants: forward or back only).",
-    "Skirmish Captain": "When charged, may take a Fear Test to fall back through allied units; the charger may hit the unit behind instead.",
+    "Skirmish Captain": "When charged, may take a Fear Test to fall back through friendly units; the charger may hit the unit behind instead.",
     "Ranger Captain": "Grants Surefooted.",
     "Rear Captain": "+Training Army Morale. +1 to Break Tests and to Rally itself.",
     "Shaman": "Grants Frenzy.",
@@ -96,7 +95,7 @@ window.NHB_RULES = {
     "Closed Order": "Uses a tray in ranks. Has Collision and Exposed Flanks.",
     "Open Order": "Loose models in 1” Cohesion (a chain or cluster). Out of Cohesion at the start of the Morale Phase: gain a Flee token.",
     "Light Warriors / Light Cavalry": "Deploy as Closed or Open Order. During its activation, a Closed Order unit may spend half its Move Allowance to leave its tray and become Open Order.",
-    "Cavalry": "Unit Strength 3 per model. Momentum: +1 Strength with a Charge token; +1 Strength to Throwing Weapon shots with no Action Token and not Locked in Combat. Toughness: +1 Armor.",
+    "Cavalry": "Unit Strength 3 per model. Momentum: +1 Strength while it has a Charge token. Toughness: +1 Armor.",
     "Chariots": "Health 1 per driver, crewman and horse; Unit Strength 1 per driver and crewman, 2 per horse. Momentum (as Cavalry). Protected Platform: +1 Armor, using the crew's armor, not the driver's. Stable Firing: may shoot with a Run or Flee token at -2 Accuracy. Wheeled Vehicle: move 1” between turns in the same direction (2” with 3+ animals), 2” between turns in opposite directions (3” with 3+ animals).",
     "Warmachines": "Engineers are Open Order models within 1” of their war engine. Health 1 per Engineer; Unit Strength 1 per Engineer plus 3 for a Light, 5 for a Heavy or 7 for a Massive war engine. Crewed: the engine moves or shoots only with 2+ Engineers within 1”. Protected Engine: attacks target the Engineers; the engine cannot be Bumped, Pushed or moved through. If every Engineer is destroyed or fleeing, the engine is abandoned and counts as destroyed at the end of the game; Engineers without an engine can recover it. Light Warmachines may move and shoot in the same activation but cannot Run or Charge. Heavy Warmachines may move or shoot in an activation, not both, and cannot Run or Charge. Massive Warmachines cannot move once deployed.",
     "Elephants": "Health 6 per elephant; Unit Strength 1 per mahout and crewman, 12 per elephant. Great Toughness: Armor 3, ignoring crew armor. Stable Firing. Anxious: double Army Morale lost to Suppression; only Elephants can Rally them. Furious: at Half Strength gains Run Them Down and Suicidal. Momentum: +1 Strength while it has a Charge token."

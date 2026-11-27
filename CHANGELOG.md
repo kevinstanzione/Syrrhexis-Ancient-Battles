@@ -6,6 +6,26 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## 0.46.1 and Rulebook 0.3.20 — 2026-11-27
+
+Fixes from a full read-through of the rulebook.
+
+### Rules changes
+- **Momentum** is now a charge bonus only. Cavalry and Chariots no longer get +1 Strength on Throwing Weapon shots while they have no Action Token. Javelin cavalry and chariots (Asabārā, Ssmtyw, Aśvāroha, Equitēs Campānī, Equitēs Hispānī, Eporedoi, Marhōz, Tarantînoi, Numidian Javelineers, Cohors Equitāta, Explōrātōrēs, Gigir, Gigir-tur, the Raθā Retinue and the chariot javelin options) throw at their weapon's own Strength. No points changes for now.
+- **Elephants** are now listed in the melee Strength table's Momentum row, matching the Elephant unit type. Before, the table named only Cavalry and Chariots.
+- **Charges and terrain**: a Charge that would enter or cross a Stony Plain, Marsh or Woodland is limited to the unit's Move Value. Woodland was missing before. Open Order Warriors in a Stony Plain or Woodland, and Surefooted units, are still exempt.
+
+### Rulebook wording
+- **Building an Army** now matches the builder: one of each Retinue Special Character per army unless the army list or a scenario says otherwise, and Supplemental Mercenaries come only through Command cards or an army list's own rules. Model Characteristics says the same.
+- **Supplies** lists Pass Tokens.
+- **Setting Up**: terrain from Command cards is placed at the start, unless the card says to place it later, such as during deployment.
+- Skirmish Captain and Commander say "friendly units" instead of "allied units".
+
+### Builder
+- Rule text matches the rulebook: Momentum (charge only), Musician ("If eliminated, the opponent gains its Training in Army Morale"), Collision (a unit with no melee weapon gets a Collision Hit for every full rank, front rank included), and "friendly" instead of "allied".
+- **Camel Riders** is now a rule of the Arabian Camel Riders unit, printed with the unit, instead of a general model rule. No change to how it works.
+- README no longer names an old rulebook version.
+
 ## 0.46.0 — 2026-11-27
 
 ### Dynastic Egypt
