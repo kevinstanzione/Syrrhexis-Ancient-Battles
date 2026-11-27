@@ -99,6 +99,7 @@ Generic, Limit 2 each. Each targets 2 friendly units within 3” of each other t
 - Qin: traction trebuchets, bed crossbows, linked-crossbow cart, cloud ladders and rams. Siege only, no war engines in standard games; Qin field identity is massed crossbow infantry.
 - Neo-Assyrian: wheeled rams with turrets, siege ladders and sappers. Siege only, no war engines in standard games.
 - Roman plutei: wheeled mantlets screening siege engines and crews (Pavise-style protection for war engines).
+- Baggage Camp (idea, 2026-11-26): a deployed camp marker that costs Army Morale if sacked. A fortified camp works as a small siege objective, which gives light cavalry and Ambush units something to raid.
 
 ## Army ideas
 - Shieldwall candidates: Sumerian heavy phalanx (instead of Phalanx), a Germanic-style spear warband for European Barbarians.
