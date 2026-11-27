@@ -6,6 +6,13 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## 0.44.1 — 2026-11-27
+
+### Compositions (units have at most 2 composition options)
+- Guruš (Sumer), Nfrw (Dynastic Egypt), Nam.Ra (Hittites) and Ḏꜣmw (Kush): 4×6 or 3×5 (was 4×5 or 3×5), so each army's levy can field its largest block. No points change.
+- Pezhétairoi: 5×6 or 4×5 (was 4×6 or 4×5), for the deep Macedonian phalanx.
+- Agrestēs: 5×6 or 3×6 (was 4×6 or 3×6), for the barbarian horde.
+
 ## 0.44.0 — 2026-11-27
 
 ### Fixed compositions

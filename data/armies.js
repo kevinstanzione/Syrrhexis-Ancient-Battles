@@ -1,7 +1,7 @@
 // Syrrhēxis army data. Edit the values below; keep the first line as is.
 window.NHB_DATA = {
   "meta": {
-    "version": "0.44.0",
+    "version": "0.44.1",
     "synced": "2026-11-24",
     "sources": {
       "Hittite Empire Army": "1aqMPs2Pi5car6pUzcuWmHXArGss_RZdkgATe5OsbVrw",
@@ -269,7 +269,7 @@ window.NHB_DATA = {
           "comps": [
             [
               4,
-              5
+              6
             ],
             [
               3,
@@ -1038,7 +1038,7 @@ window.NHB_DATA = {
           "comps": [
             [
               4,
-              5
+              6
             ],
             [
               3,
@@ -1508,7 +1508,7 @@ window.NHB_DATA = {
           "comps": [
             [
               4,
-              5
+              6
             ],
             [
               3,
@@ -3600,7 +3600,7 @@ window.NHB_DATA = {
           "comps": [
             [
               4,
-              5
+              6
             ],
             [
               3,
@@ -6179,7 +6179,7 @@ window.NHB_DATA = {
           "points": 15,
           "comps": [
             [
-              4,
+              5,
               6
             ],
             [
@@ -9901,7 +9901,7 @@ window.NHB_DATA = {
           "points": 6,
           "comps": [
             [
-              4,
+              5,
               6
             ],
             [
