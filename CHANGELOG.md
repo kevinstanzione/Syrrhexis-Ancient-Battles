@@ -6,6 +6,12 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## 0.44.0 — 2026-11-27
+
+### Fixed compositions
+- **Qin China:** Closed Order units now have a single composition, five wide (Groups of Five): Krap Tsut 4×5, Kwat Trang 4×5, Geng Da 5×5, Gajs Srə 2×5; the Rang Trung Retinue stays 1×5. Chariots keep their options.
+- **Imperial Rome:** Lēgiōnāriī and Veterānī are fixed at 4×4; the Lēgiōnāriī Retinue was already a single size.
+
 ## Rulebook 0.3.18 — 2026-11-27
 
 ### Collision
