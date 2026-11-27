@@ -59,7 +59,7 @@ Done 2026-11-05: First Blood row, Strength table order, matching Armor Save tabl
 ## Hannibal’s Forces (added 0.36.0)
 - Names: logged in the names doc. Attested: Mḥnt (coin legend "the camp"), Mḥšbm ("the paymasters", coin legend), Ksp ("silver"), Ndr ("vow"), ʾlp ("ox"), Rb ("general"), Qrtḥdšt. ʿm Qrtḥdšt appears only in a restored line of KAI 303. Constructed from Hebrew/Aramaic cognates: Lbym, Qdšt, Pršm, Rmḥ, Ḥrb, Mʾklt, Kdn, Plm (low confidence: Aramaic pīlā, Akkadian pīru). Saunion is Greek (the Samnites' name may come from it).
 - Playtest pricing: Mḥnt Qdšt Retinue (22 × 8), Pršm hRb Retinue (22 × 4), Plm (75), Ligurēs (13, Heavy Shield with no Move penalty), Equitēs Gallī (24).
-- Watch: Mḥšbm with two retinues gives 2 extra mercenary units, plus 3 from Ksp Qrtḥdšt. Brq has no cap.
+- Watch: Mḥšbm with two retinues gives 2 extra mercenary units, plus 3 from Ksp Qrtḥdšt. Barcid Lightning has no cap.
 - Done 2026-11-22: Phalanx Shield/Length 6 negation removed (rulebook 0.3.10); terrain and Half Strength / under 6 models negation kept.
 
 ## King of Kings rework (Persia)

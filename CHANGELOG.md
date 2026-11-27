@@ -6,6 +6,11 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## 0.42.1 — 2026-11-27
+
+### Hannibal's Forces
+- Command cards renamed for readability: Brq is now **Barcid Lightning**, ʾLpm is now **Fire Oxen**. No rules change.
+
 ## Rulebook 0.3.16 — 2026-11-27
 
 ### Terrain

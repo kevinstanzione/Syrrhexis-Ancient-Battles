@@ -1,7 +1,7 @@
 // Syrrhēxis army data. Edit the values below; keep the first line as is.
 window.NHB_DATA = {
   "meta": {
-    "version": "0.42.0",
+    "version": "0.42.1",
     "synced": "2026-11-24",
     "sources": {
       "Hittite Empire Army": "1aqMPs2Pi5car6pUzcuWmHXArGss_RZdkgATe5OsbVrw",
@@ -14284,7 +14284,7 @@ window.NHB_DATA = {
       ],
       "limit": 1,
       "id": "brq",
-      "name": "Brq",
+      "name": "Barcid Lightning",
       "short": "+1 Initiative per friendly unit with a Hold token",
       "text": "Play before the Initiative roll. This round, add +1 to your Initiative roll for each friendly unit with a Hold Action Token.",
       "flavor": "Lightning, the Barcids called themselves, and Hannibal struck before his enemies knew the storm had come."
@@ -14339,7 +14339,7 @@ window.NHB_DATA = {
       ],
       "limit": 1,
       "id": "alpm",
-      "name": "ʾLpm",
+      "name": "Fire Oxen",
       "short": "Burning oxen break up the enemy line",
       "text": "Flammable. Before deployment, place 3 ox markers (25 × 50mm) in your deployment zone. Once per game, at the start of any Activation Phase, set their horns alight: each ox moves up to 12” in a straight line in a direction you choose, until it touches a unit or impassable terrain. If it touches an enemy unit, that unit takes a Fear Test; if it fails, it loses its Hold Action Token, gains a Break Token, and cannot declare a Charge this round. If an ox touches a Flammable Obstacle, the Obstacle burns as with Fire Brands. The ox is then removed. An ox that touches a friendly unit, or travels 12”, is removed without effect. Oxen are not units: they cannot be targeted or charged, do not generate or lose Army Morale, and take no Order Tokens.",
       "flavor": "Torches tied to the horns of two thousand oxen lit up the hillside, and the Roman guard left the pass to chase them."
