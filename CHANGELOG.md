@@ -6,6 +6,11 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## Rulebook 0.3.16 — 2026-11-27
+
+### Terrain
+- New **Placing Terrain** rules: the Major Terrain is the bottom layer; ground terrain (Crumbled Ruins, Flooded Fields, Chinampas, Prepared Ground) may overlap it and each other; other features may sit on ground terrain but never overlap or touch another feature; impassable features must be at least 1” apart; features placed or moved during the battle ignore the 1” rule.
+
 ## 0.42.0 — 2026-11-27
 
 ### Weapon rules
