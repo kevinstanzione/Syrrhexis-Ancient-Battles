@@ -6,6 +6,11 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## 0.41.2 — 2026-11-27
+
+### Mauryan Empire
+- Dhanvin: Braced Bow renamed Footed Bow (the Dhanus was braced against the foot to draw), freeing "Braced" for a future crossbow keyword. No rules change.
+
 ## 0.41.1 — 2026-11-27
 
 ### Characters

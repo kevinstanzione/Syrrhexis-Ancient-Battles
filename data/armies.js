@@ -1,7 +1,7 @@
 // Syrrhēxis army data. Edit the values below; keep the first line as is.
 window.NHB_DATA = {
   "meta": {
-    "version": "0.41.1",
+    "version": "0.41.2",
     "synced": "2026-11-24",
     "sources": {
       "Hittite Empire Army": "1aqMPs2Pi5car6pUzcuWmHXArGss_RZdkgATe5OsbVrw",
@@ -7122,7 +7122,7 @@ window.NHB_DATA = {
           ],
           "rules": [],
           "custom": {
-            "Braced Bow": "While this unit has a Hold Action Token, its Dhanus gains +1 Strength. This does not apply while the unit is in a Marsh."
+            "Footed Bow": "While this unit has a Hold Action Token, its Dhanus gains +1 Strength. This does not apply while the unit is in a Marsh."
           },
           "weapons": {
             "Dhanus": [
