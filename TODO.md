@@ -43,6 +43,7 @@ Done 2026-11-05: First Blood row, Strength table order, matching Armor Save tabl
 - Names checked 2026-11-13 (0.31.2) and logged in the Reconstructed Names Reference doc: Snnw → Snnyw, Ḫrp → Ḥrp (AED: ḥrp "dagger; short sword", Semitic loan; note it is a short sword in the dictionary), mace-axe → Ỉqḥw (jqḥw "battle axe"), Nsjwt → Nsỉwt (Wb 2, 324.17 nswt, variant nsjwt). ꜥb confirmed as the technical term for the composite bow. Styw kept on purpose (constructed from stj "to shoot"; the Nubians are Stjw, with j). Checked 2026-11-17 against the TLA word list (aed-tei dictionary.xml): mnfꜣ.t "infantry" (Wb 2, 80.1-5), nḫt-ꜥ "strong one" (FCD 138), nfr.w "recruits" (Wb 2, 258.1-3), pḥrr "runner" (Wb 1, 541.14-18), bꜣgs.w "dagger" (Wb 1, 432.4-5), mjnb "axe" (Wb 2, 44.7-8), pr-ꜥꜣ "palace; pharaoh" (Wb 1, 516.2-12). All fine; logged in the names doc (Kush has its own Napatan section).
 - King of Kings: Mnfꜣt stand in for the Egyptians (added 0.33.0).
 - Playtest pricing: Snnw (45), Pr-ꜥꜣ Retinue (55 × 3 chariots, discounted retinue characters), Šrdn (16).
+- Šmsw n Ḥm.f Retinue (foot guard) added 0.46.0: šms.w n ḥm⸗f "guard of his majesty" is attested as an 18th Dynasty title (Persons and Names of the Middle Kingdom/PNM title 3170). Log it in the names doc; playtest at 16.
 
 ## Armies of Alexander
 - Built in 0.23.0 (13 units); 6 Command cards as of 0.25.0 (Émbolon, Lord of Asia, Oblique Advance, Aristander's Eagle, Ipsus, Synaspismós). Playtest pricing, especially Pezhétairoi (15), Argyráspides (19), Eléphantes (100) and Thureophóroi (12).

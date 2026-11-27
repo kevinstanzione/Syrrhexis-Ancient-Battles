@@ -6,6 +6,12 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## 0.46.0 — 2026-11-27
+
+### Dynastic Egypt
+- New unit: **Šmsw n Ḥm.f Retinue** (the guard of His Majesty, an attested 18th Dynasty title), Pharaoh's foot guard, so Egypt has a retinue that isn't on chariots. Warrior, Move 5, Training 8, 1×5, 16 pts. Light Armor and Shield, Ḫpš khopesh, or replace Ḫpš and Shield with Ỉqḥw mace-axe (+1 pt). Must take Lord (20), Commander (42), Army Musician (60) or Army Standard Bearer (30). **Inspiring**, like the Pr-ꜥꜣ Retinue.
+- **Amun, My Father** now works through every friendly unit with Inspiring, not only the Pr-ꜥꜣ Retinue.
+
 ## 0.45.1 — 2026-11-27
 
 ### Kingdom of Kush

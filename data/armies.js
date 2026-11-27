@@ -1,7 +1,7 @@
 // Syrrhēxis army data. Edit the values below; keep the first line as is.
 window.NHB_DATA = {
   "meta": {
-    "version": "0.45.1",
+    "version": "0.46.0",
     "synced": "2026-11-27",
     "sources": {
       "Hittite Empire Army": "1aqMPs2Pi5car6pUzcuWmHXArGss_RZdkgATe5OsbVrw",
@@ -936,6 +936,93 @@ window.NHB_DATA = {
               "4",
               "5",
               "Cleaving Blade (4)"
+            ],
+            "Ỉqḥw": [
+              "5",
+              "4",
+              "6",
+              "Sunder (2)"
+            ]
+          }
+        },
+        {
+          "id": "smsw-n-hmf-retinue",
+          "name": "Šmsw n Ḥm.f Retinue",
+          "type": "Warrior",
+          "desc": "Pharaoh's foot guard",
+          "move": 5,
+          "training": 8,
+          "points": 16,
+          "comps": [
+            [
+              1,
+              5
+            ]
+          ],
+          "equip": [
+            "Ḫpš"
+          ],
+          "gear": [],
+          "body": "Light Armor",
+          "shield": "Shield",
+          "opts": [
+            {
+              "label": "Weapon",
+              "kind": "swap",
+              "choices": [
+                {
+                  "name": "Ḫpš khopesh",
+                  "w": [
+                    "Ḫpš"
+                  ],
+                  "c": 0,
+                  "shield": "Shield"
+                },
+                {
+                  "name": "Ỉqḥw mace-axe",
+                  "also": "Shield",
+                  "w": [
+                    "Ỉqḥw"
+                  ],
+                  "c": 1,
+                  "shield": null
+                }
+              ]
+            }
+          ],
+          "chars": [
+            {
+              "req": true,
+              "one": [
+                [
+                  "Lord",
+                  20
+                ],
+                [
+                  "Commander",
+                  42
+                ],
+                [
+                  "Army Musician",
+                  60
+                ],
+                [
+                  "Army Standard Bearer",
+                  30
+                ]
+              ]
+            }
+          ],
+          "rules": [],
+          "custom": {
+            "Inspiring": "During the Combat Phase, this unit may remove its Hold Action Token to give one friendly unit within 12” +1 Accuracy until the end of the phase."
+          },
+          "weapons": {
+            "Ḫpš": [
+              "3",
+              "6",
+              "5",
+              "Sunder (1) against units with a Shield"
             ],
             "Ỉqḥw": [
               "5",
@@ -12612,7 +12699,8 @@ window.NHB_DATA = {
     "Kwəng": "KWUHNG",
     "Truk Na": "TROOK NAH",
     "Mu": "MOO",
-    "Kəj": "KUHY"
+    "Kəj": "KUHY",
+    "Šmsw n Ḥm.f": "SHEM-soo en hem-EF"
   },
   "mercs": {
     "id": "mercs",
@@ -14981,7 +15069,7 @@ window.NHB_DATA = {
         "egypt"
       ],
       "limit": 1,
-      "text": "Play at the start of a round. Until the end of the round, the Pr-ꜥꜣ Retinue's Inspiring gives +1 Accuracy to every friendly unit within 12” instead of one, and your Commander's range for granting Special Moves is doubled (12”, or 36” with a Standard Bearer).",
+      "text": "Play at the start of a round. Until the end of the round, each friendly unit with Inspiring gives +1 Accuracy to every friendly unit within 12” of it instead of one, and your Commander's range for granting Special Moves is doubled (12”, or 36” with a Standard Bearer).",
       "flavor": "Alone among his enemies at Kadesh, Ramesses called on his father Amun, and charged."
     },
     {
