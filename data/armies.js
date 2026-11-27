@@ -1,7 +1,7 @@
 // Syrrhēxis army data. Edit the values below; keep the first line as is.
 window.NHB_DATA = {
   "meta": {
-    "version": "0.43.0",
+    "version": "0.43.1",
     "synced": "2026-11-24",
     "sources": {
       "Hittite Empire Army": "1aqMPs2Pi5car6pUzcuWmHXArGss_RZdkgATe5OsbVrw",
@@ -7089,7 +7089,7 @@ window.NHB_DATA = {
             ]
           ],
           "equip": [
-            "Kʷaj"
+            "Kwaj"
           ],
           "gear": [],
           "body": "Light Armor",
@@ -7100,9 +7100,9 @@ window.NHB_DATA = {
               "kind": "swap",
               "choices": [
                 {
-                  "name": "Kʷaj dagger-axe",
+                  "name": "Kwaj dagger-axe",
                   "w": [
-                    "Kʷaj"
+                    "Kwaj"
                   ],
                   "c": 0
                 },
@@ -7148,7 +7148,7 @@ window.NHB_DATA = {
           ],
           "rules": [],
           "weapons": {
-            "Kʷaj": [
+            "Kwaj": [
               "7",
               "5",
               "5",
@@ -7164,7 +7164,7 @@ window.NHB_DATA = {
         },
         {
           "id": "rang-trung-retinue",
-          "name": "Raŋ Truŋ Retinue",
+          "name": "Rang Trung Retinue",
           "type": "Warrior",
           "desc": "palace guard",
           "move": 5,
@@ -7239,7 +7239,7 @@ window.NHB_DATA = {
             "Disciplined"
           ],
           "custom": {
-            "Drums and Gongs": "Your army may include up to 2 Army Musicians, each in a different Raŋ Truŋ Retinue or Kaʔ Ləŋs Retinue. If it includes two, each affects only friendly units within 18” of it."
+            "Drums and Gongs": "Your army may include up to 2 Army Musicians, each in a different Rang Trung Retinue or Ka Ləngs Retinue. If it includes two, each affects only friendly units within 18” of it."
           },
           "weapons": {
             "Do": [
@@ -7264,7 +7264,7 @@ window.NHB_DATA = {
         },
         {
           "id": "geng-da",
-          "name": "Geŋ Da",
+          "name": "Geng Da",
           "type": "Warrior",
           "desc": "convict laborers",
           "move": 6,
@@ -7281,7 +7281,7 @@ window.NHB_DATA = {
             ]
           ],
           "equip": [
-            "Kʷaj"
+            "Kwaj"
           ],
           "gear": [],
           "body": null,
@@ -7313,7 +7313,7 @@ window.NHB_DATA = {
             "Pardon": "The first time this unit wins a Melee in which it is your only unit, it is Pardoned: place a Pardon token beside it. A Pardoned unit no longer suffers Damage from its Taskmaster."
           },
           "weapons": {
-            "Kʷaj": [
+            "Kwaj": [
               "7",
               "4",
               "5",
@@ -7323,7 +7323,7 @@ window.NHB_DATA = {
         },
         {
           "id": "kwat-trang",
-          "name": "Kʷat Traŋ",
+          "name": "Kwat Trang",
           "type": "Warrior",
           "desc": "crossbowmen",
           "move": 6,
@@ -7340,7 +7340,7 @@ window.NHB_DATA = {
             ]
           ],
           "equip": [
-            "Naʔ"
+            "Na"
           ],
           "gear": [],
           "body": null,
@@ -7389,7 +7389,7 @@ window.NHB_DATA = {
           ],
           "rules": [],
           "weapons": {
-            "Naʔ": [
+            "Na": [
               "28”",
               "5",
               "5",
@@ -7399,7 +7399,7 @@ window.NHB_DATA = {
         },
         {
           "id": "dzen-phong",
-          "name": "Dzen Pʰoŋ",
+          "name": "Dzen Pong",
           "type": "Skirmishing Warrior",
           "desc": "vanguard archers",
           "move": 7,
@@ -7410,7 +7410,7 @@ window.NHB_DATA = {
             15
           ],
           "equip": [
-            "Kʷəŋ"
+            "Kwəng"
           ],
           "gear": [],
           "body": null,
@@ -7421,16 +7421,16 @@ window.NHB_DATA = {
               "kind": "swap",
               "choices": [
                 {
-                  "name": "Kʷəŋ bow",
+                  "name": "Kwəng bow",
                   "w": [
-                    "Kʷəŋ"
+                    "Kwəng"
                   ],
                   "c": 0
                 },
                 {
-                  "name": "Naʔ crossbow",
+                  "name": "Na crossbow",
                   "w": [
-                    "Naʔ"
+                    "Na"
                   ],
                   "c": 1
                 }
@@ -7458,13 +7458,13 @@ window.NHB_DATA = {
           ],
           "rules": [],
           "weapons": {
-            "Kʷəŋ": [
+            "Kwəng": [
               "24”",
               "5",
               "4",
               "Direct Fire"
             ],
-            "Naʔ": [
+            "Na": [
               "28”",
               "5",
               "5",
@@ -7474,7 +7474,7 @@ window.NHB_DATA = {
         },
         {
           "id": "brak-qhraq-lej",
-          "name": "Brak Qʰraʔ Ləj",
+          "name": "Brak Kra Ləj",
           "type": "Skirmishing Warrior",
           "desc": "Ba tiger hunters",
           "move": 7,
@@ -7485,7 +7485,7 @@ window.NHB_DATA = {
             15
           ],
           "equip": [
-            "Truk Naʔ"
+            "Truk Na"
           ],
           "gear": [
             "Mu"
@@ -7516,7 +7516,7 @@ window.NHB_DATA = {
             "Surefooted (Woodland)"
           ],
           "weapons": {
-            "Truk Naʔ": [
+            "Truk Na": [
               "20”",
               "5",
               "5",
@@ -7532,7 +7532,7 @@ window.NHB_DATA = {
         },
         {
           "id": "gajs-sreq",
-          "name": "Gajs Srəʔ",
+          "name": "Gajs Srə",
           "type": "Light Cavalry",
           "desc": "crossbow cavalry",
           "move": 12,
@@ -7549,7 +7549,7 @@ window.NHB_DATA = {
             ]
           ],
           "equip": [
-            "Naʔ"
+            "Na"
           ],
           "gear": [
             "Skrams"
@@ -7562,16 +7562,16 @@ window.NHB_DATA = {
               "kind": "swap",
               "choices": [
                 {
-                  "name": "Naʔ crossbow",
+                  "name": "Na crossbow",
                   "w": [
-                    "Naʔ"
+                    "Na"
                   ],
                   "c": 0
                 },
                 {
-                  "name": "Kʷəŋ bow",
+                  "name": "Kwəng bow",
                   "w": [
-                    "Kʷəŋ"
+                    "Kwəng"
                   ],
                   "c": 0
                 }
@@ -7614,13 +7614,13 @@ window.NHB_DATA = {
           ],
           "rules": [],
           "weapons": {
-            "Naʔ": [
+            "Na": [
               "20”",
               "5",
               "5",
               "Direct Fire, Sunder (1), Braced Shot"
             ],
-            "Kʷəŋ": [
+            "Kwəng": [
               "20”",
               "5",
               "4",
@@ -7636,7 +7636,7 @@ window.NHB_DATA = {
         },
         {
           "id": "lengs",
-          "name": "Ləŋs",
+          "name": "Ləngs",
           "type": "Chariot",
           "desc": "four-horse war chariots",
           "move": 10,
@@ -7658,17 +7658,17 @@ window.NHB_DATA = {
             "horses": 4
           },
           "equip": [
-            "Kʷəŋ",
+            "Kwəng",
             "Krak",
             "Horses"
           ],
           "gear": [
             "Skrams"
           ],
-          "body": "Qʰəjʔ",
+          "body": "Kəj",
           "shield": null,
           "armors": {
-            "Qʰəjʔ": {
+            "Kəj": {
               "v": 1,
               "shoot": 1,
               "text": "+1 Armor against Shooting attacks"
@@ -7680,16 +7680,16 @@ window.NHB_DATA = {
               "kind": "swap",
               "choices": [
                 {
-                  "name": "Kʷəŋ bow",
+                  "name": "Kwəng bow",
                   "w": [
-                    "Kʷəŋ"
+                    "Kwəng"
                   ],
                   "c": 0
                 },
                 {
-                  "name": "Naʔ crossbow",
+                  "name": "Na crossbow",
                   "w": [
-                    "Naʔ"
+                    "Na"
                   ],
                   "c": 0
                 }
@@ -7716,7 +7716,7 @@ window.NHB_DATA = {
           ],
           "rules": [],
           "weapons": {
-            "Kʷəŋ": [
+            "Kwəng": [
               "20”",
               "5",
               "4",
@@ -7734,7 +7734,7 @@ window.NHB_DATA = {
               "5",
               "4 Attacks, can only use on Charge. May be used in conjunction with the Krak"
             ],
-            "Naʔ": [
+            "Na": [
               "20”",
               "5",
               "5",
@@ -7750,7 +7750,7 @@ window.NHB_DATA = {
         },
         {
           "id": "kaq-lengs-retinue",
-          "name": "Kaʔ Ləŋs Retinue",
+          "name": "Ka Ləngs Retinue",
           "type": "Chariot",
           "desc": "command drum chariot",
           "move": 9,
@@ -7768,17 +7768,17 @@ window.NHB_DATA = {
             "horses": 4
           },
           "equip": [
-            "Kʷəŋ",
+            "Kwəng",
             "Krak",
             "Horses"
           ],
           "gear": [
             "Skrams"
           ],
-          "body": "Qʰəjʔ",
+          "body": "Kəj",
           "shield": null,
           "armors": {
-            "Qʰəjʔ": {
+            "Kəj": {
               "v": 1,
               "shoot": 1,
               "text": "+1 Armor against Shooting attacks"
@@ -7790,16 +7790,16 @@ window.NHB_DATA = {
               "kind": "swap",
               "choices": [
                 {
-                  "name": "Kʷəŋ bow",
+                  "name": "Kwəng bow",
                   "w": [
-                    "Kʷəŋ"
+                    "Kwəng"
                   ],
                   "c": 0
                 },
                 {
-                  "name": "Naʔ crossbow",
+                  "name": "Na crossbow",
                   "w": [
-                    "Naʔ"
+                    "Na"
                   ],
                   "c": 0
                 }
@@ -7829,10 +7829,10 @@ window.NHB_DATA = {
             "Tactician"
           ],
           "custom": {
-            "Drums and Gongs": "Your army may include up to 2 Army Musicians, each in a different Raŋ Truŋ Retinue or Kaʔ Ləŋs Retinue. If it includes two, each affects only friendly units within 18” of it."
+            "Drums and Gongs": "Your army may include up to 2 Army Musicians, each in a different Rang Trung Retinue or Ka Ləngs Retinue. If it includes two, each affects only friendly units within 18” of it."
           },
           "weapons": {
-            "Kʷəŋ": [
+            "Kwəng": [
               "20”",
               "6",
               "4",
@@ -7850,7 +7850,7 @@ window.NHB_DATA = {
               "5",
               "4 Attacks, can only use on Charge. May be used in conjunction with the Krak"
             ],
-            "Naʔ": [
+            "Na": [
               "20”",
               "6",
               "5",
@@ -12336,15 +12336,15 @@ window.NHB_DATA = {
     "Dargāršti": "spear",
     "Qua": "dagger-axe",
     "Nỏ": "crossbow",
-    "Kʷaj": "dagger-axe",
+    "Kwaj": "dagger-axe",
     "Krak": "halberd",
     "Do": "blunt pole weapon",
     "Skrams": "bronze long sword",
-    "Naʔ": "crossbow",
-    "Kʷəŋ": "bow",
-    "Truk Naʔ": "bamboo crossbow",
+    "Na": "crossbow",
+    "Kwəng": "bow",
+    "Truk Na": "bamboo crossbow",
     "Mu": "spear",
-    "Qʰəjʔ": "long lamellar coat"
+    "Kəj": "KUHY"
   },
   "say": {
     "Eren": "EH-ren",
@@ -12616,25 +12616,25 @@ window.NHB_DATA = {
     "Qua": "KWAH",
     "Nỏ": "NAW",
     "Krap Tsut": "KRAHP TSOOT",
-    "Raŋ Truŋ Retinue": "RAHNG TROONG",
-    "Raŋ Truŋ": "RAHNG TROONG",
-    "Geŋ Da": "GENG DAH",
-    "Kʷat Traŋ": "KWAHT TRAHNG",
-    "Dzen Pʰoŋ": "DZEN PHONG",
-    "Brak Qʰraʔ Ləj": "BRAHK KHRAH LUHY",
-    "Gajs Srəʔ": "GAYS SRUH",
-    "Ləŋs": "LUHNGS",
-    "Kaʔ Ləŋs Retinue": "KAH LUHNGS",
-    "Kaʔ Ləŋs": "KAH LUHNGS",
-    "Kʷaj": "KWAI",
+    "Rang Trung Retinue": "RAHNG TROONG",
+    "Rang Trung": "RAHNG TROONG",
+    "Geng Da": "GENG DAH",
+    "Kwat Trang": "KWAHT TRAHNG",
+    "Dzen Pong": "DZEN PONG",
+    "Brak Kra Ləj": "BRAHK KRAH LUH-ee",
+    "Gajs Srə": "GAYS SRUH",
+    "Ləngs": "LUHNGS",
+    "Ka Ləngs Retinue": "KAH LUHNGS",
+    "Ka Ləngs": "KAH LUHNGS",
+    "Kwaj": "KWAI",
     "Krak": "KRAHK",
     "Do": "DOH",
     "Skrams": "SKRAHMS",
-    "Naʔ": "NAH",
-    "Kʷəŋ": "KWUHNG",
-    "Truk Naʔ": "TROOK NAH",
+    "Na": "NAH",
+    "Kwəng": "KWUHNG",
+    "Truk Na": "TROOK NAH",
     "Mu": "MOO",
-    "Qʰəjʔ": "KHUHY"
+    "Kəj": "KUHY"
   },
   "mercs": {
     "id": "mercs",
