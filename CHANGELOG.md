@@ -6,6 +6,12 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## 0.41.1 — 2026-11-27
+
+### Characters
+- Sparabārā and Ṣāb Qašti: character options no longer say which rank they belong to (characters are upgrades to the whole unit).
+- Rulebook 0.3.14: Special Characters are worded as unit upgrades rather than individual models.
+
 ## 0.41.0 — 2026-11-24
 
 ### Generic Command cards

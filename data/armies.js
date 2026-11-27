@@ -1,7 +1,7 @@
 // Syrrhēxis army data. Edit the values below; keep the first line as is.
 window.NHB_DATA = {
   "meta": {
-    "version": "0.41.0",
+    "version": "0.41.1",
     "synced": "2026-11-24",
     "sources": {
       "Hittite Empire Army": "1aqMPs2Pi5car6pUzcuWmHXArGss_RZdkgATe5OsbVrw",
@@ -2618,8 +2618,7 @@ window.NHB_DATA = {
                   "Rear Captain",
                   5
                 ]
-              ],
-              "note": "1st Rank"
+              ]
             },
             {
               "one": [
@@ -2631,8 +2630,7 @@ window.NHB_DATA = {
                   "Bowmaster",
                   10
                 ]
-              ],
-              "note": "Archer ranks"
+              ]
             }
           ],
           "rules": [
@@ -4157,8 +4155,7 @@ window.NHB_DATA = {
                   "Lead Captain",
                   5
                 ]
-              ],
-              "note": "1st Rank"
+              ]
             },
             {
               "one": [
@@ -4166,8 +4163,7 @@ window.NHB_DATA = {
                   "Musician",
                   5
                 ]
-              ],
-              "note": "1st Rank"
+              ]
             },
             {
               "one": [
@@ -4175,8 +4171,7 @@ window.NHB_DATA = {
                   "Volleymaster",
                   8
                 ]
-              ],
-              "note": "2nd Rank"
+              ]
             },
             {
               "one": [
@@ -4184,8 +4179,7 @@ window.NHB_DATA = {
                   "Standard Bearer",
                   8
                 ]
-              ],
-              "note": "2nd Rank"
+              ]
             }
           ],
           "rules": [
