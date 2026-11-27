@@ -90,6 +90,8 @@ Generic, Limit 2 each. Each targets 2 friendly units within 3” of each other t
 - Done 0.37.0: **Backstabbers** went to the Sea People Raiders (1 Break Token, 14 pts) instead of Hannibal's Forces.
 - **Qin China — two Army Musicians** (idea, 2026-11-18; drums to advance, gongs to halt, per Sunzi): a Qin retinue rule letting the army take up to 2 Army Musicians. Still to work out how two would interact, since an Army Musician swaps every unit's Hold/Charge tokens at once. One option: with two, each affects only units within 18” of it, so one can drum an advance while the other gongs a halt.
 
+- **Đông Sơn Axemen — Mixed Unit idea** (2026-11-27, not decided): make them a Mixed Unit like the Aztec units, with per-model "count" options letting up to half the unit replace its Rìu Xéo axe with either a Qua dagger-axe or a crossbow. Both are attested for Đông Sơn/Âu Lạc (dagger-axes found at Đông Sơn sites; crossbow triggers and tens of thousands of bronze arrowheads at Cổ Loa). Watch the overlap with Qin, whose identity is massed crossbows and dagger-axes; capping them at half keeps the boot-shaped axe as the unit's signature. Names, stats and points still to do.
+
 ## Siege expansion (future)
 - Core of the expansion: destructible terrain and fortifications (walls, gates, towers) that can be damaged and breached.
 - Plan: general-purpose siege weapons available to every army, plus a few army-specific ones.
