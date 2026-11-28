@@ -12,6 +12,7 @@ from manifold3d import CrossSection, Manifold, FillRule
 from matplotlib.textpath import TextPath
 from matplotlib.font_manager import FontProperties
 import trimesh
+from tokenlib import finish, fuse
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 FONT = FontProperties(fname=os.path.join(HERE, "..", "tools", "fonts", "Cinzel-700.ttf"))
@@ -56,7 +57,6 @@ def star(points, r_out, r_in, cy):
     return CrossSection([pts], FillRule.EvenOdd)
 
 def main():
-    disc = Manifold.extrude(circle(R), BASE)
     rim = circle(R) - circle(R - 1.1)
     beads = CrossSection()
     for i in range(48):
@@ -66,10 +66,10 @@ def main():
     sun = sun - circle(1.4, 48).translate([0, 2.6])          # a sunken center, like a struck boss
     words = arched("INITIATIVE", R - 4.6, 3.0)
     relief = rim + beads + sun + words
-    body = disc + Manifold.extrude(relief, RELIEF).translate([0, 0, BASE])
-    m = body.to_mesh()
-    mesh = trimesh.Trimesh(vertices=m.vert_properties[:, :3], faces=m.tri_verts, process=False)
-    assert mesh.is_watertight
+    # one solid at full height with the low field cut away, so no wall is shared between two solids
+    field = circle(R - 1.1) - fuse(beads + sun + words)
+    body = Manifold.extrude(circle(R), BASE + RELIEF) - Manifold.extrude(field, RELIEF + 0.01).translate([0, 0, BASE])
+    mesh = finish(body, "Initiative")
     os.makedirs(os.path.join(HERE, "stl"), exist_ok=True)
     out = os.path.join(HERE, "stl", "Initiative_Token.stl")
     mesh.export(out)

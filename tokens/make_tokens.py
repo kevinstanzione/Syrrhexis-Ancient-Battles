@@ -15,6 +15,7 @@ from matplotlib.font_manager import FontProperties
 from shapely.geometry import LineString, Polygon, box
 from shapely.ops import unary_union
 import trimesh
+from tokenlib import letters, fuse, finish
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 FONT = FontProperties(fname=os.path.join(HERE, "..", "tools", "fonts", "Cinzel-700.ttf"))
@@ -46,11 +47,10 @@ def outline(kind, seed):
     return out
 
 def text(s, height, cy):
-    p = TextPath((0, 0), s, size=10, prop=FONT)
-    cs = CrossSection([[tuple(pt) for pt in poly] for poly in p.to_polygons() if len(poly) > 2], FillRule.EvenOdd)
+    cs = letters(s, FONT)
     x0, y0, x1, y1 = cs.bounds()
     k = height / (y1 - y0)
-    return cs.translate([-(x0 + x1) / 2, -(y0 + y1) / 2]).scale([k, k]).translate([0, cy])
+    return fuse(cs.translate([-(x0 + x1) / 2, -(y0 + y1) / 2]).scale([k, k]).translate([0, cy]))
 
 def cracks(shape, keep_clear, seed):
     """A few branching cracks that start at the edge and wander inward, clipped away from the lettering."""
@@ -79,7 +79,7 @@ def cracks(shape, keep_clear, seed):
         if g.area < 0.3: continue
         rings.append(list(g.exterior.coords)[:-1])
         rings += [list(i.coords)[:-1] for i in g.interiors]
-    return CrossSection(rings, FillRule.EvenOdd) if rings else None
+    return fuse(CrossSection(rings, FillRule.EvenOdd)) if rings else None
 
 def token(kind, label, value, seed):
     shape = outline(kind, seed)
@@ -90,10 +90,7 @@ def token(kind, label, value, seed):
     c = cracks(shape, clear, seed + 7)
     if c is not None:
         body = body - Manifold.extrude(c, CRACK_D + 0.01).translate([0, 0, T - CRACK_D])
-    m = body.to_mesh()
-    mesh = trimesh.Trimesh(vertices=m.vert_properties[:, :3], faces=m.tri_verts, process=False)
-    assert mesh.is_watertight
-    return mesh
+    return finish(body, f"{label} {value}")
 
 def main():
     os.makedirs(os.path.join(HERE, "stl"), exist_ok=True)

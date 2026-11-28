@@ -41,4 +41,4 @@ Each family has its own shape and finish, so they read at a glance even in a sin
 
 The cut lettering on the Order, Pass, Break and Pardon tokens takes a wash or slip the same way as the Penalty tokens. The Furor token's back is cut into the bed side and mirrored, so it reads the right way round when flipped; it prints fine on a smooth bed. All relief on the coins and the Furor shield is the same height, so they lie flat either way up.
 
-To regenerate: `python tokens/make_play_tokens.py` (same packages as above); add `--preview` to redraw the preview. `ORDER_MAX` at the top sets how many Order tokens to make.
+To regenerate: `python tokens/make_play_tokens.py` (same packages as above); add `--preview` to redraw the preview. All three generators share `tokenlib.py`, which fuses overlapping letter outlines and checks that every STL reloads as a closed, watertight solid before it is written. `ORDER_MAX` at the top sets how many Order tokens to make.

@@ -28,6 +28,7 @@ from shapely.geometry import LineString, Polygon, Point
 from shapely.ops import unary_union
 from shapely import affinity
 import trimesh
+from tokenlib import letters, fuse, finish
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(HERE, "stl")
@@ -38,13 +39,12 @@ ORDER_MAX = 12      # Order tokens 1..ORDER_MAX
 # ---------- helpers ----------
 def text(s, height, maxw=None, cx=0.0, cy=0.0):
     """Straight text centered on (cx, cy): `height` is the height of the whole string, shrunk to fit maxw."""
-    p = TextPath((0, 0), s, size=10, prop=FONT)
-    cs = CrossSection([[tuple(pt) for pt in poly] for poly in p.to_polygons() if len(poly) > 2], FillRule.EvenOdd)
-    x0, y0, x1, y1 = cs.bounds()
+    c = letters(s, FONT)
+    x0, y0, x1, y1 = c.bounds()
     k = height / (y1 - y0)
     if maxw and (x1 - x0) * k > maxw:
         k = maxw / (x1 - x0)
-    return cs.translate([-(x0 + x1) / 2, -(y0 + y1) / 2]).scale([k, k]).translate([cx, cy])
+    return fuse(c.translate([-(x0 + x1) / 2, -(y0 + y1) / 2]).scale([k, k]).translate([cx, cy]))
 
 def cs(geom):
     """shapely (Multi)Polygon -> CrossSection."""
@@ -53,7 +53,7 @@ def cs(geom):
     for g in polys:
         rings.append(list(g.exterior.coords)[:-1])
         rings += [list(i.coords)[:-1] for i in g.interiors]
-    return CrossSection(rings, FillRule.EvenOdd)
+    return fuse(CrossSection(rings, FillRule.EvenOdd))
 
 def shp(c):
     """CrossSection -> shapely, for keep-clear areas."""
@@ -70,9 +70,7 @@ def cut_bottom(body, c, depth):
     return body - Manifold.extrude(c.scale([-1, 1]), depth + 0.01).translate([0, 0, -0.01])
 
 def save(body, name):
-    m = body.to_mesh()
-    mesh = trimesh.Trimesh(vertices=m.vert_properties[:, :3], faces=m.tri_verts, process=False)
-    assert mesh.is_watertight, name
+    mesh = finish(body, name)
     path = os.path.join(OUT, name + ".stl")
     mesh.export(path)
     print(path, mesh.bounds.round(1).tolist())
@@ -99,10 +97,10 @@ def shield(cy):
 ICONS = {"Run": lambda cy: chevrons(True, cy), "Charge": spearhead, "Hold": shield, "Flee": lambda cy: chevrons(False, cy)}
 
 def action_coin(word):
-    disc = Manifold.extrude(CrossSection.circle(COIN_R, 180), COIN_BASE)
-    rim = CrossSection.circle(COIN_R, 180) - CrossSection.circle(COIN_R - 1.2, 180)
-    relief = rim + cs(ICONS[word](3.2)) + text(word.upper(), 3.2, maxw=16.5, cy=-8.0)
-    return disc + Manifold.extrude(relief, COIN_RELIEF).translate([0, 0, COIN_BASE])
+    disc = Manifold.extrude(CrossSection.circle(COIN_R, 180), COIN_BASE + COIN_RELIEF)
+    raised = cs(ICONS[word](3.2)) + text(word.upper(), 3.2, maxw=16.5, cy=-8.0)
+    field = CrossSection.circle(COIN_R - 1.2, 180) - raised      # everything inside the rim that sits low
+    return cut_top(disc, field, COIN_RELIEF, COIN_BASE + COIN_RELIEF)
 
 
 # ---------- Order and Pass tokens: octagonal bone tesserae ----------
@@ -119,7 +117,7 @@ def tessera(face):
     return cut_top(body, ring + face, TESS_CUT, TESS_T)
 
 def order_token(n):
-    face = text(str(n), 10.5, maxw=14.5, cy=0.9)
+    face = text(str(n), 10.0, maxw=13.0, cy=0.9)
     if n in (6, 9):
         face = face + CrossSection.square([5.0, 0.9]).translate([-2.5, -6.1])
     return tessera(face)
@@ -182,12 +180,12 @@ def break_token(seed=7):
 FUR_RX, FUR_RY, FUR_BASE, FUR_RELIEF = 11.0, 15.0, 2.4, 0.8
 
 def furor_token():
-    body = Manifold.extrude(ellipse(FUR_RX, FUR_RY), FUR_BASE)
-    rim = ellipse(FUR_RX, FUR_RY) - ellipse(FUR_RX - 1.2, FUR_RY - 1.2)
+    body = Manifold.extrude(ellipse(FUR_RX, FUR_RY), FUR_BASE + FUR_RELIEF)
     boss = ellipse(2.4, 3.8, cy=3.6)
-    spine = CrossSection.square([1.2, 6.8]).translate([-0.6, 7.2]) + CrossSection.square([1.2, 3.4]).translate([-0.6, -3.4])
-    relief = rim + boss + spine + text("FUROR", 3.0, maxw=12.5, cy=-8.2)
-    body = body + Manifold.extrude(relief, FUR_RELIEF).translate([0, 0, FUR_BASE])
+    spine = CrossSection.square([1.2, 7.0]).translate([-0.6, 7.2]) + CrossSection.square([1.2, 3.4]).translate([-0.6, -3.4])
+    raised = boss + spine + text("FUROR", 3.0, maxw=12.5, cy=-8.2)
+    field = ellipse(FUR_RX - 1.2, FUR_RY - 1.2) - raised
+    body = cut_top(body, field, FUR_RELIEF, FUR_BASE + FUR_RELIEF)
     back = text("SPENT", 3.0, maxw=13.0, cy=3.0) + text("-1 TRN", 3.6, maxw=14.0, cy=-3.6)
     return cut_bottom(body, back, 0.6)
 
@@ -207,31 +205,53 @@ def pardon_token():
 
 
 # ---------- preview ----------
+def heightmap(mesh, half=19.0, px=0.05):
+    """Top-down height map: the highest up-facing surface under each pixel (NaN where there is no token)."""
+    import numpy as np
+    n = int(2 * half / px)
+    zbuf = np.full((n, n), np.nan)
+    v, f = mesh.vertices, mesh.faces
+    up = mesh.face_normals[:, 2] > 0.5
+    centers = (np.arange(n) + 0.5) * px - half
+    for tri in v[f[up]]:
+        (x0, y0, z0), (x1, y1, _), (x2, y2, _) = tri
+        det = (y1 - y2) * (x0 - x2) + (x2 - x1) * (y0 - y2)
+        if abs(det) < 1e-12:
+            continue
+        i0, i1 = np.searchsorted(centers, [min(x0, x1, x2), max(x0, x1, x2)])
+        j0, j1 = np.searchsorted(centers, [min(y0, y1, y2), max(y0, y1, y2)])
+        if i0 >= i1 or j0 >= j1:
+            continue
+        X, Y = np.meshgrid(centers[i0:i1], centers[j0:j1])
+        a = ((y1 - y2) * (X - x2) + (x2 - x1) * (Y - y2)) / det
+        b = ((y2 - y0) * (X - x2) + (x0 - x2) * (Y - y2)) / det
+        inside = (a >= -1e-9) & (b >= -1e-9) & (a + b <= 1 + 1e-9)
+        sub = zbuf[j0:j1, i0:i1]
+        sub[inside] = np.fmax(sub[inside], z0)
+    return zbuf
+
 def preview(meshes, path):
     import matplotlib
     matplotlib.use("Agg")
     import matplotlib.pyplot as plt
-    from matplotlib.collections import PolyCollection
     import numpy as np
-    cols = 6
+    cols = 5
     rows = math.ceil(len(meshes) / cols)
-    fig, axes = plt.subplots(rows, cols, figsize=(cols * 2.2, rows * 2.4))
+    fig, axes = plt.subplots(rows, cols, figsize=(cols * 2.3, rows * 2.5))
     for ax in axes.flat:
         ax.axis("off")
     for ax, (label, mesh) in zip(axes.flat, meshes):
-        v, f = mesh.vertices, mesh.faces
-        n = mesh.face_normals
-        keep = n[:, 2] > 0.5                        # faces seen from above
-        z = v[f].mean(axis=1)[:, 2]
-        order = np.argsort(z[keep])
-        tris = v[f[keep]][order][:, :, :2]
-        zz = z[keep][order]
-        shade = (zz - zz.min()) / max(1e-6, zz.max() - zz.min())
-        ax.add_collection(PolyCollection(tris, facecolors=plt.cm.copper(0.25 + 0.7 * shade), edgecolors="none"))
-        ax.set_xlim(-19, 19); ax.set_ylim(-19, 19); ax.set_aspect("equal")
+        z = heightmap(mesh)
+        lo, hi = np.nanmin(z), np.nanmax(z)
+        t = (z - lo) / max(1e-6, hi - lo)
+        gy, gx = np.gradient(np.nan_to_num(z, nan=lo))
+        shade = np.clip(1 - 0.9 * (gx - gy), 0.3, 1.3)        # light from the upper left
+        rgb = plt.cm.copper(0.35 + 0.55 * t)[..., :3] * shade[..., None]
+        rgba = np.dstack([np.clip(rgb, 0, 1), ~np.isnan(z)])
+        ax.imshow(rgba, origin="lower", extent=(-19, 19, -19, 19), interpolation="antialiased")
         ax.set_title(label, fontsize=8)
     fig.tight_layout()
-    fig.savefig(path, dpi=140)
+    fig.savefig(path, dpi=150)
 
 def flipped(mesh):
     m = mesh.copy()
@@ -245,7 +265,7 @@ def main():
         shown.append((f"Action: {w}", save(action_coin(w), f"Action_{w}")))
     for n in range(1, ORDER_MAX + 1):
         m = save(order_token(n), f"Order_{n:02d}")
-        if n in (1, 6, 9, 12):
+        if n in (1, 3, 6, 8, 9, 12):
             shown.append((f"Order {n}", m))
     shown.append(("Pass", save(pass_token(), "Pass_Token")))
     shown.append(("Break", save(break_token(), "Break_Token")))
