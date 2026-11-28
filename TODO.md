@@ -16,6 +16,8 @@ Done 2026-11-05: First Blood row, Strength table order, matching Armor Save tabl
 - Penalty tokens done 2026-11-17 (tokens/): cracked clay tablets, stamped lettering, earthen colours (ochre, terracotta, umber), distinct shapes. Action tokens are fine as they are. Splitting a Unit copies the parent's tokens onto every new unit, so a set needs enough of each.
 - Corner Marker STL done 2026-11-17 (trays/make_corner_marker.py).
 - Initiative token done 2026-11-24 (tokens/make_initiative_token.py): 36 mm brass-style medallion with a sun-star.
+- Play tokens done 2026-11-27 (tokens/make_play_tokens.py): Action coins (Run, Charge, Hold, Flee), Order tokens 1–12 and Pass tokens (octagonal bone tesserae), Break shards, Furor shield (SPENT / -1 TRN on the back), Pardon bamboo slip.
+- Trays regenerated 2026-11-27 for the newer armies (9 new sizes).
 - Token keeper tray (STL): a small tray holding 3–4 tokens or dice to track a unit's wounds and tokens.
 - Snap-together trays: try a version of the movement trays with a friction bump (or similar) so the token keeper clips onto a unit's tray, maybe at the back right corner, and comes off again.
 

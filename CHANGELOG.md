@@ -6,6 +6,11 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
+## Tokens and trays — 2026-11-27
+
+- New play tokens (tokens/make_play_tokens.py), so every token in the Supplies chapter now has an STL: Action tokens as struck coins (Run, Charge, Hold, Flee), Order tokens 1 to 12 and Pass tokens as octagonal bone tesserae with plain backs, Break tokens as pottery shards, the Furor token as an oval Celtic shield (SPENT / -1 TRN on the back) and the Pardon token as a bamboo slip.
+- 9 new movement tray sizes for the newer armies: Warrior 1×4, 1×6, 5×4, 5×5 and 5×6; Cavalry 1×6, 2×2 and 2×5; Large Chariot / Elephant 1×1. The unused Warrior 3×3 tray is gone.
+
 ## Rulebook 1.0 — 2026-11-27
 
 The first full edition of the rulebook. Rulebook versions before this were playtest drafts (0.0.1 to 0.3.20).
