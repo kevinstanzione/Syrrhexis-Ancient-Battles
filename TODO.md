@@ -127,4 +127,5 @@ Generic, Limit 2 each. Each targets 2 friendly units within 3” of each other t
 - Style for all spreads: black and white ink, fine pen linework with cross-hatching, plain white background, no text; one item per image; avoid the words "butt" and "shaft" (ChatGPT's filter flags them), use "ferrule"/"end spike" and "pole".
 
 ## Notes
+- Training 8 is for Retinues. Deliberate exceptions (decided 2026-11-27): Hieròs Lóchos (Sacred Band) and Cuāchicqueh (Aztec sworn no-retreat elite), both kept at 8.
 - Hittite unit names: Giš.Ban Ḫatti and Šukur.Tur Ḫatti are constructed ("bows/javelins of Hatti", after the way chariotry is written as "horses"); the others are attested terms or real peoples.
