@@ -6,7 +6,9 @@ Versions follow `MAJOR.MINOR.PATCH`. Before public release the major number stay
 - **MINOR** (0.2.x → 0.3.0): new armies, units, command cards or builder features.
 - **MAJOR** (0.x → 1.0.0): public release, or a rules change that breaks old lists.
 
-## Rulebook 0.3.21 — 2026-11-27
+## Rulebook 1.0 — 2026-11-27
+
+The first full edition of the rulebook. Rulebook versions before this were playtest drafts (0.0.1 to 0.3.20).
 
 - New draft rule for playtesting, **Ending the Game** (Game Round Sequence): a game lasts 6 Rounds. A Completely Routed army loses at once (a draw if both are routed in the same Morale Phase). Otherwise, after the sixth Round the player with the higher Morale % (current Army Morale ÷ Starting Army Morale) wins; equal is a draw.
 - The Quick Reference in the Army Book has the same rule under Army Morale.

@@ -5,7 +5,7 @@
 - Fleeing from Melee (shelved 2026-11-03, not rejected): Parting Blows (each enemy in contact makes a free front-rank strike at +1 Strength before the Flee move, no Collision, no strike back), or a pursuit move for the winner.
   - Watch in playtesting: Collision applies every round, so deep blocks may grind down Open Order units.
 - Ranged Momentum (removed 2026-11-27, shelved): Cavalry and Chariots no longer get +1 Strength on Throwing Weapon shots with no Action Token. Maybe bring it back as a generic Command card instead.
-- Missions chapter (after the first playtest, early December). Drafted in Rulebook 0.3.21 for playtesting: 6 Rounds, Complete Rout loses at once, otherwise the higher Morale % (current Army Morale ÷ Starting Army Morale, not the absolute number) wins. Still to try: an anti-stall center-control rule (from round 3, whoever has more Unit Strength wholly within 12” of the center makes the opponent lose 5% of Starting Army Morale).
+- Missions chapter (after the first playtest, early December). Drafted in Rulebook 1.0 for playtesting: 6 Rounds, Complete Rout loses at once, otherwise the higher Morale % (current Army Morale ÷ Starting Army Morale, not the absolute number) wins. Still to try: an anti-stall center-control rule (from round 3, whoever has more Unit Strength wholly within 12” of the center makes the opponent lose 5% of Starting Army Morale).
 - Open rulings from the 2026-11-27 rulebook review: whether On the Move applies to an Open Order unit that only turns; one term and definition for eliminated / destroyed / Eradicated / removed from play. Optional: move Pavise out of the weapon rules, and cut duplicated tables.
 
 
